@@ -1,0 +1,200 @@
+T01001	hsa	Homo sapiens (human)	Eukaryotes;Animals;Vertebrates;Mammals
+T00007	eco	Escherichia coli K-12 MG1655	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00068	ecj	Escherichia coli K-12 W3110	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00666	ecd	Escherichia coli K-12 DH10B	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00913	ebw	Escherichia coli K-12 BW2952	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02541	ecok	Escherichia coli K-12 MDS42	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00044	ece	Escherichia coli O157:H7 EDL933 (EHEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00048	ecs	Escherichia coli O157:H7 Sakai (EHEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00778	ecf	Escherichia coli O157:H7 EC4115 (EHEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00949	etw	Escherichia coli O157:H7 TW14359 (EHEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02122	elx	Escherichia coli O157:H7 Xuzhou21 (EHEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T01097	eoi	Escherichia coli O111:H- 11128 (EHEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T01098	eoj	Escherichia coli O26:H11 11368 (EHEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T01096	eoh	Escherichia coli O103:H2 12009 (EHEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T03010	ecoo	Escherichia coli O145:H28 RM13514 (EHEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T03011	ecoh	Escherichia coli O145:H28 RM13516 (EHEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02257	esl	Escherichia coli O104:H4 2011C-3493 (EAEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02256	eso	Escherichia coli O104:H4 2009EL-2071 (EAEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02316	esm	Escherichia coli O104:H4 2009EL-2050 (EAEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00826	eck	Escherichia coli 55989 (EAEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00796	ecg	Escherichia coli O127:H6 E2348/69 (EPEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T01190	eok	Escherichia coli O55:H7 CB9615 (EPEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02066	elr	Escherichia coli O55:H7 RM12579 (EPEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02069	elh	Escherichia coli O78:H11:K80 H10407 (ETEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00590	ecw	Escherichia coli O139:H28 E24377A (ETEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02001	eun	Escherichia coli UMNK88 (ETEC, porcine)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00373	ecp	Escherichia coli O6:K15:H31 536 (UPEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T01998	ena	Escherichia coli NA114 (UPEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T04373	ecos	Escherichia coli O25b:K100:H4-ST131 EC958 (UPEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00425	ecv	Escherichia coli APEC O1 (APEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02445	ecoa	Escherichia coli APEC O78 (APEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00591	ecx	Escherichia coli O9 HS (commensal)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00672	ecm	Escherichia coli SMS-3-5 (environmental)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00784	ecy	Escherichia coli O152:H28 SE11 (commensal)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00828	ecr	Escherichia coli O8 IAI1 (commensal)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00827	ecq	Escherichia coli O81 ED1a (commensal)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00831	eum	Escherichia coli O17:K52:H18 UMN026 (ExPEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00829	ect	Escherichia coli O7:K1 IAI39 (ExPEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T01999	eoc	Escherichia coli O7:K1 CE10	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00944	ebr	Escherichia coli B REL606	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00931	ebl	Escherichia coli BL21(DE3)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02096	ebe	Escherichia coli BL21(DE3)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00939	ebd	Escherichia coli BL21-Gold(DE3)pLysS AG	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00338	eci	Escherichia coli O18:K1:H7 UTI89 (UPEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T01997	eih	Escherichia coli O18:K1:H7 IHE3034 (ExPEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00830	ecz	Escherichia coli O45:K1:H7 S88 (ExPEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00106	ecc	Escherichia coli O6:K2:H1 CFT073 (UPEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02067	elo	Escherichia coli O44:H18 042 (EAEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02068	eln	Escherichia coli O83:H1 NRG 857C (AIEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02077	ese	Escherichia coli O150:H5 SE15 (commensal)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00697	ecl	Escherichia coli ATCC 8739	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T01718	eko	Escherichia coli KO11FL	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02104	ekf	Escherichia coli KO11FL	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T01995	eab	Escherichia coli ABU 83972	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T01996	edh	Escherichia coli DH1	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02102	edj	Escherichia coli DH1	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02000	elu	Escherichia coli UM146	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02002	elw	Escherichia coli W	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02101	ell	Escherichia coli W	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02003	elc	Escherichia coli clone D i14	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02004	eld	Escherichia coli clone D i2	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02030	elp	Escherichia coli P12b	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00854	elf	Escherichia coli LF82	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02846	ecol	Escherichia coli LY180	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02847	ecoi	Escherichia coli O18:K1 PMV-1 (ExPEC)	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T02896	ecoj	Escherichia coli JJ1886	Prokaryotes;Bacteria;Gammaproteobacteria - Enterobacteria;Escherichia
+T00012	bbu	Borreliella burgdorferi B31	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T00807	bbz	Borreliella burgdorferi ZS7	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T02075	bbn	Borreliella burgdorferi N40	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T02081	bbj	Borreliella burgdorferi JD1	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T02794	bbur	Borreliella burgdorferi CA382	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T00194	bga	Borreliella bavariensis	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T02048	bgb	Borreliella garinii BgVir	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T02299	bgn	Borreliella garinii NMJW1	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T03259	bgs	Borreliella garinii SZ	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T04731	bgc	Borreliella garinii CIP 103362	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T00383	baf	Borrelia afzelii (FLI)	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T02093	bafz	Borrelia afzelii (Maryland)	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T02298	bafh	Borreliella afzelii HLJ01	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T03256	baft	Borreliella afzelii Tom3107	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T03895	bafe	Borreliella afzelii K78	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T01593	bbs	Borreliella bissettii	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T03221	bvt	Borreliella valaisiana	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T03543	bchi	Borreliella chilensis	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T04886	bmay	Borreliella mayonii	Prokaryotes;Bacteria;Spirochaetes;Borreliella
+T00737	btu	Borrelia turicatae	Prokaryotes;Bacteria;Spirochaetes;Borrelia
+T00764	bhr	Borrelia hermsii DAH	Prokaryotes;Bacteria;Spirochaetes;Borrelia
+T03871	bhi	Borrelia hermsii CC1	Prokaryotes;Bacteria;Spirochaetes;Borrelia
+T00768	bdu	Borrelia duttonii	Prokaryotes;Bacteria;Spirochaetes;Borrelia
+T00769	bre	Borrelia recurrentis	Prokaryotes;Bacteria;Spirochaetes;Borrelia
+T02051	bcw	Borrelia crocidurae	Prokaryotes;Bacteria;Spirochaetes;Borrelia
+T02797	bmo	Borrelia miyamotoi LB-2001	Prokaryotes;Bacteria;Spirochaetes;Borrelia
+T03577	bmiy	Borrelia miyamotoi CT14D4	Prokaryotes;Bacteria;Spirochaetes;Borrelia
+T03987	bpak	Borrelia parkeri	Prokaryotes;Bacteria;Spirochaetes;Borrelia
+T04727	bane	Borrelia anserina	Prokaryotes;Bacteria;Spirochaetes;Borrelia
+T05670	btur	Borrelia turcica	Prokaryotes;Bacteria;Spirochaetes;Borrelia
+T07005	bmat	Borrelia maritima	Prokaryotes;Bacteria;Spirochaetes;Borrelia
+T00001	hin	Haemophilus influenzae Rd KW20 (serotype d)	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T00248	hit	Haemophilus influenzae 86-028NP (nontypeable)	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T00543	hip	Haemophilus influenzae PittEE (nontypeable)	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T00544	hiq	Haemophilus influenzae PittGG (nontypeable)	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T01395	hif	Haemophilus influenzae F3031 (nontypeable)	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T01400	hil	Haemophilus influenzae F3047 (nontypeable)	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T01720	hiu	Haemophilus influenzae 10810 (serotype b)	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T01980	hie	Haemophilus influenzae R2846 (nontypeable)	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T01981	hiz	Haemophilus influenzae R2866 (nontypeable)	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T02839	hik	Haemophilus influenzae KR494 (serotype f)	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T03436	hia	Haemophilus influenzae CGSHiCZ412602	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T03485	hih	Haemophilus influenzae Hi375	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T03720	hiw	Haemophilus influenzae 477	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T03721	hic	Haemophilus influenzae C486	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T03722	hix	Haemophilus influenzae 723	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T01605	hpr	Haemophilus parainfluenzae	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Haemophilus
+T00051	sau	Staphylococcus aureus subsp. aureus N315 (MRSA/VSSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T00052	sav	Staphylococcus aureus subsp. aureus Mu50 (MRSA/VISA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T00588	saw	Staphylococcus aureus subsp. aureus Mu3 (MRSA/hetero-VISA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T00556	sah	Staphylococcus aureus subsp. aureus JH1 (MRSA/VSSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T00522	saj	Staphylococcus aureus subsp. aureus JH9 (MRSA/VISA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T00086	sam	Staphylococcus aureus subsp. aureus MW2 (CA-MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T00183	sas	Staphylococcus aureus subsp. aureus MSSA476 (MSSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T00182	sar	Staphylococcus aureus subsp. aureus MRSA252 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T00225	sac	Staphylococcus aureus subsp. aureus COL (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T00629	sax	Staphylococcus aureus subsp. aureus USA300_TCH1516 (CA-MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T00323	saa	Staphylococcus aureus subsp. aureus USA300_FPR3757 (CA-MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T00324	sao	Staphylococcus aureus subsp. aureus NCTC8325	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T00557	sae	Staphylococcus aureus subsp. aureus Newman	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T01124	sad	Staphylococcus aureus subsp. aureus ED98	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T01744	suu	Staphylococcus aureus subsp. aureus M013 (CA-MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T01745	suv	Staphylococcus aureus subsp. aureus VC40	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T01869	sue	Staphylococcus aureus subsp. aureus ED133	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T01870	suj	Staphylococcus aureus subsp. aureus JKD6159 (CA-MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T01886	suk	Staphylococcus aureus subsp. aureus JKD6008 (MRSA/VISA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T01887	suc	Staphylococcus aureus subsp. aureus ECT-R 2 (MSSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T01888	sut	Staphylococcus aureus subsp. aureus T0131 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T01889	suq	Staphylococcus aureus subsp. aureus TCH60	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T01950	suz	Staphylococcus aureus subsp. aureus 11819-97 (CA-MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02043	sud	Staphylococcus aureus subsp. aureus 71193 (MSSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02059	sux	Staphylococcus aureus subsp. aureus HO 5096 0412 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02060	suw	Staphylococcus aureus subsp. aureus TW20 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02071	sug	Staphylococcus aureus subsp. aureus ST398 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02085	suf	Staphylococcus aureus subsp. aureus LGA251 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02810	saua	Staphylococcus aureus subsp. aureus 55/2053	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02825	saue	Staphylococcus aureus subsp. aureus 6850 (MSSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02826	saun	Staphylococcus aureus subsp. aureus CN1 (CA-MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02849	saus	Staphylococcus aureus subsp. aureus SA40 (CA-MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02850	sauu	Staphylococcus aureus subsp. aureus SA957 (CA-MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T03790	saug	Staphylococcus aureus subsp. aureus SA268 (CA-MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02886	sauz	Staphylococcus aureus subsp. aureus Z172 (MRSA/VISA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T03143	saut	Staphylococcus aureus subsp. aureus ST228/10388 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T03144	sauj	Staphylococcus aureus subsp. aureus ST228/10497 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T03145	sauk	Staphylococcus aureus subsp. aureus ST228/15532 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T03146	sauq	Staphylococcus aureus subsp. aureus ST228/16035 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T03147	sauv	Staphylococcus aureus subsp. aureus ST228/18412 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T03148	sauw	Staphylococcus aureus subsp. aureus ST228/16125 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T03149	saux	Staphylococcus aureus subsp. aureus ST228/18341 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T03150	sauy	Staphylococcus aureus subsp. aureus ST228/18583 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T03492	sauf	Staphylococcus aureus subsp. aureus FDAARGOS_5	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T00303	sab	Staphylococcus aureus RF122	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02070	suy	Staphylococcus aureus 04-02981 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02339	saub	Staphylococcus aureus 08BA02176 (LA-MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02618	saum	Staphylococcus aureus M1 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02702	sauc	Staphylococcus aureus CA-347 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T02717	saur	Staphylococcus aureus Bmb9393 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T03115	saui	Staphylococcus aureus USA300-ISMMS1 (MRSA)	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T03491	saud	Staphylococcus aureus 502A	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T04800	sams	Staphylococcus aureus MS4	Prokaryotes;Bacteria;Firmicutes - Bacilli;Staphylococcus
+T00035	pae	Pseudomonas aeruginosa PAO1	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T03097	paev	Pseudomonas aeruginosa PAO1-VE13	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T03170	paei	Pseudomonas aeruginosa PAO1-VE2	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T00401	pau	Pseudomonas aeruginosa UCBPP-PA14	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T00569	pap	Pseudomonas aeruginosa PA7	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T00818	pag	Pseudomonas aeruginosa LESB58	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T01973	paf	Pseudomonas aeruginosa M18	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T01974	pnc	Pseudomonas aeruginosa NCGM2.S1	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T03789	paeb	Pseudomonas aeruginosa NCGM 1900	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T02161	pdk	Pseudomonas aeruginosa DK2	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T02627	psg	Pseudomonas aeruginosa B136-33	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T02711	prp	Pseudomonas aeruginosa RP73	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T02928	paep	Pseudomonas aeruginosa PA1	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T02929	paer	Pseudomonas aeruginosa PA1R	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T02951	paem	Pseudomonas aeruginosa MTB-1	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T02970	pael	Pseudomonas aeruginosa LES431	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T02971	paes	Pseudomonas aeruginosa SCV20265	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T03031	paeu	Pseudomonas aeruginosa PA38182	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T03035	paeg	Pseudomonas aeruginosa YL84	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T03098	paec	Pseudomonas aeruginosa c7447m	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T03171	paeo	Pseudomonas aeruginosa PAO581	Prokaryotes;Bacteria;Gammaproteobacteria - Others;Pseudomonas
+T00016	tpa	Treponema pallidum subsp. pallidum Nichols	Prokaryotes;Bacteria;Spirochaetes;Treponema
+T02709	tpw	Treponema pallidum subsp. pallidum Nichols	Prokaryotes;Bacteria;Spirochaetes;Treponema
+T00716	tpp	Treponema pallidum subsp. pallidum SS14	Prokaryotes;Bacteria;Spirochaetes;Treponema
+T01748	tpu	Treponema pallidum subsp. pallidum DAL-1	Prokaryotes;Bacteria;Spirochaetes;Treponema
+T01868	tph	Treponema pallidum subsp. pallidum Chicago	Prokaryotes;Bacteria;Spirochaetes;Treponema
+T02273	tpo	Treponema pallidum subsp. pallidum Mexico A	Prokaryotes;Bacteria;Spirochaetes;Treponema
+T03185	tpas	Treponema pallidum subsp. pallidum Sea 81-4	Prokaryotes;Bacteria;Spirochaetes;Treponema
+T01749	tpc	Treponema pallidum subsp. pertenue CDC2	Prokaryotes;Bacteria;Spirochaetes;Treponema
+T01750	tpg	Treponema pallidum subsp. pertenue Gauthier	Prokaryotes;Bacteria;Spirochaetes;Treponema
+T01751	tpm	Treponema pallidum subsp. pertenue SamoaD	Prokaryotes;Bacteria;Spirochaetes;Treponema
+T02651	tpb	Treponema pallidum Fribourg-Blanc	Prokaryotes;Bacteria;Spirochaetes;Treponema
+T00237	ngo	Neisseria gonorrhoeae FA 1090	Prokaryotes;Bacteria;Betaproteobacteria;Neisseria
+T00728	ngk	Neisseria gonorrhoeae NCCP11945	Prokaryotes;Bacteria;Betaproteobacteria;Neisseria

@@ -1,0 +1,6627 @@
+{
+    "reaction": [
+        {
+            "substrate": [
+                {
+                    "id": "49", 
+                    "name": "cpd:C00533"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "46", 
+                    "name": "cpd:C00887"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "45", 
+            "name": "rn:R02492 rn:R09446 rn:R09808 rn:R09809"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00192"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "43", 
+            "name": "rn:R00148"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "49", 
+                    "name": "cpd:C00533"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "46", 
+                    "name": "cpd:C00887"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "42", 
+            "name": "rn:R00294"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "46", 
+                    "name": "cpd:C00887"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "162", 
+                    "name": "cpd:C00697"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "41", 
+            "name": "rn:R02804"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "162", 
+                    "name": "cpd:C00697"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "39", 
+            "name": "rn:R05185"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "50", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "49", 
+                    "name": "cpd:C00533"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "38", 
+            "name": "rn:R00783 rn:R00785"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "50", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "37", 
+            "name": "rn:R00790"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "50", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "36", 
+            "name": "rn:R00787 rn:R00789"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "50", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "35", 
+            "name": "rn:R05712"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00192"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "34", 
+            "name": "rn:R00143"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "19", 
+                    "name": "cpd:C06058"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "50", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "32", 
+            "name": "rn:R10388 rn:R10389"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "52", 
+                    "name": "cpd:C00244"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "50", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "30", 
+            "name": "rn:R00791"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "52", 
+                    "name": "cpd:C00244"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "50", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "29", 
+            "name": "rn:R00798"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "52", 
+                    "name": "cpd:C00244"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "50", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "28", 
+            "name": "rn:R03071"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "52", 
+                    "name": "cpd:C00244"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "50", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "27", 
+            "name": "rn:R00794 rn:R00796"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00192"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "50", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "26", 
+            "name": "rn:R10164"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "13", 
+                    "name": "cpd:C00488"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "11", 
+                    "name": "cpd:C00058"
+                }, 
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "14", 
+            "name": "rn:R00524"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "59", 
+                    "name": "cpd:C00726"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "58", 
+            "name": "rn:R00540"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "60", 
+                    "name": "cpd:C01417"
+                }, 
+                {
+                    "id": "66", 
+                    "name": "cpd:C00288"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "63", 
+                    "name": "cpd:C01563"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "62", 
+            "name": "rn:R03546"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "67", 
+                    "name": "cpd:C00011"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "66", 
+                    "name": "cpd:C00288"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "69", 
+            "name": "rn:R10092"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "71", 
+                    "name": "cpd:C00169"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "63", 
+                    "name": "cpd:C01563"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "70", 
+            "name": "rn:R01395"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "71", 
+                    "name": "cpd:C00169"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "72", 
+            "name": "rn:R00149"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "84", 
+                    "name": "cpd:C00064"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "83", 
+            "name": "rn:R00253"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "84", 
+                    "name": "cpd:C00064"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "86", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "87", 
+            "name": "rn:R00114"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "84", 
+                    "name": "cpd:C00064"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "86", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "88", 
+            "name": "rn:R00093"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "84", 
+                    "name": "cpd:C00064"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "86", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "89", 
+            "name": "rn:R00021"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "86", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "92", 
+            "name": "rn:R00243"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "86", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "93", 
+            "name": "rn:R00243 rn:R00248"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "86", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "94", 
+            "name": "rn:R00248"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "149", 
+                    "name": "cpd:C05361"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "146", 
+                    "name": "cpd:C00697"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "151", 
+            "name": "rn:R07174"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "127", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "139", 
+                    "name": "cpd:C00244"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "140", 
+            "name": "rn:R00798"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "143", 
+                    "name": "cpd:C00192"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "127", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "137", 
+            "name": "rn:R10164"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "125", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "143", 
+                    "name": "cpd:C00192"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "136", 
+            "name": "rn:R00148"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "122", 
+                    "name": "cpd:C00697"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "124", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "135", 
+            "name": "rn:R05185"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "122", 
+                    "name": "cpd:C00697"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "124", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "134", 
+            "name": "rn:R05185"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "118", 
+                    "name": "cpd:C00887"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "117", 
+                    "name": "cpd:C00697"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "133", 
+            "name": "rn:R02804"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "119", 
+                    "name": "cpd:C00533"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "118", 
+                    "name": "cpd:C00887"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "132", 
+            "name": "rn:R00294"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "115", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "119", 
+                    "name": "cpd:C00533"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "131", 
+            "name": "rn:R00783 rn:R00785"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "115", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "119", 
+                    "name": "cpd:C00533"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "130", 
+            "name": "rn:R00783 rn:R00785"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "113", 
+                    "name": "cpd:C00244"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "115", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "129", 
+            "name": "rn:R03071"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "113", 
+                    "name": "cpd:C00244"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "115", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "128", 
+            "name": "rn:R00798"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "142", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "112", 
+            "name": "rn:R00790"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "100", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "105", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "111", 
+            "name": "rn:R00787"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "100", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "105", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "110", 
+            "name": "rn:R05712"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "99", 
+                    "name": "cpd:C00244"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "100", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "109", 
+            "name": "rn:R03071"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "99", 
+                    "name": "cpd:C00244"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "100", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "108", 
+            "name": "rn:R09497 rn:R00798"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "106", 
+                    "name": "cpd:C00244"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "103", 
+            "name": "rn:R00798"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "106", 
+                    "name": "cpd:C00244"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "102", 
+            "name": "rn:R00794 rn:R00796"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "106", 
+                    "name": "cpd:C00244"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "101", 
+            "name": "rn:R00791"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "148", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "152", 
+                    "name": "cpd:C00533"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "154", 
+            "name": "rn:R00783 rn:R00785"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "148", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "152", 
+                    "name": "cpd:C00533"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "153", 
+            "name": "rn:R00783 rn:R00785"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "50", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "155", 
+            "name": "rn:R00787"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "142", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "156", 
+            "name": "rn:R00787 rn:R00789"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "52", 
+                    "name": "cpd:C00244"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "50", 
+                    "name": "cpd:C00088"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "157", 
+            "name": "rn:R09497"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "152", 
+                    "name": "cpd:C00533"
+                }, 
+                {
+                    "id": "144", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "149", 
+                    "name": "cpd:C05361"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "158", 
+            "name": "rn:R09799"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "165", 
+                    "name": "cpd:C05361"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "162", 
+                    "name": "cpd:C00697"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "163", 
+            "name": "rn:R07174"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }, 
+                {
+                    "id": "49", 
+                    "name": "cpd:C00533"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "165", 
+                    "name": "cpd:C05361"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "164", 
+            "name": "rn:R09799"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "162", 
+                    "name": "cpd:C00697"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "166", 
+            "name": "rn:R12084"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "122", 
+                    "name": "cpd:C00697"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "124", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "167", 
+            "name": "rn:R12084"
+        }
+    ], 
+    "links": [
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M332,161L378.16098761033584,170.4031641428462", 
+            "kegg_id": "rn:R02492", 
+            "source": "49", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "45"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M386,172L433.15535459447267,162.56892908110547", 
+            "kegg_id": "rn:R02492", 
+            "source": "45", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "46"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M640,276L574.2732930295945,350.98398964229364", 
+            "kegg_id": "rn:R00148", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "43", 
+            "target": "43"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M569,357L506.9991837983961,356.1142740542628", 
+            "kegg_id": "rn:R00148", 
+            "source": "43", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "43", 
+            "target": "18"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M332,161L378.1337439601243,152.45671408145847", 
+            "kegg_id": "rn:R00294", 
+            "source": "49", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "42"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M386,151L433.12904071920076,159.56891649440013", 
+            "kegg_id": "rn:R00294", 
+            "source": "42", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "46"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M441,161L484,161", 
+            "kegg_id": "rn:R02804", 
+            "source": "46", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "41", 
+            "target": "41"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M492,161L542,161", 
+            "kegg_id": "rn:R02804", 
+            "source": "41", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "41", 
+            "target": "162"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M550,161L584.7111366172932,145.2973429588436", 
+            "kegg_id": "rn:R05185", 
+            "source": "162", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "39", 
+            "target": "39"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M592,142L637.3021891072518,268.4686112577447", 
+            "kegg_id": "rn:R05185", 
+            "source": "39", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "39", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M332,276L332,252", 
+            "kegg_id": "rn:R00783", 
+            "source": "50", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "38", 
+            "target": "38"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M332,244L332,169", 
+            "kegg_id": "rn:R00783", 
+            "source": "38", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "38", 
+            "target": "49"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M332,276L399.07017679453895,267.0573097607281", 
+            "kegg_id": "rn:R00790", 
+            "source": "50", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "37", 
+            "target": "37"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M407,266L632.0073578118723,275.6569681464323", 
+            "kegg_id": "rn:R00790", 
+            "source": "37", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "37", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M332,276L399.53837531965064,249.88516154306842", 
+            "kegg_id": "rn:R00787", 
+            "source": "50", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "36", 
+            "target": "36"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M407,247L632.0612539112733,275.01191572286234", 
+            "kegg_id": "rn:R00787", 
+            "source": "36", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "36", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M332,276L399.5721864729179,303.0288745891672", 
+            "kegg_id": "rn:R05712", 
+            "source": "50", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "35", 
+            "target": "35"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M407,306L632.0654985186102,277.021609632797", 
+            "kegg_id": "rn:R05712", 
+            "source": "35", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "35", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M499,356L519.4368335240373,326.5709597253864", 
+            "kegg_id": "rn:R00143", 
+            "source": "18", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "34", 
+            "target": "34"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M524,320L632.5200197894577,278.8372338729643", 
+            "kegg_id": "rn:R00143", 
+            "source": "34", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "34", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M332,402L351.4551302699857,381.7666645192148", 
+            "kegg_id": "rn:R10388", 
+            "source": "19", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "32", 
+            "target": "32"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M357,376L333.94028500029066,283.76114000116263", 
+            "kegg_id": "rn:R10388", 
+            "source": "32", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "32", 
+            "target": "50"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M168,276L217.1203438028295,267.382395824065", 
+            "kegg_id": "rn:R00791", 
+            "source": "52", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "30", 
+            "target": "30"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M225,266L324.0347103337907,275.25558040502716", 
+            "kegg_id": "rn:R00791", 
+            "source": "30", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "30", 
+            "target": "50"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M168,276L240.84458247200067,312.4222912360003", 
+            "kegg_id": "rn:R00798", 
+            "source": "52", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "29", 
+            "target": "29"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M248,316L175.15541752799933,279.5777087639997", 
+            "kegg_id": "rn:R00798", 
+            "source": "29", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "29", 
+            "target": "52"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M248,316L324.7771158494086,279.43946864313875", 
+            "kegg_id": "rn:R00798", 
+            "source": "29", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "29", 
+            "target": "50"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M332,276L255.22288415059143,312.56053135686125", 
+            "kegg_id": "rn:R00798", 
+            "source": "50", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "29", 
+            "target": "29"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M168,276L265.0435421446373,286.1664663199144", 
+            "kegg_id": "rn:R03071", 
+            "source": "52", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "28", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M273,287L324.13551760844604,277.46625942893377", 
+            "kegg_id": "rn:R03071", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "28", 
+            "target": "50"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M168,276L217.14493302693506,285.48410988239095", 
+            "kegg_id": "rn:R00794", 
+            "source": "52", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "27", 
+            "target": "27"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M225,287L324.0419422721153,276.81811808417507", 
+            "kegg_id": "rn:R00794", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "27", 
+            "target": "50"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M499,356L424.94116702040424,346.9684350024883", 
+            "kegg_id": "rn:R10164", 
+            "source": "18", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "26", 
+            "target": "26"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M417,346L338.1754418849364,281.08565802288877", 
+            "kegg_id": "rn:R10164", 
+            "source": "26", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "26", 
+            "target": "50"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M640,102L640.703906715921,121.00548132986586", 
+            "kegg_id": "rn:R00524", 
+            "source": "13", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "14", 
+            "target": "14"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M641,129L705.5793156638624,155.01111325350016", 
+            "kegg_id": "rn:R00524", 
+            "source": "14", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "14", 
+            "target": "11"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M641,129L640.0544205095127,268.0001851016324", 
+            "kegg_id": "rn:R00524", 
+            "source": "14", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "14", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M640,402L640.6525022057896,386.9924492668405", 
+            "kegg_id": "rn:R00540", 
+            "source": "59", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "58", 
+            "target": "58"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M641,379L640.0776662426048,283.9996229882889", 
+            "kegg_id": "rn:R00540", 
+            "source": "58", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "58", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M915,215L868.998628610601,215.85187724795182", 
+            "kegg_id": "rn:R03546", 
+            "source": "60", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "62", 
+            "target": "62"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M902,188L867.6064078549882,211.48830683073973", 
+            "kegg_id": "rn:R03546", 
+            "source": "66", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "62", 
+            "target": "62"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M861,216L810.9988112043919,215.13791053800676", 
+            "kegg_id": "rn:R03546", 
+            "source": "62", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "62", 
+            "target": "63"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M761,188L823.0008162016039,188.8857259457372", 
+            "kegg_id": "rn:R10092", 
+            "source": "67", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "69"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M831,189L894.000793375318,188.11266488203776", 
+            "kegg_id": "rn:R10092", 
+            "source": "69", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "66"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M803,276L803,258", 
+            "kegg_id": "rn:R01395", 
+            "source": "71", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "70"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M803,250L803,223", 
+            "kegg_id": "rn:R01395", 
+            "source": "70", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "63"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M640,276L722.0004937814405,276.91111659757155", 
+            "kegg_id": "rn:R00149", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "72", 
+            "target": "72"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M730,277L795.0007505042468,276.1095787602158", 
+            "kegg_id": "rn:R00149", 
+            "source": "72", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "72", 
+            "target": "71"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M640,276L683.9215808775862,350.1176677309266", 
+            "kegg_id": "rn:R00253", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "83", 
+            "target": "83"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M688,357L731.0015374267462,356.1568325994756", 
+            "kegg_id": "rn:R00253", 
+            "source": "83", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "83", 
+            "target": "84"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M739,356L806.2209015841559,339.86698361980257", 
+            "kegg_id": "rn:R00114", 
+            "source": "84", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "87", 
+            "target": "87"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M814,338L882.21535770008,354.1562689289663", 
+            "kegg_id": "rn:R00114", 
+            "source": "87", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "87", 
+            "target": "86"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M739,356L806.0007110163103,356.8933428135508", 
+            "kegg_id": "rn:R00093", 
+            "source": "84", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "88", 
+            "target": "88"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M814,357L882.0006924308664,356.1052540469623", 
+            "kegg_id": "rn:R00093", 
+            "source": "88", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "88", 
+            "target": "86"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M739,356L806.27012048319,373.9386987955173", 
+            "kegg_id": "rn:R00021", 
+            "source": "84", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "89", 
+            "target": "89"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M814,376L882.2634037018988,358.03594639423716", 
+            "kegg_id": "rn:R00021", 
+            "source": "89", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "89", 
+            "target": "86"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M890,356L744.5593009931523,305.61858138978477", 
+            "kegg_id": "rn:R00243", 
+            "source": "86", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "92", 
+            "target": "92"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M737,303L882.4406990068477,353.38141861021523", 
+            "kegg_id": "rn:R00243", 
+            "source": "92", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "92", 
+            "target": "86"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M737,303L647.7070038833365,278.1452485036091", 
+            "kegg_id": "rn:R00243", 
+            "source": "92", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "92", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M640,276L729.2929961166635,300.8547514963909", 
+            "kegg_id": "rn:R00243", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "92", 
+            "target": "92"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M890,356L720.8723786431542,325.4232548959375", 
+            "kegg_id": "rn:R00243", 
+            "source": "86", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "93", 
+            "target": "93"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M713,324L882.1276213568458,354.5767451040625", 
+            "kegg_id": "rn:R00243", 
+            "source": "93", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "93", 
+            "target": "86"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M713,324L646.6844428710843,280.39525010701436", 
+            "kegg_id": "rn:R00243", 
+            "source": "93", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "93", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M640,276L706.3155571289157,319.60474989298564", 
+            "kegg_id": "rn:R00243", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "93", 
+            "target": "93"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M890,356L768.7646677392198,325.92611912910877", 
+            "kegg_id": "rn:R00248", 
+            "source": "86", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "94", 
+            "target": "94"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M761,324L882.2353322607802,354.07388087089123", 
+            "kegg_id": "rn:R00248", 
+            "source": "94", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "94", 
+            "target": "86"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M761,324L647.4362600815988,278.94992135468385", 
+            "kegg_id": "rn:R00248", 
+            "source": "94", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "94", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M640,276L753.5637399184012,321.05007864531615", 
+            "kegg_id": "rn:R00248", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "94", 
+            "target": "94"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M838,837L739.999644025185,837.9245316601398", 
+            "kegg_id": "rn:R07174", 
+            "source": "149", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "151", 
+            "target": "151"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M732,838L621.9997127417008,837.0677941757772", 
+            "kegg_id": "rn:R07174", 
+            "source": "151", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "151", 
+            "target": "146"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M278,776L226.9988511524318,776.8644262516538", 
+            "kegg_id": "rn:R00798", 
+            "source": "127", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "140", 
+            "target": "140"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M219,777L173.99857638578817,776.1509165355809", 
+            "kegg_id": "rn:R00798", 
+            "source": "140", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "140", 
+            "target": "139"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M726,776L534.9998989943626,776.9597995025409", 
+            "kegg_id": "rn:R10164", 
+            "source": "143", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "137", 
+            "target": "137"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M527,777L285.99993548569194,776.0321282549626", 
+            "kegg_id": "rn:R10164", 
+            "source": "137", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "137", 
+            "target": "127"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M950,776L860.9995749090036,776.9175301555773", 
+            "kegg_id": "rn:R00148", 
+            "source": "125", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "136", 
+            "target": "136"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M853,777L733.9997520110354,776.0629901733153", 
+            "kegg_id": "rn:R00148", 
+            "source": "136", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "136", 
+            "target": "143"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M614,713L757.0141721545563,721.5240235059007", 
+            "kegg_id": "rn:R05185", 
+            "source": "122", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "135", 
+            "target": "135"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M765,722L942.0094499934547,713.3887294597779", 
+            "kegg_id": "rn:R05185", 
+            "source": "135", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "135", 
+            "target": "124"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M614,713L757.0112039969197,705.4232474703618", 
+            "kegg_id": "rn:R05185", 
+            "source": "122", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "134", 
+            "target": "134"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M765,705L942.0074694382114,712.6543770567876", 
+            "kegg_id": "rn:R05185", 
+            "source": "134", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "134", 
+            "target": "124"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M502,649L548,649", 
+            "kegg_id": "rn:R02804", 
+            "source": "118", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "133", 
+            "target": "133"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M556,649L606,649", 
+            "kegg_id": "rn:R02804", 
+            "source": "133", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "133", 
+            "target": "117"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M390,649L434.00147887976124,649.8461822861492", 
+            "kegg_id": "rn:R00294", 
+            "source": "119", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "132", 
+            "target": "132"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M442,650L494.0011108796832,649.1333148186719", 
+            "kegg_id": "rn:R00294", 
+            "source": "132", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "132", 
+            "target": "118"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M278,649L322.1439484241548,640.510779149201", 
+            "kegg_id": "rn:R00783", 
+            "source": "115", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "131", 
+            "target": "131"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M330,639L382.10884860934283,647.6848081015571", 
+            "kegg_id": "rn:R00783", 
+            "source": "131", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "131", 
+            "target": "119"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M278,649L322.17320237504845,658.3443312716448", 
+            "kegg_id": "rn:R00783", 
+            "source": "115", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "130", 
+            "target": "130"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M330,660L382.1311475409836,650.4426229508197", 
+            "kegg_id": "rn:R00783", 
+            "source": "130", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "130", 
+            "target": "119"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M166,649L211.16692930026602,658.3742683453382", 
+            "kegg_id": "rn:R03071", 
+            "source": "113", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "129", 
+            "target": "129"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M219,660L270.13551760844604,650.4662594289338", 
+            "kegg_id": "rn:R03071", 
+            "source": "129", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "129", 
+            "target": "115"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M166,649L211.13870677001222,640.4832628735826", 
+            "kegg_id": "rn:R00798", 
+            "source": "113", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "128", 
+            "target": "128"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M219,639L270.1124915389243,647.6631341591398", 
+            "kegg_id": "rn:R00798", 
+            "source": "128", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "128", 
+            "target": "115"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M950,582L563.9968839879907,592.776736741452", 
+            "kegg_id": "rn:R00790", 
+            "source": "142", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "112", 
+            "target": "112"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M556,593L285.9937447284288,582.3162992518443", 
+            "kegg_id": "rn:R00790", 
+            "source": "112", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "112", 
+            "target": "107"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M278,515L548.0051706981966,505.28758378783465", 
+            "kegg_id": "rn:R00787", 
+            "source": "100", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "111", 
+            "target": "111"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M556,505L942.0025754776568,514.797019682174", 
+            "kegg_id": "rn:R00787", 
+            "source": "111", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "111", 
+            "target": "105"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M278,515L548.0062552715713,525.6837007481557", 
+            "kegg_id": "rn:R05712", 
+            "source": "100", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "110", 
+            "target": "110"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M556,526L942.0031160120093,515.223263258548", 
+            "kegg_id": "rn:R05712", 
+            "source": "110", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "110", 
+            "target": "105"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M166,515L211.16692930026602,524.3742683453382", 
+            "kegg_id": "rn:R03071", 
+            "source": "99", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "109", 
+            "target": "109"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M219,526L270.13551760844604,516.4662594289338", 
+            "kegg_id": "rn:R03071", 
+            "source": "109", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "109", 
+            "target": "100"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M166,515L211.13870677001222,506.4832628735826", 
+            "kegg_id": "rn:R09497", 
+            "source": "99", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "108", 
+            "target": "108"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M219,505L270.1124915389243,513.6631341591398", 
+            "kegg_id": "rn:R09497", 
+            "source": "108", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "108", 
+            "target": "100"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M166,582L211.51518624839406,599.1755419805261", 
+            "kegg_id": "rn:R00798", 
+            "source": "106", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "103", 
+            "target": "103"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M219,602L270.4234729646736,584.5683142492632", 
+            "kegg_id": "rn:R00798", 
+            "source": "103", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "103", 
+            "target": "107"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M166,582L211.00142361421183,582.8490834644191", 
+            "kegg_id": "rn:R00794", 
+            "source": "106", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "102", 
+            "target": "102"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M219,583L270.00114884756823,582.1355737483462", 
+            "kegg_id": "rn:R00794", 
+            "source": "102", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "102", 
+            "target": "107"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M166,582L211.42494729023636,566.5726594108631", 
+            "kegg_id": "rn:R00791", 
+            "source": "106", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "101", 
+            "target": "101"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M219,564L270.3481813589767,579.665546855281", 
+            "kegg_id": "rn:R00791", 
+            "source": "101", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "101", 
+            "target": "107"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M278,875L322.1439484241548,866.510779149201", 
+            "kegg_id": "rn:R00783", 
+            "source": "148", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "154", 
+            "target": "154"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M330,865L382.10884860934283,873.6848081015571", 
+            "kegg_id": "rn:R00783", 
+            "source": "154", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "154", 
+            "target": "152"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M278,875L322.17320237504845,884.3443312716448", 
+            "kegg_id": "rn:R00783", 
+            "source": "148", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "153", 
+            "target": "153"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M330,886L382.1311475409836,876.4426229508197", 
+            "kegg_id": "rn:R00783", 
+            "source": "153", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "153", 
+            "target": "152"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M332,276L399.08468068573035,285.8390865005738", 
+            "kegg_id": "rn:R00787", 
+            "source": "50", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "155", 
+            "target": "155"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M407,287L632.0089003746772,276.37726221407104", 
+            "kegg_id": "rn:R00787", 
+            "source": "155", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "155", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M278,582L548.0051706981966,572.2875837878347", 
+            "kegg_id": "rn:R00787", 
+            "source": "107", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "156", 
+            "target": "156"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M556,572L942.0025754776568,581.797019682174", 
+            "kegg_id": "rn:R00787", 
+            "source": "156", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "156", 
+            "target": "142"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M168,276L265.0360362192484,266.758472741024", 
+            "kegg_id": "rn:R09497", 
+            "source": "52", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "157", 
+            "target": "157"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M273,266L324.1124915389243,274.6631341591397", 
+            "kegg_id": "rn:R09497", 
+            "source": "157", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "157", 
+            "target": "50"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M390,875L890.0211354885037,838.5811377695381", 
+            "kegg_id": "rn:R09799", 
+            "source": "152", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "158", 
+            "target": "158"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M950,837L905.9985211202388,837.8461822861492", 
+            "kegg_id": "rn:R09799", 
+            "source": "144", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "158", 
+            "target": "158"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M898,838L845.9988891203168,837.1333148186719", 
+            "kegg_id": "rn:R09799", 
+            "source": "158", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "158", 
+            "target": "149"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M550,226L550.6669556423026,209.99306458473882", 
+            "kegg_id": "rn:R07174", 
+            "source": "165", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "163", 
+            "target": "163"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M551,202L550.1950639396376,168.9976215251444", 
+            "kegg_id": "rn:R07174", 
+            "source": "163", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "163", 
+            "target": "162"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M640,276L503.5735405631464,229.57710755273732", 
+            "kegg_id": "rn:R09799", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "164", 
+            "target": "164"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M332,161L488.57844471063555,224.0132765298899", 
+            "kegg_id": "rn:R09799", 
+            "source": "49", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "164", 
+            "target": "164"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M496,227L542.001371389399,226.14812275204818", 
+            "kegg_id": "rn:R09799", 
+            "source": "164", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "164", 
+            "target": "165"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M550,161L584,161", 
+            "kegg_id": "rn:R12084", 
+            "source": "162", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "166", 
+            "target": "166"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M592,161L636.9185191056014,268.61728535717", 
+            "kegg_id": "rn:R12084", 
+            "source": "166", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "166", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M614,713L805,713", 
+            "kegg_id": "rn:R12084", 
+            "source": "122", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "167", 
+            "target": "167"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Nitrogen metabolism", 
+            "strength": "2", 
+            "d": "M813,713L942,713", 
+            "kegg_id": "rn:R12084", 
+            "source": "167", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "167", 
+            "target": "124"
+        }
+    ], 
+    "labels": [], 
+    "boxes": [], 
+    "relation": [
+        {
+            "entry2": "27", 
+            "subtype": {
+                "name": "compound", 
+                "value": "52"
+            }, 
+            "entry1": "76", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "30", 
+            "subtype": {
+                "name": "compound", 
+                "value": "52"
+            }, 
+            "entry1": "76", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "28", 
+            "subtype": {
+                "name": "compound", 
+                "value": "52"
+            }, 
+            "entry1": "76", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "29", 
+            "subtype": {
+                "name": "compound", 
+                "value": "52"
+            }, 
+            "entry1": "76", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "27", 
+            "subtype": {
+                "name": "compound", 
+                "value": "52"
+            }, 
+            "entry1": "80", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "30", 
+            "subtype": {
+                "name": "compound", 
+                "value": "52"
+            }, 
+            "entry1": "80", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "28", 
+            "subtype": {
+                "name": "compound", 
+                "value": "52"
+            }, 
+            "entry1": "80", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "29", 
+            "subtype": {
+                "name": "compound", 
+                "value": "52"
+            }, 
+            "entry1": "80", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "38", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "29", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "29", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "29", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "29", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "26", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "29", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "32", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "29", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "29", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "29", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "38", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "27", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "27", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "27", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "27", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "26", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "27", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "32", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "27", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "27", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "27", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "38", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "30", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "30", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "30", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "30", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "26", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "30", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "32", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "30", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "30", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "30", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "38", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "28", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "28", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "28", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "28", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "26", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "28", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "32", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "28", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "28", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "28", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "38", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "38", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "38", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "26", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "38", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "32", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "38", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "38", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "38", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "26", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "36", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "32", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "36", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "36", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "36", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "26", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "37", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "32", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "37", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "37", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "37", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "26", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "35", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "32", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "35", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "35", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "35", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "32", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "26", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "26", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "26", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "32", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "31", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "42", 
+            "subtype": {
+                "name": "compound", 
+                "value": "49"
+            }, 
+            "entry1": "38", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "45", 
+            "subtype": {
+                "name": "compound", 
+                "value": "49"
+            }, 
+            "entry1": "38", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "41", 
+            "subtype": {
+                "name": "compound", 
+                "value": "46"
+            }, 
+            "entry1": "42", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "41", 
+            "subtype": {
+                "name": "compound", 
+                "value": "46"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "39", 
+            "subtype": {
+                "name": "compound", 
+                "value": "162"
+            }, 
+            "entry1": "41", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "43", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "26", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "34", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "26", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "14", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "92", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "93", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "94", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "83", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "43", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "34", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "92", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "93", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "94", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "83", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "43", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "34", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "92", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "93", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "94", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "83", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "43", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "34", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "83", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "92", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "92", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "43", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "92", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "34", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "92", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "92", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "92", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "92", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "83", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "93", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "93", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "43", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "93", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "34", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "93", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "93", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "93", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "93", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "83", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "94", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "94", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "43", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "94", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "34", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "94", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "94", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "94", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "94", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "43", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "34", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "43", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "34", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "43", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "43", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "43", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "34", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "34", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "34", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "54", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "14", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "55", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "14", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "55", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "54", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "62", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "62", 
+            "subtype": {
+                "name": "compound", 
+                "value": "66"
+            }, 
+            "entry1": "69", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "71"
+            }, 
+            "entry1": "70", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "71"
+            }, 
+            "entry1": "70", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "71"
+            }, 
+            "entry1": "72", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "87", 
+            "subtype": {
+                "name": "compound", 
+                "value": "84"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "88", 
+            "subtype": {
+                "name": "compound", 
+                "value": "84"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "89", 
+            "subtype": {
+                "name": "compound", 
+                "value": "84"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "94", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "87", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "93", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "87", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "92", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "87", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "90", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "87", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "94", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "93", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "92", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "90", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "88", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "94", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "89", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "93", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "89", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "92", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "89", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "90", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "89", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "90", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "94", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "90", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "93", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "90", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "92", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "111", 
+            "subtype": {
+                "name": "compound", 
+                "value": "100"
+            }, 
+            "entry1": "108", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "110", 
+            "subtype": {
+                "name": "compound", 
+                "value": "100"
+            }, 
+            "entry1": "108", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "111", 
+            "subtype": {
+                "name": "compound", 
+                "value": "100"
+            }, 
+            "entry1": "109", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "110", 
+            "subtype": {
+                "name": "compound", 
+                "value": "100"
+            }, 
+            "entry1": "109", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "112", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "101", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "112", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "102", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "112", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "103", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "131", 
+            "subtype": {
+                "name": "compound", 
+                "value": "115"
+            }, 
+            "entry1": "128", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "130", 
+            "subtype": {
+                "name": "compound", 
+                "value": "115"
+            }, 
+            "entry1": "128", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "131", 
+            "subtype": {
+                "name": "compound", 
+                "value": "115"
+            }, 
+            "entry1": "129", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "130", 
+            "subtype": {
+                "name": "compound", 
+                "value": "115"
+            }, 
+            "entry1": "129", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "132", 
+            "subtype": {
+                "name": "compound", 
+                "value": "119"
+            }, 
+            "entry1": "131", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "132", 
+            "subtype": {
+                "name": "compound", 
+                "value": "119"
+            }, 
+            "entry1": "130", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "133", 
+            "subtype": {
+                "name": "compound", 
+                "value": "118"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "137", 
+            "subtype": {
+                "name": "compound", 
+                "value": "127"
+            }, 
+            "entry1": "140", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "136", 
+            "subtype": {
+                "name": "compound", 
+                "value": "143"
+            }, 
+            "entry1": "137", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "157", 
+            "subtype": {
+                "name": "compound", 
+                "value": "52"
+            }, 
+            "entry1": "76", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "157", 
+            "subtype": {
+                "name": "compound", 
+                "value": "52"
+            }, 
+            "entry1": "80", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "157", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "38", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "155", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "38", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "155", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "29", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "157", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "157", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "32", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "157", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "26", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "157", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "155", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "157", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "157", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "157", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "157", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "155", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "28", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "155", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "30", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "155", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "27", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "155", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "79", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "155", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "31", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "155", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "32", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "155", 
+            "subtype": {
+                "name": "compound", 
+                "value": "50"
+            }, 
+            "entry1": "26", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "34", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "155", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "43", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "155", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "39", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "155", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "14", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "155", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "155", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "83", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "155", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "93", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "155", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "94", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "155", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "92", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "155", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "155", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "158", 
+            "subtype": {
+                "name": "compound", 
+                "value": "149"
+            }, 
+            "entry1": "151", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "158", 
+            "subtype": {
+                "name": "compound", 
+                "value": "152"
+            }, 
+            "entry1": "154", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "158", 
+            "subtype": {
+                "name": "compound", 
+                "value": "152"
+            }, 
+            "entry1": "153", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "163", 
+            "subtype": {
+                "name": "compound", 
+                "value": "162"
+            }, 
+            "entry1": "41", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "163", 
+            "subtype": {
+                "name": "compound", 
+                "value": "162"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "163", 
+            "subtype": {
+                "name": "compound", 
+                "value": "165"
+            }, 
+            "entry1": "164", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "164", 
+            "subtype": {
+                "name": "compound", 
+                "value": "49"
+            }, 
+            "entry1": "38", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "164", 
+            "subtype": {
+                "name": "compound", 
+                "value": "49"
+            }, 
+            "entry1": "42", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "164", 
+            "subtype": {
+                "name": "compound", 
+                "value": "49"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "164", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "34", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "43", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "164", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "43", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "164", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "34", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "164", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "36", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "164", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "37", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "164", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "155", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "164", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "35", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "39", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "164", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "14", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "164", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "164", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "92", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "164", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "93", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "164", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "94", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "164", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "83", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "164", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "166", 
+            "subtype": {
+                "name": "compound", 
+                "value": "162"
+            }, 
+            "entry1": "41", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "166", 
+            "subtype": {
+                "name": "compound", 
+                "value": "162"
+            }, 
+            "entry1": "163", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "166", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "164", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "166", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "166", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "166", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "155", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "166", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "166", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "34", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "166", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "43", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "166", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "166", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "83", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "166", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "92", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "166", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "93", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "166", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "94", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "166", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "166", 
+            "type": "ECrel"
+        }
+    ], 
+    "entry": [
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00058", 
+            "graphics": {
+                "name": "C00058", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "158", 
+                "x": "713", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "11", 
+            "name": "cpd:C00058"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00488", 
+            "graphics": {
+                "name": "C00488", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "102", 
+                "x": "640", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "13", 
+            "name": "cpd:C00488"
+        }, 
+        {
+            "reaction": "rn:R00524", 
+            "name": "ko:K01455", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01455", 
+            "graphics": {
+                "name": "K01455", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "129", 
+                "x": "641", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "14"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00014", 
+            "graphics": {
+                "name": "C00014", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "276", 
+                "x": "640", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "15", 
+            "name": "cpd:C00014"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00192", 
+            "graphics": {
+                "name": "C00192", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "356", 
+                "x": "499", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "18", 
+            "name": "cpd:C00192"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06058", 
+            "graphics": {
+                "name": "C06058", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "402", 
+                "x": "332", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "19", 
+            "name": "cpd:C06058"
+        }, 
+        {
+            "reaction": "rn:R10164", 
+            "name": "ko:K10535", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10535", 
+            "graphics": {
+                "name": "K10535", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "346", 
+                "x": "417", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "26"
+        }, 
+        {
+            "reaction": "rn:R00794 rn:R00796", 
+            "name": "ko:K10534", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10534", 
+            "graphics": {
+                "name": "K10534", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "287", 
+                "x": "225", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "27"
+        }, 
+        {
+            "reaction": "rn:R03071", 
+            "name": "ko:K02567 ko:K02568", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K02567+K02568", 
+            "graphics": {
+                "name": "K02567...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "287", 
+                "x": "273", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "28"
+        }, 
+        {
+            "reaction": "rn:R00798", 
+            "name": "ko:K00370 ko:K00371 ko:K00374 ko:K00372 ko:K00360", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00370+K00371+K00374+K00372+K00360", 
+            "graphics": {
+                "name": "K00370...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "316", 
+                "x": "248", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "29"
+        }, 
+        {
+            "reaction": "rn:R00791", 
+            "name": "ko:K00367", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00367", 
+            "graphics": {
+                "name": "K00367", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "266", 
+                "x": "225", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "30"
+        }, 
+        {
+            "reaction": "rn:R00025", 
+            "name": "ko:K00459", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00459", 
+            "graphics": {
+                "name": "K00459", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "376", 
+                "x": "307", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "31"
+        }, 
+        {
+            "reaction": "rn:R10388 rn:R10389", 
+            "name": "ko:K19823", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K19823", 
+            "graphics": {
+                "name": "K19823", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "376", 
+                "x": "357", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "32"
+        }, 
+        {
+            "reaction": "rn:R00143", 
+            "name": "ko:K05601 ko:K15864", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05601+K15864", 
+            "graphics": {
+                "name": "K05601...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "320", 
+                "x": "524", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "34"
+        }, 
+        {
+            "reaction": "rn:R05712", 
+            "name": "ko:K03385 ko:K15876", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03385+K15876", 
+            "graphics": {
+                "name": "K03385...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "306", 
+                "x": "407", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "35"
+        }, 
+        {
+            "reaction": "rn:R00787 rn:R00789", 
+            "name": "ko:K17877", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17877", 
+            "graphics": {
+                "name": "K17877", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "247", 
+                "x": "407", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "36"
+        }, 
+        {
+            "reaction": "rn:R00790", 
+            "name": "ko:K00366", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00366", 
+            "graphics": {
+                "name": "K00366", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "266", 
+                "x": "407", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "37"
+        }, 
+        {
+            "reaction": "rn:R00783 rn:R00785", 
+            "name": "ko:K00368 ko:K15864", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00368+K15864", 
+            "graphics": {
+                "name": "K00368...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "244", 
+                "x": "332", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "38"
+        }, 
+        {
+            "reaction": "rn:R05185", 
+            "name": "ko:K02586 ko:K02591 ko:K02588 ko:K00531", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K02586+K02591+K02588+K00531", 
+            "graphics": {
+                "name": "K02586...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "142", 
+                "x": "592", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "39"
+        }, 
+        {
+            "reaction": "rn:R02804", 
+            "name": "ko:K00376", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00376", 
+            "graphics": {
+                "name": "K00376", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "161", 
+                "x": "492", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "41"
+        }, 
+        {
+            "reaction": "rn:R00294", 
+            "name": "ko:K04561 ko:K02305", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K04561+K02305", 
+            "graphics": {
+                "name": "K04561...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "151", 
+                "x": "386", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "42"
+        }, 
+        {
+            "reaction": "rn:R00148", 
+            "name": "ko:K10944 ko:K10945 ko:K10946", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10944+K10945+K10946", 
+            "graphics": {
+                "name": "K10944...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "357", 
+                "x": "569", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "43"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00720", 
+            "graphics": {
+                "name": "Carbon fixation pathways in prokaryotes", 
+                "width": "141", 
+                "height": "34", 
+                "bgcolor": "#FFFFFF", 
+                "y": "204", 
+                "x": "251", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "44", 
+            "name": "path:ko00720"
+        }, 
+        {
+            "reaction": "rn:R02492 rn:R09446 rn:R09808 rn:R09809", 
+            "name": "ko:K15877", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K15877", 
+            "graphics": {
+                "name": "K15877", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "172", 
+                "x": "386", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "45"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00887", 
+            "graphics": {
+                "name": "C00887", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "161", 
+                "x": "441", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "46", 
+            "name": "cpd:C00887"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00533", 
+            "graphics": {
+                "name": "C00533", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "161", 
+                "x": "332", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "49", 
+            "name": "cpd:C00533"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00088", 
+            "graphics": {
+                "name": "C00088", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "276", 
+                "x": "332", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "50", 
+            "name": "cpd:C00088"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00460", 
+            "graphics": {
+                "name": "Cyanoamino acid metabolism", 
+                "width": "104", 
+                "height": "34", 
+                "bgcolor": "#FFFFFF", 
+                "y": "100", 
+                "x": "517", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "51", 
+            "name": "path:ko00460"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00244", 
+            "graphics": {
+                "name": "C00244", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "276", 
+                "x": "168", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "52", 
+            "name": "cpd:C00244"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00910", 
+            "graphics": {
+                "name": "TITLE:Nitrogen metabolism", 
+                "width": "186", 
+                "height": "25", 
+                "bgcolor": "#FFFFFF", 
+                "y": "58", 
+                "x": "133", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "53", 
+            "name": "path:ko00910"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00680", 
+            "graphics": {
+                "name": "Methane metabolism", 
+                "width": "119", 
+                "height": "25", 
+                "bgcolor": "#FFFFFF", 
+                "y": "125", 
+                "x": "853", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "54", 
+            "name": "path:ko00680"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00630", 
+            "graphics": {
+                "name": "Glyoxylate and dicarboxylate metabolism", 
+                "width": "131", 
+                "height": "25", 
+                "bgcolor": "#FFFFFF", 
+                "y": "158", 
+                "x": "859", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "55", 
+            "name": "path:ko00630"
+        }, 
+        {
+            "reaction": "rn:R00540", 
+            "name": "ko:K01501", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01501", 
+            "graphics": {
+                "name": "K01501", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "379", 
+                "x": "641", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "58"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00726", 
+            "graphics": {
+                "name": "C00726", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "402", 
+                "x": "640", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "59", 
+            "name": "cpd:C00726"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01417", 
+            "graphics": {
+                "name": "C01417", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "215", 
+                "x": "915", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "60", 
+            "name": "cpd:C01417"
+        }, 
+        {
+            "reaction": "rn:R03546", 
+            "name": "ko:K01725", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01725", 
+            "graphics": {
+                "name": "K01725", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "216", 
+                "x": "861", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "62"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01563", 
+            "graphics": {
+                "name": "C01563", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "215", 
+                "x": "803", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "63", 
+            "name": "cpd:C01563"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00288", 
+            "graphics": {
+                "name": "C00288", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "188", 
+                "x": "902", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "66", 
+            "name": "cpd:C00288"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00011", 
+            "graphics": {
+                "name": "C00011", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "188", 
+                "x": "761", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "67", 
+            "name": "cpd:C00011"
+        }, 
+        {
+            "reaction": "rn:R10092", 
+            "name": "ko:K01672 ko:K18245 ko:K18246 ko:K01673 ko:K01674 ko:K01743", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01672+K18245+K18246+K01673+K01674+K01743", 
+            "graphics": {
+                "name": "K01672...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "189", 
+                "x": "831", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "69"
+        }, 
+        {
+            "reaction": "rn:R01395", 
+            "name": "ko:K00926", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00926", 
+            "graphics": {
+                "name": "K00926", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "250", 
+                "x": "803", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "70"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00169", 
+            "graphics": {
+                "name": "C00169", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "276", 
+                "x": "803", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "71", 
+            "name": "cpd:C00169"
+        }, 
+        {
+            "reaction": "rn:R00149", 
+            "name": "ko:K01948", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01948", 
+            "graphics": {
+                "name": "K01948", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "277", 
+                "x": "730", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "72"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00220", 
+            "graphics": {
+                "name": "Arginine biosynthesis", 
+                "width": "125", 
+                "height": "25", 
+                "bgcolor": "#FFFFFF", 
+                "y": "277", 
+                "x": "952", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "74", 
+            "name": "path:ko00220"
+        }, 
+        {
+            "reaction": null, 
+            "name": "ko:K02575", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K02575", 
+            "graphics": {
+                "name": "K02575", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "266", 
+                "x": "109", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "76"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00244", 
+            "graphics": {
+                "name": "C00244", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "276", 
+                "x": "50", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "77", 
+            "name": "cpd:C00244"
+        }, 
+        {
+            "reaction": null, 
+            "name": "ko:K02575", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K02575", 
+            "graphics": {
+                "name": "K02575", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "340", 
+                "x": "108", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "79"
+        }, 
+        {
+            "reaction": null, 
+            "name": "ko:K15576 ko:K15577 ko:K15578 ko:K15579", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K15576+K15577+K15578+K15579", 
+            "graphics": {
+                "name": "K15576...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "287", 
+                "x": "109", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "80"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00088", 
+            "graphics": {
+                "name": "C00088", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "340", 
+                "x": "50", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "81", 
+            "name": "cpd:C00088"
+        }, 
+        {
+            "reaction": "rn:R00253", 
+            "name": "ko:K01915", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01915", 
+            "graphics": {
+                "name": "K01915", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "357", 
+                "x": "688", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "83"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00064", 
+            "graphics": {
+                "name": "C00064", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "356", 
+                "x": "739", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "84", 
+            "name": "cpd:C00064"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00025", 
+            "graphics": {
+                "name": "C00025", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "356", 
+                "x": "890", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "86", 
+            "name": "cpd:C00025"
+        }, 
+        {
+            "reaction": "rn:R00114", 
+            "name": "ko:K00265 ko:K00266", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00265+K00266", 
+            "graphics": {
+                "name": "K00265...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "338", 
+                "x": "814", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "87"
+        }, 
+        {
+            "reaction": "rn:R00093", 
+            "name": "ko:K00264", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00264", 
+            "graphics": {
+                "name": "K00264", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "357", 
+                "x": "814", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "88"
+        }, 
+        {
+            "reaction": "rn:R00021", 
+            "name": "ko:K00284", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00284", 
+            "graphics": {
+                "name": "K00284", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "376", 
+                "x": "814", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "89"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00250", 
+            "graphics": {
+                "name": "Alanine, aspartate and glutamate metabolism", 
+                "width": "77", 
+                "height": "34", 
+                "bgcolor": "#FFFFFF", 
+                "y": "356", 
+                "x": "985", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "90", 
+            "name": "path:ko00250"
+        }, 
+        {
+            "reaction": "rn:R00243", 
+            "name": "ko:K00260 ko:K15371", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00260+K15371", 
+            "graphics": {
+                "name": "K00260...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "303", 
+                "x": "737", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "92"
+        }, 
+        {
+            "reaction": "rn:R00243 rn:R00248", 
+            "name": "ko:K00261", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00261", 
+            "graphics": {
+                "name": "K00261", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "324", 
+                "x": "713", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "93"
+        }, 
+        {
+            "reaction": "rn:R00248", 
+            "name": "ko:K00262", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00262", 
+            "graphics": {
+                "name": "K00262", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "324", 
+                "x": "761", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "94"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00244", 
+            "graphics": {
+                "name": "C00244", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "515", 
+                "x": "166", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "99", 
+            "name": "cpd:C00244"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00088", 
+            "graphics": {
+                "name": "C00088", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "515", 
+                "x": "278", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "100", 
+            "name": "cpd:C00088"
+        }, 
+        {
+            "reaction": "rn:R00791", 
+            "name": "ko:K00367", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00367", 
+            "graphics": {
+                "name": "K00367", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "564", 
+                "x": "219", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "101"
+        }, 
+        {
+            "reaction": "rn:R00794 rn:R00796", 
+            "name": "ko:K10534", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10534", 
+            "graphics": {
+                "name": "K10534", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "583", 
+                "x": "219", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "102"
+        }, 
+        {
+            "reaction": "rn:R00798", 
+            "name": "ko:K00372 ko:K00360", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00372+K00360", 
+            "graphics": {
+                "name": "K00372...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "602", 
+                "x": "219", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "103"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00014", 
+            "graphics": {
+                "name": "C00014", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "515", 
+                "x": "950", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "105", 
+            "name": "cpd:C00014"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00244", 
+            "graphics": {
+                "name": "C00244", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "582", 
+                "x": "166", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "106", 
+            "name": "cpd:C00244"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00088", 
+            "graphics": {
+                "name": "C00088", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "582", 
+                "x": "278", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "107", 
+            "name": "cpd:C00088"
+        }, 
+        {
+            "reaction": "rn:R09497 rn:R00798", 
+            "name": "ko:K00370 ko:K00371 ko:K00374", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00370+K00371+K00374", 
+            "graphics": {
+                "name": "K00370...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "505", 
+                "x": "219", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "108"
+        }, 
+        {
+            "reaction": "rn:R03071", 
+            "name": "ko:K02567 ko:K02568", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K02567+K02568", 
+            "graphics": {
+                "name": "K02567...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "526", 
+                "x": "219", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "109"
+        }, 
+        {
+            "reaction": "rn:R05712", 
+            "name": "ko:K03385 ko:K15876", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03385+K15876", 
+            "graphics": {
+                "name": "K03385...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "526", 
+                "x": "556", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "110"
+        }, 
+        {
+            "reaction": "rn:R00787", 
+            "name": "ko:K00362 ko:K00363", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00362+K00363", 
+            "graphics": {
+                "name": "K00362...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "505", 
+                "x": "556", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "111"
+        }, 
+        {
+            "reaction": "rn:R00790", 
+            "name": "ko:K00366", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00366", 
+            "graphics": {
+                "name": "K00366", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "593", 
+                "x": "556", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "112"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00244", 
+            "graphics": {
+                "name": "C00244", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "649", 
+                "x": "166", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "113", 
+            "name": "cpd:C00244"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00088", 
+            "graphics": {
+                "name": "C00088", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "649", 
+                "x": "278", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "115", 
+            "name": "cpd:C00088"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00697", 
+            "graphics": {
+                "name": "C00697", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "649", 
+                "x": "614", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "117", 
+            "name": "cpd:C00697"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00887", 
+            "graphics": {
+                "name": "C00887", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "649", 
+                "x": "502", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "118", 
+            "name": "cpd:C00887"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00533", 
+            "graphics": {
+                "name": "C00533", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "649", 
+                "x": "390", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "119", 
+            "name": "cpd:C00533"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00697", 
+            "graphics": {
+                "name": "C00697", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "713", 
+                "x": "614", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "122", 
+            "name": "cpd:C00697"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00014", 
+            "graphics": {
+                "name": "C00014", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "713", 
+                "x": "950", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "124", 
+            "name": "cpd:C00014"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00014", 
+            "graphics": {
+                "name": "C00014", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "776", 
+                "x": "950", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "125", 
+            "name": "cpd:C00014"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00088", 
+            "graphics": {
+                "name": "C00088", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "776", 
+                "x": "278", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "127", 
+            "name": "cpd:C00088"
+        }, 
+        {
+            "reaction": "rn:R00798", 
+            "name": "ko:K00370 ko:K00371 ko:K00374", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00370+K00371+K00374", 
+            "graphics": {
+                "name": "K00370...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "639", 
+                "x": "219", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "128"
+        }, 
+        {
+            "reaction": "rn:R03071", 
+            "name": "ko:K02567 ko:K02568", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K02567+K02568", 
+            "graphics": {
+                "name": "K02567...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "660", 
+                "x": "219", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "129"
+        }, 
+        {
+            "reaction": "rn:R00783 rn:R00785", 
+            "name": "ko:K15864", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K15864", 
+            "graphics": {
+                "name": "K15864", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "660", 
+                "x": "330", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "130"
+        }, 
+        {
+            "reaction": "rn:R00783 rn:R00785", 
+            "name": "ko:K00368", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00368", 
+            "graphics": {
+                "name": "K00368", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "639", 
+                "x": "330", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "131"
+        }, 
+        {
+            "reaction": "rn:R00294", 
+            "name": "ko:K04561 ko:K02305", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K04561+K02305", 
+            "graphics": {
+                "name": "K04561...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "650", 
+                "x": "442", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "132"
+        }, 
+        {
+            "reaction": "rn:R02804", 
+            "name": "ko:K00376", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00376", 
+            "graphics": {
+                "name": "K00376", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "649", 
+                "x": "556", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "133"
+        }, 
+        {
+            "reaction": "rn:R05185", 
+            "name": "ko:K02586 ko:K02591 ko:K02588", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K02586+K02591+K02588", 
+            "graphics": {
+                "name": "K02586...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "705", 
+                "x": "765", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "134"
+        }, 
+        {
+            "reaction": "rn:R05185", 
+            "name": "ko:K00531", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00531", 
+            "graphics": {
+                "name": "K00531", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "722", 
+                "x": "765", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "135"
+        }, 
+        {
+            "reaction": "rn:R00148", 
+            "name": "ko:K10944 ko:K10945 ko:K10946", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10944+K10945+K10946", 
+            "graphics": {
+                "name": "K10944...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "777", 
+                "x": "853", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "136"
+        }, 
+        {
+            "reaction": "rn:R10164", 
+            "name": "ko:K10535", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10535", 
+            "graphics": {
+                "name": "K10535", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "777", 
+                "x": "527", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "137"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00244", 
+            "graphics": {
+                "name": "C00244", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "776", 
+                "x": "166", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "139", 
+            "name": "cpd:C00244"
+        }, 
+        {
+            "reaction": "rn:R00798", 
+            "name": "ko:K00370 ko:K00371", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00370+K00371", 
+            "graphics": {
+                "name": "K00370...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "777", 
+                "x": "219", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "140"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00014", 
+            "graphics": {
+                "name": "C00014", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "582", 
+                "x": "950", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "142", 
+            "name": "cpd:C00014"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00192", 
+            "graphics": {
+                "name": "C00192", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "776", 
+                "x": "726", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "143", 
+            "name": "cpd:C00192"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00014", 
+            "graphics": {
+                "name": "C00014", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "837", 
+                "x": "950", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "144", 
+            "name": "cpd:C00014"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00697", 
+            "graphics": {
+                "name": "C00697", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "837", 
+                "x": "614", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "146", 
+            "name": "cpd:C00697"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00088", 
+            "graphics": {
+                "name": "C00088", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "875", 
+                "x": "278", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "148", 
+            "name": "cpd:C00088"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05361", 
+            "graphics": {
+                "name": "C05361", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "837", 
+                "x": "838", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "149", 
+            "name": "cpd:C05361"
+        }, 
+        {
+            "reaction": "rn:R07174", 
+            "name": "ko:K20935", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K20935", 
+            "graphics": {
+                "name": "K20935", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "838", 
+                "x": "732", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "151"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00533", 
+            "graphics": {
+                "name": "C00533", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "875", 
+                "x": "390", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "152", 
+            "name": "cpd:C00533"
+        }, 
+        {
+            "reaction": "rn:R00783 rn:R00785", 
+            "name": "ko:K15864", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K15864", 
+            "graphics": {
+                "name": "K15864", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "886", 
+                "x": "330", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "153"
+        }, 
+        {
+            "reaction": "rn:R00783 rn:R00785", 
+            "name": "ko:K00368", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00368", 
+            "graphics": {
+                "name": "K00368", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "865", 
+                "x": "330", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "154"
+        }, 
+        {
+            "reaction": "rn:R00787", 
+            "name": "ko:K00362 ko:K00363", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00362+K00363", 
+            "graphics": {
+                "name": "K00362...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "287", 
+                "x": "407", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "155"
+        }, 
+        {
+            "reaction": "rn:R00787 rn:R00789", 
+            "name": "ko:K17877", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17877", 
+            "graphics": {
+                "name": "K17877", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "572", 
+                "x": "556", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "156"
+        }, 
+        {
+            "reaction": "rn:R09497", 
+            "name": "ko:K00370 ko:K00371 ko:K00374", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00370+K00371+K00374", 
+            "graphics": {
+                "name": "K00370...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "266", 
+                "x": "273", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "157"
+        }, 
+        {
+            "reaction": "rn:R09799", 
+            "name": "ko:K20932 ko:K20933 ko:K20934", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K20932+K20933+K20934", 
+            "graphics": {
+                "name": "K20932...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "838", 
+                "x": "898", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "158"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00697", 
+            "graphics": {
+                "name": "C00697", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "161", 
+                "x": "550", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "162", 
+            "name": "cpd:C00697"
+        }, 
+        {
+            "reaction": "rn:R07174", 
+            "name": "ko:K20935", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K20935", 
+            "graphics": {
+                "name": "K20935", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "202", 
+                "x": "551", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "163"
+        }, 
+        {
+            "reaction": "rn:R09799", 
+            "name": "ko:K20932 ko:K20933 ko:K20934", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K20932+K20933+K20934", 
+            "graphics": {
+                "name": "K20932...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "227", 
+                "x": "496", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "164"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05361", 
+            "graphics": {
+                "name": "C05361", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "226", 
+                "x": "550", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "165", 
+            "name": "cpd:C05361"
+        }, 
+        {
+            "reaction": "rn:R12084", 
+            "name": "ko:K22896 ko:K22897 ko:K22898 ko:K22899", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K22896+K22897+K22898+K22899", 
+            "graphics": {
+                "name": "K22896...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "161", 
+                "x": "592", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "166"
+        }, 
+        {
+            "reaction": "rn:R12084", 
+            "name": "ko:K22896 ko:K22897 ko:K22898 ko:K22899", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K22896+K22897+K22898+K22899", 
+            "graphics": {
+                "name": "K22896...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "713", 
+                "x": "813", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "167"
+        }
+    ], 
+    "nodes": [], 
+    "pathway": {
+        "name": "path:ko00910", 
+        "title": "Nitrogen metabolism", 
+        "image": "https://www.kegg.jp/kegg/pathway/ko/ko00910.png", 
+        "number": "00910", 
+        "link": "https://www.kegg.jp/kegg-bin/show_pathway?ko00910", 
+        "org": "ko"
+    }
+}

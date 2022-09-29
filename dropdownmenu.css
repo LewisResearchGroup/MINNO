@@ -1,0 +1,34 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 22px;
+}
+
+.multiselect-container {
+  max-width: 300px;
+}
+.multiselect-container>li>a {
+  white-space: normal !important;
+}
+
+#toolbox input{
+    width: 30px;
+    opacity: 0.4;
+}
+#toolbox input:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#hidden-file-upload{
+    display: none;
+}
+
+#download-input{
+    margin: 1 0.5em;
+}

@@ -1,0 +1,804 @@
+<html>
+
+<style>
+#nav-body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	overflow: hidden;
+}
+#menu {
+	margin: 0;
+	padding: 0;
+	width: 12em;
+	background-color: white;
+	list-style-image: none;
+	list-style-type: none;
+	overflow: auto;
+	position: relative;
+	display: inline-block;
+	clear: both;
+	float: left;
+	width:300px;
+}
+#menu li {
+	font: 90%"Arial", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#menu a {
+	background: white;
+	border-bottom: 0px solid #336699;
+	color: #000;
+	display: block;
+	margin: 0;
+	padding: 8px 12px;
+	text-decoration: none;
+	font-weight: normal;
+}
+#menu a:hover {
+	background: #2580a2 url("images/hover.gif") left center no-repeat;
+	color: #fff;
+	padding-bottom: 8px;
+}
+#content-wrapper {
+	width: auto;
+	overflow: hidden;
+}
+
+.content {
+	font-size: medium;
+	color: black;
+	z-index:-1;
+	background-color: #FFF;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	vertical-align: 10%;
+	overflow: auto;
+	overflow-y: scroll;
+	height:490px;
+}
+
+.content::before1{
+		content:"";
+		background-size: cover;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		background-image: url("MINNO Logo LRG_centered.svg");
+		background-repeat: no-repeat;	
+		background-attachment: fixed;
+		background-position: center;
+		background-size: 800px;
+		opacity:0.10;
+		z-index: 0;
+		
+		/*
+		background-size: 150px;
+		width: 300px;
+		height: 300px;
+		background-position: 25% 75%;
+		background-size: cover;
+		*/			
+	}
+	
+	.header img {
+		float: left;
+		width: 200px;
+		height: 100px;
+		padding-left: 2%;
+		background: #fff;
+	}
+
+	.header h1 {
+		position: relative;
+		top: 18px;
+		left: 10px;
+	}
+	
+	.offset:before { 
+		display: block; 
+		content: " "; 
+		height: 00px;      /* Give height of your fixed element */
+		margin-top: -0px; /* Give negative margin of your fixed element */    
+		visibility: hidden; 
+	}
+
+</style>
+
+<body>
+
+<div id="nav-body">
+	<div class="header">
+		<img src="MINNO Logo LRG_centered.svg" alt="logo" />
+		<h1 align="center">
+		<font face="Arial" color="black" size="6"> 
+			Metabolic Interactive Nodular Network for Omics <br> User Manual 
+		</font>
+		</h1>
+	</div>
+	
+
+  <div id="menu">
+
+    <ul>
+      <li class='active'><a href='#intro'>Introduction</a>
+      </li>
+      <li><a href='#databases'>Databases</a>
+      </li>
+      <li><a href='#upload'>Upload data</a>
+      </li>
+      <li><a href='#download'>Download data</a>
+      </li>
+      <li><a href='#schema'>Datafile Schema</a>
+      </li>
+      <li><a href='#visual'>Visualization</a>
+      </li>
+      <li><a href='#normalization'>Data Normalization</a>
+      </li>
+      <li><a href='#features'>Features</a>
+      </li>
+      <li><a href='#edit_tools'>Edit tools</a>
+      </li>
+      <li><a href='#tutorial'>Tutorial</a>
+      </li>
+      <li><a href='#copyright'>Copyright</a>
+      </li>
+    </ul>
+  </div>
+  <!--end menu div-->
+
+  <div id="content-wrapper">
+    <div class="content" left="50px">
+		<p><a class="offset" name="intro"></a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<font face="Arial" size="3">
+						<strong>Metabolic Interactive Nodular Network for Omics (MINNO)</strong> is a <a href="https://d3js.org/" target="_blank"><span>D3 javascript library</span></a> based web application to visualize biological data onto metabolic networks. Besides visualization, this tools offer various ways to share data and results to facilitate collaboration across multiple research groups globally. Being a web-application, it does not require any installation and it can be run on both Chrome and Mozilla browsers. MINNO comes with 66 base metabolic pathways from the KEGG database, which cover all primary metabolic pathways and can be combined together to build any possible large-scale metabolic network as needed. Beside KEGG, the tool also has access to the metabolic network models from BiGG Models database. MINNO enables users to built organism specific metabolic map by superimposing large-scale metabolic network formed from KEGG database with organism’s known metabolic pathways data without need to rebuild a network from scratch for each organism. The BiGG models already comes with organism specific models, so need to superimpose any metabolic maps. However, user need to organize the network as BiGG models do not come with prelayout network maps.
+						
+						<br><br>
+						
+						The tool accepts any kind of omics data, including metabolomics, proteomics, and fluxomics data as long as they can be visualized by changing sizes of nodes and edges of the metabolic network. The modular design promotes accelerated investigation of omics data on genome-scale metabolic networks for multiple species.
+						
+						<br><br>
+						
+						<strong>Databases:</strong> <a class="offset" name="databases"></a> 
+						<br>
+						MINNO comes with two biological databases: KEGG (Kyoto Encyclopedia of Genes and Genomes) and BiGG (Biochemical, Genetic and Genomics) databases.
+						
+						<ol>
+							<li><a href="https://www.kegg.jp/" target="_blank"><span><strong>KEGG-Database:</strong></span></a> KEGG (Kyoto Encyclopedia of Genes and Genomes) is a knowledge base for systematic analysis of gene functions, linking genomic information with higher order functional information stored in the PATHWAY database, which contains graphical representations of cellular processes, such as metabolism, membrane transport, signal transduction and cell cycle. The KEGG database harbour metabolic pathways of 579 Eukaryotes, 6348 Bacteria, 349 Archaea diverse species making it an excellent database to explore cross-species interaction in diverse environmental conditions and discover unknown links and interactions between biochemicals or species. MINNO contains 66 pre-layout metabolic pathways for quick use and data visualization and about 150 in total metabolic pathways for metabolism. Remaining non-metabolic pathways cannot be currently visualized on the tool. The menu contains two categories: 1) selected Ortholog/base maps which contains 66 pre-layout metabolic pathways 2) list of pathways which contains all the metabolic pathways. User can also access all the pathways documented for specific user selected organism and superimpose on base maps to obtain organism’s specific metabolic network. 
+							</li>
+							
+							<br>
+							
+							<li> <a href="http://bigg.ucsd.edu/" target="_blank"><span><strong>BiGG-Models:</strong></span></a> BiGG Models database is a knowledgebase of genome-scale metabolic network reconstructions. BiGG Models integrates more than 70 published genome-scale metabolic networks into a single database with a set of stardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations, and metabolites are linked to many external databases (KEGG, PubChem, and many more). </li>
+							
+						</ol>
+						
+				</p>
+					
+					<p>
+						<font face="Arial" size="3">
+							<a class="offset" name="upload"></a><strong>Import:</strong> 
+							<ol>
+										<li><strong>Network file:</strong> Import network file. You can upload multiple network files and the tool will combine all the network file together. The tools also has a feature to load kegg base/ortholog map files along with organism specific map together. This will allow user to showcase organism specific rxns on the KEGG base metabolic pathway maps. As all these loaded files are in json format, in order to make distinction between them, they need to have specific prefixs to their names. The steps involved are mention below:
+										<br>
+										<ul>
+											<br>
+											<li>You will need to upload two differnt kind of files together. The one file with the base network layout must have the prefix as Ortholog_ko_... .json. Here ... fills any specific pathway name such as Glycolysis, TCA etc. While saving files, the tool automatically suggest suitable prefix for the file. 
+											</li>
+											<br>
+											<li> The second file name must be prefix with KEGG_org_... .json where ‘org’ is the id of the specific organism to specify its metabolic rxns. While saving files, the tool automatically suggest suitable prefix for the file.
+											</li> 
+											<br>
+											<li>All these maps both Ortholog and KEGG can be obtained by the selecting organism from the kegg list and pathway name from the KEGG database menu. Similarly, you can get Ortholog files by searching for ortholog in the KEGG organism menu.									
+											</li>
+											<br>
+											<li>Both these files must have same pathway as the visualization code matches the rxns ids in the organism specific .json file with the base .json file. You can load multiple pathway files for both sets i.e., Ortholog_ and KEGG_ as mentioned earlier to get combined network consisting of multiple pathways together. To avoid overlap between them, you can show grid and spatially organize the individual pathways.
+											</li>
+											<br>
+											<li> Adding rxns to specific organism is simple. Just add specific rxn to the base/ortholog map. 
+											</li>
+											<br>
+										</ul>
+										
+										</li>
+										<br>
+										<li><strong>Data file:</strong> Importing data file which will be shown the onto the network.
+										 </li>
+										<br>
+										<li><strong>Images:</strong> It allow import of all kind of images such as png, svg, jpeg, jpg.						
+										</li>								
+								</ol>
+								
+								<strong>Export:</strong> <a class="offset" name="download"></a>
+								<ol>
+								
+									<li><strong>Network:</strong> 
+										<ul>
+											<br>
+											<li><strong>JSON:</strong> Downloading the network file in json format.
+											</li>
+											<br>
+											<li><strong>KGML:</strong> Downloads network file in KEGG kgml xml-format. This feature allow share of new discoveries to the central KEGG database.
+											</li>
+											<br>
+											<li><strong>PNG:</strong> 
+											Download png file of the visualization.
+											</li>
+											<br>
+											<li><strong>SVG:</strong> 
+											Download SVG file of the visualization.
+											</li>
+											<br>
+										</ul>
+									</li>
+										
+									<li><strong>Datafile:</strong> 
+										<ul>
+											<br>
+											<li><strong>JSON:</strong> 
+											Download datafile in json format.
+											</li>
+											<br>
+											<li><strong>CSV:</strong> 
+											Download datafile in CSV format.
+											</li>
+											<br>
+										</ul>
+									</li>
+								</ol>
+						</p>
+						
+						<br><br>	
+						
+						<a class="offset" name="schema"></a><strong>Datafile Schema:</strong></a> The datafile can be either .csv or .json format to be loaded into the visualization code. Each datafile format have information of variables/conditions which are varied and quantitative measurements of various biomolecules which are represented as nodes or edges in the network. Below are the steps to make datafile:
+						<br><br>
+						
+						<ol>
+							<li>
+								 Assuming three variables which are varied to be ‘X’, ‘Y’, ‘Z’ where 'X', 'Y' and 'Z' can be any arbitrary variables such as organism name, chemical treatment etc. If there are no three parameters for any experiment data, then just define arbitrary variable and give a constant value to it. Here is what schema the datafile must follow.
+							
+							</li>
+							
+							<li>
+								<strong>JSON:</strong>
+								Assuming same three variables which we have used above, the data should be organized as shown below:<br>
+								{‘X1’:<br>
+								{‘Y1’:[‘name’: ___, ‘gp’:____, ‘Z1’:___, ‘Z2’:____, ‘Z3’:____ .....],<br>
+								‘Y2’:[‘name’: ___, ‘gp’:____, ‘Z1’:___, ‘Z2’:____, ‘Z3’:____ .....],<br>
+								.<br>
+								.<br>
+								.<br>
+								}<br>
+								‘X2’:<br>
+								{‘Y1’:[‘name’: ___, ‘gp’:____, ‘Z1’:___, ‘Z2’:____, ‘Z3’:____ .....],<br>
+								‘Y2’:[‘name’: ___, ‘gp’:____, ‘Z1’:___, ‘Z2’:____, ‘Z3’:____ .....],<br>
+								..<br>
+								.<br>
+								},<br>
+								.<br>
+								.<br>
+								.<br>
+								}<br>
+								
+								<br><br>
+								Above X1, X2, Y1, Y2, Z1,Z2... are different X, Y, Z variables respectively as there can be arbitrary number of these variables in a given dataset. In addition to these three variables, we also have ‘name’ to specifically locate node in the network and ‘gp’ for group of dataset that one wants to be loaded onto the node. This allow same node name to represent multiple dataset depending on what it represents in a given network. For instance, if one is trying to visualize glucose uptake by E.coli, then one need to specify extracellular and intracellular signal intensity for glucose and how fast signal intensity is changing provide flux value. This way, same glucose node in the network can show different dataset. Generally biological experiments have control experiment which provides a way to compare and relate how certain perturbation has impacted the experimental results. This control dataset is also need to be included in the above both datafile formats and must be represented as ‘C’ in the datafile as a variable that is varied during the experiment.
+							</li>
+							
+							<li>
+								<strong>CSV:</strong> CSV format is easier to create using Microsoft Excel or Libre Office. The csv file must have following header<br><br>
+								
+								Compound, Group, X1_Y1_Z1, X1_Y1,Z2,....<br>
+									A ,    b,     1.0,     2.0   .... <br>
+									.<br>
+									.<br>
+								<br><br>
+								Here, X1_Y1_Z1 represents three variables as a single string which are tied together using underscore character. Each line in the csv file has a compound name, its group id for example whether the compound represents 'I' (intracellular) or 'E' (extracellular) molecule etc, and quantitative measurement for X, Y and Z variables. Except for first two column, the rest of the header does not need to be in any particular order as long as all of them are included. Generally biological experiments have control experiment which provides a way to compare and relate how certain perturbation has impacted the experimental results. This control dataset is also need to be included in the above both datafile formats and must be represented as ‘C’ in the datafile as a variable that is varied during the experiment.
+							</li>
+						
+						</ol>
+						
+						<p><a class="offset" name="visual"></a>
+							<strong>Load datafile and its visualization onto the network:</strong><br><br>
+							
+							To load datafile and visualize onto the network, follow following steps:
+							<font face="Arial" size="3">
+								<ol>
+									<br>
+									<li>After loading the network and datafile, user must assign group to nodes before normalization. Select option from the pop-up menu and select specific type of nodes and assign all the desired groups from the Assign group menu. </li>
+									<br>
+									<li>Then comes applying methods. How each group of dataset needs to be uploaded onto the network. Often raw data contains big number which cannot be loaded onto the network. Normalization and scaling is required. Select suitable method for specific group and adjust scaling parameter value using the slider.
+									</li>
+									<br>
+									<li>It is done. Now change the datagroups from the top 3 menus which update the network as per values for 3 variables you provided in the datafile. 
+									</li>
+								</ol>
+							
+							</font>
+						</p>
+						
+						<p>
+						<font face="Arial" size="3"> <a class="offset" name="normalization"></a>
+							
+							<strong>Data Normalization:</strong> The data normalization methods appears in the "Method" drop down menu after datafile is loaded. MINNO allow user to define groups to different nodes of the network. Subsequently, data from the datafile will be expressed onto nodes as per their group defined by the user. Each group from the datafile can be treated individually depending on which method is suitable for them. Four normalization methods are provided by the tool:
+							
+							<ol>
+								<li><strong>None:</strong> This method allow data values to be loaded and used as they are in the datafile onto the network nodes. No normalization method is implemented in this option.</li>
+								<br>
+								<li><strong>Control normalization:</strong> This method computes the standard deviation of the control dataset for each compound. Then it subtract the value measured in certain condition with the value in control case for each metabolite and specific time point and divide the difference with the standard deviation to get normalized value.
+								<br><br>
+								Let std_dev be the standard deviation of the control dataset. Then the normalized data can be obtained using below eq.<br><br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ny(t) = (y(t) – c(t))/std_dev <br><br>
+								here Ny(t) is the normalized value of y(t) from Y dataset at time t when it is compared with the control value via c(t) at the same time.
+								 </li>
+								<br>
+								<li><strong>Control Mean normalization:</strong> This method computes the mean and standard deviation of the control dataset for each compound. Then it subtract the value measured in certain condition at specific time point and the mean value of the control dataset and divide the difference with the standard deviation to get normalized value.
+								<br><br>
+								
+								Let c_mean and std_dev be the mean and standard deviation of the control dataset. Then the normalized data can be obtained using below eq. <br><br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ny(t) = (y(t) – c_mean)/std_dev <br><br>
+								here Ny(t) is the normalized value of y(t) from Y dataset at time t when it is compared with the mean value of the control dataset C for all time point.
+								
+								</li>
+								<br>
+								<li><strong> Log2 fold change:</strong> This method computes log(y(t)/c(t)) value for Y dataset at time t with respect to control dataset c(t) at time point 't' for each compound.</li>
+							</ol>
+						
+						</font>
+					</p>
+					
+					<p>
+						<font face="Arial" size="3">
+							<strong>Parameter:</strong> By default the tool use constant base value and allow user to decide the scaling value to be used for any given group within the datafile. The scaling value essentially allow how much one unit difference in the normalization data would translate into node sizes. Scaling value >1 means that the 1 unit difference in the normalized data would translate into >1 unit difference in the node size. Such value of scaling to be used when the variation in the normalized data values is small and hard to distinguish visually. On the other hand it is possible that the datafile contain values which have large variation such that everything takes extreme values i.e., nodes appears either giant or point size. In such situation, we need to use scaling <1 to diminish the variation is certain group/s and focus on the relevant ones which do have extremely large or small values. The value of the scaling parameter can be adjusted by using the slider above PNG download button. Each time slider value is adjusted, normalization of only selected group changes. Keep doing for all the different groups you have in the datafile. This way user can normalized wide variety of data specifically.
+							
+							<br><br>
+							
+							<strong>Assign Group:</strong> This menu contains options for different group that can be assigned to network nodes. This menu is updated when datafile is uploaded in the web-application. To assign specific group to any node, one first need to select all nodes which belongs to the specific group such as intracellular or extracellular and then select the group from the Assign group drop-down menu. After assigning different groups to nodes, user must select the method to each group and scale the values using scaling option. At first user must select scaling to be 1. Later user can change its value depending on need.
+							
+							<br><br>
+							
+							<strong>Hide Menu:</strong> This menu offers options to hide certain aspect of the visualization. It has following options:
+						</font>
+					</p>
+						<a class="offset" name="features"></a>
+						
+						It offers multitudes of features which are listed below:<br><br>
+						
+						<strong>Simulation:</strong> This key will allow self-organization of nodes in the network based on force simulation where nodes in the network repel each other while edges attract them together. This is useful when network does not come with initial coordinates such as metabolic networks from <a href="http://bigg.ucsd.edu/" target="_blank"><span>BiGG-models database</span></a> However, if the network is already pre-layout such as network from KEGG database, then keeping simulation switched off will make network nodes static.
+						
+						<br><br>
+						
+						<strong>Freeze:</strong> This feature is added to improve user experience while using the tool in case  when the network are significant big. However, having too big files are not recommended as it can crash the browsers. This web-application uses D3 JavaScript library as underlying program to layout the network visualization. In case of big files, this can take long time to execute and user actions will changes/updates the visualization slowly. By clicking it on, user can stop the underlying computation early hence improving the user experience. But this also comes with a cost as it prevent dragging of network elements jerky or even make them hard to move and some part of network may not even update completely.
+						
+						<br><br>
+						
+						<strong>Three data groups:</strong> These three drop-down menu will be containing 3 variables from the datafile. These 3 variables are variables which can be varied within an experiment or processed data. For example, time is one commonly used variable in any dataset. The other two variables could be two kinds of treatments or different Omic data and one is interested in combination of these two variables together. Thus, having 3 variables for this tool expand its application to larger variety of experiments. The datafile can be either csv file or json file. <a href="#schema"><span>Click here for more details.</span></a>
+						
+						<br><br>
+						
+						<strong>KEGG organisms:</strong> This drop-down menu offers list of all organisms listed in KEGG database. To obtain species specific metabolic pathway, select all the organisms for which you need metabolic pathways. Then select the metabolic pathway from the "KEGG database" menu under "list of pathway" category.<a href="http://rest.kegg.jp/list/organism" target="_blank"><span>Click here for list of all organisms.</span></a>
+						
+						<br><br>
+						
+						<strong>Select Rxns:</strong> Once a network file is loaded, the list of reactions will appears here. User can select all or specific ones by scrolling over the list.
+						
+						<br><br>
+						
+						<strong>Remove element:</strong>This menu contains list of nodes sorted based on their degree in the network. By selecting elements from the menu, these elements will be removed globally from the metabolic network. 
+						
+						<br><br>
+						
+						<strong>Repeat element:</strong> This menu contains list of nodes sorted based on their degree in the network. By selecting elements from the menu, these elements will be duplicates globally from the metabolic network. 
+						
+						<br><br>
+						
+						<strong>Find element:</strong> This menu contains list of nodes in the network sorted alphabatically. User can use this list to find specific elements in the network.
+						
+						</font>
+					</p>
+
+					<p>
+						<font face="Arial" size="3">
+							In the menu right to the Assign-group menu, there are few more features as discussed below:
+							<ol>
+								<br>
+								<li><strong>Grid:</strong> This feature shows/hides the grid in the visualization. The purpose of grid is to offer way to spatially organize network via combing different network files.</li>
+								<br>
+								<li><strong>Tooltip:</strong> This feature shows details associated with individual elements of the network. For KEGG metabolic networks, this also offers more options to explore metabolite, rxn and gene details from the KEGG database.  
+								</li>
+								<br>
+								<li><strong> Reaction node name:</strong> This feature show and hide the name of reaction nodes of the metabolic network. These reactions nodes also called as link nodes connecting various metabolite nodes together to represent a chemical reaction.
+								</li>
+								<br>
+								<li><strong> Link node:</strong> Show or hide the link node.
+								</li>
+							</ol>
+						
+						</font>
+
+						<font face="Arial" size="3">
+							<strong>Attribute Menu:</strong> This provide all the options that user can vary as desired. They are grouped into text, rectangle, spacing, node,link, image resolution and freeze degree. User can vary various attributes by adjusting slider below the menu. On either side of slider, there are inputs where user can provide values to adjust the range of the slider for different attributes as required. There is a limit of +-1000 units value. Anything above or below absolute 1000 units will set default to 1000 value. User can select network elements on which such modifications can be implemented by selecting them by either clicking on them individually or using shift key with mouse drag to scan the area interested.
+							
+							<ol>
+								<br>
+								<li><strong>Text:</strong> Provides options for changing font-size, x and y position of text relative to node position.</li>
+								<br>
+								<li><strong>Rectangle:</strong> Provides options for changing width, height, border thickness, corner roundness of the selected rectangles. 
+								</li>
+								<br>
+								<li><strong> Spacing:</strong> Provides options for changing linear spacing, circular spacing between elements of network.
+								</li>
+								<br>
+								<li><strong>Node:</strong> Changes the size of the node.
+								</li>
+								<br>
+								<li><strong>Link:</strong> Changes the thickness of the link/edges.
+								</li>
+								<br>
+								<li><strong>Image resolution:</strong> Allow user to vary image resolution for the png image download as desired. While if there is a image imported into the visualization then option to change the dimension of image file while maintaining the aspect ratio of the selected image the same. 
+								</li>
+								<br>
+								<li><strong>Freeze degree:</strong> This option control how much internal computation for simulation or user interaction such as dragging user want to compromise. Magnitude closer to 1 prevents all the dragging of network elements. More precisely, element can still move but their new position will not update immediately. However, when user want to move some other element, previously moved elements will have new position. If magnitude value is reduced to 0.5-0.3, user can get dragging behaviour but may not be as smooth as you will have if you choose magnitude value to 0.01. As you will notice with big files, having very small value for freeze make everything very slow as internal computation takes time to update changes user made. Thus this features improve user experience by avoiding unneccesary computation.
+								</li>
+								<br>
+							</ol>
+						
+						</font>
+					</p>
+					
+					<p>
+						<font face="Arial" size="3">
+							<strong>Color Scale Menu:</strong> D3 library provides several sequential, diverging color scales with single or multiple hues. <a href="https://github.com/d3/d3-scale-chromatic" target="_blank"><span>Click here for more detail.</span></a> 
+							
+							<br><br>
+							
+							<strong>Invert:</strong> Invert the color scale. 
+							
+							<br><br>
+							
+							<strong>Color scale:</strong> This shows the color scale chosen from the Color Scale Menu. It also offers a thin black strip which can be dragged using mouse. User can select network element and set the color by dragging the black strip.
+						</font>
+					</p>
+					
+					<p>
+						<font face="Arial" size="3"> <a class="offset" name="edit_tools"></a>
+						
+						In addition to above features, the web-application has another menu which pop-up on mouse right click on the visualization screen. It offers options like file upload to download into various formats and various geometric operation to make organization of network elements easier and faster.
+						
+						<br><br> 
+						
+						Below we provide the list of options provided in the pop-up menu:
+				
+							<ol>																
+								<li><strong>Insert:</strong> 						
+									<ul>
+										<br>
+										<li><strong>Text:</strong> 
+										Add arbitrary text to the visualization to add necessary information. The font size and color can be adjusted using attribute Menu discussed above.
+										</li>
+										<br>
+										<li><strong>Reaction:</strong> 
+										Add two nodes connected by a directed edges.
+										</li>
+										<br>
+										<li><strong>Node:</strong> 					
+										Add a node element of the network. Note: User cannot connect nodes together and build the network as the tool will exclude such connections while uploading network file. Node must connect to link node and vice versa.
+										</li>
+										<br>
+										<li><strong>Link node:</strong> 
+										Add a link node of the network. This allow connecting two network elements. Note: User cannot connect nodes together and build the network as the tool will exclude such connections while uploading network file. Node must connect to link node and vice versa.
+										</li>
+										<br>
+										<li><strong>Rectangle:</strong> 
+										Add a rectangle to the visualization. Its attributes such as border thickness, roundness and color can be adjusted using attribute menu discussed above.
+										</li>
+										<br>
+										<li><strong>Color scale:</strong> 						
+										Add color scale which appears on the bottom of the taskbar. This scale allow interpretation of data when loaded onto the network.
+										</li>
+										<br>
+									</ul>
+								</li>
+								
+								<li><strong>Select:</strong> 						
+									<ul>
+										<br>
+										<li><strong>Node:</strong> 
+										Select only nodes which were scanned using shift key.
+										</li>
+										<br>
+										<li><strong>Link node:</strong> 
+										Select only link nodes which were scanned using shift key.
+										</li>
+										<br>
+										<li><strong>Link:</strong>
+										Select links connected to selected nodes which were scanned using shift key.
+										 </li>
+										<br>
+										<li><strong>Both nodes and links:</strong> 
+										Select both nodes and links which were scanned using shift key.						
+										</li>
+										<br>
+									</ul>
+								</li>
+								
+								<li><strong>Delete:</strong> 						
+									<ul>
+										<br>
+										<li><strong>Only selected:</strong> 
+										Delete only selected network element/s or other elements created in the visualization.
+										</li>
+										<br>
+										<li><strong>All:</strong> 
+										Delete everything on the visualization screen.
+										</li>
+										<br>
+										<li><strong>Color scale:</strong> 						
+										Delete color scale which can be added using insert option.
+										</li>
+									</ul>
+								</li>
+								<br>
+								<li><strong>Geometric Operations:</strong> 						
+									<ul>
+										<br>
+										<li><strong>Alignment:</strong>
+											<ul>
+												<br>
+												<li><strong>Horizontal:</strong> 
+												Horizontal alignment of selected network elements. User can use this option to align selected nodes, rectangles or images used in the visualization.
+												</li>
+												<br>
+												<li><strong>Vertical:</strong> 
+												Vertical alignment of selected network elements. User can use this option to align selected nodes, rectangles or images used in the visualization.
+												</li>
+												<br>
+												<li><strong>Circular:</strong> 
+												Circular alignment of selected network elements. This form a equi-spaced ring. It is important to select network elements that user wants to appears as a ring.
+												</li>
+												<br>
+											</ul>
+										</li>
+										<br>
+										<li><strong>Layers:</strong> 
+											This web-application creates various svg elements and group them in classes. For examples, the nodes are grouped under nodes group, links are grouped under links group, rectangles are group under rectangles group etc. How and when certain group is created decides which elements will come on the top of others. However, user may prefer to reorder these groups to built more appealing visualization. To do that, the application offers way to push different group at the top or bottom.  
+											<br>
+											<ul>
+												<br>
+												<li><strong>Bring to front:</strong> 
+												Bring entire group of elements at the top.
+												</li>
+												<br>
+												<li><strong>Push it back:</strong> 
+												Pushes all the elements of the group at the bottom.
+												</li>
+											</ul>
+											<br>
+											These options changes the order of groups but not the order of elements within individual group. This way user can push rectangle svg group at the bottom so that the network can be visualized on the top of it. However, when multiple rectangles are created, user need to manage how different rectangles will order themselves based on order of their creations. 
+										</li>
+										<br>
+										<li><strong>Duplicate:</strong> 
+										This option allow user to make duplicates of selected network elements. Using this, certain part of the network can be duplicated and its nodes and links can be colored or change their size to highlight different group of data. This feature is basically to create a simplified network representation to compare different datasets.
+										</li>
+										<br>
+										<li><strong>Rotation:</strong> 				
+										Rotate selected network elements about their centeriod.		
+										</li>
+										<br>
+										<li><strong>Make arcs:</strong> 						
+										Make curved edges. For example, it makes nice curved edges for circular loops in the network.
+										</li>
+										<br>
+										<li><strong>Remove arcs:</strong>
+										Revert back curved edges to straight. 						
+										</li>
+										<br>
+										<li><strong>Highlight:</strong>
+										Change opacity to 1.0 to selected network elements. This feature also allow user to select which reactions will be selected to be included for the KGML file of the network. Only nodes and edges whose opacity is 1.0 will be included in the KGML file.						
+										</li>
+										<br>
+										<li><strong>Un-Highlight:</strong> 					
+										Change opacity to 0.5 to selected network elements. This feature also allow user to select which reactions will be selected to be included for the KGML file of the network. Nodes and edges whose opacity is 0.5 will be excluded in the KGML file.												
+										</li>
+									</ul>
+								</li>
+								<br>
+								<li><strong>Undo:</strong>
+								It only undo nodes movements or dragging event by the user. If you delete or insert any network element, Undo cannot revert to the previous network. 
+								</li>
+								<br>
+								<li><strong>Redo:</strong>
+								It only redo nodes movements or dragging event by the user. If you delete or insert any network element, Undo cannot revert to the previous network.
+								</li>
+								<br>
+								<li><strong>Help:</strong>
+								Opens up User Manual.
+								</li>
+							</ol>
+						</font>
+					</p>
+					
+					<p>
+						<font face="Arial" size="3"> <a class="offset" name="tutorial"></a>
+						
+							<strong>Tutorial:</strong> This tutorial features a sample dataset with intracellular, extracellular and flux metabolomics data from two organisms: Staphylococcus aureus (SA) and Pseudomonas aeruginosa (PA). In this tutorial, you will learn how to download a basic network pathway from the KEGG database, add additional reactions to the network, and upload a dataset onto your custom network. 
+							<ul>
+								<li><strong>Part 1: Downloading the ortholog network:</strong> 
+									<br>
+									<ol>
+										<br>
+										<li>Download the sample dataset and save in a new folder.</li>
+										<br>
+										<li> Step 2. Click the “Simulation ON” buttons. They should now read “Simulation OFF” and “Conserve style” – this preserves the pre-set network layout and it is important that you use this step if you want to preserve a specific network architecture. Open up the network tool and click on 'KEGG Database'. </li> 
+										<br>
+										<img src="images/Screenshot from 2022-09-28 00-56-58.png" width=500 />
+										<br><br>
+										<li> Type in 'Arginine biosynthesis' in the search bar and select 'Arginine Biosynthesis' under the Selected Ortholog Maps subheading.</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 00-57-37.png" width=500 />
+										<br><br>
+										<li>Click on the Select Rxns drop-down menu and click 'Select All'. </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 00-57-54.png" width=500 />
+										<br><br>
+										<li> You should now see the Arginine Biosynthesis network. Adjust the position of the network on the screen by dragging with your cursor and zoom in or out using the scroll function on your mouse. </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 00-58-21.png" width=500 />
+										<br><br>
+										<li> Right-click on the screen and select Export > Network > JSON. Save this file (in json format) in the same folder as the sample dataset.  </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 00-58-44.png" width=500 />
+										<br><br>
+									</ol>
+								</li>
+								
+								<li><strong>Part 2: Downloading the organism network:</strong> 
+								<br>
+									<ol>
+										<br>
+										<li> You can refresh your browser or just click on the KEGG Organisms list drop-down menu. Search for “Pseudomonas aeruginosa” and select the first strain (PA01).  </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-00-27.png" width=500 />
+										<br><br>
+										<li>Click on the KEGG Database drop-down menu and search for “Arginine Biosynthesis”. Select 'Arginine biosynthesis' under the List of Pathways subheading. </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 08-36-53.png" width=500 />
+										<br><br>
+										<li>A new window will pop up with an XML file. Right click on the file and select 'Save as…'. Save in the same folder as the other files from this tutorial. </li>
+										<br>
+										<li> To open up this XML file and save as a JSON file, return to the network tool screen and refresh your browser (you do not need to click Simulation ON this time as we do not need to preserve the network layout - for this step only). Right-click on the center of the screen and select Import > Network file. Then select your XML file from your tutorial folder and click on the Select Rxns drop-down menu and “Select All”. To export as a JSON file, right-click on the screen and select Export > Network > JSON. Save this file in your tutorial folder.  </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-03-08.png" width=500 />
+										<br><br>
+									</ol>
+								</li>
+								
+								<li><strong>Part 3: Combining the ortholog and organism networks:</strong> 
+								<br>
+									<ol>
+										<br>
+										<li>Refresh your browser again and this time, we will persevere the network architecture so click on the Simulation ON and Default style buttons (they should now read Simulation OFF and Conserve style). Right-click on the network screen and select Import > Network. Select both the Ortholog and KEGG networks in your folder (in json format for both) by selecting with the ctrl or shift key and clicking Open. Click on Select Rxns > Select all and the network will appear on the screen with known reactions in the PA01 metabolic network shown with black lines/nodes and unannotated reactions shown with light grey lines/nodes. Right click to export this file in JSON format as before and save as “KEGG_pae_Arginine biosynthesis_combined” in your tutorial folder. We recommended to save many versions of your network as you make changes and then refresh/upload the new version to avoid losing network data and to decrease the lag time when adding new features to the network.  </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-04-01.png" width=500 />
+										<br><br>
+									</ol>
+								</li>
+								
+								<li><strong>Part 4: Adding reactions to the network:</strong>
+									<ol>
+										<br>
+										<li> Refresh your browser, then click Simulation OFF and Default style so you are now in Conserve style. Upload the combined network using the right-click Import > Network function and Select all under the Select Rxns drop-down menu. To add a boundary flux reaction (transport of extracellular metabolites) for L-Arginine, right click on the screen above L-Arginine and select Insert > Reaction.</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-04-25.png" width=500 />
+										<br><br>
+										<li> To view the reaction node name and enter the grid mode, click on the Grid, Tooltip drop-down menu and un-select Grid and Reaction node name (they will change from a blue to a white color).</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-05-52.png" width=500 />
+										<br><br>
+										<li>  Double-click on the text beside the new reaction nodes change the names. For the grey reaction node, change the name to “L-Arginine outflux” and change the white metabolite node name to “L-Arginine”. You do not need to change the Subsystem or gene names (but these can be added your future visualizations if desired). 
+										</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-07-32.png" width=500 />
+										<br><br>
+										<li> Click outside the blue tooltip box and then click and drag to re-arrange the reaction node so that the white metabolite node is on top of the reaction node. To align the new reaction with the rest of the network, click the SHIFT key until a + sign appears, then de-press the SHIFT key and drag your cursor over the nodes L-Arginine down to N-acetyl-L-citrulline in the original network. Once those are all highlighted in green, left-click on the network screen to remove the + sign, then right click to select Geometric operations > Alignment > Vertical from the menu. If you make a mistake with alignment, you can use the right-click menu to select the Undo option.</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-08-16.png" width=500 />
+										<br><br>
+										<li>To connect your new outflux reaction to the rest of the network, hold down the CTRL key and then left-click on the L-Arginine node on the original network then drag your cursor to the L-Arginine outflux grey reaction node and release (while holding CTRL the whole time). A black line connecting those two nodes will appear (you may have to repeat this if you drag over some text while performing this step).  </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-08-38.png" width=500 />
+										<br><br>
+										<li>Export this new network using the right-click menu Export > Network > JSON option and save in your tutorial folder under the name “KEGG_pae_Arginine biosynthesis_combined_rxn”. Refresh your browser, and select the Simulation ON and Default style buttons to preserve the network layout. Re-upload your new network file using the Import > Network option and select all reactions under the Select Rxns menu. The network with your outflux reaction should appear (note that the default mode will not show reaction node names, only the metabolite node names – you can un-select “Reaction node names” on the Grid, Tooltip drop-down menu to see or edit reaction names).  </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-09-04.png" width=500 />
+										<br><br>
+									</ol>
+								</li>
+								
+								<li><strong>Part 5: Uploading data to the network:</strong> 
+									<ol>
+										<br>
+										<li> Right click on the network screen and select Import > Datafile then select the tutorial datafile you saved at the beginning. To classify different metabolite nodes according to the groups they are in, click the SHIFT key and drag on the intracellular nodes (in the middle of the network), then use the right-click menu to choose Select > Node.</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-09-30.png" width=500 />
+										<br><br>
+										<li>Click on the Group drop-down menu (it is currently displaying “extracellular”) and select “intracellular”. Then left-click on the network screen to deselect those nodes. Repeat this for the extracellular node (the L-Arginine node that you added manually - only highlight the white metabolite node, not the grey reaction node) but this time select “extracellular” from the drop-down menu. </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 08-46-07.png" width=500 />
+										<br><br>
+										
+										<li> To normalize the data for each group, click on the left-hand drop-down menu “None” and click on “Control Normalization” under the extracellular subheading.</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 08-50-46.png" width=500 />
+										<br><br>
+										<li> Next click on the right-hand menu labeled None and select scaling. Drag the slider bar to your desired scaling value, in this case 2. Now repeat this process for the intracellular subheading (select “Control Normalization”). In order for the scaling factor to register, you need to slide the bar away from 2, release, then slide to 2 again (each time you adjust the parameters for a different Group). Under the link group, select “None” and then adjust the scaling to 1 as these data are already normalized and do not require additional normalization steps. </li>
+										
+										<br>
+										
+										<li>Now click “Invert” on the color bar on the bottom of the menu so blue values represent the lowest concentrations while red values represent the highest concentrations (for your own visualizations, you can use any color scheme).</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-37-34.png" width=500 />
+										<br><br>
+										<li>We will start by visualizing the S. aureus data (SA). Click on the menu at the top of the screen which displays “PA” and select “SA” instead. The nodes on the screen which have data should now be colored and the outflux reaction should have a bolded arrow. </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 09-22-32.png" width=500 />
+										<br><br>
+										<li>To change the timepoint to 6hr, select the menu with “12hr” displayed and select “6hr”. For cleaner final visualizations, you can select “Link node” from the Grid, Tooltip drop-down menu to remove the grey link nodes from your network (this will not remove white metabolite nodes).</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-39-19.png" width=500 />
+										<br><br>
+										<li>Now you have all your data uploaded, so try different organisms and timepoints to view all aspects of your data. To practice some of these features, you can try adding another reaction to the network (after refreshing your browser to remove data from the network). For example, try adding an L-Glutamine outflux reaction in the same way you added L-Arginine outflux. This program contains many more features which are not included in this basic tutorial, but we recommend you read through the instruction manual to find out more about additional features to customize your networks. </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-39-52.png" width=500 />
+										<br><br>
+									</ol>
+								
+								 </li>
+								
+							</ul>
+						
+						</font>
+					</p>
+					
+					
+					
+					<p>
+						<a class="offset" name="copyright"></a>
+						<font face="Arial" size="3">	
+							<br><br><br>
+							For any further questions, please contact at this email address: <strong>ayush.mandwal@ucalgary.ca</strong> 
+							<br><br><br>
+							This tool has MIT-open-access for public use.<br><br>
+							
+							<strong>Copyright 2021 AYUSH MANDWAL</strong><br><br>
+						
+							Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:<br><br>
+
+							The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.<br><br>
+
+							THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+							<br><br>
+							<img src="OpenSourceInitiativeLogo.png" alt="Italian Trulli" style="width:150px;height:100px;">
+							
+						</font>
+					</p>
+				
+				</p>
+
+    </div>
+    <!--end content div-->
+  </div>
+
+</div>
+<!--end nav-body div-->
+
+</body>
+
+</html>

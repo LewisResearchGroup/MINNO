@@ -1,0 +1,6603 @@
+{
+    "reaction": [
+        {
+            "substrate": [
+                {
+                    "id": "10", 
+                    "name": "cpd:C00251"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "9", 
+                    "name": "cpd:C11355"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "69", 
+            "name": "rn:R01716"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "9", 
+                    "name": "cpd:C11355"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "25", 
+                    "name": "cpd:C00568"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "70", 
+            "name": "rn:R05553"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "29", 
+                    "name": "cpd:C03541"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "30", 
+                    "name": "cpd:C03541"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "71", 
+            "name": "rn:R04241"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C00101"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "29", 
+                    "name": "cpd:C09332"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "72", 
+            "name": "rn:R00942"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C00101"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "26", 
+                    "name": "cpd:C00415"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "73", 
+            "name": "rn:R00936 rn:R00939"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "26", 
+                    "name": "cpd:C00415"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "27", 
+                    "name": "cpd:C00504"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "74", 
+            "name": "rn:R02235 rn:R02236"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "24", 
+                    "name": "cpd:C00921"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "26", 
+                    "name": "cpd:C00415"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "75", 
+            "name": "rn:R02237"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "25", 
+                    "name": "cpd:C00568"
+                }, 
+                {
+                    "id": "23", 
+                    "name": "cpd:C04807"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "24", 
+                    "name": "cpd:C00921"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "76", 
+            "name": "rn:R03067"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "22", 
+                    "name": "cpd:C01300"
+                }, 
+                {
+                    "id": "25", 
+                    "name": "cpd:C00568"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "24", 
+                    "name": "cpd:C00921"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "77", 
+            "name": "rn:R03066"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "22", 
+                    "name": "cpd:C01300"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "23", 
+                    "name": "cpd:C04807"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "78", 
+            "name": "rn:R03503"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "20", 
+                    "name": "cpd:C04874"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "22", 
+                    "name": "cpd:C01300"
+                }, 
+                {
+                    "id": "21", 
+                    "name": "cpd:C00266"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "79", 
+            "name": "rn:R03504"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C04895"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "33", 
+                    "name": "cpd:C05925"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "81", 
+            "name": "rn:R04638"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "19", 
+                    "name": "cpd:C00268"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00272"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "82", 
+            "name": "rn:R01793 rn:R01794"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "16", 
+                    "name": "cpd:C03684"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00272"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "172", 
+            "name": "rn:R08208"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "38", 
+                    "name": "cpd:C06148"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C04895"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "83", 
+            "name": "rn:R04639"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "35", 
+                    "name": "cpd:C05923"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "38", 
+                    "name": "cpd:C06148"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "84", 
+            "name": "rn:R05048"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "36", 
+                    "name": "cpd:C05922"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "35", 
+                    "name": "cpd:C05923"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "85", 
+            "name": "rn:R05046"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "14", 
+                    "name": "cpd:C00044"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "36", 
+                    "name": "cpd:C05922"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "188", 
+            "name": "rn:R00428"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "27", 
+                    "name": "cpd:C00504"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C00101"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "86", 
+            "name": "rn:R00937 rn:R00940"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "24", 
+                    "name": "cpd:C00921"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "26", 
+                    "name": "cpd:C00415"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "87", 
+            "name": "rn:R02237"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "30", 
+                    "name": "cpd:C03541"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C00101"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "88", 
+            "name": "rn:R04242"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C04895"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "20", 
+                    "name": "cpd:C04874"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "89", 
+            "name": "rn:R04620"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C04895"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "16", 
+                    "name": "cpd:C03684"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "90", 
+            "name": "rn:R04286"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "14", 
+                    "name": "cpd:C00044"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "121", 
+                    "name": "cpd:C21310"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "100", 
+            "name": "rn:R09394"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "98", 
+                    "name": "cpd:C18239"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "34", 
+                    "name": "cpd:C05924"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "101", 
+            "name": "rn:R09395"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C04895"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C20239"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "103", 
+            "name": "rn:R09959"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C20239"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "106", 
+                    "name": "cpd:C20248"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "109", 
+            "name": "rn:R10002"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "106", 
+                    "name": "cpd:C20248"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C15996"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "110", 
+            "name": "rn:R09978"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C15996"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "108", 
+                    "name": "cpd:C16675"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "111", 
+            "name": "rn:R07605"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "31", 
+                    "name": "cpd:C05927"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C01217"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "112", 
+            "name": "rn:R03388"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C01217"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "114", 
+                    "name": "cpd:C18802"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "115", 
+            "name": "rn:R09594"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "16", 
+                    "name": "cpd:C03684"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "117", 
+                    "name": "cpd:C02587"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "118", 
+            "name": "rn:R03984"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "31", 
+                    "name": "cpd:C05927"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C01217"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "119", 
+            "name": "rn:R10802"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "121", 
+                    "name": "cpd:C21310"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "98", 
+                    "name": "cpd:C18239"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "124", 
+            "name": "rn:R11372"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "34", 
+                    "name": "cpd:C05924"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "123", 
+                    "name": "cpd:C19848"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "125", 
+            "name": "rn:R09726"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "123", 
+                    "name": "cpd:C19848"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "128", 
+                    "name": "cpd:C18237"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "129", 
+            "name": "rn:R09735"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "128", 
+                    "name": "cpd:C18237"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "130", 
+                    "name": "cpd:C19871"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "133", 
+            "name": "rn:R11581"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "128", 
+                    "name": "cpd:C18237"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "131", 
+                    "name": "cpd:C21485"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "134", 
+            "name": "rn:R11582"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "128", 
+                    "name": "cpd:C18237"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "132", 
+                    "name": "cpd:C21486"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "135", 
+            "name": "rn:R11583"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C04895"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "138", 
+                    "name": "cpd:C21094"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "137", 
+            "name": "rn:R11082"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "16", 
+                    "name": "cpd:C03684"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "139", 
+                    "name": "cpd:C20264"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "141", 
+            "name": "rn:R09990"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "144", 
+                    "name": "cpd:C15522"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "19", 
+                    "name": "cpd:C00268"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "143", 
+            "name": "rn:R04734"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "14", 
+                    "name": "cpd:C00044"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "147", 
+                    "name": "cpd:C20567"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "146", 
+            "name": "rn:R10348"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "147", 
+                    "name": "cpd:C20567"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "33", 
+                    "name": "cpd:C05925"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "150", 
+            "name": "rn:R10344"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "147", 
+                    "name": "cpd:C20567"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "151", 
+                    "name": "cpd:C20566"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "152", 
+            "name": "rn:R10345"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "20", 
+                    "name": "cpd:C04874"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "156", 
+                    "name": "cpd:C21065"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "155", 
+            "name": "rn:R11037"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "208", 
+                    "name": "cpd:C20559"
+                }, 
+                {
+                    "id": "23", 
+                    "name": "cpd:C04807"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "158", 
+                    "name": "cpd:C20562"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "160", 
+            "name": "rn:R10339"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "163", 
+                    "name": "cpd:C00156"
+                }, 
+                {
+                    "id": "164", 
+                    "name": "cpd:C00119"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "161", 
+                    "name": "cpd:C21107"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "209", 
+            "name": "rn:R11102"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00272"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "144", 
+                    "name": "cpd:C15522"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "169", 
+            "name": "rn:R07211"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00272"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "144", 
+                    "name": "cpd:C15522"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "170", 
+            "name": "rn:R07212"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00272"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "144", 
+                    "name": "cpd:C15522"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "171", 
+            "name": "rn:R07213"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "185", 
+                    "name": "cpd:C01304"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "33", 
+                    "name": "cpd:C05925"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "186", 
+            "name": "rn:R11072"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "174", 
+                    "name": "cpd:C21008"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "177", 
+                    "name": "cpd:C21007"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "176", 
+            "name": "rn:R11019"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "20", 
+                    "name": "cpd:C04874"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "174", 
+                    "name": "cpd:C21008"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "179", 
+            "name": "rn:R11073"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "33", 
+                    "name": "cpd:C05925"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "22", 
+                    "name": "cpd:C01300"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "181", 
+            "name": "rn:R11718"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C04895"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "22", 
+                    "name": "cpd:C01300"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "183", 
+            "name": "rn:R11719"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "14", 
+                    "name": "cpd:C00044"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "185", 
+                    "name": "cpd:C01304"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "189", 
+            "name": "rn:R00425"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "17", 
+                    "name": "cpd:C04244"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00272"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "191", 
+            "name": "rn:R01813"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "192", 
+                    "name": "cpd:C00835"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "193", 
+                    "name": "cpd:C02953"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "195", 
+            "name": "rn:R02975"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "193", 
+                    "name": "cpd:C02953"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00272"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "197", 
+            "name": "rn:R11765"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "16", 
+                    "name": "cpd:C03684"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "17", 
+                    "name": "cpd:C04244"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "199", 
+            "name": "rn:R04285"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "16", 
+                    "name": "cpd:C03684"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "17", 
+                    "name": "cpd:C04244"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "200", 
+            "name": "rn:R04285"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "16", 
+                    "name": "cpd:C03684"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "198", 
+                    "name": "cpd:C21640"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "201", 
+            "name": "rn:R11763"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "198", 
+                    "name": "cpd:C21640"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00272"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "203", 
+            "name": "rn:R11764"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "192", 
+                    "name": "cpd:C00835"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "193", 
+                    "name": "cpd:C02953"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "206", 
+            "name": "rn:R02975"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "211", 
+                    "name": "cpd:C06313"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00272"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "212", 
+            "name": "rn:R01812"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "211", 
+                    "name": "cpd:C06313"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "193", 
+                    "name": "cpd:C02953"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "214", 
+            "name": "rn:R12644"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "193", 
+                    "name": "cpd:C02953"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00272"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "215", 
+            "name": "rn:R11765"
+        }
+    ], 
+    "links": [
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M371,619L371,599", 
+            "kegg_id": "rn:R01716", 
+            "source": "10", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "69"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M371,591L371,563", 
+            "kegg_id": "rn:R01716", 
+            "source": "69", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "9"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M371,555L371,535", 
+            "kegg_id": "rn:R05553", 
+            "source": "9", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "70"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M371,527L371,499", 
+            "kegg_id": "rn:R05553", 
+            "source": "70", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "25"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,821L547,859", 
+            "kegg_id": "rn:R04241", 
+            "source": "29", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "71", 
+            "target": "71"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,867L547,829", 
+            "kegg_id": "rn:R04241", 
+            "source": "71", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "71", 
+            "target": "29"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,867L547,900", 
+            "kegg_id": "rn:R04241", 
+            "source": "71", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "71", 
+            "target": "30"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,908L547,875", 
+            "kegg_id": "rn:R04241", 
+            "source": "30", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "71", 
+            "target": "71"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,735L547,773", 
+            "kegg_id": "rn:R00942", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "72", 
+            "target": "72"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,781L547,743", 
+            "kegg_id": "rn:R00942", 
+            "source": "72", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "72", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,781L547,813", 
+            "kegg_id": "rn:R00942", 
+            "source": "72", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "72", 
+            "target": "29"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,821L547,789", 
+            "kegg_id": "rn:R00942", 
+            "source": "29", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "72", 
+            "target": "72"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,735L547,702", 
+            "kegg_id": "rn:R00936", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "73", 
+            "target": "73"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,694L547,727", 
+            "kegg_id": "rn:R00936", 
+            "source": "73", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "73", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,694L547,656", 
+            "kegg_id": "rn:R00936", 
+            "source": "73", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "73", 
+            "target": "26"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,648L547,686", 
+            "kegg_id": "rn:R00936", 
+            "source": "26", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "73", 
+            "target": "73"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,648L508.9981103105913,648.8261280367262", 
+            "kegg_id": "rn:R02235", 
+            "source": "26", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "74"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M501,649L539.0018896894087,648.1738719632738", 
+            "kegg_id": "rn:R02235", 
+            "source": "74", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "26"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M501,649L462.9981103105913,648.1738719632738", 
+            "kegg_id": "rn:R02235", 
+            "source": "74", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "27"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M455,648L493.0018896894087,648.8261280367262", 
+            "kegg_id": "rn:R02235", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "74"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,567L567.9081291218586,602.1256569247223", 
+            "kegg_id": "rn:R02237", 
+            "source": "24", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "75"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M572,609L551.3173289177635,641.264966888289", 
+            "kegg_id": "rn:R02237", 
+            "source": "75", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "26"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M371,491L540.160506701807,525.4055267868082", 
+            "kegg_id": "rn:R03067", 
+            "source": "25", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "76", 
+            "target": "76"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,465L547.8709845222539,519.001040379743", 
+            "kegg_id": "rn:R03067", 
+            "source": "23", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "76", 
+            "target": "76"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M548,527L547.1999375292817,559.002498828735", 
+            "kegg_id": "rn:R03067", 
+            "source": "76", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "76", 
+            "target": "24"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,361L502.1793897373069,519.3025809278096", 
+            "kegg_id": "rn:R03066", 
+            "source": "22", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "77", 
+            "target": "77"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M371,491L492.29442958933356,524.8496082574884", 
+            "kegg_id": "rn:R03066", 
+            "source": "25", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "77", 
+            "target": "77"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M500,527L540.9076848824334,561.8150509637732", 
+            "kegg_id": "rn:R03066", 
+            "source": "77", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "77", 
+            "target": "24"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,361L547.8620894619933,411.001188795608", 
+            "kegg_id": "rn:R03503", 
+            "source": "22", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "78", 
+            "target": "78"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M548,419L547.1738719632738,457.0018896894087", 
+            "kegg_id": "rn:R03503", 
+            "source": "78", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "78", 
+            "target": "23"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,278L547,314", 
+            "kegg_id": "rn:R03504", 
+            "source": "20", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "79", 
+            "target": "79"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,322L547,353", 
+            "kegg_id": "rn:R03504", 
+            "source": "79", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "79", 
+            "target": "22"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,322L602.2175502825171,335.14703578155166", 
+            "kegg_id": "rn:R03504", 
+            "source": "79", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "79", 
+            "target": "21"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,142L419.68571346272915,178.7796827774338", 
+            "kegg_id": "rn:R04638", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "81", 
+            "target": "81"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M412,181L411.21045345670586,211.0027686451772", 
+            "kegg_id": "rn:R04638", 
+            "source": "81", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "81", 
+            "target": "33"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1135,444L1135.8000624707183,411.99750117126496", 
+            "kegg_id": "rn:R01793", 
+            "source": "19", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "82", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1136,404L1135.1999375292817,436.00249882873504", 
+            "kegg_id": "rn:R01793", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "82", 
+            "target": "19"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1136,404L1135.1738719632738,365.9981103105913", 
+            "kegg_id": "rn:R01793", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "82", 
+            "target": "18"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1135,358L1135.8261280367262,396.0018896894087", 
+            "kegg_id": "rn:R01793", 
+            "source": "18", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "82", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1135,208L1135.8947459530377,276.0006924308664", 
+            "kegg_id": "rn:R08208", 
+            "source": "16", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "172", 
+            "target": "172"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1136,284L1135.1080982383762,350.0007303601604", 
+            "kegg_id": "rn:R08208", 
+            "source": "172", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "172", 
+            "target": "18"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M321,142L368.0013219862934,142.85456949065988", 
+            "kegg_id": "rn:R04639", 
+            "source": "38", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "83", 
+            "target": "83"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M376,143L539.0001367907188,142.04678282578527", 
+            "kegg_id": "rn:R04639", 
+            "source": "83", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "83", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M156,142L223.00071101631033,142.89334281355082", 
+            "kegg_id": "rn:R05048", 
+            "source": "35", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "84", 
+            "target": "84"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M231,143L313.00049378144047,142.08888340242845", 
+            "kegg_id": "rn:R05048", 
+            "source": "84", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "84", 
+            "target": "38"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M156,212L156,189", 
+            "kegg_id": "rn:R05046", 
+            "source": "36", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "85", 
+            "target": "85"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M156,181L156,150", 
+            "kegg_id": "rn:R05046", 
+            "source": "85", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "85", 
+            "target": "35"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,278L163.12953234500634,257.1408980958118", 
+            "kegg_id": "rn:R00428", 
+            "source": "14", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "188", 
+            "target": "188"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M157,252L156.1999375292816,219.997501171265", 
+            "kegg_id": "rn:R00428", 
+            "source": "188", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "188", 
+            "target": "36"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M455,648L497.2939663252505,728.9101964483053", 
+            "kegg_id": "rn:R00937", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "86", 
+            "target": "86"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M501,736L539.0018896894087,735.1738719632738", 
+            "kegg_id": "rn:R00937", 
+            "source": "86", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "86", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,567L526.0918708781414,602.1256569247223", 
+            "kegg_id": "rn:R02237", 
+            "source": "24", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "87", 
+            "target": "87"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M522,609L542.6826710822365,641.264966888289", 
+            "kegg_id": "rn:R02237", 
+            "source": "87", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "87", 
+            "target": "26"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,908L600.7002002103586,823.7462376009892", 
+            "kegg_id": "rn:R04242", 
+            "source": "30", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "88", 
+            "target": "88"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M605,817L551.6197177650145,741.5313251160549", 
+            "kegg_id": "rn:R04242", 
+            "source": "88", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "88", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,142L547.8298257480753,181.00181015954348", 
+            "kegg_id": "rn:R04620", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "89", 
+            "target": "89"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M548,189L547.0898819669783,270.00050493893445", 
+            "kegg_id": "rn:R04620", 
+            "source": "89", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "89", 
+            "target": "20"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,142L1128.007196529276,166.66074688154822", 
+            "kegg_id": "rn:R04286", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "90", 
+            "target": "90"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1136,167L1135.1950639396377,200.0023784748556", 
+            "kegg_id": "rn:R04286", 
+            "source": "90", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "90", 
+            "target": "16"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,278L188,301", 
+            "kegg_id": "rn:R09394", 
+            "source": "14", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "100", 
+            "target": "100"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,309L188,339", 
+            "kegg_id": "rn:R09394", 
+            "source": "100", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "100", 
+            "target": "121"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,416L188,439", 
+            "kegg_id": "rn:R09395", 
+            "source": "98", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "101", 
+            "target": "101"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,447L188,476", 
+            "kegg_id": "rn:R09395", 
+            "source": "101", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "101", 
+            "target": "34"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,142L598.5856059129351,85.88934093680747", 
+            "kegg_id": "rn:R09959", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "103", 
+            "target": "103"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M604,80L652.0012752052364,79.14283437133507", 
+            "kegg_id": "rn:R09959", 
+            "source": "103", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "103", 
+            "target": "104"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M660,79L692.002498828735,79.80006247071837", 
+            "kegg_id": "rn:R10002", 
+            "source": "104", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "109", 
+            "target": "109"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M700,80L745.0014236142118,79.1509165355809", 
+            "kegg_id": "rn:R10002", 
+            "source": "109", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "109", 
+            "target": "106"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M753,79L786.0023784748556,79.80493606036234", 
+            "kegg_id": "rn:R09978", 
+            "source": "106", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "110", 
+            "target": "110"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M794,80L838.0014788797612,79.15381771385074", 
+            "kegg_id": "rn:R09978", 
+            "source": "110", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "110", 
+            "target": "107"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M846,79L880.002266610047,79.80957777642969", 
+            "kegg_id": "rn:R07605", 
+            "source": "107", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "111", 
+            "target": "111"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M888,80L930.00159952016,79.1599680095968", 
+            "kegg_id": "rn:R07605", 
+            "source": "111", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "111", 
+            "target": "108"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M893,648L871.8201065633589,686.9710039234196", 
+            "kegg_id": "rn:R03388", 
+            "source": "31", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "112", 
+            "target": "112"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M868,694L888.8351406058828,728.1696305936478", 
+            "kegg_id": "rn:R03388", 
+            "source": "112", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "112", 
+            "target": "37"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M893,735L893.8261280367262,773.0018896894087", 
+            "kegg_id": "rn:R09594", 
+            "source": "37", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "115", 
+            "target": "115"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M894,781L893.1999375292817,813.002498828735", 
+            "kegg_id": "rn:R09594", 
+            "source": "115", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "115", 
+            "target": "114"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1135,208L1189.0657770669277,201.02377070104157", 
+            "kegg_id": "rn:R03984", 
+            "source": "16", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "118", 
+            "target": "118"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1197,200L1239.0397024783201,204.20397024783202", 
+            "kegg_id": "rn:R03984", 
+            "source": "118", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "118", 
+            "target": "117"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M893,648L914.1798934366411,686.9710039234196", 
+            "kegg_id": "rn:R10802", 
+            "source": "31", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "119", 
+            "target": "119"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M918,694L897.1648593941172,728.1696305936478", 
+            "kegg_id": "rn:R10802", 
+            "source": "119", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "119", 
+            "target": "37"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,347L188,371", 
+            "kegg_id": "rn:R11372", 
+            "source": "121", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "124", 
+            "target": "124"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,379L188,408", 
+            "kegg_id": "rn:R11372", 
+            "source": "124", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "124", 
+            "target": "98"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,484L188,508", 
+            "kegg_id": "rn:R09726", 
+            "source": "34", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "125", 
+            "target": "125"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,516L188,544", 
+            "kegg_id": "rn:R09726", 
+            "source": "125", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "125", 
+            "target": "123"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,552L188,575", 
+            "kegg_id": "rn:R09735", 
+            "source": "123", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "129", 
+            "target": "129"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,583L188,613", 
+            "kegg_id": "rn:R09735", 
+            "source": "129", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "129", 
+            "target": "128"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,621L189.68651546643716,664.0061443941477", 
+            "kegg_id": "rn:R11581", 
+            "source": "128", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "133", 
+            "target": "133"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M190,672L188.4563983243081,699.0130293246082", 
+            "kegg_id": "rn:R11581", 
+            "source": "133", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "133", 
+            "target": "130"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,621L134.09551454207568,666.8188126392357", 
+            "kegg_id": "rn:R11582", 
+            "source": "128", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "134", 
+            "target": "134"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M128,672L128,699", 
+            "kegg_id": "rn:R11582", 
+            "source": "134", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "134", 
+            "target": "131"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,621L224.00206531564046,621.8182287571736", 
+            "kegg_id": "rn:R11583", 
+            "source": "128", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "135", 
+            "target": "135"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M232,622L273.0016654522924,621.1632313173002", 
+            "kegg_id": "rn:R11583", 
+            "source": "135", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "135", 
+            "target": "132"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,142L596.2002835717929,153.22111730584749", 
+            "kegg_id": "rn:R11082", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "137", 
+            "target": "137"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M604,155L554.7997164282071,143.77888269415251", 
+            "kegg_id": "rn:R11082", 
+            "source": "137", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "137", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M604,155L651.0328543482584,150.72428596834015", 
+            "kegg_id": "rn:R11082", 
+            "source": "137", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "137", 
+            "target": "138"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M659,150L611.9671456517416,154.27571403165985", 
+            "kegg_id": "rn:R11082", 
+            "source": "138", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "137", 
+            "target": "137"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1135,208L880.721501041911,276.9075321603982", 
+            "kegg_id": "rn:R09990", 
+            "source": "16", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "141", 
+            "target": "141"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M873,279L873,343", 
+            "kegg_id": "rn:R09990", 
+            "source": "141", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "141", 
+            "target": "139"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1135,527L1135.8000624707183,494.99750117126496", 
+            "kegg_id": "rn:R04734", 
+            "source": "144", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "143", 
+            "target": "143"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1136,487L1135.18599622199,451.9978375455748", 
+            "kegg_id": "rn:R04734", 
+            "source": "143", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "143", 
+            "target": "19"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,278L250.00081620160393,278.8857259457372", 
+            "kegg_id": "rn:R10348", 
+            "source": "14", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "146", 
+            "target": "146"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M258,279L313.0010076201312,278.1269681330138", 
+            "kegg_id": "rn:R10348", 
+            "source": "146", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "146", 
+            "target": "147"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M321,278L321.7144677559007,257.9949028347804", 
+            "kegg_id": "rn:R10344", 
+            "source": "147", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "150", 
+            "target": "150"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M322,250L403.4451715134669,221.6314571132868", 
+            "kegg_id": "rn:R10344", 
+            "source": "150", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "150", 
+            "target": "33"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M321,278L368.0013219862934,278.85456949065986", 
+            "kegg_id": "rn:R10345", 
+            "source": "147", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "152", 
+            "target": "152"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M376,279L426.001188795608,278.13791053800674", 
+            "kegg_id": "rn:R10345", 
+            "source": "152", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "152", 
+            "target": "151"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,278L596.0012308639199,278.8596707169109", 
+            "kegg_id": "rn:R11037", 
+            "source": "20", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "155", 
+            "target": "155"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M604,279L652.0012752052364,278.1428343713351", 
+            "kegg_id": "rn:R11037", 
+            "source": "155", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "155", 
+            "target": "156"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M671,496L697.1637023668793,471.47152903105064", 
+            "kegg_id": "rn:R10339", 
+            "source": "208", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "160", 
+            "target": "160"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,465L695.0001643604837,465.9487190023108", 
+            "kegg_id": "rn:R10339", 
+            "source": "23", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "160", 
+            "target": "160"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M703,466L750.0013219862934,465.14543050934014", 
+            "kegg_id": "rn:R10339", 
+            "source": "160", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "160", 
+            "target": "158"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M781,562L735,562", 
+            "kegg_id": "rn:R11102", 
+            "source": "163", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "209", 
+            "target": "209"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M762,535L733.3342580445078,557.1135723656654", 
+            "kegg_id": "rn:R11102", 
+            "source": "164", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "209", 
+            "target": "209"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M727,562L679,562", 
+            "kegg_id": "rn:R11102", 
+            "source": "209", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "209", 
+            "target": "161"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1135,358L1226.917552995061,406.2799268256886", 
+            "kegg_id": "rn:R07211", 
+            "source": "18", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "169", 
+            "target": "169"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1234,410L1140.1675379317294,520.8929097170471", 
+            "kegg_id": "rn:R07211", 
+            "source": "169", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "169", 
+            "target": "144"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1135,358L1276.4467652525843,407.3639717660026", 
+            "kegg_id": "rn:R07212", 
+            "source": "18", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "170", 
+            "target": "170"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1284,410L1141.2920117683063,522.059292772538", 
+            "kegg_id": "rn:R07212", 
+            "source": "170", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "170", 
+            "target": "144"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1135,358L1253.0438043659888,425.04888087988166", 
+            "kegg_id": "rn:R07213", 
+            "source": "18", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "171", 
+            "target": "171"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1260,429L1141.295786349618,522.0641035018994", 
+            "kegg_id": "rn:R07213", 
+            "source": "171", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "171", 
+            "target": "144"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M282,212L342.01380501460005,208.46977617561177", 
+            "kegg_id": "rn:R11072", 
+            "source": "185", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "186", 
+            "target": "186"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M350,208L403.1269838604392,217.580275778112", 
+            "kegg_id": "rn:R11072", 
+            "source": "186", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "186", 
+            "target": "33"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M659,219L708.0012308639199,219.85967071691087", 
+            "kegg_id": "rn:R11019", 
+            "source": "174", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "176", 
+            "target": "176"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M716,220L764.0012752052364,219.14283437133506", 
+            "kegg_id": "rn:R11019", 
+            "source": "176", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "176", 
+            "target": "177"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,278L598.3925477854264,225.70582856921527", 
+            "kegg_id": "rn:R11073", 
+            "source": "20", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "179", 
+            "target": "179"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M604,220L552.6074522145736,272.29417143078473", 
+            "kegg_id": "rn:R11073", 
+            "source": "179", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "179", 
+            "target": "20"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M604,220L651.0013219862934,219.14543050934012", 
+            "kegg_id": "rn:R11073", 
+            "source": "179", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "179", 
+            "target": "174"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M659,219L611.9986780137066,219.85456949065988", 
+            "kegg_id": "rn:R11073", 
+            "source": "174", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "179", 
+            "target": "179"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M411,219L471.7319518790134,354.69795497967067", 
+            "kegg_id": "rn:R11718", 
+            "source": "33", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "181", 
+            "target": "181"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M475,362L539.0007714933236,361.1111003959261", 
+            "kegg_id": "rn:R11718", 
+            "source": "181", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "181", 
+            "target": "22"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M547,142L701.3139237005498,355.51612084352803", 
+            "kegg_id": "rn:R11719", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "183", 
+            "target": "183"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M706,362L554.9998417831043,361.050313470334", 
+            "kegg_id": "rn:R11719", 
+            "source": "183", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "183", 
+            "target": "22"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M188,278L226.58611464449842,219.67215228157215", 
+            "kegg_id": "rn:R00425", 
+            "source": "14", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "189", 
+            "target": "189"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M231,213L274.0015374267462,212.15683259947556", 
+            "kegg_id": "rn:R00425", 
+            "source": "189", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "189", 
+            "target": "185"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1073,277L1073.7895465432941,307.00276864517724", 
+            "kegg_id": "rn:R01813", 
+            "source": "17", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "191", 
+            "target": "191"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1074,315L1128.4612877697393,353.390743837685", 
+            "kegg_id": "rn:R01813", 
+            "source": "191", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "191", 
+            "target": "18"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M965,277L985.6030679881898,308.31666334204846", 
+            "kegg_id": "rn:R02975", 
+            "source": "192", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "195", 
+            "target": "195"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M990,315L969.0209636589963,351.08394250652645", 
+            "kegg_id": "rn:R02975", 
+            "source": "195", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "195", 
+            "target": "193"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M965,358L1014.1203438028294,349.382395824065", 
+            "kegg_id": "rn:R11765", 
+            "source": "193", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "197", 
+            "target": "197"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1022,348L1127.0311430643421,357.2947914216232", 
+            "kegg_id": "rn:R11765", 
+            "source": "197", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "197", 
+            "target": "18"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1135,208L1103.8906201660432,236.58699768525764", 
+            "kegg_id": "rn:R04285", 
+            "source": "16", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "199", 
+            "target": "199"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1098,242L1077.6499055497527,270.49013223034615", 
+            "kegg_id": "rn:R04285", 
+            "source": "199", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "199", 
+            "target": "17"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1135,208L1055.4512051678048,239.08803476200728", 
+            "kegg_id": "rn:R04285", 
+            "source": "16", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "200", 
+            "target": "200"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1048,242L1068.3500944502473,270.49013223034615", 
+            "kegg_id": "rn:R04285", 
+            "source": "200", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "200", 
+            "target": "17"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1135,208L1189.9855007306294,238.15333911034517", 
+            "kegg_id": "rn:R11763", 
+            "source": "16", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "201", 
+            "target": "201"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1197,242L1196.228478191191,269.00326330831444", 
+            "kegg_id": "rn:R11763", 
+            "source": "201", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "201", 
+            "target": "198"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1196,277L1196.7895465432941,307.00276864517724", 
+            "kegg_id": "rn:R11764", 
+            "source": "198", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "203", 
+            "target": "203"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1197,315L1141.5737182247253,353.4408083280131", 
+            "kegg_id": "rn:R11764", 
+            "source": "203", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "203", 
+            "target": "18"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M965,277L944.3969320118102,308.31666334204846", 
+            "kegg_id": "rn:R02975", 
+            "source": "192", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "206", 
+            "target": "206"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M940,315L960.9790363410037,351.08394250652645", 
+            "kegg_id": "rn:R02975", 
+            "source": "206", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "206", 
+            "target": "193"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1073,409L1073.600499064449,396.99001871102274", 
+            "kegg_id": "rn:R01812", 
+            "source": "211", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "212", 
+            "target": "212"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1074,389L1127.8681185198263,361.6243987850063", 
+            "kegg_id": "rn:R01812", 
+            "source": "212", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "212", 
+            "target": "18"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1073,409L1029.9984625732538,409.8431674005244", 
+            "kegg_id": "rn:R12644", 
+            "source": "211", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "214", 
+            "target": "214"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1022,410L970.9101281982718,363.39169590017775", 
+            "kegg_id": "rn:R12644", 
+            "source": "214", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "214", 
+            "target": "193"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M965,358L1014.1449330269351,367.48410988239095", 
+            "kegg_id": "rn:R11765", 
+            "source": "193", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "215", 
+            "target": "215"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Folate biosynthesis", 
+            "strength": "2", 
+            "d": "M1022,369L1127.037637021285,358.77509728111386", 
+            "kegg_id": "rn:R11765", 
+            "source": "215", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "215", 
+            "target": "18"
+        }
+    ], 
+    "labels": [], 
+    "boxes": [], 
+    "relation": [
+        {
+            "entry2": "90", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "89", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "83", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "81", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "90", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "89", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "90", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "81", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "89", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "81", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "89", 
+            "subtype": {
+                "name": "compound", 
+                "value": "20"
+            }, 
+            "entry1": "79", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "22"
+            }, 
+            "entry1": "78", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "22"
+            }, 
+            "entry1": "77", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "78", 
+            "subtype": {
+                "name": "compound", 
+                "value": "22"
+            }, 
+            "entry1": "77", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "78", 
+            "subtype": {
+                "name": "compound", 
+                "value": "23"
+            }, 
+            "entry1": "76", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "87", 
+            "subtype": {
+                "name": "compound", 
+                "value": "24"
+            }, 
+            "entry1": "77", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "77", 
+            "subtype": {
+                "name": "compound", 
+                "value": "24"
+            }, 
+            "entry1": "75", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "87", 
+            "subtype": {
+                "name": "compound", 
+                "value": "24"
+            }, 
+            "entry1": "76", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "76", 
+            "subtype": {
+                "name": "compound", 
+                "value": "24"
+            }, 
+            "entry1": "75", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "87", 
+            "subtype": {
+                "name": "compound", 
+                "value": "26"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "87", 
+            "subtype": {
+                "name": "compound", 
+                "value": "26"
+            }, 
+            "entry1": "73", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "75", 
+            "subtype": {
+                "name": "compound", 
+                "value": "26"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "75", 
+            "subtype": {
+                "name": "compound", 
+                "value": "26"
+            }, 
+            "entry1": "73", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "86", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "88", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "86", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "73", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "88", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "73", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "88", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "88", 
+            "subtype": {
+                "name": "compound", 
+                "value": "30"
+            }, 
+            "entry1": "71", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "13", 
+            "subtype": {
+                "name": "compound", 
+                "value": "14"
+            }, 
+            "entry1": "188", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "12", 
+            "subtype": {
+                "name": "compound", 
+                "value": "26"
+            }, 
+            "entry1": "87", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "12", 
+            "subtype": {
+                "name": "compound", 
+                "value": "26"
+            }, 
+            "entry1": "75", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "12", 
+            "subtype": {
+                "name": "compound", 
+                "value": "26"
+            }, 
+            "entry1": "74", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "12", 
+            "subtype": {
+                "name": "compound", 
+                "value": "26"
+            }, 
+            "entry1": "73", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "172", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "126", 
+            "subtype": {
+                "name": "compound", 
+                "value": "10"
+            }, 
+            "entry1": "69", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "9"
+            }, 
+            "entry1": "69", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "77", 
+            "subtype": {
+                "name": "compound", 
+                "value": "25"
+            }, 
+            "entry1": "70", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "76", 
+            "subtype": {
+                "name": "compound", 
+                "value": "25"
+            }, 
+            "entry1": "70", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "100", 
+            "subtype": {
+                "name": "compound", 
+                "value": "14"
+            }, 
+            "entry1": "188", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "103", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "103", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "90", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "103", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "89", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "103", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "81", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "109", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "103", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "110", 
+            "subtype": {
+                "name": "compound", 
+                "value": "106"
+            }, 
+            "entry1": "109", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "111", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "110", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "112", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "96", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "115", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "112", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "115", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "96", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "90", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "118", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "115", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "119", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "96", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "119", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "100", 
+            "subtype": {
+                "name": "compound", 
+                "value": "14"
+            }, 
+            "entry1": "13", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "124", 
+            "subtype": {
+                "name": "compound", 
+                "value": "121"
+            }, 
+            "entry1": "100", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "101", 
+            "subtype": {
+                "name": "compound", 
+                "value": "98"
+            }, 
+            "entry1": "124", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "125", 
+            "subtype": {
+                "name": "compound", 
+                "value": "34"
+            }, 
+            "entry1": "101", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "129", 
+            "subtype": {
+                "name": "compound", 
+                "value": "123"
+            }, 
+            "entry1": "125", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "135", 
+            "subtype": {
+                "name": "compound", 
+                "value": "128"
+            }, 
+            "entry1": "129", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "133", 
+            "subtype": {
+                "name": "compound", 
+                "value": "128"
+            }, 
+            "entry1": "129", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "134", 
+            "subtype": {
+                "name": "compound", 
+                "value": "128"
+            }, 
+            "entry1": "129", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "134", 
+            "subtype": {
+                "name": "compound", 
+                "value": "128"
+            }, 
+            "entry1": "133", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "135", 
+            "subtype": {
+                "name": "compound", 
+                "value": "128"
+            }, 
+            "entry1": "133", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "135", 
+            "subtype": {
+                "name": "compound", 
+                "value": "128"
+            }, 
+            "entry1": "134", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "146", 
+            "subtype": {
+                "name": "compound", 
+                "value": "14"
+            }, 
+            "entry1": "188", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "146", 
+            "subtype": {
+                "name": "compound", 
+                "value": "14"
+            }, 
+            "entry1": "13", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "146", 
+            "subtype": {
+                "name": "compound", 
+                "value": "14"
+            }, 
+            "entry1": "100", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "189", 
+            "subtype": {
+                "name": "compound", 
+                "value": "14"
+            }, 
+            "entry1": "188", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "189", 
+            "subtype": {
+                "name": "compound", 
+                "value": "14"
+            }, 
+            "entry1": "13", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "189", 
+            "subtype": {
+                "name": "compound", 
+                "value": "14"
+            }, 
+            "entry1": "100", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "189", 
+            "subtype": {
+                "name": "compound", 
+                "value": "14"
+            }, 
+            "entry1": "146", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "186", 
+            "subtype": {
+                "name": "compound", 
+                "value": "185"
+            }, 
+            "entry1": "189", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "150", 
+            "subtype": {
+                "name": "compound", 
+                "value": "147"
+            }, 
+            "entry1": "146", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "81", 
+            "subtype": {
+                "name": "compound", 
+                "value": "33"
+            }, 
+            "entry1": "186", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "150", 
+            "subtype": {
+                "name": "compound", 
+                "value": "33"
+            }, 
+            "entry1": "186", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "181", 
+            "subtype": {
+                "name": "compound", 
+                "value": "33"
+            }, 
+            "entry1": "186", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "150", 
+            "subtype": {
+                "name": "compound", 
+                "value": "33"
+            }, 
+            "entry1": "81", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "181", 
+            "subtype": {
+                "name": "compound", 
+                "value": "33"
+            }, 
+            "entry1": "81", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "181", 
+            "subtype": {
+                "name": "compound", 
+                "value": "33"
+            }, 
+            "entry1": "150", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "155", 
+            "subtype": {
+                "name": "compound", 
+                "value": "20"
+            }, 
+            "entry1": "179", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "20"
+            }, 
+            "entry1": "179", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "20"
+            }, 
+            "entry1": "155", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "22"
+            }, 
+            "entry1": "181", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "78", 
+            "subtype": {
+                "name": "compound", 
+                "value": "22"
+            }, 
+            "entry1": "181", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "183", 
+            "subtype": {
+                "name": "compound", 
+                "value": "22"
+            }, 
+            "entry1": "181", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "77", 
+            "subtype": {
+                "name": "compound", 
+                "value": "22"
+            }, 
+            "entry1": "181", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "183", 
+            "subtype": {
+                "name": "compound", 
+                "value": "22"
+            }, 
+            "entry1": "79", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "183", 
+            "subtype": {
+                "name": "compound", 
+                "value": "22"
+            }, 
+            "entry1": "78", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "77", 
+            "subtype": {
+                "name": "compound", 
+                "value": "22"
+            }, 
+            "entry1": "183", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "137", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "103", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "137", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "137", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "81", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "137", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "89", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "90", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "137", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "176", 
+            "subtype": {
+                "name": "compound", 
+                "value": "174"
+            }, 
+            "entry1": "179", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "183", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "103", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "183", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "183", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "81", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "183", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "89", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "183", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "137", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "90", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "183", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "160", 
+            "subtype": {
+                "name": "compound", 
+                "value": "23"
+            }, 
+            "entry1": "78", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "160", 
+            "subtype": {
+                "name": "compound", 
+                "value": "23"
+            }, 
+            "entry1": "76", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "167", 
+            "subtype": {
+                "name": "compound", 
+                "value": "163"
+            }, 
+            "entry1": "209", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "201", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "90", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "199", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "90", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "200", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "90", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "141", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "90", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "172", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "90", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "201", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "118", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "199", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "118", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "200", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "118", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "141", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "118", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "172", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "118", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "199", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "201", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "200", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "201", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "141", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "201", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "172", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "201", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "141", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "199", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "172", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "199", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "141", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "200", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "172", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "200", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "172", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "141", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "203", 
+            "subtype": {
+                "name": "compound", 
+                "value": "198"
+            }, 
+            "entry1": "201", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "203", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "172", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "197", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "172", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "169", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "172", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "170", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "172", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "171", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "172", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "197", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "203", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "203", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "169", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "203", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "170", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "203", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "171", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "203", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "197", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "169", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "197", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "170", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "197", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "171", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "197", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "169", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "170", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "171", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "143", 
+            "subtype": {
+                "name": "compound", 
+                "value": "19"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "171", 
+            "subtype": {
+                "name": "compound", 
+                "value": "144"
+            }, 
+            "entry1": "143", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "169", 
+            "subtype": {
+                "name": "compound", 
+                "value": "144"
+            }, 
+            "entry1": "143", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "170", 
+            "subtype": {
+                "name": "compound", 
+                "value": "144"
+            }, 
+            "entry1": "143", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "206", 
+            "subtype": {
+                "name": "compound", 
+                "value": "193"
+            }, 
+            "entry1": "197", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "195", 
+            "subtype": {
+                "name": "compound", 
+                "value": "193"
+            }, 
+            "entry1": "197", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "215", 
+            "subtype": {
+                "name": "compound", 
+                "value": "193"
+            }, 
+            "entry1": "195", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "215", 
+            "subtype": {
+                "name": "compound", 
+                "value": "193"
+            }, 
+            "entry1": "206", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "214", 
+            "subtype": {
+                "name": "compound", 
+                "value": "193"
+            }, 
+            "entry1": "197", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "212", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "172", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "215", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "172", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "203", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "191", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "169", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "191", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "170", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "191", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "171", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "191", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "191", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "212", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "191", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "197", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "191", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "215", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "191", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "212", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "203", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "215", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "203", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "212", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "169", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "215", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "169", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "212", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "170", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "215", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "170", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "212", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "171", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "215", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "171", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "212", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "215", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "197", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "212", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "214", 
+            "subtype": {
+                "name": "compound", 
+                "value": "193"
+            }, 
+            "entry1": "206", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "214", 
+            "subtype": {
+                "name": "compound", 
+                "value": "193"
+            }, 
+            "entry1": "195", 
+            "type": "ECrel"
+        }
+    ], 
+    "entry": [
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C11355", 
+            "graphics": {
+                "name": "C11355", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "555", 
+                "x": "371", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "9", 
+            "name": "cpd:C11355"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00251", 
+            "graphics": {
+                "name": "C00251", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "619", 
+                "x": "371", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "10", 
+            "name": "cpd:C00251"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00790", 
+            "graphics": {
+                "name": "TITLE:Folate biosynthesis", 
+                "width": "185", 
+                "height": "25", 
+                "bgcolor": "#FFFFFF", 
+                "y": "58", 
+                "x": "133", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "11", 
+            "name": "path:ko00790"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00670", 
+            "graphics": {
+                "name": "One carbon pool by folate", 
+                "width": "98", 
+                "height": "34", 
+                "bgcolor": "#FFFFFF", 
+                "y": "648", 
+                "x": "701", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "12", 
+            "name": "path:ko00670"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00230", 
+            "graphics": {
+                "name": "Purine metabolism", 
+                "width": "75", 
+                "height": "34", 
+                "bgcolor": "#FFFFFF", 
+                "y": "282", 
+                "x": "98", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "13", 
+            "name": "path:ko00230"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00044", 
+            "graphics": {
+                "name": "C00044", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "278", 
+                "x": "188", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "14", 
+            "name": "cpd:C00044"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04895", 
+            "graphics": {
+                "name": "C04895", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "142", 
+                "x": "547", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "15", 
+            "name": "cpd:C04895"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03684", 
+            "graphics": {
+                "name": "C03684", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "208", 
+                "x": "1135", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "16", 
+            "name": "cpd:C03684"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04244", 
+            "graphics": {
+                "name": "C04244", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "277", 
+                "x": "1073", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "17", 
+            "name": "cpd:C04244"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00272", 
+            "graphics": {
+                "name": "C00272", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "358", 
+                "x": "1135", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "18", 
+            "name": "cpd:C00272"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00268", 
+            "graphics": {
+                "name": "C00268", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "444", 
+                "x": "1135", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "19", 
+            "name": "cpd:C00268"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04874", 
+            "graphics": {
+                "name": "C04874", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "278", 
+                "x": "547", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "20", 
+            "name": "cpd:C04874"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00266", 
+            "graphics": {
+                "name": "C00266", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "337", 
+                "x": "610", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "21", 
+            "name": "cpd:C00266"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01300", 
+            "graphics": {
+                "name": "C01300", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "361", 
+                "x": "547", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "22", 
+            "name": "cpd:C01300"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04807", 
+            "graphics": {
+                "name": "C04807", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "465", 
+                "x": "547", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "23", 
+            "name": "cpd:C04807"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00921", 
+            "graphics": {
+                "name": "C00921", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "567", 
+                "x": "547", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "24", 
+            "name": "cpd:C00921"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00568", 
+            "graphics": {
+                "name": "C00568", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "491", 
+                "x": "371", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "25", 
+            "name": "cpd:C00568"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00415", 
+            "graphics": {
+                "name": "C00415", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "648", 
+                "x": "547", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "26", 
+            "name": "cpd:C00415"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00504", 
+            "graphics": {
+                "name": "C00504", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "648", 
+                "x": "455", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "27", 
+            "name": "cpd:C00504"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00101", 
+            "graphics": {
+                "name": "C00101", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "735", 
+                "x": "547", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "28", 
+            "name": "cpd:C00101"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C09332", 
+            "graphics": {
+                "name": "C09332", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "821", 
+                "x": "547", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "29", 
+            "name": "cpd:C09332"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03541", 
+            "graphics": {
+                "name": "C03541", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "908", 
+                "x": "547", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "30", 
+            "name": "cpd:C03541"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05927", 
+            "graphics": {
+                "name": "C05927", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "648", 
+                "x": "893", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "31", 
+            "name": "cpd:C05927"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05926", 
+            "graphics": {
+                "name": "C05926", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "304", 
+                "x": "720", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "32", 
+            "name": "cpd:C05926"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05925", 
+            "graphics": {
+                "name": "C05925", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "219", 
+                "x": "411", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "33", 
+            "name": "cpd:C05925"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05924", 
+            "graphics": {
+                "name": "C05924", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "484", 
+                "x": "188", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "34", 
+            "name": "cpd:C05924"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05923", 
+            "graphics": {
+                "name": "C05923", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "142", 
+                "x": "156", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "35", 
+            "name": "cpd:C05923"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05922", 
+            "graphics": {
+                "name": "C05922", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "212", 
+                "x": "156", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "36", 
+            "name": "cpd:C05922"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01217", 
+            "graphics": {
+                "name": "C01217", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "735", 
+                "x": "893", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "37", 
+            "name": "cpd:C01217"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06148", 
+            "graphics": {
+                "name": "C06148", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "142", 
+                "x": "321", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "38", 
+            "name": "cpd:C06148"
+        }, 
+        {
+            "reaction": "rn:R01716", 
+            "name": "ko:K13950 ko:K01664 ko:K01665 ko:K03342", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K13950+K01664+K01665+K03342", 
+            "graphics": {
+                "name": "K13950...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "591", 
+                "x": "371", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "69"
+        }, 
+        {
+            "reaction": "rn:R05553", 
+            "name": "ko:K02619 ko:K18482 ko:K03342", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K02619+K18482+K03342", 
+            "graphics": {
+                "name": "K02619...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "527", 
+                "x": "371", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "70"
+        }, 
+        {
+            "reaction": "rn:R04241", 
+            "name": "ko:K01930 ko:K11754 ko:K22099", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01930+K11754+K22099", 
+            "graphics": {
+                "name": "K01930...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "867", 
+                "x": "547", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "71"
+        }, 
+        {
+            "reaction": "rn:R00942", 
+            "name": "ko:K01930 ko:K11754 ko:K22099", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01930+K11754+K22099", 
+            "graphics": {
+                "name": "K01930...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "781", 
+                "x": "547", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "72"
+        }, 
+        {
+            "reaction": "rn:R00936 rn:R00939", 
+            "name": "ko:K00287 ko:K18589 ko:K19643 ko:K18590 ko:K19644 ko:K19645 ko:K18591 ko:K13998 ko:K13938", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00287+K18589+K19643+K18590+K19644+K19645+K18591+K13998+K13938", 
+            "graphics": {
+                "name": "K00287...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "694", 
+                "x": "547", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "73"
+        }, 
+        {
+            "reaction": "rn:R02235 rn:R02236", 
+            "name": "ko:K00287 ko:K18589 ko:K19643 ko:K18590 ko:K19644 ko:K18591 ko:K13998", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00287+K18589+K19643+K18590+K19644+K18591+K13998", 
+            "graphics": {
+                "name": "K00287...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "649", 
+                "x": "501", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "74"
+        }, 
+        {
+            "reaction": "rn:R02237", 
+            "name": "ko:K11754 ko:K20457 ko:K22099 ko:K24102", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K11754+K20457+K22099+K24102", 
+            "graphics": {
+                "name": "K11754...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "609", 
+                "x": "572", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "75"
+        }, 
+        {
+            "reaction": "rn:R03067", 
+            "name": "ko:K13939 ko:K00796 ko:K13941 ko:K24102 ko:K18974 ko:K18824 ko:K18825", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K13939+K00796+K13941+K24102+K18974+K18824+K18825", 
+            "graphics": {
+                "name": "K13939...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "527", 
+                "x": "548", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "76"
+        }, 
+        {
+            "reaction": "rn:R03066", 
+            "name": "ko:K13939 ko:K00796 ko:K13941 ko:K24102 ko:K18974 ko:K18824 ko:K18825", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K13939+K00796+K13941+K24102+K18974+K18824+K18825", 
+            "graphics": {
+                "name": "K13939...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "527", 
+                "x": "500", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "77"
+        }, 
+        {
+            "reaction": "rn:R03503", 
+            "name": "ko:K13939 ko:K13940 ko:K00950 ko:K13941 ko:K07142", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K13939+K13940+K00950+K13941+K07142", 
+            "graphics": {
+                "name": "K13939...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "419", 
+                "x": "548", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "78"
+        }, 
+        {
+            "reaction": "rn:R03504", 
+            "name": "ko:K13939 ko:K13940 ko:K01633 ko:K09739", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K13939+K13940+K01633+K09739", 
+            "graphics": {
+                "name": "K13939...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "322", 
+                "x": "547", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "79"
+        }, 
+        {
+            "reaction": "rn:R04638", 
+            "name": "ko:K08310 ko:K19965", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K08310+K19965", 
+            "graphics": {
+                "name": "K08310...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "181", 
+                "x": "412", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "81"
+        }, 
+        {
+            "reaction": "rn:R01793 rn:R01794", 
+            "name": "ko:K00357", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00357", 
+            "graphics": {
+                "name": "K00357", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "404", 
+                "x": "1136", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "82"
+        }, 
+        {
+            "reaction": "rn:R04639", 
+            "name": "ko:K01495 ko:K09007 ko:K22391", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01495+K09007+K22391", 
+            "graphics": {
+                "name": "K01495...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "143", 
+                "x": "376", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "83"
+        }, 
+        {
+            "reaction": "rn:R05048", 
+            "name": "ko:K01495 ko:K09007 ko:K22391", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01495+K09007+K22391", 
+            "graphics": {
+                "name": "K01495...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "143", 
+                "x": "231", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "84"
+        }, 
+        {
+            "reaction": "rn:R05046", 
+            "name": "ko:K01495 ko:K09007 ko:K22391", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01495+K09007+K22391", 
+            "graphics": {
+                "name": "K01495...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "181", 
+                "x": "156", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "85"
+        }, 
+        {
+            "reaction": "rn:R00937 rn:R00940", 
+            "name": "ko:K00287 ko:K18589 ko:K19643 ko:K18590 ko:K19644 ko:K18591 ko:K13998", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00287+K18589+K19643+K18590+K19644+K18591+K13998", 
+            "graphics": {
+                "name": "K00287...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "736", 
+                "x": "501", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "86"
+        }, 
+        {
+            "reaction": "rn:R02237", 
+            "name": "ko:K01930 ko:K11754 ko:K22099", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01930+K11754+K22099", 
+            "graphics": {
+                "name": "K01930...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "609", 
+                "x": "522", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "87"
+        }, 
+        {
+            "reaction": "rn:R04242", 
+            "name": "ko:K01307", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01307", 
+            "graphics": {
+                "name": "K01307", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "817", 
+                "x": "605", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "88"
+        }, 
+        {
+            "reaction": "rn:R04620", 
+            "name": "ko:K01077 ko:K01113", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01077+K01113", 
+            "graphics": {
+                "name": "K01077...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "189", 
+                "x": "548", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "89"
+        }, 
+        {
+            "reaction": "rn:R04286", 
+            "name": "ko:K01737 ko:K22101", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01737+K22101", 
+            "graphics": {
+                "name": "K01737...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "167", 
+                "x": "1136", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "90"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00680", 
+            "graphics": {
+                "name": "Methane metabolism", 
+                "width": "76", 
+                "height": "34", 
+                "bgcolor": "#FFFFFF", 
+                "y": "736", 
+                "x": "804", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "96", 
+            "name": "path:ko00680"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C18239", 
+            "graphics": {
+                "name": "C18239", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "416", 
+                "x": "188", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "98", 
+            "name": "cpd:C18239"
+        }, 
+        {
+            "reaction": "rn:R09394", 
+            "name": "ko:K03639 ko:K20967", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03639+K20967", 
+            "graphics": {
+                "name": "K03639...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "309", 
+                "x": "188", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "100"
+        }, 
+        {
+            "reaction": "rn:R09395", 
+            "name": "ko:K03635 ko:K21142", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03635+K21142", 
+            "graphics": {
+                "name": "K03635...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "447", 
+                "x": "188", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "101"
+        }, 
+        {
+            "reaction": "rn:R09959", 
+            "name": "ko:K01737", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01737", 
+            "graphics": {
+                "name": "K01737", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "80", 
+                "x": "604", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "103"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20239", 
+            "graphics": {
+                "name": "C20239", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "79", 
+                "x": "660", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "104", 
+            "name": "cpd:C20239"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20248", 
+            "graphics": {
+                "name": "C20248", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "79", 
+                "x": "753", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "106", 
+            "name": "cpd:C20248"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C15996", 
+            "graphics": {
+                "name": "C15996", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "79", 
+                "x": "846", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "107", 
+            "name": "cpd:C15996"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C16675", 
+            "graphics": {
+                "name": "C16675", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "79", 
+                "x": "938", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "108", 
+            "name": "cpd:C16675"
+        }, 
+        {
+            "reaction": "rn:R10002", 
+            "name": "ko:K10026", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10026", 
+            "graphics": {
+                "name": "K10026", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "80", 
+                "x": "700", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "109"
+        }, 
+        {
+            "reaction": "rn:R09978", 
+            "name": "ko:K06920", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K06920", 
+            "graphics": {
+                "name": "K06920", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "80", 
+                "x": "794", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "110"
+        }, 
+        {
+            "reaction": "rn:R07605", 
+            "name": "ko:K06879 ko:K09457", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K06879+K09457", 
+            "graphics": {
+                "name": "K06879...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "80", 
+                "x": "888", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "111"
+        }, 
+        {
+            "reaction": "rn:R03388", 
+            "name": "ko:K17364", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17364", 
+            "graphics": {
+                "name": "K17364", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "694", 
+                "x": "868", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "112"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C18802", 
+            "graphics": {
+                "name": "C18802", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "821", 
+                "x": "893", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "114", 
+            "name": "cpd:C18802"
+        }, 
+        {
+            "reaction": "rn:R09594", 
+            "name": "ko:K15740", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K15740", 
+            "graphics": {
+                "name": "K15740", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "781", 
+                "x": "894", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "115"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02587", 
+            "graphics": {
+                "name": "C02587", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "205", 
+                "x": "1247", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "117", 
+            "name": "cpd:C02587"
+        }, 
+        {
+            "reaction": "rn:R03984", 
+            "name": "ko:K00310", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00310", 
+            "graphics": {
+                "name": "K00310", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "200", 
+                "x": "1197", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "118"
+        }, 
+        {
+            "reaction": "rn:R10802", 
+            "name": "ko:K18853", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18853", 
+            "graphics": {
+                "name": "K18853", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "694", 
+                "x": "918", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "119"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C21310", 
+            "graphics": {
+                "name": "C21310", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "347", 
+                "x": "188", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "121", 
+            "name": "cpd:C21310"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C19848", 
+            "graphics": {
+                "name": "C19848", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "552", 
+                "x": "188", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "123", 
+            "name": "cpd:C19848"
+        }, 
+        {
+            "reaction": "rn:R11372", 
+            "name": "ko:K03637 ko:K20967", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03637+K20967", 
+            "graphics": {
+                "name": "K03637...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "379", 
+                "x": "188", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "124"
+        }, 
+        {
+            "reaction": "rn:R09726", 
+            "name": "ko:K03831 ko:K15376 ko:K03638", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03831+K15376+K03638", 
+            "graphics": {
+                "name": "K03831...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "516", 
+                "x": "188", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "125"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00400", 
+            "graphics": {
+                "name": "Phenylalanine, tyrosine and tryptophan biosynthesis", 
+                "width": "93", 
+                "height": "34", 
+                "bgcolor": "#FFFFFF", 
+                "y": "669", 
+                "x": "372", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "126", 
+            "name": "path:ko00400"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C18237", 
+            "graphics": {
+                "name": "C18237", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "621", 
+                "x": "188", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "128", 
+            "name": "cpd:C18237"
+        }, 
+        {
+            "reaction": "rn:R09735", 
+            "name": "ko:K03750 ko:K15376", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03750+K15376", 
+            "graphics": {
+                "name": "K03750...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "583", 
+                "x": "188", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "129"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C19871", 
+            "graphics": {
+                "name": "C19871", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "707", 
+                "x": "188", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "130", 
+            "name": "cpd:C19871"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C21485", 
+            "graphics": {
+                "name": "C21485", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "707", 
+                "x": "128", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "131", 
+            "name": "cpd:C21485"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C21486", 
+            "graphics": {
+                "name": "C21486", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "621", 
+                "x": "281", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "132", 
+            "name": "cpd:C21486"
+        }, 
+        {
+            "reaction": "rn:R11581", 
+            "name": "ko:K03752 ko:K13818", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03752+K13818", 
+            "graphics": {
+                "name": "K03752...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "672", 
+                "x": "190", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "133"
+        }, 
+        {
+            "reaction": "rn:R11582", 
+            "name": "ko:K07141", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K07141", 
+            "graphics": {
+                "name": "K07141", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "672", 
+                "x": "128", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "134"
+        }, 
+        {
+            "reaction": "rn:R11583", 
+            "name": "ko:K15631", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K15631", 
+            "graphics": {
+                "name": "K15631", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "622", 
+                "x": "232", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "135"
+        }, 
+        {
+            "reaction": "rn:R11082", 
+            "name": "ko:K07589", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K07589", 
+            "graphics": {
+                "name": "K07589", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "155", 
+                "x": "604", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "137"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C21094", 
+            "graphics": {
+                "name": "C21094", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "150", 
+                "x": "659", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "138", 
+            "name": "cpd:C21094"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20264", 
+            "graphics": {
+                "name": "C20264", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "351", 
+                "x": "873", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "139", 
+            "name": "cpd:C20264"
+        }, 
+        {
+            "reaction": "rn:R09990", 
+            "name": "ko:K17745", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17745", 
+            "graphics": {
+                "name": "K17745", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "279", 
+                "x": "873", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "141"
+        }, 
+        {
+            "reaction": "rn:R04734", 
+            "name": "ko:K01724", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01724", 
+            "graphics": {
+                "name": "K01724", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "487", 
+                "x": "1136", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "143"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C15522", 
+            "graphics": {
+                "name": "C15522", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "527", 
+                "x": "1135", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "144", 
+            "name": "cpd:C15522"
+        }, 
+        {
+            "reaction": "rn:R10348", 
+            "name": "ko:K17488", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17488", 
+            "graphics": {
+                "name": "K17488", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "279", 
+                "x": "258", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "146"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20567", 
+            "graphics": {
+                "name": "C20567", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "278", 
+                "x": "321", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "147", 
+            "name": "cpd:C20567"
+        }, 
+        {
+            "reaction": "rn:R10344", 
+            "name": "ko:K17487", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17487", 
+            "graphics": {
+                "name": "K17487", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "250", 
+                "x": "322", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "150"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20566", 
+            "graphics": {
+                "name": "C20566", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "278", 
+                "x": "434", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "151", 
+            "name": "cpd:C20566"
+        }, 
+        {
+            "reaction": "rn:R10345", 
+            "name": "ko:K17487", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17487", 
+            "graphics": {
+                "name": "K17487", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "279", 
+                "x": "376", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "152"
+        }, 
+        {
+            "reaction": "rn:R11037", 
+            "name": "ko:K01633", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01633", 
+            "graphics": {
+                "name": "K01633", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "279", 
+                "x": "604", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "155"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C21065", 
+            "graphics": {
+                "name": "C21065", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "278", 
+                "x": "660", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "156", 
+            "name": "cpd:C21065"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20562", 
+            "graphics": {
+                "name": "C20562", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "465", 
+                "x": "758", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "158", 
+            "name": "cpd:C20562"
+        }, 
+        {
+            "reaction": "rn:R10339", 
+            "name": "ko:K06897", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K06897", 
+            "graphics": {
+                "name": "K06897", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "466", 
+                "x": "703", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "160"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C21107", 
+            "graphics": {
+                "name": "C21107", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "562", 
+                "x": "671", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "161", 
+            "name": "cpd:C21107"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00156", 
+            "graphics": {
+                "name": "C00156", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "562", 
+                "x": "781", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "163", 
+            "name": "cpd:C00156"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00119", 
+            "graphics": {
+                "name": "C00119", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "535", 
+                "x": "762", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "164", 
+            "name": "cpd:C00119"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00362", 
+            "graphics": {
+                "name": "Benzoate degradation", 
+                "width": "73", 
+                "height": "34", 
+                "bgcolor": "#FFFFFF", 
+                "y": "613", 
+                "x": "789", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "167", 
+            "name": "path:ko00362"
+        }, 
+        {
+            "reaction": "rn:R07211", 
+            "name": "ko:K00500", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00500", 
+            "graphics": {
+                "name": "K00500", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "410", 
+                "x": "1234", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "169"
+        }, 
+        {
+            "reaction": "rn:R07212", 
+            "name": "ko:K00501", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00501", 
+            "graphics": {
+                "name": "K00501", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "410", 
+                "x": "1284", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "170"
+        }, 
+        {
+            "reaction": "rn:R07213", 
+            "name": "ko:K00502", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00502", 
+            "graphics": {
+                "name": "K00502", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "429", 
+                "x": "1260", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "171"
+        }, 
+        {
+            "reaction": "rn:R08208", 
+            "name": "ko:K00072", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00072", 
+            "graphics": {
+                "name": "K00072", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "284", 
+                "x": "1136", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "172"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C21008", 
+            "graphics": {
+                "name": "C21008", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "219", 
+                "x": "659", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "174", 
+            "name": "cpd:C21008"
+        }, 
+        {
+            "reaction": "rn:R11019", 
+            "name": "ko:K13938", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K13938", 
+            "graphics": {
+                "name": "K13938", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "220", 
+                "x": "716", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "176"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C21007", 
+            "graphics": {
+                "name": "C21007", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "219", 
+                "x": "772", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "177", 
+            "name": "cpd:C21007"
+        }, 
+        {
+            "reaction": "rn:R11073", 
+            "name": "ko:K01633", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01633", 
+            "graphics": {
+                "name": "K01633", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "220", 
+                "x": "604", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "179"
+        }, 
+        {
+            "reaction": "rn:R11718", 
+            "name": "ko:K22102", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K22102", 
+            "graphics": {
+                "name": "K22102", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "362", 
+                "x": "475", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "181"
+        }, 
+        {
+            "reaction": "rn:R11719", 
+            "name": "ko:K22101", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K22101", 
+            "graphics": {
+                "name": "K22101", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "362", 
+                "x": "706", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "183"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01304", 
+            "graphics": {
+                "name": "C01304", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "212", 
+                "x": "282", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "185", 
+            "name": "cpd:C01304"
+        }, 
+        {
+            "reaction": "rn:R11072", 
+            "name": "ko:K22100", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K22100", 
+            "graphics": {
+                "name": "K22100", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "208", 
+                "x": "350", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "186"
+        }, 
+        {
+            "reaction": "rn:R00428", 
+            "name": "ko:K01495 ko:K09007 ko:K22391", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01495+K09007+K22391", 
+            "graphics": {
+                "name": "K01495...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "252", 
+                "x": "157", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "188"
+        }, 
+        {
+            "reaction": "rn:R00425", 
+            "name": "ko:K01497 ko:K14652", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01497+K14652", 
+            "graphics": {
+                "name": "K01497...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "213", 
+                "x": "231", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "189"
+        }, 
+        {
+            "reaction": "rn:R01813", 
+            "name": "ko:K00072", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00072", 
+            "graphics": {
+                "name": "K00072", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "315", 
+                "x": "1074", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "191"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00835", 
+            "graphics": {
+                "name": "C00835", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "277", 
+                "x": "965", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "192", 
+            "name": "cpd:C00835"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02953", 
+            "graphics": {
+                "name": "C02953", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "358", 
+                "x": "965", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "193", 
+            "name": "cpd:C02953"
+        }, 
+        {
+            "reaction": "rn:R02975", 
+            "name": "ko:K00072", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00072", 
+            "graphics": {
+                "name": "K00072", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "315", 
+                "x": "990", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "195"
+        }, 
+        {
+            "reaction": "rn:R11765", 
+            "name": "ko:K00287", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00287", 
+            "graphics": {
+                "name": "K00287", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "348", 
+                "x": "1022", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "197"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C21640", 
+            "graphics": {
+                "name": "C21640", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "277", 
+                "x": "1196", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "198", 
+            "name": "cpd:C21640"
+        }, 
+        {
+            "reaction": "rn:R04285", 
+            "name": "ko:K00011", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00011", 
+            "graphics": {
+                "name": "K00011", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "242", 
+                "x": "1098", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "199"
+        }, 
+        {
+            "reaction": "rn:R04285", 
+            "name": "ko:K00079", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00079", 
+            "graphics": {
+                "name": "K00079", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "242", 
+                "x": "1048", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "200"
+        }, 
+        {
+            "reaction": "rn:R11763", 
+            "name": "ko:K04119", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K04119", 
+            "graphics": {
+                "name": "K04119", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "242", 
+                "x": "1197", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "201"
+        }, 
+        {
+            "reaction": "rn:R11764", 
+            "name": "ko:K00011", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00011", 
+            "graphics": {
+                "name": "K00011", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "315", 
+                "x": "1197", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "203"
+        }, 
+        {
+            "reaction": "rn:R02975", 
+            "name": "ko:K00079", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00079", 
+            "graphics": {
+                "name": "K00079", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "315", 
+                "x": "940", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "206"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20559", 
+            "graphics": {
+                "name": "C20559", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "496", 
+                "x": "671", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "208", 
+            "name": "cpd:C20559"
+        }, 
+        {
+            "reaction": "rn:R11102", 
+            "name": "ko:K06984", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K06984", 
+            "graphics": {
+                "name": "K06984", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "562", 
+                "x": "727", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "209"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06313", 
+            "graphics": {
+                "name": "C06313", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "409", 
+                "x": "1073", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "211", 
+            "name": "cpd:C06313"
+        }, 
+        {
+            "reaction": "rn:R01812", 
+            "name": "ko:K03793", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03793", 
+            "graphics": {
+                "name": "K03793", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "389", 
+                "x": "1074", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "212"
+        }, 
+        {
+            "reaction": "rn:R12644", 
+            "name": "ko:K03793", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03793", 
+            "graphics": {
+                "name": "K03793", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "410", 
+                "x": "1022", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "214"
+        }, 
+        {
+            "reaction": "rn:R11765", 
+            "name": "ko:K03793", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03793", 
+            "graphics": {
+                "name": "K03793", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "369", 
+                "x": "1022", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "215"
+        }
+    ], 
+    "nodes": [], 
+    "pathway": {
+        "name": "path:ko00790", 
+        "title": "Folate biosynthesis", 
+        "image": "https://www.kegg.jp/kegg/pathway/ko/ko00790.png", 
+        "number": "00790", 
+        "link": "https://www.kegg.jp/kegg-bin/show_pathway?ko00790", 
+        "org": "ko"
+    }
+}
