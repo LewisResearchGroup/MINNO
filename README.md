@@ -1,3 +1,2 @@
 # MINNO
-Visualization tool
-Here is the link to the MINNO tool: https://lewisresearchgroup.github.io/MINNO/
+Visualization tool link is here: https://lewisresearchgroup.github.io/MINNO/
