@@ -985,11 +985,11 @@
 						//console.log("KEGG_models",KEGG_models)
 					}
 					
-					logFileText1('/Edited_ortholog_networks_up/KEGG_organism.txt')
+					logFileText1('Edited_ortholog_networks_up/KEGG_organism.txt')
 					
-					logFileText2('/Edited_ortholog_networks_up/KEGG_pathways.txt')
+					logFileText2('Edited_ortholog_networks_up/KEGG_pathways.txt')
 					
-					var directory = '/Edited_ortholog_networks_up/';
+					var directory = 'Edited_ortholog_networks_up/';
 					var xmlHttp = new XMLHttpRequest();
 					xmlHttp.open('GET', directory, false); // false for synchronous request
 					xmlHttp.send(null);
@@ -1019,7 +1019,7 @@
 						});
 					}
 					
-					kegg_recReader('/Edited_ortholog_networks_up/KEGG_reactions.txt')
+					kegg_recReader('Edited_ortholog_networks_up/KEGG_reactions.txt')
 					
 					const kegg_cpdReader = async file => {
 						const response = await fetch(file)
@@ -1033,7 +1033,7 @@
 						});
 					}
 					
-					kegg_cpdReader('/Edited_ortholog_networks_up/KEGG_compound.txt')
+					kegg_cpdReader('Edited_ortholog_networks_up/KEGG_compound.txt')
 					
 					Main_visualization_code(jsonObj);
 					Mainfunction(jsonObj);
