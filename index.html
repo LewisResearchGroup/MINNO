@@ -994,8 +994,9 @@
 					xmlHttp.open('GET', directory, false); // false for synchronous request
 					xmlHttp.send(null);
 					var ret = xmlHttp.responseText;
-					//console.log(ret)
+					console.log('ret',ret)
 					var fileList = ret.split('<li>');
+					console.log('fileList',fileList)
 					for (i = 0; i < fileList.length; i++) {
 						var fileinfo = fileList[i].split('>')[1].split('<')[0];
 						//console.log(fileinfo.split(".")[1])
