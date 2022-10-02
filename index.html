@@ -989,6 +989,17 @@
 					
 					logFileText2('Edited_ortholog_networks_up/KEGG_pathways.txt')
 					
+					//fetch('products.json')
+					 // .then((response) => {
+					 //   if (!response.ok) {
+					 //     throw new Error(`HTTP error: ${response.status}`);
+					 //   }
+					 //   return response.json();
+					 // })
+					 // .then((json) => initialize(json))
+					 // .catch((err) => console.error(`Fetch problem: ${err.message}`));
+					
+					
 					var directory = 'Edited_ortholog_networks_up/';
 					var xmlHttp = new XMLHttpRequest();
 					xmlHttp.open('GET', directory, false); // false for synchronous request
