@@ -1,0 +1,5526 @@
+{
+    "reaction": [
+        {
+            "substrate": [
+                {
+                    "id": "59", 
+                    "name": "cpd:C16519"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "89", 
+                    "name": "cpd:C05817"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "60", 
+            "name": "rn:R08166"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "79", 
+                    "name": "cpd:C03160"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "90", 
+                    "name": "cpd:C15547"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "64", 
+            "name": "rn:R07263"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "80", 
+                    "name": "cpd:C02730"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "79", 
+                    "name": "cpd:C03160"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "65", 
+            "name": "rn:R04030"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "89", 
+                    "name": "cpd:C05817"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "80", 
+                    "name": "cpd:C02730"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "66", 
+            "name": "rn:R04031"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "76", 
+                    "name": "cpd:C00885"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "59", 
+                    "name": "cpd:C16519"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "67", 
+            "name": "rn:R08165"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "88", 
+                    "name": "cpd:C17551"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "83", 
+                    "name": "cpd:C17552"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "68", 
+            "name": "rn:R08769"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "87", 
+                    "name": "cpd:C05807"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "88", 
+                    "name": "cpd:C17551"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "69", 
+            "name": "rn:R08768"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "86", 
+                    "name": "cpd:C05848"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "87", 
+                    "name": "cpd:C05807"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "70", 
+            "name": "rn:R04985"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "108", 
+                    "name": "cpd:C05847"
+                }, 
+                {
+                    "id": "77", 
+                    "name": "cpd:C00156"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "86", 
+                    "name": "cpd:C05848"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "71", 
+            "name": "rn:R05000"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "151", 
+                    "name": "cpd:C21860"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "78", 
+                    "name": "cpd:C00390"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "72", 
+            "name": "rn:R12657"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "81", 
+                    "name": "cpd:C17554"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C17559"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "73", 
+            "name": "rn:R08771"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "77", 
+                    "name": "cpd:C00156"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "191", 
+                    "name": "cpd:C00251"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "74", 
+            "name": "rn:R01302"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "191", 
+                    "name": "cpd:C00251"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "76", 
+                    "name": "cpd:C00885"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "75", 
+            "name": "rn:R01717"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "193", 
+                    "name": "cpd:C16999"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "194", 
+                    "name": "cpd:C17010"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "200", 
+            "name": "rn:R08587"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "194", 
+                    "name": "cpd:C17010"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "195", 
+                    "name": "cpd:C17017"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "201", 
+            "name": "rn:R08588"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "195", 
+                    "name": "cpd:C17017"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "196", 
+                    "name": "cpd:C17018"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "202", 
+            "name": "rn:R08589"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "208", 
+                    "name": "cpd:C20773"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "193", 
+                    "name": "cpd:C16999"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "203", 
+            "name": "rn:R10695"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "90", 
+                    "name": "cpd:C15547"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "61", 
+                    "name": "cpd:C03657"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "91", 
+            "name": "rn:R07262"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C02949"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "77", 
+                    "name": "cpd:C00156"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "94", 
+            "name": "rn:R01301"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C01179"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "92", 
+                    "name": "cpd:C00544"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "96", 
+            "name": "rn:R02521"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "136", 
+                    "name": "cpd:C15882"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "138", 
+                    "name": "cpd:C15883"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "110", 
+            "name": "rn:R07501"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "131", 
+                    "name": "cpd:C17570"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "134", 
+                    "name": "cpd:C16695"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "111", 
+            "name": "rn:R10709"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "103", 
+                    "name": "cpd:C00082"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C01179"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "112", 
+            "name": "rn:R00734"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C01179"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "105", 
+                    "name": "cpd:C03964"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "113", 
+            "name": "rn:R03337 rn:R03339"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "93", 
+                    "name": "cpd:C00811"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "106", 
+                    "name": "cpd:C00223"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "114", 
+            "name": "rn:R01616"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "119", 
+                    "name": "cpd:C19847"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "180", 
+                    "name": "cpd:C05819"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "115", 
+            "name": "rn:R09736"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "136", 
+                    "name": "cpd:C15882"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "132", 
+                    "name": "cpd:C14151"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "116", 
+            "name": "rn:R07503"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "124", 
+                    "name": "cpd:C05847"
+                }, 
+                {
+                    "id": "61", 
+                    "name": "cpd:C03657"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "119", 
+                    "name": "cpd:C19847"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "117", 
+            "name": "rn:R10757"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "240", 
+                    "name": "cpd:C22039"
+                }, 
+                {
+                    "id": "122", 
+                    "name": "cpd:C05427"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "120", 
+                    "name": "cpd:C13309"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "118", 
+            "name": "rn:R12255"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "132", 
+                    "name": "cpd:C14151"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "135", 
+                    "name": "cpd:C14152"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "126", 
+            "name": "rn:R07504"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "138", 
+                    "name": "cpd:C15883"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "137", 
+                    "name": "cpd:C02483"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "127", 
+            "name": "rn:R07502"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "137", 
+                    "name": "cpd:C02483"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "133", 
+                    "name": "cpd:C02477"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "128", 
+            "name": "rn:R07236"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "92", 
+                    "name": "cpd:C00544"
+                }, 
+                {
+                    "id": "109", 
+                    "name": "cpd:C05427"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "136", 
+                    "name": "cpd:C15882"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "139", 
+            "name": "rn:R07500"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "83", 
+                    "name": "cpd:C17552"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "84", 
+                    "name": "cpd:C19858"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "146", 
+            "name": "rn:R12658"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "84", 
+                    "name": "cpd:C19858"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "85", 
+                    "name": "cpd:C19859"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "147", 
+            "name": "rn:R09737"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "85", 
+                    "name": "cpd:C19859"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "151", 
+                    "name": "cpd:C21860"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "148", 
+            "name": "rn:R12067"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "92", 
+                    "name": "cpd:C00544"
+                }, 
+                {
+                    "id": "130", 
+                    "name": "cpd:C04145"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "131", 
+                    "name": "cpd:C17570"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "149", 
+            "name": "rn:R08782"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "167", 
+                    "name": "cpd:C00341"
+                }, 
+                {
+                    "id": "77", 
+                    "name": "cpd:C00156"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "152", 
+                    "name": "cpd:C18131"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "168", 
+            "name": "rn:R09040"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "153", 
+                    "name": "cpd:C10793"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "154", 
+                    "name": "cpd:C18132"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "169", 
+            "name": "rn:R09042"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "123", 
+                    "name": "cpd:C00828"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "180", 
+                    "name": "cpd:C05819"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "178", 
+            "name": "rn:R02964"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "185", 
+                    "name": "cpd:C20265"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "123", 
+                    "name": "cpd:C00828"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "177", 
+            "name": "rn:R09992"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "182", 
+                    "name": "cpd:C03313"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "179", 
+                    "name": "cpd:C05849"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "176", 
+            "name": "rn:R05144"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "121", 
+                    "name": "cpd:C02059"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "182", 
+                    "name": "cpd:C03313"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "181", 
+            "name": "rn:R03816"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "180", 
+                    "name": "cpd:C05819"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "185", 
+                    "name": "cpd:C20265"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "184", 
+            "name": "rn:R09991"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "179", 
+                    "name": "cpd:C05849"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "121", 
+                    "name": "cpd:C02059"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "186", 
+            "name": "rn:R03511"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "191", 
+                    "name": "cpd:C00251"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "207", 
+                    "name": "cpd:C20772"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "204", 
+            "name": "rn:R10666"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "207", 
+                    "name": "cpd:C20772"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "208", 
+                    "name": "cpd:C20773"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "205", 
+            "name": "rn:R10667"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "208", 
+                    "name": "cpd:C20773"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "194", 
+                    "name": "cpd:C17010"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "206", 
+            "name": "rn:R10668"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "209", 
+                    "name": "cpd:C00423"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "93", 
+                    "name": "cpd:C00811"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "211", 
+            "name": "rn:R02253"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "225", 
+                    "name": "cpd:C20737"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "227", 
+                    "name": "cpd:C20738"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "229", 
+            "name": "rn:R10710"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "218", 
+                    "name": "cpd:C00353"
+                }, 
+                {
+                    "id": "92", 
+                    "name": "cpd:C00544"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "225", 
+                    "name": "cpd:C20737"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "228", 
+            "name": "rn:R10708"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "226", 
+                    "name": "cpd:C14155"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "230", 
+                    "name": "cpd:C14153"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "222", 
+            "name": "rn:R10491"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "226", 
+                    "name": "cpd:C14155"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "227", 
+                    "name": "cpd:C20738"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "221", 
+            "name": "rn:R10624"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "223", 
+                    "name": "cpd:C14156"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "224", 
+                    "name": "cpd:C14154"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "220", 
+            "name": "rn:R10492"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "223", 
+                    "name": "cpd:C14156"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "225", 
+                    "name": "cpd:C20737"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "219", 
+            "name": "rn:R10623"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "120", 
+                    "name": "cpd:C13309"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "239", 
+                    "name": "cpd:C21084"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "234", 
+            "name": "rn:R11061"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "239", 
+                    "name": "cpd:C21084"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "182", 
+                    "name": "cpd:C03313"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "236", 
+            "name": "rn:R04994"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "86", 
+                    "name": "cpd:C05848"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "81", 
+                    "name": "cpd:C17554"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "241", 
+            "name": "rn:R08770"
+        }
+    ], 
+    "links": [
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,587L799,617", 
+            "kegg_id": "rn:R08166", 
+            "source": "59", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "60"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,625L799,654", 
+            "kegg_id": "rn:R08166", 
+            "source": "60", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "89"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,819L799,849", 
+            "kegg_id": "rn:R07263", 
+            "source": "79", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "64"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,857L799,827", 
+            "kegg_id": "rn:R07263", 
+            "source": "64", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "79"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,857L799,885", 
+            "kegg_id": "rn:R07263", 
+            "source": "64", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "90"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,893L799,865", 
+            "kegg_id": "rn:R07263", 
+            "source": "90", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "64"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,740L799.7778634620772,768.0030846347782", 
+            "kegg_id": "rn:R04030", 
+            "source": "80", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "65", 
+            "target": "65"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M800,776L799.1859962219901,811.0021624544253", 
+            "kegg_id": "rn:R04030", 
+            "source": "65", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "65", 
+            "target": "79"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,662L799,692", 
+            "kegg_id": "rn:R04031", 
+            "source": "89", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "66", 
+            "target": "66"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,700L799,732", 
+            "kegg_id": "rn:R04031", 
+            "source": "66", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "66", 
+            "target": "80"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,518L799,541", 
+            "kegg_id": "rn:R08165", 
+            "source": "76", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "67"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,549L799,579", 
+            "kegg_id": "rn:R08165", 
+            "source": "67", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "59"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M520,892L520,919", 
+            "kegg_id": "rn:R08769", 
+            "source": "88", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "68"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M520,927L463.70511626079644,963.6363529096404", 
+            "kegg_id": "rn:R08769", 
+            "source": "68", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "83"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M520,812L520,838", 
+            "kegg_id": "rn:R08768", 
+            "source": "87", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "69"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M520,846L520,884", 
+            "kegg_id": "rn:R08768", 
+            "source": "69", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "88"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M457,735L512.8219401221119,762.4679387902455", 
+            "kegg_id": "rn:R04985", 
+            "source": "86", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "70"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M520,766L520,804", 
+            "kegg_id": "rn:R04985", 
+            "source": "70", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "87"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M413,666L451.4119391919181,692.461558109988", 
+            "kegg_id": "rn:R05000", 
+            "source": "108", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "71", 
+            "target": "71"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M457,624L457.8904212397842,689.0007505042468", 
+            "kegg_id": "rn:R05000", 
+            "source": "77", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "71", 
+            "target": "71"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M458,697L457.21045345670586,727.0027686451772", 
+            "kegg_id": "rn:R05000", 
+            "source": "71", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "71", 
+            "target": "86"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M457,1208L457.76480758718486,1234.0034579642852", 
+            "kegg_id": "rn:R12657", 
+            "source": "151", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "72", 
+            "target": "72"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M458,1242L457.1777338982812,1279.001974577347", 
+            "kegg_id": "rn:R12657", 
+            "source": "72", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "72", 
+            "target": "78"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M394,812L394,838", 
+            "kegg_id": "rn:R08771", 
+            "source": "81", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "73", 
+            "target": "73"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M394,846L394,884", 
+            "kegg_id": "rn:R08771", 
+            "source": "73", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "73", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M457,624L535.0679318180175,524.2987858709656", 
+            "kegg_id": "rn:R01302", 
+            "source": "77", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "74"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M540,518L461.9320681819825,617.7012141290344", 
+            "kegg_id": "rn:R01302", 
+            "source": "74", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "77"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M540,518L599,518", 
+            "kegg_id": "rn:R01302", 
+            "source": "74", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "191"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M607,518L548,518", 
+            "kegg_id": "rn:R01302", 
+            "source": "191", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "74"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M607,518L724.0002559877126,518.9360020479018", 
+            "kegg_id": "rn:R01717", 
+            "source": "191", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "75"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M732,519L614.9997440122874,518.0639979520982", 
+            "kegg_id": "rn:R01717", 
+            "source": "75", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "191"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M732,519L791.0008909182053,518.1193896877879", 
+            "kegg_id": "rn:R01717", 
+            "source": "75", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "76"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,518L739.9991090817947,518.8806103122121", 
+            "kegg_id": "rn:R01717", 
+            "source": "76", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "75"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M681,864L681,904", 
+            "kegg_id": "rn:R08587", 
+            "source": "193", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "200", 
+            "target": "200"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M681,912L681,956", 
+            "kegg_id": "rn:R08587", 
+            "source": "200", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "200", 
+            "target": "194"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M681,964L681,1002", 
+            "kegg_id": "rn:R08588", 
+            "source": "194", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "201", 
+            "target": "201"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M681,1010L681,1056", 
+            "kegg_id": "rn:R08588", 
+            "source": "201", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "201", 
+            "target": "195"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M681,1064L681,1102", 
+            "kegg_id": "rn:R08589", 
+            "source": "195", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "202", 
+            "target": "202"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M681,1110L681,1164", 
+            "kegg_id": "rn:R08589", 
+            "source": "202", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "202", 
+            "target": "196"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M681,764L681,805", 
+            "kegg_id": "rn:R10695", 
+            "source": "208", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "203", 
+            "target": "203"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M681,813L681,856", 
+            "kegg_id": "rn:R10695", 
+            "source": "203", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "203", 
+            "target": "193"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,893L799,917", 
+            "kegg_id": "rn:R07262", 
+            "source": "90", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "91", 
+            "target": "91"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,925L799,957", 
+            "kegg_id": "rn:R07262", 
+            "source": "91", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "91", 
+            "target": "61"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M296,517L369.0024375381431,518.8025293219295", 
+            "kegg_id": "rn:R01301", 
+            "source": "107", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "94", 
+            "target": "94"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M377,519L452.15165427789714,617.63654623974", 
+            "kegg_id": "rn:R01301", 
+            "source": "94", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "94", 
+            "target": "77"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M317,188L374.0009465775339,188.87693763965436", 
+            "kegg_id": "rn:R02521", 
+            "source": "104", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "96", 
+            "target": "96"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M382,189L443.0008400273032,188.11592985467678", 
+            "kegg_id": "rn:R02521", 
+            "source": "96", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "96", 
+            "target": "92"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M607,267L645.0018896894087,267.8261280367263", 
+            "kegg_id": "rn:R07501", 
+            "source": "136", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "110", 
+            "target": "110"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M653,268L705.0011108796832,267.1333148186719", 
+            "kegg_id": "rn:R07501", 
+            "source": "110", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "110", 
+            "target": "138"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M607,120L641.002266610047,120.80957777642969", 
+            "kegg_id": "rn:R10709", 
+            "source": "131", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "111", 
+            "target": "111"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M649,121L705.0009763837224,120.12498474400434", 
+            "kegg_id": "rn:R10709", 
+            "source": "111", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "111", 
+            "target": "134"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M317,327L317,264", 
+            "kegg_id": "rn:R00734", 
+            "source": "103", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "112", 
+            "target": "112"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M317,256L317,196", 
+            "kegg_id": "rn:R00734", 
+            "source": "112", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "112", 
+            "target": "104"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M317,188L260.99902361627755,188.87501525599566", 
+            "kegg_id": "rn:R03337", 
+            "source": "104", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "113", 
+            "target": "113"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M253,189L197.99899237986878,188.1269681330138", 
+            "kegg_id": "rn:R03337", 
+            "source": "113", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "113", 
+            "target": "105"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M190,361L189.14283437133506,409.0012752052364", 
+            "kegg_id": "rn:R01616", 
+            "source": "93", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "114", 
+            "target": "114"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M189,417L189.92000399970001,509.0003999700025", 
+            "kegg_id": "rn:R01616", 
+            "source": "114", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "114", 
+            "target": "106"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,1098L799.9047686527759,1174.0005668331746", 
+            "kegg_id": "rn:R09736", 
+            "source": "119", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "115", 
+            "target": "115"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M800,1182L799.1904222235703,1216.002266610047", 
+            "kegg_id": "rn:R09736", 
+            "source": "115", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "115", 
+            "target": "180"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M607,267L646.8979442922631,233.1734820130813", 
+            "kegg_id": "rn:R07503", 
+            "source": "136", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "116", 
+            "target": "116"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M653,228L705.0011108796832,227.13331481867195", 
+            "kegg_id": "rn:R07503", 
+            "source": "116", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "116", 
+            "target": "132"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M830,1040L805.3257896609113,1059.1026144560687", 
+            "kegg_id": "rn:R10757", 
+            "source": "124", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "117", 
+            "target": "117"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,965L799,1056", 
+            "kegg_id": "rn:R10757", 
+            "source": "61", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "117", 
+            "target": "117"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,1064L799,1090", 
+            "kegg_id": "rn:R10757", 
+            "source": "117", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "117", 
+            "target": "119"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M965,965L965.9183715965368,1055.0004164606057", 
+            "kegg_id": "rn:R12255", 
+            "source": "240", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "118", 
+            "target": "118"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M934,1040L959.5038770292583,1058.3309116147793", 
+            "kegg_id": "rn:R12255", 
+            "source": "122", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "118", 
+            "target": "118"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M966,1063L965.228478191191,1090.0032633083144", 
+            "kegg_id": "rn:R12255", 
+            "source": "118", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "118", 
+            "target": "120"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M713,227L760.0013219862934,227.85456949065988", 
+            "kegg_id": "rn:R07504", 
+            "source": "132", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "126", 
+            "target": "126"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M768,228L823.0010076201312,227.1269681330138", 
+            "kegg_id": "rn:R07504", 
+            "source": "126", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "126", 
+            "target": "135"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M713,267L760.0013219862934,267.85456949065986", 
+            "kegg_id": "rn:R07502", 
+            "source": "138", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "127", 
+            "target": "127"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M768,268L823.0010076201312,267.1269681330138", 
+            "kegg_id": "rn:R07502", 
+            "source": "127", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "127", 
+            "target": "137"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M831,267L871.001735546175,267.8333694905453", 
+            "kegg_id": "rn:R07236", 
+            "source": "137", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "128", 
+            "target": "128"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M879,268L925.001371389399,267.14812275204815", 
+            "kegg_id": "rn:R07236", 
+            "source": "128", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "128", 
+            "target": "133"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M451,188L548.6590080871632,263.12231391320245", 
+            "kegg_id": "rn:R07500", 
+            "source": "92", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "139", 
+            "target": "139"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M515,244L548.1400565942996,263.8840339565798", 
+            "kegg_id": "rn:R07500", 
+            "source": "109", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "139", 
+            "target": "139"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M555,268L599.0014788797612,267.15381771385074", 
+            "kegg_id": "rn:R07500", 
+            "source": "139", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "139", 
+            "target": "136"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M457,968L457.75768698687386,993.003670566837", 
+            "kegg_id": "rn:R12658", 
+            "source": "83", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "146", 
+            "target": "146"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M458,1001L457.1701742519246,1040.0018101595435", 
+            "kegg_id": "rn:R12658", 
+            "source": "146", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "146", 
+            "target": "84"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M457,1048L457.76480758718486,1074.0034579642852", 
+            "kegg_id": "rn:R09737", 
+            "source": "84", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "147", 
+            "target": "147"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M458,1082L457.1738719632737,1120.0018896894087", 
+            "kegg_id": "rn:R09737", 
+            "source": "147", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "147", 
+            "target": "85"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M457,1128L457.771521808809,1155.0032633083144", 
+            "kegg_id": "rn:R12067", 
+            "source": "85", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "148", 
+            "target": "148"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M458,1163L457.1777338982812,1200.001974577347", 
+            "kegg_id": "rn:R12067", 
+            "source": "148", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "148", 
+            "target": "151"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M451,188L548.2747774684653,125.33259528473863", 
+            "kegg_id": "rn:R08782", 
+            "source": "92", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "149", 
+            "target": "149"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M515,144L548.0647495755397,124.98776899406467", 
+            "kegg_id": "rn:R08782", 
+            "source": "130", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "149", 
+            "target": "149"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M555,121L599.0014788797612,120.15381771385074", 
+            "kegg_id": "rn:R08782", 
+            "source": "149", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "149", 
+            "target": "131"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M219,666L184.3812746502559,692.175133801026", 
+            "kegg_id": "rn:R09040", 
+            "source": "167", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "168", 
+            "target": "168"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M457,624L185.7394631990594,694.9749791629702", 
+            "kegg_id": "rn:R09040", 
+            "source": "77", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "168", 
+            "target": "168"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M178,697L176.4204706649821,727.0110573653399", 
+            "kegg_id": "rn:R09040", 
+            "source": "168", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "168", 
+            "target": "152"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M176,802L176.72430179328177,823.0047520051713", 
+            "kegg_id": "rn:R09042", 
+            "source": "153", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "169", 
+            "target": "169"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M177,831L176.22213653792284,859.0030846347782", 
+            "kegg_id": "rn:R09042", 
+            "source": "169", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "169", 
+            "target": "154"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,1384L758.9305694954553,1312.9678277419434", 
+            "kegg_id": "rn:R02964", 
+            "source": "123", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "178", 
+            "target": "178"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M755,1306L795.2174583614832,1231.0492821445087", 
+            "kegg_id": "rn:R02964", 
+            "source": "178", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "178", 
+            "target": "180"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,1304L799,1332", 
+            "kegg_id": "rn:R09992", 
+            "source": "185", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "177", 
+            "target": "177"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,1340L799,1376", 
+            "kegg_id": "rn:R09992", 
+            "source": "177", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "177", 
+            "target": "123"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M965,1224L965,1252", 
+            "kegg_id": "rn:R05144", 
+            "source": "182", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "176", 
+            "target": "176"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M965,1260L965,1296", 
+            "kegg_id": "rn:R05144", 
+            "source": "176", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "176", 
+            "target": "179"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M965,1384L1006.0022203720833,1312.9294846883888", 
+            "kegg_id": "rn:R03816", 
+            "source": "121", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "181", 
+            "target": "181"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M1010,1306L968.8487818202127,1231.0133357612765", 
+            "kegg_id": "rn:R03816", 
+            "source": "181", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "181", 
+            "target": "182"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,1224L799,1252", 
+            "kegg_id": "rn:R09991", 
+            "source": "180", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "184", 
+            "target": "184"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M799,1260L799,1296", 
+            "kegg_id": "rn:R09991", 
+            "source": "184", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "184", 
+            "target": "185"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M965,1304L965.7778634620772,1332.0030846347784", 
+            "kegg_id": "rn:R03511", 
+            "source": "179", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "186", 
+            "target": "186"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M966,1340L965.1817712428264,1376.0020653156405", 
+            "kegg_id": "rn:R03511", 
+            "source": "186", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "186", 
+            "target": "121"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M607,518L675.1489291754513,581.5442717987316", 
+            "kegg_id": "rn:R10666", 
+            "source": "191", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "204", 
+            "target": "204"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M681,587L681,656", 
+            "kegg_id": "rn:R10666", 
+            "source": "204", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "204", 
+            "target": "207"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M681,664L681,703", 
+            "kegg_id": "rn:R10667", 
+            "source": "207", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "205", 
+            "target": "205"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M681,711L681,756", 
+            "kegg_id": "rn:R10667", 
+            "source": "205", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "205", 
+            "target": "208"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M681,764L632.6334995795218,858.8727508247841", 
+            "kegg_id": "rn:R10668", 
+            "source": "208", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "206", 
+            "target": "206"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M629,866L677.2502735448052,956.9332078344405", 
+            "kegg_id": "rn:R10668", 
+            "source": "206", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "206", 
+            "target": "194"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M64,361L119.00100762013122,361.8730318669862", 
+            "kegg_id": "rn:R02253", 
+            "source": "209", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "211", 
+            "target": "211"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M127,362L182.00100762013122,361.1269681330138", 
+            "kegg_id": "rn:R02253", 
+            "source": "211", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "211", 
+            "target": "93"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M607,354L645.0018896894087,354.8261280367263", 
+            "kegg_id": "rn:R10710", 
+            "source": "225", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "229", 
+            "target": "229"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M653,355L705.0011108796832,354.1333148186719", 
+            "kegg_id": "rn:R10710", 
+            "source": "229", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "229", 
+            "target": "227"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M515,378L548.0647495755397,358.98776899406465", 
+            "kegg_id": "rn:R10708", 
+            "source": "218", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "228", 
+            "target": "228"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M451,188L550.7709794998244,348.20916900452573", 
+            "kegg_id": "rn:R10708", 
+            "source": "92", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "228", 
+            "target": "228"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M555,355L599.0014788797612,354.15381771385074", 
+            "kegg_id": "rn:R10708", 
+            "source": "228", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "228", 
+            "target": "225"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M831,354L871.001735546175,354.8333694905453", 
+            "kegg_id": "rn:R10491", 
+            "source": "226", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "222", 
+            "target": "222"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M879,355L925.001371389399,354.14812275204815", 
+            "kegg_id": "rn:R10491", 
+            "source": "222", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "222", 
+            "target": "230"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M831,354L775.9989923798688,354.8730318669862", 
+            "kegg_id": "rn:R10624", 
+            "source": "226", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "221", 
+            "target": "221"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M768,355L720.9986780137066,354.14543050934014", 
+            "kegg_id": "rn:R10624", 
+            "source": "221", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "221", 
+            "target": "227"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M713,392L760.0013219862934,392.85456949065986", 
+            "kegg_id": "rn:R10492", 
+            "source": "223", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "220", 
+            "target": "220"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M768,393L823.0010076201312,392.1269681330138", 
+            "kegg_id": "rn:R10492", 
+            "source": "220", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "220", 
+            "target": "224"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M713,392L660.9988891203168,392.8666851813281", 
+            "kegg_id": "rn:R10623", 
+            "source": "223", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "219", 
+            "target": "219"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M653,393L613.1020557077369,359.1734820130813", 
+            "kegg_id": "rn:R10623", 
+            "source": "219", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "219", 
+            "target": "225"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M965,1098L965,1114", 
+            "kegg_id": "rn:R11061", 
+            "source": "120", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "234", 
+            "target": "234"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M965,1122L965,1146", 
+            "kegg_id": "rn:R11061", 
+            "source": "234", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "234", 
+            "target": "239"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M965,1154L965,1174", 
+            "kegg_id": "rn:R04994", 
+            "source": "239", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "236", 
+            "target": "236"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M965,1182L965,1216", 
+            "kegg_id": "rn:R04994", 
+            "source": "236", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "236", 
+            "target": "182"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M457,735L401.17805987788813,762.4679387902455", 
+            "kegg_id": "rn:R08770", 
+            "source": "86", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "241", 
+            "target": "241"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+            "strength": "2", 
+            "d": "M394,766L394,804", 
+            "kegg_id": "rn:R08770", 
+            "source": "241", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "241", 
+            "target": "81"
+        }
+    ], 
+    "labels": [], 
+    "boxes": [], 
+    "relation": [
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "191"
+            }, 
+            "entry1": "63", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "75", 
+            "subtype": {
+                "name": "compound", 
+                "value": "191"
+            }, 
+            "entry1": "63", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "75", 
+            "subtype": {
+                "name": "compound", 
+                "value": "191"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "76"
+            }, 
+            "entry1": "75", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "60", 
+            "subtype": {
+                "name": "compound", 
+                "value": "59"
+            }, 
+            "entry1": "67", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "89"
+            }, 
+            "entry1": "60", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "80"
+            }, 
+            "entry1": "66", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "64", 
+            "subtype": {
+                "name": "compound", 
+                "value": "79"
+            }, 
+            "entry1": "65", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "200", 
+            "subtype": {
+                "name": "compound", 
+                "value": "193"
+            }, 
+            "entry1": "203", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "201", 
+            "subtype": {
+                "name": "compound", 
+                "value": "194"
+            }, 
+            "entry1": "200", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "202", 
+            "subtype": {
+                "name": "compound", 
+                "value": "195"
+            }, 
+            "entry1": "201", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "77"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "71", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "69", 
+            "subtype": {
+                "name": "compound", 
+                "value": "87"
+            }, 
+            "entry1": "70", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "88"
+            }, 
+            "entry1": "69", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "91", 
+            "subtype": {
+                "name": "compound", 
+                "value": "90"
+            }, 
+            "entry1": "64", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "116", 
+            "subtype": {
+                "name": "compound", 
+                "value": "136"
+            }, 
+            "entry1": "139", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "110", 
+            "subtype": {
+                "name": "compound", 
+                "value": "136"
+            }, 
+            "entry1": "139", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "110", 
+            "subtype": {
+                "name": "compound", 
+                "value": "136"
+            }, 
+            "entry1": "116", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "126", 
+            "subtype": {
+                "name": "compound", 
+                "value": "132"
+            }, 
+            "entry1": "116", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "127", 
+            "subtype": {
+                "name": "compound", 
+                "value": "138"
+            }, 
+            "entry1": "110", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "128", 
+            "subtype": {
+                "name": "compound", 
+                "value": "137"
+            }, 
+            "entry1": "127", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "139", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "96", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "139", 
+            "subtype": {
+                "name": "compound", 
+                "value": "109"
+            }, 
+            "entry1": "129", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "96", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "113", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "112", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "113", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "112", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "96", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "63", 
+            "subtype": {
+                "name": "compound", 
+                "value": "103"
+            }, 
+            "entry1": "112", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "94", 
+            "subtype": {
+                "name": "compound", 
+                "value": "77"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "94", 
+            "subtype": {
+                "name": "compound", 
+                "value": "77"
+            }, 
+            "entry1": "71", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "146", 
+            "subtype": {
+                "name": "compound", 
+                "value": "83"
+            }, 
+            "entry1": "68", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "147", 
+            "subtype": {
+                "name": "compound", 
+                "value": "84"
+            }, 
+            "entry1": "146", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "148", 
+            "subtype": {
+                "name": "compound", 
+                "value": "85"
+            }, 
+            "entry1": "147", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "141", 
+            "subtype": {
+                "name": "compound", 
+                "value": "78"
+            }, 
+            "entry1": "72", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "117", 
+            "subtype": {
+                "name": "compound", 
+                "value": "61"
+            }, 
+            "entry1": "91", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "117", 
+            "subtype": {
+                "name": "compound", 
+                "value": "124"
+            }, 
+            "entry1": "125", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "118", 
+            "subtype": {
+                "name": "compound", 
+                "value": "122"
+            }, 
+            "entry1": "125", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "115", 
+            "subtype": {
+                "name": "compound", 
+                "value": "119"
+            }, 
+            "entry1": "117", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "96", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "149", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "129", 
+            "subtype": {
+                "name": "compound", 
+                "value": "130"
+            }, 
+            "entry1": "149", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "111", 
+            "subtype": {
+                "name": "compound", 
+                "value": "131"
+            }, 
+            "entry1": "149", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "108"
+            }, 
+            "entry1": "150", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "151"
+            }, 
+            "entry1": "148", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "168", 
+            "subtype": {
+                "name": "compound", 
+                "value": "167"
+            }, 
+            "entry1": "150", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "168", 
+            "subtype": {
+                "name": "compound", 
+                "value": "77"
+            }, 
+            "entry1": "94", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "168", 
+            "subtype": {
+                "name": "compound", 
+                "value": "77"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "168", 
+            "subtype": {
+                "name": "compound", 
+                "value": "77"
+            }, 
+            "entry1": "71", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "184", 
+            "subtype": {
+                "name": "compound", 
+                "value": "180"
+            }, 
+            "entry1": "178", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "184", 
+            "subtype": {
+                "name": "compound", 
+                "value": "185"
+            }, 
+            "entry1": "177", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "178", 
+            "subtype": {
+                "name": "compound", 
+                "value": "123"
+            }, 
+            "entry1": "115", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "177", 
+            "subtype": {
+                "name": "compound", 
+                "value": "123"
+            }, 
+            "entry1": "115", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "177", 
+            "subtype": {
+                "name": "compound", 
+                "value": "123"
+            }, 
+            "entry1": "178", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "186", 
+            "subtype": {
+                "name": "compound", 
+                "value": "121"
+            }, 
+            "entry1": "181", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "176", 
+            "subtype": {
+                "name": "compound", 
+                "value": "182"
+            }, 
+            "entry1": "181", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "186", 
+            "subtype": {
+                "name": "compound", 
+                "value": "179"
+            }, 
+            "entry1": "176", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "204", 
+            "subtype": {
+                "name": "compound", 
+                "value": "191"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "204", 
+            "subtype": {
+                "name": "compound", 
+                "value": "191"
+            }, 
+            "entry1": "63", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "204", 
+            "subtype": {
+                "name": "compound", 
+                "value": "191"
+            }, 
+            "entry1": "75", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "205", 
+            "subtype": {
+                "name": "compound", 
+                "value": "207"
+            }, 
+            "entry1": "204", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "203", 
+            "subtype": {
+                "name": "compound", 
+                "value": "208"
+            }, 
+            "entry1": "205", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "206", 
+            "subtype": {
+                "name": "compound", 
+                "value": "208"
+            }, 
+            "entry1": "205", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "206", 
+            "subtype": {
+                "name": "compound", 
+                "value": "208"
+            }, 
+            "entry1": "203", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "206", 
+            "subtype": {
+                "name": "compound", 
+                "value": "194"
+            }, 
+            "entry1": "200", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "201", 
+            "subtype": {
+                "name": "compound", 
+                "value": "194"
+            }, 
+            "entry1": "206", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "211", 
+            "subtype": {
+                "name": "compound", 
+                "value": "93"
+            }, 
+            "entry1": "114", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "211", 
+            "subtype": {
+                "name": "compound", 
+                "value": "209"
+            }, 
+            "entry1": "10", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "221", 
+            "subtype": {
+                "name": "compound", 
+                "value": "226"
+            }, 
+            "entry1": "222", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "229", 
+            "subtype": {
+                "name": "compound", 
+                "value": "227"
+            }, 
+            "entry1": "221", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "219", 
+            "subtype": {
+                "name": "compound", 
+                "value": "223"
+            }, 
+            "entry1": "220", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "228", 
+            "subtype": {
+                "name": "compound", 
+                "value": "225"
+            }, 
+            "entry1": "219", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "229", 
+            "subtype": {
+                "name": "compound", 
+                "value": "225"
+            }, 
+            "entry1": "219", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "229", 
+            "subtype": {
+                "name": "compound", 
+                "value": "225"
+            }, 
+            "entry1": "228", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "139", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "149", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "228", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "149", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "228", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "96", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "228", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "139", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "232", 
+            "subtype": {
+                "name": "compound", 
+                "value": "218"
+            }, 
+            "entry1": "228", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "234", 
+            "subtype": {
+                "name": "compound", 
+                "value": "120"
+            }, 
+            "entry1": "118", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "236", 
+            "subtype": {
+                "name": "compound", 
+                "value": "239"
+            }, 
+            "entry1": "234", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "236", 
+            "subtype": {
+                "name": "compound", 
+                "value": "182"
+            }, 
+            "entry1": "181", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "236", 
+            "subtype": {
+                "name": "compound", 
+                "value": "182"
+            }, 
+            "entry1": "176", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "184", 
+            "subtype": {
+                "name": "compound", 
+                "value": "180"
+            }, 
+            "entry1": "115", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "178", 
+            "subtype": {
+                "name": "compound", 
+                "value": "180"
+            }, 
+            "entry1": "115", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "241", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "71", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "241", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "73", 
+            "subtype": {
+                "name": "compound", 
+                "value": "81"
+            }, 
+            "entry1": "241", 
+            "type": "ECrel"
+        }
+    ], 
+    "entry": [
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00130", 
+            "graphics": {
+                "name": "TITLE:Ubiquinone and other terpenoid-quinone biosynthesis", 
+                "width": "452", 
+                "height": "25", 
+                "bgcolor": "#FFFFFF", 
+                "y": "58", 
+                "x": "266", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "9", 
+            "name": "path:ko00130"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00940", 
+            "graphics": {
+                "name": "Phenylpropanoid biosynthesis", 
+                "width": "101", 
+                "height": "34", 
+                "bgcolor": "#FFFFFF", 
+                "y": "296", 
+                "x": "65", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "10", 
+            "name": "path:ko00940"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C16519", 
+            "graphics": {
+                "name": "C16519", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "587", 
+                "x": "799", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "59", 
+            "name": "cpd:C16519"
+        }, 
+        {
+            "reaction": "rn:R08166", 
+            "name": "ko:K08680 ko:K14759", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K08680+K14759", 
+            "graphics": {
+                "name": "K08680...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "625", 
+                "x": "799", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "60"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03657", 
+            "graphics": {
+                "name": "C03657", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "965", 
+                "x": "799", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "61", 
+            "name": "cpd:C03657"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06986", 
+            "graphics": {
+                "name": "C06986", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "776", 
+                "x": "870", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "62", 
+            "name": "cpd:C06986"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00400", 
+            "graphics": {
+                "name": "Phenylalanine, tyrosine and tryptophan biosynthesis", 
+                "width": "151", 
+                "height": "34", 
+                "bgcolor": "#FFFFFF", 
+                "y": "472", 
+                "x": "319", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "63", 
+            "name": "path:ko00400"
+        }, 
+        {
+            "reaction": "rn:R07263", 
+            "name": "ko:K01661", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01661", 
+            "graphics": {
+                "name": "K01661", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "857", 
+                "x": "799", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "64"
+        }, 
+        {
+            "reaction": "rn:R04030", 
+            "name": "ko:K01911 ko:K14760", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01911+K14760", 
+            "graphics": {
+                "name": "K01911...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "776", 
+                "x": "800", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "65"
+        }, 
+        {
+            "reaction": "rn:R04031", 
+            "name": "ko:K02549 ko:K14759", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K02549+K14759", 
+            "graphics": {
+                "name": "K02549...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "700", 
+                "x": "799", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "66"
+        }, 
+        {
+            "reaction": "rn:R08165", 
+            "name": "ko:K02551 ko:K14759", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K02551+K14759", 
+            "graphics": {
+                "name": "K02551...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "549", 
+                "x": "799", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "67"
+        }, 
+        {
+            "reaction": "rn:R08769", 
+            "name": "ko:K00568", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00568", 
+            "graphics": {
+                "name": "K00568", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "927", 
+                "x": "520", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "68"
+        }, 
+        {
+            "reaction": "rn:R08768", 
+            "name": "ko:K18800", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18800", 
+            "graphics": {
+                "name": "K18800", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "846", 
+                "x": "520", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "69"
+        }, 
+        {
+            "reaction": "rn:R04985", 
+            "name": "ko:K03182 ko:K03186", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03182+K03186", 
+            "graphics": {
+                "name": "K03182...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "766", 
+                "x": "520", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "70"
+        }, 
+        {
+            "reaction": "rn:R05000", 
+            "name": "ko:K03179 ko:K06125", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03179+K06125", 
+            "graphics": {
+                "name": "K03179...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "697", 
+                "x": "458", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "71"
+        }, 
+        {
+            "reaction": "rn:R12657", 
+            "name": "ko:K00568 ko:K00591", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00568+K00591", 
+            "graphics": {
+                "name": "K00568...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1242", 
+                "x": "458", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "72"
+        }, 
+        {
+            "reaction": "rn:R08771", 
+            "name": "ko:K00591", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00591", 
+            "graphics": {
+                "name": "K00591", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "846", 
+                "x": "394", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "73"
+        }, 
+        {
+            "reaction": "rn:R01302", 
+            "name": "ko:K03181 ko:K18240", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03181+K18240", 
+            "graphics": {
+                "name": "K03181...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "518", 
+                "x": "540", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "74"
+        }, 
+        {
+            "reaction": "rn:R01717", 
+            "name": "ko:K01851 ko:K02552 ko:K02361 ko:K14759", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01851+K02552+K02361+K14759", 
+            "graphics": {
+                "name": "K01851...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "519", 
+                "x": "732", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "75"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00885", 
+            "graphics": {
+                "name": "C00885", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "518", 
+                "x": "799", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "76", 
+            "name": "cpd:C00885"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00156", 
+            "graphics": {
+                "name": "C00156", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "624", 
+                "x": "457", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "77", 
+            "name": "cpd:C00156"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00390", 
+            "graphics": {
+                "name": "C00390", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1287", 
+                "x": "457", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "78", 
+            "name": "cpd:C00390"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03160", 
+            "graphics": {
+                "name": "C03160", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "819", 
+                "x": "799", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "79", 
+            "name": "cpd:C03160"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02730", 
+            "graphics": {
+                "name": "C02730", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "740", 
+                "x": "799", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "80", 
+            "name": "cpd:C02730"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C17554", 
+            "graphics": {
+                "name": "C17554", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "812", 
+                "x": "394", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "81", 
+            "name": "cpd:C17554"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C17559", 
+            "graphics": {
+                "name": "C17559", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "892", 
+                "x": "394", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "82", 
+            "name": "cpd:C17559"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C17552", 
+            "graphics": {
+                "name": "C17552", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "968", 
+                "x": "457", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "83", 
+            "name": "cpd:C17552"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C19858", 
+            "graphics": {
+                "name": "C19858", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1048", 
+                "x": "457", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "84", 
+            "name": "cpd:C19858"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C19859", 
+            "graphics": {
+                "name": "C19859", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1128", 
+                "x": "457", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "85", 
+            "name": "cpd:C19859"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05848", 
+            "graphics": {
+                "name": "C05848", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "735", 
+                "x": "457", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "86", 
+            "name": "cpd:C05848"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05807", 
+            "graphics": {
+                "name": "C05807", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "812", 
+                "x": "520", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "87", 
+            "name": "cpd:C05807"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C17551", 
+            "graphics": {
+                "name": "C17551", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "892", 
+                "x": "520", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "88", 
+            "name": "cpd:C17551"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05817", 
+            "graphics": {
+                "name": "C05817", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "662", 
+                "x": "799", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "89", 
+            "name": "cpd:C05817"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C15547", 
+            "graphics": {
+                "name": "C15547", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "893", 
+                "x": "799", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "90", 
+            "name": "cpd:C15547"
+        }, 
+        {
+            "reaction": "rn:R07262", 
+            "name": "ko:K12073 ko:K19222", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K12073+K19222", 
+            "graphics": {
+                "name": "K12073...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "925", 
+                "x": "799", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "91"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00544", 
+            "graphics": {
+                "name": "C00544", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "188", 
+                "x": "451", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "92", 
+            "name": "cpd:C00544"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00811", 
+            "graphics": {
+                "name": "C00811", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "361", 
+                "x": "190", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "93", 
+            "name": "cpd:C00811"
+        }, 
+        {
+            "reaction": "rn:R01301", 
+            "name": "ko:K01075", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01075", 
+            "graphics": {
+                "name": "K01075", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "519", 
+                "x": "377", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "94"
+        }, 
+        {
+            "reaction": "rn:R02521", 
+            "name": "ko:K00457", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00457", 
+            "graphics": {
+                "name": "K00457", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "189", 
+                "x": "382", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "96"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00082", 
+            "graphics": {
+                "name": "C00082", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "327", 
+                "x": "317", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "103", 
+            "name": "cpd:C00082"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01179", 
+            "graphics": {
+                "name": "C01179", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "188", 
+                "x": "317", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "104", 
+            "name": "cpd:C01179"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03964", 
+            "graphics": {
+                "name": "C03964", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "188", 
+                "x": "190", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "105", 
+            "name": "cpd:C03964"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00223", 
+            "graphics": {
+                "name": "C00223", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "517", 
+                "x": "190", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "106", 
+            "name": "cpd:C00223"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02949", 
+            "graphics": {
+                "name": "C02949", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "517", 
+                "x": "296", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "107", 
+            "name": "cpd:C02949"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05847", 
+            "graphics": {
+                "name": "C05847", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "666", 
+                "x": "413", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "108", 
+            "name": "cpd:C05847"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05427", 
+            "graphics": {
+                "name": "C05427", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "244", 
+                "x": "515", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "109", 
+            "name": "cpd:C05427"
+        }, 
+        {
+            "reaction": "rn:R07501", 
+            "name": "ko:K12502 ko:K18534", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K12502+K18534", 
+            "graphics": {
+                "name": "K12502...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "268", 
+                "x": "653", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "110"
+        }, 
+        {
+            "reaction": "rn:R10709", 
+            "name": "ko:K12502 ko:K18534", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K12502+K18534", 
+            "graphics": {
+                "name": "K12502...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "121", 
+                "x": "649", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "111"
+        }, 
+        {
+            "reaction": "rn:R00734", 
+            "name": "ko:K00815 ko:K00838", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00815+K00838", 
+            "graphics": {
+                "name": "K00815...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "256", 
+                "x": "317", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "112"
+        }, 
+        {
+            "reaction": "rn:R03337 rn:R03339", 
+            "name": "ko:K18606", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18606", 
+            "graphics": {
+                "name": "K18606", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "189", 
+                "x": "253", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "113"
+        }, 
+        {
+            "reaction": "rn:R01616", 
+            "name": "ko:K01904", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01904", 
+            "graphics": {
+                "name": "K01904", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "417", 
+                "x": "189", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "114"
+        }, 
+        {
+            "reaction": "rn:R09736", 
+            "name": "ko:K03183", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03183", 
+            "graphics": {
+                "name": "K03183", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1182", 
+                "x": "800", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "115"
+        }, 
+        {
+            "reaction": "rn:R07503", 
+            "name": "ko:K09834", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K09834", 
+            "graphics": {
+                "name": "K09834", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "228", 
+                "x": "653", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "116"
+        }, 
+        {
+            "reaction": "rn:R10757", 
+            "name": "ko:K02548", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K02548", 
+            "graphics": {
+                "name": "K02548", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1064", 
+                "x": "799", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "117"
+        }, 
+        {
+            "reaction": "rn:R12255", 
+            "name": "ko:K23094", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K23094", 
+            "graphics": {
+                "name": "K23094", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1063", 
+                "x": "966", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "118"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C19847", 
+            "graphics": {
+                "name": "C19847", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1098", 
+                "x": "799", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "119", 
+            "name": "cpd:C19847"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C13309", 
+            "graphics": {
+                "name": "C13309", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1098", 
+                "x": "965", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "120", 
+            "name": "cpd:C13309"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02059", 
+            "graphics": {
+                "name": "C02059", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1384", 
+                "x": "965", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "121", 
+            "name": "cpd:C02059"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05427", 
+            "graphics": {
+                "name": "C05427", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1040", 
+                "x": "934", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "122", 
+            "name": "cpd:C05427"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00828", 
+            "graphics": {
+                "name": "C00828", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1384", 
+                "x": "799", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "123", 
+            "name": "cpd:C00828"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05847", 
+            "graphics": {
+                "name": "C05847", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1040", 
+                "x": "830", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "124", 
+            "name": "cpd:C05847"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00900", 
+            "graphics": {
+                "name": "Terpenoid backbone biosynthesis", 
+                "width": "119", 
+                "height": "34", 
+                "bgcolor": "#FFFFFF", 
+                "y": "995", 
+                "x": "885", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "125", 
+            "name": "path:ko00900"
+        }, 
+        {
+            "reaction": "rn:R07504", 
+            "name": "ko:K05928", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05928", 
+            "graphics": {
+                "name": "K05928", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "228", 
+                "x": "768", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "126"
+        }, 
+        {
+            "reaction": "rn:R07502", 
+            "name": "ko:K09834", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K09834", 
+            "graphics": {
+                "name": "K09834", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "268", 
+                "x": "768", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "127"
+        }, 
+        {
+            "reaction": "rn:R07236", 
+            "name": "ko:K05928", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05928", 
+            "graphics": {
+                "name": "K05928", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "268", 
+                "x": "879", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "128"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00900", 
+            "graphics": {
+                "name": "Terpenoid backbone biosynthesis", 
+                "width": "113", 
+                "height": "34", 
+                "bgcolor": "#FFFFFF", 
+                "y": "192", 
+                "x": "518", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "129", 
+            "name": "path:ko00900"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04145", 
+            "graphics": {
+                "name": "C04145", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "144", 
+                "x": "515", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "130", 
+            "name": "cpd:C04145"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C17570", 
+            "graphics": {
+                "name": "C17570", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "120", 
+                "x": "607", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "131", 
+            "name": "cpd:C17570"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C14151", 
+            "graphics": {
+                "name": "C14151", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "227", 
+                "x": "713", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "132", 
+            "name": "cpd:C14151"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02477", 
+            "graphics": {
+                "name": "C02477", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "267", 
+                "x": "933", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "133", 
+            "name": "cpd:C02477"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C16695", 
+            "graphics": {
+                "name": "C16695", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "120", 
+                "x": "713", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "134", 
+            "name": "cpd:C16695"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C14152", 
+            "graphics": {
+                "name": "C14152", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "227", 
+                "x": "831", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "135", 
+            "name": "cpd:C14152"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C15882", 
+            "graphics": {
+                "name": "C15882", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "267", 
+                "x": "607", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "136", 
+            "name": "cpd:C15882"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02483", 
+            "graphics": {
+                "name": "C02483", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "267", 
+                "x": "831", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "137", 
+            "name": "cpd:C02483"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C15883", 
+            "graphics": {
+                "name": "C15883", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "267", 
+                "x": "713", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "138", 
+            "name": "cpd:C15883"
+        }, 
+        {
+            "reaction": "rn:R07500", 
+            "name": "ko:K09833", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K09833", 
+            "graphics": {
+                "name": "K09833", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "268", 
+                "x": "555", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "139"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00190", 
+            "graphics": {
+                "name": "Oxidative phosphorylation", 
+                "width": "149", 
+                "height": "25", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1352", 
+                "x": "460", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "141", 
+            "name": "path:ko00190"
+        }, 
+        {
+            "reaction": "rn:R12658", 
+            "name": "ko:K03185", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03185", 
+            "graphics": {
+                "name": "K03185", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1001", 
+                "x": "458", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "146"
+        }, 
+        {
+            "reaction": "rn:R09737", 
+            "name": "ko:K03183 ko:K06127", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03183+K06127", 
+            "graphics": {
+                "name": "K03183...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1082", 
+                "x": "458", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "147"
+        }, 
+        {
+            "reaction": "rn:R12067", 
+            "name": "ko:K03184 ko:K06134", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03184+K06134", 
+            "graphics": {
+                "name": "K03184...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1163", 
+                "x": "458", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "148"
+        }, 
+        {
+            "reaction": "rn:R08782", 
+            "name": "ko:K12501", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K12501", 
+            "graphics": {
+                "name": "K12501", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "121", 
+                "x": "555", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "149"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00900", 
+            "graphics": {
+                "name": "Terpenoid backbone biosynthesis", 
+                "width": "119", 
+                "height": "34", 
+                "bgcolor": "#FFFFFF", 
+                "y": "666", 
+                "x": "314", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "150", 
+            "name": "path:ko00900"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C21860", 
+            "graphics": {
+                "name": "C21860", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1208", 
+                "x": "457", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "151", 
+            "name": "cpd:C21860"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C18131", 
+            "graphics": {
+                "name": "C18131", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "735", 
+                "x": "176", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "152", 
+            "name": "cpd:C18131"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C10793", 
+            "graphics": {
+                "name": "C10793", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "802", 
+                "x": "176", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "153", 
+            "name": "cpd:C10793"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C18132", 
+            "graphics": {
+                "name": "C18132", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "867", 
+                "x": "176", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "154", 
+            "name": "cpd:C18132"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C18133", 
+            "graphics": {
+                "name": "C18133", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "927", 
+                "x": "176", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "155", 
+            "name": "cpd:C18133"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C17412", 
+            "graphics": {
+                "name": "C17412", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "991", 
+                "x": "176", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "156", 
+            "name": "cpd:C17412"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03993", 
+            "graphics": {
+                "name": "C03993", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "625", 
+                "x": "572", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "157", 
+            "name": "cpd:C03993"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C18135", 
+            "graphics": {
+                "name": "C18135", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "867", 
+                "x": "91", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "158", 
+            "name": "cpd:C18135"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C18134", 
+            "graphics": {
+                "name": "C18134", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "927", 
+                "x": "91", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "159", 
+            "name": "cpd:C18134"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00341", 
+            "graphics": {
+                "name": "C00341", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "666", 
+                "x": "219", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "167", 
+            "name": "cpd:C00341"
+        }, 
+        {
+            "reaction": "rn:R09040", 
+            "name": "ko:K13565", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K13565", 
+            "graphics": {
+                "name": "K13565", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "697", 
+                "x": "178", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "168"
+        }, 
+        {
+            "reaction": "rn:R09042", 
+            "name": "ko:K24441", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K24441", 
+            "graphics": {
+                "name": "K24441", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "831", 
+                "x": "177", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "169"
+        }, 
+        {
+            "reaction": "rn:R05144", 
+            "name": "ko:K10106", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10106", 
+            "graphics": {
+                "name": "K10106", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1260", 
+                "x": "965", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "176"
+        }, 
+        {
+            "reaction": "rn:R09992", 
+            "name": "ko:K05357", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05357", 
+            "graphics": {
+                "name": "K05357", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1340", 
+                "x": "799", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "177"
+        }, 
+        {
+            "reaction": "rn:R02964", 
+            "name": "ko:K00355 ko:K03809 ko:K19267", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00355+K03809+K19267", 
+            "graphics": {
+                "name": "K00355...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1306", 
+                "x": "755", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "178"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05849", 
+            "graphics": {
+                "name": "C05849", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1304", 
+                "x": "965", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "179", 
+            "name": "cpd:C05849"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05819", 
+            "graphics": {
+                "name": "C05819", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1224", 
+                "x": "799", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "180", 
+            "name": "cpd:C05819"
+        }, 
+        {
+            "reaction": "rn:R03816", 
+            "name": "ko:K00355 ko:K03809 ko:K19267", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00355+K03809+K19267", 
+            "graphics": {
+                "name": "K00355...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1306", 
+                "x": "1010", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "181"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03313", 
+            "graphics": {
+                "name": "C03313", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1224", 
+                "x": "965", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "182", 
+            "name": "cpd:C03313"
+        }, 
+        {
+            "reaction": "rn:R09991", 
+            "name": "ko:K10106", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10106", 
+            "graphics": {
+                "name": "K10106", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1260", 
+                "x": "799", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "184"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20265", 
+            "graphics": {
+                "name": "C20265", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1304", 
+                "x": "799", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "185", 
+            "name": "cpd:C20265"
+        }, 
+        {
+            "reaction": "rn:R03511", 
+            "name": "ko:K05357", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05357", 
+            "graphics": {
+                "name": "K05357", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1340", 
+                "x": "966", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "186"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko04610", 
+            "graphics": {
+                "name": "Complement and coagulation cascades", 
+                "width": "119", 
+                "height": "34", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1369", 
+                "x": "886", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "187", 
+            "name": "path:ko04610"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00251", 
+            "graphics": {
+                "name": "C00251", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "518", 
+                "x": "607", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "191", 
+            "name": "cpd:C00251"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C16999", 
+            "graphics": {
+                "name": "C16999", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "864", 
+                "x": "681", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "193", 
+            "name": "cpd:C16999"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C17010", 
+            "graphics": {
+                "name": "C17010", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "964", 
+                "x": "681", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "194", 
+            "name": "cpd:C17010"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C17017", 
+            "graphics": {
+                "name": "C17017", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1064", 
+                "x": "681", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "195", 
+            "name": "cpd:C17017"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C17018", 
+            "graphics": {
+                "name": "C17018", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1172", 
+                "x": "681", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "196", 
+            "name": "cpd:C17018"
+        }, 
+        {
+            "reaction": "rn:R08587", 
+            "name": "ko:K11783", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K11783", 
+            "graphics": {
+                "name": "K11783", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "912", 
+                "x": "681", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "200"
+        }, 
+        {
+            "reaction": "rn:R08588", 
+            "name": "ko:K11784", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K11784", 
+            "graphics": {
+                "name": "K11784", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1010", 
+                "x": "681", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "201"
+        }, 
+        {
+            "reaction": "rn:R08589", 
+            "name": "ko:K11785", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K11785", 
+            "graphics": {
+                "name": "K11785", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1110", 
+                "x": "681", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "202"
+        }, 
+        {
+            "reaction": "rn:R10695", 
+            "name": "ko:K18286 ko:K20810", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18286+K20810", 
+            "graphics": {
+                "name": "K18286...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "813", 
+                "x": "681", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "203"
+        }, 
+        {
+            "reaction": "rn:R10666", 
+            "name": "ko:K11782", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K11782", 
+            "graphics": {
+                "name": "K11782", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "587", 
+                "x": "681", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "204"
+        }, 
+        {
+            "reaction": "rn:R10667", 
+            "name": "ko:K18285", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18285", 
+            "graphics": {
+                "name": "K18285", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "711", 
+                "x": "681", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "205"
+        }, 
+        {
+            "reaction": "rn:R10668", 
+            "name": "ko:K18284", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18284", 
+            "graphics": {
+                "name": "K18284", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "866", 
+                "x": "629", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "206"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20772", 
+            "graphics": {
+                "name": "C20772", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "664", 
+                "x": "681", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "207", 
+            "name": "cpd:C20772"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20773", 
+            "graphics": {
+                "name": "C20773", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "764", 
+                "x": "681", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "208", 
+            "name": "cpd:C20773"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00423", 
+            "graphics": {
+                "name": "C00423", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "361", 
+                "x": "64", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "209", 
+            "name": "cpd:C00423"
+        }, 
+        {
+            "reaction": "rn:R02253", 
+            "name": "ko:K00487", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00487", 
+            "graphics": {
+                "name": "K00487", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "362", 
+                "x": "127", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "211"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00353", 
+            "graphics": {
+                "name": "C00353", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "378", 
+                "x": "515", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "218", 
+            "name": "cpd:C00353"
+        }, 
+        {
+            "reaction": "rn:R10623", 
+            "name": "ko:K09834", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K09834", 
+            "graphics": {
+                "name": "K09834", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "393", 
+                "x": "653", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "219"
+        }, 
+        {
+            "reaction": "rn:R10492", 
+            "name": "ko:K05928", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05928", 
+            "graphics": {
+                "name": "K05928", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "393", 
+                "x": "768", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "220"
+        }, 
+        {
+            "reaction": "rn:R10624", 
+            "name": "ko:K09834", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K09834", 
+            "graphics": {
+                "name": "K09834", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "355", 
+                "x": "768", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "221"
+        }, 
+        {
+            "reaction": "rn:R10491", 
+            "name": "ko:K05928", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05928", 
+            "graphics": {
+                "name": "K05928", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "355", 
+                "x": "879", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "222"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C14156", 
+            "graphics": {
+                "name": "C14156", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "392", 
+                "x": "713", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "223", 
+            "name": "cpd:C14156"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C14154", 
+            "graphics": {
+                "name": "C14154", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "392", 
+                "x": "831", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "224", 
+            "name": "cpd:C14154"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20737", 
+            "graphics": {
+                "name": "C20737", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "354", 
+                "x": "607", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "225", 
+            "name": "cpd:C20737"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C14155", 
+            "graphics": {
+                "name": "C14155", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "354", 
+                "x": "831", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "226", 
+            "name": "cpd:C14155"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20738", 
+            "graphics": {
+                "name": "C20738", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "354", 
+                "x": "713", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "227", 
+            "name": "cpd:C20738"
+        }, 
+        {
+            "reaction": "rn:R10708", 
+            "name": "ko:K09833", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K09833", 
+            "graphics": {
+                "name": "K09833", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "355", 
+                "x": "555", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "228"
+        }, 
+        {
+            "reaction": "rn:R10710", 
+            "name": "ko:K12502 ko:K18534", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K12502+K18534", 
+            "graphics": {
+                "name": "K12502...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "355", 
+                "x": "653", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "229"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C14153", 
+            "graphics": {
+                "name": "C14153", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "354", 
+                "x": "933", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "230", 
+            "name": "cpd:C14153"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00900", 
+            "graphics": {
+                "name": "Terpenoid backbone biosynthesis", 
+                "width": "113", 
+                "height": "34", 
+                "bgcolor": "#FFFFFF", 
+                "y": "427", 
+                "x": "518", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "232", 
+            "name": "path:ko00900"
+        }, 
+        {
+            "reaction": "rn:R11061", 
+            "name": "ko:K17872", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17872", 
+            "graphics": {
+                "name": "K17872", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1122", 
+                "x": "965", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "234"
+        }, 
+        {
+            "reaction": "rn:R04994", 
+            "name": "ko:K23095", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K23095", 
+            "graphics": {
+                "name": "K23095", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "1182", 
+                "x": "965", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "236"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C21084", 
+            "graphics": {
+                "name": "C21084", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "1154", 
+                "x": "965", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "239", 
+            "name": "cpd:C21084"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C22039", 
+            "graphics": {
+                "name": "C22039", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "965", 
+                "x": "965", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "240", 
+            "name": "cpd:C22039"
+        }, 
+        {
+            "reaction": "rn:R08770", 
+            "name": "ko:K06126", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K06126", 
+            "graphics": {
+                "name": "K06126", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "766", 
+                "x": "394", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "241"
+        }
+    ], 
+    "nodes": [], 
+    "pathway": {
+        "name": "path:ko00130", 
+        "title": "Ubiquinone and other terpenoid-quinone biosynthesis", 
+        "image": "https://www.kegg.jp/kegg/pathway/ko/ko00130.png", 
+        "number": "00130", 
+        "link": "https://www.kegg.jp/kegg-bin/show_pathway?ko00130", 
+        "org": "ko"
+    }
+}

@@ -1,0 +1,4570 @@
+{
+    "reaction": [
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "98", 
+                    "name": "cpd:C20246"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "21", 
+                    "name": "cpd:C15809"
+                }, 
+                {
+                    "id": "22", 
+                    "name": "cpd:C11437"
+                }, 
+                {
+                    "id": "23", 
+                    "name": "cpd:C15814"
+                }
+            ], 
+            "id": "75", 
+            "name": "rn:R10247"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "21", 
+                    "name": "cpd:C15809"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "100", 
+                    "name": "cpd:C00037"
+                }
+            ], 
+            "id": "76", 
+            "name": "rn:R07463"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "23", 
+                    "name": "cpd:C15814"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "24", 
+                    "name": "cpd:C15813"
+                }, 
+                {
+                    "id": "25", 
+                    "name": "cpd:C15812"
+                }
+            ], 
+            "id": "77", 
+            "name": "rn:R07461"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "25", 
+                    "name": "cpd:C15812"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "26", 
+                    "name": "cpd:C15811"
+                }, 
+                {
+                    "id": "27", 
+                    "name": "cpd:C00097"
+                }
+            ], 
+            "id": "78", 
+            "name": "rn:R07460"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "24", 
+                    "name": "cpd:C15813"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C15810"
+                }
+            ], 
+            "id": "79", 
+            "name": "rn:R07459"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "86", 
+                    "name": "cpd:C04294"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "45", 
+                    "name": "cpd:C00378"
+                }
+            ], 
+            "id": "73", 
+            "name": "rn:R02863"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "43", 
+                    "name": "cpd:C00068"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "45", 
+                    "name": "cpd:C00378"
+                }
+            ], 
+            "id": "70", 
+            "name": "rn:R00619"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C01081"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "45", 
+                    "name": "cpd:C00378"
+                }
+            ], 
+            "id": "71", 
+            "name": "rn:R02134"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "45", 
+                    "name": "cpd:C00378"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C01081"
+                }
+            ], 
+            "id": "72", 
+            "name": "rn:R02135"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "43", 
+                    "name": "cpd:C00068"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "44", 
+                    "name": "cpd:C03028"
+                }
+            ], 
+            "id": "64", 
+            "name": "rn:R00618"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "44", 
+                    "name": "cpd:C03028"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "43", 
+                    "name": "cpd:C00068"
+                }
+            ], 
+            "id": "65", 
+            "name": "rn:R11319"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C01081"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "43", 
+                    "name": "cpd:C00068"
+                }
+            ], 
+            "id": "68", 
+            "name": "rn:R00615"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "43", 
+                    "name": "cpd:C00068"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C01081"
+                }
+            ], 
+            "id": "69", 
+            "name": "rn:R00617"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "36", 
+                    "name": "cpd:C01279"
+                }, 
+                {
+                    "id": "86", 
+                    "name": "cpd:C04294"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "45", 
+                    "name": "cpd:C00378"
+                }
+            ], 
+            "id": "74", 
+            "name": "rn:R02133"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "40", 
+                    "name": "cpd:C04327"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "86", 
+                    "name": "cpd:C04294"
+                }
+            ], 
+            "id": "80", 
+            "name": "rn:R04448"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "38", 
+                    "name": "cpd:C04752"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C04556"
+                }
+            ], 
+            "id": "81", 
+            "name": "rn:R04509"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C04556"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "36", 
+                    "name": "cpd:C01279"
+                }
+            ], 
+            "id": "82", 
+            "name": "rn:R03471"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "22", 
+                    "name": "cpd:C11437"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "39", 
+                    "name": "cpd:C00118"
+                }, 
+                {
+                    "id": "108", 
+                    "name": "cpd:C00022"
+                }
+            ], 
+            "id": "85", 
+            "name": "rn:R05636"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "109", 
+                    "name": "cpd:C20784"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "87", 
+                    "name": "cpd:C00037"
+                }, 
+                {
+                    "id": "90", 
+                    "name": "cpd:C00003"
+                }
+            ], 
+            "id": "89", 
+            "name": "rn:R10685"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C04556"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "92", 
+                    "name": "cpd:C00018"
+                }
+            ], 
+            "id": "93", 
+            "name": "rn:R10686"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "103", 
+                    "name": "cpd:C20247"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "98", 
+                    "name": "cpd:C20246"
+                }
+            ], 
+            "id": "97", 
+            "name": "rn:R09977"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "21", 
+                    "name": "cpd:C15809"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "20", 
+                    "name": "cpd:C00082"
+                }
+            ], 
+            "id": "99", 
+            "name": "rn:R10246"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C01081"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "40", 
+                    "name": "cpd:C04327"
+                }, 
+                {
+                    "id": "38", 
+                    "name": "cpd:C04752"
+                }
+            ], 
+            "id": "101", 
+            "name": "rn:R03223"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C04556"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "35", 
+                    "name": "cpd:C03373"
+                }
+            ], 
+            "id": "102", 
+            "name": "rn:R03472"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C01081"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "103", 
+                    "name": "cpd:C20247"
+                }, 
+                {
+                    "id": "38", 
+                    "name": "cpd:C04752"
+                }
+            ], 
+            "id": "105", 
+            "name": "rn:R10712"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "45", 
+                    "name": "cpd:C00378"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C01081"
+                }
+            ], 
+            "id": "111", 
+            "name": "rn:R02135"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "45", 
+                    "name": "cpd:C00378"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C01081"
+                }
+            ], 
+            "id": "112", 
+            "name": "rn:R02135"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "36", 
+                    "name": "cpd:C01279"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "116", 
+                    "name": "cpd:C20267"
+                }
+            ], 
+            "id": "118", 
+            "name": "rn:R09993"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "36", 
+                    "name": "cpd:C01279"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "116", 
+                    "name": "cpd:C20267"
+                }
+            ], 
+            "id": "119", 
+            "name": "rn:R09993"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "116", 
+                    "name": "cpd:C20267"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "113", 
+                    "name": "cpd:C19872"
+                }
+            ], 
+            "id": "120", 
+            "name": "rn:R11313"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "116", 
+                    "name": "cpd:C20267"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "113", 
+                    "name": "cpd:C19872"
+                }
+            ], 
+            "id": "121", 
+            "name": "rn:R11313"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C01081"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "43", 
+                    "name": "cpd:C00068"
+                }
+            ], 
+            "id": "122", 
+            "name": "rn:R00615"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "109", 
+                    "name": "cpd:C20784"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "90", 
+                    "name": "cpd:C00003"
+                }, 
+                {
+                    "id": "100", 
+                    "name": "cpd:C00037"
+                }
+            ], 
+            "id": "123", 
+            "name": "rn:R12026"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "36", 
+                    "name": "cpd:C01279"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "116", 
+                    "name": "cpd:C20267"
+                }
+            ], 
+            "id": "124", 
+            "name": "rn:R09993"
+        }
+    ], 
+    "links": [
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M411,395L376.87279551669127,426.56766414706055", 
+            "kegg_id": "rn:R10247", 
+            "source": "21", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "75"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M312,405L363.7255368083383,428.67100836991756", 
+            "kegg_id": "rn:R10247", 
+            "source": "22", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "75"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M371,322L371,424", 
+            "kegg_id": "rn:R10247", 
+            "source": "23", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "75"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M371,432L371,467", 
+            "kegg_id": "rn:R10247", 
+            "source": "75", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "98"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M492,315L492,345", 
+            "kegg_id": "rn:R07463", 
+            "source": "100", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "76", 
+            "target": "76"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M492,353L418.1020362515914,391.31746268436", 
+            "kegg_id": "rn:R07463", 
+            "source": "76", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "76", 
+            "target": "21"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M261,322L308.0013219862934,322.85456949065986", 
+            "kegg_id": "rn:R07461", 
+            "source": "24", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "77", 
+            "target": "77"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M276,284L310.27199888303966,317.4151989109637", 
+            "kegg_id": "rn:R07461", 
+            "source": "25", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "77", 
+            "target": "77"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M316,323L363.0013219862934,322.14543050934014", 
+            "kegg_id": "rn:R07461", 
+            "source": "77", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "77", 
+            "target": "23"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M166,284L215.0012308639199,284.8596707169109", 
+            "kegg_id": "rn:R07460", 
+            "source": "26", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "78", 
+            "target": "78"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M186,255L216.78595401024398,279.96158433263025", 
+            "kegg_id": "rn:R07460", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "78", 
+            "target": "78"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M223,285L268.00142361421183,284.1509165355809", 
+            "kegg_id": "rn:R07460", 
+            "source": "78", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "78", 
+            "target": "25"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M151,321L196.00568990114658,322.69832792079796", 
+            "kegg_id": "rn:R07459", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "79", 
+            "target": "79"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M204,323L253.0012308639199,322.1403292830891", 
+            "kegg_id": "rn:R07459", 
+            "source": "79", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "79", 
+            "target": "24"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M623,696L378.95775696523407,670.8210384170479", 
+            "kegg_id": "rn:R02863", 
+            "source": "45", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "73", 
+            "target": "73"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M371,670L230.2507162270608,604.3804014842378", 
+            "kegg_id": "rn:R02863", 
+            "source": "73", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "73", 
+            "target": "86"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M623,696L697.0095011910008,699.6102195702928", 
+            "kegg_id": "rn:R00619", 
+            "source": "45", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "70"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M705,700L766.5623984301982,607.6564023547028", 
+            "kegg_id": "rn:R00619", 
+            "source": "70", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "43"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M623,696L671.4741368713977,661.6274302184635", 
+            "kegg_id": "rn:R02134", 
+            "source": "45", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "71", 
+            "target": "71"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M678,657L628.605664119074,606.7075852848753", 
+            "kegg_id": "rn:R02134", 
+            "source": "71", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "71", 
+            "target": "41"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M623,601L623,644", 
+            "kegg_id": "rn:R02135", 
+            "source": "41", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "72", 
+            "target": "72"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M623,652L623,688", 
+            "kegg_id": "rn:R02135", 
+            "source": "72", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "72", 
+            "target": "45"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M892,601L841.3327225677855,561.8884174207467", 
+            "kegg_id": "rn:R00618", 
+            "source": "44", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "64"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M835,557L777.5923353935949,596.4677694169035", 
+            "kegg_id": "rn:R00618", 
+            "source": "64", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "43"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M771,601L827.1156088739219,610.6448702752053", 
+            "kegg_id": "rn:R11319", 
+            "source": "43", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "65", 
+            "target": "65"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M835,612L884.1449330269351,602.515890117609", 
+            "kegg_id": "rn:R11319", 
+            "source": "65", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "65", 
+            "target": "44"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M771,601L710.1834263784745,551.0759470271059", 
+            "kegg_id": "rn:R00615", 
+            "source": "43", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "68"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M704,546L629.6184500193999,596.5059907275679", 
+            "kegg_id": "rn:R00615", 
+            "source": "68", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "41"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M623,601L696.0006095934782,601.9012420937466", 
+            "kegg_id": "rn:R00617", 
+            "source": "41", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "69"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M704,602L763.0008909182053,601.1193896877879", 
+            "kegg_id": "rn:R00617", 
+            "source": "69", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "43"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M623,696L379,696", 
+            "kegg_id": "rn:R02133", 
+            "source": "45", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "74"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M371,696L61.24242017271371,200.782467919434", 
+            "kegg_id": "rn:R02133", 
+            "source": "74", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "36"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M371,696L229.7323822004394,605.3214615475794", 
+            "kegg_id": "rn:R02133", 
+            "source": "74", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "86"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M223,601L285.0008162016039,601.8857259457372", 
+            "kegg_id": "rn:R04448", 
+            "source": "86", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "80", 
+            "target": "80"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M293,602L363.00065738115893,601.1025556746006", 
+            "kegg_id": "rn:R04448", 
+            "source": "80", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "80", 
+            "target": "40"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M317,194L424.0003024403154,194.93043741252447", 
+            "kegg_id": "rn:R04509", 
+            "source": "37", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "81", 
+            "target": "81"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M432,195L535.0003246292127,194.07206914748457", 
+            "kegg_id": "rn:R04509", 
+            "source": "81", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "81", 
+            "target": "38"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M57,194L177.0002441294497,194.93750190726132", 
+            "kegg_id": "rn:R03471", 
+            "source": "36", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "82", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M185,195L309.0002295585303,194.06060432152628", 
+            "kegg_id": "rn:R03471", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "82", 
+            "target": "37"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M202,405L254.00444074416677,406.7334813581389", 
+            "kegg_id": "rn:R05636", 
+            "source": "39", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "85", 
+            "target": "85"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M202,373L255.0398225132111,403.055899424153", 
+            "kegg_id": "rn:R05636", 
+            "source": "108", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "85", 
+            "target": "85"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M262,407L304.0063923302257,405.319744306791", 
+            "kegg_id": "rn:R05636", 
+            "source": "85", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "85", 
+            "target": "22"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M165,510L198.5473790441195,523.0916601147784", 
+            "kegg_id": "rn:R10685", 
+            "source": "87", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "89", 
+            "target": "89"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M144,536L198.10207103429883,527.2738595105969", 
+            "kegg_id": "rn:R10685", 
+            "source": "90", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "89", 
+            "target": "89"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M206,526L272.0720605567174,534.9286568319889", 
+            "kegg_id": "rn:R10685", 
+            "source": "89", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "89", 
+            "target": "109"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M317,101L317,133", 
+            "kegg_id": "rn:R10686", 
+            "source": "92", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "93", 
+            "target": "93"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M317,141L317,186", 
+            "kegg_id": "rn:R10686", 
+            "source": "93", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "93", 
+            "target": "37"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M371,475L371,495", 
+            "kegg_id": "rn:R09977", 
+            "source": "98", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "97", 
+            "target": "97"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M371,503L371,528", 
+            "kegg_id": "rn:R09977", 
+            "source": "97", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "97", 
+            "target": "103"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M411,315L411,345", 
+            "kegg_id": "rn:R10246", 
+            "source": "20", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "99", 
+            "target": "99"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M411,353L411,387", 
+            "kegg_id": "rn:R10246", 
+            "source": "99", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "99", 
+            "target": "21"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M371,601L570.0000933494362,601.9613531079683", 
+            "kegg_id": "rn:R03223", 
+            "source": "40", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "101", 
+            "target": "101"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M543,194L577.3162367677738,594.0292743214777", 
+            "kegg_id": "rn:R03223", 
+            "source": "38", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "101", 
+            "target": "101"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M578,602L615.0019745773471,601.1777338982812", 
+            "kegg_id": "rn:R03223", 
+            "source": "101", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "101", 
+            "target": "41"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M200,158L252.0011108796832,158.86668518132805", 
+            "kegg_id": "rn:R03472", 
+            "source": "35", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "102", 
+            "target": "102"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M260,159L310.1826301942468,189.81389573330944", 
+            "kegg_id": "rn:R03472", 
+            "source": "102", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "102", 
+            "target": "37"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M371,536L570.0000933494362,536.9613531079683", 
+            "kegg_id": "rn:R10712", 
+            "source": "103", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "105", 
+            "target": "105"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M543,194L577.1878904958928,529.0413268597499", 
+            "kegg_id": "rn:R10712", 
+            "source": "38", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "105", 
+            "target": "105"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M578,537L618.398585984078,594.4557667329109", 
+            "kegg_id": "rn:R10712", 
+            "source": "105", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "105", 
+            "target": "41"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M623,601L602.9251523357785,626.6958050102035", 
+            "kegg_id": "rn:R02135", 
+            "source": "41", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "111", 
+            "target": "111"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M598,633L620.0492358375567,688.5640743106429", 
+            "kegg_id": "rn:R02135", 
+            "source": "111", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "111", 
+            "target": "45"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M623,601L643.0748476642215,626.6958050102035", 
+            "kegg_id": "rn:R02135", 
+            "source": "41", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "112", 
+            "target": "112"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M648,633L625.9507641624433,688.5640743106429", 
+            "kegg_id": "rn:R02135", 
+            "source": "112", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "112", 
+            "target": "45"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M449,740L378.7727218904143,722.8933553322804", 
+            "kegg_id": "rn:R09993", 
+            "source": "116", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "118", 
+            "target": "118"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M371,721L61.094850964854174,200.87256833910237", 
+            "kegg_id": "rn:R09993", 
+            "source": "118", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "118", 
+            "target": "36"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M449,740L378.99934261884107,740.8974443253994", 
+            "kegg_id": "rn:R09993", 
+            "source": "116", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "119", 
+            "target": "119"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M371,741L60.98276348119589,200.9381261917648", 
+            "kegg_id": "rn:R09993", 
+            "source": "119", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "119", 
+            "target": "36"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M542,740L510.69959740789125,748.8283186798255", 
+            "kegg_id": "rn:R11313", 
+            "source": "113", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "120", 
+            "target": "120"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M503,751L456.83901238966416,741.5968358571538", 
+            "kegg_id": "rn:R11313", 
+            "source": "120", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "120", 
+            "target": "116"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M542,740L510.7493109283524,731.9870028021417", 
+            "kegg_id": "rn:R11313", 
+            "source": "113", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "121", 
+            "target": "121"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M503,730L456.8662560398757,738.5432859185415", 
+            "kegg_id": "rn:R11313", 
+            "source": "121", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "121", 
+            "target": "116"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M771,601L711.1339952618999,570.6202364015612", 
+            "kegg_id": "rn:R00615", 
+            "source": "43", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "122", 
+            "target": "122"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M704,567L630.3765069468074,597.9036884420809", 
+            "kegg_id": "rn:R00615", 
+            "source": "122", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "122", 
+            "target": "41"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M144,536L198.12301387162688,545.6024702030305", 
+            "kegg_id": "rn:R12026", 
+            "source": "90", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "123", 
+            "target": "123"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M492,315L212.21289694768268,541.9601675109707", 
+            "kegg_id": "rn:R12026", 
+            "source": "100", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "123", 
+            "target": "123"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M206,547L272.0869473877815,537.1762645774919", 
+            "kegg_id": "rn:R12026", 
+            "source": "123", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "123", 
+            "target": "109"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M449,740L378.7493109283524,758.0129971978583", 
+            "kegg_id": "rn:R09993", 
+            "source": "116", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "124", 
+            "target": "124"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Thiamine metabolism", 
+            "strength": "2", 
+            "d": "M371,760L60.880945116320845,200.99558896763563", 
+            "kegg_id": "rn:R09993", 
+            "source": "124", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "124", 
+            "target": "36"
+        }
+    ], 
+    "labels": [], 
+    "boxes": [], 
+    "relation": [
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "36"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "81", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "69", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "71", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "69", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "71", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "69", 
+            "subtype": {
+                "name": "compound", 
+                "value": "43"
+            }, 
+            "entry1": "64", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "69", 
+            "subtype": {
+                "name": "compound", 
+                "value": "43"
+            }, 
+            "entry1": "65", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "69", 
+            "subtype": {
+                "name": "compound", 
+                "value": "43"
+            }, 
+            "entry1": "70", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "43"
+            }, 
+            "entry1": "64", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "43"
+            }, 
+            "entry1": "65", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "43"
+            }, 
+            "entry1": "70", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "64", 
+            "subtype": {
+                "name": "compound", 
+                "value": "43"
+            }, 
+            "entry1": "70", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "45"
+            }, 
+            "entry1": "73", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "45"
+            }, 
+            "entry1": "73", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "45"
+            }, 
+            "entry1": "71", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "45"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "45"
+            }, 
+            "entry1": "73", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "45"
+            }, 
+            "entry1": "70", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "45"
+            }, 
+            "entry1": "70", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "45"
+            }, 
+            "entry1": "70", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "24"
+            }, 
+            "entry1": "77", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "78", 
+            "subtype": {
+                "name": "compound", 
+                "value": "25"
+            }, 
+            "entry1": "77", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "73", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "29", 
+            "subtype": {
+                "name": "compound", 
+                "value": "100"
+            }, 
+            "entry1": "76", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "107", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "78", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "85", 
+            "subtype": {
+                "name": "compound", 
+                "value": "39"
+            }, 
+            "entry1": "33", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "85", 
+            "subtype": {
+                "name": "compound", 
+                "value": "108"
+            }, 
+            "entry1": "33", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "93", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "81", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "93", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "93", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "95", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "75", 
+            "subtype": {
+                "name": "compound", 
+                "value": "21"
+            }, 
+            "entry1": "76", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "105", 
+            "subtype": {
+                "name": "compound", 
+                "value": "103"
+            }, 
+            "entry1": "97", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "97", 
+            "subtype": {
+                "name": "compound", 
+                "value": "98"
+            }, 
+            "entry1": "75", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "76", 
+            "subtype": {
+                "name": "compound", 
+                "value": "21"
+            }, 
+            "entry1": "99", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "75", 
+            "subtype": {
+                "name": "compound", 
+                "value": "21"
+            }, 
+            "entry1": "99", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "99", 
+            "subtype": {
+                "name": "compound", 
+                "value": "20"
+            }, 
+            "entry1": "31", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "75", 
+            "subtype": {
+                "name": "compound", 
+                "value": "23"
+            }, 
+            "entry1": "77", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "75", 
+            "subtype": {
+                "name": "compound", 
+                "value": "22"
+            }, 
+            "entry1": "85", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "93", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "102", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "102", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "81", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "102", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "101", 
+            "subtype": {
+                "name": "compound", 
+                "value": "40"
+            }, 
+            "entry1": "80", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "105", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "101", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "105", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "71", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "101", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "71", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "105", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "68", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "101", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "68", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "105", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "69", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "101", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "69", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "105", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "81", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "101", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "81", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "102", 
+            "subtype": {
+                "name": "compound", 
+                "value": "35"
+            }, 
+            "entry1": "34", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "118", 
+            "subtype": {
+                "name": "compound", 
+                "value": "116"
+            }, 
+            "entry1": "121", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "36"
+            }, 
+            "entry1": "118", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "36"
+            }, 
+            "entry1": "119", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "73", 
+            "subtype": {
+                "name": "compound", 
+                "value": "45"
+            }, 
+            "entry1": "111", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "45"
+            }, 
+            "entry1": "111", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "45"
+            }, 
+            "entry1": "111", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "73", 
+            "subtype": {
+                "name": "compound", 
+                "value": "45"
+            }, 
+            "entry1": "112", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "45"
+            }, 
+            "entry1": "112", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "45"
+            }, 
+            "entry1": "112", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "101", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "111", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "105", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "111", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "69", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "111", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "111", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "101", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "112", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "105", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "112", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "69", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "112", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "112", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "43"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "64", 
+            "subtype": {
+                "name": "compound", 
+                "value": "43"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "43"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "105", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "101", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "43"
+            }, 
+            "entry1": "70", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "120", 
+            "subtype": {
+                "name": "compound", 
+                "value": "116"
+            }, 
+            "entry1": "118", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "121", 
+            "subtype": {
+                "name": "compound", 
+                "value": "116"
+            }, 
+            "entry1": "119", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "120", 
+            "subtype": {
+                "name": "compound", 
+                "value": "116"
+            }, 
+            "entry1": "124", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "121", 
+            "subtype": {
+                "name": "compound", 
+                "value": "116"
+            }, 
+            "entry1": "124", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "124", 
+            "subtype": {
+                "name": "compound", 
+                "value": "36"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "119", 
+            "subtype": {
+                "name": "compound", 
+                "value": "36"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "124", 
+            "subtype": {
+                "name": "compound", 
+                "value": "36"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }
+    ], 
+    "entry": [
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00082", 
+            "id": "20", 
+            "name": "cpd:C00082", 
+            "graphics": {
+                "name": "C00082", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "315", 
+                "x": "411", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C15809", 
+            "id": "21", 
+            "name": "cpd:C15809", 
+            "graphics": {
+                "name": "C15809", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "395", 
+                "x": "411", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C11437", 
+            "id": "22", 
+            "name": "cpd:C11437", 
+            "graphics": {
+                "name": "C11437", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "405", 
+                "x": "312", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C15814", 
+            "id": "23", 
+            "name": "cpd:C15814", 
+            "graphics": {
+                "name": "C15814", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "322", 
+                "x": "371", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C15813", 
+            "id": "24", 
+            "name": "cpd:C15813", 
+            "graphics": {
+                "name": "C15813", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "322", 
+                "x": "261", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C15812", 
+            "id": "25", 
+            "name": "cpd:C15812", 
+            "graphics": {
+                "name": "C15812", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "284", 
+                "x": "276", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C15811", 
+            "id": "26", 
+            "name": "cpd:C15811", 
+            "graphics": {
+                "name": "C15811", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "284", 
+                "x": "166", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00097", 
+            "id": "27", 
+            "name": "cpd:C00097", 
+            "graphics": {
+                "name": "C00097", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "255", 
+                "x": "186", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C15810", 
+            "id": "28", 
+            "name": "cpd:C15810", 
+            "graphics": {
+                "name": "C15810", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "321", 
+                "x": "151", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00260", 
+            "id": "29", 
+            "name": "path:ko00260", 
+            "graphics": {
+                "name": "Glycine, serine and threonine metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "73", 
+                "y": "246", 
+                "x": "493", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00400", 
+            "id": "31", 
+            "name": "path:ko00400", 
+            "graphics": {
+                "name": "Phenylalanine, tyrosine and tryptophan biosynthesis", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "75", 
+                "y": "246", 
+                "x": "412", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00730", 
+            "id": "32", 
+            "name": "path:ko00730", 
+            "graphics": {
+                "name": "TITLE:Thiamine metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "188", 
+                "y": "58", 
+                "x": "134", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00010", 
+            "id": "33", 
+            "name": "path:ko00010", 
+            "graphics": {
+                "name": "Glycolysis / Gluconeogenesis", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "71", 
+                "y": "406", 
+                "x": "116", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00230", 
+            "id": "34", 
+            "name": "path:ko00230", 
+            "graphics": {
+                "name": "Purine metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "108", 
+                "y": "158", 
+                "x": "85", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03373", 
+            "id": "35", 
+            "name": "cpd:C03373", 
+            "graphics": {
+                "name": "C03373", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "158", 
+                "x": "200", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01279", 
+            "id": "36", 
+            "name": "cpd:C01279", 
+            "graphics": {
+                "name": "C01279", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "194", 
+                "x": "57", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04556", 
+            "id": "37", 
+            "name": "cpd:C04556", 
+            "graphics": {
+                "name": "C04556", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "194", 
+                "x": "317", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04752", 
+            "id": "38", 
+            "name": "cpd:C04752", 
+            "graphics": {
+                "name": "C04752", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "194", 
+                "x": "543", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00118", 
+            "id": "39", 
+            "name": "cpd:C00118", 
+            "graphics": {
+                "name": "C00118", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "405", 
+                "x": "202", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04327", 
+            "id": "40", 
+            "name": "cpd:C04327", 
+            "graphics": {
+                "name": "C04327", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "601", 
+                "x": "371", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01081", 
+            "id": "41", 
+            "name": "cpd:C01081", 
+            "graphics": {
+                "name": "C01081", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "601", 
+                "x": "623", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02892", 
+            "id": "42", 
+            "name": "cpd:C02892", 
+            "graphics": {
+                "name": "C02892", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "740", 
+                "x": "836", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00068", 
+            "id": "43", 
+            "name": "cpd:C00068", 
+            "graphics": {
+                "name": "C00068", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "601", 
+                "x": "771", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03028", 
+            "id": "44", 
+            "name": "cpd:C03028", 
+            "graphics": {
+                "name": "C03028", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "601", 
+                "x": "892", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00378", 
+            "id": "45", 
+            "name": "cpd:C00378", 
+            "graphics": {
+                "name": "C00378", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "696", 
+                "x": "623", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05856", 
+            "id": "46", 
+            "name": "cpd:C05856", 
+            "graphics": {
+                "name": "C05856", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "740", 
+                "x": "726", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R00618", 
+            "name": "ko:K05307", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05307", 
+            "graphics": {
+                "name": "K05307", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "557", 
+                "x": "835", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "64"
+        }, 
+        {
+            "reaction": "rn:R11319", 
+            "name": "ko:K00939", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00939", 
+            "graphics": {
+                "name": "K00939", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "612", 
+                "x": "835", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "65"
+        }, 
+        {
+            "reaction": "rn:R00615", 
+            "name": "ko:K06928", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K06928", 
+            "graphics": {
+                "name": "K06928", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "546", 
+                "x": "704", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "68"
+        }, 
+        {
+            "reaction": "rn:R00617", 
+            "name": "ko:K00946", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00946", 
+            "graphics": {
+                "name": "K00946", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "602", 
+                "x": "704", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "69"
+        }, 
+        {
+            "reaction": "rn:R00619", 
+            "name": "ko:K00949", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00949", 
+            "graphics": {
+                "name": "K00949", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "700", 
+                "x": "705", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "70"
+        }, 
+        {
+            "reaction": "rn:R02134", 
+            "name": "ko:K07251", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K07251", 
+            "graphics": {
+                "name": "K07251", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "657", 
+                "x": "678", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "71"
+        }, 
+        {
+            "reaction": "rn:R02135", 
+            "name": "ko:K06949 ko:K22911", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K06949+K22911", 
+            "graphics": {
+                "name": "K06949...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "652", 
+                "x": "623", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "72"
+        }, 
+        {
+            "reaction": "rn:R02863", 
+            "name": "ko:K10811", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10811", 
+            "graphics": {
+                "name": "K10811", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "670", 
+                "x": "371", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "73"
+        }, 
+        {
+            "reaction": "rn:R02133", 
+            "name": "ko:K03707 ko:K00877", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03707+K00877", 
+            "graphics": {
+                "name": "K03707...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "696", 
+                "x": "371", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "74"
+        }, 
+        {
+            "reaction": "rn:R10247", 
+            "name": "ko:K03149", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03149", 
+            "graphics": {
+                "name": "K03149", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "432", 
+                "x": "371", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "75"
+        }, 
+        {
+            "reaction": "rn:R07463", 
+            "name": "ko:K03153", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03153", 
+            "graphics": {
+                "name": "K03153", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "353", 
+                "x": "492", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "76"
+        }, 
+        {
+            "reaction": "rn:R07461", 
+            "name": "ko:K03151", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03151", 
+            "graphics": {
+                "name": "K03151", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "323", 
+                "x": "316", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "77"
+        }, 
+        {
+            "reaction": "rn:R07460", 
+            "name": "ko:K04487", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K04487", 
+            "graphics": {
+                "name": "K04487", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "285", 
+                "x": "223", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "78"
+        }, 
+        {
+            "reaction": "rn:R07459", 
+            "name": "ko:K03148", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03148", 
+            "graphics": {
+                "name": "K03148", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "323", 
+                "x": "204", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "79"
+        }, 
+        {
+            "reaction": "rn:R04448", 
+            "name": "ko:K00878 ko:K14154", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00878+K14154", 
+            "graphics": {
+                "name": "K00878...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "602", 
+                "x": "293", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "80"
+        }, 
+        {
+            "reaction": "rn:R04509", 
+            "name": "ko:K00877 ko:K00941 ko:K14153 ko:K21219", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00877+K00941+K14153+K21219", 
+            "graphics": {
+                "name": "K00877...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "195", 
+                "x": "432", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "81"
+        }, 
+        {
+            "reaction": "rn:R03471", 
+            "name": "ko:K00877 ko:K00941 ko:K14153 ko:K21219", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00877+K00941+K14153+K21219", 
+            "graphics": {
+                "name": "K00877...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "195", 
+                "x": "185", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "82"
+        }, 
+        {
+            "reaction": "rn:R05636", 
+            "name": "ko:K01662", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01662", 
+            "graphics": {
+                "name": "K01662", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "407", 
+                "x": "262", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "85"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04294", 
+            "id": "86", 
+            "name": "cpd:C04294", 
+            "graphics": {
+                "name": "C04294", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "601", 
+                "x": "223", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00037", 
+            "id": "87", 
+            "name": "cpd:C00037", 
+            "graphics": {
+                "name": "C00037", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "510", 
+                "x": "165", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R10685", 
+            "name": "ko:K03146", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03146", 
+            "graphics": {
+                "name": "K03146", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "526", 
+                "x": "206", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "89"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00003", 
+            "id": "90", 
+            "name": "cpd:C00003", 
+            "graphics": {
+                "name": "C00003", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "536", 
+                "x": "144", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00018", 
+            "id": "92", 
+            "name": "cpd:C00018", 
+            "graphics": {
+                "name": "C00018", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "101", 
+                "x": "317", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R10686", 
+            "name": "ko:K18278", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18278", 
+            "graphics": {
+                "name": "K18278", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "141", 
+                "x": "317", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "93"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00750", 
+            "id": "95", 
+            "name": "path:ko00750", 
+            "graphics": {
+                "name": "Vitamin B6 metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "140", 
+                "y": "102", 
+                "x": "185", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R09977", 
+            "name": "ko:K10810", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10810", 
+            "graphics": {
+                "name": "K10810", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "503", 
+                "x": "371", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "97"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20246", 
+            "id": "98", 
+            "name": "cpd:C20246", 
+            "graphics": {
+                "name": "C20246", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "475", 
+                "x": "371", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R10246", 
+            "name": "ko:K03150", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03150", 
+            "graphics": {
+                "name": "K03150", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "353", 
+                "x": "411", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "99"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00037", 
+            "id": "100", 
+            "name": "cpd:C00037", 
+            "graphics": {
+                "name": "C00037", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "315", 
+                "x": "492", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R03223", 
+            "name": "ko:K00788 ko:K21220 ko:K14153 ko:K21219 ko:K14154", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00788+K21220+K14153+K21219+K14154", 
+            "graphics": {
+                "name": "K00788...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "602", 
+                "x": "578", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "101"
+        }, 
+        {
+            "reaction": "rn:R03472", 
+            "name": "ko:K03147", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03147", 
+            "graphics": {
+                "name": "K03147", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "159", 
+                "x": "260", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "102"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20247", 
+            "id": "103", 
+            "name": "cpd:C20247", 
+            "graphics": {
+                "name": "C20247", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "536", 
+                "x": "371", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R10712", 
+            "name": "ko:K00788 ko:K21220 ko:K14153 ko:K21219 ko:K14154", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00788+K21220+K14153+K21219+K14154", 
+            "graphics": {
+                "name": "K00788...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "537", 
+                "x": "578", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "105"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00270", 
+            "id": "107", 
+            "name": "path:ko00270", 
+            "graphics": {
+                "name": "Cysteine and methionine metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "71", 
+                "y": "255", 
+                "x": "111", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00022", 
+            "id": "108", 
+            "name": "cpd:C00022", 
+            "graphics": {
+                "name": "C00022", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "373", 
+                "x": "202", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20784", 
+            "id": "109", 
+            "name": "cpd:C20784", 
+            "graphics": {
+                "name": "C20784", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "536", 
+                "x": "280", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R02135", 
+            "name": "ko:K01077", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01077", 
+            "graphics": {
+                "name": "K01077", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "633", 
+                "x": "598", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "111"
+        }, 
+        {
+            "reaction": "rn:R02135", 
+            "name": "ko:K01078 ko:K23458 ko:K14394", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01078+K23458+K14394", 
+            "graphics": {
+                "name": "K01078...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "633", 
+                "x": "648", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "112"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C19872", 
+            "id": "113", 
+            "name": "cpd:C19872", 
+            "graphics": {
+                "name": "C19872", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "740", 
+                "x": "542", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20267", 
+            "id": "116", 
+            "name": "cpd:C20267", 
+            "graphics": {
+                "name": "C20267", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "740", 
+                "x": "449", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R09993", 
+            "name": "ko:K03707 ko:K00877", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03707+K00877", 
+            "graphics": {
+                "name": "K03707...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "721", 
+                "x": "371", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "118"
+        }, 
+        {
+            "reaction": "rn:R09993", 
+            "name": "ko:K20896", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K20896", 
+            "graphics": {
+                "name": "K20896", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "741", 
+                "x": "371", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "119"
+        }, 
+        {
+            "reaction": "rn:R11313", 
+            "name": "ko:K20896", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K20896", 
+            "graphics": {
+                "name": "K20896", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "751", 
+                "x": "503", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "120"
+        }, 
+        {
+            "reaction": "rn:R11313", 
+            "name": "ko:K20895", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K20895", 
+            "graphics": {
+                "name": "K20895", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "730", 
+                "x": "503", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "121"
+        }, 
+        {
+            "reaction": "rn:R00615", 
+            "name": "ko:K06949", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K06949", 
+            "graphics": {
+                "name": "K06949", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "567", 
+                "x": "704", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "122"
+        }, 
+        {
+            "reaction": "rn:R12026", 
+            "name": "ko:K22699", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K22699", 
+            "graphics": {
+                "name": "K22699", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "547", 
+                "x": "206", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "123"
+        }, 
+        {
+            "reaction": "rn:R09993", 
+            "name": "ko:K22911", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K22911", 
+            "graphics": {
+                "name": "K22911", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "760", 
+                "x": "371", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "124"
+        }
+    ], 
+    "nodes": [
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "L-Tyrosine", 
+            "kegg_id": "cpd:C00082", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00082", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 7.5, 
+            "y": 315, 
+            "x": 411.6, 
+            "type": "M", 
+            "id": "20", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "Iminoglycine", 
+            "kegg_id": "cpd:C15809", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C15809", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": -12.2, 
+            "y": 395, 
+            "x": 411.6, 
+            "type": "M", 
+            "id": "21", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "1-Deoxy-D-xylulose 5-phosphate", 
+            "kegg_id": "cpd:C11437", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C11437", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 14.2, 
+            "y": 405.6, 
+            "x": 312, 
+            "type": "M", 
+            "id": "22", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "Thiocarboxy-[sulfur-carrier protein]", 
+            "kegg_id": "cpd:C15814", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C15814", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 16.9, 
+            "y": 322.2, 
+            "x": 371, 
+            "type": "M", 
+            "id": "23", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "Adenylyl-[sulfur-carrier protein]", 
+            "kegg_id": "cpd:C15813", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C15813", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": -10.2, 
+            "y": 322.2, 
+            "x": 261, 
+            "type": "M", 
+            "id": "24", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "[Enzyme]-S-sulfanylcysteine", 
+            "kegg_id": "cpd:C15812", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C15812", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 10.6, 
+            "y": 284.3333333333333, 
+            "x": 276, 
+            "type": "M", 
+            "id": "25", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "[Enzyme]-cysteine", 
+            "kegg_id": "cpd:C15811", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C15811", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 16.9, 
+            "y": 284.3333333333333, 
+            "x": 166, 
+            "type": "M", 
+            "id": "26", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "L-Cysteine", 
+            "kegg_id": "cpd:C00097", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00097", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 9, 
+            "y": 255.66666666666666, 
+            "x": 186, 
+            "type": "M", 
+            "id": "27", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "Sulfur-carrier protein", 
+            "kegg_id": "cpd:C15810", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C15810", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 15.7, 
+            "y": 322.2, 
+            "x": 151, 
+            "type": "M", 
+            "id": "28", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "Aminoimidazole ribotide", 
+            "kegg_id": "cpd:C03373", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C03373", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": -7.5, 
+            "y": 158.75, 
+            "x": 200, 
+            "type": "M", 
+            "id": "35", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "4-Amino-5-hydroxymethyl-2-methylpyrimidine", 
+            "kegg_id": "cpd:C01279", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01279", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": -9.4, 
+            "y": 194.4, 
+            "x": 61.291666666666664, 
+            "type": "M", 
+            "id": "36", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine", 
+            "kegg_id": "cpd:C04556", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04556", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 16.1, 
+            "y": 194.4, 
+            "x": 317, 
+            "type": "M", 
+            "id": "37", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate", 
+            "kegg_id": "cpd:C04752", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04752", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": -3.5, 
+            "y": 194.4, 
+            "x": 543, 
+            "type": "M", 
+            "id": "38", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "D-Glyceraldehyde 3-phosphate", 
+            "kegg_id": "cpd:C00118", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00118", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": -10.2, 
+            "y": 405.6, 
+            "x": 202, 
+            "type": "M", 
+            "id": "39", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "4-Methyl-5-(2-phosphooxyethyl)thiazole", 
+            "kegg_id": "cpd:C04327", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04327", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 14.2, 
+            "y": 600.6666666666666, 
+            "x": 371, 
+            "type": "M", 
+            "id": "40", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "Thiamin monophosphate", 
+            "kegg_id": "cpd:C01081", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01081", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": -10.7, 
+            "y": 600.6666666666666, 
+            "x": 623.5714285714286, 
+            "type": "M", 
+            "id": "41", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "Thiamin diphosphate", 
+            "kegg_id": "cpd:C00068", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00068", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 15.7, 
+            "y": 600.6666666666666, 
+            "x": 772, 
+            "type": "M", 
+            "id": "43", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "Thiamin triphosphate", 
+            "kegg_id": "cpd:C03028", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C03028", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 5, 
+            "y": 600.6666666666666, 
+            "x": 892, 
+            "type": "M", 
+            "id": "44", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "Thiamine", 
+            "kegg_id": "cpd:C00378", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00378", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 13.8, 
+            "y": 692.3333333333334, 
+            "x": 623.5714285714286, 
+            "type": "M", 
+            "id": "45", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05307", 
+            "font_size": 12, 
+            "name": "Thiamin-triphosphate phosphohydrolase", 
+            "rxn": " Thiamin triphosphate + H2O <=> Thiamin diphosphate + Orthophosphate", 
+            "kegg_id": "rn:R00618", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00618", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 600.6666666666666, 
+            "x": 830, 
+            "gene": "ko:K05307", 
+            "type": "R", 
+            "id": "64", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00939", 
+            "font_size": 12, 
+            "name": "ADP:thiamin-diphosphate phosphotransferase", 
+            "rxn": " Thiamin diphosphate + ADP <=> Thiamin triphosphate + AMP", 
+            "kegg_id": "rn:R11319", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R11319", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 600.6666666666666, 
+            "x": 831, 
+            "gene": "ko:K00939", 
+            "type": "R", 
+            "id": "65", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K06928", 
+            "font_size": 12, 
+            "name": "Thiamin diphosphate phosphohydrolase", 
+            "rxn": " Thiamin diphosphate + H2O <=> Thiamin monophosphate + Orthophosphate", 
+            "kegg_id": "rn:R00615", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00615", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 600.6666666666666, 
+            "x": 701.6666666666666, 
+            "gene": "ko:K06928", 
+            "type": "R", 
+            "id": "68", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00946", 
+            "font_size": 12, 
+            "name": "ATP:thiamin-phosphate phosphotransferase", 
+            "rxn": " ATP + Thiamin monophosphate <=> ADP + Thiamin diphosphate", 
+            "kegg_id": "rn:R00617", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00617", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 600.6666666666666, 
+            "x": 700.6666666666666, 
+            "gene": "ko:K00946", 
+            "type": "R", 
+            "id": "69", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00949", 
+            "font_size": 12, 
+            "name": "ATP:thiamine diphosphotransferase", 
+            "rxn": " ATP + Thiamine <=> AMP + Thiamin diphosphate", 
+            "kegg_id": "rn:R00619", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00619", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 692.3333333333334, 
+            "x": 772, 
+            "gene": "ko:K00949", 
+            "type": "R", 
+            "id": "70", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K07251", 
+            "font_size": 12, 
+            "name": "ATP:thiamine phosphotransferase", 
+            "rxn": " ATP + Thiamine <=> ADP + Thiamin monophosphate", 
+            "kegg_id": "rn:R02134", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02134", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 650.5, 
+            "x": 623.5714285714286, 
+            "gene": "ko:K07251", 
+            "type": "R", 
+            "id": "71", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K06949+K22911", 
+            "font_size": 12, 
+            "name": "thiamin monophosphate phosphohydrolase", 
+            "rxn": " Thiamin monophosphate + H2O <=> Thiamine + Orthophosphate", 
+            "kegg_id": "rn:R02135", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02135", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 651.5, 
+            "x": 623.5714285714286, 
+            "gene": "ko:K06949 ko:K22911", 
+            "type": "R", 
+            "id": "72", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K10811", 
+            "font_size": 12, 
+            "name": "Thiamin:beta 2-methyl-4-aminopyrimidine-5-methenyltransferase", 
+            "rxn": " Thiamine + Pyridine <=> Heteropyrithiamine + 5-(2-Hydroxyethyl)-4-methylthiazole", 
+            "kegg_id": "rn:R02863", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02863", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 643, 
+            "x": 395, 
+            "gene": "ko:K10811", 
+            "type": "R", 
+            "id": "73", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03707+K00877", 
+            "font_size": 12, 
+            "name": "Thiamin hydrolase", 
+            "rxn": " Thiamine + H2O <=> 4-Amino-5-hydroxymethyl-2-methylpyrimidine + 5-(2-Hydroxyethyl)-4-methylthiazole + H+", 
+            "kegg_id": "rn:R02133", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02133", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 692.3333333333334, 
+            "x": 97.25, 
+            "gene": "ko:K03707 ko:K00877", 
+            "type": "R", 
+            "id": "74", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03149", 
+            "font_size": 12, 
+            "name": "1-deoxy-D-xylulose 5-phosphate:thiol sulfurtransferase", 
+            "rxn": " 1-Deoxy-D-xylulose 5-phosphate + Iminoglycine + Thiocarboxy-[sulfur-carrier protein] <=> 2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate + Sulfur-carrier protein + 2 H2O", 
+            "kegg_id": "rn:R10247", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10247", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 432, 
+            "x": 371, 
+            "gene": "ko:K03149", 
+            "type": "R", 
+            "id": "75", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03153", 
+            "font_size": 12, 
+            "name": "glycine:oxygen oxidoreductase", 
+            "rxn": " Glycine + Oxygen <=> Iminoglycine + Hydrogen peroxide", 
+            "kegg_id": "rn:R07463", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R07463", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 353, 
+            "x": 492.75, 
+            "gene": "ko:K03153", 
+            "type": "R", 
+            "id": "76", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03151", 
+            "font_size": 12, 
+            "name": "[enzyme]-S-sulfanyl-L-cysteine:adenylyl-[sulfur-carrier protein] sulfurtransferase", 
+            "rxn": " [Enzyme]-S-sulfanylcysteine + Adenylyl-[sulfur-carrier protein] + Reduced acceptor <=> AMP + Thiocarboxy-[sulfur-carrier protein] + [Enzyme]-cysteine + Acceptor", 
+            "kegg_id": "rn:R07461", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R07461", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 322.2, 
+            "x": 316, 
+            "gene": "ko:K03151", 
+            "type": "R", 
+            "id": "77", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K04487", 
+            "font_size": 12, 
+            "name": "L-cysteine:[enzyme]-cysteine sulfurtransferase", 
+            "rxn": " [Enzyme]-cysteine + L-Cysteine <=> [Enzyme]-S-sulfanylcysteine + L-Alanine", 
+            "kegg_id": "rn:R07460", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R07460", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 284.3333333333333, 
+            "x": 223, 
+            "gene": "ko:K04487", 
+            "type": "R", 
+            "id": "78", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03148", 
+            "font_size": 12, 
+            "name": "ATP:[sulfur-carrier protein] adenylyltransferase", 
+            "rxn": " Sulfur-carrier protein + ATP <=> Adenylyl-[sulfur-carrier protein] + Diphosphate", 
+            "kegg_id": "rn:R07459", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R07459", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 322.2, 
+            "x": 204, 
+            "gene": "ko:K03148", 
+            "type": "R", 
+            "id": "79", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00878+K14154", 
+            "font_size": 12, 
+            "name": "ATP:4-methyl-5-(2-hydroxyethyl)thiazole 2-phosphotransferase", 
+            "rxn": " ATP + 5-(2-Hydroxyethyl)-4-methylthiazole <=> ADP + 4-Methyl-5-(2-phosphooxyethyl)thiazole", 
+            "kegg_id": "rn:R04448", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04448", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 600.6666666666666, 
+            "x": 293, 
+            "gene": "ko:K00878 ko:K14154", 
+            "type": "R", 
+            "id": "80", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00877+K00941+K14153+K21219", 
+            "font_size": 12, 
+            "name": "ATP:4-amino-2-methyl-5-phosphomethylpyrimidine phosphotransferase", 
+            "rxn": " ATP + 4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine <=> ADP + 4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate", 
+            "kegg_id": "rn:R04509", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04509", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 194.4, 
+            "x": 432, 
+            "gene": "ko:K00877 ko:K00941 ko:K14153 ko:K21219", 
+            "type": "R", 
+            "id": "81", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00877+K00941+K14153+K21219", 
+            "font_size": 12, 
+            "name": "ATP:4-amino-5-hydroxymethyl-2-methylpyrimidine 5-phosphotransferase", 
+            "rxn": " ATP + 4-Amino-5-hydroxymethyl-2-methylpyrimidine <=> ADP + 4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine", 
+            "kegg_id": "rn:R03471", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03471", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 194.4, 
+            "x": 185, 
+            "gene": "ko:K00877 ko:K00941 ko:K14153 ko:K21219", 
+            "type": "R", 
+            "id": "82", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01662", 
+            "font_size": 12, 
+            "name": "1-Deoxy-D-xylulose-5-phosphate pyruvate-lyase (carboxylating)", 
+            "rxn": " Pyruvate + D-Glyceraldehyde 3-phosphate <=> 1-Deoxy-D-xylulose 5-phosphate + CO2", 
+            "kegg_id": "rn:R05636", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R05636", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 405.6, 
+            "x": 262, 
+            "gene": "ko:K01662", 
+            "type": "R", 
+            "id": "85", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "5-(2-Hydroxyethyl)-4-methylthiazole", 
+            "kegg_id": "cpd:C04294", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04294", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": -5.9, 
+            "y": 600.6666666666666, 
+            "x": 223, 
+            "type": "M", 
+            "id": "86", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "Glycine", 
+            "kegg_id": "cpd:C00037", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00037", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 5, 
+            "y": 504, 
+            "x": 206, 
+            "type": "M", 
+            "id": "87", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03146", 
+            "font_size": 12, 
+            "name": "NAD+:glycine ADP-D-ribosyltransferase (dehydroalanine-producing)", 
+            "rxn": " NAD+ + Glycine + [Protein]-L-cysteine <=> ADP-5-ethyl-4-methylthiazole-2-carboxylate + Nicotinamide + [Protein]-dehydroalanine + 3 H2O", 
+            "kegg_id": "rn:R10685", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10685", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 536.8333333333334, 
+            "x": 206, 
+            "gene": "ko:K03146", 
+            "type": "R", 
+            "id": "89", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "NAD+", 
+            "kegg_id": "cpd:C00003", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00003", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": -3.5, 
+            "y": 536.8333333333334, 
+            "x": 144, 
+            "type": "M", 
+            "id": "90", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "Pyridoxal phosphate", 
+            "kegg_id": "cpd:C00018", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00018", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 5, 
+            "y": 102.66666666666667, 
+            "x": 317, 
+            "type": "M", 
+            "id": "92", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K18278", 
+            "font_size": 12, 
+            "name": "Pyridoxal phosphate + L-Histidine <=> 4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine", 
+            "rxn": "Pyridoxal phosphate + L-Histidine <=> 4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine", 
+            "kegg_id": "rn:R10686", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10686", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 141, 
+            "x": 317, 
+            "gene": "ko:K18278", 
+            "type": "R", 
+            "id": "93", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K10810", 
+            "font_size": 12, 
+            "name": "2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate isomerase", 
+            "rxn": " 2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate <=> 2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate", 
+            "kegg_id": "rn:R09977", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R09977", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 503, 
+            "x": 371, 
+            "gene": "ko:K10810", 
+            "type": "R", 
+            "id": "97", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate", 
+            "kegg_id": "cpd:C20246", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C20246", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 5, 
+            "y": 475, 
+            "x": 371, 
+            "type": "M", 
+            "id": "98", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03150", 
+            "font_size": 12, 
+            "name": "L-tyrosine 4-methylphenol-lyase (2-iminoacetate-forming)", 
+            "rxn": " L-Tyrosine + S-Adenosyl-L-methionine + Reduced acceptor <=> Iminoglycine + 4-Cresol + 5'-Deoxyadenosine + L-Methionine + Acceptor", 
+            "kegg_id": "rn:R10246", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10246", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 353, 
+            "x": 411.6, 
+            "gene": "ko:K03150", 
+            "type": "R", 
+            "id": "99", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "Glycine", 
+            "kegg_id": "cpd:C00037", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00037", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 5, 
+            "y": 311, 
+            "x": 492.75, 
+            "type": "M", 
+            "id": "100", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00788+K21220+K14153+K21219+K14154", 
+            "font_size": 12, 
+            "name": "2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:4-methyl-5-(2-phosphoethyl)-thiazole 2-methyl-4-aminopyridine-5-methenyltransferase", 
+            "rxn": " 4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate + 4-Methyl-5-(2-phosphooxyethyl)thiazole <=> Diphosphate + Thiamin monophosphate", 
+            "kegg_id": "rn:R03223", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03223", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 600.6666666666666, 
+            "x": 556, 
+            "gene": "ko:K00788 ko:K21220 ko:K14153 ko:K21219 ko:K14154", 
+            "type": "R", 
+            "id": "101", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03147", 
+            "font_size": 12, 
+            "name": "5-amino-1-(5-phospho-D-ribosyl)imidazole formate-lyase (decarboxylating, 4-amino-2-methyl-5-phosphomethylpyrimidine-forming)", 
+            "rxn": " Aminoimidazole ribotide + S-Adenosyl-L-methionine <=> 4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine + 5'-Deoxyadenosine + L-Methionine + Formate + CO", 
+            "kegg_id": "rn:R03472", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03472", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 158.75, 
+            "x": 260, 
+            "gene": "ko:K03147", 
+            "type": "R", 
+            "id": "102", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate", 
+            "kegg_id": "cpd:C20247", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C20247", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 11, 
+            "y": 536.8333333333334, 
+            "x": 371, 
+            "type": "M", 
+            "id": "103", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00788+K21220+K14153+K21219+K14154", 
+            "font_size": 12, 
+            "name": "2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase", 
+            "rxn": " 4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate + 2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate <=> Thiamin monophosphate + Diphosphate + CO2", 
+            "kegg_id": "rn:R10712", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10712", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 536.8333333333334, 
+            "x": 623.5714285714286, 
+            "gene": "ko:K00788 ko:K21220 ko:K14153 ko:K21219 ko:K14154", 
+            "type": "R", 
+            "id": "105", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "Pyruvate", 
+            "kegg_id": "cpd:C00022", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00022", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 5, 
+            "y": 373, 
+            "x": 202, 
+            "type": "M", 
+            "id": "108", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "ADP-5-ethyl-4-methylthiazole-2-carboxylate", 
+            "kegg_id": "cpd:C20784", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C20784", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": -10.6, 
+            "y": 536.8333333333334, 
+            "x": 280, 
+            "type": "M", 
+            "id": "109", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01077", 
+            "font_size": 12, 
+            "name": "thiamin monophosphate phosphohydrolase", 
+            "rxn": " Thiamin monophosphate + H2O <=> Thiamine + Orthophosphate", 
+            "kegg_id": "rn:R02135", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02135", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 650.5, 
+            "x": 623.5714285714286, 
+            "gene": "ko:K01077", 
+            "type": "R", 
+            "id": "111", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01078+K23458+K14394", 
+            "font_size": 12, 
+            "name": "thiamin monophosphate phosphohydrolase", 
+            "rxn": " Thiamin monophosphate + H2O <=> Thiamine + Orthophosphate", 
+            "kegg_id": "rn:R02135", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02135", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 651.5, 
+            "x": 623.5714285714286, 
+            "gene": "ko:K01078 ko:K23458 ko:K14394", 
+            "type": "R", 
+            "id": "112", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "N-Formyl-4-amino-5-aminomethyl-2-methylpyrimidine", 
+            "kegg_id": "cpd:C19872", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C19872", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 5, 
+            "y": 737.8571428571429, 
+            "x": 542, 
+            "type": "M", 
+            "id": "113", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "font_size": 12, 
+            "name": "4-Amino-5-aminomethyl-2-methylpyrimidine", 
+            "kegg_id": "cpd:C20267", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C20267", 
+            "r": 8, 
+            "dx": 8.9, 
+            "dy": 20, 
+            "y": 737.8571428571429, 
+            "x": 449, 
+            "type": "M", 
+            "id": "116", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03707+K00877", 
+            "font_size": 12, 
+            "name": "4-amino-5-aminomethyl-2-methylpyrimidine aminohydrolase", 
+            "rxn": " 4-Amino-5-aminomethyl-2-methylpyrimidine + H2O <=> 4-Amino-5-hydroxymethyl-2-methylpyrimidine + Ammonia", 
+            "kegg_id": "rn:R09993", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R09993", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 737.8571428571429, 
+            "x": 61.291666666666664, 
+            "gene": "ko:K03707 ko:K00877", 
+            "type": "R", 
+            "id": "118", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K20896", 
+            "font_size": 12, 
+            "name": "4-amino-5-aminomethyl-2-methylpyrimidine aminohydrolase", 
+            "rxn": " 4-Amino-5-aminomethyl-2-methylpyrimidine + H2O <=> 4-Amino-5-hydroxymethyl-2-methylpyrimidine + Ammonia", 
+            "kegg_id": "rn:R09993", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R09993", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 737.8571428571429, 
+            "x": 61.291666666666664, 
+            "gene": "ko:K20896", 
+            "type": "R", 
+            "id": "119", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K20896", 
+            "font_size": 12, 
+            "name": "N-formyl-4-amino-5-aminomethyl-2-methylpyrimidine amidohydrolase", 
+            "rxn": " N-Formyl-4-amino-5-aminomethyl-2-methylpyrimidine + H2O <=> 4-Amino-5-aminomethyl-2-methylpyrimidine + Formate", 
+            "kegg_id": "rn:R11313", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R11313", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 737.8571428571429, 
+            "x": 501, 
+            "gene": "ko:K20896", 
+            "type": "R", 
+            "id": "120", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K20895", 
+            "font_size": 12, 
+            "name": "N-formyl-4-amino-5-aminomethyl-2-methylpyrimidine amidohydrolase", 
+            "rxn": " N-Formyl-4-amino-5-aminomethyl-2-methylpyrimidine + H2O <=> 4-Amino-5-aminomethyl-2-methylpyrimidine + Formate", 
+            "kegg_id": "rn:R11313", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R11313", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 737.8571428571429, 
+            "x": 503, 
+            "gene": "ko:K20895", 
+            "type": "R", 
+            "id": "121", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K06949", 
+            "font_size": 12, 
+            "name": "Thiamin diphosphate phosphohydrolase", 
+            "rxn": " Thiamin diphosphate + H2O <=> Thiamin monophosphate + Orthophosphate", 
+            "kegg_id": "rn:R00615", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00615", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 600.6666666666666, 
+            "x": 700.6666666666666, 
+            "gene": "ko:K06949", 
+            "type": "R", 
+            "id": "122", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K22699", 
+            "font_size": 12, 
+            "name": "NAD+:glycine ADP-D-ribosyltransferase (sulfide-adding)", 
+            "rxn": " NAD+ + Glycine + Hydrogen sulfide <=> Nicotinamide + ADP-5-ethyl-4-methylthiazole-2-carboxylate + 3 H2O", 
+            "kegg_id": "rn:R12026", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12026", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 536.8333333333334, 
+            "x": 206, 
+            "gene": "ko:K22699", 
+            "type": "R", 
+            "id": "123", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Thiamine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K22911", 
+            "font_size": 12, 
+            "name": "4-amino-5-aminomethyl-2-methylpyrimidine aminohydrolase", 
+            "rxn": " 4-Amino-5-aminomethyl-2-methylpyrimidine + H2O <=> 4-Amino-5-hydroxymethyl-2-methylpyrimidine + Ammonia", 
+            "kegg_id": "rn:R09993", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R09993", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 737.8571428571429, 
+            "x": 61.291666666666664, 
+            "gene": "ko:K22911", 
+            "type": "R", 
+            "id": "124", 
+            "fill": "#d3d3d3"
+        }
+    ], 
+    "pathway": {
+        "name": "path:ko00730", 
+        "title": "Thiamine metabolism", 
+        "image": "https://www.kegg.jp/kegg/pathway/ko/ko00730.png", 
+        "number": "00730", 
+        "link": "https://www.kegg.jp/kegg-bin/show_pathway?ko00730", 
+        "org": "ko"
+    }
+}

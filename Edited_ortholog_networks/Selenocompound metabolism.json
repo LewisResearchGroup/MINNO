@@ -1,0 +1,1946 @@
+{
+    "reaction": [
+        {
+            "substrate": [
+                {
+                    "id": "19", 
+                    "name": "cpd:C05684"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "17", 
+                    "name": "cpd:C01528"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "12", 
+            "name": "rn:R03596"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "21", 
+                    "name": "cpd:C06481"
+                }, 
+                {
+                    "id": "20", 
+                    "name": "cpd:C05172"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "22", 
+                    "name": "cpd:C06482"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "81", 
+            "name": "rn:R08219"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "17", 
+                    "name": "cpd:C01528"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "20", 
+                    "name": "cpd:C05172"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "13", 
+            "name": "rn:R03595"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "25", 
+                    "name": "cpd:C05688"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "17", 
+                    "name": "cpd:C01528"
+                }, 
+                {
+                    "id": "79", 
+                    "name": "cpd:C00041"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "61", 
+            "name": "rn:R03599"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C05335"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "29", 
+                    "name": "cpd:C05690"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "14", 
+            "name": "rn:R04772"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C05335"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "39", 
+                    "name": "cpd:C05703"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "15", 
+            "name": "rn:R04770"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C05335"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "30", 
+                    "name": "cpd:C05336"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "16", 
+            "name": "rn:R04773"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "25", 
+                    "name": "cpd:C05688"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "26", 
+                    "name": "cpd:C05699"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "60", 
+            "name": "rn:R04944 rn:R04946"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C05697"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "19", 
+                    "name": "cpd:C05684"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "36", 
+            "name": "rn:R07229"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C05335"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "39", 
+                    "name": "cpd:C05703"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "59", 
+            "name": "rn:R04770"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "23", 
+                    "name": "cpd:C05689"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "39", 
+                    "name": "cpd:C05703"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "76", 
+            "name": "rn:R09366"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "23", 
+                    "name": "cpd:C05689"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "44", 
+                    "name": "cpd:C18904"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "45", 
+            "name": "rn:R09373"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "47", 
+                    "name": "cpd:C16638"
+                }, 
+                {
+                    "id": "20", 
+                    "name": "cpd:C05172"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "22", 
+                    "name": "cpd:C06482"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "51", 
+            "name": "rn:R08224"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "52", 
+                    "name": "cpd:C06481"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "47", 
+                    "name": "cpd:C16638"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "49", 
+            "name": "rn:R08223"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C05697"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "72", 
+                    "name": "cpd:C05686"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "73", 
+            "name": "rn:R04929"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "26", 
+                    "name": "cpd:C05699"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "27", 
+                    "name": "cpd:C05698"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "82", 
+            "name": "rn:R04941"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "27", 
+                    "name": "cpd:C05698"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C05335"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "83", 
+            "name": "rn:R09365"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "42", 
+                    "name": "cpd:C18902"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "39", 
+                    "name": "cpd:C05703"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "90", 
+            "name": "rn:R09372"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C02535"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "62", 
+                    "name": "cpd:C18872"
+                }
+            ], 
+            "type": "reversible", 
+            "id": "91", 
+            "name": "rn:R09370"
+        }, 
+        {
+            "substrate": [
+                {
+                    "id": "23", 
+                    "name": "cpd:C05689"
+                }
+            ], 
+            "product": [
+                {
+                    "id": "39", 
+                    "name": "cpd:C05703"
+                }
+            ], 
+            "type": "irreversible", 
+            "id": "92", 
+            "name": "rn:R09366"
+        }
+    ], 
+    "links": [
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M714,391L577.233989173968,455.58394955673737", 
+            "kegg_id": "rn:R03596", 
+            "source": "19", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "12", 
+            "target": "12"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M570,459L429.2694147517065,394.3400013724057", 
+            "kegg_id": "rn:R03596", 
+            "source": "12", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "12", 
+            "target": "17"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M169,427L132.0898035516947,446.2939663252505", 
+            "kegg_id": "rn:R08219", 
+            "source": "21", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "81", 
+            "target": "81"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M198,458L132.95238938561727,450.8714947271909", 
+            "kegg_id": "rn:R08219", 
+            "source": "20", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "81", 
+            "target": "81"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M125,450L72.92982320546108,456.9426902392719", 
+            "kegg_id": "rn:R08219", 
+            "source": "81", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "81", 
+            "target": "22"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M422,391L334.4817952863176,454.31104170777024", 
+            "kegg_id": "rn:R03595", 
+            "source": "17", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "13", 
+            "target": "13"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M328,459L205.9997633241128,458.0615366409547", 
+            "kegg_id": "rn:R03595", 
+            "source": "13", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "13", 
+            "target": "20"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M198,391L320.00378429538677,394.7539625937042", 
+            "kegg_id": "rn:R03599", 
+            "source": "25", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "61", 
+            "target": "61"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M328,395L414.00723327453505,391.3401177329985", 
+            "kegg_id": "rn:R03599", 
+            "source": "61", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "61", 
+            "target": "17"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M328,395L372.9000313855861,418.3134778348235", 
+            "kegg_id": "rn:R03599", 
+            "source": "61", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "61", 
+            "target": "79"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M198,176L198.75768698687384,150.99632943316306", 
+            "kegg_id": "rn:R04772", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "14", 
+            "target": "14"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M199,143L198.24231301312616,168.00367056683694", 
+            "kegg_id": "rn:R04772", 
+            "source": "14", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "14", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M199,143L198.22213653792284,114.99691536522175", 
+            "kegg_id": "rn:R04772", 
+            "source": "14", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "14", 
+            "target": "29"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M198,107L198.77786346207716,135.00308463477825", 
+            "kegg_id": "rn:R04772", 
+            "source": "29", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "14", 
+            "target": "14"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M198,176L240.12653340821043,183.58277601347788", 
+            "kegg_id": "rn:R04770", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "15", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M248,185L414.0106801204631,176.4132406834243", 
+            "kegg_id": "rn:R04770", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "15", 
+            "target": "39"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M198,176L126,176", 
+            "kegg_id": "rn:R04773", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "16", 
+            "target": "16"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M118,176L73,176", 
+            "kegg_id": "rn:R04773", 
+            "source": "16", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "16", 
+            "target": "30"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M198,391L198.70390671592097,371.99451867013414", 
+            "kegg_id": "rn:R04944", 
+            "source": "25", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "60"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M199,364L198.24231301312616,338.99632943316306", 
+            "kegg_id": "rn:R04944", 
+            "source": "60", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "26"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M799,391L766.997501171265,391.8000624707184", 
+            "kegg_id": "rn:R07229", 
+            "source": "18", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "36", 
+            "target": "36"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M759,392L721.9980254226529,391.1777338982812", 
+            "kegg_id": "rn:R07229", 
+            "source": "36", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "36", 
+            "target": "19"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M198,176L240.22090158415585,165.8669836198026", 
+            "kegg_id": "rn:R04770", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "59", 
+            "target": "59"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M248,164L414.0189573726161,175.44958326707697", 
+            "kegg_id": "rn:R04770", 
+            "source": "59", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "59", 
+            "target": "39"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M286,331L305.5256917195985,226.86297749547458", 
+            "kegg_id": "rn:R09366", 
+            "source": "23", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "76", 
+            "target": "76"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M307,219L414.50669220776973,178.8018455223122", 
+            "kegg_id": "rn:R09366", 
+            "source": "76", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "76", 
+            "target": "39"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M286,331L320,331", 
+            "kegg_id": "rn:R09373", 
+            "source": "23", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "45"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M328,331L372,331", 
+            "kegg_id": "rn:R09373", 
+            "source": "45", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "44"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M169,489L132.28293181970082,472.31042355440945", 
+            "kegg_id": "rn:R08224", 
+            "source": "47", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "51", 
+            "target": "51"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M198,458L132.91069419007,467.80797758779767", 
+            "kegg_id": "rn:R08224", 
+            "source": "20", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "51", 
+            "target": "51"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M125,469L72.8688524590164,459.44262295081967", 
+            "kegg_id": "rn:R08224", 
+            "source": "51", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "51", 
+            "target": "22"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M169,550L169.68025569320903,532.9936076697743", 
+            "kegg_id": "rn:R08223", 
+            "source": "52", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "49", 
+            "target": "49"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M170,525L169.22213653792284,496.99691536522175", 
+            "kegg_id": "rn:R08223", 
+            "source": "49", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "49", 
+            "target": "47"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M799,391L799.6925350231903,372.9940893970505", 
+            "kegg_id": "rn:R04929", 
+            "source": "18", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "73", 
+            "target": "73"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M800,365L799.2351924128152,338.9965420357148", 
+            "kegg_id": "rn:R04929", 
+            "source": "73", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "73", 
+            "target": "72"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M198,331L198.75012198097824,306.99609660869663", 
+            "kegg_id": "rn:R04941", 
+            "source": "26", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "82", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M199,299L198.17773389828116,261.99802542265286", 
+            "kegg_id": "rn:R04941", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "82", 
+            "target": "27"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M198,254L198.77152180880898,226.99673669168556", 
+            "kegg_id": "rn:R09365", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "83", 
+            "target": "83"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M199,219L198.1859962219901,183.99783754557475", 
+            "kegg_id": "rn:R09365", 
+            "source": "83", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "83", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M524,176L480,176", 
+            "kegg_id": "rn:R09372", 
+            "source": "42", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "90", 
+            "target": "90"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M472,176L430,176", 
+            "kegg_id": "rn:R09372", 
+            "source": "90", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "90", 
+            "target": "39"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M524,238L562,238", 
+            "kegg_id": "rn:R09370", 
+            "source": "41", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "91", 
+            "target": "91"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M570,238L532,238", 
+            "kegg_id": "rn:R09370", 
+            "source": "91", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "91", 
+            "target": "41"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M570,238L611,238", 
+            "kegg_id": "rn:R09370", 
+            "source": "91", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "91", 
+            "target": "62"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M619,238L578,238", 
+            "kegg_id": "rn:R09370", 
+            "source": "62", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "91", 
+            "target": "91"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M286,331L259.0052974295845,226.74459696942984", 
+            "kegg_id": "rn:R09366", 
+            "source": "23", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "92", 
+            "target": "92"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Selenocompound metabolism", 
+            "strength": "2", 
+            "d": "M257,219L414.2585638143728,178.01746518776952", 
+            "kegg_id": "rn:R09366", 
+            "source": "92", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "92", 
+            "target": "39"
+        }
+    ], 
+    "labels": [], 
+    "boxes": [], 
+    "relation": [
+        {
+            "entry2": "16", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "83", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "15", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "59", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "83", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "16", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "15", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "16", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "59", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "16", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "15", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "59", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "76", 
+            "subtype": {
+                "name": "compound", 
+                "value": "39"
+            }, 
+            "entry1": "59", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "90", 
+            "subtype": {
+                "name": "compound", 
+                "value": "39"
+            }, 
+            "entry1": "59", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "76", 
+            "subtype": {
+                "name": "compound", 
+                "value": "39"
+            }, 
+            "entry1": "15", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "90", 
+            "subtype": {
+                "name": "compound", 
+                "value": "39"
+            }, 
+            "entry1": "15", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "90", 
+            "subtype": {
+                "name": "compound", 
+                "value": "39"
+            }, 
+            "entry1": "76", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "13", 
+            "subtype": {
+                "name": "compound", 
+                "value": "17"
+            }, 
+            "entry1": "12", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "61", 
+            "subtype": {
+                "name": "compound", 
+                "value": "17"
+            }, 
+            "entry1": "12", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "61", 
+            "subtype": {
+                "name": "compound", 
+                "value": "17"
+            }, 
+            "entry1": "13", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "12", 
+            "subtype": {
+                "name": "compound", 
+                "value": "19"
+            }, 
+            "entry1": "36", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "73", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "13", 
+            "subtype": {
+                "name": "compound", 
+                "value": "20"
+            }, 
+            "entry1": "81", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "13", 
+            "subtype": {
+                "name": "compound", 
+                "value": "20"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "47"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "61", 
+            "subtype": {
+                "name": "compound", 
+                "value": "25"
+            }, 
+            "entry1": "60", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "60", 
+            "subtype": {
+                "name": "compound", 
+                "value": "26"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "92", 
+            "subtype": {
+                "name": "compound", 
+                "value": "23"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "92", 
+            "subtype": {
+                "name": "compound", 
+                "value": "39"
+            }, 
+            "entry1": "90", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "92", 
+            "subtype": {
+                "name": "compound", 
+                "value": "39"
+            }, 
+            "entry1": "15", 
+            "type": "ECrel"
+        }
+    ], 
+    "entry": [
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00450", 
+            "graphics": {
+                "name": "TITLE:Selenocompound metabolism", 
+                "width": "252", 
+                "height": "25", 
+                "bgcolor": "#FFFFFF", 
+                "y": "58", 
+                "x": "166", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "map", 
+            "id": "11", 
+            "name": "path:ko00450"
+        }, 
+        {
+            "reaction": "rn:R03596", 
+            "name": "ko:K22182 ko:K00384", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K22182+K00384", 
+            "graphics": {
+                "name": "K22182...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "459", 
+                "x": "570", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "12"
+        }, 
+        {
+            "reaction": "rn:R03595", 
+            "name": "ko:K01008", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01008", 
+            "graphics": {
+                "name": "K01008", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "459", 
+                "x": "328", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "13"
+        }, 
+        {
+            "reaction": "rn:R04772", 
+            "name": "ko:K08247", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K08247", 
+            "graphics": {
+                "name": "K08247", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "143", 
+                "x": "199", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "14"
+        }, 
+        {
+            "reaction": "rn:R04770", 
+            "name": "ko:K01761", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01761", 
+            "graphics": {
+                "name": "K01761", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "185", 
+                "x": "248", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "15"
+        }, 
+        {
+            "reaction": "rn:R04773", 
+            "name": "ko:K01874", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01874", 
+            "graphics": {
+                "name": "K01874", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "176", 
+                "x": "118", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "16"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01528", 
+            "graphics": {
+                "name": "C01528", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "391", 
+                "x": "422", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "17", 
+            "name": "cpd:C01528"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05697", 
+            "graphics": {
+                "name": "C05697", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "391", 
+                "x": "799", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "18", 
+            "name": "cpd:C05697"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05684", 
+            "graphics": {
+                "name": "C05684", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "391", 
+                "x": "714", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "19", 
+            "name": "cpd:C05684"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05172", 
+            "graphics": {
+                "name": "C05172", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "458", 
+                "x": "198", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "20", 
+            "name": "cpd:C05172"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06481", 
+            "graphics": {
+                "name": "C06481", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "427", 
+                "x": "169", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "21", 
+            "name": "cpd:C06481"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06482", 
+            "graphics": {
+                "name": "C06482", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "458", 
+                "x": "65", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "22", 
+            "name": "cpd:C06482"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05689", 
+            "graphics": {
+                "name": "C05689", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "331", 
+                "x": "286", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "23", 
+            "name": "cpd:C05689"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05695", 
+            "graphics": {
+                "name": "C05695", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "287", 
+                "x": "380", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "24", 
+            "name": "cpd:C05695"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05688", 
+            "graphics": {
+                "name": "C05688", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "391", 
+                "x": "198", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "25", 
+            "name": "cpd:C05688"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05699", 
+            "graphics": {
+                "name": "C05699", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "331", 
+                "x": "198", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "26", 
+            "name": "cpd:C05699"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05698", 
+            "graphics": {
+                "name": "C05698", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "254", 
+                "x": "198", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "27", 
+            "name": "cpd:C05698"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05335", 
+            "graphics": {
+                "name": "C05335", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "176", 
+                "x": "198", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "28", 
+            "name": "cpd:C05335"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05690", 
+            "graphics": {
+                "name": "C05690", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "107", 
+                "x": "198", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "29", 
+            "name": "cpd:C05690"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05336", 
+            "graphics": {
+                "name": "C05336", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "176", 
+                "x": "65", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "30", 
+            "name": "cpd:C05336"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00017", 
+            "graphics": {
+                "name": "C00017", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "331", 
+                "x": "65", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "31", 
+            "name": "cpd:C00017"
+        }, 
+        {
+            "reaction": "rn:R07229", 
+            "name": "ko:K17050 ko:K17051 ko:K17052 ko:K07309 ko:K07310 ko:K12527 ko:K12528 ko:K12529", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17050+K17051+K17052+K07309+K07310+K12527+K12528+K12529", 
+            "graphics": {
+                "name": "K17050...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "392", 
+                "x": "759", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "36"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05703", 
+            "graphics": {
+                "name": "C05703", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "176", 
+                "x": "422", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "39", 
+            "name": "cpd:C05703"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02535", 
+            "graphics": {
+                "name": "C02535", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "238", 
+                "x": "524", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "41", 
+            "name": "cpd:C02535"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C18902", 
+            "graphics": {
+                "name": "C18902", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "176", 
+                "x": "524", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "42", 
+            "name": "cpd:C18902"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C18904", 
+            "graphics": {
+                "name": "C18904", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "331", 
+                "x": "380", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "44", 
+            "name": "cpd:C18904"
+        }, 
+        {
+            "reaction": "rn:R09373", 
+            "name": "ko:K00816", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00816", 
+            "graphics": {
+                "name": "K00816", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "331", 
+                "x": "328", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "45"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C16638", 
+            "graphics": {
+                "name": "C16638", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "489", 
+                "x": "169", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "47", 
+            "name": "cpd:C16638"
+        }, 
+        {
+            "reaction": "rn:R08223", 
+            "name": "ko:K10837", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10837", 
+            "graphics": {
+                "name": "K10837", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "525", 
+                "x": "170", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "49"
+        }, 
+        {
+            "reaction": "rn:R08224", 
+            "name": "ko:K03341", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03341", 
+            "graphics": {
+                "name": "K03341", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "469", 
+                "x": "125", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "51"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06481", 
+            "graphics": {
+                "name": "C06481", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "550", 
+                "x": "169", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "52", 
+            "name": "cpd:C06481"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C18870", 
+            "graphics": {
+                "name": "C18870", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "391", 
+                "x": "619", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "53", 
+            "name": "cpd:C18870"
+        }, 
+        {
+            "reaction": "rn:R04770", 
+            "name": "ko:K01758", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01758", 
+            "graphics": {
+                "name": "K01758", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "164", 
+                "x": "248", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "59"
+        }, 
+        {
+            "reaction": "rn:R04944 rn:R04946", 
+            "name": "ko:K01739", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01739", 
+            "graphics": {
+                "name": "K01739", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "364", 
+                "x": "199", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "60"
+        }, 
+        {
+            "reaction": "rn:R03599", 
+            "name": "ko:K01763 ko:K11717", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01763+K11717", 
+            "graphics": {
+                "name": "K01763...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "395", 
+                "x": "328", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "61"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C18872", 
+            "graphics": {
+                "name": "C18872", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "238", 
+                "x": "619", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "62", 
+            "name": "cpd:C18872"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C18871", 
+            "graphics": {
+                "name": "C18871", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "391", 
+                "x": "524", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "65", 
+            "name": "cpd:C18871"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C18893", 
+            "graphics": {
+                "name": "C18893", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "331", 
+                "x": "524", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "70", 
+            "name": "cpd:C18893"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05686", 
+            "graphics": {
+                "name": "C05686", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "331", 
+                "x": "799", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "72", 
+            "name": "cpd:C05686"
+        }, 
+        {
+            "reaction": "rn:R04929", 
+            "name": "ko:K13811 ko:K00955 ko:K00956 ko:K00957 ko:K00958", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K13811+K00955+K00956+K00957+K00958", 
+            "graphics": {
+                "name": "K13811...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "365", 
+                "x": "800", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "73"
+        }, 
+        {
+            "reaction": "rn:R09366", 
+            "name": "ko:K00816", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00816", 
+            "graphics": {
+                "name": "K00816", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "219", 
+                "x": "307", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "76"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C18905", 
+            "graphics": {
+                "name": "C18905", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "238", 
+                "x": "380", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "77", 
+            "name": "cpd:C18905"
+        }, 
+        {
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00041", 
+            "graphics": {
+                "name": "C00041", 
+                "width": "8", 
+                "height": "8", 
+                "bgcolor": "#FFFFFF", 
+                "y": "422", 
+                "x": "380", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "compound", 
+            "id": "79", 
+            "name": "cpd:C00041"
+        }, 
+        {
+            "reaction": "rn:R08219", 
+            "name": "ko:K01042", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01042", 
+            "graphics": {
+                "name": "K01042", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "450", 
+                "x": "125", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "81"
+        }, 
+        {
+            "reaction": "rn:R04941", 
+            "name": "ko:K00816 ko:K01760 ko:K14155", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00816+K01760+K14155", 
+            "graphics": {
+                "name": "K00816...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "299", 
+                "x": "199", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "82"
+        }, 
+        {
+            "reaction": "rn:R09365", 
+            "name": "ko:K00548 ko:K24042 ko:K00549", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00548+K24042+K00549", 
+            "graphics": {
+                "name": "K00548...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "219", 
+                "x": "199", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "83"
+        }, 
+        {
+            "reaction": "rn:R09372", 
+            "name": "ko:K22182 ko:K00384", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K22182+K00384", 
+            "graphics": {
+                "name": "K22182...", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "176", 
+                "x": "472", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "90"
+        }, 
+        {
+            "reaction": "rn:R09370", 
+            "name": "ko:K00562", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00562", 
+            "graphics": {
+                "name": "K00562", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "238", 
+                "x": "570", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "91"
+        }, 
+        {
+            "reaction": "rn:R09366", 
+            "name": "ko:K01758", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01758", 
+            "graphics": {
+                "name": "K01758", 
+                "width": "46", 
+                "height": "17", 
+                "bgcolor": "#BFBFFF", 
+                "y": "219", 
+                "x": "257", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "92"
+        }
+    ], 
+    "nodes": [], 
+    "pathway": {
+        "name": "path:ko00450", 
+        "title": "Selenocompound metabolism", 
+        "image": "https://www.kegg.jp/kegg/pathway/ko/ko00450.png", 
+        "number": "00450", 
+        "link": "https://www.kegg.jp/kegg-bin/show_pathway?ko00450", 
+        "org": "ko"
+    }
+}
