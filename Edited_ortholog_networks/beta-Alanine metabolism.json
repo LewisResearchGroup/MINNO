@@ -1,0 +1,5661 @@
+{
+    "reaction": [
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "98", 
+                    "name": "cpd:C00894"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "99", 
+                    "name": "cpd:C00100"
+                }
+            ], 
+            "id": "42", 
+            "name": "rn:R04432"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "98", 
+                    "name": "cpd:C00894"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "97", 
+                    "name": "cpd:C05668"
+                }
+            ], 
+            "id": "43", 
+            "name": "rn:R03045"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "97", 
+                    "name": "cpd:C05668"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "96", 
+                    "name": "cpd:C01013"
+                }
+            ], 
+            "id": "44", 
+            "name": "rn:R03158"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "95", 
+                    "name": "cpd:C00222"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "96", 
+                    "name": "cpd:C01013"
+                }
+            ], 
+            "id": "45", 
+            "name": "rn:R01608"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "84", 
+                    "name": "cpd:C00024"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "83", 
+                    "name": "cpd:C00083"
+                }
+            ], 
+            "id": "48", 
+            "name": "rn:R00233"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "84", 
+                    "name": "cpd:C00024"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "95", 
+                    "name": "cpd:C00222"
+                }
+            ], 
+            "id": "49", 
+            "name": "rn:R00705 rn:R00706"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "95", 
+                    "name": "cpd:C00222"
+                }
+            ], 
+            "id": "51", 
+            "name": "rn:R00907"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "95", 
+                    "name": "cpd:C00222"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "id": "52", 
+            "name": "rn:R00908"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "95", 
+                    "name": "cpd:C00222"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "id": "53", 
+            "name": "rn:R00908"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "94", 
+                    "name": "cpd:C00864"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "id": "54", 
+            "name": "rn:R02473"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "103", 
+                    "name": "cpd:C05340"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "id": "56", 
+            "name": "rn:R00912"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "92", 
+                    "name": "cpd:C00049"
+                }
+            ], 
+            "id": "57", 
+            "name": "rn:R00489"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "92", 
+                    "name": "cpd:C00049"
+                }
+            ], 
+            "id": "58", 
+            "name": "rn:R00489"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "90", 
+                    "name": "cpd:C00986"
+                }, 
+                {
+                    "id": "107", 
+                    "name": "cpd:C00555"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "91", 
+                    "name": "cpd:C00315"
+                }
+            ], 
+            "id": "62", 
+            "name": "rn:R01914"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "108", 
+                    "name": "cpd:C00334"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C00555"
+                }
+            ], 
+            "id": "63", 
+            "name": "rn:R02549"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "89", 
+                    "name": "cpd:C05665"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "90", 
+                    "name": "cpd:C00986"
+                }
+            ], 
+            "id": "64", 
+            "name": "rn:R03139"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "89", 
+                    "name": "cpd:C05665"
+                }
+            ], 
+            "id": "65", 
+            "name": "rn:R00904"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "81", 
+                    "name": "cpd:C02642"
+                }
+            ], 
+            "id": "66", 
+            "name": "rn:R00905"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "81", 
+                    "name": "cpd:C02642"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "80", 
+                    "name": "cpd:C00429"
+                }
+            ], 
+            "id": "67", 
+            "name": "rn:R02269"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "121", 
+                    "name": "cpd:C00106"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "80", 
+                    "name": "cpd:C00429"
+                }
+            ], 
+            "id": "68", 
+            "name": "rn:R00978"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "121", 
+                    "name": "cpd:C00106"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "80", 
+                    "name": "cpd:C00429"
+                }
+            ], 
+            "id": "69", 
+            "name": "rn:R00977"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "101", 
+                    "name": "cpd:C00386"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "id": "70", 
+            "name": "rn:R01164"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C05341"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "id": "71", 
+            "name": "rn:R00910"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "102", 
+                    "name": "cpd:C00135"
+                }, 
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "101", 
+                    "name": "cpd:C00386"
+                }
+            ], 
+            "id": "72", 
+            "name": "rn:R01166"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "109", 
+                    "name": "cpd:C01262"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "id": "74", 
+            "name": "rn:R03286"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "109", 
+                    "name": "cpd:C01262"
+                }
+            ], 
+            "id": "79", 
+            "name": "rn:R03288"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "89", 
+                    "name": "cpd:C05665"
+                }
+            ], 
+            "id": "122", 
+            "name": "rn:R00904"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "91", 
+                    "name": "cpd:C00315"
+                }, 
+                {
+                    "id": "89", 
+                    "name": "cpd:C05665"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "93", 
+                    "name": "cpd:C00750"
+                }
+            ], 
+            "id": "124", 
+            "name": "rn:R09076"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "89", 
+                    "name": "cpd:C05665"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "91", 
+                    "name": "cpd:C00315"
+                }
+            ], 
+            "id": "126", 
+            "name": "rn:R09077"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "102", 
+                    "name": "cpd:C00135"
+                }, 
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "101", 
+                    "name": "cpd:C00386"
+                }
+            ], 
+            "id": "127", 
+            "name": "rn:R01166"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "90", 
+                    "name": "cpd:C00986"
+                }, 
+                {
+                    "id": "107", 
+                    "name": "cpd:C00555"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "91", 
+                    "name": "cpd:C00315"
+                }
+            ], 
+            "id": "128", 
+            "name": "rn:R01914"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "91", 
+                    "name": "cpd:C00315"
+                }, 
+                {
+                    "id": "89", 
+                    "name": "cpd:C05665"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "93", 
+                    "name": "cpd:C00750"
+                }
+            ], 
+            "id": "129", 
+            "name": "rn:R09076"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "131", 
+                    "name": "cpd:C03492"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C00099"
+                }
+            ], 
+            "id": "132", 
+            "name": "rn:R09379"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "98", 
+                    "name": "cpd:C00894"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "97", 
+                    "name": "cpd:C05668"
+                }
+            ], 
+            "id": "133", 
+            "name": "rn:R03045"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "98", 
+                    "name": "cpd:C00894"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "99", 
+                    "name": "cpd:C00100"
+                }
+            ], 
+            "id": "134", 
+            "name": "rn:R12356"
+        }
+    ], 
+    "links": [
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M855,641L798.9040962700088,632.2350150421889", 
+            "kegg_id": "rn:R04432", 
+            "source": "99", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "42"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M791,631L847.0959037299912,639.7649849578111", 
+            "kegg_id": "rn:R04432", 
+            "source": "42", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "99"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M791,631L731.9123549367442,639.8190515019785", 
+            "kegg_id": "rn:R04432", 
+            "source": "42", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "98"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M724,641L783.0876450632558,632.1809484980215", 
+            "kegg_id": "rn:R04432", 
+            "source": "98", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "42"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M593,641L651.0902759662018,632.1984430354239", 
+            "kegg_id": "rn:R03045", 
+            "source": "97", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "43", 
+            "target": "43"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M659,631L600.9097240337982,639.8015569645761", 
+            "kegg_id": "rn:R03045", 
+            "source": "43", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "43", 
+            "target": "97"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M659,631L716.093026418795,639.7835425259684", 
+            "kegg_id": "rn:R03045", 
+            "source": "43", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "43", 
+            "target": "98"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M724,641L666.906973581205,632.2164574740316", 
+            "kegg_id": "rn:R03045", 
+            "source": "98", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "43", 
+            "target": "43"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M462,641L520.0009181155708,641.8788017896298", 
+            "kegg_id": "rn:R03158", 
+            "source": "96", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "44", 
+            "target": "44"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M528,642L469.9990818844292,641.1211982103702", 
+            "kegg_id": "rn:R03158", 
+            "source": "44", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "44", 
+            "target": "96"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M528,642L585.0009465775339,641.1230623603457", 
+            "kegg_id": "rn:R03158", 
+            "source": "44", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "44", 
+            "target": "97"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M593,641L535.9990534224661,641.8769376396543", 
+            "kegg_id": "rn:R03158", 
+            "source": "97", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "44", 
+            "target": "44"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M462,641L405.99902361627755,641.8750152559957", 
+            "kegg_id": "rn:R01608", 
+            "source": "96", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "45"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M398,642L454.00097638372245,641.1249847440043", 
+            "kegg_id": "rn:R01608", 
+            "source": "45", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "96"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M398,642L321.9994331668254,641.0952313472241", 
+            "kegg_id": "rn:R01608", 
+            "source": "45", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "95"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M314,641L390.0005668331746,641.9047686527759", 
+            "kegg_id": "rn:R01608", 
+            "source": "95", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "45"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M95,569L137.00159952015994,569.8400319904032", 
+            "kegg_id": "rn:R00233", 
+            "source": "83", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "48", 
+            "target": "48"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M145,570L195.00118879560802,569.1379105380067", 
+            "kegg_id": "rn:R00233", 
+            "source": "48", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "48", 
+            "target": "84"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M314,641L210.72290714422613,613.0872722011422", 
+            "kegg_id": "rn:R00705", 
+            "source": "95", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "49", 
+            "target": "49"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M203,611L203,577", 
+            "kegg_id": "rn:R00705", 
+            "source": "49", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "49", 
+            "target": "84"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M314,641L314.96172292617905,439.9999084285771", 
+            "kegg_id": "rn:R00907", 
+            "source": "95", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "51", 
+            "target": "51"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M315,432L314.03827707382095,633.0000915714229", 
+            "kegg_id": "rn:R00907", 
+            "source": "51", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "51", 
+            "target": "95"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M315,432L397.77747321907594,298.79487068194675", 
+            "kegg_id": "rn:R00907", 
+            "source": "51", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "51", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M402,292L319.22252678092406,425.20512931805325", 
+            "kegg_id": "rn:R00907", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "51", 
+            "target": "51"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M402,292L271.574285474106,426.2617649531262", 
+            "kegg_id": "rn:R00908", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "52", 
+            "target": "52"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M266,432L396.425714525894,297.7382350468738", 
+            "kegg_id": "rn:R00908", 
+            "source": "52", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "52", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M266,432L312.2092987822184,633.2029884475759", 
+            "kegg_id": "rn:R00908", 
+            "source": "52", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "52", 
+            "target": "95"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M314,641L267.7907012177816,439.7970115524241", 
+            "kegg_id": "rn:R00908", 
+            "source": "95", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "52", 
+            "target": "52"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M402,292L222.39174314229516,427.1890105380574", 
+            "kegg_id": "rn:R00908", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "53", 
+            "target": "53"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M216,432L395.6082568577049,296.8109894619426", 
+            "kegg_id": "rn:R00908", 
+            "source": "53", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "53", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M216,432L310.60364109320324,633.7567447804028", 
+            "kegg_id": "rn:R00908", 
+            "source": "53", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "53", 
+            "target": "95"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M314,641L219.39635890679676,439.24325521959724", 
+            "kegg_id": "rn:R00908", 
+            "source": "95", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "53", 
+            "target": "53"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M402,292L355.58801110913805,521.1591951486308", 
+            "kegg_id": "rn:R02473", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "54", 
+            "target": "54"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M354,529L354,591", 
+            "kegg_id": "rn:R02473", 
+            "source": "54", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "54", 
+            "target": "94"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M402,292L515.7319631370518,421.979386442345", 
+            "kegg_id": "rn:R00912", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "56", 
+            "target": "56"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M521,428L741.0000769456427,427.03508738181733", 
+            "kegg_id": "rn:R00912", 
+            "source": "56", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "56", 
+            "target": "103"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M749,139L584.9836898203537,149.4894151859076", 
+            "kegg_id": "rn:R00489", 
+            "source": "92", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "57", 
+            "target": "57"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M577,150L408.2121681795895,286.95926924856167", 
+            "kegg_id": "rn:R00489", 
+            "source": "57", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "57", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M749,139L584.9865133590329,129.4643321720368", 
+            "kegg_id": "rn:R00489", 
+            "source": "92", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "58", 
+            "target": "58"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M577,129L407.85400110613153,286.54741611257464", 
+            "kegg_id": "rn:R00489", 
+            "source": "58", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "58", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M749,292L701.8446454055273,301.43107091889453", 
+            "kegg_id": "rn:R01914", 
+            "source": "91", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "62", 
+            "target": "62"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M694,303L641.8688524590164,293.44262295081967", 
+            "kegg_id": "rn:R01914", 
+            "source": "62", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "62", 
+            "target": "90"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M694,303L665.0740528189224,327.79366901235227", 
+            "kegg_id": "rn:R01914", 
+            "source": "62", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "62", 
+            "target": "107"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M659,333L693,333", 
+            "kegg_id": "rn:R02549", 
+            "source": "107", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "63", 
+            "target": "63"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M701,333L741,333", 
+            "kegg_id": "rn:R02549", 
+            "source": "63", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "63", 
+            "target": "108"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M634,292L584.9987691360801,292.8596707169109", 
+            "kegg_id": "rn:R03139", 
+            "source": "90", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "64"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M577,293L526.9988112043919,292.13791053800674", 
+            "kegg_id": "rn:R03139", 
+            "source": "64", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "89"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M519,292L474.8560515758452,283.51077914920097", 
+            "kegg_id": "rn:R00904", 
+            "source": "89", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "65", 
+            "target": "65"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M467,282L409.90697358120497,290.78354252596847", 
+            "kegg_id": "rn:R00904", 
+            "source": "65", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "65", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M276,260L332.00097638372245,260.87501525599566", 
+            "kegg_id": "rn:R00905", 
+            "source": "81", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "66", 
+            "target": "66"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M340,261L283.99902361627755,260.12498474400434", 
+            "kegg_id": "rn:R00905", 
+            "source": "66", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "66", 
+            "target": "81"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M340,261L394.8445824720007,288.4222912360003", 
+            "kegg_id": "rn:R00905", 
+            "source": "66", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "66", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M402,292L347.1554175279993,264.5777087639997", 
+            "kegg_id": "rn:R00905", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "66", 
+            "target": "66"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M174,260L216.00159952015994,260.8400319904032", 
+            "kegg_id": "rn:R02269", 
+            "source": "80", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "67"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M224,261L181.99840047984006,260.1599680095968", 
+            "kegg_id": "rn:R02269", 
+            "source": "67", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "80"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M224,261L268.00147887976124,260.15381771385074", 
+            "kegg_id": "rn:R02269", 
+            "source": "67", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "81"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M276,260L231.99852112023876,260.84618228614926", 
+            "kegg_id": "rn:R02269", 
+            "source": "81", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "67"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M174,260L130.82016835265864,269.3132970219756", 
+            "kegg_id": "rn:R00978", 
+            "source": "80", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "68"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M123,271L166.17983164734136,261.6867029780244", 
+            "kegg_id": "rn:R00978", 
+            "source": "68", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "80"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M123,271L78.82679762495152,261.6556687283551", 
+            "kegg_id": "rn:R00978", 
+            "source": "68", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "121"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M71,260L115.17320237504848,269.3443312716449", 
+            "kegg_id": "rn:R00978", 
+            "source": "121", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "68"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M174,260L130.85050999741725,251.5393156857681", 
+            "kegg_id": "rn:R00977", 
+            "source": "80", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "69"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M123,250L166.14949000258275,258.4606843142319", 
+            "kegg_id": "rn:R00977", 
+            "source": "69", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "80"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M123,250L78.85605157584519,258.48922085079903", 
+            "kegg_id": "rn:R00977", 
+            "source": "69", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "121"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M71,260L115.14394842415481,251.510779149201", 
+            "kegg_id": "rn:R00977", 
+            "source": "121", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "69"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M402,292L515.1253591816453,396.5696597477394", 
+            "kegg_id": "rn:R01164", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "70"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M521,402L626.3774801810937,368.4284133936339", 
+            "kegg_id": "rn:R01164", 
+            "source": "70", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "101"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M402,292L516.2639160400356,447.5525579704686", 
+            "kegg_id": "rn:R00910", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "71", 
+            "target": "71"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M521,454L406.7360839599644,298.4474420295314", 
+            "kegg_id": "rn:R00910", 
+            "source": "71", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "71", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M521,454L626.1888804788424,477.2718762121333", 
+            "kegg_id": "rn:R00910", 
+            "source": "71", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "71", 
+            "target": "104"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M634,479L528.8111195211576,455.7281237878667", 
+            "kegg_id": "rn:R00910", 
+            "source": "104", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "71", 
+            "target": "71"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M634,366L528.962362978715,376.22490271888614", 
+            "kegg_id": "rn:R01166", 
+            "source": "101", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "72", 
+            "target": "72"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M521,377L486.87279551669127,345.43233585293945", 
+            "kegg_id": "rn:R01166", 
+            "source": "72", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "72", 
+            "target": "102"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M521,377L408.50986776965385,296.64990554975276", 
+            "kegg_id": "rn:R01166", 
+            "source": "72", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "72", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M402,292L569.6166334676025,222.07991861065724", 
+            "kegg_id": "rn:R03286", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "74"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M577,219L741.1518643250838,186.5513756566695", 
+            "kegg_id": "rn:R03286", 
+            "source": "74", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "109"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M749,185L584.9836898203537,195.4894151859076", 
+            "kegg_id": "rn:R03288", 
+            "source": "109", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "79", 
+            "target": "79"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M577,196L409.01395411451153,288.1523451714679", 
+            "kegg_id": "rn:R03288", 
+            "source": "79", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "79", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M519,292L474.82679762495155,301.3443312716449", 
+            "kegg_id": "rn:R00904", 
+            "source": "89", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "122", 
+            "target": "122"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M467,303L409.8878470836647,293.33486642954324", 
+            "kegg_id": "rn:R00904", 
+            "source": "122", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "122", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M864,292L820.8201683526586,301.3132970219756", 
+            "kegg_id": "rn:R09076", 
+            "source": "93", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "124", 
+            "target": "124"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M813,303L756.8843911260781,293.35512972479466", 
+            "kegg_id": "rn:R09076", 
+            "source": "124", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "124", 
+            "target": "91"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M813,303L526.9944063534205,292.29911044179465", 
+            "kegg_id": "rn:R09076", 
+            "source": "124", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "124", 
+            "target": "89"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M749,292L647.4878065358804,253.81651438505594", 
+            "kegg_id": "rn:R09077", 
+            "source": "91", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "126", 
+            "target": "126"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M640,251L526.576849668604,289.43263771559697", 
+            "kegg_id": "rn:R09077", 
+            "source": "126", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "126", 
+            "target": "89"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M634,366L528.968856935658,356.7052085783768", 
+            "kegg_id": "rn:R01166", 
+            "source": "101", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "127", 
+            "target": "127"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M521,356L488.4278135270821,342.9711254108328", 
+            "kegg_id": "rn:R01166", 
+            "source": "127", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "127", 
+            "target": "102"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M521,356L409.0456690664213,295.7892673970669", 
+            "kegg_id": "rn:R01166", 
+            "source": "127", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "127", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M749,292L701.8709592807993,283.4310835055999", 
+            "kegg_id": "rn:R01914", 
+            "source": "91", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "128", 
+            "target": "128"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M694,282L641.8911513906571,290.68480810155717", 
+            "kegg_id": "rn:R01914", 
+            "source": "128", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "128", 
+            "target": "90"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M694,282L663.5267399752993,326.40389317884956", 
+            "kegg_id": "rn:R01914", 
+            "source": "128", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "128", 
+            "target": "107"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M864,292L820.8505099974172,283.5393156857681", 
+            "kegg_id": "rn:R09076", 
+            "source": "93", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "129", 
+            "target": "129"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M813,282L756.9040962700088,290.7649849578111", 
+            "kegg_id": "rn:R09076", 
+            "source": "129", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "129", 
+            "target": "91"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M813,282L526.9953763101407,291.72804842482515", 
+            "kegg_id": "rn:R09076", 
+            "source": "129", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "129", 
+            "target": "89"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M402,292L385.5280289345859,541.0174449300841", 
+            "kegg_id": "rn:R09379", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "132", 
+            "target": "132"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M385,549L384.24231301312614,574.003670566837", 
+            "kegg_id": "rn:R09379", 
+            "source": "132", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "132", 
+            "target": "131"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M593,641L651.1088486093429,650.6848081015571", 
+            "kegg_id": "rn:R03045", 
+            "source": "97", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "133", 
+            "target": "133"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M659,652L600.8911513906571,642.3151918984429", 
+            "kegg_id": "rn:R03045", 
+            "source": "133", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "133", 
+            "target": "97"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M659,652L716.1121529163353,642.3348664295432", 
+            "kegg_id": "rn:R03045", 
+            "source": "133", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "133", 
+            "target": "98"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M724,641L666.8878470836647,650.6651335704568", 
+            "kegg_id": "rn:R03045", 
+            "source": "98", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "133", 
+            "target": "133"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M855,641L798.8843911260781,650.6448702752053", 
+            "kegg_id": "rn:R12356", 
+            "source": "99", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "134", 
+            "target": "134"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M791,652L847.1156088739219,642.3551297247947", 
+            "kegg_id": "rn:R12356", 
+            "source": "134", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "134", 
+            "target": "99"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M791,652L731.8943127335945,642.2960811950677", 
+            "kegg_id": "rn:R12356", 
+            "source": "134", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "134", 
+            "target": "98"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "beta-Alanine metabolism", 
+            "strength": "2", 
+            "d": "M724,641L783.1056872664055,650.7039188049323", 
+            "kegg_id": "rn:R12356", 
+            "source": "98", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "134", 
+            "target": "134"
+        }
+    ], 
+    "labels": [], 
+    "boxes": [], 
+    "relation": [
+        {
+            "entry2": "69", 
+            "subtype": {
+                "name": "compound", 
+                "value": "80"
+            }, 
+            "entry1": "67", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "80"
+            }, 
+            "entry1": "67", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "81"
+            }, 
+            "entry1": "66", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "54", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "57", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "56", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "54", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "57", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "56", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "54", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "57", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "56", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "57", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "56", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "57", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "66", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "66", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "65", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "66", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "66", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "66", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "57", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "57", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "57", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "57", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "57", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "57", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "57", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "65", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "70", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "71", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "65", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "70", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "71", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "65", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "65", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "65", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "71", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "89"
+            }, 
+            "entry1": "64", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "64", 
+            "subtype": {
+                "name": "compound", 
+                "value": "90"
+            }, 
+            "entry1": "62", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "63", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "62", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "84"
+            }, 
+            "entry1": "48", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "53", 
+            "subtype": {
+                "name": "compound", 
+                "value": "95"
+            }, 
+            "entry1": "49", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "52", 
+            "subtype": {
+                "name": "compound", 
+                "value": "95"
+            }, 
+            "entry1": "49", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "51", 
+            "subtype": {
+                "name": "compound", 
+                "value": "95"
+            }, 
+            "entry1": "49", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "95"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "53", 
+            "subtype": {
+                "name": "compound", 
+                "value": "95"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "52", 
+            "subtype": {
+                "name": "compound", 
+                "value": "95"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "51", 
+            "subtype": {
+                "name": "compound", 
+                "value": "95"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "45", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "44", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "44", 
+            "subtype": {
+                "name": "compound", 
+                "value": "97"
+            }, 
+            "entry1": "43", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "43", 
+            "subtype": {
+                "name": "compound", 
+                "value": "98"
+            }, 
+            "entry1": "42", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "40", 
+            "subtype": {
+                "name": "compound", 
+                "value": "121"
+            }, 
+            "entry1": "69", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "40", 
+            "subtype": {
+                "name": "compound", 
+                "value": "121"
+            }, 
+            "entry1": "68", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "39", 
+            "subtype": {
+                "name": "compound", 
+                "value": "94"
+            }, 
+            "entry1": "54", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "38", 
+            "subtype": {
+                "name": "compound", 
+                "value": "83"
+            }, 
+            "entry1": "48", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "99"
+            }, 
+            "entry1": "42", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "76", 
+            "subtype": {
+                "name": "compound", 
+                "value": "108"
+            }, 
+            "entry1": "63", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "78", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "77", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "77", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "58", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "77", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "57", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "78", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "58", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "78", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "57", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "76", 
+            "subtype": {
+                "name": "compound", 
+                "value": "93"
+            }, 
+            "entry1": "124", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "124", 
+            "subtype": {
+                "name": "compound", 
+                "value": "91"
+            }, 
+            "entry1": "62", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "126", 
+            "subtype": {
+                "name": "compound", 
+                "value": "91"
+            }, 
+            "entry1": "62", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "126", 
+            "subtype": {
+                "name": "compound", 
+                "value": "89"
+            }, 
+            "entry1": "65", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "124", 
+            "subtype": {
+                "name": "compound", 
+                "value": "89"
+            }, 
+            "entry1": "65", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "64", 
+            "subtype": {
+                "name": "compound", 
+                "value": "89"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "126", 
+            "subtype": {
+                "name": "compound", 
+                "value": "89"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "124", 
+            "subtype": {
+                "name": "compound", 
+                "value": "89"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "126", 
+            "subtype": {
+                "name": "compound", 
+                "value": "89"
+            }, 
+            "entry1": "64", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "124", 
+            "subtype": {
+                "name": "compound", 
+                "value": "89"
+            }, 
+            "entry1": "64", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "56", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "54", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "51", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "52", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "53", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "57", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "127", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "127", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "79", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "127", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "57", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "127", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "127", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "66", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "127", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "127", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "127", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "127", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "127", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "71", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "127", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "122", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "127", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "127", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "124", 
+            "subtype": {
+                "name": "compound", 
+                "value": "91"
+            }, 
+            "entry1": "128", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "129", 
+            "subtype": {
+                "name": "compound", 
+                "value": "91"
+            }, 
+            "entry1": "128", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "126", 
+            "subtype": {
+                "name": "compound", 
+                "value": "91"
+            }, 
+            "entry1": "128", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "129", 
+            "subtype": {
+                "name": "compound", 
+                "value": "91"
+            }, 
+            "entry1": "62", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "126", 
+            "subtype": {
+                "name": "compound", 
+                "value": "91"
+            }, 
+            "entry1": "129", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "129", 
+            "subtype": {
+                "name": "compound", 
+                "value": "93"
+            }, 
+            "entry1": "76", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "129", 
+            "subtype": {
+                "name": "compound", 
+                "value": "89"
+            }, 
+            "entry1": "65", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "129", 
+            "subtype": {
+                "name": "compound", 
+                "value": "89"
+            }, 
+            "entry1": "122", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "129", 
+            "subtype": {
+                "name": "compound", 
+                "value": "89"
+            }, 
+            "entry1": "64", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "129", 
+            "subtype": {
+                "name": "compound", 
+                "value": "89"
+            }, 
+            "entry1": "126", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "51", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "52", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "53", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "57", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "122", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "127", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "56", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "132", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "39", 
+            "subtype": {
+                "name": "compound", 
+                "value": "131"
+            }, 
+            "entry1": "132", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "132", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "42", 
+            "subtype": {
+                "name": "compound", 
+                "value": "98"
+            }, 
+            "entry1": "133", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "133", 
+            "subtype": {
+                "name": "compound", 
+                "value": "97"
+            }, 
+            "entry1": "44", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "134", 
+            "subtype": {
+                "name": "compound", 
+                "value": "98"
+            }, 
+            "entry1": "43", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "134", 
+            "subtype": {
+                "name": "compound", 
+                "value": "98"
+            }, 
+            "entry1": "133", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "37", 
+            "subtype": {
+                "name": "compound", 
+                "value": "99"
+            }, 
+            "entry1": "134", 
+            "type": "maplink"
+        }
+    ], 
+    "entry": [
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00410", 
+            "id": "36", 
+            "name": "path:ko00410", 
+            "graphics": {
+                "name": "TITLE:beta-Alanine metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "195", 
+                "y": "58", 
+                "x": "138", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00640", 
+            "id": "37", 
+            "name": "path:ko00640", 
+            "graphics": {
+                "name": "Propanoate metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "74", 
+                "y": "706", 
+                "x": "856", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00061", 
+            "id": "38", 
+            "name": "path:ko00061", 
+            "graphics": {
+                "name": "Fatty acid biosynthesis", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "81", 
+                "y": "495", 
+                "x": "96", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00770", 
+            "id": "39", 
+            "name": "path:ko00770", 
+            "graphics": {
+                "name": "Pantothenate and CoA biosynthesis", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "103", 
+                "y": "599", 
+                "x": "540", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00240", 
+            "id": "40", 
+            "name": "path:ko00240", 
+            "graphics": {
+                "name": "Pyrimidine metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "74", 
+                "y": "327", 
+                "x": "72", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R04432", 
+            "name": "ko:K00248", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00248", 
+            "graphics": {
+                "name": "K00248", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "631", 
+                "x": "791", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "42"
+        }, 
+        {
+            "reaction": "rn:R03045", 
+            "name": "ko:K01692 ko:K01825 ko:K01782 ko:K07515 ko:K07514 ko:K07511", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01692+K01825+K01782+K07515+K07514+K07511", 
+            "graphics": {
+                "name": "K01692...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "631", 
+                "x": "659", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "43"
+        }, 
+        {
+            "reaction": "rn:R03158", 
+            "name": "ko:K05605", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05605", 
+            "graphics": {
+                "name": "K05605", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "642", 
+                "x": "528", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "44"
+        }, 
+        {
+            "reaction": "rn:R01608", 
+            "name": "ko:K23146", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K23146", 
+            "graphics": {
+                "name": "K23146", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "642", 
+                "x": "398", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "45"
+        }, 
+        {
+            "reaction": "rn:R00233", 
+            "name": "ko:K01578", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01578", 
+            "graphics": {
+                "name": "K01578", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "570", 
+                "x": "145", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "48"
+        }, 
+        {
+            "reaction": "rn:R00705 rn:R00706", 
+            "name": "ko:K00140", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00140", 
+            "graphics": {
+                "name": "K00140", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "611", 
+                "x": "203", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "49"
+        }, 
+        {
+            "reaction": "rn:R00907", 
+            "name": "ko:K00822", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00822", 
+            "graphics": {
+                "name": "K00822", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "432", 
+                "x": "315", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "51"
+        }, 
+        {
+            "reaction": "rn:R00908", 
+            "name": "ko:K15372", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K15372", 
+            "graphics": {
+                "name": "K15372", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "432", 
+                "x": "266", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "52"
+        }, 
+        {
+            "reaction": "rn:R00908", 
+            "name": "ko:K13524 ko:K07250 ko:K00823", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K13524+K07250+K00823", 
+            "graphics": {
+                "name": "K13524...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "432", 
+                "x": "216", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "53"
+        }, 
+        {
+            "reaction": "rn:R02473", 
+            "name": "ko:K01918 ko:K13799", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01918+K13799", 
+            "graphics": {
+                "name": "K01918...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "529", 
+                "x": "354", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "54"
+        }, 
+        {
+            "reaction": "rn:R00912", 
+            "name": "ko:K14755", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K14755", 
+            "graphics": {
+                "name": "K14755", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "428", 
+                "x": "521", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "56"
+        }, 
+        {
+            "reaction": "rn:R00489", 
+            "name": "ko:K01580", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01580", 
+            "graphics": {
+                "name": "K01580", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "150", 
+                "x": "577", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "57"
+        }, 
+        {
+            "reaction": "rn:R00489", 
+            "name": "ko:K01579 ko:K18933 ko:K18966", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01579+K18933+K18966", 
+            "graphics": {
+                "name": "K01579...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "129", 
+                "x": "577", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "58"
+        }, 
+        {
+            "reaction": "rn:R01914", 
+            "name": "ko:K00316", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00316", 
+            "graphics": {
+                "name": "K00316", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "303", 
+                "x": "694", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "62"
+        }, 
+        {
+            "reaction": "rn:R02549", 
+            "name": "ko:K00137", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00137", 
+            "graphics": {
+                "name": "K00137", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "333", 
+                "x": "701", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "63"
+        }, 
+        {
+            "reaction": "rn:R03139", 
+            "name": "ko:K00276", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00276", 
+            "graphics": {
+                "name": "K00276", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "293", 
+                "x": "577", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "64"
+        }, 
+        {
+            "reaction": "rn:R00904", 
+            "name": "ko:K00128 ko:K14085 ko:K00149", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00128+K14085+K00149", 
+            "graphics": {
+                "name": "K00128...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "282", 
+                "x": "467", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "65"
+        }, 
+        {
+            "reaction": "rn:R00905", 
+            "name": "ko:K01431", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01431", 
+            "graphics": {
+                "name": "K01431", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "261", 
+                "x": "340", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "66"
+        }, 
+        {
+            "reaction": "rn:R02269", 
+            "name": "ko:K01464", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01464", 
+            "graphics": {
+                "name": "K01464", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "261", 
+                "x": "224", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "67"
+        }, 
+        {
+            "reaction": "rn:R00978", 
+            "name": "ko:K00207", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00207", 
+            "graphics": {
+                "name": "K00207", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "271", 
+                "x": "123", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "68"
+        }, 
+        {
+            "reaction": "rn:R00977", 
+            "name": "ko:K17722 ko:K17723", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17722+K17723", 
+            "graphics": {
+                "name": "K17722...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "250", 
+                "x": "123", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "69"
+        }, 
+        {
+            "reaction": "rn:R01164", 
+            "name": "ko:K14755", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K14755", 
+            "graphics": {
+                "name": "K14755", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "402", 
+                "x": "521", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "70"
+        }, 
+        {
+            "reaction": "rn:R00910", 
+            "name": "ko:K14755", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K14755", 
+            "graphics": {
+                "name": "K14755", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "454", 
+                "x": "521", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "71"
+        }, 
+        {
+            "reaction": "rn:R01166", 
+            "name": "ko:K05604", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05604", 
+            "graphics": {
+                "name": "K05604", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "377", 
+                "x": "521", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "72"
+        }, 
+        {
+            "reaction": "rn:R03286", 
+            "name": "ko:K14755", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K14755", 
+            "graphics": {
+                "name": "K14755", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "219", 
+                "x": "577", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "74"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00330", 
+            "id": "76", 
+            "name": "path:ko00330", 
+            "graphics": {
+                "name": "Arginine and proline metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "119", 
+                "y": "291", 
+                "x": "973", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00460", 
+            "id": "77", 
+            "name": "path:ko00460", 
+            "graphics": {
+                "name": "Cyanoamino acid metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "100", 
+                "y": "59", 
+                "x": "750", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00250", 
+            "id": "78", 
+            "name": "path:ko00250", 
+            "graphics": {
+                "name": "Alanine, aspartate and glutamate metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "126", 
+                "y": "139", 
+                "x": "869", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R03288", 
+            "name": "ko:K05604", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05604", 
+            "graphics": {
+                "name": "K05604", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "196", 
+                "x": "577", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "79"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00429", 
+            "id": "80", 
+            "name": "cpd:C00429", 
+            "graphics": {
+                "name": "C00429", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "260", 
+                "x": "174", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02642", 
+            "id": "81", 
+            "name": "cpd:C02642", 
+            "graphics": {
+                "name": "C02642", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "260", 
+                "x": "276", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00099", 
+            "id": "82", 
+            "name": "cpd:C00099", 
+            "graphics": {
+                "name": "C00099", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "292", 
+                "x": "402", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00083", 
+            "id": "83", 
+            "name": "cpd:C00083", 
+            "graphics": {
+                "name": "C00083", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "569", 
+                "x": "95", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00024", 
+            "id": "84", 
+            "name": "cpd:C00024", 
+            "graphics": {
+                "name": "C00024", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "569", 
+                "x": "203", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00383", 
+            "id": "85", 
+            "name": "cpd:C00383", 
+            "graphics": {
+                "name": "C00383", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "648", 
+                "x": "95", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05669", 
+            "id": "86", 
+            "name": "cpd:C05669", 
+            "graphics": {
+                "name": "C05669", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "63", 
+                "x": "569", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05670", 
+            "id": "87", 
+            "name": "cpd:C05670", 
+            "graphics": {
+                "name": "C05670", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "84", 
+                "x": "569", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01073", 
+            "id": "88", 
+            "name": "cpd:C01073", 
+            "graphics": {
+                "name": "C01073", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "105", 
+                "x": "569", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05665", 
+            "id": "89", 
+            "name": "cpd:C05665", 
+            "graphics": {
+                "name": "C05665", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "292", 
+                "x": "519", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00986", 
+            "id": "90", 
+            "name": "cpd:C00986", 
+            "graphics": {
+                "name": "C00986", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "292", 
+                "x": "634", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00315", 
+            "id": "91", 
+            "name": "cpd:C00315", 
+            "graphics": {
+                "name": "C00315", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "292", 
+                "x": "749", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00049", 
+            "id": "92", 
+            "name": "cpd:C00049", 
+            "graphics": {
+                "name": "C00049", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "139", 
+                "x": "749", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00750", 
+            "id": "93", 
+            "name": "cpd:C00750", 
+            "graphics": {
+                "name": "C00750", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "292", 
+                "x": "864", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00864", 
+            "id": "94", 
+            "name": "cpd:C00864", 
+            "graphics": {
+                "name": "C00864", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "599", 
+                "x": "354", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00222", 
+            "id": "95", 
+            "name": "cpd:C00222", 
+            "graphics": {
+                "name": "C00222", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "641", 
+                "x": "314", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01013", 
+            "id": "96", 
+            "name": "cpd:C01013", 
+            "graphics": {
+                "name": "C01013", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "641", 
+                "x": "462", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05668", 
+            "id": "97", 
+            "name": "cpd:C05668", 
+            "graphics": {
+                "name": "C05668", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "641", 
+                "x": "593", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00894", 
+            "id": "98", 
+            "name": "cpd:C00894", 
+            "graphics": {
+                "name": "C00894", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "641", 
+                "x": "724", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00100", 
+            "id": "99", 
+            "name": "cpd:C00100", 
+            "graphics": {
+                "name": "C00100", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "641", 
+                "x": "855", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02335", 
+            "id": "100", 
+            "name": "cpd:C02335", 
+            "graphics": {
+                "name": "C02335", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "714", 
+                "x": "724", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00386", 
+            "id": "101", 
+            "name": "cpd:C00386", 
+            "graphics": {
+                "name": "C00386", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "366", 
+                "x": "634", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00135", 
+            "id": "102", 
+            "name": "cpd:C00135", 
+            "graphics": {
+                "name": "C00135", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "340", 
+                "x": "481", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05340", 
+            "id": "103", 
+            "name": "cpd:C05340", 
+            "graphics": {
+                "name": "C05340", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "427", 
+                "x": "749", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05341", 
+            "id": "104", 
+            "name": "cpd:C05341", 
+            "graphics": {
+                "name": "C05341", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "479", 
+                "x": "634", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03722", 
+            "id": "105", 
+            "name": "cpd:C03722", 
+            "graphics": {
+                "name": "C03722", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "532", 
+                "x": "749", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00804", 
+            "id": "106", 
+            "name": "cpd:C00804", 
+            "graphics": {
+                "name": "C00804", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "714", 
+                "x": "314", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00555", 
+            "id": "107", 
+            "name": "cpd:C00555", 
+            "graphics": {
+                "name": "C00555", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "333", 
+                "x": "659", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00334", 
+            "id": "108", 
+            "name": "cpd:C00334", 
+            "graphics": {
+                "name": "C00334", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "333", 
+                "x": "749", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01262", 
+            "id": "109", 
+            "name": "cpd:C01262", 
+            "graphics": {
+                "name": "C01262", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "185", 
+                "x": "749", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00106", 
+            "id": "121", 
+            "name": "cpd:C00106", 
+            "graphics": {
+                "name": "C00106", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "260", 
+                "x": "71", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R00904", 
+            "name": "ko:K00129", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00129", 
+            "graphics": {
+                "name": "K00129", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "303", 
+                "x": "467", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "122"
+        }, 
+        {
+            "reaction": "rn:R09076", 
+            "name": "ko:K17839 ko:K13367", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17839+K13367", 
+            "graphics": {
+                "name": "K17839...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "303", 
+                "x": "813", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "124"
+        }, 
+        {
+            "reaction": "rn:R09077", 
+            "name": "ko:K17839 ko:K13367", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17839+K13367", 
+            "graphics": {
+                "name": "K17839...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "251", 
+                "x": "640", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "126"
+        }, 
+        {
+            "reaction": "rn:R01166", 
+            "name": "ko:K08660", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K08660", 
+            "graphics": {
+                "name": "K08660", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "356", 
+                "x": "521", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "127"
+        }, 
+        {
+            "reaction": "rn:R01914", 
+            "name": "ko:K13366", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K13366", 
+            "graphics": {
+                "name": "K13366", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "282", 
+                "x": "694", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "128"
+        }, 
+        {
+            "reaction": "rn:R09076", 
+            "name": "ko:K12259 ko:K13366", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K12259+K13366", 
+            "graphics": {
+                "name": "K12259...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "282", 
+                "x": "813", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "129"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03492", 
+            "id": "131", 
+            "name": "cpd:C03492", 
+            "graphics": {
+                "name": "C03492", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "582", 
+                "x": "384", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R09379", 
+            "name": "ko:K09722", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K09722", 
+            "graphics": {
+                "name": "K09722", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "549", 
+                "x": "385", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "132"
+        }, 
+        {
+            "reaction": "rn:R03045", 
+            "name": "ko:K14729", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K14729", 
+            "graphics": {
+                "name": "K14729", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "652", 
+                "x": "659", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "133"
+        }, 
+        {
+            "reaction": "rn:R12356", 
+            "name": "ko:K00232", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00232", 
+            "graphics": {
+                "name": "K00232", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "652", 
+                "x": "791", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "134"
+        }
+    ], 
+    "nodes": [
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00248", 
+            "font_size": 12, 
+            "name": "propanoyl-CoA:electron-transfer flavoprotein 2,3-oxidoreductase", 
+            "rxn": " Electron-transferring flavoprotein + Propanoyl-CoA <=> Reduced electron-transferring flavoprotein + Propenoyl-CoA", 
+            "kegg_id": "rn:R04432", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04432", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 642.8829040527344, 
+            "x": 793.2974243164062, 
+            "gene": "ko:K00248", 
+            "type": "R", 
+            "id": "42", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01692+K01825+K01782+K07515+K07514+K07511", 
+            "font_size": 12, 
+            "name": "3-Hydroxypropionyl-CoA hydro-lyase", 
+            "rxn": " 3-Hydroxypropionyl-CoA <=> Propenoyl-CoA + H2O", 
+            "kegg_id": "rn:R03045", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03045", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 642.8829040527344, 
+            "x": 659, 
+            "gene": "ko:K01692 ko:K01825 ko:K01782 ko:K07515 ko:K07514 ko:K07511", 
+            "type": "R", 
+            "id": "43", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05605", 
+            "font_size": 12, 
+            "name": "3-Hydroxypropanoate + CoA <=> 3-Hydroxypropionyl-CoA + H2O", 
+            "rxn": "3-Hydroxypropanoate + CoA <=> 3-Hydroxypropionyl-CoA + H2O", 
+            "kegg_id": "rn:R03158", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03158", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 642.8829040527344, 
+            "x": 528, 
+            "gene": "ko:K05605", 
+            "type": "R", 
+            "id": "44", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K23146", 
+            "font_size": 12, 
+            "name": "3-hydroxypropanoate:NAD+ oxidoreductase", 
+            "rxn": " 3-Hydroxypropanoate + NAD+ <=> 3-Oxopropanoate + NADH + H+", 
+            "kegg_id": "rn:R01608", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01608", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 642.8829040527344, 
+            "x": 398, 
+            "gene": "ko:K23146", 
+            "type": "R", 
+            "id": "45", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01578", 
+            "font_size": 12, 
+            "name": "malonyl-CoA carboxy-lyase (acetyl-CoA-forming)", 
+            "rxn": " Malonyl-CoA <=> Acetyl-CoA + CO2", 
+            "kegg_id": "rn:R00233", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00233", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 569.330859375, 
+            "x": 145, 
+            "gene": "ko:K01578", 
+            "type": "R", 
+            "id": "48", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00140", 
+            "font_size": 12, 
+            "name": "3-Oxopropanoate:NAD+ oxidoreductase (decarboxylating, CoA-acetylating)", 
+            "rxn": " 3-Oxopropanoate + CoA + NAD+ <=> Acetyl-CoA + CO2 + NADH + H+", 
+            "kegg_id": "rn:R00705", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00705", 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 642.8829040527344, 
+            "x": 203, 
+            "gene": "ko:K00140", 
+            "type": "R", 
+            "id": "49", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00822", 
+            "font_size": 12, 
+            "name": "L-Alanine:3-oxopropanoate aminotransferase", 
+            "rxn": " L-Alanine + 3-Oxopropanoate <=> Pyruvate + beta-Alanine", 
+            "kegg_id": "rn:R00907", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00907", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 432, 
+            "x": 314.2211723327637, 
+            "gene": "ko:K00822", 
+            "type": "R", 
+            "id": "51", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K15372", 
+            "font_size": 12, 
+            "name": "beta-alanine:2-oxoglutarate aminotransferase", 
+            "rxn": " beta-Alanine + 2-Oxoglutarate <=> 3-Oxopropanoate + L-Glutamate", 
+            "kegg_id": "rn:R00908", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00908", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 430.8512878417969, 
+            "x": 314.2211723327637, 
+            "gene": "ko:K15372", 
+            "type": "R", 
+            "id": "52", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K13524+K07250+K00823", 
+            "font_size": 12, 
+            "name": "beta-alanine:2-oxoglutarate aminotransferase", 
+            "rxn": " beta-Alanine + 2-Oxoglutarate <=> 3-Oxopropanoate + L-Glutamate", 
+            "kegg_id": "rn:R00908", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00908", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 430.8512878417969, 
+            "x": 314.2211723327637, 
+            "gene": "ko:K13524 ko:K07250 ko:K00823", 
+            "type": "R", 
+            "id": "53", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01918+K13799", 
+            "font_size": 12, 
+            "name": "(R)-Pantoate:beta-alanine ligase (AMP-forming)", 
+            "rxn": " ATP + (R)-Pantoate + beta-Alanine <=> AMP + Diphosphate + Pantothenate", 
+            "kegg_id": "rn:R02473", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02473", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 538.1896362304688, 
+            "x": 402.9464904785156, 
+            "gene": "ko:K01918 ko:K13799", 
+            "type": "R", 
+            "id": "54", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K14755", 
+            "font_size": 12, 
+            "name": "L-arginine:beta-alanine ligase (ADP-forming)", 
+            "rxn": " ATP + L-Arginine + beta-Alanine <=> ADP + Orthophosphate + beta-Alanyl-L-arginine", 
+            "kegg_id": "rn:R00912", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00912", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 427.5, 
+            "x": 520.5793980189732, 
+            "gene": "ko:K14755", 
+            "type": "R", 
+            "id": "56", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01580", 
+            "font_size": 12, 
+            "name": "L-aspartate 1-carboxy-lyase (beta-alanine-forming)", 
+            "rxn": " L-Aspartate <=> beta-Alanine + CO2", 
+            "kegg_id": "rn:R00489", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00489", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 161.11970062255858, 
+            "x": 402.9464904785156, 
+            "gene": "ko:K01580", 
+            "type": "R", 
+            "id": "57", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01579+K18933+K18966", 
+            "font_size": 12, 
+            "name": "L-aspartate 1-carboxy-lyase (beta-alanine-forming)", 
+            "rxn": " L-Aspartate <=> beta-Alanine + CO2", 
+            "kegg_id": "rn:R00489", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00489", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 161.11970062255858, 
+            "x": 402.9464904785156, 
+            "gene": "ko:K01579 ko:K18933 ko:K18966", 
+            "type": "R", 
+            "id": "58", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00316", 
+            "font_size": 12, 
+            "name": "spermidine:(acceptor) oxidoreductase", 
+            "rxn": " Spermidine + Oxygen + H2O <=> 1,3-Diaminopropane + 4-Aminobutyraldehyde + Hydrogen peroxide", 
+            "kegg_id": "rn:R01914", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01914", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 293.09913126627606, 
+            "x": 696.8835042317709, 
+            "gene": "ko:K00316", 
+            "type": "R", 
+            "id": "62", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00137", 
+            "font_size": 12, 
+            "name": "4-aminobutanal:NAD+ 1-oxidoreductase", 
+            "rxn": " 4-Aminobutyraldehyde + NAD+ + H2O <=> 4-Aminobutanoate + NADH + H+", 
+            "kegg_id": "rn:R02549", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02549", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 328.70037841796875, 
+            "x": 766.4757690429688, 
+            "gene": "ko:K00137", 
+            "type": "R", 
+            "id": "63", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00276", 
+            "font_size": 12, 
+            "name": "primary-amine oxidase", 
+            "rxn": " 1,3-Diaminopropane + Oxygen + H2O <=> 3-Aminopropanal + Ammonia + Hydrogen peroxide", 
+            "kegg_id": "rn:R03139", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03139", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 293.09913126627606, 
+            "x": 577, 
+            "gene": "ko:K00276", 
+            "type": "R", 
+            "id": "64", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00128+K14085+K00149", 
+            "font_size": 12, 
+            "name": "3-aminopropanal:NAD+ oxidoreductase", 
+            "rxn": " 3-Aminopropanal + NAD+ + H2O <=> beta-Alanine + NADH + H+", 
+            "kegg_id": "rn:R00904", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00904", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 293.09913126627606, 
+            "x": 465.851318359375, 
+            "gene": "ko:K00128 ko:K14085 ko:K00149", 
+            "type": "R", 
+            "id": "65", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01431", 
+            "font_size": 12, 
+            "name": "3-ureidopropanoate amidohydrolase", 
+            "rxn": " 3-Ureidopropionate + H2O <=> beta-Alanine + CO2 + Ammonia", 
+            "kegg_id": "rn:R00905", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00905", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 260.08633592393664, 
+            "x": 340, 
+            "gene": "ko:K01431", 
+            "type": "R", 
+            "id": "66", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01464", 
+            "font_size": 12, 
+            "name": "5,6-Dihydrouracil amidohydrolase", 
+            "rxn": " 5,6-Dihydrouracil + H2O <=> 3-Ureidopropionate", 
+            "kegg_id": "rn:R02269", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02269", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 260.08633592393664, 
+            "x": 224, 
+            "gene": "ko:K01464", 
+            "type": "R", 
+            "id": "67", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00207", 
+            "font_size": 12, 
+            "name": "5,6-Dihydrouracil:NADP+ oxidoreductase", 
+            "rxn": " 5,6-Dihydrouracil + NADP+ <=> Uracil + NADPH + H+", 
+            "kegg_id": "rn:R00978", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00978", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 260.08633592393664, 
+            "x": 120.70260620117188, 
+            "gene": "ko:K00207", 
+            "type": "R", 
+            "id": "68", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K17722+K17723", 
+            "font_size": 12, 
+            "name": "5,6-dihydrouracil:NAD+ oxidoreductase", 
+            "rxn": " 5,6-Dihydrouracil + NAD+ <=> Uracil + NADH + H+", 
+            "kegg_id": "rn:R00977", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00977", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 260.08633592393664, 
+            "x": 120.70259857177734, 
+            "gene": "ko:K17722 ko:K17723", 
+            "type": "R", 
+            "id": "69", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K14755", 
+            "font_size": 12, 
+            "name": "L-histidine:beta-alanine ligase (ADP-forming)", 
+            "rxn": " ATP + L-Histidine + beta-Alanine <=> ADP + Orthophosphate + Carnosine", 
+            "kegg_id": "rn:R01164", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01164", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 376.7286376953125, 
+            "x": 520.5793980189732, 
+            "gene": "ko:K14755", 
+            "type": "R", 
+            "id": "70", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K14755", 
+            "font_size": 12, 
+            "name": "L-lysine:beta-alanine ligase (ADP-forming)", 
+            "rxn": " ATP + L-Lysine + beta-Alanine <=> ADP + Orthophosphate + beta-Alanyl-L-lysine", 
+            "kegg_id": "rn:R00910", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00910", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 452.1412811279297, 
+            "x": 520.5793980189732, 
+            "gene": "ko:K14755", 
+            "type": "R", 
+            "id": "71", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05604", 
+            "font_size": 12, 
+            "name": "Nalpha-(beta-alanyl)-L-histidine hydrolase", 
+            "rxn": " Carnosine + H2O <=> beta-Alanine + L-Histidine", 
+            "kegg_id": "rn:R01166", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01166", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 377, 
+            "x": 520.5793980189732, 
+            "gene": "ko:K05604", 
+            "type": "R", 
+            "id": "72", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K14755", 
+            "font_size": 12, 
+            "name": "N(pi)-methyl-L-histidine:beta-alanine ligase (ADP-forming)", 
+            "rxn": " ATP + N(pi)-Methyl-L-histidine + beta-Alanine <=> ADP + Orthophosphate + beta-Alanyl-N(pi)-methyl-L-histidine", 
+            "kegg_id": "rn:R03286", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03286", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 204.59479268391928, 
+            "x": 443.7510070800781, 
+            "gene": "ko:K14755", 
+            "type": "R", 
+            "id": "74", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05604", 
+            "font_size": 12, 
+            "name": "beta-alanyl-N(pi)-methyl-L-histidine hydrolase", 
+            "rxn": " beta-Alanyl-N(pi)-methyl-L-histidine + H2O <=> beta-Alanine + N(pi)-Methyl-L-histidine", 
+            "kegg_id": "rn:R03288", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03288", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 204.59479268391928, 
+            "x": 442.602294921875, 
+            "gene": "ko:K05604", 
+            "type": "R", 
+            "id": "79", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "5,6-Dihydrouracil", 
+            "kegg_id": "cpd:C00429", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00429", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -11.6, 
+            "y": 260.08633592393664, 
+            "x": 174, 
+            "type": "M", 
+            "id": "80", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "3-Ureidopropionate", 
+            "kegg_id": "cpd:C02642", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C02642", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -11.6, 
+            "y": 260.08633592393664, 
+            "x": 276, 
+            "type": "M", 
+            "id": "81", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "beta-Alanine", 
+            "kegg_id": "cpd:C00099", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00099", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 293.09913126627606, 
+            "x": 402.9464904785156, 
+            "type": "M", 
+            "id": "82", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "Malonyl-CoA", 
+            "kegg_id": "cpd:C00083", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00083", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -13.9, 
+            "y": 569.330859375, 
+            "x": 95, 
+            "type": "M", 
+            "id": "83", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "Acetyl-CoA", 
+            "kegg_id": "cpd:C00024", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00024", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 569.330859375, 
+            "x": 203, 
+            "type": "M", 
+            "id": "84", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "3-Aminopropanal", 
+            "kegg_id": "cpd:C05665", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C05665", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": 15.6, 
+            "y": 293.09913126627606, 
+            "x": 520.5793980189732, 
+            "type": "M", 
+            "id": "89", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "1,3-Diaminopropane", 
+            "kegg_id": "cpd:C00986", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00986", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 293.09913126627606, 
+            "x": 634, 
+            "type": "M", 
+            "id": "90", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "Spermidine", 
+            "kegg_id": "cpd:C00315", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00315", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -9.2, 
+            "y": 293.09913126627606, 
+            "x": 749, 
+            "type": "M", 
+            "id": "91", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "L-Aspartate", 
+            "kegg_id": "cpd:C00049", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00049", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 161.11970062255858, 
+            "x": 727.7927551269531, 
+            "type": "M", 
+            "id": "92", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "Spermine", 
+            "kegg_id": "cpd:C00750", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00750", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 293.09913126627606, 
+            "x": 864, 
+            "type": "M", 
+            "id": "93", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "Pantothenate", 
+            "kegg_id": "cpd:C00864", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00864", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 604.1350708007812, 
+            "x": 402.9464904785156, 
+            "type": "M", 
+            "id": "94", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "3-Oxopropanoate", 
+            "kegg_id": "cpd:C00222", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00222", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 642.8829040527344, 
+            "x": 314.2211723327637, 
+            "type": "M", 
+            "id": "95", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "3-Hydroxypropanoate", 
+            "kegg_id": "cpd:C01013", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01013", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -12.7, 
+            "y": 642.8829040527344, 
+            "x": 462, 
+            "type": "M", 
+            "id": "96", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "3-Hydroxypropionyl-CoA", 
+            "kegg_id": "cpd:C05668", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C05668", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": 18, 
+            "y": 642.8829040527344, 
+            "x": 593, 
+            "type": "M", 
+            "id": "97", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "Propenoyl-CoA", 
+            "kegg_id": "cpd:C00894", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00894", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -12.7, 
+            "y": 642.8829040527344, 
+            "x": 724, 
+            "type": "M", 
+            "id": "98", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "Propanoyl-CoA", 
+            "kegg_id": "cpd:C00100", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00100", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 642.8829040527344, 
+            "x": 855, 
+            "type": "M", 
+            "id": "99", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "Carnosine", 
+            "kegg_id": "cpd:C00386", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00386", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 377.48699951171875, 
+            "x": 630.5538940429688, 
+            "type": "M", 
+            "id": "101", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "L-Histidine", 
+            "kegg_id": "cpd:C00135", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00135", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 352.63568115234375, 
+            "x": 520.5793980189732, 
+            "type": "M", 
+            "id": "102", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "beta-Alanyl-L-arginine", 
+            "kegg_id": "cpd:C05340", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C05340", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 427.5, 
+            "x": 750.657958984375, 
+            "type": "M", 
+            "id": "103", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "beta-Alanyl-L-lysine", 
+            "kegg_id": "cpd:C05341", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C05341", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 452.1412811279297, 
+            "x": 750.657958984375, 
+            "type": "M", 
+            "id": "104", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "4-Aminobutyraldehyde", 
+            "kegg_id": "cpd:C00555", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00555", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 328.70037841796875, 
+            "x": 696.8835042317709, 
+            "type": "M", 
+            "id": "107", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "4-Aminobutanoate", 
+            "kegg_id": "cpd:C00334", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00334", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 328.70037841796875, 
+            "x": 829.4088745117188, 
+            "type": "M", 
+            "id": "108", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "beta-Alanyl-N(pi)-methyl-L-histidine", 
+            "kegg_id": "cpd:C01262", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01262", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 204.59479268391928, 
+            "x": 727.7927551269531, 
+            "type": "M", 
+            "id": "109", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "Uracil", 
+            "kegg_id": "cpd:C00106", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00106", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -11.6, 
+            "y": 260.08633592393664, 
+            "x": 71, 
+            "type": "M", 
+            "id": "121", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00129", 
+            "font_size": 12, 
+            "name": "3-aminopropanal:NAD+ oxidoreductase", 
+            "rxn": " 3-Aminopropanal + NAD+ + H2O <=> beta-Alanine + NADH + H+", 
+            "kegg_id": "rn:R00904", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00904", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 293.09913126627606, 
+            "x": 467, 
+            "gene": "ko:K00129", 
+            "type": "R", 
+            "id": "122", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K17839+K13367", 
+            "font_size": 12, 
+            "name": "spermidine:oxygen oxidoreductase (spermidine-forming)", 
+            "rxn": " Spermine + Oxygen + H2O <=> Spermidine + 3-Aminopropanal + Hydrogen peroxide", 
+            "kegg_id": "rn:R09076", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R09076", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 293.09913126627606, 
+            "x": 813, 
+            "gene": "ko:K17839 ko:K13367", 
+            "type": "R", 
+            "id": "124", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K17839+K13367", 
+            "font_size": 12, 
+            "name": "spermidine:oxygen oxidoreductase (3-aminopropanal-forming)", 
+            "rxn": " Spermidine + Oxygen + H2O <=> Putrescine + 3-Aminopropanal + Hydrogen peroxide", 
+            "kegg_id": "rn:R09077", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R09077", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 268.23048400878906, 
+            "x": 630.8103637695312, 
+            "gene": "ko:K17839 ko:K13367", 
+            "type": "R", 
+            "id": "126", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K08660", 
+            "font_size": 12, 
+            "name": "Nalpha-(beta-alanyl)-L-histidine hydrolase", 
+            "rxn": " Carnosine + H2O <=> beta-Alanine + L-Histidine", 
+            "kegg_id": "rn:R01166", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01166", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 313.4981689453125, 
+            "x": 520.5793980189732, 
+            "gene": "ko:K08660", 
+            "type": "R", 
+            "id": "127", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K13366", 
+            "font_size": 12, 
+            "name": "spermidine:(acceptor) oxidoreductase", 
+            "rxn": " Spermidine + Oxygen + H2O <=> 1,3-Diaminopropane + 4-Aminobutyraldehyde + Hydrogen peroxide", 
+            "kegg_id": "rn:R01914", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01914", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 293.09913126627606, 
+            "x": 696.8835042317709, 
+            "gene": "ko:K13366", 
+            "type": "R", 
+            "id": "128", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K12259+K13366", 
+            "font_size": 12, 
+            "name": "spermidine:oxygen oxidoreductase (spermidine-forming)", 
+            "rxn": " Spermine + Oxygen + H2O <=> Spermidine + 3-Aminopropanal + Hydrogen peroxide", 
+            "kegg_id": "rn:R09076", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R09076", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 293.09913126627606, 
+            "x": 814.1487426757812, 
+            "gene": "ko:K12259 ko:K13366", 
+            "type": "R", 
+            "id": "129", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "font_size": 12, 
+            "name": "D-4'-Phosphopantothenate", 
+            "kegg_id": "cpd:C03492", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C03492", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -4.9, 
+            "y": 575.1077880859375, 
+            "x": 434.542724609375, 
+            "type": "M", 
+            "id": "131", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K09722", 
+            "font_size": 12, 
+            "name": "(R)-4-phosphopantoate:beta-alanine ligase (AMP-forming)", 
+            "rxn": " ATP + (R)-4-Phosphopantoate + beta-Alanine <=> AMP + Diphosphate + D-4'-Phosphopantothenate", 
+            "kegg_id": "rn:R09379", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R09379", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 537.5130615234375, 
+            "x": 428.6505432128906, 
+            "gene": "ko:K09722", 
+            "type": "R", 
+            "id": "132", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K14729", 
+            "font_size": 12, 
+            "name": "3-Hydroxypropionyl-CoA hydro-lyase", 
+            "rxn": " 3-Hydroxypropionyl-CoA <=> Propenoyl-CoA + H2O", 
+            "kegg_id": "rn:R03045", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03045", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 642.8829040527344, 
+            "x": 660.148681640625, 
+            "gene": "ko:K14729", 
+            "type": "R", 
+            "id": "133", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "beta-Alanine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00232", 
+            "font_size": 12, 
+            "name": "propanoyl-CoA:oxygen 2-oxidoreductase", 
+            "rxn": " Propanoyl-CoA + Oxygen <=> Propenoyl-CoA + Hydrogen peroxide", 
+            "kegg_id": "rn:R12356", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12356", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 642.8829040527344, 
+            "x": 793.29736328125, 
+            "gene": "ko:K00232", 
+            "type": "R", 
+            "id": "134", 
+            "fill": "#d3d3d3"
+        }
+    ], 
+    "pathway": {
+        "name": "path:ko00410", 
+        "title": "beta-Alanine metabolism", 
+        "image": "https://www.kegg.jp/kegg/pathway/ko/ko00410.png", 
+        "number": "00410", 
+        "link": "https://www.kegg.jp/kegg-bin/show_pathway?ko00410", 
+        "org": "ko"
+    }
+}

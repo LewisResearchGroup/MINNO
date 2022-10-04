@@ -1,0 +1,3204 @@
+{
+    "reaction": [
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "77", 
+                    "name": "cpd:C02226"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "78", 
+                    "name": "cpd:C02612"
+                }
+            ], 
+            "id": "39", 
+            "name": "rn:R03896"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "79", 
+                    "name": "cpd:C06033"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "63", 
+                    "name": "cpd:C00022"
+                }
+            ], 
+            "id": "40", 
+            "name": "rn:R00008"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "73", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "74", 
+                    "name": "cpd:C03618"
+                }
+            ], 
+            "id": "41", 
+            "name": "rn:R00262"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "69", 
+                    "name": "cpd:C01732"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "74", 
+                    "name": "cpd:C03618"
+                }
+            ], 
+            "id": "42", 
+            "name": "rn:R03696"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "57", 
+                    "name": "cpd:C01011"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "61", 
+                    "name": "cpd:C02614"
+                }
+            ], 
+            "id": "46", 
+            "name": "rn:R03154"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "59", 
+                    "name": "cpd:C00490"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "60", 
+                    "name": "cpd:C00417"
+                }
+            ], 
+            "id": "47", 
+            "name": "rn:R02243"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "58", 
+                    "name": "cpd:C00531"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "59", 
+                    "name": "cpd:C00490"
+                }
+            ], 
+            "id": "48", 
+            "name": "rn:R02404"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "59", 
+                    "name": "cpd:C00490"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "58", 
+                    "name": "cpd:C00531"
+                }
+            ], 
+            "id": "49", 
+            "name": "rn:R02407"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "58", 
+                    "name": "cpd:C00531"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "57", 
+                    "name": "cpd:C01011"
+                }
+            ], 
+            "id": "50", 
+            "name": "rn:R02491"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "63", 
+                    "name": "cpd:C00022"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "57", 
+                    "name": "cpd:C01011"
+                }
+            ], 
+            "id": "51", 
+            "name": "rn:R00237"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "56", 
+                    "name": "cpd:C06010"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "63", 
+                    "name": "cpd:C00022"
+                }
+            ], 
+            "id": "52", 
+            "name": "rn:R00226"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "55", 
+                    "name": "cpd:C00810"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "56", 
+                    "name": "cpd:C06010"
+                }
+            ], 
+            "id": "53", 
+            "name": "rn:R02948"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "67", 
+                    "name": "cpd:C06027"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "64", 
+                    "name": "cpd:C00048"
+                }, 
+                {
+                    "id": "66", 
+                    "name": "cpd:C00100"
+                }
+            ], 
+            "id": "102", 
+            "name": "rn:R00934"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "68", 
+                    "name": "cpd:C06028"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "67", 
+                    "name": "cpd:C06027"
+                }
+            ], 
+            "id": "105", 
+            "name": "rn:R05076"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "76", 
+                    "name": "cpd:C06032"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "77", 
+                    "name": "cpd:C02226"
+                }
+            ], 
+            "id": "106", 
+            "name": "rn:R03898"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "81", 
+                    "name": "cpd:C00109"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "76", 
+                    "name": "cpd:C06032"
+                }
+            ], 
+            "id": "107", 
+            "name": "rn:R00994"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "78", 
+                    "name": "cpd:C02612"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "63", 
+                    "name": "cpd:C00022"
+                }
+            ], 
+            "id": "109", 
+            "name": "rn:R07399"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "60", 
+                    "name": "cpd:C00417"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "112", 
+                    "name": "cpd:C02341"
+                }
+            ], 
+            "id": "111", 
+            "name": "rn:R02244"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "59", 
+                    "name": "cpd:C00490"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "112", 
+                    "name": "cpd:C02341"
+                }
+            ], 
+            "id": "114", 
+            "name": "rn:R11749"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "116", 
+                    "name": "cpd:C21632"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "59", 
+                    "name": "cpd:C00490"
+                }
+            ], 
+            "id": "117", 
+            "name": "rn:R11750"
+        }
+    ], 
+    "links": [
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M157,455L201.00147887976124,455.84618228614926", 
+            "kegg_id": "rn:R03896", 
+            "source": "78", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "39", 
+            "target": "39"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M209,456L164.99852112023876,455.15381771385074", 
+            "kegg_id": "rn:R03896", 
+            "source": "39", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "39", 
+            "target": "78"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M209,456L251.00159952015994,455.1599680095968", 
+            "kegg_id": "rn:R03896", 
+            "source": "39", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "39", 
+            "target": "77"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M259,455L216.99840047984006,455.8400319904032", 
+            "kegg_id": "rn:R03896", 
+            "source": "77", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "39", 
+            "target": "39"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M347,251L76.3061508522805,371.7411413464648", 
+            "kegg_id": "rn:R00008", 
+            "source": "63", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "40", 
+            "target": "40"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M69,375L152.89090282545905,515.1359399470737", 
+            "kegg_id": "rn:R00008", 
+            "source": "40", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "40", 
+            "target": "79"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M648,402L648.7576869868739,427.00367056683694", 
+            "kegg_id": "rn:R00262", 
+            "source": "74", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "41", 
+            "target": "41"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M649,435L648.2423130131261,409.99632943316306", 
+            "kegg_id": "rn:R00262", 
+            "source": "41", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "41", 
+            "target": "74"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M649,435L648.2579303520877,458.0041590852824", 
+            "kegg_id": "rn:R00262", 
+            "source": "41", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "41", 
+            "target": "73"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M648,466L648.7420696479123,442.9958409147176", 
+            "kegg_id": "rn:R00262", 
+            "source": "73", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "41", 
+            "target": "41"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M648,402L648.6669556423026,385.9930645847388", 
+            "kegg_id": "rn:R03696", 
+            "source": "74", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "42"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M649,378L648.2579303520877,354.9958409147176", 
+            "kegg_id": "rn:R03696", 
+            "source": "42", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "69"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M493,252L539.8447209255208,213.11004300522796", 
+            "kegg_id": "rn:R03154", 
+            "source": "61", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "46", 
+            "target": "46"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M546,208L499.15527907447915,246.88995699477204", 
+            "kegg_id": "rn:R03154", 
+            "source": "46", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "46", 
+            "target": "61"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M546,208L499.38551320266583,172.81925524729496", 
+            "kegg_id": "rn:R03154", 
+            "source": "46", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "46", 
+            "target": "57"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M493,168L539.6144867973342,203.18074475270504", 
+            "kegg_id": "rn:R03154", 
+            "source": "57", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "46", 
+            "target": "46"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M813,164L780,164", 
+            "kegg_id": "rn:R02243", 
+            "source": "60", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "47", 
+            "target": "47"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M772,164L731,164", 
+            "kegg_id": "rn:R02243", 
+            "source": "47", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "47", 
+            "target": "59"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M723,164L676.8390123896642,173.4031641428462", 
+            "kegg_id": "rn:R02404", 
+            "source": "59", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "48", 
+            "target": "48"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M669,175L715.1609876103358,165.5968358571538", 
+            "kegg_id": "rn:R02404", 
+            "source": "48", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "48", 
+            "target": "59"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M669,175L615.8730161395608,165.419724221888", 
+            "kegg_id": "rn:R02404", 
+            "source": "48", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "48", 
+            "target": "58"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M608,164L661.1269838604392,173.580275778112", 
+            "kegg_id": "rn:R02404", 
+            "source": "58", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "48", 
+            "target": "48"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M608,164L661.1053786791557,155.29420021653186", 
+            "kegg_id": "rn:R02407", 
+            "source": "58", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "49", 
+            "target": "49"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M669,154L615.8946213208443,162.70579978346814", 
+            "kegg_id": "rn:R02407", 
+            "source": "49", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "49", 
+            "target": "58"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M669,154L715.1337439601243,162.54328591854153", 
+            "kegg_id": "rn:R02407", 
+            "source": "49", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "49", 
+            "target": "59"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M723,164L676.8662560398757,155.45671408145847", 
+            "kegg_id": "rn:R02407", 
+            "source": "59", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "49", 
+            "target": "49"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M493,168L545.0397024783201,162.79602975216798", 
+            "kegg_id": "rn:R02491", 
+            "source": "57", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "50", 
+            "target": "50"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M553,162L500.96029752167993,167.20397024783202", 
+            "kegg_id": "rn:R02491", 
+            "source": "50", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "50", 
+            "target": "57"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M553,162L600.0052840164285,163.70928305514286", 
+            "kegg_id": "rn:R02491", 
+            "source": "50", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "50", 
+            "target": "58"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M608,164L560.9947159835715,162.29071694485714", 
+            "kegg_id": "rn:R02491", 
+            "source": "58", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "50", 
+            "target": "50"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M493,168L422.99934261884107,168.89744432539948", 
+            "kegg_id": "rn:R00237", 
+            "source": "57", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "51", 
+            "target": "51"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M415,169L485.00065738115893,168.10255567460052", 
+            "kegg_id": "rn:R00237", 
+            "source": "51", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "51", 
+            "target": "57"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M415,169L352.1066869567562,244.8419363168528", 
+            "kegg_id": "rn:R00237", 
+            "source": "51", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "51", 
+            "target": "63"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M347,251L409.8933130432438,175.1580636831472", 
+            "kegg_id": "rn:R00237", 
+            "source": "63", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "51", 
+            "target": "51"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M347,251L254.50289474144984,216.77607105433643", 
+            "kegg_id": "rn:R00226", 
+            "source": "63", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "52", 
+            "target": "52"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M247,214L247,185", 
+            "kegg_id": "rn:R00226", 
+            "source": "52", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "52", 
+            "target": "56"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M247,177L247,164", 
+            "kegg_id": "rn:R02948", 
+            "source": "56", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "53", 
+            "target": "53"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M247,156L247,133", 
+            "kegg_id": "rn:R02948", 
+            "source": "53", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "53", 
+            "target": "55"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M365,328L413.4660647072413,345.30930882401475", 
+            "kegg_id": "rn:R00934", 
+            "source": "64", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "102", 
+            "target": "102"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M366,366L413.3968229676425,350.48831248331703", 
+            "kegg_id": "rn:R00934", 
+            "source": "66", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "102", 
+            "target": "102"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M421,348L483.0008162016039,347.1142740542628", 
+            "kegg_id": "rn:R00934", 
+            "source": "102", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "102", 
+            "target": "67"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M491,347L529,347", 
+            "kegg_id": "rn:R05076", 
+            "source": "67", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "105", 
+            "target": "105"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M537,347L499,347", 
+            "kegg_id": "rn:R05076", 
+            "source": "105", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "105", 
+            "target": "67"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M537,347L579,347", 
+            "kegg_id": "rn:R05076", 
+            "source": "105", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "105", 
+            "target": "68"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M587,347L545,347", 
+            "kegg_id": "rn:R05076", 
+            "source": "68", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "105", 
+            "target": "105"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M259,455L302.0015374267462,455.8431674005244", 
+            "kegg_id": "rn:R03898", 
+            "source": "77", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "106", 
+            "target": "106"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M310,456L266.9984625732538,455.1568325994756", 
+            "kegg_id": "rn:R03898", 
+            "source": "106", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "106", 
+            "target": "77"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M310,456L353.0015374267462,455.1568325994756", 
+            "kegg_id": "rn:R03898", 
+            "source": "106", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "106", 
+            "target": "76"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M361,455L317.9984625732538,455.8431674005244", 
+            "kegg_id": "rn:R03898", 
+            "source": "76", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "106", 
+            "target": "106"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M361,455L398.00197457734714,455.8222661017188", 
+            "kegg_id": "rn:R00994", 
+            "source": "76", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "107", 
+            "target": "107"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M406,456L368.99802542265286,455.1777338982812", 
+            "kegg_id": "rn:R00994", 
+            "source": "107", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "107", 
+            "target": "76"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M406,456L453.0013219862934,455.14543050934014", 
+            "kegg_id": "rn:R00994", 
+            "source": "107", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "107", 
+            "target": "81"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M461,455L413.9986780137066,455.85456949065986", 
+            "kegg_id": "rn:R00994", 
+            "source": "81", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "107", 
+            "target": "107"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M347,251L164.6888905526443,370.61152154218047", 
+            "kegg_id": "rn:R07399", 
+            "source": "63", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "109", 
+            "target": "109"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M158,375L157.0999921884154,447.00062492676733", 
+            "kegg_id": "rn:R07399", 
+            "source": "109", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "109", 
+            "target": "78"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M813,103L813,127", 
+            "kegg_id": "rn:R02244", 
+            "source": "112", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "111", 
+            "target": "111"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M813,135L813,111", 
+            "kegg_id": "rn:R02244", 
+            "source": "111", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "111", 
+            "target": "112"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M813,135L813,156", 
+            "kegg_id": "rn:R02244", 
+            "source": "111", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "111", 
+            "target": "60"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M813,164L813,143", 
+            "kegg_id": "rn:R02244", 
+            "source": "60", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "111", 
+            "target": "111"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M813,103L779.9976215251444,103.80493606036234", 
+            "kegg_id": "rn:R11749", 
+            "source": "112", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "114", 
+            "target": "114"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M772,104L728.0602765668993,157.80374297930686", 
+            "kegg_id": "rn:R11749", 
+            "source": "114", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "114", 
+            "target": "59"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M723,164L723,191", 
+            "kegg_id": "rn:R11750", 
+            "source": "59", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "117", 
+            "target": "117"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "strength": "2", 
+            "d": "M723,199L723,230", 
+            "kegg_id": "rn:R11750", 
+            "source": "117", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "117", 
+            "target": "116"
+        }
+    ], 
+    "labels": [], 
+    "boxes": [], 
+    "relation": [
+        {
+            "entry2": "53", 
+            "subtype": {
+                "name": "compound", 
+                "value": "56"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "59"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "48", 
+            "subtype": {
+                "name": "compound", 
+                "value": "59"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "50", 
+            "subtype": {
+                "name": "compound", 
+                "value": "58"
+            }, 
+            "entry1": "49", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "50", 
+            "subtype": {
+                "name": "compound", 
+                "value": "58"
+            }, 
+            "entry1": "48", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "51", 
+            "subtype": {
+                "name": "compound", 
+                "value": "57"
+            }, 
+            "entry1": "50", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "51", 
+            "subtype": {
+                "name": "compound", 
+                "value": "57"
+            }, 
+            "entry1": "46", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "50", 
+            "subtype": {
+                "name": "compound", 
+                "value": "57"
+            }, 
+            "entry1": "46", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "42", 
+            "subtype": {
+                "name": "compound", 
+                "value": "74"
+            }, 
+            "entry1": "41", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "52", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "52", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "40", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "51", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "40", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "52", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "52", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "51", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "51", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "35", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "40", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "35", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "40", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "33", 
+            "subtype": {
+                "name": "compound", 
+                "value": "73"
+            }, 
+            "entry1": "41", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "56"
+            }, 
+            "entry1": "53", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "56"
+            }, 
+            "entry1": "52", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "30", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "52", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "30", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "36", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "30", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "40", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "30", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "35", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "30", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "51", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "103", 
+            "subtype": {
+                "name": "compound", 
+                "value": "60"
+            }, 
+            "entry1": "47", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "102", 
+            "subtype": {
+                "name": "compound", 
+                "value": "67"
+            }, 
+            "entry1": "105", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "102", 
+            "subtype": {
+                "name": "compound", 
+                "value": "66"
+            }, 
+            "entry1": "34", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "107", 
+            "subtype": {
+                "name": "compound", 
+                "value": "76"
+            }, 
+            "entry1": "106", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "109", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "35", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "52", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "109", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "51", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "109", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "30", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "109", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "63"
+            }, 
+            "entry1": "109", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "39", 
+            "subtype": {
+                "name": "compound", 
+                "value": "78"
+            }, 
+            "entry1": "109", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "111", 
+            "subtype": {
+                "name": "compound", 
+                "value": "60"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "103", 
+            "subtype": {
+                "name": "compound", 
+                "value": "60"
+            }, 
+            "entry1": "111", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "111", 
+            "subtype": {
+                "name": "compound", 
+                "value": "112"
+            }, 
+            "entry1": "114", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "117", 
+            "subtype": {
+                "name": "compound", 
+                "value": "59"
+            }, 
+            "entry1": "49", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "114", 
+            "subtype": {
+                "name": "compound", 
+                "value": "59"
+            }, 
+            "entry1": "49", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "117", 
+            "subtype": {
+                "name": "compound", 
+                "value": "59"
+            }, 
+            "entry1": "48", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "114", 
+            "subtype": {
+                "name": "compound", 
+                "value": "59"
+            }, 
+            "entry1": "48", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "47", 
+            "subtype": {
+                "name": "compound", 
+                "value": "59"
+            }, 
+            "entry1": "117", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "114", 
+            "subtype": {
+                "name": "compound", 
+                "value": "59"
+            }, 
+            "entry1": "117", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "114", 
+            "subtype": {
+                "name": "compound", 
+                "value": "59"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }
+    ], 
+    "entry": [
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00760", 
+            "id": "30", 
+            "name": "path:ko00760", 
+            "graphics": {
+                "name": "Nicotinate and nicotinamide metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "151", 
+                "y": "125", 
+                "x": "361", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00290", 
+            "id": "31", 
+            "name": "path:ko00290", 
+            "graphics": {
+                "name": "Valine, leucine and isoleucine biosynthesis", 
+                "bgcolor": "#FFFFFF", 
+                "height": "46", 
+                "width": "89", 
+                "y": "177", 
+                "x": "157", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00250", 
+            "id": "33", 
+            "name": "path:ko00250", 
+            "graphics": {
+                "name": "Alanine, aspartate and glutamate metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "121", 
+                "y": "466", 
+                "x": "746", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00640", 
+            "id": "34", 
+            "name": "path:ko00640", 
+            "graphics": {
+                "name": "Propanoate metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "76", 
+                "y": "403", 
+                "x": "457", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00620", 
+            "id": "35", 
+            "name": "path:ko00620", 
+            "graphics": {
+                "name": "Pyruvate metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "72", 
+                "y": "304", 
+                "x": "208", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00010", 
+            "id": "36", 
+            "name": "path:ko00010", 
+            "graphics": {
+                "name": "Glycolysis / Gluconeogenesis", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "66", 
+                "y": "138", 
+                "x": "69", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R03896", 
+            "name": "ko:K01703 ko:K01704", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01703+K01704", 
+            "graphics": {
+                "name": "K01703...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "456", 
+                "x": "209", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "39"
+        }, 
+        {
+            "reaction": "rn:R00008", 
+            "name": "ko:K10218", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10218", 
+            "graphics": {
+                "name": "K10218", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "375", 
+                "x": "69", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "40"
+        }, 
+        {
+            "reaction": "rn:R00262", 
+            "name": "ko:K19268 ko:K01846", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K19268+K01846", 
+            "graphics": {
+                "name": "K19268...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "435", 
+                "x": "649", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "41"
+        }, 
+        {
+            "reaction": "rn:R03696", 
+            "name": "ko:K04835", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K04835", 
+            "graphics": {
+                "name": "K04835", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "378", 
+                "x": "649", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "42"
+        }, 
+        {
+            "reaction": "rn:R03154", 
+            "name": "ko:K14471 ko:K14472 ko:K18289", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K14471+K14472+K18289", 
+            "graphics": {
+                "name": "K14471...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "208", 
+                "x": "546", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "46"
+        }, 
+        {
+            "reaction": "rn:R02243", 
+            "name": "ko:K17724", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17724", 
+            "graphics": {
+                "name": "K17724", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "164", 
+                "x": "772", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "47"
+        }, 
+        {
+            "reaction": "rn:R02404", 
+            "name": "ko:K01903 ko:K01902", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01903+K01902", 
+            "graphics": {
+                "name": "K01903...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "175", 
+                "x": "669", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "48"
+        }, 
+        {
+            "reaction": "rn:R02407", 
+            "name": "ko:K18288 ko:K18289", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18288+K18289", 
+            "graphics": {
+                "name": "K18288...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "154", 
+                "x": "669", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "49"
+        }, 
+        {
+            "reaction": "rn:R02491", 
+            "name": "ko:K18290 ko:K18291", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18290+K18291", 
+            "graphics": {
+                "name": "K18290...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "162", 
+                "x": "553", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "50"
+        }, 
+        {
+            "reaction": "rn:R00237", 
+            "name": "ko:K18292", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18292", 
+            "graphics": {
+                "name": "K18292", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "169", 
+                "x": "415", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "51"
+        }, 
+        {
+            "reaction": "rn:R00226", 
+            "name": "ko:K01652 ko:K01653 ko:K11258", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01652+K01653+K11258", 
+            "graphics": {
+                "name": "K01652...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "214", 
+                "x": "247", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "52"
+        }, 
+        {
+            "reaction": "rn:R02948", 
+            "name": "ko:K01575", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01575", 
+            "graphics": {
+                "name": "K01575", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "156", 
+                "x": "247", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "53"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00660", 
+            "id": "54", 
+            "name": "path:ko00660", 
+            "graphics": {
+                "name": "TITLE:C5-Branched dibasic acid metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "321", 
+                "y": "58", 
+                "x": "201", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00810", 
+            "id": "55", 
+            "name": "cpd:C00810", 
+            "graphics": {
+                "name": "C00810", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "125", 
+                "x": "247", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06010", 
+            "id": "56", 
+            "name": "cpd:C06010", 
+            "graphics": {
+                "name": "C06010", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "177", 
+                "x": "247", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01011", 
+            "id": "57", 
+            "name": "cpd:C01011", 
+            "graphics": {
+                "name": "C01011", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "168", 
+                "x": "493", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00531", 
+            "id": "58", 
+            "name": "cpd:C00531", 
+            "graphics": {
+                "name": "C00531", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "164", 
+                "x": "608", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00490", 
+            "id": "59", 
+            "name": "cpd:C00490", 
+            "graphics": {
+                "name": "C00490", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "164", 
+                "x": "723", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00417", 
+            "id": "60", 
+            "name": "cpd:C00417", 
+            "graphics": {
+                "name": "C00417", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "164", 
+                "x": "813", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02614", 
+            "id": "61", 
+            "name": "cpd:C02614", 
+            "graphics": {
+                "name": "C02614", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "252", 
+                "x": "493", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00033", 
+            "id": "62", 
+            "name": "cpd:C00033", 
+            "graphics": {
+                "name": "C00033", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "287", 
+                "x": "383", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00022", 
+            "id": "63", 
+            "name": "cpd:C00022", 
+            "graphics": {
+                "name": "C00022", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "251", 
+                "x": "347", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00048", 
+            "id": "64", 
+            "name": "cpd:C00048", 
+            "graphics": {
+                "name": "C00048", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "328", 
+                "x": "365", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02630", 
+            "id": "65", 
+            "name": "cpd:C02630", 
+            "graphics": {
+                "name": "C02630", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "328", 
+                "x": "265", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00100", 
+            "id": "66", 
+            "name": "cpd:C00100", 
+            "graphics": {
+                "name": "C00100", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "366", 
+                "x": "366", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06027", 
+            "id": "67", 
+            "name": "cpd:C06027", 
+            "graphics": {
+                "name": "C06027", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "347", 
+                "x": "491", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06028", 
+            "id": "68", 
+            "name": "cpd:C06028", 
+            "graphics": {
+                "name": "C06028", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "347", 
+                "x": "587", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01732", 
+            "id": "69", 
+            "name": "cpd:C01732", 
+            "graphics": {
+                "name": "C01732", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "347", 
+                "x": "648", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06029", 
+            "id": "70", 
+            "name": "cpd:C06029", 
+            "graphics": {
+                "name": "C06029", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "347", 
+                "x": "810", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06030", 
+            "id": "71", 
+            "name": "cpd:C06030", 
+            "graphics": {
+                "name": "C06030", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "402", 
+                "x": "810", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00026", 
+            "id": "72", 
+            "name": "cpd:C00026", 
+            "graphics": {
+                "name": "C00026", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "424", 
+                "x": "721", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00025", 
+            "id": "73", 
+            "name": "cpd:C00025", 
+            "graphics": {
+                "name": "C00025", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "466", 
+                "x": "648", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03618", 
+            "id": "74", 
+            "name": "cpd:C03618", 
+            "graphics": {
+                "name": "C03618", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "402", 
+                "x": "648", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06031", 
+            "id": "75", 
+            "name": "cpd:C06031", 
+            "graphics": {
+                "name": "C06031", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "427", 
+                "x": "361", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06032", 
+            "id": "76", 
+            "name": "cpd:C06032", 
+            "graphics": {
+                "name": "C06032", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "455", 
+                "x": "361", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02226", 
+            "id": "77", 
+            "name": "cpd:C02226", 
+            "graphics": {
+                "name": "C02226", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "455", 
+                "x": "259", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02612", 
+            "id": "78", 
+            "name": "cpd:C02612", 
+            "graphics": {
+                "name": "C02612", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "455", 
+                "x": "157", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06033", 
+            "id": "79", 
+            "name": "cpd:C06033", 
+            "graphics": {
+                "name": "C06033", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "522", 
+                "x": "157", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06034", 
+            "id": "80", 
+            "name": "cpd:C06034", 
+            "graphics": {
+                "name": "C06034", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "570", 
+                "x": "157", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00109", 
+            "id": "81", 
+            "name": "cpd:C00109", 
+            "graphics": {
+                "name": "C00109", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "455", 
+                "x": "461", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02876", 
+            "id": "82", 
+            "name": "cpd:C02876", 
+            "graphics": {
+                "name": "C02876", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "455", 
+                "x": "523", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06035", 
+            "id": "83", 
+            "name": "cpd:C06035", 
+            "graphics": {
+                "name": "C06035", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "522", 
+                "x": "300", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00651", 
+            "id": "84", 
+            "name": "cpd:C00651", 
+            "graphics": {
+                "name": "C00651", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "570", 
+                "x": "300", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06234", 
+            "id": "85", 
+            "name": "cpd:C06234", 
+            "graphics": {
+                "name": "C06234", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "522", 
+                "x": "414", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01109", 
+            "id": "86", 
+            "name": "cpd:C01109", 
+            "graphics": {
+                "name": "C01109", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "570", 
+                "x": "414", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R00934", 
+            "name": "ko:K08691 ko:K19281", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K08691+K19281", 
+            "graphics": {
+                "name": "K08691...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "348", 
+                "x": "421", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "102"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00020", 
+            "id": "103", 
+            "name": "path:ko00020", 
+            "graphics": {
+                "name": "Citrate cycle (TCA cycle)", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "82", 
+                "y": "214", 
+                "x": "813", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R05076", 
+            "name": "ko:K14449", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K14449", 
+            "graphics": {
+                "name": "K14449", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "347", 
+                "x": "537", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "105"
+        }, 
+        {
+            "reaction": "rn:R03898", 
+            "name": "ko:K01703 ko:K01704", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01703+K01704", 
+            "graphics": {
+                "name": "K01703...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "456", 
+                "x": "310", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "106"
+        }, 
+        {
+            "reaction": "rn:R00994", 
+            "name": "ko:K00052", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00052", 
+            "graphics": {
+                "name": "K00052", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "456", 
+                "x": "406", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "107"
+        }, 
+        {
+            "reaction": "rn:R07399", 
+            "name": "ko:K09011", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K09011", 
+            "graphics": {
+                "name": "K09011", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "375", 
+                "x": "158", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "109"
+        }, 
+        {
+            "reaction": "rn:R02244", 
+            "name": "ko:K22002 ko:K22003", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K22002+K22003", 
+            "graphics": {
+                "name": "K22002...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "135", 
+                "x": "813", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "111"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02341", 
+            "id": "112", 
+            "name": "cpd:C02341", 
+            "graphics": {
+                "name": "C02341", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "103", 
+                "x": "813", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R11749", 
+            "name": "ko:K22004", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K22004", 
+            "graphics": {
+                "name": "K22004", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "104", 
+                "x": "772", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "114"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C21632", 
+            "id": "116", 
+            "name": "cpd:C21632", 
+            "graphics": {
+                "name": "C21632", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "238", 
+                "x": "723", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R11750", 
+            "name": "ko:K22005", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K22005", 
+            "graphics": {
+                "name": "K22005", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "199", 
+                "x": "723", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "117"
+        }
+    ], 
+    "nodes": [
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01703+K01704", 
+            "font_size": 12, 
+            "name": "(R)-2-Methylmalate hydro-lyase (2-methylmaleate-forming)", 
+            "rxn": " (R)-2-Methylmalate <=> 2-Methylmaleate + H2O", 
+            "kegg_id": "rn:R03896", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03896", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 458.37103576660166, 
+            "x": 209, 
+            "gene": "ko:K01703 ko:K01704", 
+            "type": "R", 
+            "id": "39", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K10218", 
+            "font_size": 12, 
+            "name": "4-hydroxy-4-methyl-2-oxoglutarate pyruvate-lyase (pyruvate-forming)", 
+            "rxn": " Parapyruvate <=> 2 Pyruvate", 
+            "kegg_id": "rn:R00008", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00008", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 279.6579895019531, 
+            "x": 347.6990674336751, 
+            "gene": "ko:K10218", 
+            "type": "R", 
+            "id": "40", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K19268+K01846", 
+            "font_size": 12, 
+            "name": "L-threo-3-methylaspartate carboxy-aminomethylmutase", 
+            "rxn": " L-threo-3-Methylaspartate <=> L-Glutamate", 
+            "kegg_id": "rn:R00262", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00262", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 435, 
+            "x": 648.4, 
+            "gene": "ko:K19268 ko:K01846", 
+            "type": "R", 
+            "id": "41", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K04835", 
+            "font_size": 12, 
+            "name": "L-threo-3-Methylaspartate ammonia-lyase", 
+            "rxn": " L-threo-3-Methylaspartate <=> Mesaconate + Ammonia", 
+            "kegg_id": "rn:R03696", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03696", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 378, 
+            "x": 648.4, 
+            "gene": "ko:K04835", 
+            "type": "R", 
+            "id": "42", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K14471+K14472+K18289", 
+            "font_size": 12, 
+            "name": "succinyl-CoA:(S)-citramalate CoA-transferase", 
+            "rxn": " Succinyl-CoA + (S)-2-Methylmalate <=> Succinate + (3S)-Citramalyl-CoA", 
+            "kegg_id": "rn:R03154", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03154", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 206.85130310058594, 
+            "x": 493.15985107421875, 
+            "gene": "ko:K14471 ko:K14472 ko:K18289", 
+            "type": "R", 
+            "id": "46", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K17724", 
+            "font_size": 12, 
+            "name": "cis-Aconitate carboxy-lyase", 
+            "rxn": " cis-Aconitate <=> Itaconate + CO2", 
+            "kegg_id": "rn:R02243", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02243", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 165.14415486653647, 
+            "x": 772, 
+            "gene": "ko:K17724", 
+            "type": "R", 
+            "id": "47", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01903+K01902", 
+            "font_size": 12, 
+            "name": "Itaconate:CoA ligase (ADP-forming)", 
+            "rxn": " ATP + Itaconate + CoA <=> ADP + Orthophosphate + Itaconyl-CoA", 
+            "kegg_id": "rn:R02404", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02404", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 165.14415486653647, 
+            "x": 669, 
+            "gene": "ko:K01903 ko:K01902", 
+            "type": "R", 
+            "id": "48", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K18288+K18289", 
+            "font_size": 12, 
+            "name": "succinyl-CoA:itaconate CoA-transferase", 
+            "rxn": " Succinyl-CoA + Itaconate <=> Succinate + Itaconyl-CoA", 
+            "kegg_id": "rn:R02407", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02407", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 165.14415486653647, 
+            "x": 669, 
+            "gene": "ko:K18288 ko:K18289", 
+            "type": "R", 
+            "id": "49", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K18290+K18291", 
+            "font_size": 12, 
+            "name": "(3S)-citramalyl-CoA hydro-lyase (itaconyl-CoA-forming)", 
+            "rxn": " (3S)-Citramalyl-CoA <=> Itaconyl-CoA + H2O", 
+            "kegg_id": "rn:R02491", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02491", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 165.14415486653647, 
+            "x": 553, 
+            "gene": "ko:K18290 ko:K18291", 
+            "type": "R", 
+            "id": "50", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K18292", 
+            "font_size": 12, 
+            "name": "(3S)-citramalyl-CoA pyruvate-lyase (acetyl-CoA-forming)", 
+            "rxn": " (3S)-Citramalyl-CoA <=> Acetyl-CoA + Pyruvate", 
+            "kegg_id": "rn:R00237", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00237", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 165.14415486653647, 
+            "x": 415, 
+            "gene": "ko:K18292", 
+            "type": "R", 
+            "id": "51", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01652+K01653+K11258", 
+            "font_size": 12, 
+            "name": "pyruvate:pyruvate acetaldehydetransferase (decarboxylating)", 
+            "rxn": " (S)-2-Acetolactate + CO2 <=> 2 Pyruvate", 
+            "kegg_id": "rn:R00226", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00226", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 205.9591064453125, 
+            "x": 270.2016194661458, 
+            "gene": "ko:K01652 ko:K01653 ko:K11258", 
+            "type": "R", 
+            "id": "52", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01575", 
+            "font_size": 12, 
+            "name": "(S)-2-hydroxy-2-methyl-3-oxobutanoate carboxy-lyase", 
+            "rxn": " (S)-2-Acetolactate <=> (R)-Acetoin + CO2", 
+            "kegg_id": "rn:R02948", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02948", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 150.25650024414062, 
+            "x": 270.2016194661458, 
+            "gene": "ko:K01575", 
+            "type": "R", 
+            "id": "53", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "(R)-Acetoin", 
+            "kegg_id": "cpd:C00810", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00810", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 5, 
+            "y": 118.1078109741211, 
+            "x": 270.2016194661458, 
+            "type": "M", 
+            "id": "55", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "(S)-2-Acetolactate", 
+            "kegg_id": "cpd:C06010", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C06010", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 5, 
+            "y": 172.89987182617188, 
+            "x": 270.2016194661458, 
+            "type": "M", 
+            "id": "56", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "(3S)-Citramalyl-CoA", 
+            "kegg_id": "cpd:C01011", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01011", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -10.6, 
+            "y": 165.14415486653647, 
+            "x": 493, 
+            "type": "M", 
+            "id": "57", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "Itaconyl-CoA", 
+            "kegg_id": "cpd:C00531", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00531", 
+            "r": 8, 
+            "dx": -13.4, 
+            "dy": 20, 
+            "y": 165.14415486653647, 
+            "x": 608, 
+            "type": "M", 
+            "id": "58", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "Itaconate", 
+            "kegg_id": "cpd:C00490", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00490", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 16.5, 
+            "y": 165.14415486653647, 
+            "x": 722.6143188476562, 
+            "type": "M", 
+            "id": "59", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "cis-Aconitate", 
+            "kegg_id": "cpd:C00417", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00417", 
+            "r": 8, 
+            "dx": 11.8, 
+            "dy": 5, 
+            "y": 165.14415486653647, 
+            "x": 815.1826049804688, 
+            "type": "M", 
+            "id": "60", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "(S)-2-Methylmalate", 
+            "kegg_id": "cpd:C02614", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C02614", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 5, 
+            "y": 252, 
+            "x": 493, 
+            "type": "M", 
+            "id": "61", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "Pyruvate", 
+            "kegg_id": "cpd:C00022", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00022", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": 5, 
+            "y": 251, 
+            "x": 347.6990674336751, 
+            "type": "M", 
+            "id": "63", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "Glyoxylate", 
+            "kegg_id": "cpd:C00048", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00048", 
+            "r": 8, 
+            "dx": 12.6, 
+            "dy": 16, 
+            "y": 347.25464884440106, 
+            "x": 347.6990674336751, 
+            "type": "M", 
+            "id": "64", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "Propanoyl-CoA", 
+            "kegg_id": "cpd:C00100", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00100", 
+            "r": 8, 
+            "dx": 11.8, 
+            "dy": 18.4, 
+            "y": 380.7156219482422, 
+            "x": 420.49440002441406, 
+            "type": "M", 
+            "id": "66", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "L-erythro-3-Methylmalyl-CoA", 
+            "kegg_id": "cpd:C06027", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C06027", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -7.9, 
+            "y": 347.25464884440106, 
+            "x": 491.54615275065106, 
+            "type": "M", 
+            "id": "67", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "2-Methylfumaryl-CoA", 
+            "kegg_id": "cpd:C06028", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C06028", 
+            "r": 8, 
+            "dx": -8.3, 
+            "dy": 16.9, 
+            "y": 347.25464884440106, 
+            "x": 587, 
+            "type": "M", 
+            "id": "68", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "Mesaconate", 
+            "kegg_id": "cpd:C01732", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01732", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 347.25464884440106, 
+            "x": 648.4, 
+            "type": "M", 
+            "id": "69", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "L-Glutamate", 
+            "kegg_id": "cpd:C00025", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00025", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 16, 
+            "y": 458.37103576660166, 
+            "x": 648.4, 
+            "type": "M", 
+            "id": "73", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "L-threo-3-Methylaspartate", 
+            "kegg_id": "cpd:C03618", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C03618", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 5, 
+            "y": 402, 
+            "x": 648.4, 
+            "type": "M", 
+            "id": "74", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "D-erythro-3-Methylmalate", 
+            "kegg_id": "cpd:C06032", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C06032", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -9, 
+            "y": 458.37103576660166, 
+            "x": 361, 
+            "type": "M", 
+            "id": "76", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "2-Methylmaleate", 
+            "kegg_id": "cpd:C02226", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C02226", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 16.1, 
+            "y": 458.37103576660166, 
+            "x": 259, 
+            "type": "M", 
+            "id": "77", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "(R)-2-Methylmalate", 
+            "kegg_id": "cpd:C02612", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C02612", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -11.4, 
+            "y": 458.37103576660166, 
+            "x": 157, 
+            "type": "M", 
+            "id": "78", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "Parapyruvate", 
+            "kegg_id": "cpd:C06033", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C06033", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 324.4238586425781, 
+            "x": 347.6990674336751, 
+            "type": "M", 
+            "id": "79", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "2-Oxobutanoate", 
+            "kegg_id": "cpd:C00109", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00109", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 14.6, 
+            "y": 458.37103576660166, 
+            "x": 461, 
+            "type": "M", 
+            "id": "81", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K08691+K19281", 
+            "font_size": 12, 
+            "name": "L-erythro-3-methylmalyl-CoA glyoxylate-lyase (propanoyl-CoA-forming)", 
+            "rxn": " Propanoyl-CoA + Glyoxylate <=> L-erythro-3-Methylmalyl-CoA", 
+            "kegg_id": "rn:R00934", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00934", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 347.25464884440106, 
+            "x": 420.49440002441406, 
+            "gene": "ko:K08691 ko:K19281", 
+            "type": "R", 
+            "id": "102", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K14449", 
+            "font_size": 12, 
+            "name": "(2R,3S)-2-methylmalyl-CoA hydro-lyase (2-methylfumaryl-CoA-forming)", 
+            "rxn": " L-erythro-3-Methylmalyl-CoA <=> 2-Methylfumaryl-CoA + H2O", 
+            "kegg_id": "rn:R05076", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R05076", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 347.25464884440106, 
+            "x": 537, 
+            "gene": "ko:K14449", 
+            "type": "R", 
+            "id": "105", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01703+K01704", 
+            "font_size": 12, 
+            "name": "2-methylmaleate hydratase", 
+            "rxn": " 2-Methylmaleate + H2O <=> D-erythro-3-Methylmalate", 
+            "kegg_id": "rn:R03898", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03898", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 458.37103576660166, 
+            "x": 310, 
+            "gene": "ko:K01703 ko:K01704", 
+            "type": "R", 
+            "id": "106", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00052", 
+            "font_size": 12, 
+            "name": "(2R,3S)-3-methylmalate:NAD+ oxidoreductase", 
+            "rxn": " 2-Oxobutanoate + CO2 + NADH + H+ <=> D-erythro-3-Methylmalate + NAD+", 
+            "kegg_id": "rn:R00994", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00994", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 458.37103576660166, 
+            "x": 406, 
+            "gene": "ko:K00052", 
+            "type": "R", 
+            "id": "107", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K09011", 
+            "font_size": 12, 
+            "name": "Acetyl-CoA + Pyruvate + H2O <=> (R)-2-Methylmalate + CoA", 
+            "rxn": "Acetyl-CoA + Pyruvate + H2O <=> (R)-2-Methylmalate + CoA", 
+            "kegg_id": "rn:R07399", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R07399", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 375, 
+            "x": 158, 
+            "gene": "ko:K09011", 
+            "type": "R", 
+            "id": "109", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K22002+K22003", 
+            "font_size": 12, 
+            "name": "trans-aconitate delta2-delta3-isomerase", 
+            "rxn": " trans-Aconitate <=> cis-Aconitate", 
+            "kegg_id": "rn:R02244", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02244", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 135, 
+            "x": 815.1826049804688, 
+            "gene": "ko:K22002 ko:K22003", 
+            "type": "R", 
+            "id": "111", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "trans-Aconitate", 
+            "kegg_id": "cpd:C02341", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C02341", 
+            "r": 8, 
+            "dx": 11.4, 
+            "dy": 5, 
+            "y": 103, 
+            "x": 815.1826049804688, 
+            "type": "M", 
+            "id": "112", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K22004", 
+            "font_size": 12, 
+            "name": "trans-aconitate decarboxylase", 
+            "rxn": " trans-Aconitate <=> Itaconate + CO2", 
+            "kegg_id": "rn:R11749", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R11749", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 102.85130310058594, 
+            "x": 722.6143188476562, 
+            "gene": "ko:K22004", 
+            "type": "R", 
+            "id": "114", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "font_size": 12, 
+            "name": "2-Hydroxyparaconate", 
+            "kegg_id": "cpd:C21632", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C21632", 
+            "r": 8, 
+            "dx": 11.8, 
+            "dy": 5, 
+            "y": 238, 
+            "x": 722.6143188476562, 
+            "type": "M", 
+            "id": "116", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "C5-Branched dibasic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K22005", 
+            "font_size": 12, 
+            "name": "Itaconate <=> 2-Hydroxyparaconate", 
+            "rxn": "Itaconate <=> 2-Hydroxyparaconate", 
+            "kegg_id": "rn:R11750", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R11750", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 199, 
+            "x": 722.6143188476562, 
+            "gene": "ko:K22005", 
+            "type": "R", 
+            "id": "117", 
+            "fill": "#d3d3d3"
+        }
+    ], 
+    "pathway": {
+        "name": "path:ko00660", 
+        "title": "C5-Branched dibasic acid metabolism", 
+        "image": "https://www.kegg.jp/kegg/pathway/ko/ko00660.png", 
+        "number": "00660", 
+        "link": "https://www.kegg.jp/kegg-bin/show_pathway?ko00660", 
+        "org": "ko"
+    }
+}
