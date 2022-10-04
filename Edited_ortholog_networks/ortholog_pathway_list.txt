@@ -26,7 +26,7 @@ Glutathione metabolism.json
 Glycerolipid metabolism.json
 Glycerophospholipid metabolism.json
 Glycine, serine and threonine metabolism.json
-Glycolysis-Gluconeogenesis.json
+Glycolysis - Gluconeogenesis.json
 Glyoxylate and dicarboxylate metabolism.json
 Histidine metabolism.json
 Inositol phosphate metabolism.json
