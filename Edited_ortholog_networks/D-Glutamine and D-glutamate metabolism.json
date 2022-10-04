@@ -1,0 +1,1602 @@
+{
+    "reaction": [
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C01212"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "42", 
+                    "name": "cpd:C01050"
+                }
+            ], 
+            "id": "23", 
+            "name": "rn:R03193"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "40", 
+                    "name": "cpd:C00692"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C01212"
+                }, 
+                {
+                    "id": "38", 
+                    "name": "cpd:C00217"
+                }
+            ], 
+            "id": "24", 
+            "name": "rn:R02783"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "43", 
+                    "name": "cpd:C02237"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "38", 
+                    "name": "cpd:C00217"
+                }
+            ], 
+            "id": "25", 
+            "name": "rn:R01583"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "44", 
+                    "name": "cpd:C00026"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "id": "27", 
+            "name": "rn:R00243 rn:R00248"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "38", 
+                    "name": "cpd:C00217"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "id": "28", 
+            "name": "rn:R00260"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "38", 
+                    "name": "cpd:C00217"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "34", 
+                    "name": "cpd:C00819"
+                }
+            ], 
+            "id": "29", 
+            "name": "rn:R01579"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "38", 
+                    "name": "cpd:C00217"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "34", 
+                    "name": "cpd:C00819"
+                }
+            ], 
+            "id": "31", 
+            "name": "rn:R01579"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "33", 
+                    "name": "cpd:C00064"
+                }
+            ], 
+            "id": "32", 
+            "name": "rn:R00256"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "33", 
+                    "name": "cpd:C00064"
+                }
+            ], 
+            "id": "54", 
+            "name": "rn:R00256"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "58", 
+                    "name": "cpd:C22053"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C01212"
+                }
+            ], 
+            "id": "59", 
+            "name": "rn:R12272"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "40", 
+                    "name": "cpd:C00692"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "58", 
+                    "name": "cpd:C22053"
+                }
+            ], 
+            "id": "60", 
+            "name": "rn:R12271"
+        }
+    ], 
+    "links": [
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M438,338L438,319", 
+            "kegg_id": "rn:R03193", 
+            "source": "42", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "23", 
+            "target": "23"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M438,311L438,280", 
+            "kegg_id": "rn:R03193", 
+            "source": "23", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "23", 
+            "target": "41"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M438,272L489.49000430468243,217.7999954687553", 
+            "kegg_id": "rn:R02783", 
+            "source": "41", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "24", 
+            "target": "24"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M345,209L487.00159952015997,211.8400319904032", 
+            "kegg_id": "rn:R02783", 
+            "source": "38", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "24", 
+            "target": "24"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M495,212L551,212", 
+            "kegg_id": "rn:R02783", 
+            "source": "24", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "24", 
+            "target": "40"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M345,209L345.8298257480754,248.00181015954348", 
+            "kegg_id": "rn:R01583", 
+            "source": "38", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "25", 
+            "target": "25"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M346,256L345.1666305094547,296.0017355461751", 
+            "kegg_id": "rn:R01583", 
+            "source": "25", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "25", 
+            "target": "43"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M196,209L194.34011773299852,248.00723327453503", 
+            "kegg_id": "rn:R00243", 
+            "source": "37", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "27", 
+            "target": "27"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M194,256L195.65988226700148,216.99276672546497", 
+            "kegg_id": "rn:R00243", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "27", 
+            "target": "37"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M194,256L195.66695564230255,296.0069354152612", 
+            "kegg_id": "rn:R00243", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "27", 
+            "target": "44"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M196,304L194.33304435769745,263.9930645847388", 
+            "kegg_id": "rn:R00243", 
+            "source": "44", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "27", 
+            "target": "27"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M196,209L262.0261676150826,203.64652695012845", 
+            "kegg_id": "rn:R00260", 
+            "source": "37", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "28", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M270,203L203.9738323849174,208.35347304987155", 
+            "kegg_id": "rn:R00260", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "28", 
+            "target": "37"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M270,203L337.025477771711,208.36203822173687", 
+            "kegg_id": "rn:R00260", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "28", 
+            "target": "38"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M345,209L277.974522228289,203.63796177826313", 
+            "kegg_id": "rn:R00260", 
+            "source": "38", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "28", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M345,132L386.7276334043059,165.0343764450755", 
+            "kegg_id": "rn:R01579", 
+            "source": "34", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "29", 
+            "target": "29"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M393,170L351.2089120009301,203.95525899924428", 
+            "kegg_id": "rn:R01579", 
+            "source": "29", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "29", 
+            "target": "38"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M345,132L303.2723665956941,165.0343764450755", 
+            "kegg_id": "rn:R01579", 
+            "source": "34", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "31", 
+            "target": "31"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M297,170L338.7910879990699,203.95525899924428", 
+            "kegg_id": "rn:R01579", 
+            "source": "31", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "31", 
+            "target": "38"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M196,132L175.3969320118102,163.31666334204849", 
+            "kegg_id": "rn:R00256", 
+            "source": "33", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "32", 
+            "target": "32"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M171,170L191.68267108223654,202.264966888289", 
+            "kegg_id": "rn:R00256", 
+            "source": "32", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "32", 
+            "target": "37"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M196,132L216.6030679881898,163.31666334204849", 
+            "kegg_id": "rn:R00256", 
+            "source": "33", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "54", 
+            "target": "54"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M221,170L200.31732891776346,202.264966888289", 
+            "kegg_id": "rn:R00256", 
+            "source": "54", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "54", 
+            "target": "37"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M438,272L489,272", 
+            "kegg_id": "rn:R12272", 
+            "source": "41", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "59", 
+            "target": "59"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M497,272L551,272", 
+            "kegg_id": "rn:R12272", 
+            "source": "59", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "59", 
+            "target": "58"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M559,272L559.703906715921,252.99451867013414", 
+            "kegg_id": "rn:R12271", 
+            "source": "58", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "60"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "strength": "2", 
+            "d": "M560,245L559.2423130131261,219.99632943316306", 
+            "kegg_id": "rn:R12271", 
+            "source": "60", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "40"
+        }
+    ], 
+    "labels": [], 
+    "boxes": [], 
+    "relation": [
+        {
+            "entry2": "32", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "27", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "32", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "28", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "28", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "27", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "28", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "25", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "28", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "24", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "29", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "28", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "28", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "25", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "24", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "29", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "25", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "25", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "29", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "24", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "24", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "24", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "23", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "21", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "20", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "21", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "32", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "21", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "28", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "21", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "27", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "20", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "32", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "20", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "28", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "20", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "27", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "19", 
+            "subtype": {
+                "name": "compound", 
+                "value": "44"
+            }, 
+            "entry1": "27", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "18", 
+            "subtype": {
+                "name": "compound", 
+                "value": "42"
+            }, 
+            "entry1": "23", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "17", 
+            "subtype": {
+                "name": "compound", 
+                "value": "40"
+            }, 
+            "entry1": "24", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "59", 
+            "subtype": {
+                "name": "compound", 
+                "value": "58"
+            }, 
+            "entry1": "60", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "17", 
+            "subtype": {
+                "name": "compound", 
+                "value": "40"
+            }, 
+            "entry1": "60", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "24", 
+            "subtype": {
+                "name": "compound", 
+                "value": "40"
+            }, 
+            "entry1": "60", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "23", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "59", 
+            "type": "ECrel"
+        }
+    ], 
+    "entry": [
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00471", 
+            "id": "16", 
+            "name": "path:ko00471", 
+            "graphics": {
+                "name": "TITLE:D-Glutamine and D-glutamate metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "362", 
+                "y": "58", 
+                "x": "221", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00550", 
+            "id": "17", 
+            "name": "path:ko00550", 
+            "graphics": {
+                "name": "Peptidoglycan biosynthesis", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "87", 
+                "y": "212", 
+                "x": "688", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00520", 
+            "id": "18", 
+            "name": "path:ko00520", 
+            "graphics": {
+                "name": "Amino sugar and nucleotide sugar metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "154", 
+                "y": "338", 
+                "x": "572", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00020", 
+            "id": "19", 
+            "name": "path:ko00020", 
+            "graphics": {
+                "name": "Citrate cycle (TCA cycle)", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "80", 
+                "y": "304", 
+                "x": "102", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00250", 
+            "id": "20", 
+            "name": "path:ko00250", 
+            "graphics": {
+                "name": "Alanine, aspartate and glutamate metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "128", 
+                "y": "267", 
+                "x": "102", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00460", 
+            "id": "21", 
+            "name": "path:ko00460", 
+            "graphics": {
+                "name": "Cyanoamino acid metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "101", 
+                "y": "133", 
+                "x": "103", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R03193", 
+            "name": "ko:K01924", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01924", 
+            "graphics": {
+                "name": "K01924", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "311", 
+                "x": "438", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "23"
+        }, 
+        {
+            "reaction": "rn:R02783", 
+            "name": "ko:K01925", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01925", 
+            "graphics": {
+                "name": "K01925", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "212", 
+                "x": "495", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "24"
+        }, 
+        {
+            "reaction": "rn:R01583", 
+            "name": "ko:K22210", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K22210", 
+            "graphics": {
+                "name": "K22210", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "256", 
+                "x": "346", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "25"
+        }, 
+        {
+            "reaction": "rn:R00243 rn:R00248", 
+            "name": "ko:K00261", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00261", 
+            "graphics": {
+                "name": "K00261", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "256", 
+                "x": "194", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "27"
+        }, 
+        {
+            "reaction": "rn:R00260", 
+            "name": "ko:K01776", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01776", 
+            "graphics": {
+                "name": "K01776", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "203", 
+                "x": "270", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "28"
+        }, 
+        {
+            "reaction": "rn:R01579", 
+            "name": "ko:K05597", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05597", 
+            "graphics": {
+                "name": "K05597", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "170", 
+                "x": "393", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "29"
+        }, 
+        {
+            "reaction": "rn:R01579", 
+            "name": "ko:K01425 ko:K23265", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01425+K23265", 
+            "graphics": {
+                "name": "K01425...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "170", 
+                "x": "297", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "31"
+        }, 
+        {
+            "reaction": "rn:R00256", 
+            "name": "ko:K01425 ko:K23265", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01425+K23265", 
+            "graphics": {
+                "name": "K01425...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "170", 
+                "x": "171", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "32"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00064", 
+            "id": "33", 
+            "name": "cpd:C00064", 
+            "graphics": {
+                "name": "C00064", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "132", 
+                "x": "196", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00819", 
+            "id": "34", 
+            "name": "cpd:C00819", 
+            "graphics": {
+                "name": "C00819", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "132", 
+                "x": "345", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03933", 
+            "id": "35", 
+            "name": "cpd:C03933", 
+            "graphics": {
+                "name": "C03933", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "128", 
+                "x": "559", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05723", 
+            "id": "36", 
+            "name": "cpd:C05723", 
+            "graphics": {
+                "name": "C05723", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "209", 
+                "x": "74", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00025", 
+            "id": "37", 
+            "name": "cpd:C00025", 
+            "graphics": {
+                "name": "C00025", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "209", 
+                "x": "196", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00217", 
+            "id": "38", 
+            "name": "cpd:C00217", 
+            "graphics": {
+                "name": "C00217", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "209", 
+                "x": "345", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02671", 
+            "id": "39", 
+            "name": "cpd:C02671", 
+            "graphics": {
+                "name": "C02671", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "170", 
+                "x": "438", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00692", 
+            "id": "40", 
+            "name": "cpd:C00692", 
+            "graphics": {
+                "name": "C00692", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "212", 
+                "x": "559", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01212", 
+            "id": "41", 
+            "name": "cpd:C01212", 
+            "graphics": {
+                "name": "C01212", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "272", 
+                "x": "438", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01050", 
+            "id": "42", 
+            "name": "cpd:C01050", 
+            "graphics": {
+                "name": "C01050", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "338", 
+                "x": "438", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02237", 
+            "id": "43", 
+            "name": "cpd:C02237", 
+            "graphics": {
+                "name": "C02237", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "304", 
+                "x": "345", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00026", 
+            "id": "44", 
+            "name": "cpd:C00026", 
+            "graphics": {
+                "name": "C00026", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "304", 
+                "x": "196", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R00256", 
+            "name": "ko:K05597", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05597", 
+            "graphics": {
+                "name": "K05597", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "170", 
+                "x": "221", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "54"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C22053", 
+            "id": "58", 
+            "name": "cpd:C22053", 
+            "graphics": {
+                "name": "C22053", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "272", 
+                "x": "559", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R12272", 
+            "name": "ko:K23169", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K23169", 
+            "graphics": {
+                "name": "K23169", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "272", 
+                "x": "497", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "59"
+        }, 
+        {
+            "reaction": "rn:R12271", 
+            "name": "ko:K23170", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K23170", 
+            "graphics": {
+                "name": "K23170", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "245", 
+                "x": "560", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "60"
+        }
+    ], 
+    "nodes": [
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01924", 
+            "font_size": 12, 
+            "name": "UDP-N-acetylmuramate:L-alanine ligase (ADP-forming)", 
+            "rxn": " ATP + UDP-N-acetylmuramate + L-Alanine <=> ADP + Orthophosphate + UDP-N-acetylmuramoyl-L-alanine", 
+            "kegg_id": "rn:R03193", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03193", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 276.31041000326695, 
+            "x": 108.44142213811799, 
+            "gene": "ko:K01924", 
+            "type": "R", 
+            "id": "23", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01925", 
+            "font_size": 12, 
+            "name": "UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase(ADP-forming)", 
+            "rxn": " ATP + UDP-N-acetylmuramoyl-L-alanine + D-Glutamate <=> ADP + Orthophosphate + UDP-N-acetylmuramoyl-L-alanyl-D-glutamate", 
+            "kegg_id": "rn:R02783", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02783", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 309.26720414346624, 
+            "x": 375.3857685267839, 
+            "gene": "ko:K01925", 
+            "type": "R", 
+            "id": "24", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K22210", 
+            "font_size": 12, 
+            "name": "D-glutamate hydro-lyase (cyclizing", 
+            "rxn": " D-Glutamate <=> 5-Oxo-D-proline + H2O", 
+            "kegg_id": "rn:R01583", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01583", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 242.26731162679357, 
+            "x": 332.1976979165873, 
+            "gene": "ko:K22210", 
+            "type": "R", 
+            "id": "25", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00261", 
+            "font_size": 12, 
+            "name": "L-glutamate:NAD+ oxidoreductase (deaminating)", 
+            "rxn": " L-Glutamate + NAD+ + H2O <=> 2-Oxoglutarate + Ammonia + NADH + H+", 
+            "kegg_id": "rn:R00243", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00243", 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 93.40093656604483, 
+            "x": 292.24344042399457, 
+            "gene": "ko:K00261", 
+            "type": "R", 
+            "id": "27", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01776", 
+            "font_size": 12, 
+            "name": "glutamate racemase", 
+            "rxn": " L-Glutamate <=> D-Glutamate", 
+            "kegg_id": "rn:R00260", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00260", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 167.6096993643459, 
+            "x": 375.3857685267839, 
+            "gene": "ko:K01776", 
+            "type": "R", 
+            "id": "28", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05597", 
+            "font_size": 12, 
+            "name": "D-Glutamine amidohydrolase", 
+            "rxn": " D-Glutamine + H2O <=> D-Glutamate + Ammonia", 
+            "kegg_id": "rn:R01579", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01579", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 242.26731162679357, 
+            "x": 464.13685249852256, 
+            "gene": "ko:K05597", 
+            "type": "R", 
+            "id": "29", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01425+K23265", 
+            "font_size": 12, 
+            "name": "D-Glutamine amidohydrolase", 
+            "rxn": " D-Glutamine + H2O <=> D-Glutamate + Ammonia", 
+            "kegg_id": "rn:R01579", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01579", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 242.26731162679357, 
+            "x": 464.13685249852256, 
+            "gene": "ko:K01425 ko:K23265", 
+            "type": "R", 
+            "id": "31", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01425+K23265", 
+            "font_size": 12, 
+            "name": "L-glutamine amidohydrolase", 
+            "rxn": " L-Glutamine + H2O <=> L-Glutamate + Ammonia", 
+            "kegg_id": "rn:R00256", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00256", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 93.40093656604483, 
+            "x": 464.46341099949996, 
+            "gene": "ko:K01425 ko:K23265", 
+            "type": "R", 
+            "id": "32", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "font_size": 12, 
+            "name": "L-Glutamine", 
+            "kegg_id": "cpd:C00064", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00064", 
+            "r": 8, 
+            "dx": 12.5, 
+            "dy": 3.2, 
+            "y": 93.40093656604483, 
+            "x": 539.9568819362378, 
+            "type": "M", 
+            "id": "33", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "font_size": 12, 
+            "name": "D-Glutamine", 
+            "kegg_id": "cpd:C00819", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00819", 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 3.1, 
+            "y": 242.26731162679357, 
+            "x": 554.0788402809633, 
+            "type": "M", 
+            "id": "34", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "font_size": 12, 
+            "name": "L-Glutamate", 
+            "kegg_id": "cpd:C00025", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00025", 
+            "r": 8, 
+            "dx": 18.7, 
+            "dy": -8.6, 
+            "y": 93.40093656604483, 
+            "x": 375.3857685267839, 
+            "type": "M", 
+            "id": "37", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "font_size": 12, 
+            "name": "D-Glutamate", 
+            "kegg_id": "cpd:C00217", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00217", 
+            "r": 8, 
+            "dx": 13, 
+            "dy": -8.6, 
+            "y": 242.26731162679357, 
+            "x": 375.3857685267839, 
+            "type": "M", 
+            "id": "38", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "font_size": 12, 
+            "name": "UDP-N-acetylmuramoyl-L-alanyl-D-glutamate", 
+            "kegg_id": "cpd:C00692", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00692", 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 5, 
+            "y": 401.11674757807054, 
+            "x": 375.3857685267839, 
+            "type": "M", 
+            "id": "40", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "font_size": 12, 
+            "name": "UDP-N-acetylmuramoyl-L-alanine", 
+            "kegg_id": "cpd:C01212", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01212", 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 5, 
+            "y": 276.31041000326695, 
+            "x": 304.2645158524054, 
+            "type": "M", 
+            "id": "41", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "font_size": 12, 
+            "name": "UDP-N-acetylmuramate", 
+            "kegg_id": "cpd:C01050", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01050", 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 5, 
+            "y": 417.8759094555866, 
+            "x": 108.44142213811799, 
+            "type": "M", 
+            "id": "42", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "font_size": 12, 
+            "name": "5-Oxo-D-proline", 
+            "kegg_id": "cpd:C02237", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C02237", 
+            "r": 8, 
+            "dx": -20, 
+            "dy": -10.1, 
+            "y": 242.26731162679357, 
+            "x": 260.2179509885668, 
+            "type": "M", 
+            "id": "43", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "font_size": 12, 
+            "name": "2-Oxoglutarate", 
+            "kegg_id": "cpd:C00026", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00026", 
+            "r": 8, 
+            "dx": -20, 
+            "dy": 20, 
+            "y": 93.40093656604483, 
+            "x": 205.89956625224, 
+            "type": "M", 
+            "id": "44", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05597", 
+            "font_size": 12, 
+            "name": "L-glutamine amidohydrolase", 
+            "rxn": " L-Glutamine + H2O <=> L-Glutamate + Ammonia", 
+            "kegg_id": "rn:R00256", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00256", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 93.40093656604483, 
+            "x": 464.46341099949996, 
+            "gene": "ko:K05597", 
+            "type": "R", 
+            "id": "54", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "font_size": 12, 
+            "name": "UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-L-glutamate", 
+            "kegg_id": "cpd:C22053", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C22053", 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 5, 
+            "y": 384.4090699345571, 
+            "x": 231.74675735366583, 
+            "type": "M", 
+            "id": "58", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K23169", 
+            "font_size": 12, 
+            "name": "UDP-N-acetylmuramoyl-L-alanine---L-glutamate ligase (ADP-forming)", 
+            "rxn": " ATP + UDP-N-acetylmuramoyl-L-alanine + L-Glutamate <=> ADP + Orthophosphate + UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-L-glutamate", 
+            "kegg_id": "rn:R12272", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12272", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 307.55952649995356, 
+            "x": 231.74675735366583, 
+            "gene": "ko:K23169", 
+            "type": "R", 
+            "id": "59", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Glutamine and D-glutamate metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K23170", 
+            "font_size": 12, 
+            "name": "UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-L-glutamate L-glutamate-epimerase", 
+            "rxn": " ATP + UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-L-glutamate + H2O <=> AMP + Diphosphate + UDP-N-acetylmuramoyl-L-alanyl-D-glutamate", 
+            "kegg_id": "rn:R12271", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12271", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 440.6876804736145, 
+            "x": 304.2645158524054, 
+            "gene": "ko:K23170", 
+            "type": "R", 
+            "id": "60", 
+            "fill": "#d3d3d3"
+        }
+    ], 
+    "pathway": {
+        "name": "path:ko00471", 
+        "title": "D-Glutamine and D-glutamate metabolism", 
+        "image": "https://www.kegg.jp/kegg/pathway/ko/ko00471.png", 
+        "number": "00471", 
+        "link": "https://www.kegg.jp/kegg-bin/show_pathway?ko00471", 
+        "org": "ko"
+    }
+}

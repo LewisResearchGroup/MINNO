@@ -1,0 +1,1474 @@
+{
+    "reaction": [
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "27", 
+                    "name": "cpd:C03341"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C03943"
+                }
+            ], 
+            "id": "13", 
+            "name": "rn:R04200 rn:R04201"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C03943"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "31", 
+                    "name": "cpd:C00515"
+                }
+            ], 
+            "id": "14", 
+            "name": "rn:R02461"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "26", 
+                    "name": "cpd:C01110"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "31", 
+                    "name": "cpd:C00515"
+                }
+            ], 
+            "id": "15", 
+            "name": "rn:R02457"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "26", 
+                    "name": "cpd:C01110"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "31", 
+                    "name": "cpd:C00515"
+                }
+            ], 
+            "id": "16", 
+            "name": "rn:R02459"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "30", 
+                    "name": "cpd:C00077"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "31", 
+                    "name": "cpd:C00515"
+                }
+            ], 
+            "id": "19", 
+            "name": "rn:R00672"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "29", 
+                    "name": "cpd:C03771"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "34", 
+                    "name": "cpd:C00792"
+                }
+            ], 
+            "id": "21", 
+            "name": "rn:R02923"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "29", 
+                    "name": "cpd:C03771"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "34", 
+                    "name": "cpd:C00792"
+                }
+            ], 
+            "id": "23", 
+            "name": "rn:R02924"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "29", 
+                    "name": "cpd:C03771"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "34", 
+                    "name": "cpd:C00792"
+                }
+            ], 
+            "id": "40", 
+            "name": "rn:R11018"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "33", 
+                    "name": "cpd:C00062"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "29", 
+                    "name": "cpd:C03771"
+                }
+            ], 
+            "id": "41", 
+            "name": "rn:R11031 rn:R11032"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "27", 
+                    "name": "cpd:C03341"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C03943"
+                }
+            ], 
+            "id": "42", 
+            "name": "rn:R04200"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "44", 
+                    "name": "cpd:C00134"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "31", 
+                    "name": "cpd:C00515"
+                }
+            ], 
+            "id": "46", 
+            "name": "rn:R12304"
+        }
+    ], 
+    "links": [
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M253,208L232.73912360382013,180.4452081011954", 
+            "kegg_id": "rn:R04200", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "13", 
+            "target": "13"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M228,174L248.26087639617987,201.5547918988046", 
+            "kegg_id": "rn:R04200", 
+            "source": "13", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "13", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M228,174L248.43683352403724,144.57095972538636", 
+            "kegg_id": "rn:R04200", 
+            "source": "13", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "13", 
+            "target": "27"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M253,138L232.56316647596276,167.42904027461364", 
+            "kegg_id": "rn:R04200", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "13", 
+            "target": "13"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M363,306L258.37679710293463,262.09562021283864", 
+            "kegg_id": "rn:R02461", 
+            "source": "31", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "14", 
+            "target": "14"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M251,259L355.62320289706537,302.90437978716136", 
+            "kegg_id": "rn:R02461", 
+            "source": "14", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "14", 
+            "target": "31"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M251,259L252.68651546643716,215.99385560585233", 
+            "kegg_id": "rn:R02461", 
+            "source": "14", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "14", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M253,208L251.31348453356284,251.00614439414767", 
+            "kegg_id": "rn:R02461", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "14", 
+            "target": "14"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M363,306L220.99982222814793,306.9466678518123", 
+            "kegg_id": "rn:R02457", 
+            "source": "31", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "15", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M213,307L159.99892523677892,306.1311299219144", 
+            "kegg_id": "rn:R02457", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "15", 
+            "target": "26"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M363,306L220.79072967793434,339.18216307514865", 
+            "kegg_id": "rn:R02459", 
+            "source": "31", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "16", 
+            "target": "16"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M213,341L355.20927032206566,307.81783692485135", 
+            "kegg_id": "rn:R02459", 
+            "source": "16", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "16", 
+            "target": "31"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M213,341L158.93893414847426,309.98135565896064", 
+            "kegg_id": "rn:R02459", 
+            "source": "16", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "16", 
+            "target": "26"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M152,306L206.06106585152574,337.01864434103936", 
+            "kegg_id": "rn:R02459", 
+            "source": "26", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "16", 
+            "target": "16"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M363,306L383.60306798818976,274.68333665795154", 
+            "kegg_id": "rn:R00672", 
+            "source": "31", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "19", 
+            "target": "19"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M388,268L367.39693201181024,299.31666334204846", 
+            "kegg_id": "rn:R00672", 
+            "source": "19", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "19", 
+            "target": "31"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M388,268L366.1211922734731,216.36601376539656", 
+            "kegg_id": "rn:R00672", 
+            "source": "19", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "19", 
+            "target": "30"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M363,209L384.8788077265269,260.6339862346034", 
+            "kegg_id": "rn:R00672", 
+            "source": "30", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "19", 
+            "target": "19"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M512,306L467.89547372126214,331.9438389874928", 
+            "kegg_id": "rn:R02923", 
+            "source": "34", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "21", 
+            "target": "21"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M461,336L370.03684013952846,385.1943619653571", 
+            "kegg_id": "rn:R02923", 
+            "source": "21", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "21", 
+            "target": "29"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M512,306L464.21083691693036,383.1978788264971", 
+            "kegg_id": "rn:R02924", 
+            "source": "34", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "23", 
+            "target": "23"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M460,390L507.78916308306964,312.8021211735029", 
+            "kegg_id": "rn:R02924", 
+            "source": "23", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "23", 
+            "target": "34"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M460,390L370.9995749090036,389.0824698444227", 
+            "kegg_id": "rn:R02924", 
+            "source": "23", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "23", 
+            "target": "29"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M363,389L452.0004250909964,389.9175301555773", 
+            "kegg_id": "rn:R02924", 
+            "source": "29", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "23", 
+            "target": "23"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M512,306L466.65685424949237,351.34314575050763", 
+            "kegg_id": "rn:R11018", 
+            "source": "34", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "40", 
+            "target": "40"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M461,357L370.60484365192787,386.51678574630927", 
+            "kegg_id": "rn:R11018", 
+            "source": "40", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "40", 
+            "target": "29"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M363,389L579.1013570297864,354.26942476307005", 
+            "kegg_id": "rn:R11031", 
+            "source": "29", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "41", 
+            "target": "41"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M587,353L515.6954753506957,216.09531267333583", 
+            "kegg_id": "rn:R11031", 
+            "source": "41", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "41", 
+            "target": "33"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M253,208L273.26087639617987,180.4452081011954", 
+            "kegg_id": "rn:R04200", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "42"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M278,174L257.73912360382013,201.5547918988046", 
+            "kegg_id": "rn:R04200", 
+            "source": "42", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M278,174L257.56316647596276,144.57095972538636", 
+            "kegg_id": "rn:R04200", 
+            "source": "42", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "27"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M253,138L273.43683352403724,167.42904027461364", 
+            "kegg_id": "rn:R04200", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "42"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M363,306L431.42561974880084,258.55823697416474", 
+            "kegg_id": "rn:R12304", 
+            "source": "31", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "46", 
+            "target": "46"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "strength": "2", 
+            "d": "M438,254L437.18177124282636,217.99793468435954", 
+            "kegg_id": "rn:R12304", 
+            "source": "46", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "46", 
+            "target": "44"
+        }
+    ], 
+    "labels": [], 
+    "boxes": [], 
+    "relation": [
+        {
+            "entry2": "14", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "13", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "19", 
+            "subtype": {
+                "name": "compound", 
+                "value": "31"
+            }, 
+            "entry1": "15", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "15", 
+            "subtype": {
+                "name": "compound", 
+                "value": "31"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "19", 
+            "subtype": {
+                "name": "compound", 
+                "value": "31"
+            }, 
+            "entry1": "16", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "16", 
+            "subtype": {
+                "name": "compound", 
+                "value": "31"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "19", 
+            "subtype": {
+                "name": "compound", 
+                "value": "31"
+            }, 
+            "entry1": "14", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "20", 
+            "subtype": {
+                "name": "compound", 
+                "value": "30"
+            }, 
+            "entry1": "19", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "41", 
+            "subtype": {
+                "name": "compound", 
+                "value": "29"
+            }, 
+            "entry1": "21", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "41", 
+            "subtype": {
+                "name": "compound", 
+                "value": "29"
+            }, 
+            "entry1": "40", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "41", 
+            "subtype": {
+                "name": "compound", 
+                "value": "29"
+            }, 
+            "entry1": "23", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "41", 
+            "subtype": {
+                "name": "compound", 
+                "value": "33"
+            }, 
+            "entry1": "20", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "14", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "42", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "20", 
+            "subtype": {
+                "name": "compound", 
+                "value": "44"
+            }, 
+            "entry1": "46", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "19", 
+            "subtype": {
+                "name": "compound", 
+                "value": "31"
+            }, 
+            "entry1": "46", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "14", 
+            "subtype": {
+                "name": "compound", 
+                "value": "31"
+            }, 
+            "entry1": "46", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "15", 
+            "subtype": {
+                "name": "compound", 
+                "value": "31"
+            }, 
+            "entry1": "46", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "16", 
+            "subtype": {
+                "name": "compound", 
+                "value": "31"
+            }, 
+            "entry1": "46", 
+            "type": "ECrel"
+        }
+    ], 
+    "entry": [
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00472", 
+            "id": "12", 
+            "name": "path:ko00472", 
+            "graphics": {
+                "name": "TITLE:D-Arginine and D-ornithine metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "331", 
+                "y": "58", 
+                "x": "206", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R04200 rn:R04201", 
+            "name": "ko:K21672", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K21672", 
+            "graphics": {
+                "name": "K21672", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "174", 
+                "x": "228", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "13"
+        }, 
+        {
+            "reaction": "rn:R02461", 
+            "name": "ko:K17898 ko:K17899", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17898+K17899", 
+            "graphics": {
+                "name": "K17898...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "259", 
+                "x": "251", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "14"
+        }, 
+        {
+            "reaction": "rn:R02457", 
+            "name": "ko:K00273", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00273", 
+            "graphics": {
+                "name": "K00273", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "307", 
+                "x": "213", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "15"
+        }, 
+        {
+            "reaction": "rn:R02459", 
+            "name": "ko:K00824", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00824", 
+            "graphics": {
+                "name": "K00824", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "341", 
+                "x": "213", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "16"
+        }, 
+        {
+            "reaction": "rn:R00672", 
+            "name": "ko:K21898", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K21898", 
+            "graphics": {
+                "name": "K21898", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "268", 
+                "x": "388", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "19"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00220", 
+            "id": "20", 
+            "name": "path:ko00220", 
+            "graphics": {
+                "name": "Arginine biosynthesis", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "187", 
+                "y": "146", 
+                "x": "440", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R02923", 
+            "name": "ko:K00273", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00273", 
+            "graphics": {
+                "name": "K00273", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "336", 
+                "x": "461", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "21"
+        }, 
+        {
+            "reaction": "rn:R02924", 
+            "name": "ko:K00824", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00824", 
+            "graphics": {
+                "name": "K00824", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "390", 
+                "x": "460", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "23"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03564", 
+            "id": "25", 
+            "name": "cpd:C03564", 
+            "graphics": {
+                "name": "C03564", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "307", 
+                "x": "78", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01110", 
+            "id": "26", 
+            "name": "cpd:C01110", 
+            "graphics": {
+                "name": "C01110", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "306", 
+                "x": "152", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03341", 
+            "id": "27", 
+            "name": "cpd:C03341", 
+            "graphics": {
+                "name": "C03341", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "138", 
+                "x": "253", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03943", 
+            "id": "28", 
+            "name": "cpd:C03943", 
+            "graphics": {
+                "name": "C03943", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "208", 
+                "x": "253", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03771", 
+            "id": "29", 
+            "name": "cpd:C03771", 
+            "graphics": {
+                "name": "C03771", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "389", 
+                "x": "363", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00077", 
+            "id": "30", 
+            "name": "cpd:C00077", 
+            "graphics": {
+                "name": "C00077", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "209", 
+                "x": "363", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00515", 
+            "id": "31", 
+            "name": "cpd:C00515", 
+            "graphics": {
+                "name": "C00515", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "306", 
+                "x": "363", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01667", 
+            "id": "32", 
+            "name": "cpd:C01667", 
+            "graphics": {
+                "name": "C01667", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "246", 
+                "x": "292", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00062", 
+            "id": "33", 
+            "name": "cpd:C00062", 
+            "graphics": {
+                "name": "C00062", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "209", 
+                "x": "512", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00792", 
+            "id": "34", 
+            "name": "cpd:C00792", 
+            "graphics": {
+                "name": "C00792", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "306", 
+                "x": "512", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R11018", 
+            "name": "ko:K19746", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K19746", 
+            "graphics": {
+                "name": "K19746", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "357", 
+                "x": "461", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "40"
+        }, 
+        {
+            "reaction": "rn:R11031 rn:R11032", 
+            "name": "ko:K19744", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K19744", 
+            "graphics": {
+                "name": "K19744", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "353", 
+                "x": "587", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "41"
+        }, 
+        {
+            "reaction": "rn:R04200", 
+            "name": "ko:K21672", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K21672", 
+            "graphics": {
+                "name": "K21672", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "174", 
+                "x": "278", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "42"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00134", 
+            "id": "44", 
+            "name": "cpd:C00134", 
+            "graphics": {
+                "name": "C00134", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "210", 
+                "x": "437", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R12304", 
+            "name": "ko:K23385", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K23385", 
+            "graphics": {
+                "name": "K23385", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "254", 
+                "x": "438", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "46"
+        }
+    ], 
+    "nodes": [
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K21672", 
+            "font_size": 12, 
+            "name": "D-threo-2,4-diaminopentanoate:NAD+ oxidoreductase (deaminating)", 
+            "rxn": " (2R,4S)-2,4-Diaminopentanoate + H2O + NAD+ <=> 2-Amino-4-oxopentanoic acid + Ammonia + NADH + H+", 
+            "kegg_id": "rn:R04200", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04200", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 139.5062255859375, 
+            "x": 266.2370849609375, 
+            "gene": "ko:K21672", 
+            "type": "R", 
+            "id": "13", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K17898+K17899", 
+            "font_size": 12, 
+            "name": "D-ornithine 4,5-aminomutase", 
+            "rxn": " D-Ornithine <=> (2R,4S)-2,4-Diaminopentanoate", 
+            "kegg_id": "rn:R02461", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02461", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 224.5062255859375, 
+            "x": 266.2370849609375, 
+            "gene": "ko:K17898 ko:K17899", 
+            "type": "R", 
+            "id": "14", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00273", 
+            "font_size": 12, 
+            "name": "D-Ornithine:oxygen oxidoreductase (deaminating)", 
+            "rxn": " D-Ornithine + H2O + Oxygen <=> 5-Amino-2-oxopentanoic acid + Ammonia + Hydrogen peroxide", 
+            "kegg_id": "rn:R02457", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02457", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 363.7134094238281, 
+            "x": 362.74171193440753, 
+            "gene": "ko:K00273", 
+            "type": "R", 
+            "id": "15", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00824", 
+            "font_size": 12, 
+            "name": "D-Ornithine:2-oxoglutarate aminotransferase", 
+            "rxn": " D-Ornithine + 2-Oxo acid <=> 5-Amino-2-oxopentanoic acid + D-Amino acid", 
+            "kegg_id": "rn:R02459", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02459", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 363.26324462890625, 
+            "x": 362.74171193440753, 
+            "gene": "ko:K00824", 
+            "type": "R", 
+            "id": "16", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K21898", 
+            "font_size": 12, 
+            "name": "ornithine racemase", 
+            "rxn": " L-Ornithine <=> D-Ornithine", 
+            "kegg_id": "rn:R00672", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00672", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 255.50253295898438, 
+            "x": 362.74171193440753, 
+            "gene": "ko:K21898", 
+            "type": "R", 
+            "id": "19", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00273", 
+            "font_size": 12, 
+            "name": "D-Arginine:oxygen oxidoreductase (deaminating)", 
+            "rxn": " D-Arginine + H2O + Oxygen <=> 5-Guanidino-2-oxopentanoate + Ammonia + Hydrogen peroxide", 
+            "kegg_id": "rn:R02923", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02923", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 310.7081604003906, 
+            "x": 516.3110290527344, 
+            "gene": "ko:K00273", 
+            "type": "R", 
+            "id": "21", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00824", 
+            "font_size": 12, 
+            "name": "D-Arginine:2-oxoglutarate aminotransferase", 
+            "rxn": " D-Arginine + 2-Oxo acid <=> 5-Guanidino-2-oxopentanoate + D-Amino acid", 
+            "kegg_id": "rn:R02924", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02924", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 364.7081604003906, 
+            "x": 516.3110290527344, 
+            "gene": "ko:K00824", 
+            "type": "R", 
+            "id": "23", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "font_size": 12, 
+            "name": "5-Amino-2-oxopentanoic acid", 
+            "kegg_id": "cpd:C01110", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01110", 
+            "r": 8, 
+            "dx": 11.2, 
+            "dy": 5, 
+            "y": 435.1620788574219, 
+            "x": 362.74171193440753, 
+            "type": "M", 
+            "id": "26", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "font_size": 12, 
+            "name": "2-Amino-4-oxopentanoic acid", 
+            "kegg_id": "cpd:C03341", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C03341", 
+            "r": 8, 
+            "dx": 11.2, 
+            "dy": 5, 
+            "y": 103.5062255859375, 
+            "x": 266.2370849609375, 
+            "type": "M", 
+            "id": "27", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "font_size": 12, 
+            "name": "(2R,4S)-2,4-Diaminopentanoate", 
+            "kegg_id": "cpd:C03943", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C03943", 
+            "r": 8, 
+            "dx": 11.2, 
+            "dy": 5, 
+            "y": 173.5062255859375, 
+            "x": 266.2370849609375, 
+            "type": "M", 
+            "id": "28", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "font_size": 12, 
+            "name": "5-Guanidino-2-oxopentanoate", 
+            "kegg_id": "cpd:C03771", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C03771", 
+            "r": 8, 
+            "dx": 11.2, 
+            "dy": 5, 
+            "y": 404.6193542480469, 
+            "x": 516.3110290527344, 
+            "type": "M", 
+            "id": "29", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "font_size": 12, 
+            "name": "L-Ornithine", 
+            "kegg_id": "cpd:C00077", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00077", 
+            "r": 8, 
+            "dx": 15.2, 
+            "dy": -10.8, 
+            "y": 207.47694396972656, 
+            "x": 362.74171193440753, 
+            "type": "M", 
+            "id": "30", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "font_size": 12, 
+            "name": "D-Ornithine", 
+            "kegg_id": "cpd:C00515", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00515", 
+            "r": 8, 
+            "dx": 15.2, 
+            "dy": -10.8, 
+            "y": 309, 
+            "x": 362.7087923685709, 
+            "type": "M", 
+            "id": "31", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "font_size": 12, 
+            "name": "L-Arginine", 
+            "kegg_id": "cpd:C00062", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00062", 
+            "r": 8, 
+            "dx": 11.2, 
+            "dy": 5, 
+            "y": 207.47694396972656, 
+            "x": 547.0144348144531, 
+            "type": "M", 
+            "id": "33", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "font_size": 12, 
+            "name": "D-Arginine", 
+            "kegg_id": "cpd:C00792", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00792", 
+            "r": 8, 
+            "dx": 11.2, 
+            "dy": 5, 
+            "y": 266.4944152832031, 
+            "x": 516.3110290527344, 
+            "type": "M", 
+            "id": "34", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K19746", 
+            "font_size": 12, 
+            "name": "D-arginine:acceptor oxidoreductase (deaminating)", 
+            "rxn": " D-Arginine + Acceptor + H2O <=> 5-Guanidino-2-oxopentanoate + Ammonia + Reduced acceptor", 
+            "kegg_id": "rn:R11018", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R11018", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 331.7081604003906, 
+            "x": 516.3110290527344, 
+            "gene": "ko:K19746", 
+            "type": "R", 
+            "id": "40", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K19744", 
+            "font_size": 12, 
+            "name": "L-arginine:NAD+ oxidoreductase (deaminating)", 
+            "rxn": " 5-Guanidino-2-oxopentanoate + NADH + H+ + Ammonia <=> L-Arginine + NAD+ + H2O", 
+            "kegg_id": "rn:R11031", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R11031", 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 306.2743835449219, 
+            "x": 547.0144348144531, 
+            "gene": "ko:K19744", 
+            "type": "R", 
+            "id": "41", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K21672", 
+            "font_size": 12, 
+            "name": "D-threo-2,4-diaminopentanoate:NAD+ oxidoreductase (deaminating)", 
+            "rxn": " (2R,4S)-2,4-Diaminopentanoate + H2O + NAD+ <=> 2-Amino-4-oxopentanoic acid + Ammonia + NADH + H+", 
+            "kegg_id": "rn:R04200", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04200", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 139.5062255859375, 
+            "x": 266.2370849609375, 
+            "gene": "ko:K21672", 
+            "type": "R", 
+            "id": "42", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "font_size": 12, 
+            "name": "Putrescine", 
+            "kegg_id": "cpd:C00134", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00134", 
+            "r": 8, 
+            "dx": 11.2, 
+            "dy": 5, 
+            "y": 207.47694396972656, 
+            "x": 440.90774091084796, 
+            "type": "M", 
+            "id": "44", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "D-Arginine and D-ornithine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K23385", 
+            "font_size": 12, 
+            "name": "D-ornithine carboxy-lyase", 
+            "rxn": " D-Ornithine <=> Putrescine + CO2", 
+            "kegg_id": "rn:R12304", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12304", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 308, 
+            "x": 440.90774091084796, 
+            "gene": "ko:K23385", 
+            "type": "R", 
+            "id": "46", 
+            "fill": "#d3d3d3"
+        }
+    ], 
+    "pathway": {
+        "name": "path:ko00472", 
+        "title": "D-Arginine and D-ornithine metabolism", 
+        "image": "https://www.kegg.jp/kegg/pathway/ko/ko00472.png", 
+        "number": "00472", 
+        "link": "https://www.kegg.jp/kegg-bin/show_pathway?ko00472", 
+        "org": "ko"
+    }
+}

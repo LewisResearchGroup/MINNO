@@ -1,0 +1,4622 @@
+{
+    "reaction": [
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "120", 
+                    "name": "cpd:C01045"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "118", 
+                    "name": "cpd:C00439"
+                }
+            ], 
+            "id": "39", 
+            "name": "rn:R02286"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "121", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "120", 
+                    "name": "cpd:C01045"
+                }
+            ], 
+            "id": "40", 
+            "name": "rn:R00525"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "121", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "118", 
+                    "name": "cpd:C00439"
+                }
+            ], 
+            "id": "41", 
+            "name": "rn:R02285"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "118", 
+                    "name": "cpd:C00439"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "121", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "id": "42", 
+            "name": "rn:R02287"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "118", 
+                    "name": "cpd:C00439"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "117", 
+                    "name": "cpd:C03680"
+                }
+            ], 
+            "id": "43", 
+            "name": "rn:R02288"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "117", 
+                    "name": "cpd:C03680"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "112", 
+                    "name": "cpd:C00785"
+                }
+            ], 
+            "id": "44", 
+            "name": "rn:R02914"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "112", 
+                    "name": "cpd:C00785"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C00135"
+                }
+            ], 
+            "id": "45", 
+            "name": "rn:R01168"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "102", 
+                    "name": "cpd:C01262"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "103", 
+                    "name": "cpd:C00386"
+                }
+            ], 
+            "id": "47", 
+            "name": "rn:R02144"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C00135"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "103", 
+                    "name": "cpd:C00386"
+                }
+            ], 
+            "id": "48", 
+            "name": "rn:R01166"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "103", 
+                    "name": "cpd:C00386"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C00135"
+                }
+            ], 
+            "id": "49", 
+            "name": "rn:R01164"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "99", 
+                    "name": "cpd:C00388"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C00135"
+                }
+            ], 
+            "id": "157", 
+            "name": "rn:R01167"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "97", 
+                    "name": "cpd:C02835"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "98", 
+                    "name": "cpd:C05130"
+                }
+            ], 
+            "id": "53", 
+            "name": "rn:R04065"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "122", 
+                    "name": "cpd:C05827"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "105", 
+                    "name": "cpd:C05127"
+                }
+            ], 
+            "id": "54", 
+            "name": "rn:R04674"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "123", 
+                    "name": "cpd:C05828"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "122", 
+                    "name": "cpd:C05827"
+                }
+            ], 
+            "id": "55", 
+            "name": "rn:R04996"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "98", 
+                    "name": "cpd:C05130"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "99", 
+                    "name": "cpd:C00388"
+                }
+            ], 
+            "id": "56", 
+            "name": "rn:R02150"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "105", 
+                    "name": "cpd:C05127"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "99", 
+                    "name": "cpd:C00388"
+                }
+            ], 
+            "id": "57", 
+            "name": "rn:R02155"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "81", 
+                    "name": "cpd:C00119"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C02739"
+                }
+            ], 
+            "id": "59", 
+            "name": "rn:R01071"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C00135"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "100", 
+                    "name": "cpd:C01929"
+                }
+            ], 
+            "id": "60", 
+            "name": "rn:R01163"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "100", 
+                    "name": "cpd:C01929"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "90", 
+                    "name": "cpd:C00860"
+                }
+            ], 
+            "id": "61", 
+            "name": "rn:R03012"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "90", 
+                    "name": "cpd:C00860"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "89", 
+                    "name": "cpd:C01100"
+                }
+            ], 
+            "id": "62", 
+            "name": "rn:R03013"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "88", 
+                    "name": "cpd:C01267"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "89", 
+                    "name": "cpd:C01100"
+                }
+            ], 
+            "id": "63", 
+            "name": "rn:R03243"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "88", 
+                    "name": "cpd:C01267"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "87", 
+                    "name": "cpd:C04666"
+                }
+            ], 
+            "id": "64", 
+            "name": "rn:R03457"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "85", 
+                    "name": "cpd:C04916"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "84", 
+                    "name": "cpd:C04896"
+                }
+            ], 
+            "id": "66", 
+            "name": "rn:R04640"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "84", 
+                    "name": "cpd:C04896"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "83", 
+                    "name": "cpd:C02741"
+                }
+            ], 
+            "id": "67", 
+            "name": "rn:R04037"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "83", 
+                    "name": "cpd:C02741"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "82", 
+                    "name": "cpd:C02739"
+                }
+            ], 
+            "id": "68", 
+            "name": "rn:R04035"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "86", 
+                    "name": "cpd:C04677"
+                }, 
+                {
+                    "id": "87", 
+                    "name": "cpd:C04666"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "85", 
+                    "name": "cpd:C04916"
+                }
+            ], 
+            "id": "70", 
+            "name": "rn:R04558"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C00135"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "103", 
+                    "name": "cpd:C00386"
+                }
+            ], 
+            "id": "74", 
+            "name": "rn:R01166"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "102", 
+                    "name": "cpd:C01262"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "101", 
+                    "name": "cpd:C01152"
+                }
+            ], 
+            "id": "75", 
+            "name": "rn:R03286"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "91", 
+                    "name": "cpd:C00049"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "92", 
+                    "name": "cpd:C01044"
+                }
+            ], 
+            "id": "77", 
+            "name": "rn:R00526"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "145", 
+                    "name": "cpd:C20522"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "112", 
+                    "name": "cpd:C00785"
+                }
+            ], 
+            "id": "146", 
+            "name": "rn:R10330"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "111", 
+                    "name": "cpd:C05575"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C00135"
+                }
+            ], 
+            "id": "147", 
+            "name": "rn:R01169"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "149", 
+                    "name": "cpd:C20995"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "111", 
+                    "name": "cpd:C05575"
+                }
+            ], 
+            "id": "148", 
+            "name": "rn:R11013"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "152", 
+                    "name": "cpd:C20994"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "149", 
+                    "name": "cpd:C20995"
+                }
+            ], 
+            "id": "151", 
+            "name": "rn:R11021"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "110", 
+                    "name": "cpd:C05570"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "152", 
+                    "name": "cpd:C20994"
+                }
+            ], 
+            "id": "154", 
+            "name": "rn:R11023"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "152", 
+                    "name": "cpd:C20994"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "111", 
+                    "name": "cpd:C05575"
+                }
+            ], 
+            "id": "156", 
+            "name": "rn:R11014"
+        }
+    ], 
+    "links": [
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M828,559L877.0012308639199,559.8596707169108", 
+            "kegg_id": "rn:R02286", 
+            "source": "118", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "39", 
+            "target": "39"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M885,560L935,560", 
+            "kegg_id": "rn:R02286", 
+            "source": "39", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "39", 
+            "target": "120"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M943,560L943.7949391936596,591.0026285527241", 
+            "kegg_id": "rn:R00525", 
+            "source": "120", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "40", 
+            "target": "40"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M944,599L835.5829040610308,635.4505753587913", 
+            "kegg_id": "rn:R00525", 
+            "source": "40", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "40", 
+            "target": "121"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M828,559L809.2219089141281,601.6774797406179", 
+            "kegg_id": "rn:R02285", 
+            "source": "118", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "41", 
+            "target": "41"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M806,609L823.1649081490061,631.6264698327808", 
+            "kegg_id": "rn:R02285", 
+            "source": "41", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "41", 
+            "target": "121"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M828,638L845.7934493278424,597.3292586792176", 
+            "kegg_id": "rn:R02287", 
+            "source": "121", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "42"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M849,590L831.2065506721576,630.6707413207824", 
+            "kegg_id": "rn:R02287", 
+            "source": "42", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "121"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M849,590L832.4867851613561,565.6233495239067", 
+            "kegg_id": "rn:R02287", 
+            "source": "42", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "118"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M828,559L844.5132148386439,583.3766504760933", 
+            "kegg_id": "rn:R02287", 
+            "source": "118", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "42"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M828,486L828.7501219809782,510.00390339130337", 
+            "kegg_id": "rn:R02288", 
+            "source": "117", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "43", 
+            "target": "43"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M829,518L828.1950639396376,551.0023784748556", 
+            "kegg_id": "rn:R02288", 
+            "source": "43", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "43", 
+            "target": "118"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M828,413L828.7501219809782,437.00390339130337", 
+            "kegg_id": "rn:R02914", 
+            "source": "112", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "44", 
+            "target": "44"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M829,445L828.1950639396376,478.0023784748556", 
+            "kegg_id": "rn:R02914", 
+            "source": "44", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "44", 
+            "target": "117"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M828,340L828.7576869868739,365.00367056683694", 
+            "kegg_id": "rn:R01168", 
+            "source": "104", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "45"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M829,373L828.1999375292817,405.00249882873504", 
+            "kegg_id": "rn:R01168", 
+            "source": "45", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "112"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M684,266L684.5302238243883,256.98619498539995", 
+            "kegg_id": "rn:R02144", 
+            "source": "103", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "47", 
+            "target": "47"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M685,249L684.2855322440993,228.9949028347804", 
+            "kegg_id": "rn:R02144", 
+            "source": "47", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "47", 
+            "target": "102"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M684,266L664.0220196095182,290.77269568419734", 
+            "kegg_id": "rn:R01166", 
+            "source": "103", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "48", 
+            "target": "48"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M659,297L820.2470232509766,338.02734911119524", 
+            "kegg_id": "rn:R01166", 
+            "source": "48", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "48", 
+            "target": "104"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M828,340L763.5369606578714,272.7742589717802", 
+            "kegg_id": "rn:R01164", 
+            "source": "104", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "49", 
+            "target": "49"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M758,267L691.9992696398397,266.1080982383762", 
+            "kegg_id": "rn:R01164", 
+            "source": "49", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "49", 
+            "target": "103"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M828,340L664.9998632092812,340.9532171742147", 
+            "kegg_id": "rn:R01167", 
+            "source": "104", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "157", 
+            "target": "157"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M657,341L580.9994331668254,340.0952313472241", 
+            "kegg_id": "rn:R01167", 
+            "source": "157", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "157", 
+            "target": "99"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M464,340L429.9977333899531,340.8095777764297", 
+            "kegg_id": "rn:R04065", 
+            "source": "98", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "53", 
+            "target": "53"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M422,341L378.9984625732538,340.1568325994756", 
+            "kegg_id": "rn:R04065", 
+            "source": "53", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "53", 
+            "target": "97"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M573,413L573.7501219809782,437.00390339130337", 
+            "kegg_id": "rn:R04674", 
+            "source": "105", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "54", 
+            "target": "54"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M574,445L573.1950639396376,478.0023784748556", 
+            "kegg_id": "rn:R04674", 
+            "source": "54", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "54", 
+            "target": "122"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M573,486L573.7648075871848,512.0034579642852", 
+            "kegg_id": "rn:R04996", 
+            "source": "122", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "55", 
+            "target": "55"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M574,520L573.2050608063404,551.0026285527241", 
+            "kegg_id": "rn:R04996", 
+            "source": "55", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "55", 
+            "target": "123"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M573,340L530.99840047984,340.8400319904032", 
+            "kegg_id": "rn:R02150", 
+            "source": "99", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "56", 
+            "target": "56"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M523,341L471.99885115243177,340.1355737483463", 
+            "kegg_id": "rn:R02150", 
+            "source": "56", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "56", 
+            "target": "98"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M573,340L573.7576869868739,365.00367056683694", 
+            "kegg_id": "rn:R02155", 
+            "source": "99", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "57", 
+            "target": "57"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M574,373L573.1999375292817,405.00249882873504", 
+            "kegg_id": "rn:R02155", 
+            "source": "57", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "57", 
+            "target": "105"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M192,135L154.9980254226529,135.82226610171884", 
+            "kegg_id": "rn:R01071", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "59", 
+            "target": "59"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M147,136L184.0019745773471,135.17773389828116", 
+            "kegg_id": "rn:R01071", 
+            "source": "59", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "59", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M147,136L111.99783754557475,135.1859962219901", 
+            "kegg_id": "rn:R01071", 
+            "source": "59", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "59", 
+            "target": "81"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M104,135L139.00216245442525,135.8140037780099", 
+            "kegg_id": "rn:R01071", 
+            "source": "81", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "59", 
+            "target": "59"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M828,208L845.6473132092998,265.3537679302244", 
+            "kegg_id": "rn:R01163", 
+            "source": "100", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "60"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M848,273L830.2882842111075,332.3342478927899", 
+            "kegg_id": "rn:R01163", 
+            "source": "60", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "104"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M828,135L828.7576869868739,160.00367056683694", 
+            "kegg_id": "rn:R03012", 
+            "source": "90", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "61", 
+            "target": "61"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M829,168L828.1999375292817,200.002498828735", 
+            "kegg_id": "rn:R03012", 
+            "source": "61", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "61", 
+            "target": "100"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M740,135L774.002266610047,135.80957777642968", 
+            "kegg_id": "rn:R03013", 
+            "source": "89", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "62", 
+            "target": "62"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M782,136L820.0018896894087,135.1738719632737", 
+            "kegg_id": "rn:R03013", 
+            "source": "62", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "62", 
+            "target": "90"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M740,135L702.9980254226529,135.82226610171884", 
+            "kegg_id": "rn:R03243", 
+            "source": "89", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "63", 
+            "target": "63"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M695,136L732.0019745773471,135.17773389828116", 
+            "kegg_id": "rn:R03243", 
+            "source": "63", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "63", 
+            "target": "89"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M695,136L659.9978375455747,135.1859962219901", 
+            "kegg_id": "rn:R03243", 
+            "source": "63", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "63", 
+            "target": "88"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M652,135L687.0021624544253,135.8140037780099", 
+            "kegg_id": "rn:R03243", 
+            "source": "88", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "63", 
+            "target": "63"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M564,135L597.0023784748556,135.80493606036234", 
+            "kegg_id": "rn:R03457", 
+            "source": "87", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "64"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M605,136L644.0018101595435,135.1701742519246", 
+            "kegg_id": "rn:R03457", 
+            "source": "64", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "88"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M368,135L401,135", 
+            "kegg_id": "rn:R04640", 
+            "source": "84", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "66", 
+            "target": "66"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M409,135L448,135", 
+            "kegg_id": "rn:R04640", 
+            "source": "66", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "66", 
+            "target": "85"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M280,135L313.0023784748556,135.80493606036234", 
+            "kegg_id": "rn:R04037", 
+            "source": "83", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "67"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M321,136L360.0018101595435,135.1701742519246", 
+            "kegg_id": "rn:R04037", 
+            "source": "67", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "84"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M192,135L226.00226661004692,135.80957777642968", 
+            "kegg_id": "rn:R04035", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "68"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M234,136L272.0018896894087,135.1738719632737", 
+            "kegg_id": "rn:R04035", 
+            "source": "68", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "83"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M456,135L492,135", 
+            "kegg_id": "rn:R04558", 
+            "source": "85", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "70"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M500,135L532.6442319321113,185.28976270622556", 
+            "kegg_id": "rn:R04558", 
+            "source": "70", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "86"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M500,135L556,135", 
+            "kegg_id": "rn:R04558", 
+            "source": "70", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "87"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M684,266L703.9779803904818,290.77269568419734", 
+            "kegg_id": "rn:R01166", 
+            "source": "103", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "74"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M709,297L820.4761300109092,337.28129067621086", 
+            "kegg_id": "rn:R01166", 
+            "source": "74", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "104"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M783,221L740.8734665917896,228.58277601347788", 
+            "kegg_id": "rn:R03286", 
+            "source": "101", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "75"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M733,230L691.8683773298562,222.44521216262666", 
+            "kegg_id": "rn:R03286", 
+            "source": "75", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "102"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M92,340L71.8308615039637,366.62326281476794", 
+            "kegg_id": "rn:R00526", 
+            "source": "92", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "77", 
+            "target": "77"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M67,373L87.76000847997456,406.2160135679593", 
+            "kegg_id": "rn:R00526", 
+            "source": "77", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "77", 
+            "target": "91"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M828,413L891.000793375318,413.8873351179622", 
+            "kegg_id": "rn:R10330", 
+            "source": "112", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "146", 
+            "target": "146"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M899,414L968.0006745646962,413.10388734331565", 
+            "kegg_id": "rn:R10330", 
+            "source": "146", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "146", 
+            "target": "145"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M828,340L862.002266610047,340.8095777764297", 
+            "kegg_id": "rn:R01169", 
+            "source": "104", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "147", 
+            "target": "147"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M870,341L912.00159952016,340.1599680095968", 
+            "kegg_id": "rn:R01169", 
+            "source": "147", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "147", 
+            "target": "111"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M920,340L952.002498828735,340.8000624707184", 
+            "kegg_id": "rn:R11013", 
+            "source": "111", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "148", 
+            "target": "148"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M960,341L1003.0015374267462,340.1568325994756", 
+            "kegg_id": "rn:R11013", 
+            "source": "148", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "148", 
+            "target": "149"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M1011,340L1043.002498828735,340.8000624707184", 
+            "kegg_id": "rn:R11021", 
+            "source": "149", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "151", 
+            "target": "151"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M1051,341L1093.00159952016,340.1599680095968", 
+            "kegg_id": "rn:R11021", 
+            "source": "151", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "151", 
+            "target": "152"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M1101,340L1135.002266610047,340.8095777764297", 
+            "kegg_id": "rn:R11023", 
+            "source": "152", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "154", 
+            "target": "154"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M1143,341L1182,341", 
+            "kegg_id": "rn:R11023", 
+            "source": "154", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "154", 
+            "target": "110"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M920,340L1002.5162232506655,371.1727954502514", 
+            "kegg_id": "rn:R11014", 
+            "source": "111", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "156", 
+            "target": "156"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Histidine metabolism", 
+            "strength": "2", 
+            "d": "M1010,374L1093.5059876962318,342.7999606409683", 
+            "kegg_id": "rn:R11014", 
+            "source": "156", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "156", 
+            "target": "152"
+        }
+    ], 
+    "labels": [], 
+    "boxes": [], 
+    "relation": [
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "82"
+            }, 
+            "entry1": "59", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "83"
+            }, 
+            "entry1": "67", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "84"
+            }, 
+            "entry1": "66", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "64", 
+            "subtype": {
+                "name": "compound", 
+                "value": "88"
+            }, 
+            "entry1": "63", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "63", 
+            "subtype": {
+                "name": "compound", 
+                "value": "89"
+            }, 
+            "entry1": "62", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "62", 
+            "subtype": {
+                "name": "compound", 
+                "value": "90"
+            }, 
+            "entry1": "61", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "75", 
+            "subtype": {
+                "name": "compound", 
+                "value": "102"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "103"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "48", 
+            "subtype": {
+                "name": "compound", 
+                "value": "103"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "103"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "60", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "49", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "157", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "49", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "60", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "48", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "48", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "157", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "48", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "60", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "157", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "60", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "60", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "157", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "157", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "45", 
+            "subtype": {
+                "name": "compound", 
+                "value": "112"
+            }, 
+            "entry1": "44", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "44", 
+            "subtype": {
+                "name": "compound", 
+                "value": "117"
+            }, 
+            "entry1": "43", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "43", 
+            "subtype": {
+                "name": "compound", 
+                "value": "118"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "43", 
+            "subtype": {
+                "name": "compound", 
+                "value": "118"
+            }, 
+            "entry1": "42", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "43", 
+            "subtype": {
+                "name": "compound", 
+                "value": "118"
+            }, 
+            "entry1": "41", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "42", 
+            "subtype": {
+                "name": "compound", 
+                "value": "118"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "41", 
+            "subtype": {
+                "name": "compound", 
+                "value": "118"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "40", 
+            "subtype": {
+                "name": "compound", 
+                "value": "120"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "41", 
+            "subtype": {
+                "name": "compound", 
+                "value": "121"
+            }, 
+            "entry1": "40", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "42", 
+            "subtype": {
+                "name": "compound", 
+                "value": "121"
+            }, 
+            "entry1": "40", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "56", 
+            "subtype": {
+                "name": "compound", 
+                "value": "98"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "57", 
+            "subtype": {
+                "name": "compound", 
+                "value": "99"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "56", 
+            "subtype": {
+                "name": "compound", 
+                "value": "99"
+            }, 
+            "entry1": "157", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "57", 
+            "subtype": {
+                "name": "compound", 
+                "value": "99"
+            }, 
+            "entry1": "157", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "57", 
+            "subtype": {
+                "name": "compound", 
+                "value": "105"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "55", 
+            "subtype": {
+                "name": "compound", 
+                "value": "122"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "81"
+            }, 
+            "entry1": "59", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "91"
+            }, 
+            "entry1": "77", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "121"
+            }, 
+            "entry1": "42", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "121"
+            }, 
+            "entry1": "41", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "121"
+            }, 
+            "entry1": "40", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "103"
+            }, 
+            "entry1": "49", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "48", 
+            "subtype": {
+                "name": "compound", 
+                "value": "103"
+            }, 
+            "entry1": "49", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "146", 
+            "subtype": {
+                "name": "compound", 
+                "value": "112"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "146", 
+            "subtype": {
+                "name": "compound", 
+                "value": "112"
+            }, 
+            "entry1": "44", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "148", 
+            "subtype": {
+                "name": "compound", 
+                "value": "111"
+            }, 
+            "entry1": "147", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "147", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "60", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "147", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "147", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "147", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "48", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "147", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "157", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "147", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "151", 
+            "subtype": {
+                "name": "compound", 
+                "value": "149"
+            }, 
+            "entry1": "148", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "156", 
+            "subtype": {
+                "name": "compound", 
+                "value": "152"
+            }, 
+            "entry1": "154", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "151", 
+            "subtype": {
+                "name": "compound", 
+                "value": "152"
+            }, 
+            "entry1": "154", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "151", 
+            "subtype": {
+                "name": "compound", 
+                "value": "152"
+            }, 
+            "entry1": "156", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "147", 
+            "subtype": {
+                "name": "compound", 
+                "value": "111"
+            }, 
+            "entry1": "156", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "148", 
+            "subtype": {
+                "name": "compound", 
+                "value": "111"
+            }, 
+            "entry1": "156", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "85"
+            }, 
+            "entry1": "66", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "70", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "64", 
+            "subtype": {
+                "name": "compound", 
+                "value": "87"
+            }, 
+            "entry1": "70", 
+            "type": "ECrel"
+        }
+    ], 
+    "entry": [
+        {
+            "reaction": "rn:R02286", 
+            "name": "ko:K05603", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05603", 
+            "graphics": {
+                "name": "K05603", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "560", 
+                "x": "885", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "39"
+        }, 
+        {
+            "reaction": "rn:R00525", 
+            "name": "ko:K01458", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01458", 
+            "graphics": {
+                "name": "K01458", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "599", 
+                "x": "944", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "40"
+        }, 
+        {
+            "reaction": "rn:R02285", 
+            "name": "ko:K01479", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01479", 
+            "graphics": {
+                "name": "K01479", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "609", 
+                "x": "806", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "41"
+        }, 
+        {
+            "reaction": "rn:R02287", 
+            "name": "ko:K00603 ko:K13990", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00603+K13990", 
+            "graphics": {
+                "name": "K00603...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "590", 
+                "x": "849", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "42"
+        }, 
+        {
+            "reaction": "rn:R02288", 
+            "name": "ko:K01468", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01468", 
+            "graphics": {
+                "name": "K01468", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "518", 
+                "x": "829", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "43"
+        }, 
+        {
+            "reaction": "rn:R02914", 
+            "name": "ko:K01712", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01712", 
+            "graphics": {
+                "name": "K01712", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "445", 
+                "x": "829", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "44"
+        }, 
+        {
+            "reaction": "rn:R01168", 
+            "name": "ko:K01745", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01745", 
+            "graphics": {
+                "name": "K01745", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "373", 
+                "x": "829", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "45"
+        }, 
+        {
+            "reaction": "rn:R02144", 
+            "name": "ko:K19787 ko:K22437", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K19787+K22437", 
+            "graphics": {
+                "name": "K19787...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "249", 
+                "x": "685", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "47"
+        }, 
+        {
+            "reaction": "rn:R01166", 
+            "name": "ko:K08660", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K08660", 
+            "graphics": {
+                "name": "K08660", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "297", 
+                "x": "659", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "48"
+        }, 
+        {
+            "reaction": "rn:R01164", 
+            "name": "ko:K14755", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K14755", 
+            "graphics": {
+                "name": "K14755", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "267", 
+                "x": "758", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "49"
+        }, 
+        {
+            "reaction": "rn:R04065", 
+            "name": "ko:K00128 ko:K14085 ko:K00149", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00128+K14085+K00149", 
+            "graphics": {
+                "name": "K00128...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "341", 
+                "x": "422", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "53"
+        }, 
+        {
+            "reaction": "rn:R04674", 
+            "name": "ko:K00274", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00274", 
+            "graphics": {
+                "name": "K00274", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "445", 
+                "x": "574", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "54"
+        }, 
+        {
+            "reaction": "rn:R04996", 
+            "name": "ko:K00129", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00129", 
+            "graphics": {
+                "name": "K00129", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "520", 
+                "x": "574", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "55"
+        }, 
+        {
+            "reaction": "rn:R02150", 
+            "name": "ko:K11182", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K11182", 
+            "graphics": {
+                "name": "K11182", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "341", 
+                "x": "523", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "56"
+        }, 
+        {
+            "reaction": "rn:R02155", 
+            "name": "ko:K00546", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00546", 
+            "graphics": {
+                "name": "K00546", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "373", 
+                "x": "574", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "57"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00030", 
+            "id": "58", 
+            "name": "path:ko00030", 
+            "graphics": {
+                "name": "Pentose phosphate pathway", 
+                "bgcolor": "#FFFFFF", 
+                "height": "26", 
+                "width": "155", 
+                "y": "215", 
+                "x": "114", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R01071", 
+            "name": "ko:K00765 ko:K02502", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00765+K02502", 
+            "graphics": {
+                "name": "K00765...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "136", 
+                "x": "147", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "59"
+        }, 
+        {
+            "reaction": "rn:R01163", 
+            "name": "ko:K00013 ko:K14152", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00013+K14152", 
+            "graphics": {
+                "name": "K00013...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "273", 
+                "x": "848", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "60"
+        }, 
+        {
+            "reaction": "rn:R03012", 
+            "name": "ko:K00013 ko:K14152", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00013+K14152", 
+            "graphics": {
+                "name": "K00013...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "168", 
+                "x": "829", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "61"
+        }, 
+        {
+            "reaction": "rn:R03013", 
+            "name": "ko:K01089 ko:K04486 ko:K05602 ko:K18649", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01089+K04486+K05602+K18649", 
+            "graphics": {
+                "name": "K01089...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "136", 
+                "x": "782", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "62"
+        }, 
+        {
+            "reaction": "rn:R03243", 
+            "name": "ko:K00817", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00817", 
+            "graphics": {
+                "name": "K00817", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "136", 
+                "x": "695", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "63"
+        }, 
+        {
+            "reaction": "rn:R03457", 
+            "name": "ko:K01693 ko:K01089", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01693+K01089", 
+            "graphics": {
+                "name": "K01693...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "136", 
+                "x": "605", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "64"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00250", 
+            "id": "65", 
+            "name": "path:ko00250", 
+            "graphics": {
+                "name": "Alanine, aspartate and glutamate metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "126", 
+                "y": "645", 
+                "x": "1036", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R04640", 
+            "name": "ko:K01814 ko:K24017", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01814+K24017", 
+            "graphics": {
+                "name": "K01814...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "135", 
+                "x": "409", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "66"
+        }, 
+        {
+            "reaction": "rn:R04037", 
+            "name": "ko:K01496 ko:K11755 ko:K14152", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01496+K11755+K14152", 
+            "graphics": {
+                "name": "K01496...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "136", 
+                "x": "321", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "67"
+        }, 
+        {
+            "reaction": "rn:R04035", 
+            "name": "ko:K01523 ko:K11755 ko:K14152", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01523+K11755+K14152", 
+            "graphics": {
+                "name": "K01523...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "136", 
+                "x": "234", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "68"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00340", 
+            "id": "69", 
+            "name": "path:ko00340", 
+            "graphics": {
+                "name": "TITLE:Histidine metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "179", 
+                "y": "58", 
+                "x": "130", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R04558", 
+            "name": "ko:K02500 ko:K02501 ko:K01663", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K02500+K02501+K01663", 
+            "graphics": {
+                "name": "K02500...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "135", 
+                "x": "500", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "70"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00230", 
+            "id": "71", 
+            "name": "path:ko00230", 
+            "graphics": {
+                "name": "Purine metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "24", 
+                "width": "115", 
+                "y": "245", 
+                "x": "538", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00250", 
+            "id": "72", 
+            "name": "path:ko00250", 
+            "graphics": {
+                "name": "Alanine, aspartate and glutamate metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "123", 
+                "y": "472", 
+                "x": "99", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R01166", 
+            "name": "ko:K05604", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05604", 
+            "graphics": {
+                "name": "K05604", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "297", 
+                "x": "709", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "74"
+        }, 
+        {
+            "reaction": "rn:R03286", 
+            "name": "ko:K14755", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K14755", 
+            "graphics": {
+                "name": "K14755", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "230", 
+                "x": "733", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "75"
+        }, 
+        {
+            "reaction": "rn:R00526", 
+            "name": "ko:K01437", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01437", 
+            "graphics": {
+                "name": "K01437", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "373", 
+                "x": "67", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "77"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00119", 
+            "id": "81", 
+            "name": "cpd:C00119", 
+            "graphics": {
+                "name": "C00119", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "135", 
+                "x": "104", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02739", 
+            "id": "82", 
+            "name": "cpd:C02739", 
+            "graphics": {
+                "name": "C02739", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "135", 
+                "x": "192", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02741", 
+            "id": "83", 
+            "name": "cpd:C02741", 
+            "graphics": {
+                "name": "C02741", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "135", 
+                "x": "280", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04896", 
+            "id": "84", 
+            "name": "cpd:C04896", 
+            "graphics": {
+                "name": "C04896", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "135", 
+                "x": "368", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04916", 
+            "id": "85", 
+            "name": "cpd:C04916", 
+            "graphics": {
+                "name": "C04916", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "135", 
+                "x": "456", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04677", 
+            "id": "86", 
+            "name": "cpd:C04677", 
+            "graphics": {
+                "name": "C04677", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "192", 
+                "x": "537", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04666", 
+            "id": "87", 
+            "name": "cpd:C04666", 
+            "graphics": {
+                "name": "C04666", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "135", 
+                "x": "564", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01267", 
+            "id": "88", 
+            "name": "cpd:C01267", 
+            "graphics": {
+                "name": "C01267", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "135", 
+                "x": "652", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01100", 
+            "id": "89", 
+            "name": "cpd:C01100", 
+            "graphics": {
+                "name": "C01100", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "135", 
+                "x": "740", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00860", 
+            "id": "90", 
+            "name": "cpd:C00860", 
+            "graphics": {
+                "name": "C00860", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "135", 
+                "x": "828", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00049", 
+            "id": "91", 
+            "name": "cpd:C00049", 
+            "graphics": {
+                "name": "C00049", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "413", 
+                "x": "92", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01044", 
+            "id": "92", 
+            "name": "cpd:C01044", 
+            "graphics": {
+                "name": "C01044", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "340", 
+                "x": "92", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03409", 
+            "id": "93", 
+            "name": "cpd:C03409", 
+            "graphics": {
+                "name": "C03409", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "340", 
+                "x": "185", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05133", 
+            "id": "94", 
+            "name": "cpd:C05133", 
+            "graphics": {
+                "name": "C05133", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "340", 
+                "x": "278", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05131", 
+            "id": "95", 
+            "name": "cpd:C05131", 
+            "graphics": {
+                "name": "C05131", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "486", 
+                "x": "371", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04437", 
+            "id": "96", 
+            "name": "cpd:C04437", 
+            "graphics": {
+                "name": "C04437", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "413", 
+                "x": "371", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02835", 
+            "id": "97", 
+            "name": "cpd:C02835", 
+            "graphics": {
+                "name": "C02835", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "340", 
+                "x": "371", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05130", 
+            "id": "98", 
+            "name": "cpd:C05130", 
+            "graphics": {
+                "name": "C05130", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "340", 
+                "x": "464", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00388", 
+            "id": "99", 
+            "name": "cpd:C00388", 
+            "graphics": {
+                "name": "C00388", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "340", 
+                "x": "573", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01929", 
+            "id": "100", 
+            "name": "cpd:C01929", 
+            "graphics": {
+                "name": "C01929", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "208", 
+                "x": "828", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01152", 
+            "id": "101", 
+            "name": "cpd:C01152", 
+            "graphics": {
+                "name": "C01152", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "221", 
+                "x": "783", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01262", 
+            "id": "102", 
+            "name": "cpd:C01262", 
+            "graphics": {
+                "name": "C01262", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "221", 
+                "x": "684", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00386", 
+            "id": "103", 
+            "name": "cpd:C00386", 
+            "graphics": {
+                "name": "C00386", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "266", 
+                "x": "684", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00135", 
+            "id": "104", 
+            "name": "cpd:C00135", 
+            "graphics": {
+                "name": "C00135", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "340", 
+                "x": "828", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05127", 
+            "id": "105", 
+            "name": "cpd:C05127", 
+            "graphics": {
+                "name": "C05127", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "413", 
+                "x": "573", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05135", 
+            "id": "106", 
+            "name": "cpd:C05135", 
+            "graphics": {
+                "name": "C05135", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "286", 
+                "x": "527", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03277", 
+            "id": "107", 
+            "name": "cpd:C03277", 
+            "graphics": {
+                "name": "C03277", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "605", 
+                "x": "684", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05568", 
+            "id": "108", 
+            "name": "cpd:C05568", 
+            "graphics": {
+                "name": "C05568", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "662", 
+                "x": "684", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05571", 
+            "id": "109", 
+            "name": "cpd:C05571", 
+            "graphics": {
+                "name": "C05571", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "413", 
+                "x": "1190", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05570", 
+            "id": "110", 
+            "name": "cpd:C05570", 
+            "graphics": {
+                "name": "C05570", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "341", 
+                "x": "1190", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05575", 
+            "id": "111", 
+            "name": "cpd:C05575", 
+            "graphics": {
+                "name": "C05575", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "340", 
+                "x": "920", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00785", 
+            "id": "112", 
+            "name": "cpd:C00785", 
+            "graphics": {
+                "name": "C00785", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "413", 
+                "x": "828", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05572", 
+            "id": "113", 
+            "name": "cpd:C05572", 
+            "graphics": {
+                "name": "C05572", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "481", 
+                "x": "958", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00026", 
+            "id": "114", 
+            "name": "cpd:C00026", 
+            "graphics": {
+                "name": "C00026", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "481", 
+                "x": "1032", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C16673", 
+            "id": "115", 
+            "name": "cpd:C16673", 
+            "graphics": {
+                "name": "C16673", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "492", 
+                "x": "998", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C16674", 
+            "id": "116", 
+            "name": "cpd:C16674", 
+            "graphics": {
+                "name": "C16674", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "492", 
+                "x": "924", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03680", 
+            "id": "117", 
+            "name": "cpd:C03680", 
+            "graphics": {
+                "name": "C03680", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "486", 
+                "x": "828", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00439", 
+            "id": "118", 
+            "name": "cpd:C00439", 
+            "graphics": {
+                "name": "C00439", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "559", 
+                "x": "828", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05565", 
+            "id": "119", 
+            "name": "cpd:C05565", 
+            "graphics": {
+                "name": "C05565", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "486", 
+                "x": "735", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01045", 
+            "id": "120", 
+            "name": "cpd:C01045", 
+            "graphics": {
+                "name": "C01045", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "560", 
+                "x": "943", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00025", 
+            "id": "121", 
+            "name": "cpd:C00025", 
+            "graphics": {
+                "name": "C00025", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "638", 
+                "x": "828", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05827", 
+            "id": "122", 
+            "name": "cpd:C05827", 
+            "graphics": {
+                "name": "C05827", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "486", 
+                "x": "573", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05828", 
+            "id": "123", 
+            "name": "cpd:C05828", 
+            "graphics": {
+                "name": "C05828", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "559", 
+                "x": "573", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05829", 
+            "id": "124", 
+            "name": "cpd:C05829", 
+            "graphics": {
+                "name": "C05829", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "638", 
+                "x": "735", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20522", 
+            "id": "145", 
+            "name": "cpd:C20522", 
+            "graphics": {
+                "name": "C20522", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "413", 
+                "x": "976", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R10330", 
+            "name": "ko:K17363", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17363", 
+            "graphics": {
+                "name": "K17363", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "414", 
+                "x": "899", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "146"
+        }, 
+        {
+            "reaction": "rn:R01169", 
+            "name": "ko:K20246 ko:K18911", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K20246+K18911", 
+            "graphics": {
+                "name": "K20246...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "341", 
+                "x": "870", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "147"
+        }, 
+        {
+            "reaction": "rn:R11013", 
+            "name": "ko:K18912", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18912", 
+            "graphics": {
+                "name": "K18912", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "341", 
+                "x": "960", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "148"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20995", 
+            "id": "149", 
+            "name": "cpd:C20995", 
+            "graphics": {
+                "name": "C20995", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "340", 
+                "x": "1011", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R11021", 
+            "name": "ko:K07008", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K07008", 
+            "graphics": {
+                "name": "K07008", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "341", 
+                "x": "1051", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "151"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20994", 
+            "id": "152", 
+            "name": "cpd:C20994", 
+            "graphics": {
+                "name": "C20994", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "340", 
+                "x": "1101", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R11023", 
+            "name": "ko:K20247 ko:K18913", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K20247+K18913", 
+            "graphics": {
+                "name": "K20247...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "341", 
+                "x": "1143", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "154"
+        }, 
+        {
+            "reaction": "rn:R11014", 
+            "name": "ko:K20246", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K20246", 
+            "graphics": {
+                "name": "K20246", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "374", 
+                "x": "1010", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "156"
+        }, 
+        {
+            "reaction": "rn:R01167", 
+            "name": "ko:K01590", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01590", 
+            "graphics": {
+                "name": "K01590", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "341", 
+                "x": "657", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "157"
+        }
+    ], 
+    "nodes": [
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05603", 
+            "font_size": 12, 
+            "name": "N-Formimino-L-glutamate iminohydrolase", 
+            "rxn": " N-Formimino-L-glutamate + H2O <=> N-Formyl-L-glutamate + Ammonia", 
+            "kegg_id": "rn:R02286", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02286", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 823.8495345901647, 
+            "x": 523.6580031975162, 
+            "gene": "ko:K05603", 
+            "type": "R", 
+            "id": "39", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01458", 
+            "font_size": 12, 
+            "name": "N-Formyl-L-glutamate amidohydrolase", 
+            "rxn": " N-Formyl-L-glutamate + H2O <=> Formate + L-Glutamate", 
+            "kegg_id": "rn:R00525", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00525", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 825.608646909144, 
+            "x": 487.4374077858681, 
+            "gene": "ko:K01458", 
+            "type": "R", 
+            "id": "40", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01479", 
+            "font_size": 12, 
+            "name": "N-Formimino-L-glutamate formiminohydrolase", 
+            "rxn": " N-Formimino-L-glutamate + H2O <=> L-Glutamate + Formamide", 
+            "kegg_id": "rn:R02285", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02285", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 766.1160427118714, 
+            "x": 491.19055588392223, 
+            "gene": "ko:K01479", 
+            "type": "R", 
+            "id": "41", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00603+K13990", 
+            "font_size": 12, 
+            "name": "5-Formiminotetrahydrofolate:L-glutamate N-formiminotransferase", 
+            "rxn": " 5-Formiminotetrahydrofolate + L-Glutamate <=> Tetrahydrofolate + N-Formimino-L-glutamate", 
+            "kegg_id": "rn:R02287", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02287", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 766.1160427118714, 
+            "x": 488.1288299444159, 
+            "gene": "ko:K00603 ko:K13990", 
+            "type": "R", 
+            "id": "42", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01468", 
+            "font_size": 12, 
+            "name": "4-imidazolone-5-propanoate amidohydrolase", 
+            "rxn": " 4-Imidazolone-5-propanoate + H2O <=> N-Formimino-L-glutamate", 
+            "kegg_id": "rn:R02288", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02288", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 723.3849191357186, 
+            "x": 528.2522670822004, 
+            "gene": "ko:K01468", 
+            "type": "R", 
+            "id": "43", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01712", 
+            "font_size": 12, 
+            "name": "4,5-Dihydro-4-oxo-5-imidazolepropanoate hydro-lyase", 
+            "rxn": " 4-Imidazolone-5-propanoate <=> Urocanate + H2O", 
+            "kegg_id": "rn:R02914", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02914", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 650.3884671856772, 
+            "x": 527.532543034075, 
+            "gene": "ko:K01712", 
+            "type": "R", 
+            "id": "44", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01745", 
+            "font_size": 12, 
+            "name": "L-histidine ammonia-lyase (urocanate-forming)", 
+            "rxn": " L-Histidine <=> Urocanate + Ammonia", 
+            "kegg_id": "rn:R01168", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01168", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 563.7465380620557, 
+            "x": 526.8226782194843, 
+            "gene": "ko:K01745", 
+            "type": "R", 
+            "id": "45", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K19787+K22437", 
+            "font_size": 12, 
+            "name": "S-adenosyl-L-methionine:carnosine N-methyltransferase", 
+            "rxn": " S-Adenosyl-L-methionine + Carnosine <=> S-Adenosyl-L-homocysteine + beta-Alanyl-N(pi)-methyl-L-histidine", 
+            "kegg_id": "rn:R02144", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02144", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 327.1857339170714, 
+            "x": 754.0253694601381, 
+            "gene": "ko:K19787 ko:K22437", 
+            "type": "R", 
+            "id": "47", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K08660", 
+            "font_size": 12, 
+            "name": "Nalpha-(beta-alanyl)-L-histidine hydrolase", 
+            "rxn": " Carnosine + H2O <=> beta-Alanine + L-Histidine", 
+            "kegg_id": "rn:R01166", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01166", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 327.1857339170714, 
+            "x": 663.7923522879283, 
+            "gene": "ko:K08660", 
+            "type": "R", 
+            "id": "48", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K14755", 
+            "font_size": 12, 
+            "name": "L-histidine:beta-alanine ligase (ADP-forming)", 
+            "rxn": " ATP + L-Histidine + beta-Alanine <=> ADP + Orthophosphate + Carnosine", 
+            "kegg_id": "rn:R01164", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01164", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 327.1857339170714, 
+            "x": 664.0206963795052, 
+            "gene": "ko:K14755", 
+            "type": "R", 
+            "id": "49", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00128+K14085+K00149", 
+            "font_size": 12, 
+            "name": "Imidazole acetaldehyde:NAD+ oxidoreductase", 
+            "rxn": " Imidazole-4-acetaldehyde + NAD+ + H2O <=> Imidazole-4-acetate + NADH + H+", 
+            "kegg_id": "rn:R04065", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04065", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 104.15538470522782, 
+            "x": 636.6969858329545, 
+            "gene": "ko:K00128 ko:K14085 ko:K00149", 
+            "type": "R", 
+            "id": "53", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00274", 
+            "font_size": 12, 
+            "name": "N-methylhistamine:oxygen oxidoreductase (deaminating)", 
+            "rxn": " N-Methylhistamine + H2O + Oxygen <=> Methylimidazole acetaldehyde + Ammonia + Hydrogen peroxide", 
+            "kegg_id": "rn:R04674", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04674", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 130.08602187483507, 
+            "x": 575.559318940985, 
+            "gene": "ko:K00274", 
+            "type": "R", 
+            "id": "54", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00129", 
+            "font_size": 12, 
+            "name": "3-Methylimidazole acetaldehyde:NAD+ oxidoreductase", 
+            "rxn": " Methylimidazole acetaldehyde + NAD+ + H2O <=> Methylimidazoleacetic acid + NADH + H+", 
+            "kegg_id": "rn:R04996", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04996", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 55.300388936018805, 
+            "x": 575.559318940985, 
+            "gene": "ko:K00129", 
+            "type": "R", 
+            "id": "55", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K11182", 
+            "font_size": 12, 
+            "name": "1H-Imidazole-4-ethanamine:oxygen oxidoreductase (deaminating) (copper-containing)", 
+            "rxn": " Histamine + Oxygen + H2O <=> Imidazole-4-acetaldehyde + Ammonia + Hydrogen peroxide", 
+            "kegg_id": "rn:R02150", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02150", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 205.1526976063431, 
+            "x": 636.6969858329545, 
+            "gene": "ko:K11182", 
+            "type": "R", 
+            "id": "56", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00546", 
+            "font_size": 12, 
+            "name": "S-Adenosyl-L-methionine:histamine N-tele-methyltransferase", 
+            "rxn": " S-Adenosyl-L-methionine + Histamine <=> S-Adenosyl-L-homocysteine + N-Methylhistamine", 
+            "kegg_id": "rn:R02155", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02155", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 201.8802294960995, 
+            "x": 575.559318940985, 
+            "gene": "ko:K00546", 
+            "type": "R", 
+            "id": "57", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00765+K02502", 
+            "font_size": 12, 
+            "name": "1-(5-phospho-D-ribosyl)-ATP:diphosphate phospho-alpha-D-ribosyl-transferase", 
+            "rxn": " 1-(5-Phospho-D-ribosyl)-ATP + Diphosphate <=> ATP + 5-Phospho-alpha-D-ribose 1-diphosphate", 
+            "kegg_id": "rn:R01071", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01071", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": -169.3419342936125, 
+            "x": 841.9620626762344, 
+            "gene": "ko:K00765 ko:K02502", 
+            "type": "R", 
+            "id": "59", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00013+K14152", 
+            "font_size": 12, 
+            "name": "L-histidinal:NAD+ oxidoreductase", 
+            "rxn": " L-Histidinal + H2O + NAD+ <=> L-Histidine + NADH + H+", 
+            "kegg_id": "rn:R01163", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01163", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 563.7465380620557, 
+            "x": 715.5440419586408, 
+            "gene": "ko:K00013 ko:K14152", 
+            "type": "R", 
+            "id": "60", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00013+K14152", 
+            "font_size": 12, 
+            "name": "L-Histidinol:NAD+ oxidoreductase", 
+            "rxn": " L-Histidinol + NAD+ <=> L-Histidinal + NADH + H+", 
+            "kegg_id": "rn:R03012", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03012", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 563.7465380620557, 
+            "x": 842.1417572742704, 
+            "gene": "ko:K00013 ko:K14152", 
+            "type": "R", 
+            "id": "61", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01089+K04486+K05602+K18649", 
+            "font_size": 12, 
+            "name": "L-histidinol-phosphate phosphohydrolase", 
+            "rxn": " L-Histidinol phosphate + H2O <=> L-Histidinol + Orthophosphate", 
+            "kegg_id": "rn:R03013", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03013", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 465.64117156983275, 
+            "x": 841.9620626762344, 
+            "gene": "ko:K01089 ko:K04486 ko:K05602 ko:K18649", 
+            "type": "R", 
+            "id": "62", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00817", 
+            "font_size": 12, 
+            "name": "5-Amino-2-oxopentanoate:2-oxoglutarate aminotransferase", 
+            "rxn": " L-Histidinol phosphate + 2-Oxoglutarate <=> 3-(Imidazol-4-yl)-2-oxopropyl phosphate + L-Glutamate", 
+            "kegg_id": "rn:R03243", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03243", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 378.64348619956536, 
+            "x": 841.9620626762344, 
+            "gene": "ko:K00817", 
+            "type": "R", 
+            "id": "63", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01693+K01089", 
+            "font_size": 12, 
+            "name": "D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate hydro-lyase", 
+            "rxn": " D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate <=> 3-(Imidazol-4-yl)-2-oxopropyl phosphate + H2O", 
+            "kegg_id": "rn:R03457", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03457", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 288.64588064411635, 
+            "x": 841.9620626762344, 
+            "gene": "ko:K01693 ko:K01089", 
+            "type": "R", 
+            "id": "64", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01814+K24017", 
+            "font_size": 12, 
+            "name": "N-(5'-phospho-D-ribosylformimino)-5-amino-1- (5''-phospho-D-ribosyl)-4-imidazolecarboxamide ketol-isomerase", 
+            "rxn": " 5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide <=> N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide", 
+            "kegg_id": "rn:R04640", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04640", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 92.65838967392213, 
+            "x": 841.9620626762344, 
+            "gene": "ko:K01814 ko:K24017", 
+            "type": "R", 
+            "id": "66", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01496+K11755+K14152", 
+            "font_size": 12, 
+            "name": "1-(5-phospho-D-ribosyl)-AMP 1,6-hydrolase", 
+            "rxn": " Phosphoribosyl-AMP + H2O <=> 5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide", 
+            "kegg_id": "rn:R04037", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04037", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 4.6534364469217735, 
+            "x": 841.9620626762344, 
+            "gene": "ko:K01496 ko:K11755 ko:K14152", 
+            "type": "R", 
+            "id": "67", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01523+K11755+K14152", 
+            "font_size": 12, 
+            "name": "Phosphoribosyl-ATP pyrophosphohydrolase", 
+            "rxn": " 1-(5-Phospho-D-ribosyl)-ATP + H2O <=> Phosphoribosyl-AMP + Diphosphate", 
+            "kegg_id": "rn:R04035", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04035", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": -82.34424892334539, 
+            "x": 841.9620626762344, 
+            "gene": "ko:K01523 ko:K11755 ko:K14152", 
+            "type": "R", 
+            "id": "68", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K02500+K02501+K01663", 
+            "font_size": 12, 
+            "name": "5-[(5-phospho-1-deoxy-D-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-beta-D-ribosyl)imidazole-4-carboxamide D-erythro-1-(imidazol-4-yl)glycerol 3-phosphate-lyase (L-glutamine-hydrolysing", 
+            "rxn": " N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide + L-Glutamine <=> D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate + 1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide + L-Glutamate", 
+            "kegg_id": "rn:R04558", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04558", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 180.61986366364798, 
+            "x": 841.9620626762344, 
+            "gene": "ko:K02500 ko:K02501 ko:K01663", 
+            "type": "R", 
+            "id": "70", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05604", 
+            "font_size": 12, 
+            "name": "Nalpha-(beta-alanyl)-L-histidine hydrolase", 
+            "rxn": " Carnosine + H2O <=> beta-Alanine + L-Histidine", 
+            "kegg_id": "rn:R01166", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01166", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 327.1857339170714, 
+            "x": 664.7932297902537, 
+            "gene": "ko:K05604", 
+            "type": "R", 
+            "id": "74", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K14755", 
+            "font_size": 12, 
+            "name": "N(pi)-methyl-L-histidine:beta-alanine ligase (ADP-forming)", 
+            "rxn": " ATP + N(pi)-Methyl-L-histidine + beta-Alanine <=> ADP + Orthophosphate + beta-Alanyl-N(pi)-methyl-L-histidine", 
+            "kegg_id": "rn:R03286", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03286", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 418.9382106095976, 
+            "x": 754.0253694601381, 
+            "gene": "ko:K14755", 
+            "type": "R", 
+            "id": "75", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01437", 
+            "font_size": 12, 
+            "name": "N-Formyl-L-aspartate amidohydrolase", 
+            "rxn": " N-Formyl-L-aspartate + H2O <=> Formate + L-Aspartate", 
+            "kegg_id": "rn:R00526", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00526", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": -165.0685933147774, 
+            "x": 471.22553012900187, 
+            "gene": "ko:K01437", 
+            "type": "R", 
+            "id": "77", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "5-Phospho-alpha-D-ribose 1-diphosphate", 
+            "kegg_id": "cpd:C00119", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00119", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": -212.33349581954377, 
+            "x": 841.9620626762344, 
+            "type": "M", 
+            "id": "81", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "1-(5-Phospho-D-ribosyl)-ATP", 
+            "kegg_id": "cpd:C02739", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C02739", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": -124.3358370542162, 
+            "x": 841.9620626762344, 
+            "type": "M", 
+            "id": "82", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "Phosphoribosyl-AMP", 
+            "kegg_id": "cpd:C02741", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C02741", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": -36.338178288888116, 
+            "x": 841.9620626762344, 
+            "type": "M", 
+            "id": "83", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide", 
+            "kegg_id": "cpd:C04896", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04896", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 51.65948047643968, 
+            "x": 841.9620626762344, 
+            "type": "M", 
+            "id": "84", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide", 
+            "kegg_id": "cpd:C04916", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04916", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 139.6571392417676, 
+            "x": 841.9620626762344, 
+            "type": "M", 
+            "id": "85", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide", 
+            "kegg_id": "cpd:C04677", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04677", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 180.61986366364798, 
+            "x": 893.6180206909548, 
+            "type": "M", 
+            "id": "86", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate", 
+            "kegg_id": "cpd:C04666", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04666", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 247.6542659083064, 
+            "x": 841.9620626762344, 
+            "type": "M", 
+            "id": "87", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "3-(Imidazol-4-yl)-2-oxopropyl phosphate", 
+            "kegg_id": "cpd:C01267", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01267", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 335.6519246736344, 
+            "x": 841.9620626762344, 
+            "type": "M", 
+            "id": "88", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "L-Histidinol phosphate", 
+            "kegg_id": "cpd:C01100", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01100", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 423.6495834389624, 
+            "x": 841.9620626762344, 
+            "type": "M", 
+            "id": "89", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "L-Histidinol", 
+            "kegg_id": "cpd:C00860", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00860", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 511.64724220429025, 
+            "x": 841.9620626762344, 
+            "type": "M", 
+            "id": "90", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "L-Aspartate", 
+            "kegg_id": "cpd:C00049", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00049", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": -197.3610369051533, 
+            "x": 471.22553012900187, 
+            "type": "M", 
+            "id": "91", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "N-Formyl-L-aspartate", 
+            "kegg_id": "cpd:C01044", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01044", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": -113.8285412030794, 
+            "x": 471.22553012900187, 
+            "type": "M", 
+            "id": "92", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "Imidazole-4-acetate", 
+            "kegg_id": "cpd:C02835", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C02835", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 53.16403601881234, 
+            "x": 636.6969858329545, 
+            "type": "M", 
+            "id": "97", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "Imidazole-4-acetaldehyde", 
+            "kegg_id": "cpd:C05130", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C05130", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 140.16156175944292, 
+            "x": 636.6969858329545, 
+            "type": "M", 
+            "id": "98", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "Histamine", 
+            "kegg_id": "cpd:C00388", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00388", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 255.15866182104253, 
+            "x": 636.6969858329545, 
+            "type": "M", 
+            "id": "99", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "L-Histidinal", 
+            "kegg_id": "cpd:C01929", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01929", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 563.7465380620557, 
+            "x": 769.4504699374269, 
+            "type": "M", 
+            "id": "100", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "N(pi)-Methyl-L-histidine", 
+            "kegg_id": "cpd:C01152", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01152", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 466.02111572275265, 
+            "x": 754.0253694601381, 
+            "type": "M", 
+            "id": "101", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "beta-Alanyl-N(pi)-methyl-L-histidine", 
+            "kegg_id": "cpd:C01262", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01262", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 367.023749611759, 
+            "x": 754.0253694601381, 
+            "type": "M", 
+            "id": "102", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "Carnosine", 
+            "kegg_id": "cpd:C00386", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00386", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": -13.9, 
+            "y": 327.1857339170714, 
+            "x": 714.0383652117494, 
+            "type": "M", 
+            "id": "103", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "L-Histidine", 
+            "kegg_id": "cpd:C00135", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00135", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": -13.9, 
+            "y": 563.7465380620557, 
+            "x": 636.6969858329545, 
+            "type": "M", 
+            "id": "104", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "N-Methylhistamine", 
+            "kegg_id": "cpd:C05127", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C05127", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 162.07011179189197, 
+            "x": 575.559318940985, 
+            "type": "M", 
+            "id": "105", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "Ergothioneine", 
+            "kegg_id": "cpd:C05570", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C05570", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 922.6724887328181, 
+            "x": 636.6969858329545, 
+            "type": "M", 
+            "id": "110", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "Hercynine", 
+            "kegg_id": "cpd:C05575", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C05575", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 652.6869665281449, 
+            "x": 636.6969858329545, 
+            "type": "M", 
+            "id": "111", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "Urocanate", 
+            "kegg_id": "cpd:C00785", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00785", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": -13.9, 
+            "y": 621.3377427246285, 
+            "x": 526.2170961643467, 
+            "type": "M", 
+            "id": "112", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "4-Imidazolone-5-propanoate", 
+            "kegg_id": "cpd:C03680", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C03680", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 691.3963336788256, 
+            "x": 526.9368202124726, 
+            "type": "M", 
+            "id": "117", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "N-Formimino-L-glutamate", 
+            "kegg_id": "cpd:C00439", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00439", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 766.1160427118714, 
+            "x": 525.0737609078944, 
+            "type": "M", 
+            "id": "118", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "N-Formyl-L-glutamate", 
+            "kegg_id": "cpd:C01045", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01045", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 873.8261409177383, 
+            "x": 522.4327393619328, 
+            "type": "M", 
+            "id": "120", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "L-Glutamate", 
+            "kegg_id": "cpd:C00025", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00025", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": -13.9, 
+            "y": 766.1160427118714, 
+            "x": 445.9363747396276, 
+            "type": "M", 
+            "id": "121", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "Methylimidazole acetaldehyde", 
+            "kegg_id": "cpd:C05827", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C05827", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 89.27876239811013, 
+            "x": 575.559318940985, 
+            "type": "M", 
+            "id": "122", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "Methylimidazoleacetic acid", 
+            "kegg_id": "cpd:C05828", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C05828", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 16.48741300432914, 
+            "x": 575.559318940985, 
+            "type": "M", 
+            "id": "123", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "Dihydrourocanate", 
+            "kegg_id": "cpd:C20522", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C20522", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 674.9018823166489, 
+            "x": 559.0548987774998, 
+            "type": "M", 
+            "id": "145", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K17363", 
+            "font_size": 12, 
+            "name": "dihydrourocanate:acceptor oxidoreductase", 
+            "rxn": " Dihydrourocanate + Acceptor <=> Urocanate + Reduced acceptor", 
+            "kegg_id": "rn:R10330", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10330", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 621.3377427246285, 
+            "x": 559.0548987774998, 
+            "gene": "ko:K17363", 
+            "type": "R", 
+            "id": "146", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K20246+K18911", 
+            "font_size": 12, 
+            "name": "S-adenosyl-L-methionine:L-histidine Nalpha-methyltransferase", 
+            "rxn": " L-Histidine + 3 S-Adenosyl-L-methionine + H+ <=> Hercynine + 3 S-Adenosyl-L-homocysteine", 
+            "kegg_id": "rn:R01169", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01169", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 602.6810023134453, 
+            "x": 636.6969858329545, 
+            "gene": "ko:K20246 ko:K18911", 
+            "type": "R", 
+            "id": "147", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K18912", 
+            "font_size": 12, 
+            "name": "hercynine,gamma-L-glutamyl-L-cysteine:oxygen oxidoreductase [gamma-L-glutamyl-S-(hercyn-2-yl)-L-cysteine S-oxide-forming]", 
+            "rxn": " Hercynine + gamma-L-Glutamyl-L-cysteine + Oxygen <=> gamma-L-Glutamyl-S-(hercyn-2-yl)-L-cysteine S-oxide + H2O", 
+            "kegg_id": "rn:R11013", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R11013", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 692.6786078688945, 
+            "x": 636.6969858329545, 
+            "gene": "ko:K18912", 
+            "type": "R", 
+            "id": "148", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "gamma-L-Glutamyl-S-(hercyn-2-yl)-L-cysteine S-oxide", 
+            "kegg_id": "cpd:C20995", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C20995", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 743.6845454786544, 
+            "x": 636.6969858329545, 
+            "type": "M", 
+            "id": "149", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K07008", 
+            "font_size": 12, 
+            "name": "S-gamma-glutamyl hercynylcysteine S-oxide amidohydrolase", 
+            "rxn": " gamma-L-Glutamyl-S-(hercyn-2-yl)-L-cysteine S-oxide + H2O <=> S-(Hercyn-2-yl)-L-cysteine S-oxide + L-Glutamate", 
+            "kegg_id": "rn:R11021", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R11021", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 783.6761868194038, 
+            "x": 636.6969858329545, 
+            "gene": "ko:K07008", 
+            "type": "R", 
+            "id": "151", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "font_size": 12, 
+            "name": "S-(Hercyn-2-yl)-L-cysteine S-oxide", 
+            "kegg_id": "cpd:C20994", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C20994", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 833.6821510341031, 
+            "x": 636.6969858329545, 
+            "type": "M", 
+            "id": "152", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K20247+K18913", 
+            "font_size": 12, 
+            "name": "S-(hercyn-2-yl)-L-cysteine-S-oxide ergothioneine-lyase (deaminating", 
+            "rxn": " S-(Hercyn-2-yl)-L-cysteine S-oxide + Reduced acceptor <=> Ergothioneine + Pyruvate + Ammonia + Acceptor", 
+            "kegg_id": "rn:R11023", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R11023", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 875.6737391649735, 
+            "x": 636.6969858329545, 
+            "gene": "ko:K20247 ko:K18913", 
+            "type": "R", 
+            "id": "154", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K20246", 
+            "font_size": 12, 
+            "name": "hercynine,L-cysteine:oxygen [S-(hercyn-2-yl)-L-cysteine S-oxide-forming]", 
+            "rxn": " Hercynine + L-Cysteine + Oxygen <=> S-(Hercyn-2-yl)-L-cysteine S-oxide + H2O", 
+            "kegg_id": "rn:R11014", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R11014", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 742.4365603867379, 
+            "x": 603.4729364228727, 
+            "gene": "ko:K20246", 
+            "type": "R", 
+            "id": "156", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Histidine metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01590", 
+            "font_size": 12, 
+            "name": "L-histidine carboxy-lyase (histamine-forming)", 
+            "rxn": " L-Histidine <=> Histamine + CO2", 
+            "kegg_id": "rn:R01167", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01167", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 327.1857339170714, 
+            "x": 636.6969858329545, 
+            "gene": "ko:K01590", 
+            "type": "R", 
+            "id": "157", 
+            "fill": "#d3d3d3"
+        }
+    ], 
+    "pathway": {
+        "name": "path:ko00340", 
+        "title": "Histidine metabolism", 
+        "image": "https://www.kegg.jp/kegg/pathway/ko/ko00340.png", 
+        "number": "00340", 
+        "link": "https://www.kegg.jp/kegg-bin/show_pathway?ko00340", 
+        "org": "ko"
+    }
+}

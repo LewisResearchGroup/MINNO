@@ -1,0 +1,2318 @@
+{
+    "reaction": [
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "25", 
+                    "name": "cpd:C22159"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C05752"
+                }
+            ], 
+            "id": "9", 
+            "name": "rn:R12428"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C15973"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "16", 
+                    "name": "cpd:C22160"
+                }
+            ], 
+            "id": "12", 
+            "name": "rn:R12423"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "16", 
+                    "name": "cpd:C22160"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C05752"
+                }
+            ], 
+            "id": "13", 
+            "name": "rn:R12427"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "17", 
+                    "name": "cpd:C15972"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "14", 
+                    "name": "cpd:C16241"
+                }
+            ], 
+            "id": "24", 
+            "name": "rn:R12449"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C16238"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "14", 
+                    "name": "cpd:C16241"
+                }
+            ], 
+            "id": "23", 
+            "name": "rn:R07770"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "17", 
+                    "name": "cpd:C15972"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "15", 
+                    "name": "cpd:C16238"
+                }
+            ], 
+            "id": "22", 
+            "name": "rn:R12450"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "16", 
+                    "name": "cpd:C22160"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "26", 
+                    "name": "cpd:C06423"
+                }
+            ], 
+            "id": "27", 
+            "name": "rn:R12429"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "16", 
+                    "name": "cpd:C22160"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "25", 
+                    "name": "cpd:C22159"
+                }
+            ], 
+            "id": "44", 
+            "name": "rn:R12425"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "16", 
+                    "name": "cpd:C22160"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "30", 
+                    "name": "cpd:C01944"
+                }
+            ], 
+            "id": "31", 
+            "name": "rn:R12431"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "34", 
+                    "name": "cpd:C02051"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "14", 
+                    "name": "cpd:C16241"
+                }
+            ], 
+            "id": "33", 
+            "name": "rn:R12433"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "17", 
+                    "name": "cpd:C15972"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "34", 
+                    "name": "cpd:C02051"
+                }
+            ], 
+            "id": "36", 
+            "name": "rn:R12426"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "38", 
+                    "name": "cpd:C02972"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "25", 
+                    "name": "cpd:C22159"
+                }
+            ], 
+            "id": "40", 
+            "name": "rn:R12424"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C15973"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "38", 
+                    "name": "cpd:C02972"
+                }
+            ], 
+            "id": "42", 
+            "name": "rn:R12432"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "16", 
+                    "name": "cpd:C22160"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C05752"
+                }
+            ], 
+            "id": "45", 
+            "name": "rn:R12427"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "25", 
+                    "name": "cpd:C22159"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C05752"
+                }
+            ], 
+            "id": "47", 
+            "name": "rn:R12428"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "51", 
+                    "name": "cpd:C22161"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "48", 
+                    "name": "cpd:C02147"
+                }
+            ], 
+            "id": "50", 
+            "name": "rn:R12434"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "17", 
+                    "name": "cpd:C15972"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "51", 
+                    "name": "cpd:C22161"
+                }
+            ], 
+            "id": "53", 
+            "name": "rn:R12435"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C15973"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "38", 
+                    "name": "cpd:C02972"
+                }
+            ], 
+            "id": "54", 
+            "name": "rn:R12432"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "38", 
+                    "name": "cpd:C02972"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "25", 
+                    "name": "cpd:C22159"
+                }
+            ], 
+            "id": "56", 
+            "name": "rn:R12691"
+        }
+    ], 
+    "links": [
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M244,179L324.9433974530461,222.23113273060414", 
+            "kegg_id": "rn:R12428", 
+            "source": "37", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "9", 
+            "target": "9"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M332,226L353.30452464930426,266.90468732666415", 
+            "kegg_id": "rn:R12428", 
+            "source": "9", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "9", 
+            "target": "25"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M244,274L244.8298257480754,313.0018101595435", 
+            "kegg_id": "rn:R12423", 
+            "source": "16", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "12", 
+            "target": "12"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M245,321L244.16663050945468,361.0017355461751", 
+            "kegg_id": "rn:R12423", 
+            "source": "12", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "12", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M244,179L222.75690378382671,218.93702088640578", 
+            "kegg_id": "rn:R12427", 
+            "source": "37", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "13", 
+            "target": "13"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M219,226L240.30452464930426,266.90468732666415", 
+            "kegg_id": "rn:R12427", 
+            "source": "13", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "13", 
+            "target": "16"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M614,179L709.2014381290414,269.4884956474057", 
+            "kegg_id": "rn:R12449", 
+            "source": "14", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "24", 
+            "target": "24"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M715,275L619.8561488345275,363.54972286687536", 
+            "kegg_id": "rn:R12449", 
+            "source": "24", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "24", 
+            "target": "17"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M614,179L614.8298257480753,218.00181015954348", 
+            "kegg_id": "rn:R07770", 
+            "source": "14", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "23", 
+            "target": "23"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M615,226L614.1666305094546,266.0017355461751", 
+            "kegg_id": "rn:R07770", 
+            "source": "23", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "23", 
+            "target": "15"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M614,274L614.8298257480753,313.0018101595435", 
+            "kegg_id": "rn:R12450", 
+            "source": "15", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "22", 
+            "target": "22"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M615,321L614.1666305094546,361.0017355461751", 
+            "kegg_id": "rn:R12450", 
+            "source": "22", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "22", 
+            "target": "17"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M74,274L107.00237847485559,274.8049360603623", 
+            "kegg_id": "rn:R12429", 
+            "source": "26", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "27", 
+            "target": "27"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M115,275L236.00024035933725,274.0620136406253", 
+            "kegg_id": "rn:R12429", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "27", 
+            "target": "16"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M357,274L310.99862861060103,274.85187724795185", 
+            "kegg_id": "rn:R12425", 
+            "source": "25", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "44", 
+            "target": "44"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M303,275L251.9988511524318,274.1355737483463", 
+            "kegg_id": "rn:R12425", 
+            "source": "44", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "44", 
+            "target": "16"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M144,179L144,218", 
+            "kegg_id": "rn:R12431", 
+            "source": "30", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "31", 
+            "target": "31"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M144,226L236.7878155402538,270.53815145932185", 
+            "kegg_id": "rn:R12431", 
+            "source": "31", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "31", 
+            "target": "16"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M614,179L807.7811038617567,271.55216900860023", 
+            "kegg_id": "rn:R12433", 
+            "source": "14", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "33", 
+            "target": "33"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M815,275L814.0851015674989,361.00045265510545", 
+            "kegg_id": "rn:R12433", 
+            "source": "33", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "33", 
+            "target": "34"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M814,369L761.9988891203168,369.8666851813281", 
+            "kegg_id": "rn:R12426", 
+            "source": "34", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "36", 
+            "target": "36"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M754,370L806.0011108796832,369.1333148186719", 
+            "kegg_id": "rn:R12426", 
+            "source": "36", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "36", 
+            "target": "34"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M754,370L621.9997959261763,369.0571413994727", 
+            "kegg_id": "rn:R12426", 
+            "source": "36", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "36", 
+            "target": "17"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M614,369L746.0002040738237,369.9428586005273", 
+            "kegg_id": "rn:R12426", 
+            "source": "17", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "36", 
+            "target": "36"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M357,274L335.7569037838267,313.9370208864058", 
+            "kegg_id": "rn:R12424", 
+            "source": "25", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "40", 
+            "target": "40"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M332,321L353.30452464930426,361.90468732666415", 
+            "kegg_id": "rn:R12424", 
+            "source": "40", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "40", 
+            "target": "38"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M357,369L310.83901238966416,378.4031641428462", 
+            "kegg_id": "rn:R12432", 
+            "source": "38", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "42"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M303,380L251.864482391554,370.46625942893377", 
+            "kegg_id": "rn:R12432", 
+            "source": "42", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "42", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M244,179L265.2430962161733,218.93702088640578", 
+            "kegg_id": "rn:R12427", 
+            "source": "37", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "45"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M269,226L247.69547535069574,266.90468732666415", 
+            "kegg_id": "rn:R12427", 
+            "source": "45", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "16"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M244,179L374.427157014864,223.42084333114934", 
+            "kegg_id": "rn:R12428", 
+            "source": "37", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "47", 
+            "target": "47"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M382,226L360.69547535069574,266.90468732666415", 
+            "kegg_id": "rn:R12428", 
+            "source": "47", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "47", 
+            "target": "25"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M515,179L515.8298257480753,218.00181015954348", 
+            "kegg_id": "rn:R12434", 
+            "source": "48", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "50", 
+            "target": "50"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M516,226L515.1666305094546,266.0017355461751", 
+            "kegg_id": "rn:R12434", 
+            "source": "50", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "50", 
+            "target": "51"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M515,274L515.8298257480753,313.0018101595435", 
+            "kegg_id": "rn:R12435", 
+            "source": "51", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "53", 
+            "target": "53"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M516,321L606.8154983361023,365.4810604095195", 
+            "kegg_id": "rn:R12435", 
+            "source": "53", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "53", 
+            "target": "17"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M357,369L310.8662560398757,360.4567140814585", 
+            "kegg_id": "rn:R12432", 
+            "source": "38", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "54", 
+            "target": "54"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M303,359L251.8875084610757,367.6631341591397", 
+            "kegg_id": "rn:R12432", 
+            "source": "54", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "54", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M357,274L378.2430962161733,313.9370208864058", 
+            "kegg_id": "rn:R12691", 
+            "source": "25", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "56", 
+            "target": "56"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lipoic acid metabolism", 
+            "strength": "2", 
+            "d": "M382,321L360.69547535069574,361.90468732666415", 
+            "kegg_id": "rn:R12691", 
+            "source": "56", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "56", 
+            "target": "38"
+        }
+    ], 
+    "labels": [], 
+    "boxes": [], 
+    "relation": [
+        {
+            "entry2": "13", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "11", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "45", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "11", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "9", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "11", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "47", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "11", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "47", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "13", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "9", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "47", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "44", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "13", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "12", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "13", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "27", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "13", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "13", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "44", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "12", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "27", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "12", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "44", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "27", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "44", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "44", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "27", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "12", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "12", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "31", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "27", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "44", 
+            "subtype": {
+                "name": "compound", 
+                "value": "25"
+            }, 
+            "entry1": "9", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "40", 
+            "subtype": {
+                "name": "compound", 
+                "value": "25"
+            }, 
+            "entry1": "9", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "44", 
+            "subtype": {
+                "name": "compound", 
+                "value": "25"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "40", 
+            "subtype": {
+                "name": "compound", 
+                "value": "25"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "40", 
+            "subtype": {
+                "name": "compound", 
+                "value": "25"
+            }, 
+            "entry1": "44", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "42", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "12", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "40", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "42", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "22", 
+            "subtype": {
+                "name": "compound", 
+                "value": "15"
+            }, 
+            "entry1": "23", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "53", 
+            "subtype": {
+                "name": "compound", 
+                "value": "51"
+            }, 
+            "entry1": "50", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "24", 
+            "subtype": {
+                "name": "compound", 
+                "value": "14"
+            }, 
+            "entry1": "23", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "33", 
+            "subtype": {
+                "name": "compound", 
+                "value": "14"
+            }, 
+            "entry1": "23", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "34"
+            }, 
+            "entry1": "33", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "53", 
+            "subtype": {
+                "name": "compound", 
+                "value": "17"
+            }, 
+            "entry1": "22", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "24", 
+            "subtype": {
+                "name": "compound", 
+                "value": "17"
+            }, 
+            "entry1": "22", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "17"
+            }, 
+            "entry1": "22", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "24", 
+            "subtype": {
+                "name": "compound", 
+                "value": "17"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "17"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "36", 
+            "subtype": {
+                "name": "compound", 
+                "value": "17"
+            }, 
+            "entry1": "24", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "54", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "12", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "40", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "44", 
+            "subtype": {
+                "name": "compound", 
+                "value": "25"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "9", 
+            "subtype": {
+                "name": "compound", 
+                "value": "25"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "47", 
+            "subtype": {
+                "name": "compound", 
+                "value": "25"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "54", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "42", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }
+    ], 
+    "entry": [
+        {
+            "reaction": "rn:R12428", 
+            "name": "ko:K03801", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03801", 
+            "graphics": {
+                "name": "K03801", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "226", 
+                "x": "332", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "9"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00785", 
+            "id": "10", 
+            "name": "path:ko00785", 
+            "graphics": {
+                "name": "TITLE:Lipoic acid metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "200", 
+                "y": "58", 
+                "x": "140", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00061", 
+            "id": "11", 
+            "name": "path:ko00061", 
+            "graphics": {
+                "name": "Fatty acid biosynthesis", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "86", 
+                "y": "123", 
+                "x": "173", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R12423", 
+            "name": "ko:K03644", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03644", 
+            "graphics": {
+                "name": "K03644", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "321", 
+                "x": "245", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "12"
+        }, 
+        {
+            "reaction": "rn:R12427", 
+            "name": "ko:K03801 ko:K23763", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03801+K23763", 
+            "graphics": {
+                "name": "K03801...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "226", 
+                "x": "219", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "13"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C16241", 
+            "id": "14", 
+            "name": "cpd:C16241", 
+            "graphics": {
+                "name": "C16241", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "179", 
+                "x": "614", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C16238", 
+            "id": "15", 
+            "name": "cpd:C16238", 
+            "graphics": {
+                "name": "C16238", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "274", 
+                "x": "614", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C22160", 
+            "id": "16", 
+            "name": "cpd:C22160", 
+            "graphics": {
+                "name": "C22160", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "274", 
+                "x": "244", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C15972", 
+            "id": "17", 
+            "name": "cpd:C15972", 
+            "graphics": {
+                "name": "C15972", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "369", 
+                "x": "614", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R12450", 
+            "name": "ko:K10105", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10105", 
+            "graphics": {
+                "name": "K10105", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "321", 
+                "x": "615", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "22"
+        }, 
+        {
+            "reaction": "rn:R07770", 
+            "name": "ko:K23756", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K23756", 
+            "graphics": {
+                "name": "K23756", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "226", 
+                "x": "615", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "23"
+        }, 
+        {
+            "reaction": "rn:R12449", 
+            "name": "ko:K03800", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03800", 
+            "graphics": {
+                "name": "K03800", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "275", 
+                "x": "715", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "24"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C22159", 
+            "id": "25", 
+            "name": "cpd:C22159", 
+            "graphics": {
+                "name": "C22159", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "274", 
+                "x": "357", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06423", 
+            "id": "26", 
+            "name": "cpd:C06423", 
+            "graphics": {
+                "name": "C06423", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "274", 
+                "x": "74", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R12429", 
+            "name": "ko:K03800", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03800", 
+            "graphics": {
+                "name": "K03800", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "275", 
+                "x": "115", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "27"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C15973", 
+            "id": "28", 
+            "name": "cpd:C15973", 
+            "graphics": {
+                "name": "C15973", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "369", 
+                "x": "244", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01944", 
+            "id": "30", 
+            "name": "cpd:C01944", 
+            "graphics": {
+                "name": "C01944", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "179", 
+                "x": "144", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R12431", 
+            "name": "ko:K23750", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K23750", 
+            "graphics": {
+                "name": "K23750", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "226", 
+                "x": "144", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "31"
+        }, 
+        {
+            "reaction": "rn:R12433", 
+            "name": "ko:K03800", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03800", 
+            "graphics": {
+                "name": "K03800", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "275", 
+                "x": "815", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "33"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02051", 
+            "id": "34", 
+            "name": "cpd:C02051", 
+            "graphics": {
+                "name": "C02051", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "369", 
+                "x": "814", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R12426", 
+            "name": "ko:K18821", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18821", 
+            "graphics": {
+                "name": "K18821", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "370", 
+                "x": "754", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "36"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05752", 
+            "id": "37", 
+            "name": "cpd:C05752", 
+            "graphics": {
+                "name": "C05752", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "179", 
+                "x": "244", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02972", 
+            "id": "38", 
+            "name": "cpd:C02972", 
+            "graphics": {
+                "name": "C02972", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "369", 
+                "x": "357", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R12424", 
+            "name": "ko:K03644", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03644", 
+            "graphics": {
+                "name": "K03644", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "321", 
+                "x": "332", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "40"
+        }, 
+        {
+            "reaction": "rn:R12432", 
+            "name": "ko:K10105", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10105", 
+            "graphics": {
+                "name": "K10105", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "380", 
+                "x": "303", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "42"
+        }, 
+        {
+            "reaction": "rn:R12425", 
+            "name": "ko:K16869", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K16869", 
+            "graphics": {
+                "name": "K16869", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "275", 
+                "x": "303", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "44"
+        }, 
+        {
+            "reaction": "rn:R12427", 
+            "name": "ko:K10105", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10105", 
+            "graphics": {
+                "name": "K10105", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "226", 
+                "x": "269", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "45"
+        }, 
+        {
+            "reaction": "rn:R12428", 
+            "name": "ko:K23735 ko:K23734", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K23735+K23734", 
+            "graphics": {
+                "name": "K23735...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "226", 
+                "x": "382", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "47"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C02147", 
+            "id": "48", 
+            "name": "cpd:C02147", 
+            "graphics": {
+                "name": "C02147", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "179", 
+                "x": "515", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R12434", 
+            "name": "ko:K03800", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03800", 
+            "graphics": {
+                "name": "K03800", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "226", 
+                "x": "516", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "50"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C22161", 
+            "id": "51", 
+            "name": "cpd:C22161", 
+            "graphics": {
+                "name": "C22161", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "274", 
+                "x": "515", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R12435", 
+            "name": "ko:K23763", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K23763", 
+            "graphics": {
+                "name": "K23763", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "321", 
+                "x": "516", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "53"
+        }, 
+        {
+            "reaction": "rn:R12432", 
+            "name": "ko:K16869", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K16869", 
+            "graphics": {
+                "name": "K16869", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "359", 
+                "x": "303", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "54"
+        }, 
+        {
+            "reaction": "rn:R12691", 
+            "name": "ko:K09711 ko:K24689", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K09711+K24689", 
+            "graphics": {
+                "name": "K09711...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "321", 
+                "x": "382", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "56"
+        }
+    ], 
+    "nodes": [
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03801", 
+            "font_size": 12, 
+            "name": "octanoyl-[acp]:Glycine-cleavage-system-H N-octanoyltransferase", 
+            "rxn": " Octanoyl-[acp] + Glycine cleavage system H <=> [Glycine cleavage system H]-N6-octanoyl-L-lysine + Acyl-carrier protein", 
+            "kegg_id": "rn:R12428", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12428", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 183.21060333251955, 
+            "x": 355.85130310058594, 
+            "gene": "ko:K03801", 
+            "type": "R", 
+            "id": "9", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03644", 
+            "font_size": 12, 
+            "name": "[lipoyl-carrier protein E2]-N6-(octanoyl)-L-lysine:[Fe-S] cluster scaffold protein carrying a [4Fe-4S]2+ cluster sulfurtransferase", 
+            "rxn": " [Lipoyl-carrier protein E2]-N6-octanoyl-L-lysine + [Fe-S] cluster scaffold protein carrying a [4Fe-4S]2+ cluster + 2 S-Adenosyl-L-methionine + 2 Reduced [2Fe-2S] ferredoxin + 8 H+ <=> Enzyme N6-(dihydrolipoyl)lysine + [Fe-S] cluster scaffold protein + 2 Hydrogen sulfide + 4 Fe2+ + 2 L-Methionine + 2 5'-Deoxyadenosine + 2 Oxidized [2Fe-2S] ferredoxin", 
+            "kegg_id": "rn:R12423", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12423", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 325, 
+            "x": 239.69423675537112, 
+            "gene": "ko:K03644", 
+            "type": "R", 
+            "id": "12", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03801+K23763", 
+            "font_size": 12, 
+            "name": "octanoyl-[acp]:lipoyl-carrier-protein-E2 N-octanoyltransferase", 
+            "rxn": " Octanoyl-[acp] + Lipoyl-carrier protein E2 <=> [Lipoyl-carrier protein E2]-N6-octanoyl-L-lysine + Acyl-carrier protein", 
+            "kegg_id": "rn:R12427", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12427", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 229.64610595703124, 
+            "x": 239.69423675537112, 
+            "gene": "ko:K03801 ko:K23763", 
+            "type": "R", 
+            "id": "13", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "font_size": 12, 
+            "name": "(R)-Lipoate", 
+            "kegg_id": "cpd:C16241", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C16241", 
+            "r": 8, 
+            "dx": 7.8, 
+            "dy": -5.8, 
+            "y": 179, 
+            "x": 614.4, 
+            "type": "M", 
+            "id": "14", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "font_size": 12, 
+            "name": "Lipoyl-AMP", 
+            "kegg_id": "cpd:C16238", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C16238", 
+            "r": 8, 
+            "dx": 7.8, 
+            "dy": 0.4, 
+            "y": 274.88888888888886, 
+            "x": 614.4, 
+            "type": "M", 
+            "id": "15", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "font_size": 12, 
+            "name": "[Lipoyl-carrier protein E2]-N6-octanoyl-L-lysine", 
+            "kegg_id": "cpd:C22160", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C22160", 
+            "r": 8, 
+            "dx": 7.8, 
+            "dy": 18.7, 
+            "y": 274.88888888888886, 
+            "x": 239.69423675537112, 
+            "type": "M", 
+            "id": "16", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "font_size": 12, 
+            "name": "Enzyme N6-(lipoyl)lysine", 
+            "kegg_id": "cpd:C15972", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C15972", 
+            "r": 8, 
+            "dx": 7.8, 
+            "dy": 16.2, 
+            "y": 369.3333333333333, 
+            "x": 614.4, 
+            "type": "M", 
+            "id": "17", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K10105", 
+            "font_size": 12, 
+            "name": "Lipoyl-AMP + Lipoyl-carrier protein E2 <=> Enzyme N6-(lipoyl)lysine + AMP", 
+            "rxn": "Lipoyl-AMP + Lipoyl-carrier protein E2 <=> Enzyme N6-(lipoyl)lysine + AMP", 
+            "kegg_id": "rn:R12450", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12450", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 321, 
+            "x": 614.4, 
+            "gene": "ko:K10105", 
+            "type": "R", 
+            "id": "22", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K23756", 
+            "font_size": 12, 
+            "name": "ATP + (R)-Lipoate <=> Diphosphate + Lipoyl-AMP", 
+            "rxn": "ATP + (R)-Lipoate <=> Diphosphate + Lipoyl-AMP", 
+            "kegg_id": "rn:R07770", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R07770", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 226, 
+            "x": 614.4, 
+            "gene": "ko:K23756", 
+            "type": "R", 
+            "id": "23", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03800", 
+            "font_size": 12, 
+            "name": "[lipoyl-carrier protein E2]-L-lysine:(R)-lipoate ligase (AMP-forming)", 
+            "rxn": " ATP + (R)-Lipoate + Lipoyl-carrier protein E2 <=> Enzyme N6-(lipoyl)lysine + AMP + Diphosphate", 
+            "kegg_id": "rn:R12449", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12449", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 271.44281344943573, 
+            "x": 698.918212890625, 
+            "gene": "ko:K03800", 
+            "type": "R", 
+            "id": "24", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "font_size": 12, 
+            "name": "[Glycine cleavage system H]-N6-octanoyl-L-lysine", 
+            "kegg_id": "cpd:C22159", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C22159", 
+            "r": 8, 
+            "dx": 7.8, 
+            "dy": -17.9, 
+            "y": 274.88888888888886, 
+            "x": 355.85130310058594, 
+            "type": "M", 
+            "id": "25", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "font_size": 12, 
+            "name": "Octanoic acid", 
+            "kegg_id": "cpd:C06423", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C06423", 
+            "r": 8, 
+            "dx": 7.8, 
+            "dy": -8.8, 
+            "y": 274.88888888888886, 
+            "x": 74, 
+            "type": "M", 
+            "id": "26", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03800", 
+            "font_size": 12, 
+            "name": "[lipoyl-carrier protein E2]-L-lysine:octanoate ligase (AMP-forming)", 
+            "rxn": " ATP + Octanoic acid + Lipoyl-carrier protein E2 <=> [Lipoyl-carrier protein E2]-N6-octanoyl-L-lysine + AMP + Diphosphate", 
+            "kegg_id": "rn:R12429", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12429", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 274.88888888888886, 
+            "x": 115, 
+            "gene": "ko:K03800", 
+            "type": "R", 
+            "id": "27", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "font_size": 12, 
+            "name": "Enzyme N6-(dihydrolipoyl)lysine", 
+            "kegg_id": "cpd:C15973", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C15973", 
+            "r": 8, 
+            "dx": 7.8, 
+            "dy": 19.8, 
+            "y": 370.82434844970703, 
+            "x": 239.69423675537112, 
+            "type": "M", 
+            "id": "28", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "font_size": 12, 
+            "name": "Octanoyl-CoA", 
+            "kegg_id": "cpd:C01944", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01944", 
+            "r": 8, 
+            "dx": 7.8, 
+            "dy": -5.8, 
+            "y": 183.21060333251955, 
+            "x": 144, 
+            "type": "M", 
+            "id": "30", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K23750", 
+            "font_size": 12, 
+            "name": "octanoyl-CoA:lipoyl-carrier-protein-E2 N-octanoyltransferase", 
+            "rxn": " Octanoyl-CoA + Lipoyl-carrier protein E2 <=> [Lipoyl-carrier protein E2]-N6-octanoyl-L-lysine + CoA", 
+            "kegg_id": "rn:R12431", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12431", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 226.2, 
+            "x": 144, 
+            "gene": "ko:K23750", 
+            "type": "R", 
+            "id": "31", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03800", 
+            "font_size": 12, 
+            "name": "[glycine cleavage system H]-L-lysine:(R)-lipoate ligase (AMP-forming)", 
+            "rxn": " ATP + (R)-Lipoate + Glycine cleavage system H <=> Lipoylprotein + AMP + Diphosphate", 
+            "kegg_id": "rn:R12433", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12433", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 274.88888888888886, 
+            "x": 814.5, 
+            "gene": "ko:K03800", 
+            "type": "R", 
+            "id": "33", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "font_size": 12, 
+            "name": "Lipoylprotein", 
+            "kegg_id": "cpd:C02051", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C02051", 
+            "r": 8, 
+            "dx": 7.8, 
+            "dy": -7.7, 
+            "y": 369.3333333333333, 
+            "x": 814.5, 
+            "type": "M", 
+            "id": "34", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K18821", 
+            "font_size": 12, 
+            "name": "[glycine cleavage system H]-N6-lipoyl-L-lysine:[lipoyl-carrier protein]-L-lysine lipoyltransferase", 
+            "rxn": " Lipoylprotein + Lipoyl-carrier protein E2 <=> Glycine cleavage system H + Enzyme N6-(lipoyl)lysine", 
+            "kegg_id": "rn:R12426", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12426", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 369.3333333333333, 
+            "x": 754, 
+            "gene": "ko:K18821", 
+            "type": "R", 
+            "id": "36", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "font_size": 12, 
+            "name": "Octanoyl-[acp]", 
+            "kegg_id": "cpd:C05752", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C05752", 
+            "r": 8, 
+            "dx": 7.8, 
+            "dy": -5.5, 
+            "y": 183.21060333251955, 
+            "x": 239.69423675537112, 
+            "type": "M", 
+            "id": "37", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "font_size": 12, 
+            "name": "Dihydrolipoylprotein", 
+            "kegg_id": "cpd:C02972", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C02972", 
+            "r": 8, 
+            "dx": 7.8, 
+            "dy": -5.5, 
+            "y": 370.82434844970703, 
+            "x": 355.85130310058594, 
+            "type": "M", 
+            "id": "38", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03644", 
+            "font_size": 12, 
+            "name": "[glycine cleavage system H]-N6-octanoyl-L-lysine:[Fe-S] cluster scaffold protein carrying a [4Fe-4S]2+ cluster sulfurtransferase", 
+            "rxn": " [Glycine cleavage system H]-N6-octanoyl-L-lysine + [Fe-S] cluster scaffold protein carrying a [4Fe-4S]2+ cluster + 2 S-Adenosyl-L-methionine + 2 Reduced [2Fe-2S] ferredoxin + 8 H+ <=> Dihydrolipoylprotein + [Fe-S] cluster scaffold protein + 2 Hydrogen sulfide + 4 Fe2+ + 2 L-Methionine + 2 5'-Deoxyadenosine + 2 Oxidized [2Fe-2S] ferredoxin", 
+            "kegg_id": "rn:R12424", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12424", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 324.44610595703125, 
+            "x": 355.85130310058594, 
+            "gene": "ko:K03644", 
+            "type": "R", 
+            "id": "40", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K10105", 
+            "font_size": 12, 
+            "name": "[glycine cleavage system H]-N6-[(R)-dihydrolipoyl]-L-lysine:[Lipoyl-carrier protein E2]-L-lysine dihydrolipoyltransferase", 
+            "rxn": " Dihydrolipoylprotein + Lipoyl-carrier protein E2 <=> Glycine cleavage system H + Enzyme N6-(dihydrolipoyl)lysine", 
+            "kegg_id": "rn:R12432", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12432", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 370.82434844970703, 
+            "x": 303, 
+            "gene": "ko:K10105", 
+            "type": "R", 
+            "id": "42", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K16869", 
+            "font_size": 12, 
+            "name": "[glycine cleavage system H]-N6-octanoyl-L-lysine:[lipoyl-carrier protein E2]-L-lysine octanoyltransferase", 
+            "rxn": " [Glycine cleavage system H]-N6-octanoyl-L-lysine + Lipoyl-carrier protein E2 <=> Glycine cleavage system H + [Lipoyl-carrier protein E2]-N6-octanoyl-L-lysine", 
+            "kegg_id": "rn:R12425", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12425", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 274.88888888888886, 
+            "x": 303, 
+            "gene": "ko:K16869", 
+            "type": "R", 
+            "id": "44", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K10105", 
+            "font_size": 12, 
+            "name": "octanoyl-[acp]:lipoyl-carrier-protein-E2 N-octanoyltransferase", 
+            "rxn": " Octanoyl-[acp] + Lipoyl-carrier protein E2 <=> [Lipoyl-carrier protein E2]-N6-octanoyl-L-lysine + Acyl-carrier protein", 
+            "kegg_id": "rn:R12427", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12427", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 229.64609069824218, 
+            "x": 239.69423675537112, 
+            "gene": "ko:K10105", 
+            "type": "R", 
+            "id": "45", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K23735+K23734", 
+            "font_size": 12, 
+            "name": "octanoyl-[acp]:Glycine-cleavage-system-H N-octanoyltransferase", 
+            "rxn": " Octanoyl-[acp] + Glycine cleavage system H <=> [Glycine cleavage system H]-N6-octanoyl-L-lysine + Acyl-carrier protein", 
+            "kegg_id": "rn:R12428", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12428", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 183.21060333251955, 
+            "x": 355.85130310058594, 
+            "gene": "ko:K23735 ko:K23734", 
+            "type": "R", 
+            "id": "47", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "font_size": 12, 
+            "name": "Dihydrolipoate", 
+            "kegg_id": "cpd:C02147", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C02147", 
+            "r": 8, 
+            "dx": 7.8, 
+            "dy": -4.7, 
+            "y": 179, 
+            "x": 515.5, 
+            "type": "M", 
+            "id": "48", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03800", 
+            "font_size": 12, 
+            "name": "ATP + Dihydrolipoate <=> Dihydrolipoyl-AMP + Diphosphate", 
+            "rxn": "ATP + Dihydrolipoate <=> Dihydrolipoyl-AMP + Diphosphate", 
+            "kegg_id": "rn:R12434", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12434", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 226, 
+            "x": 515.5, 
+            "gene": "ko:K03800", 
+            "type": "R", 
+            "id": "50", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "font_size": 12, 
+            "name": "Dihydrolipoyl-AMP", 
+            "kegg_id": "cpd:C22161", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C22161", 
+            "r": 8, 
+            "dx": 7.8, 
+            "dy": 13.2, 
+            "y": 274.88888888888886, 
+            "x": 515.5, 
+            "type": "M", 
+            "id": "51", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K23763", 
+            "font_size": 12, 
+            "name": "Dihydrolipoyl-AMP + Lipoyl-carrier protein E2 <=> Enzyme N6-(lipoyl)lysine + AMP + 2 H+", 
+            "rxn": "Dihydrolipoyl-AMP + Lipoyl-carrier protein E2 <=> Enzyme N6-(lipoyl)lysine + AMP + 2 H+", 
+            "kegg_id": "rn:R12435", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12435", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 321, 
+            "x": 515.5, 
+            "gene": "ko:K23763", 
+            "type": "R", 
+            "id": "53", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K16869", 
+            "font_size": 12, 
+            "name": "[glycine cleavage system H]-N6-[(R)-dihydrolipoyl]-L-lysine:[Lipoyl-carrier protein E2]-L-lysine dihydrolipoyltransferase", 
+            "rxn": " Dihydrolipoylprotein + Lipoyl-carrier protein E2 <=> Glycine cleavage system H + Enzyme N6-(dihydrolipoyl)lysine", 
+            "kegg_id": "rn:R12432", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12432", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 370.82434844970703, 
+            "x": 303, 
+            "gene": "ko:K16869", 
+            "type": "R", 
+            "id": "54", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lipoic acid metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K09711+K24689", 
+            "font_size": 12, 
+            "name": "[Glycine cleavage system H]-N6-octanoyl-L-lysine <=> Dihydrolipoylprotein", 
+            "rxn": "[Glycine cleavage system H]-N6-octanoyl-L-lysine <=> Dihydrolipoylprotein", 
+            "kegg_id": "rn:R12691", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R12691", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 324.44610595703125, 
+            "x": 355.85130310058594, 
+            "gene": "ko:K09711 ko:K24689", 
+            "type": "R", 
+            "id": "56", 
+            "fill": "#d3d3d3"
+        }
+    ], 
+    "pathway": {
+        "name": "path:ko00785", 
+        "title": "Lipoic acid metabolism", 
+        "image": "https://www.kegg.jp/kegg/pathway/ko/ko00785.png", 
+        "number": "00785", 
+        "link": "https://www.kegg.jp/kegg-bin/show_pathway?ko00785", 
+        "org": "ko"
+    }
+}

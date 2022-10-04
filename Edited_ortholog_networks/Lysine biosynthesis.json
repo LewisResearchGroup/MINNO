@@ -1,0 +1,5279 @@
+{
+    "reaction": [
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "87", 
+                    "name": "cpd:C03972"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "92", 
+                    "name": "cpd:C00666"
+                }
+            ], 
+            "id": "39", 
+            "name": "rn:R07613"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "96", 
+                    "name": "cpd:C00047"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C19889"
+                }
+            ], 
+            "id": "45", 
+            "name": "rn:R09779"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C19889"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "42", 
+                    "name": "cpd:C19888"
+                }
+            ], 
+            "id": "46", 
+            "name": "rn:R09778"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "42", 
+                    "name": "cpd:C19888"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "43", 
+                    "name": "cpd:C19887"
+                }
+            ], 
+            "id": "47", 
+            "name": "rn:R09777"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "43", 
+                    "name": "cpd:C19887"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "44", 
+                    "name": "cpd:C19886"
+                }
+            ], 
+            "id": "48", 
+            "name": "rn:R09776"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "44", 
+                    "name": "cpd:C19886"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "101", 
+                    "name": "cpd:C00956"
+                }
+            ], 
+            "id": "49", 
+            "name": "rn:R09775"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "108", 
+                    "name": "cpd:C04882"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "95", 
+                    "name": "cpd:C04877"
+                }
+            ], 
+            "id": "51", 
+            "name": "rn:R04617"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "84", 
+                    "name": "cpd:C03082"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "83", 
+                    "name": "cpd:C00049"
+                }
+            ], 
+            "id": "55", 
+            "name": "rn:R00480"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "86", 
+                    "name": "cpd:C00441"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "84", 
+                    "name": "cpd:C03082"
+                }
+            ], 
+            "id": "56", 
+            "name": "rn:R02291"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "86", 
+                    "name": "cpd:C00441"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "85", 
+                    "name": "cpd:C00263"
+                }
+            ], 
+            "id": "57", 
+            "name": "rn:R01773 rn:R01775"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "130", 
+                    "name": "cpd:C20258"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "86", 
+                    "name": "cpd:C00441"
+                }
+            ], 
+            "id": "58", 
+            "name": "rn:R10147"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "87", 
+                    "name": "cpd:C03972"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "130", 
+                    "name": "cpd:C20258"
+                }
+            ], 
+            "id": "59", 
+            "name": "rn:R04198 rn:R04199"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "93", 
+                    "name": "cpd:C00680"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "94", 
+                    "name": "cpd:C03871"
+                }
+            ], 
+            "id": "60", 
+            "name": "rn:R02755"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "88", 
+                    "name": "cpd:C05539"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "87", 
+                    "name": "cpd:C03972"
+                }
+            ], 
+            "id": "61", 
+            "name": "rn:R04364"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "90", 
+                    "name": "cpd:C04462"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "87", 
+                    "name": "cpd:C03972"
+                }
+            ], 
+            "id": "62", 
+            "name": "rn:R04365"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "89", 
+                    "name": "cpd:C04390"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "88", 
+                    "name": "cpd:C05539"
+                }
+            ], 
+            "id": "63", 
+            "name": "rn:R04467"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "90", 
+                    "name": "cpd:C04462"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "91", 
+                    "name": "cpd:C04421"
+                }
+            ], 
+            "id": "64", 
+            "name": "rn:R04475"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "92", 
+                    "name": "cpd:C00666"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "89", 
+                    "name": "cpd:C04390"
+                }
+            ], 
+            "id": "65", 
+            "name": "rn:R02733"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "92", 
+                    "name": "cpd:C00666"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "91", 
+                    "name": "cpd:C04421"
+                }
+            ], 
+            "id": "66", 
+            "name": "rn:R02734"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "93", 
+                    "name": "cpd:C00680"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "92", 
+                    "name": "cpd:C00666"
+                }
+            ], 
+            "id": "67", 
+            "name": "rn:R02735"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "96", 
+                    "name": "cpd:C00047"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "93", 
+                    "name": "cpd:C00680"
+                }
+            ], 
+            "id": "68", 
+            "name": "rn:R00451"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "96", 
+                    "name": "cpd:C00047"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "97", 
+                    "name": "cpd:C00449"
+                }
+            ], 
+            "id": "69", 
+            "name": "rn:R00715"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "98", 
+                    "name": "cpd:C04076"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "97", 
+                    "name": "cpd:C00449"
+                }
+            ], 
+            "id": "70", 
+            "name": "rn:R02315"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "98", 
+                    "name": "cpd:C04076"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "99", 
+                    "name": "cpd:C05535"
+                }
+            ], 
+            "id": "71", 
+            "name": "rn:R04390"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "100", 
+                    "name": "cpd:C05560"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "101", 
+                    "name": "cpd:C00956"
+                }
+            ], 
+            "id": "72", 
+            "name": "rn:R03098"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "102", 
+                    "name": "cpd:C00322"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "101", 
+                    "name": "cpd:C00956"
+                }
+            ], 
+            "id": "73", 
+            "name": "rn:R01939"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "102", 
+                    "name": "cpd:C00322"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "103", 
+                    "name": "cpd:C05662"
+                }
+            ], 
+            "id": "74", 
+            "name": "rn:R01934"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C04002"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "103", 
+                    "name": "cpd:C05662"
+                }
+            ], 
+            "id": "75", 
+            "name": "rn:R04371"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "105", 
+                    "name": "cpd:C01251"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C00026"
+                }, 
+                {
+                    "id": "106", 
+                    "name": "cpd:C00024"
+                }
+            ], 
+            "id": "76", 
+            "name": "rn:R00271"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "99", 
+                    "name": "cpd:C05535"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "100", 
+                    "name": "cpd:C05560"
+                }
+            ], 
+            "id": "81", 
+            "name": "rn:R04863"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "95", 
+                    "name": "cpd:C04877"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "93", 
+                    "name": "cpd:C00680"
+                }
+            ], 
+            "id": "82", 
+            "name": "rn:R02788"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "102", 
+                    "name": "cpd:C00322"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "101", 
+                    "name": "cpd:C00956"
+                }
+            ], 
+            "id": "114", 
+            "name": "rn:R01939"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C04002"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "105", 
+                    "name": "cpd:C01251"
+                }
+            ], 
+            "id": "115", 
+            "name": "rn:R03444"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "102", 
+                    "name": "cpd:C00322"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "103", 
+                    "name": "cpd:C05662"
+                }
+            ], 
+            "id": "116", 
+            "name": "rn:R01934"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C04002"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "103", 
+                    "name": "cpd:C05662"
+                }
+            ], 
+            "id": "117", 
+            "name": "rn:R04371"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "126", 
+                    "name": "cpd:C20277"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "96", 
+                    "name": "cpd:C00047"
+                }
+            ], 
+            "id": "125", 
+            "name": "rn:R10010"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "127", 
+                    "name": "cpd:C20279"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "123", 
+                    "name": "cpd:C20278"
+                }
+            ], 
+            "id": "122", 
+            "name": "rn:R10012"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "123", 
+                    "name": "cpd:C20278"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "96", 
+                    "name": "cpd:C00047"
+                }, 
+                {
+                    "id": "126", 
+                    "name": "cpd:C20277"
+                }
+            ], 
+            "id": "120", 
+            "name": "rn:R10011"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "104", 
+                    "name": "cpd:C04002"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "105", 
+                    "name": "cpd:C01251"
+                }
+            ], 
+            "id": "131", 
+            "name": "rn:R03444"
+        }
+    ], 
+    "links": [
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M777,252L679,252", 
+            "kegg_id": "rn:R07613", 
+            "source": "92", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "39", 
+            "target": "39"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M671,252L769,252", 
+            "kegg_id": "rn:R07613", 
+            "source": "39", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "39", 
+            "target": "92"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M671,252L578.6874148355232,191.3907269122122", 
+            "kegg_id": "rn:R07613", 
+            "source": "39", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "39", 
+            "target": "87"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M572,187L664.3125851644768,247.6092730877878", 
+            "kegg_id": "rn:R07613", 
+            "source": "87", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "39", 
+            "target": "39"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M777,504L777,481", 
+            "kegg_id": "rn:R09779", 
+            "source": "41", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "45"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M777,473L777,441", 
+            "kegg_id": "rn:R09779", 
+            "source": "45", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "96"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M685,504L722,504", 
+            "kegg_id": "rn:R09778", 
+            "source": "42", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "46", 
+            "target": "46"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M730,504L769,504", 
+            "kegg_id": "rn:R09778", 
+            "source": "46", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "46", 
+            "target": "41"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M593,504L630,504", 
+            "kegg_id": "rn:R09777", 
+            "source": "43", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "47", 
+            "target": "47"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M638,504L677,504", 
+            "kegg_id": "rn:R09777", 
+            "source": "47", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "47", 
+            "target": "42"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M501,504L537,504", 
+            "kegg_id": "rn:R09776", 
+            "source": "44", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "48", 
+            "target": "48"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M545,504L585,504", 
+            "kegg_id": "rn:R09776", 
+            "source": "48", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "48", 
+            "target": "43"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M409,504L446,504", 
+            "kegg_id": "rn:R09775", 
+            "source": "101", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "49", 
+            "target": "49"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M454,504L493,504", 
+            "kegg_id": "rn:R09775", 
+            "source": "49", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "49", 
+            "target": "44"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M918,323L978,323", 
+            "kegg_id": "rn:R04617", 
+            "source": "95", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "51", 
+            "target": "51"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M986,323L1051,323", 
+            "kegg_id": "rn:R04617", 
+            "source": "51", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "51", 
+            "target": "108"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M159,187L201,187", 
+            "kegg_id": "rn:R00480", 
+            "source": "83", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "55", 
+            "target": "55"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M209,187L254,187", 
+            "kegg_id": "rn:R00480", 
+            "source": "55", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "55", 
+            "target": "84"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M262,187L304,187", 
+            "kegg_id": "rn:R02291", 
+            "source": "84", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "56", 
+            "target": "56"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M312,187L357,187", 
+            "kegg_id": "rn:R02291", 
+            "source": "56", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "56", 
+            "target": "86"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M365,113L365.78954654329414,143.0027686451772", 
+            "kegg_id": "rn:R01773", 
+            "source": "85", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "57", 
+            "target": "57"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M366,151L365.21045345670586,120.99723135482277", 
+            "kegg_id": "rn:R01773", 
+            "source": "57", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "57", 
+            "target": "85"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M366,151L365.22213653792284,179.00308463477825", 
+            "kegg_id": "rn:R01773", 
+            "source": "57", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "57", 
+            "target": "86"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M365,187L365.77786346207716,158.99691536522175", 
+            "kegg_id": "rn:R01773", 
+            "source": "86", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "57", 
+            "target": "57"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M365,187L407,187", 
+            "kegg_id": "rn:R10147", 
+            "source": "86", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "58", 
+            "target": "58"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M415,187L460,187", 
+            "kegg_id": "rn:R10147", 
+            "source": "58", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "58", 
+            "target": "130"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M468,187L511,187", 
+            "kegg_id": "rn:R04198", 
+            "source": "130", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "59", 
+            "target": "59"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M519,187L564,187", 
+            "kegg_id": "rn:R04198", 
+            "source": "59", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "59", 
+            "target": "87"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M572,323L663,323", 
+            "kegg_id": "rn:R02755", 
+            "source": "94", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "60"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M671,323L580,323", 
+            "kegg_id": "rn:R02755", 
+            "source": "60", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "94"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M671,323L769,323", 
+            "kegg_id": "rn:R02755", 
+            "source": "60", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "93"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M777,323L679,323", 
+            "kegg_id": "rn:R02755", 
+            "source": "93", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "60"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M572,187L636.220658501494,125.53165543428429", 
+            "kegg_id": "rn:R04364", 
+            "source": "87", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "61", 
+            "target": "61"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M642,120L709,120", 
+            "kegg_id": "rn:R04364", 
+            "source": "61", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "61", 
+            "target": "88"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M572,187L614,187", 
+            "kegg_id": "rn:R04365", 
+            "source": "87", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "62", 
+            "target": "62"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M622,187L666,187", 
+            "kegg_id": "rn:R04365", 
+            "source": "62", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "62", 
+            "target": "90"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M717,120L775,120", 
+            "kegg_id": "rn:R04467", 
+            "source": "88", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "63", 
+            "target": "63"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M783,120L846,120", 
+            "kegg_id": "rn:R04467", 
+            "source": "63", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "63", 
+            "target": "89"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M777,187L733,187", 
+            "kegg_id": "rn:R04475", 
+            "source": "91", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "64"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M725,187L769,187", 
+            "kegg_id": "rn:R04475", 
+            "source": "64", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "91"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M725,187L682,187", 
+            "kegg_id": "rn:R04475", 
+            "source": "64", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "90"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M674,187L717,187", 
+            "kegg_id": "rn:R04475", 
+            "source": "90", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "64"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M854,120L854.8806103122121,179.00089091820533", 
+            "kegg_id": "rn:R02733", 
+            "source": "89", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "65", 
+            "target": "65"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M855,187L854.1193896877879,127.99910908179467", 
+            "kegg_id": "rn:R02733", 
+            "source": "65", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "65", 
+            "target": "89"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M855,187L783.145770236779,246.87852480268415", 
+            "kegg_id": "rn:R02733", 
+            "source": "65", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "65", 
+            "target": "92"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M777,252L848.854229763221,192.12147519731585", 
+            "kegg_id": "rn:R02733", 
+            "source": "92", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "65", 
+            "target": "65"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M777,187L777.7243017932818,208.0047520051713", 
+            "kegg_id": "rn:R02734", 
+            "source": "91", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "66", 
+            "target": "66"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M778,216L777.2221365379228,244.00308463477825", 
+            "kegg_id": "rn:R02734", 
+            "source": "66", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "66", 
+            "target": "92"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M777,252L777.7895465432941,282.00276864517724", 
+            "kegg_id": "rn:R02735", 
+            "source": "92", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "67"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M778,290L777.2104534567059,259.99723135482276", 
+            "kegg_id": "rn:R02735", 
+            "source": "67", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "92"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M778,290L777.2423130131261,315.00367056683694", 
+            "kegg_id": "rn:R02735", 
+            "source": "67", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "93"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M777,323L777.7576869868739,297.99632943316306", 
+            "kegg_id": "rn:R02735", 
+            "source": "93", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "67"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M777,323L777.8518772479518,369.00137138939897", 
+            "kegg_id": "rn:R00451", 
+            "source": "93", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "68"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M778,377L777.1428343713351,425.0012752052364", 
+            "kegg_id": "rn:R00451", 
+            "source": "68", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "96"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M685,433L722,433", 
+            "kegg_id": "rn:R00715", 
+            "source": "97", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "69"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M730,433L693,433", 
+            "kegg_id": "rn:R00715", 
+            "source": "69", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "97"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M730,433L769,433", 
+            "kegg_id": "rn:R00715", 
+            "source": "69", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "96"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M777,433L738,433", 
+            "kegg_id": "rn:R00715", 
+            "source": "96", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "69", 
+            "target": "69"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M685,433L646,433", 
+            "kegg_id": "rn:R02315", 
+            "source": "97", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "70"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M638,433L677,433", 
+            "kegg_id": "rn:R02315", 
+            "source": "70", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "97"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M638,433L601,433", 
+            "kegg_id": "rn:R02315", 
+            "source": "70", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "98"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M593,433L630,433", 
+            "kegg_id": "rn:R02315", 
+            "source": "98", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "70", 
+            "target": "70"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M501,433L537,433", 
+            "kegg_id": "rn:R04390", 
+            "source": "99", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "71", 
+            "target": "71"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M545,433L585,433", 
+            "kegg_id": "rn:R04390", 
+            "source": "71", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "71", 
+            "target": "98"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M409,504L409.76480758718486,477.9965420357148", 
+            "kegg_id": "rn:R03098", 
+            "source": "101", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "72", 
+            "target": "72"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M410,470L409.2161372907833,440.9970797589828", 
+            "kegg_id": "rn:R03098", 
+            "source": "72", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "72", 
+            "target": "100"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M409,504L364.8560515758452,495.51077914920097", 
+            "kegg_id": "rn:R01939", 
+            "source": "101", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "73", 
+            "target": "73"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M357,494L401.1439484241548,502.48922085079903", 
+            "kegg_id": "rn:R01939", 
+            "source": "73", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "73", 
+            "target": "101"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M357,494L314.84464540552733,502.43107091889453", 
+            "kegg_id": "rn:R01939", 
+            "source": "73", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "73", 
+            "target": "102"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M307,504L349.15535459447267,495.56892908110547", 
+            "kegg_id": "rn:R01939", 
+            "source": "102", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "73", 
+            "target": "73"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M307,433L286.4788592902239,463.37128825046864", 
+            "kegg_id": "rn:R01934", 
+            "source": "103", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "74"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M282,470L302.5211407097761,439.62871174953136", 
+            "kegg_id": "rn:R01934", 
+            "source": "74", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "103"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M282,470L302.26087639617987,497.5547918988046", 
+            "kegg_id": "rn:R01934", 
+            "source": "74", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "102"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M307,504L286.73912360382013,476.4452081011954", 
+            "kegg_id": "rn:R01934", 
+            "source": "102", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "74", 
+            "target": "74"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M307,433L327.26087639617987,405.4452081011954", 
+            "kegg_id": "rn:R04371", 
+            "source": "103", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "75"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M332,399L311.73912360382013,426.5547918988046", 
+            "kegg_id": "rn:R04371", 
+            "source": "75", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "103"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M332,399L311.4788592902239,368.62871174953136", 
+            "kegg_id": "rn:R04371", 
+            "source": "75", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "104"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M307,362L327.5211407097761,392.37128825046864", 
+            "kegg_id": "rn:R04371", 
+            "source": "104", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "75", 
+            "target": "75"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M123,362L161,362", 
+            "kegg_id": "rn:R00271", 
+            "source": "107", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "76", 
+            "target": "76"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M135,385L162.3737326949763,366.48247494163365", 
+            "kegg_id": "rn:R00271", 
+            "source": "106", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "76", 
+            "target": "76"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M169,362L207,362", 
+            "kegg_id": "rn:R00271", 
+            "source": "76", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "76", 
+            "target": "105"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M409,433L446,433", 
+            "kegg_id": "rn:R04863", 
+            "source": "100", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "81", 
+            "target": "81"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M454,433L493,433", 
+            "kegg_id": "rn:R04863", 
+            "source": "81", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "81", 
+            "target": "99"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M777,323L843,323", 
+            "kegg_id": "rn:R02788", 
+            "source": "93", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "82", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M851,323L910,323", 
+            "kegg_id": "rn:R02788", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "82", 
+            "target": "95"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M409,504L364.82679762495155,513.3443312716448", 
+            "kegg_id": "rn:R01939", 
+            "source": "101", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "114", 
+            "target": "114"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M357,515L401.17320237504845,505.6556687283551", 
+            "kegg_id": "rn:R01939", 
+            "source": "114", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "114", 
+            "target": "101"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M357,515L314.8131557336407,505.718894261401", 
+            "kegg_id": "rn:R01939", 
+            "source": "114", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "114", 
+            "target": "102"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M307,504L349.1868442663593,513.2811057385991", 
+            "kegg_id": "rn:R01939", 
+            "source": "102", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "114", 
+            "target": "114"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M215,362L252.22880794802577,371.1003752761841", 
+            "kegg_id": "rn:R03444", 
+            "source": "105", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "115", 
+            "target": "115"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M260,373L222.77119205197423,363.8996247238159", 
+            "kegg_id": "rn:R03444", 
+            "source": "115", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "115", 
+            "target": "105"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M260,373L299.2104945696286,363.82307573902307", 
+            "kegg_id": "rn:R03444", 
+            "source": "115", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "115", 
+            "target": "104"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M307,362L267.7895054303714,371.17692426097693", 
+            "kegg_id": "rn:R03444", 
+            "source": "104", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "115", 
+            "target": "115"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M307,433L327.5211407097761,463.37128825046864", 
+            "kegg_id": "rn:R01934", 
+            "source": "103", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "116", 
+            "target": "116"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M332,470L311.4788592902239,439.62871174953136", 
+            "kegg_id": "rn:R01934", 
+            "source": "116", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "116", 
+            "target": "103"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M332,470L311.73912360382013,497.5547918988046", 
+            "kegg_id": "rn:R01934", 
+            "source": "116", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "116", 
+            "target": "102"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M307,504L327.26087639617987,476.4452081011954", 
+            "kegg_id": "rn:R01934", 
+            "source": "102", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "116", 
+            "target": "116"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M307,433L286.73912360382013,405.4452081011954", 
+            "kegg_id": "rn:R04371", 
+            "source": "103", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "117", 
+            "target": "117"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M282,399L302.26087639617987,426.5547918988046", 
+            "kegg_id": "rn:R04371", 
+            "source": "117", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "117", 
+            "target": "103"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M282,399L302.5211407097761,368.62871174953136", 
+            "kegg_id": "rn:R04371", 
+            "source": "117", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "117", 
+            "target": "104"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M307,362L286.4788592902239,392.37128825046864", 
+            "kegg_id": "rn:R04371", 
+            "source": "104", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "117", 
+            "target": "117"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M777,433L849.4200617681024,457.4417708467346", 
+            "kegg_id": "rn:R10010", 
+            "source": "96", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "125", 
+            "target": "125"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M857,460L857,484", 
+            "kegg_id": "rn:R10010", 
+            "source": "125", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "125", 
+            "target": "126"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M951,519L989.0018896894087,519.8261280367262", 
+            "kegg_id": "rn:R10012", 
+            "source": "123", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "122", 
+            "target": "122"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M997,520L1047.001188795608,519.1379105380067", 
+            "kegg_id": "rn:R10012", 
+            "source": "122", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "122", 
+            "target": "127"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M777,433L893.468674883945,515.3802822349855", 
+            "kegg_id": "rn:R10011", 
+            "source": "96", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "120", 
+            "target": "120"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M857,492L893.29601532234,515.6346146285006", 
+            "kegg_id": "rn:R10011", 
+            "source": "126", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "120", 
+            "target": "120"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M900,520L943.0015374267462,519.1568325994756", 
+            "kegg_id": "rn:R10011", 
+            "source": "120", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "120", 
+            "target": "123"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M215,362L252.19050351852837,353.73544366254924", 
+            "kegg_id": "rn:R03444", 
+            "source": "105", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "131", 
+            "target": "131"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M260,352L222.80949648147163,360.26455633745076", 
+            "kegg_id": "rn:R03444", 
+            "source": "131", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "131", 
+            "target": "105"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M260,352L299.17515256812135,360.3351388442811", 
+            "kegg_id": "rn:R03444", 
+            "source": "131", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "131", 
+            "target": "104"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Lysine biosynthesis", 
+            "strength": "2", 
+            "d": "M307,362L267.82484743187865,353.6648611557189", 
+            "kegg_id": "rn:R03444", 
+            "source": "104", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "131", 
+            "target": "131"
+        }
+    ], 
+    "labels": [], 
+    "boxes": [], 
+    "relation": [
+        {
+            "entry2": "57", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "57", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "86"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "56", 
+            "subtype": {
+                "name": "compound", 
+                "value": "84"
+            }, 
+            "entry1": "55", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "61", 
+            "subtype": {
+                "name": "compound", 
+                "value": "87"
+            }, 
+            "entry1": "59", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "62", 
+            "subtype": {
+                "name": "compound", 
+                "value": "87"
+            }, 
+            "entry1": "59", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "59", 
+            "subtype": {
+                "name": "compound", 
+                "value": "87"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "62", 
+            "subtype": {
+                "name": "compound", 
+                "value": "87"
+            }, 
+            "entry1": "61", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "61", 
+            "subtype": {
+                "name": "compound", 
+                "value": "87"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "62", 
+            "subtype": {
+                "name": "compound", 
+                "value": "87"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "63", 
+            "subtype": {
+                "name": "compound", 
+                "value": "88"
+            }, 
+            "entry1": "61", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "89"
+            }, 
+            "entry1": "63", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "64", 
+            "subtype": {
+                "name": "compound", 
+                "value": "90"
+            }, 
+            "entry1": "62", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "91"
+            }, 
+            "entry1": "64", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "66", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "65", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "39", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "92"
+            }, 
+            "entry1": "65", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "93"
+            }, 
+            "entry1": "60", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "93"
+            }, 
+            "entry1": "67", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "93"
+            }, 
+            "entry1": "67", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "93"
+            }, 
+            "entry1": "60", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "93"
+            }, 
+            "entry1": "60", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "93"
+            }, 
+            "entry1": "68", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "95"
+            }, 
+            "entry1": "51", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "75", 
+            "subtype": {
+                "name": "compound", 
+                "value": "103"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "73", 
+            "subtype": {
+                "name": "compound", 
+                "value": "101"
+            }, 
+            "entry1": "72", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "101"
+            }, 
+            "entry1": "49", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "73", 
+            "subtype": {
+                "name": "compound", 
+                "value": "101"
+            }, 
+            "entry1": "49", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "44"
+            }, 
+            "entry1": "48", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "48", 
+            "subtype": {
+                "name": "compound", 
+                "value": "43"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "47", 
+            "subtype": {
+                "name": "compound", 
+                "value": "42"
+            }, 
+            "entry1": "46", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "46", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "71", 
+            "subtype": {
+                "name": "compound", 
+                "value": "98"
+            }, 
+            "entry1": "70", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "97"
+            }, 
+            "entry1": "69", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "69", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "68", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "69", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "52", 
+            "subtype": {
+                "name": "compound", 
+                "value": "85"
+            }, 
+            "entry1": "57", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "54", 
+            "subtype": {
+                "name": "compound", 
+                "value": "83"
+            }, 
+            "entry1": "55", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "50", 
+            "subtype": {
+                "name": "compound", 
+                "value": "108"
+            }, 
+            "entry1": "51", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "79", 
+            "subtype": {
+                "name": "compound", 
+                "value": "106"
+            }, 
+            "entry1": "76", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "53", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "76", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "78", 
+            "subtype": {
+                "name": "compound", 
+                "value": "105"
+            }, 
+            "entry1": "76", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "68", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "40", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "68", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "69", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "40", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "69", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "45", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "40", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "45", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "40", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "72", 
+            "subtype": {
+                "name": "compound", 
+                "value": "101"
+            }, 
+            "entry1": "114", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "101"
+            }, 
+            "entry1": "114", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "73", 
+            "subtype": {
+                "name": "compound", 
+                "value": "102"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "114", 
+            "subtype": {
+                "name": "compound", 
+                "value": "102"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "73", 
+            "subtype": {
+                "name": "compound", 
+                "value": "102"
+            }, 
+            "entry1": "116", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "114", 
+            "subtype": {
+                "name": "compound", 
+                "value": "102"
+            }, 
+            "entry1": "116", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "117", 
+            "subtype": {
+                "name": "compound", 
+                "value": "103"
+            }, 
+            "entry1": "74", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "75", 
+            "subtype": {
+                "name": "compound", 
+                "value": "103"
+            }, 
+            "entry1": "116", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "117", 
+            "subtype": {
+                "name": "compound", 
+                "value": "103"
+            }, 
+            "entry1": "116", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "115", 
+            "subtype": {
+                "name": "compound", 
+                "value": "105"
+            }, 
+            "entry1": "76", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "115", 
+            "subtype": {
+                "name": "compound", 
+                "value": "105"
+            }, 
+            "entry1": "78", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "120", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "69", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "125", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "69", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "120", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "125", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "125", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "120", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "40", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "120", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "120", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "120", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "40", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "125", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "125", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "125", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "120", 
+            "subtype": {
+                "name": "compound", 
+                "value": "126"
+            }, 
+            "entry1": "125", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "122", 
+            "subtype": {
+                "name": "compound", 
+                "value": "123"
+            }, 
+            "entry1": "120", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "59", 
+            "subtype": {
+                "name": "compound", 
+                "value": "130"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "76", 
+            "subtype": {
+                "name": "compound", 
+                "value": "105"
+            }, 
+            "entry1": "131", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "117", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "131", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "75", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "131", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "75", 
+            "subtype": {
+                "name": "compound", 
+                "value": "104"
+            }, 
+            "entry1": "115", 
+            "type": "ECrel"
+        }
+    ], 
+    "entry": [
+        {
+            "reaction": "rn:R07613", 
+            "name": "ko:K10206", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K10206", 
+            "graphics": {
+                "name": "K10206", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "252", 
+                "x": "671", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "39"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00960", 
+            "id": "40", 
+            "name": "path:ko00960", 
+            "graphics": {
+                "name": "Tropane, piperidine and pyridine alkaloid biosynthesis", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "162", 
+                "y": "433", 
+                "x": "998", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C19889", 
+            "id": "41", 
+            "name": "cpd:C19889", 
+            "graphics": {
+                "name": "C19889", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "504", 
+                "x": "777", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C19888", 
+            "id": "42", 
+            "name": "cpd:C19888", 
+            "graphics": {
+                "name": "C19888", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "504", 
+                "x": "685", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C19887", 
+            "id": "43", 
+            "name": "cpd:C19887", 
+            "graphics": {
+                "name": "C19887", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "504", 
+                "x": "593", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C19886", 
+            "id": "44", 
+            "name": "cpd:C19886", 
+            "graphics": {
+                "name": "C19886", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "504", 
+                "x": "501", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R09779", 
+            "name": "ko:K05831", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05831", 
+            "graphics": {
+                "name": "K05831", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "473", 
+                "x": "777", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "45"
+        }, 
+        {
+            "reaction": "rn:R09778", 
+            "name": "ko:K05830", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05830", 
+            "graphics": {
+                "name": "K05830", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "504", 
+                "x": "730", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "46"
+        }, 
+        {
+            "reaction": "rn:R09777", 
+            "name": "ko:K05829", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05829", 
+            "graphics": {
+                "name": "K05829", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "504", 
+                "x": "638", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "47"
+        }, 
+        {
+            "reaction": "rn:R09776", 
+            "name": "ko:K05828", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05828", 
+            "graphics": {
+                "name": "K05828", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "504", 
+                "x": "545", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "48"
+        }, 
+        {
+            "reaction": "rn:R09775", 
+            "name": "ko:K05827 ko:K25032", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05827+K25032", 
+            "graphics": {
+                "name": "K05827...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "504", 
+                "x": "454", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "49"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00550", 
+            "id": "50", 
+            "name": "path:ko00550", 
+            "graphics": {
+                "name": "Peptidoglycan biosynthesis", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "88", 
+                "y": "323", 
+                "x": "1153", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R04617", 
+            "name": "ko:K01929 ko:K15792 ko:K01798", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01929+K15792+K01798", 
+            "graphics": {
+                "name": "K01929...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "323", 
+                "x": "986", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "51"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00260", 
+            "id": "52", 
+            "name": "path:ko00260", 
+            "graphics": {
+                "name": "Glycine, serine and threonine metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "123", 
+                "y": "114", 
+                "x": "484", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00020", 
+            "id": "53", 
+            "name": "path:ko00020", 
+            "graphics": {
+                "name": "Citrate cycle (TCA cycle)", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "76", 
+                "y": "316", 
+                "x": "124", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00250", 
+            "id": "54", 
+            "name": "path:ko00250", 
+            "graphics": {
+                "name": "Alanine, aspartate and glutamate metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "128", 
+                "y": "240", 
+                "x": "171", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R00480", 
+            "name": "ko:K00928 ko:K12524 ko:K12525 ko:K12526", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00928+K12524+K12525+K12526", 
+            "graphics": {
+                "name": "K00928...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "187", 
+                "x": "209", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "55"
+        }, 
+        {
+            "reaction": "rn:R02291", 
+            "name": "ko:K00133", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00133", 
+            "graphics": {
+                "name": "K00133", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "187", 
+                "x": "312", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "56"
+        }, 
+        {
+            "reaction": "rn:R01773 rn:R01775", 
+            "name": "ko:K00003 ko:K12524 ko:K12525", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00003+K12524+K12525", 
+            "graphics": {
+                "name": "K00003...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "151", 
+                "x": "366", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "57"
+        }, 
+        {
+            "reaction": "rn:R10147", 
+            "name": "ko:K01714", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01714", 
+            "graphics": {
+                "name": "K01714", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "187", 
+                "x": "415", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "58"
+        }, 
+        {
+            "reaction": "rn:R04198 rn:R04199", 
+            "name": "ko:K00215", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00215", 
+            "graphics": {
+                "name": "K00215", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "187", 
+                "x": "519", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "59"
+        }, 
+        {
+            "reaction": "rn:R02755", 
+            "name": "ko:K03340", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03340", 
+            "graphics": {
+                "name": "K03340", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "323", 
+                "x": "671", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "60"
+        }, 
+        {
+            "reaction": "rn:R04364", 
+            "name": "ko:K05822", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05822", 
+            "graphics": {
+                "name": "K05822", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "120", 
+                "x": "642", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "61"
+        }, 
+        {
+            "reaction": "rn:R04365", 
+            "name": "ko:K00674", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00674", 
+            "graphics": {
+                "name": "K00674", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "187", 
+                "x": "622", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "62"
+        }, 
+        {
+            "reaction": "rn:R04467", 
+            "name": "ko:K00841", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00841", 
+            "graphics": {
+                "name": "K00841", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "120", 
+                "x": "783", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "63"
+        }, 
+        {
+            "reaction": "rn:R04475", 
+            "name": "ko:K00821 ko:K14267", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00821+K14267", 
+            "graphics": {
+                "name": "K00821...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "187", 
+                "x": "725", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "64"
+        }, 
+        {
+            "reaction": "rn:R02733", 
+            "name": "ko:K05823", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05823", 
+            "graphics": {
+                "name": "K05823", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "187", 
+                "x": "855", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "65"
+        }, 
+        {
+            "reaction": "rn:R02734", 
+            "name": "ko:K01439", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01439", 
+            "graphics": {
+                "name": "K01439", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "216", 
+                "x": "778", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "66"
+        }, 
+        {
+            "reaction": "rn:R02735", 
+            "name": "ko:K01778", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01778", 
+            "graphics": {
+                "name": "K01778", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "290", 
+                "x": "778", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "67"
+        }, 
+        {
+            "reaction": "rn:R00451", 
+            "name": "ko:K01586 ko:K12526", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01586+K12526", 
+            "graphics": {
+                "name": "K01586...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "377", 
+                "x": "778", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "68"
+        }, 
+        {
+            "reaction": "rn:R00715", 
+            "name": "ko:K00290", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00290", 
+            "graphics": {
+                "name": "K00290", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "433", 
+                "x": "730", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "69"
+        }, 
+        {
+            "reaction": "rn:R02315", 
+            "name": "ko:K00293 ko:K24034", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00293+K24034", 
+            "graphics": {
+                "name": "K00293...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "433", 
+                "x": "638", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "70"
+        }, 
+        {
+            "reaction": "rn:R04390", 
+            "name": "ko:K00143", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00143", 
+            "graphics": {
+                "name": "K00143", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "433", 
+                "x": "545", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "71"
+        }, 
+        {
+            "reaction": "rn:R03098", 
+            "name": "ko:K00143", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00143", 
+            "graphics": {
+                "name": "K00143", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "470", 
+                "x": "410", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "72"
+        }, 
+        {
+            "reaction": "rn:R01939", 
+            "name": "ko:K00825 ko:K05825 ko:K00838", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00825+K05825+K00838", 
+            "graphics": {
+                "name": "K00825...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "494", 
+                "x": "357", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "73"
+        }, 
+        {
+            "reaction": "rn:R01934", 
+            "name": "ko:K05824 ko:K10978", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05824+K10978", 
+            "graphics": {
+                "name": "K05824...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "470", 
+                "x": "282", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "74"
+        }, 
+        {
+            "reaction": "rn:R04371", 
+            "name": "ko:K01705", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01705", 
+            "graphics": {
+                "name": "K01705", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "399", 
+                "x": "332", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "75"
+        }, 
+        {
+            "reaction": "rn:R00271", 
+            "name": "ko:K01655 ko:K10977", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01655+K10977", 
+            "graphics": {
+                "name": "K01655...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "362", 
+                "x": "169", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "76"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00300", 
+            "id": "77", 
+            "name": "path:ko00300", 
+            "graphics": {
+                "name": "TITLE:Lysine biosynthesis", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "172", 
+                "y": "58", 
+                "x": "126", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00620", 
+            "id": "78", 
+            "name": "path:ko00620", 
+            "graphics": {
+                "name": "Pyruvate metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "77", 
+                "y": "473", 
+                "x": "210", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00010", 
+            "id": "79", 
+            "name": "path:ko00010", 
+            "graphics": {
+                "name": "Glycolysis / Gluconeogenesis", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "70", 
+                "y": "440", 
+                "x": "136", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00310", 
+            "id": "80", 
+            "name": "path:ko00310", 
+            "graphics": {
+                "name": "Lysine degradation", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "75", 
+                "y": "390", 
+                "x": "955", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R04863", 
+            "name": "ko:K00143", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00143", 
+            "graphics": {
+                "name": "K00143", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "433", 
+                "x": "454", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "81"
+        }, 
+        {
+            "reaction": "rn:R02788", 
+            "name": "ko:K01928 ko:K15792", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01928+K15792", 
+            "graphics": {
+                "name": "K01928...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "323", 
+                "x": "851", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "82"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00049", 
+            "id": "83", 
+            "name": "cpd:C00049", 
+            "graphics": {
+                "name": "C00049", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "187", 
+                "x": "159", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03082", 
+            "id": "84", 
+            "name": "cpd:C03082", 
+            "graphics": {
+                "name": "C03082", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "187", 
+                "x": "262", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00263", 
+            "id": "85", 
+            "name": "cpd:C00263", 
+            "graphics": {
+                "name": "C00263", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "113", 
+                "x": "365", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00441", 
+            "id": "86", 
+            "name": "cpd:C00441", 
+            "graphics": {
+                "name": "C00441", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "187", 
+                "x": "365", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03972", 
+            "id": "87", 
+            "name": "cpd:C03972", 
+            "graphics": {
+                "name": "C03972", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "187", 
+                "x": "572", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05539", 
+            "id": "88", 
+            "name": "cpd:C05539", 
+            "graphics": {
+                "name": "C05539", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "120", 
+                "x": "717", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04390", 
+            "id": "89", 
+            "name": "cpd:C04390", 
+            "graphics": {
+                "name": "C04390", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "120", 
+                "x": "854", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04462", 
+            "id": "90", 
+            "name": "cpd:C04462", 
+            "graphics": {
+                "name": "C04462", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "187", 
+                "x": "674", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04421", 
+            "id": "91", 
+            "name": "cpd:C04421", 
+            "graphics": {
+                "name": "C04421", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "187", 
+                "x": "777", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00666", 
+            "id": "92", 
+            "name": "cpd:C00666", 
+            "graphics": {
+                "name": "C00666", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "252", 
+                "x": "777", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00680", 
+            "id": "93", 
+            "name": "cpd:C00680", 
+            "graphics": {
+                "name": "C00680", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "323", 
+                "x": "777", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03871", 
+            "id": "94", 
+            "name": "cpd:C03871", 
+            "graphics": {
+                "name": "C03871", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "323", 
+                "x": "572", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04877", 
+            "id": "95", 
+            "name": "cpd:C04877", 
+            "graphics": {
+                "name": "C04877", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "323", 
+                "x": "918", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00047", 
+            "id": "96", 
+            "name": "cpd:C00047", 
+            "graphics": {
+                "name": "C00047", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "433", 
+                "x": "777", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00449", 
+            "id": "97", 
+            "name": "cpd:C00449", 
+            "graphics": {
+                "name": "C00449", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "433", 
+                "x": "685", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04076", 
+            "id": "98", 
+            "name": "cpd:C04076", 
+            "graphics": {
+                "name": "C04076", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "433", 
+                "x": "593", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05535", 
+            "id": "99", 
+            "name": "cpd:C05535", 
+            "graphics": {
+                "name": "C05535", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "433", 
+                "x": "501", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05560", 
+            "id": "100", 
+            "name": "cpd:C05560", 
+            "graphics": {
+                "name": "C05560", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "433", 
+                "x": "409", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00956", 
+            "id": "101", 
+            "name": "cpd:C00956", 
+            "graphics": {
+                "name": "C00956", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "504", 
+                "x": "409", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00322", 
+            "id": "102", 
+            "name": "cpd:C00322", 
+            "graphics": {
+                "name": "C00322", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "504", 
+                "x": "307", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C05662", 
+            "id": "103", 
+            "name": "cpd:C05662", 
+            "graphics": {
+                "name": "C05662", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "433", 
+                "x": "307", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04002", 
+            "id": "104", 
+            "name": "cpd:C04002", 
+            "graphics": {
+                "name": "C04002", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "362", 
+                "x": "307", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01251", 
+            "id": "105", 
+            "name": "cpd:C01251", 
+            "graphics": {
+                "name": "C01251", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "362", 
+                "x": "215", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00024", 
+            "id": "106", 
+            "name": "cpd:C00024", 
+            "graphics": {
+                "name": "C00024", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "385", 
+                "x": "135", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00026", 
+            "id": "107", 
+            "name": "cpd:C00026", 
+            "graphics": {
+                "name": "C00026", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "362", 
+                "x": "123", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04882", 
+            "id": "108", 
+            "name": "cpd:C04882", 
+            "graphics": {
+                "name": "C04882", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "323", 
+                "x": "1059", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R01939", 
+            "name": "ko:K00838", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00838", 
+            "graphics": {
+                "name": "K00838", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "515", 
+                "x": "357", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "114"
+        }, 
+        {
+            "reaction": "rn:R03444", 
+            "name": "ko:K16792 ko:K16793", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K16792+K16793", 
+            "graphics": {
+                "name": "K16792...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "373", 
+                "x": "260", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "115"
+        }, 
+        {
+            "reaction": "rn:R01934", 
+            "name": "ko:K17753", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17753", 
+            "graphics": {
+                "name": "K17753", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "470", 
+                "x": "332", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "116"
+        }, 
+        {
+            "reaction": "rn:R04371", 
+            "name": "ko:K16792 ko:K16793", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K16792+K16793", 
+            "graphics": {
+                "name": "K16792...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "399", 
+                "x": "282", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "117"
+        }, 
+        {
+            "reaction": "rn:R10011", 
+            "name": "ko:K16181", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K16181", 
+            "graphics": {
+                "name": "K16181", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "520", 
+                "x": "900", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "120"
+        }, 
+        {
+            "reaction": "rn:R10012", 
+            "name": "ko:K16182", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K16182", 
+            "graphics": {
+                "name": "K16182", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "520", 
+                "x": "997", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "122"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20278", 
+            "id": "123", 
+            "name": "cpd:C20278", 
+            "graphics": {
+                "name": "C20278", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "519", 
+                "x": "951", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R10010", 
+            "name": "ko:K16180", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K16180", 
+            "graphics": {
+                "name": "K16180", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "460", 
+                "x": "857", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "125"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20277", 
+            "id": "126", 
+            "name": "cpd:C20277", 
+            "graphics": {
+                "name": "C20277", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "492", 
+                "x": "857", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20279", 
+            "id": "127", 
+            "name": "cpd:C20279", 
+            "graphics": {
+                "name": "C20279", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "519", 
+                "x": "1055", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C16138", 
+            "id": "129", 
+            "name": "cpd:C16138", 
+            "graphics": {
+                "name": "C16138", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "519", 
+                "x": "1121", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20258", 
+            "id": "130", 
+            "name": "cpd:C20258", 
+            "graphics": {
+                "name": "C20258", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "187", 
+                "x": "468", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R03444", 
+            "name": "ko:K17450", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K17450", 
+            "graphics": {
+                "name": "K17450", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "352", 
+                "x": "260", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "131"
+        }
+    ], 
+    "nodes": [
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K10206", 
+            "font_size": 12, 
+            "name": "LL-2,6-diaminoheptanedioate:2-oxoglutarate aminotransferase", 
+            "rxn": " LL-2,6-Diaminoheptanedioate + 2-Oxoglutarate <=> 2,3,4,5-Tetrahydrodipicolinate + L-Glutamate + H2O", 
+            "kegg_id": "rn:R07613", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R07613", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 458.3039028698256, 
+            "x": 667.257642900954, 
+            "gene": "ko:K10206", 
+            "type": "R", 
+            "id": "39", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "LysW-gamma-L-lysine", 
+            "kegg_id": "cpd:C19889", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C19889", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 558.9210445038723, 
+            "x": 413.97249966096047, 
+            "type": "M", 
+            "id": "41", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "LysW-gamma-L-alpha-aminoadipate 6-semialdehyde", 
+            "kegg_id": "cpd:C19888", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C19888", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 466.9418489055778, 
+            "x": 413.97249966096047, 
+            "type": "M", 
+            "id": "42", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "LysW-gamma-L-alpha-aminoadipyl 6-phosphate", 
+            "kegg_id": "cpd:C19887", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C19887", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 374.962653307282, 
+            "x": 413.97249966096047, 
+            "type": "M", 
+            "id": "43", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "LysW-gamma-L-alpha-aminoadipate", 
+            "kegg_id": "cpd:C19886", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C19886", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 282.98345770898646, 
+            "x": 413.97249966096047, 
+            "type": "M", 
+            "id": "44", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05831", 
+            "font_size": 12, 
+            "name": "LysW-gamma-L-lysine amidohydrolase", 
+            "rxn": " LysW-gamma-L-lysine + H2O <=> L-Lysine + alpha-Aminoadipate carrier protein LysW", 
+            "kegg_id": "rn:R09779", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R09779", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 575.125927095938, 
+            "x": 438.9669360440885, 
+            "gene": "ko:K05831", 
+            "type": "R", 
+            "id": "45", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05830", 
+            "font_size": 12, 
+            "name": "LysW-gamma-L-lysine:2-oxoglutarate 6-aminotransferase", 
+            "rxn": " LysW-gamma-L-alpha-aminoadipate 6-semialdehyde + L-Glutamate <=> LysW-gamma-L-lysine + 2-Oxoglutarate", 
+            "kegg_id": "rn:R09778", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R09778", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 511.93167283952675, 
+            "x": 413.97249966096047, 
+            "gene": "ko:K05830", 
+            "type": "R", 
+            "id": "46", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05829", 
+            "font_size": 12, 
+            "name": "LysW-gamma-L-alpha-aminoadipate 6-semialdehyde:NADP+ 6-oxidoreductase (phosphorylating)", 
+            "rxn": " LysW-gamma-L-alpha-aminoadipyl 6-phosphate + NADPH + H+ <=> LysW-gamma-L-alpha-aminoadipate 6-semialdehyde + NADP+ + Orthophosphate", 
+            "kegg_id": "rn:R09777", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R09777", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 419.9524772412311, 
+            "x": 413.97249966096047, 
+            "gene": "ko:K05829", 
+            "type": "R", 
+            "id": "47", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05828", 
+            "font_size": 12, 
+            "name": "ATP:LysW-gamma-L-alpha-aminoadipate 6-phosphotransferase", 
+            "rxn": " LysW-gamma-L-alpha-aminoadipate + ATP <=> LysW-gamma-L-alpha-aminoadipyl 6-phosphate + ADP", 
+            "kegg_id": "rn:R09776", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R09776", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 326.9735077777366, 
+            "x": 413.97249966096047, 
+            "gene": "ko:K05828", 
+            "type": "R", 
+            "id": "48", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05827+K25032", 
+            "font_size": 12, 
+            "name": "LysW:L-2-aminoadipate ligase (ADP-forming)", 
+            "rxn": " L-2-Aminoadipate + alpha-Aminoadipate carrier protein LysW + ATP <=> LysW-gamma-L-alpha-aminoadipate + ADP + Orthophosphate", 
+            "kegg_id": "rn:R09775", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R09775", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 235.99408604464028, 
+            "x": 413.97249966096047, 
+            "gene": "ko:K05827 ko:K25032", 
+            "type": "R", 
+            "id": "49", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01929+K15792+K01798", 
+            "font_size": 12, 
+            "name": "UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminoheptanedioate:D-alanyl-D-alanine ligase(ADP-forming)", 
+            "rxn": " ATP + UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimelate + D-Alanyl-D-alanine <=> ADP + Orthophosphate + UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-6-carboxy-L-lysyl-D-alanyl-D-alanine", 
+            "kegg_id": "rn:R04617", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04617", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 771.7228249571922, 
+            "x": 587.0868710603709, 
+            "gene": "ko:K01929 ko:K15792 ko:K01798", 
+            "type": "R", 
+            "id": "51", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00928+K12524+K12525+K12526", 
+            "font_size": 12, 
+            "name": "ATP:L-aspartate 4-phosphotransferase", 
+            "rxn": " ATP + L-Aspartate <=> ADP + 4-Phospho-L-aspartate", 
+            "kegg_id": "rn:R00480", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00480", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": -2.209369975036509, 
+            "x": 734.1396825482428, 
+            "gene": "ko:K00928 ko:K12524 ko:K12525 ko:K12526", 
+            "type": "R", 
+            "id": "55", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00133", 
+            "font_size": 12, 
+            "name": "L-Aspartate-4-semialdehyde:NADP+ oxidoreductase (phosphorylating)", 
+            "rxn": " L-Aspartate 4-semialdehyde + Orthophosphate + NADP+ <=> 4-Phospho-L-aspartate + NADPH + H+", 
+            "kegg_id": "rn:R02291", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02291", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 100.76733814044638, 
+            "x": 734.1396825482428, 
+            "gene": "ko:K00133", 
+            "type": "R", 
+            "id": "56", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00003+K12524+K12525", 
+            "font_size": 12, 
+            "name": "L-Homoserine:NAD+ oxidoreductase", 
+            "rxn": " L-Homoserine + NAD+ <=> L-Aspartate 4-semialdehyde + NADH + H+", 
+            "kegg_id": "rn:R01773", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01773", 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 175.25171562595608, 
+            "x": 772.6424348401079, 
+            "gene": "ko:K00003 ko:K12524 ko:K12525", 
+            "type": "R", 
+            "id": "57", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01714", 
+            "font_size": 12, 
+            "name": "L-aspartate-4-semialdehyde hydro-lyase [adding pyruvate and cyclizing", 
+            "rxn": " L-Aspartate 4-semialdehyde + Pyruvate <=> (2S,4S)-4-Hydroxy-2,3,4,5-tetrahydrodipicolinate + H2O", 
+            "kegg_id": "rn:R10147", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10147", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 203.74404625592885, 
+            "x": 734.1396825482428, 
+            "gene": "ko:K01714", 
+            "type": "R", 
+            "id": "58", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00215", 
+            "font_size": 12, 
+            "name": "2,3,4,5-tetrahydrodipicolinate:NAD+ 4-oxidoreductase", 
+            "rxn": " 2,3,4,5-Tetrahydrodipicolinate + NAD+ + H2O <=> (2S,4S)-4-Hydroxy-2,3,4,5-tetrahydrodipicolinate + NADH + H+", 
+            "kegg_id": "rn:R04198", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04198", 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 307.7205282366107, 
+            "x": 734.1396825482428, 
+            "gene": "ko:K00215", 
+            "type": "R", 
+            "id": "59", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03340", 
+            "font_size": 12, 
+            "name": "meso-2,6-diaminoheptanedioate:NADP+ oxidoreductase (deaminating)", 
+            "rxn": " meso-2,6-Diaminoheptanedioate + NADP+ + H2O <=> L-2-Amino-6-oxoheptanedioate + Ammonia + NADPH + H+", 
+            "kegg_id": "rn:R02755", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02755", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 456.7940574195503, 
+            "x": 587.0868710603709, 
+            "gene": "ko:K03340", 
+            "type": "R", 
+            "id": "60", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05822", 
+            "font_size": 12, 
+            "name": "Acetyl-CoA:L-2,3,4,5-tetrahydrodipicolinate N2-acetyltransferase", 
+            "rxn": " 2,3,4,5-Tetrahydrodipicolinate + Acetyl-CoA + H2O <=> N-Acetyl-L-2-amino-6-oxopimelate + CoA", 
+            "kegg_id": "rn:R04364", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04364", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 460.92145246896246, 
+            "x": 783.4576096065184, 
+            "gene": "ko:K05822", 
+            "type": "R", 
+            "id": "61", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00674", 
+            "font_size": 12, 
+            "name": "Succinyl-CoA:2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase", 
+            "rxn": " Succinyl-CoA + 2,3,4,5-Tetrahydrodipicolinate + H2O <=> CoA + N-Succinyl-2-L-amino-6-oxoheptanedioate", 
+            "kegg_id": "rn:R04365", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04365", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 394.9015210200624, 
+            "x": 734.1396825482428, 
+            "gene": "ko:K00674", 
+            "type": "R", 
+            "id": "62", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00841", 
+            "font_size": 12, 
+            "name": "N6-Acetyl-LL-2,6-diaminoheptanedioate + 2-Oxoglutarate <=> N-Acetyl-L-2-amino-6-oxopimelate + L-Glutamate", 
+            "rxn": "N6-Acetyl-LL-2,6-diaminoheptanedioate + 2-Oxoglutarate <=> N-Acetyl-L-2-amino-6-oxopimelate + L-Glutamate", 
+            "kegg_id": "rn:R04467", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04467", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 588.8911579218111, 
+            "x": 783.4576096065184, 
+            "gene": "ko:K00841", 
+            "type": "R", 
+            "id": "63", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00821+K14267", 
+            "font_size": 12, 
+            "name": "N-Succinyl-L-2,6-diaminoheptanedioate:2-oxoglutarate amino-transferase", 
+            "rxn": " N-Succinyl-LL-2,6-diaminoheptanedioate + 2-Oxoglutarate <=> N-Succinyl-2-L-amino-6-oxoheptanedioate + L-Glutamate", 
+            "kegg_id": "rn:R04475", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04475", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 497.8782291355451, 
+            "x": 734.1396825482428, 
+            "gene": "ko:K00821 ko:K14267", 
+            "type": "R", 
+            "id": "64", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05823", 
+            "font_size": 12, 
+            "name": "N6-Acetyl-LL-2,6-diaminoheptanedioate amidohydrolase", 
+            "rxn": " N6-Acetyl-LL-2,6-diaminoheptanedioate + H2O <=> Acetate + LL-2,6-Diaminoheptanedioate", 
+            "kegg_id": "rn:R02733", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02733", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 671.1176414778218, 
+            "x": 667.257642900954, 
+            "gene": "ko:K05823", 
+            "type": "R", 
+            "id": "65", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01439", 
+            "font_size": 12, 
+            "name": "N-Succinyl-LL-2,6-diaminoheptanedioate amidohydrolase", 
+            "rxn": " N-Succinyl-LL-2,6-diaminoheptanedioate + H2O <=> Succinate + LL-2,6-Diaminoheptanedioate", 
+            "kegg_id": "rn:R02734", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02734", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 588.8911579218111, 
+            "x": 697.083385270147, 
+            "gene": "ko:K01439", 
+            "type": "R", 
+            "id": "66", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01778", 
+            "font_size": 12, 
+            "name": "LL-2,6-Diaminoheptanedioate 2-epimerase", 
+            "rxn": " LL-2,6-Diaminoheptanedioate <=> meso-2,6-Diaminoheptanedioate", 
+            "kegg_id": "rn:R02735", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02735", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 588.8911579218111, 
+            "x": 628.3760591868374, 
+            "gene": "ko:K01778", 
+            "type": "R", 
+            "id": "67", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01586+K12526", 
+            "font_size": 12, 
+            "name": "meso-2,6-diaminoheptanedioate carboxy-lyase (L-lysine-forming)", 
+            "rxn": " meso-2,6-Diaminoheptanedioate <=> L-Lysine + CO2", 
+            "kegg_id": "rn:R00451", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00451", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 588.8911579218111, 
+            "x": 534.326030766099, 
+            "gene": "ko:K01586 ko:K12526", 
+            "type": "R", 
+            "id": "68", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00290", 
+            "font_size": 12, 
+            "name": "N6-(L-1,3-Dicarboxypropyl)-L-lysine:NAD+ oxidoreductase (L-lysine-forming)", 
+            "rxn": " N6-(L-1,3-Dicarboxypropyl)-L-lysine + NAD+ + H2O <=> L-Lysine + 2-Oxoglutarate + NADH + H+", 
+            "kegg_id": "rn:R00715", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00715", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 541.2405295202698, 
+            "x": 474.96771193628973, 
+            "gene": "ko:K00290", 
+            "type": "R", 
+            "id": "69", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00293+K24034", 
+            "font_size": 12, 
+            "name": "N6-(L-1,3-Dicarboxypropyl)-L-lysine:NADP+ oxidoreductase", 
+            "rxn": " N6-(L-1,3-Dicarboxypropyl)-L-lysine + NADP+ + H2O <=> L-Glutamate + L-2-Aminoadipate 6-semialdehyde + NADPH + H+", 
+            "kegg_id": "rn:R02315", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02315", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 449.26133392197437, 
+            "x": 474.96771193628973, 
+            "gene": "ko:K00293 ko:K24034", 
+            "type": "R", 
+            "id": "70", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00143", 
+            "font_size": 12, 
+            "name": "L-2-aminoadipate-6-semialdehyde:NADP+ 6-oxidoreductase", 
+            "rxn": " alpha-Aminoadipoyl-S-acyl enzyme + NADPH + H+ <=> L-2-Aminoadipate 6-semialdehyde + Holo-Lys2 + NADP+", 
+            "kegg_id": "rn:R04390", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04390", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 356.2823644584807, 
+            "x": 474.96771193628973, 
+            "gene": "ko:K00143", 
+            "type": "R", 
+            "id": "71", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00143", 
+            "font_size": 12, 
+            "name": "L-2-aminoadipate-6-semialdehyde:NADP+ 6-oxidoreductase", 
+            "rxn": " L-2-Aminoadipate + ATP <=> L-2-Aminoadipate adenylate + Diphosphate", 
+            "kegg_id": "rn:R03098", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03098", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 206.4789984239231, 
+            "x": 448.5748387387575, 
+            "gene": "ko:K00143", 
+            "type": "R", 
+            "id": "72", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00825+K05825+K00838", 
+            "font_size": 12, 
+            "name": "L-2-aminoadipate:2-oxoglutarate aminotransferase", 
+            "rxn": " L-2-Aminoadipate + 2-Oxoglutarate <=> 2-Oxoadipate + L-Glutamate", 
+            "kegg_id": "rn:R01939", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01939", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 140.74439196185577, 
+            "x": 413.97249966096047, 
+            "gene": "ko:K00825 ko:K05825 ko:K00838", 
+            "type": "R", 
+            "id": "73", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05824+K10978", 
+            "font_size": 12, 
+            "name": "(1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate:NAD+ oxidoreductase (decarboxylating)", 
+            "rxn": " Homoisocitrate + NAD+ <=> 2-Oxoadipate + CO2 + NADH + H+", 
+            "kegg_id": "rn:R01934", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01934", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 90.27438664843048, 
+            "x": 453.6884762326843, 
+            "gene": "ko:K05824 ko:K10978", 
+            "type": "R", 
+            "id": "74", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01705", 
+            "font_size": 12, 
+            "name": "Homoisocitrate hydro-lyase", 
+            "rxn": " Homoisocitrate <=> (Z)-But-1-ene-1,2,4-tricarboxylate + H2O", 
+            "kegg_id": "rn:R04371", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04371", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 90.27438664843048, 
+            "x": 520.5777161124785, 
+            "gene": "ko:K01705", 
+            "type": "R", 
+            "id": "75", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01655+K10977", 
+            "font_size": 12, 
+            "name": "acetyl-CoA:2-oxoglutarate C-acetyltransferase (thioester-hydrolysing, carboxymethyl forming)", 
+            "rxn": " Acetyl-CoA + H2O + 2-Oxoglutarate <=> (R)-2-Hydroxybutane-1,2,4-tricarboxylate + CoA", 
+            "kegg_id": "rn:R00271", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00271", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": -45.92177463648562, 
+            "x": 563.7820110414348, 
+            "gene": "ko:K01655 ko:K10977", 
+            "type": "R", 
+            "id": "76", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00143", 
+            "font_size": 12, 
+            "name": "L-2-aminoadipate-6-semialdehyde:NADP+ 6-oxidoreductase", 
+            "rxn": " L-2-Aminoadipate adenylate + Holo-Lys2 <=> alpha-Aminoadipoyl-S-acyl enzyme + AMP", 
+            "kegg_id": "rn:R04863", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04863", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 265.3029427253838, 
+            "x": 474.96771193628973, 
+            "gene": "ko:K00143", 
+            "type": "R", 
+            "id": "81", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01928+K15792", 
+            "font_size": 12, 
+            "name": "UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:(L)-meso-2,6-diaminoheptanedioate gamma-ligase (ADP-forming)", 
+            "rxn": " ATP + UDP-N-acetylmuramoyl-L-alanyl-D-glutamate + meso-2,6-Diaminoheptanedioate <=> ADP + Orthophosphate + UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimelate", 
+            "kegg_id": "rn:R02788", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02788", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 636.7533531553456, 
+            "x": 587.0868710603709, 
+            "gene": "ko:K01928 ko:K15792", 
+            "type": "R", 
+            "id": "82", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "L-Aspartate", 
+            "kegg_id": "cpd:C00049", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00049", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": -52.19806323497966, 
+            "x": 734.1396825482428, 
+            "type": "M", 
+            "id": "83", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "4-Phospho-L-aspartate", 
+            "kegg_id": "cpd:C03082", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C03082", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 50.77864488050312, 
+            "x": 734.1396825482428, 
+            "type": "M", 
+            "id": "84", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "L-Homoserine", 
+            "kegg_id": "cpd:C00263", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00263", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 216.91371152976774, 
+            "x": 772.6424348401079, 
+            "type": "M", 
+            "id": "85", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "L-Aspartate 4-semialdehyde", 
+            "kegg_id": "cpd:C00441", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00441", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 153.75535299598621, 
+            "x": 734.1396825482428, 
+            "type": "M", 
+            "id": "86", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "2,3,4,5-Tetrahydrodipicolinate", 
+            "kegg_id": "cpd:C03972", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C03972", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 360.70854309215065, 
+            "x": 734.1396825482428, 
+            "type": "M", 
+            "id": "87", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "N-Acetyl-L-2-amino-6-oxopimelate", 
+            "kegg_id": "cpd:C05539", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C05539", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 535.9044923588774, 
+            "x": 783.4576096065184, 
+            "type": "M", 
+            "id": "88", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "N6-Acetyl-LL-2,6-diaminoheptanedioate", 
+            "kegg_id": "cpd:C04390", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04390", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 671.1176414778218, 
+            "x": 783.4576096065184, 
+            "type": "M", 
+            "id": "89", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "N-Succinyl-2-L-amino-6-oxoheptanedioate", 
+            "kegg_id": "cpd:C04462", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04462", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 446.88976201040333, 
+            "x": 734.1396825482428, 
+            "type": "M", 
+            "id": "90", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "N-Succinyl-LL-2,6-diaminoheptanedioate", 
+            "kegg_id": "cpd:C04421", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04421", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": -19.7, 
+            "y": 588.8911579218111, 
+            "x": 734.1396825482428, 
+            "type": "M", 
+            "id": "91", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "LL-2,6-Diaminoheptanedioate", 
+            "kegg_id": "cpd:C00666", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00666", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 25.2, 
+            "y": 588.8911579218111, 
+            "x": 667.257642900954, 
+            "type": "M", 
+            "id": "92", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "meso-2,6-Diaminoheptanedioate", 
+            "kegg_id": "cpd:C00680", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00680", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": -11.6, 
+            "y": 588.8911579218111, 
+            "x": 587.0868710603709, 
+            "type": "M", 
+            "id": "93", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "L-2-Amino-6-oxoheptanedioate", 
+            "kegg_id": "cpd:C03871", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C03871", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 357.8164447648636, 
+            "x": 587.0868710603709, 
+            "type": "M", 
+            "id": "94", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimelate", 
+            "kegg_id": "cpd:C04877", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04877", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 703.7382021236697, 
+            "x": 587.0868710603709, 
+            "type": "M", 
+            "id": "95", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "L-Lysine", 
+            "kegg_id": "cpd:C00047", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00047", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": -11.6, 
+            "y": 588.8911579218111, 
+            "x": 474.96771193628973, 
+            "type": "M", 
+            "id": "96", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "N6-(L-1,3-Dicarboxypropyl)-L-lysine", 
+            "kegg_id": "cpd:C00449", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00449", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 496.2507055863212, 
+            "x": 474.96771193628973, 
+            "type": "M", 
+            "id": "97", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "L-2-Aminoadipate 6-semialdehyde", 
+            "kegg_id": "cpd:C04076", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04076", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 404.2715099880256, 
+            "x": 474.96771193628973, 
+            "type": "M", 
+            "id": "98", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "alpha-Aminoadipoyl-S-acyl enzyme", 
+            "kegg_id": "cpd:C05535", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C05535", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 312.2923143897304, 
+            "x": 474.96771193628973, 
+            "type": "M", 
+            "id": "99", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "L-2-Aminoadipate adenylate", 
+            "kegg_id": "cpd:C05560", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C05560", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 220.31311879143522, 
+            "x": 474.96771193628973, 
+            "type": "M", 
+            "id": "100", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "L-2-Aminoadipate", 
+            "kegg_id": "cpd:C00956", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00956", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 191.0042621106918, 
+            "x": 413.97249966096047, 
+            "type": "M", 
+            "id": "101", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "2-Oxoadipate", 
+            "kegg_id": "cpd:C00322", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00322", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": -11.6, 
+            "y": 90.27438664843048, 
+            "x": 413.97249966096047, 
+            "type": "M", 
+            "id": "102", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "Homoisocitrate", 
+            "kegg_id": "cpd:C05662", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C05662", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 26.4, 
+            "y": 90.27438664843048, 
+            "x": 490.14847352311426, 
+            "type": "M", 
+            "id": "103", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "(Z)-But-1-ene-1,2,4-tricarboxylate", 
+            "kegg_id": "cpd:C04002", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04002", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 90.27438664843048, 
+            "x": 563.7820110414348, 
+            "type": "M", 
+            "id": "104", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "(R)-2-Hydroxybutane-1,2,4-tricarboxylate", 
+            "kegg_id": "cpd:C01251", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01251", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": -0.8591635312009203, 
+            "x": 563.7820110414348, 
+            "type": "M", 
+            "id": "105", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "Acetyl-CoA", 
+            "kegg_id": "cpd:C00024", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00024", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": -72.94963867132702, 
+            "x": 512.585221707213, 
+            "type": "M", 
+            "id": "106", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "2-Oxoglutarate", 
+            "kegg_id": "cpd:C00026", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00026", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": -91.91137243563327, 
+            "x": 563.7820110414348, 
+            "type": "M", 
+            "id": "107", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-6-carboxy-L-lysyl-D-alanyl-D-alanine", 
+            "kegg_id": "cpd:C04882", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04882", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 844.7063171167089, 
+            "x": 587.0868710603709, 
+            "type": "M", 
+            "id": "108", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00838", 
+            "font_size": 12, 
+            "name": "L-2-aminoadipate:2-oxoglutarate aminotransferase", 
+            "rxn": " L-2-Aminoadipate + 2-Oxoglutarate <=> 2-Oxoadipate + L-Glutamate", 
+            "kegg_id": "rn:R01939", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01939", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 141.81353450817096, 
+            "x": 413.97249966096047, 
+            "gene": "ko:K00838", 
+            "type": "R", 
+            "id": "114", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K16792+K16793", 
+            "font_size": 12, 
+            "name": "(R)-2-hydroxybutane-1,2,4-tricarboxylate hydro-lyase", 
+            "rxn": " (R)-2-Hydroxybutane-1,2,4-tricarboxylate <=> (Z)-But-1-ene-1,2,4-tricarboxylate + H2O", 
+            "kegg_id": "rn:R03444", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03444", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 44.82372737896253, 
+            "x": 563.7820110414348, 
+            "gene": "ko:K16792 ko:K16793", 
+            "type": "R", 
+            "id": "115", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K17753", 
+            "font_size": 12, 
+            "name": "(1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate:NAD+ oxidoreductase (decarboxylating)", 
+            "rxn": " Homoisocitrate + NAD+ <=> 2-Oxoadipate + CO2 + NADH + H+", 
+            "kegg_id": "rn:R01934", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01934", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 90.27438664843048, 
+            "x": 454.140921341563, 
+            "gene": "ko:K17753", 
+            "type": "R", 
+            "id": "116", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K16792+K16793", 
+            "font_size": 12, 
+            "name": "Homoisocitrate hydro-lyase", 
+            "rxn": " Homoisocitrate <=> (Z)-But-1-ene-1,2,4-tricarboxylate + H2O", 
+            "kegg_id": "rn:R04371", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04371", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 90.27438664843048, 
+            "x": 520.9100915602409, 
+            "gene": "ko:K16792 ko:K16793", 
+            "type": "R", 
+            "id": "117", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K16181", 
+            "font_size": 12, 
+            "name": "L-Lysine + (2R,3R)-3-Methylornithine + ATP <=> (2R,3R)-3-Methylornithinyl-N6-lysine + Products of ATP breakdown", 
+            "rxn": "L-Lysine + (2R,3R)-3-Methylornithine + ATP <=> (2R,3R)-3-Methylornithinyl-N6-lysine + Products of ATP breakdown", 
+            "kegg_id": "rn:R10011", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10011", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 681.5529830612993, 
+            "x": 389.4467786218439, 
+            "gene": "ko:K16181", 
+            "type": "R", 
+            "id": "120", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K16182", 
+            "font_size": 12, 
+            "name": "(2R,3R)-3-Methylornithinyl-N6-lysine + NAD+ + H2O <=> (2R,3R)-3-Methylglutamyl-5-semialdehyde-N6-lysine + Ammonia + NADH + H+", 
+            "rxn": "(2R,3R)-3-Methylornithinyl-N6-lysine + NAD+ + H2O <=> (2R,3R)-3-Methylglutamyl-5-semialdehyde-N6-lysine + Ammonia + NADH + H+", 
+            "kegg_id": "rn:R10012", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10012", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 778.5310479855882, 
+            "x": 389.4467786218439, 
+            "gene": "ko:K16182", 
+            "type": "R", 
+            "id": "122", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "(2R,3R)-3-Methylornithinyl-N6-lysine", 
+            "kegg_id": "cpd:C20278", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C20278", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 732.562715615318, 
+            "x": 389.4467786218439, 
+            "type": "M", 
+            "id": "123", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K16180", 
+            "font_size": 12, 
+            "name": "L-lysine carboxy-aminomethylmutase", 
+            "rxn": " L-Lysine <=> (2R,3R)-3-Methylornithine", 
+            "kegg_id": "rn:R10010", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10010", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 639.8386325903743, 
+            "x": 451.45859328033384, 
+            "gene": "ko:K16180", 
+            "type": "R", 
+            "id": "125", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "(2R,3R)-3-Methylornithine", 
+            "kegg_id": "cpd:C20277", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C20277", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 680.9703947256817, 
+            "x": 436.1907136271728, 
+            "type": "M", 
+            "id": "126", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "(2R,3R)-3-Methylglutamyl-5-semialdehyde-N6-lysine", 
+            "kegg_id": "cpd:C20279", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C20279", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": -6.1, 
+            "y": 836.539197595999, 
+            "x": 389.4467786218439, 
+            "type": "M", 
+            "id": "127", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "font_size": 12, 
+            "name": "(2S,4S)-4-Hydroxy-2,3,4,5-tetrahydrodipicolinate", 
+            "kegg_id": "cpd:C20258", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C20258", 
+            "r": 8, 
+            "dx": 14.4, 
+            "dy": 5, 
+            "y": 256.73206111146897, 
+            "x": 734.1396825482428, 
+            "type": "M", 
+            "id": "130", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Lysine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K17450", 
+            "font_size": 12, 
+            "name": "(R)-2-hydroxybutane-1,2,4-tricarboxylate hydro-lyase", 
+            "rxn": " (R)-2-Hydroxybutane-1,2,4-tricarboxylate <=> (Z)-But-1-ene-1,2,4-tricarboxylate + H2O", 
+            "kegg_id": "rn:R03444", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03444", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 45.27030138538191, 
+            "x": 563.7820110414348, 
+            "gene": "ko:K17450", 
+            "type": "R", 
+            "id": "131", 
+            "fill": "#d3d3d3"
+        }
+    ], 
+    "pathway": {
+        "name": "path:ko00300", 
+        "title": "Lysine biosynthesis", 
+        "image": "https://www.kegg.jp/kegg/pathway/ko/ko00300.png", 
+        "number": "00300", 
+        "link": "https://www.kegg.jp/kegg-bin/show_pathway?ko00300", 
+        "org": "ko"
+    }
+}

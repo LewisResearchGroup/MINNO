@@ -1,0 +1,3963 @@
+{
+    "reaction": [
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "30", 
+                    "name": "cpd:C00018"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "116", 
+                    "name": "cpd:C00064"
+                }, 
+                {
+                    "id": "5", 
+                    "name": "cpd:C00118"
+                }, 
+                {
+                    "id": "6", 
+                    "name": "cpd:C00117"
+                }
+            ], 
+            "id": "7", 
+            "name": "rn:R10089"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "31", 
+                    "name": "cpd:C00627"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "109", 
+                    "name": "cpd:C11638"
+                }
+            ], 
+            "id": "100", 
+            "name": "rn:R05838"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "10", 
+                    "name": "cpd:C07335"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "42", 
+                    "name": "cpd:C06055"
+                }
+            ], 
+            "id": "90", 
+            "name": "rn:R05681"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "110", 
+                    "name": "cpd:C06056"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "42", 
+                    "name": "cpd:C06055"
+                }
+            ], 
+            "id": "89", 
+            "name": "rn:R05086"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C06054"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "42", 
+                    "name": "cpd:C06055"
+                }
+            ], 
+            "id": "91", 
+            "name": "rn:R05085"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "41", 
+                    "name": "cpd:C06054"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "36", 
+                    "name": "cpd:C03393"
+                }
+            ], 
+            "id": "92", 
+            "name": "rn:R04210"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "36", 
+                    "name": "cpd:C03393"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "37", 
+                    "name": "cpd:C00279"
+                }
+            ], 
+            "id": "93", 
+            "name": "rn:R01825"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "30", 
+                    "name": "cpd:C00018"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "31", 
+                    "name": "cpd:C00627"
+                }
+            ], 
+            "id": "96", 
+            "name": "rn:R00278"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "30", 
+                    "name": "cpd:C00018"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "29", 
+                    "name": "cpd:C00647"
+                }
+            ], 
+            "id": "82", 
+            "name": "rn:R00277"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "33", 
+                    "name": "cpd:C00314"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "31", 
+                    "name": "cpd:C00627"
+                }
+            ], 
+            "id": "85", 
+            "name": "rn:R01911"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "31", 
+                    "name": "cpd:C00627"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "33", 
+                    "name": "cpd:C00314"
+                }
+            ], 
+            "id": "86", 
+            "name": "rn:R01909"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "27", 
+                    "name": "cpd:C00250"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "30", 
+                    "name": "cpd:C00018"
+                }
+            ], 
+            "id": "87", 
+            "name": "rn:R00173"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "30", 
+                    "name": "cpd:C00018"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "27", 
+                    "name": "cpd:C00250"
+                }
+            ], 
+            "id": "88", 
+            "name": "rn:R00174"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C00534"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "29", 
+                    "name": "cpd:C00647"
+                }
+            ], 
+            "id": "83", 
+            "name": "rn:R02494"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "29", 
+                    "name": "cpd:C00647"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C00534"
+                }
+            ], 
+            "id": "84", 
+            "name": "rn:R02493"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "27", 
+                    "name": "cpd:C00250"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "33", 
+                    "name": "cpd:C00314"
+                }
+            ], 
+            "id": "97", 
+            "name": "rn:R01711"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "27", 
+                    "name": "cpd:C00250"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "33", 
+                    "name": "cpd:C00314"
+                }
+            ], 
+            "id": "98", 
+            "name": "rn:R01708"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "27", 
+                    "name": "cpd:C00250"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C00534"
+                }
+            ], 
+            "id": "17", 
+            "name": "rn:R01712"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "108", 
+                    "name": "cpd:C00847"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "27", 
+                    "name": "cpd:C00250"
+                }
+            ], 
+            "id": "19", 
+            "name": "rn:R01709"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "26", 
+                    "name": "cpd:C00971"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "27", 
+                    "name": "cpd:C00250"
+                }
+            ], 
+            "id": "105", 
+            "name": "rn:R01707"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "108", 
+                    "name": "cpd:C00847"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "26", 
+                    "name": "cpd:C00971"
+                }
+            ], 
+            "id": "106", 
+            "name": "rn:R02992"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "23", 
+                    "name": "cpd:C01270"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "24", 
+                    "name": "cpd:C04604"
+                }
+            ], 
+            "id": "102", 
+            "name": "rn:R03461"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "22", 
+                    "name": "cpd:C01215"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "23", 
+                    "name": "cpd:C01270"
+                }
+            ], 
+            "id": "103", 
+            "name": "rn:R03385 rn:R03386"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "21", 
+                    "name": "cpd:C00232"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "22", 
+                    "name": "cpd:C01215"
+                }
+            ], 
+            "id": "104", 
+            "name": "rn:R01649"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "27", 
+                    "name": "cpd:C00250"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "28", 
+                    "name": "cpd:C00534"
+                }
+            ], 
+            "id": "20", 
+            "name": "rn:R01710"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "27", 
+                    "name": "cpd:C00250"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "33", 
+                    "name": "cpd:C00314"
+                }
+            ], 
+            "id": "99", 
+            "name": "rn:R01711"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "25", 
+                    "name": "cpd:C06050"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "108", 
+                    "name": "cpd:C00847"
+                }
+            ], 
+            "id": "111", 
+            "name": "rn:R02993"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "24", 
+                    "name": "cpd:C04604"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "25", 
+                    "name": "cpd:C06050"
+                }
+            ], 
+            "id": "112", 
+            "name": "rn:R04524"
+        }
+    ], 
+    "links": [
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M852,277L872.008027500077,259.3005910576242", 
+            "kegg_id": "rn:R10089", 
+            "source": "116", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "7", 
+            "target": "7"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M922,277L885.0898035516947,257.7060336747495", 
+            "kegg_id": "rn:R10089", 
+            "source": "5", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "7", 
+            "target": "7"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M877,307L877.8490834644191,261.99857638578817", 
+            "kegg_id": "rn:R10089", 
+            "source": "6", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "7", 
+            "target": "7"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M878,254L763.5643006869286,214.60410351517214", 
+            "kegg_id": "rn:R10089", 
+            "source": "7", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "7", 
+            "target": "30"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M756,438L756.8000624707183,405.99750117126496", 
+            "kegg_id": "rn:R05838", 
+            "source": "109", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "100", 
+            "target": "100"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M757,398L756.1599680095968,355.99840047984003", 
+            "kegg_id": "rn:R05838", 
+            "source": "100", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "100", 
+            "target": "31"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M646,526L692,526", 
+            "kegg_id": "rn:R05681", 
+            "source": "42", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "90", 
+            "target": "90"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M700,526L748,526", 
+            "kegg_id": "rn:R05681", 
+            "source": "90", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "90", 
+            "target": "10"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M646,526L646,503", 
+            "kegg_id": "rn:R05086", 
+            "source": "42", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "89", 
+            "target": "89"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M646,495L646,466", 
+            "kegg_id": "rn:R05086", 
+            "source": "89", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "89", 
+            "target": "110"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M646,526L599.998628610601,526.8518772479518", 
+            "kegg_id": "rn:R05085", 
+            "source": "42", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "91", 
+            "target": "91"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M592,527L638.001371389399,526.1481227520482", 
+            "kegg_id": "rn:R05085", 
+            "source": "91", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "91", 
+            "target": "42"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M592,527L540.9988511524318,526.1355737483462", 
+            "kegg_id": "rn:R05085", 
+            "source": "91", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "91", 
+            "target": "41"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M533,526L584.0011488475682,526.8644262516538", 
+            "kegg_id": "rn:R05085", 
+            "source": "41", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "91", 
+            "target": "91"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M421,526L471.001188795608,526.8620894619933", 
+            "kegg_id": "rn:R04210", 
+            "source": "36", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "92", 
+            "target": "92"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M479,527L428.998811204392,526.1379105380067", 
+            "kegg_id": "rn:R04210", 
+            "source": "92", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "92", 
+            "target": "36"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M479,527L525.001371389399,526.1481227520482", 
+            "kegg_id": "rn:R04210", 
+            "source": "92", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "92", 
+            "target": "41"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M533,526L486.99862861060103,526.8518772479518", 
+            "kegg_id": "rn:R04210", 
+            "source": "41", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "92", 
+            "target": "92"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M309,526L358.0012308639199,526.8596707169108", 
+            "kegg_id": "rn:R01825", 
+            "source": "37", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "93", 
+            "target": "93"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M366,527L316.9987691360801,526.1403292830892", 
+            "kegg_id": "rn:R01825", 
+            "source": "93", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "93", 
+            "target": "37"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M366,527L413.0013219862934,526.1454305093401", 
+            "kegg_id": "rn:R01825", 
+            "source": "93", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "93", 
+            "target": "36"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M421,526L373.9986780137066,526.8545694906599", 
+            "kegg_id": "rn:R01825", 
+            "source": "36", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "93", 
+            "target": "93"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M756,348L756.8596707169108,298.9987691360801", 
+            "kegg_id": "rn:R00278", 
+            "source": "31", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "96", 
+            "target": "96"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M757,291L756.1012577108112,219.99935915408236", 
+            "kegg_id": "rn:R00278", 
+            "source": "96", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "96", 
+            "target": "30"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M756,76L756.8666851813281,128.0011108796832", 
+            "kegg_id": "rn:R00277", 
+            "source": "29", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "82", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M757,136L756.1052540469623,204.00069243086642", 
+            "kegg_id": "rn:R00277", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "82", 
+            "target": "30"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M756,348L689.9279394432826,356.92865683198886", 
+            "kegg_id": "rn:R01911", 
+            "source": "31", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "85", 
+            "target": "85"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M682,358L605.9439061935595,348.9457031182809", 
+            "kegg_id": "rn:R01911", 
+            "source": "85", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "85", 
+            "target": "33"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M598,348L674.0455267686416,339.8522649890741", 
+            "kegg_id": "rn:R01909", 
+            "source": "33", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "86", 
+            "target": "86"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M682,339L748.0585188693709,347.0341441868154", 
+            "kegg_id": "rn:R01909", 
+            "source": "86", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "86", 
+            "target": "31"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M756,212L689.9279394432826,220.92865683198883", 
+            "kegg_id": "rn:R00173", 
+            "source": "30", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "87", 
+            "target": "87"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M682,222L605.9439061935595,212.9457031182809", 
+            "kegg_id": "rn:R00173", 
+            "source": "87", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "87", 
+            "target": "27"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M598,212L674.0455267686416,203.85226498907411", 
+            "kegg_id": "rn:R00174", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "88", 
+            "target": "88"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M682,203L748.0585188693709,211.03414418681538", 
+            "kegg_id": "rn:R00174", 
+            "source": "88", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "88", 
+            "target": "30"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M756,76L689.9279394432826,84.92865683198883", 
+            "kegg_id": "rn:R02494", 
+            "source": "29", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "83", 
+            "target": "83"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M682,86L605.9439061935595,76.9457031182809", 
+            "kegg_id": "rn:R02494", 
+            "source": "83", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "83", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M598,76L674.0455267686416,67.85226498907411", 
+            "kegg_id": "rn:R02493", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "84", 
+            "target": "84"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M682,67L748.0585188693709,75.03414418681538", 
+            "kegg_id": "rn:R02493", 
+            "source": "84", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "84", 
+            "target": "29"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M598,348L576.2132919606805,298.3263056703516", 
+            "kegg_id": "rn:R01711", 
+            "source": "33", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "97", 
+            "target": "97"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M573,291L594.7867080393195,340.6736943296484", 
+            "kegg_id": "rn:R01711", 
+            "source": "97", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "97", 
+            "target": "33"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M573,291L595.5863288685271,219.62720077545453", 
+            "kegg_id": "rn:R01711", 
+            "source": "97", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "97", 
+            "target": "27"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M598,212L575.4136711314729,283.3727992245455", 
+            "kegg_id": "rn:R01711", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "97", 
+            "target": "97"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M598,348L598.8947459530377,279.9993075691336", 
+            "kegg_id": "rn:R01708", 
+            "source": "33", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "98", 
+            "target": "98"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M599,272L598.1052540469623,340.0006924308664", 
+            "kegg_id": "rn:R01708", 
+            "source": "98", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "98", 
+            "target": "33"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M599,272L598.1333148186719,219.9988891203168", 
+            "kegg_id": "rn:R01708", 
+            "source": "98", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "98", 
+            "target": "27"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M598,212L598.8666851813281,264.0011108796832", 
+            "kegg_id": "rn:R01708", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "98", 
+            "target": "98"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M598,76L577.1648593941172,110.16963059364771", 
+            "kegg_id": "rn:R01712", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "17", 
+            "target": "17"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M573,117L593.8351406058828,82.83036940635229", 
+            "kegg_id": "rn:R01712", 
+            "source": "17", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "17", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M573,117L595.9640536057628,204.26340370189882", 
+            "kegg_id": "rn:R01712", 
+            "source": "17", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "17", 
+            "target": "27"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M598,212L575.0359463942372,124.73659629810118", 
+            "kegg_id": "rn:R01712", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "17", 
+            "target": "17"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M598,212L548.8796561971706,203.38239582406501", 
+            "kegg_id": "rn:R01709", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "19", 
+            "target": "19"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M541,202L477.9218120408467,210.88425182523287", 
+            "kegg_id": "rn:R01709", 
+            "source": "19", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "19", 
+            "target": "108"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M598,212L546.9101281982718,165.39169590017772", 
+            "kegg_id": "rn:R01707", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "105", 
+            "target": "105"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M541,160L592.0898718017282,206.60830409982228", 
+            "kegg_id": "rn:R01707", 
+            "source": "105", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "105", 
+            "target": "27"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M541,160L477.99920662468196,159.11266488203776", 
+            "kegg_id": "rn:R01707", 
+            "source": "105", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "105", 
+            "target": "26"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M470,159L533.000793375318,159.88733511796224", 
+            "kegg_id": "rn:R01707", 
+            "source": "26", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "105", 
+            "target": "105"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M470,159L470,173", 
+            "kegg_id": "rn:R02992", 
+            "source": "26", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "106", 
+            "target": "106"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M470,181L470,204", 
+            "kegg_id": "rn:R02992", 
+            "source": "106", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "106", 
+            "target": "108"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M270,212L233.99793468435954,212.81822875717364", 
+            "kegg_id": "rn:R03461", 
+            "source": "24", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "102", 
+            "target": "102"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M226,213L177.99872479476355,212.14283437133506", 
+            "kegg_id": "rn:R03461", 
+            "source": "102", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "102", 
+            "target": "23"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M170,212L132.9980254226529,212.82226610171884", 
+            "kegg_id": "rn:R03385", 
+            "source": "23", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "103", 
+            "target": "103"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M125,213L77.99867801370658,212.14543050934012", 
+            "kegg_id": "rn:R03385", 
+            "source": "103", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "103", 
+            "target": "22"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M70,212L70.75768698687385,186.99632943316306", 
+            "kegg_id": "rn:R01649", 
+            "source": "22", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "104", 
+            "target": "104"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M71,179L70.18599622199011,143.99783754557475", 
+            "kegg_id": "rn:R01649", 
+            "source": "104", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "104", 
+            "target": "21"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M598,76L619.9230769230769,128.6153846153846", 
+            "kegg_id": "rn:R01710", 
+            "source": "28", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "20", 
+            "target": "20"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M623,136L601.0769230769231,83.38461538461539", 
+            "kegg_id": "rn:R01710", 
+            "source": "20", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "20", 
+            "target": "28"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M623,136L600.4998047103852,204.40059368042898", 
+            "kegg_id": "rn:R01710", 
+            "source": "20", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "20", 
+            "target": "27"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M598,212L620.5001952896148,143.59940631957102", 
+            "kegg_id": "rn:R01710", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "20", 
+            "target": "20"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M598,348L619.7867080393195,298.3263056703516", 
+            "kegg_id": "rn:R01711", 
+            "source": "33", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "99", 
+            "target": "99"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M623,291L601.2132919606805,340.6736943296484", 
+            "kegg_id": "rn:R01711", 
+            "source": "99", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "99", 
+            "target": "33"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M623,291L600.4136711314729,219.62720077545453", 
+            "kegg_id": "rn:R01711", 
+            "source": "99", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "99", 
+            "target": "27"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M598,212L620.5863288685271,283.3727992245455", 
+            "kegg_id": "rn:R01711", 
+            "source": "27", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "99", 
+            "target": "99"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M470,212L433.99793468435956,212.81822875717364", 
+            "kegg_id": "rn:R02993", 
+            "source": "108", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "111", 
+            "target": "111"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M426,213L377.9987247947636,212.14283437133506", 
+            "kegg_id": "rn:R02993", 
+            "source": "111", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "111", 
+            "target": "25"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M370,212L334.9978375455748,212.8140037780099", 
+            "kegg_id": "rn:R04524", 
+            "source": "25", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "112", 
+            "target": "112"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Vitamin B6 metabolism", 
+            "strength": "2", 
+            "d": "M327,213L277.9987691360801,212.14032928308913", 
+            "kegg_id": "rn:R04524", 
+            "source": "112", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "112", 
+            "target": "24"
+        }
+    ], 
+    "labels": [], 
+    "boxes": [], 
+    "relation": [
+        {
+            "entry2": "104", 
+            "subtype": {
+                "name": "compound", 
+                "value": "22"
+            }, 
+            "entry1": "103", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "103", 
+            "subtype": {
+                "name": "compound", 
+                "value": "23"
+            }, 
+            "entry1": "102", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "106", 
+            "subtype": {
+                "name": "compound", 
+                "value": "26"
+            }, 
+            "entry1": "105", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "106", 
+            "subtype": {
+                "name": "compound", 
+                "value": "108"
+            }, 
+            "entry1": "19", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "19", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "87", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "19", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "20", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "19", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "19", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "17", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "105", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "19", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "19", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "98", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "19", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "97", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "99", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "19", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "20", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "87", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "17", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "87", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "105", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "87", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "98", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "87", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "97", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "87", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "99", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "87", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "20", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "17", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "105", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "98", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "97", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "99", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "20", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "105", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "20", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "98", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "20", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "97", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "105", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "17", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "17", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "98", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "17", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "97", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "99", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "17", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "105", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "98", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "105", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "97", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "99", 
+            "subtype": {
+                "name": "compound", 
+                "value": "27"
+            }, 
+            "entry1": "105", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "17", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "17", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "84", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "20", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "20", 
+            "subtype": {
+                "name": "compound", 
+                "value": "28"
+            }, 
+            "entry1": "84", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "84", 
+            "subtype": {
+                "name": "compound", 
+                "value": "29"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "83", 
+            "subtype": {
+                "name": "compound", 
+                "value": "29"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "88", 
+            "subtype": {
+                "name": "compound", 
+                "value": "30"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "87", 
+            "subtype": {
+                "name": "compound", 
+                "value": "30"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "88", 
+            "subtype": {
+                "name": "compound", 
+                "value": "30"
+            }, 
+            "entry1": "96", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "87", 
+            "subtype": {
+                "name": "compound", 
+                "value": "30"
+            }, 
+            "entry1": "96", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "86", 
+            "subtype": {
+                "name": "compound", 
+                "value": "31"
+            }, 
+            "entry1": "96", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "85", 
+            "subtype": {
+                "name": "compound", 
+                "value": "31"
+            }, 
+            "entry1": "96", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "96", 
+            "subtype": {
+                "name": "compound", 
+                "value": "31"
+            }, 
+            "entry1": "100", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "86", 
+            "subtype": {
+                "name": "compound", 
+                "value": "31"
+            }, 
+            "entry1": "100", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "85", 
+            "subtype": {
+                "name": "compound", 
+                "value": "31"
+            }, 
+            "entry1": "100", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "91", 
+            "subtype": {
+                "name": "compound", 
+                "value": "42"
+            }, 
+            "entry1": "90", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "89", 
+            "subtype": {
+                "name": "compound", 
+                "value": "42"
+            }, 
+            "entry1": "90", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "91", 
+            "subtype": {
+                "name": "compound", 
+                "value": "42"
+            }, 
+            "entry1": "89", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "99", 
+            "subtype": {
+                "name": "compound", 
+                "value": "33"
+            }, 
+            "entry1": "85", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "97", 
+            "subtype": {
+                "name": "compound", 
+                "value": "33"
+            }, 
+            "entry1": "85", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "98", 
+            "subtype": {
+                "name": "compound", 
+                "value": "33"
+            }, 
+            "entry1": "85", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "99", 
+            "subtype": {
+                "name": "compound", 
+                "value": "33"
+            }, 
+            "entry1": "86", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "97", 
+            "subtype": {
+                "name": "compound", 
+                "value": "33"
+            }, 
+            "entry1": "86", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "98", 
+            "subtype": {
+                "name": "compound", 
+                "value": "33"
+            }, 
+            "entry1": "86", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "92", 
+            "subtype": {
+                "name": "compound", 
+                "value": "41"
+            }, 
+            "entry1": "91", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "93", 
+            "subtype": {
+                "name": "compound", 
+                "value": "36"
+            }, 
+            "entry1": "92", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "7", 
+            "subtype": {
+                "name": "compound", 
+                "value": "30"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "7", 
+            "subtype": {
+                "name": "compound", 
+                "value": "30"
+            }, 
+            "entry1": "87", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "7", 
+            "subtype": {
+                "name": "compound", 
+                "value": "30"
+            }, 
+            "entry1": "96", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "7", 
+            "subtype": {
+                "name": "compound", 
+                "value": "30"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "15", 
+            "subtype": {
+                "name": "compound", 
+                "value": "21"
+            }, 
+            "entry1": "104", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "13", 
+            "subtype": {
+                "name": "compound", 
+                "value": "37"
+            }, 
+            "entry1": "93", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "9", 
+            "subtype": {
+                "name": "compound", 
+                "value": "6"
+            }, 
+            "entry1": "7", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "8", 
+            "subtype": {
+                "name": "compound", 
+                "value": "5"
+            }, 
+            "entry1": "7", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "111", 
+            "subtype": {
+                "name": "compound", 
+                "value": "25"
+            }, 
+            "entry1": "112", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "106", 
+            "subtype": {
+                "name": "compound", 
+                "value": "108"
+            }, 
+            "entry1": "111", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "19", 
+            "subtype": {
+                "name": "compound", 
+                "value": "108"
+            }, 
+            "entry1": "111", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "112", 
+            "subtype": {
+                "name": "compound", 
+                "value": "24"
+            }, 
+            "entry1": "102", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "30"
+            }, 
+            "entry1": "119", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "88", 
+            "subtype": {
+                "name": "compound", 
+                "value": "30"
+            }, 
+            "entry1": "119", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "87", 
+            "subtype": {
+                "name": "compound", 
+                "value": "30"
+            }, 
+            "entry1": "119", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "96", 
+            "subtype": {
+                "name": "compound", 
+                "value": "30"
+            }, 
+            "entry1": "119", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "7", 
+            "subtype": {
+                "name": "compound", 
+                "value": "30"
+            }, 
+            "entry1": "119", 
+            "type": "maplink"
+        }
+    ], 
+    "entry": [
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00118", 
+            "id": "5", 
+            "name": "cpd:C00118", 
+            "graphics": {
+                "name": "C00118", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "277", 
+                "x": "922", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00117", 
+            "id": "6", 
+            "name": "cpd:C00117", 
+            "graphics": {
+                "name": "C00117", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "307", 
+                "x": "877", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R10089", 
+            "name": "ko:K06215 ko:K08681", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K06215+K08681", 
+            "graphics": {
+                "name": "K06215...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "254", 
+                "x": "878", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "7"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00010", 
+            "id": "8", 
+            "name": "path:ko00010", 
+            "graphics": {
+                "name": "Glycolysis / Gluconeogenesis", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "74", 
+                "y": "336", 
+                "x": "923", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00030", 
+            "id": "9", 
+            "name": "path:ko00030", 
+            "graphics": {
+                "name": "Pentose phosphate pathway", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "152", 
+                "y": "373", 
+                "x": "900", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C07335", 
+            "id": "10", 
+            "name": "cpd:C07335", 
+            "graphics": {
+                "name": "C07335", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "526", 
+                "x": "756", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00750", 
+            "id": "12", 
+            "name": "path:ko00750", 
+            "graphics": {
+                "name": "TITLE:Vitamin B6 metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "203", 
+                "y": "58", 
+                "x": "142", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00030", 
+            "id": "13", 
+            "name": "path:ko00030", 
+            "graphics": {
+                "name": "Pentose phosphate pathway", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "116", 
+                "y": "526", 
+                "x": "184", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00630", 
+            "id": "14", 
+            "name": "path:ko00630", 
+            "graphics": {
+                "name": "Glyoxylate and dicarboxylate metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "141", 
+                "y": "348", 
+                "x": "312", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00650", 
+            "id": "15", 
+            "name": "path:ko00650", 
+            "graphics": {
+                "name": "Butanoate metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "126", 
+                "y": "137", 
+                "x": "222", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R01712", 
+            "name": "ko:K18608", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18608", 
+            "graphics": {
+                "name": "K18608", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "117", 
+                "x": "573", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "17"
+        }, 
+        {
+            "reaction": "rn:R01709", 
+            "name": "ko:K00157", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00157", 
+            "graphics": {
+                "name": "K00157", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "202", 
+                "x": "541", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "19"
+        }, 
+        {
+            "reaction": "rn:R01710", 
+            "name": "ko:K00275 ko:K23998", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00275+K23998", 
+            "graphics": {
+                "name": "K00275...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "136", 
+                "x": "623", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "20"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00232", 
+            "id": "21", 
+            "name": "cpd:C00232", 
+            "graphics": {
+                "name": "C00232", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "136", 
+                "x": "70", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01215", 
+            "id": "22", 
+            "name": "cpd:C01215", 
+            "graphics": {
+                "name": "C01215", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "212", 
+                "x": "70", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01270", 
+            "id": "23", 
+            "name": "cpd:C01270", 
+            "graphics": {
+                "name": "C01270", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "212", 
+                "x": "170", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04604", 
+            "id": "24", 
+            "name": "cpd:C04604", 
+            "graphics": {
+                "name": "C04604", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "212", 
+                "x": "270", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06050", 
+            "id": "25", 
+            "name": "cpd:C06050", 
+            "graphics": {
+                "name": "C06050", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "212", 
+                "x": "370", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00971", 
+            "id": "26", 
+            "name": "cpd:C00971", 
+            "graphics": {
+                "name": "C00971", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "159", 
+                "x": "470", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00250", 
+            "id": "27", 
+            "name": "cpd:C00250", 
+            "graphics": {
+                "name": "C00250", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "212", 
+                "x": "598", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00534", 
+            "id": "28", 
+            "name": "cpd:C00534", 
+            "graphics": {
+                "name": "C00534", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "76", 
+                "x": "598", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00647", 
+            "id": "29", 
+            "name": "cpd:C00647", 
+            "graphics": {
+                "name": "C00647", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "76", 
+                "x": "756", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00018", 
+            "id": "30", 
+            "name": "cpd:C00018", 
+            "graphics": {
+                "name": "C00018", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "212", 
+                "x": "756", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00627", 
+            "id": "31", 
+            "name": "cpd:C00627", 
+            "graphics": {
+                "name": "C00627", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "348", 
+                "x": "756", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00266", 
+            "id": "32", 
+            "name": "cpd:C00266", 
+            "graphics": {
+                "name": "C00266", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "348", 
+                "x": "457", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00314", 
+            "id": "33", 
+            "name": "cpd:C00314", 
+            "graphics": {
+                "name": "C00314", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "348", 
+                "x": "598", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04773", 
+            "id": "34", 
+            "name": "cpd:C04773", 
+            "graphics": {
+                "name": "C04773", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "432", 
+                "x": "386", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04690", 
+            "id": "35", 
+            "name": "cpd:C04690", 
+            "graphics": {
+                "name": "C04690", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "432", 
+                "x": "251", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03393", 
+            "id": "36", 
+            "name": "cpd:C03393", 
+            "graphics": {
+                "name": "C03393", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "526", 
+                "x": "421", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00279", 
+            "id": "37", 
+            "name": "cpd:C00279", 
+            "graphics": {
+                "name": "C00279", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "526", 
+                "x": "309", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06051", 
+            "id": "38", 
+            "name": "cpd:C06051", 
+            "graphics": {
+                "name": "C06051", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "432", 
+                "x": "598", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06052", 
+            "id": "39", 
+            "name": "cpd:C06052", 
+            "graphics": {
+                "name": "C06052", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "432", 
+                "x": "494", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04106", 
+            "id": "40", 
+            "name": "cpd:C04106", 
+            "graphics": {
+                "name": "C04106", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "432", 
+                "x": "126", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06054", 
+            "id": "41", 
+            "name": "cpd:C06054", 
+            "graphics": {
+                "name": "C06054", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "526", 
+                "x": "533", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06055", 
+            "id": "42", 
+            "name": "cpd:C06055", 
+            "graphics": {
+                "name": "C06055", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "526", 
+                "x": "646", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R00277", 
+            "name": "ko:K00275 ko:K23998", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00275+K23998", 
+            "graphics": {
+                "name": "K00275...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "136", 
+                "x": "757", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "82"
+        }, 
+        {
+            "reaction": "rn:R02494", 
+            "name": "ko:K07758 ko:K13248", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K07758+K13248", 
+            "graphics": {
+                "name": "K07758...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "86", 
+                "x": "682", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "83"
+        }, 
+        {
+            "reaction": "rn:R02493", 
+            "name": "ko:K00868", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00868", 
+            "graphics": {
+                "name": "K00868", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "67", 
+                "x": "682", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "84"
+        }, 
+        {
+            "reaction": "rn:R01911", 
+            "name": "ko:K07758 ko:K13248", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K07758+K13248", 
+            "graphics": {
+                "name": "K07758...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "358", 
+                "x": "682", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "85"
+        }, 
+        {
+            "reaction": "rn:R01909", 
+            "name": "ko:K00868", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00868", 
+            "graphics": {
+                "name": "K00868", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "339", 
+                "x": "682", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "86"
+        }, 
+        {
+            "reaction": "rn:R00173", 
+            "name": "ko:K07758 ko:K13248", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K07758+K13248", 
+            "graphics": {
+                "name": "K07758...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "222", 
+                "x": "682", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "87"
+        }, 
+        {
+            "reaction": "rn:R00174", 
+            "name": "ko:K00868", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00868", 
+            "graphics": {
+                "name": "K00868", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "203", 
+                "x": "682", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "88"
+        }, 
+        {
+            "reaction": "rn:R05086", 
+            "name": "ko:K01733", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01733", 
+            "graphics": {
+                "name": "K01733", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "495", 
+                "x": "646", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "89"
+        }, 
+        {
+            "reaction": "rn:R05681", 
+            "name": "ko:K00097", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00097", 
+            "graphics": {
+                "name": "K00097", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "526", 
+                "x": "700", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "90"
+        }, 
+        {
+            "reaction": "rn:R05085", 
+            "name": "ko:K00831", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00831", 
+            "graphics": {
+                "name": "K00831", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "527", 
+                "x": "592", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "91"
+        }, 
+        {
+            "reaction": "rn:R04210", 
+            "name": "ko:K03473", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03473", 
+            "graphics": {
+                "name": "K03473", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "527", 
+                "x": "479", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "92"
+        }, 
+        {
+            "reaction": "rn:R01825", 
+            "name": "ko:K03472", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03472", 
+            "graphics": {
+                "name": "K03472", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "527", 
+                "x": "366", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "93"
+        }, 
+        {
+            "reaction": "rn:R00278", 
+            "name": "ko:K00275 ko:K23998", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00275+K23998", 
+            "graphics": {
+                "name": "K00275...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "291", 
+                "x": "757", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "96"
+        }, 
+        {
+            "reaction": "rn:R01711", 
+            "name": "ko:K18607", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18607", 
+            "graphics": {
+                "name": "K18607", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "291", 
+                "x": "573", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "97"
+        }, 
+        {
+            "reaction": "rn:R01708", 
+            "name": "ko:K05275", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05275", 
+            "graphics": {
+                "name": "K05275", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "272", 
+                "x": "599", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "98"
+        }, 
+        {
+            "reaction": "rn:R01711", 
+            "name": "ko:K00275 ko:K23998", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00275+K23998", 
+            "graphics": {
+                "name": "K00275...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "291", 
+                "x": "623", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "99"
+        }, 
+        {
+            "reaction": "rn:R05838", 
+            "name": "ko:K03474", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K03474", 
+            "graphics": {
+                "name": "K03474", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "398", 
+                "x": "757", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "100"
+        }, 
+        {
+            "reaction": "rn:R03461", 
+            "name": "ko:K18613", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18613", 
+            "graphics": {
+                "name": "K18613", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "213", 
+                "x": "226", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "102"
+        }, 
+        {
+            "reaction": "rn:R03385 rn:R03386", 
+            "name": "ko:K18071", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18071", 
+            "graphics": {
+                "name": "K18071", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "213", 
+                "x": "125", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "103"
+        }, 
+        {
+            "reaction": "rn:R01649", 
+            "name": "ko:K18614", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18614", 
+            "graphics": {
+                "name": "K18614", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "179", 
+                "x": "71", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "104"
+        }, 
+        {
+            "reaction": "rn:R01707", 
+            "name": "ko:K18609", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18609", 
+            "graphics": {
+                "name": "K18609", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "160", 
+                "x": "541", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "105"
+        }, 
+        {
+            "reaction": "rn:R02992", 
+            "name": "ko:K18610", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18610", 
+            "graphics": {
+                "name": "K18610", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "181", 
+                "x": "470", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "106"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00847", 
+            "id": "108", 
+            "name": "cpd:C00847", 
+            "graphics": {
+                "name": "C00847", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "212", 
+                "x": "470", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C11638", 
+            "id": "109", 
+            "name": "cpd:C11638", 
+            "graphics": {
+                "name": "C11638", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "438", 
+                "x": "756", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C06056", 
+            "id": "110", 
+            "name": "cpd:C06056", 
+            "graphics": {
+                "name": "C06056", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "458", 
+                "x": "646", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R02993", 
+            "name": "ko:K18611", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18611", 
+            "graphics": {
+                "name": "K18611", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "213", 
+                "x": "426", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "111"
+        }, 
+        {
+            "reaction": "rn:R04524", 
+            "name": "ko:K18612", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K18612", 
+            "graphics": {
+                "name": "K18612", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "213", 
+                "x": "327", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "112"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00064", 
+            "id": "116", 
+            "name": "cpd:C00064", 
+            "graphics": {
+                "name": "C00064", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "277", 
+                "x": "852", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00730", 
+            "id": "119", 
+            "name": "path:ko00730", 
+            "graphics": {
+                "name": "Thiamine metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "123", 
+                "y": "212", 
+                "x": "966", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }
+    ], 
+    "nodes": [
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "D-Glyceraldehyde 3-phosphate", 
+            "kegg_id": "cpd:C00118", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00118", 
+            "r": 8, 
+            "dx": 9.4, 
+            "dy": 5, 
+            "y": 277, 
+            "x": 937.0585327148438, 
+            "type": "M", 
+            "id": "5", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "D-Ribose 5-phosphate", 
+            "kegg_id": "cpd:C00117", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00117", 
+            "r": 8, 
+            "dx": 12.6, 
+            "dy": 5, 
+            "y": 306, 
+            "x": 878.5918212890625, 
+            "type": "M", 
+            "id": "6", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K06215+K08681", 
+            "font_size": 12, 
+            "name": "D-ribose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5'-phosphate-lyase (glutamine-hydrolyzing)", 
+            "rxn": " D-Ribose 5-phosphate + D-Glyceraldehyde 3-phosphate + L-Glutamine <=> Pyridoxal phosphate + L-Glutamate + 3 H2O + Orthophosphate", 
+            "kegg_id": "rn:R10089", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10089", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 247, 
+            "x": 878.5918212890625, 
+            "gene": "ko:K06215 ko:K08681", 
+            "type": "R", 
+            "id": "7", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "2-Amino-3-oxo-4-phosphonooxybutyrate", 
+            "kegg_id": "cpd:C07335", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C07335", 
+            "r": 8, 
+            "dx": 10.2, 
+            "dy": 11, 
+            "y": 526.0909090909091, 
+            "x": 756, 
+            "type": "M", 
+            "id": "10", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K18608", 
+            "font_size": 12, 
+            "name": "pyridoxamine:pyruvate aminotransferase", 
+            "rxn": " Pyridoxamine + Pyruvate <=> Pyridoxal + L-Alanine", 
+            "kegg_id": "rn:R01712", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01712", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 137.67656707763672, 
+            "x": 597.8615264892578, 
+            "gene": "ko:K18608", 
+            "type": "R", 
+            "id": "17", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00157", 
+            "font_size": 12, 
+            "name": "pyridoxal:oxygen 4-oxidoreductase", 
+            "rxn": " Pyridoxal + Oxygen + H2O <=> 4-Pyridoxate + Hydrogen peroxide", 
+            "kegg_id": "rn:R01709", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01709", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 212.1064128875733, 
+            "x": 541, 
+            "gene": "ko:K00157", 
+            "type": "R", 
+            "id": "19", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00275+K23998", 
+            "font_size": 12, 
+            "name": "pyridoxamine:oxygen oxidoreductase (deaminating)", 
+            "rxn": " Pyridoxamine + H2O + Oxygen <=> Pyridoxal + Ammonia + Hydrogen peroxide", 
+            "kegg_id": "rn:R01710", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01710", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 137.67656707763672, 
+            "x": 597.8615264892578, 
+            "gene": "ko:K00275 ko:K23998", 
+            "type": "R", 
+            "id": "20", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "Succinate semialdehyde", 
+            "kegg_id": "cpd:C00232", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00232", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -8.3, 
+            "y": 138.33333333333334, 
+            "x": 70.33333333333333, 
+            "type": "M", 
+            "id": "21", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "2-(Acetamidomethylene)succinate", 
+            "kegg_id": "cpd:C01215", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01215", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 16.1, 
+            "y": 212.1064128875733, 
+            "x": 70.33333333333333, 
+            "type": "M", 
+            "id": "22", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "3-Hydroxy-2-methylpyridine-5-carboxylate", 
+            "kegg_id": "cpd:C01270", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01270", 
+            "r": 8, 
+            "dx": -20, 
+            "dy": -8.6, 
+            "y": 212.1064128875733, 
+            "x": 170, 
+            "type": "M", 
+            "id": "23", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "3-Hydroxy-2-methylpyridine-4,5-dicarboxylate", 
+            "kegg_id": "cpd:C04604", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04604", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 20, 
+            "y": 212.1064128875733, 
+            "x": 270, 
+            "type": "M", 
+            "id": "24", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "2-Methyl-3-hydroxy-5-formylpyridine-4-carboxylate", 
+            "kegg_id": "cpd:C06050", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C06050", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -9, 
+            "y": 212.1064128875733, 
+            "x": 370, 
+            "type": "M", 
+            "id": "25", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "4-Pyridoxolactone", 
+            "kegg_id": "cpd:C00971", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00971", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -7.9, 
+            "y": 159, 
+            "x": 470, 
+            "type": "M", 
+            "id": "26", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "Pyridoxal", 
+            "kegg_id": "cpd:C00250", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00250", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 16.5, 
+            "y": 212.1064128875733, 
+            "x": 597.8615264892578, 
+            "type": "M", 
+            "id": "27", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "Pyridoxamine", 
+            "kegg_id": "cpd:C00534", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00534", 
+            "r": 8, 
+            "dx": -15.3, 
+            "dy": -9.4, 
+            "y": 76.5371732711792, 
+            "x": 597.8615264892578, 
+            "type": "M", 
+            "id": "28", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "Pyridoxamine phosphate", 
+            "kegg_id": "cpd:C00647", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00647", 
+            "r": 8, 
+            "dx": 9.8, 
+            "dy": 5, 
+            "y": 76.5371732711792, 
+            "x": 756.4285714285714, 
+            "type": "M", 
+            "id": "29", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "Pyridoxal phosphate", 
+            "kegg_id": "cpd:C00018", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00018", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -5.5, 
+            "y": 212.1064128875733, 
+            "x": 756.4285714285714, 
+            "type": "M", 
+            "id": "30", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "Pyridoxine phosphate", 
+            "kegg_id": "cpd:C00627", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00627", 
+            "r": 8, 
+            "dx": 8.3, 
+            "dy": 5, 
+            "y": 351.90086873372394, 
+            "x": 756.4285714285714, 
+            "type": "M", 
+            "id": "31", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "Pyridoxine", 
+            "kegg_id": "cpd:C00314", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00314", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 14.6, 
+            "y": 351.90086873372394, 
+            "x": 597.8615264892578, 
+            "type": "M", 
+            "id": "33", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "4-Phospho-D-erythronate", 
+            "kegg_id": "cpd:C03393", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C03393", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -7.1, 
+            "y": 526.0909090909091, 
+            "x": 421, 
+            "type": "M", 
+            "id": "36", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "D-Erythrose 4-phosphate", 
+            "kegg_id": "cpd:C00279", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00279", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 12.6, 
+            "y": 526.0909090909091, 
+            "x": 309, 
+            "type": "M", 
+            "id": "37", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "2-Oxo-3-hydroxy-4-phosphobutanoate", 
+            "kegg_id": "cpd:C06054", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C06054", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 16.5, 
+            "y": 526.0909090909091, 
+            "x": 533, 
+            "type": "M", 
+            "id": "41", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "O-Phospho-4-hydroxy-L-threonine", 
+            "kegg_id": "cpd:C06055", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C06055", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -8.3, 
+            "y": 526.0909090909091, 
+            "x": 646, 
+            "type": "M", 
+            "id": "42", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00275+K23998", 
+            "font_size": 12, 
+            "name": "pyridoxamine-5'-phosphate:oxygen oxidoreductase (deaminating)", 
+            "rxn": " Pyridoxamine phosphate + H2O + Oxygen <=> Pyridoxal phosphate + Ammonia + Hydrogen peroxide", 
+            "kegg_id": "rn:R00277", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00277", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 136, 
+            "x": 756.4285714285714, 
+            "gene": "ko:K00275 ko:K23998", 
+            "type": "R", 
+            "id": "82", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K07758+K13248", 
+            "font_size": 12, 
+            "name": "pyridoxamine-5'-phosphate phosphohydrolase", 
+            "rxn": " Pyridoxamine + Orthophosphate <=> Pyridoxamine phosphate + H2O", 
+            "kegg_id": "rn:R02494", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02494", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 76.5371732711792, 
+            "x": 682, 
+            "gene": "ko:K07758 ko:K13248", 
+            "type": "R", 
+            "id": "83", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00868", 
+            "font_size": 12, 
+            "name": "ATP:pyridoxal 5'-phosphotransferase", 
+            "rxn": " ATP + Pyridoxamine <=> ADP + Pyridoxamine phosphate", 
+            "kegg_id": "rn:R02493", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02493", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 76.5371732711792, 
+            "x": 682, 
+            "gene": "ko:K00868", 
+            "type": "R", 
+            "id": "84", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K07758+K13248", 
+            "font_size": 12, 
+            "name": "pyridoxine-5'-phosphate phosphohydrolase", 
+            "rxn": " Pyridoxine + Orthophosphate <=> Pyridoxine phosphate + H2O", 
+            "kegg_id": "rn:R01911", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01911", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 351.90086873372394, 
+            "x": 680.851318359375, 
+            "gene": "ko:K07758 ko:K13248", 
+            "type": "R", 
+            "id": "85", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00868", 
+            "font_size": 12, 
+            "name": "ATP:pyridoxine 5'-phosphotransferase", 
+            "rxn": " ATP + Pyridoxine <=> ADP + Pyridoxine phosphate", 
+            "kegg_id": "rn:R01909", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01909", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 351.90086873372394, 
+            "x": 682, 
+            "gene": "ko:K00868", 
+            "type": "R", 
+            "id": "86", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K07758+K13248", 
+            "font_size": 12, 
+            "name": "pyridoxal-5'-phosphate phosphohydrolase", 
+            "rxn": " Pyridoxal phosphate + H2O <=> Pyridoxal + Orthophosphate", 
+            "kegg_id": "rn:R00173", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00173", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 212.1064128875733, 
+            "x": 682, 
+            "gene": "ko:K07758 ko:K13248", 
+            "type": "R", 
+            "id": "87", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00868", 
+            "font_size": 12, 
+            "name": "ATP:pyridoxal 5'-phosphotransferase", 
+            "rxn": " ATP + Pyridoxal <=> ADP + Pyridoxal phosphate", 
+            "kegg_id": "rn:R00174", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00174", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 212.1064128875733, 
+            "x": 683.148681640625, 
+            "gene": "ko:K00868", 
+            "type": "R", 
+            "id": "88", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01733", 
+            "font_size": 12, 
+            "name": "O-Phospho-4-hydroxy-L-threonine phospho-lyase (adding water)", 
+            "rxn": " O-Phospho-4-hydroxy-L-threonine + H2O <=> 4-Hydroxy-L-threonine + Orthophosphate", 
+            "kegg_id": "rn:R05086", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R05086", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 495, 
+            "x": 646, 
+            "gene": "ko:K01733", 
+            "type": "R", 
+            "id": "89", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00097", 
+            "font_size": 12, 
+            "name": "NAD-dependent threonine 4-phosphate dehydrogenase", 
+            "rxn": " O-Phospho-4-hydroxy-L-threonine + NAD+ <=> 2-Amino-3-oxo-4-phosphonooxybutyrate + NADH + H+", 
+            "kegg_id": "rn:R05681", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R05681", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 526.0909090909091, 
+            "x": 700, 
+            "gene": "ko:K00097", 
+            "type": "R", 
+            "id": "90", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00831", 
+            "font_size": 12, 
+            "name": "O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase", 
+            "rxn": " O-Phospho-4-hydroxy-L-threonine + 2-Oxoglutarate <=> 2-Oxo-3-hydroxy-4-phosphobutanoate + L-Glutamate", 
+            "kegg_id": "rn:R05085", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R05085", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 526.0909090909091, 
+            "x": 592, 
+            "gene": "ko:K00831", 
+            "type": "R", 
+            "id": "91", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03473", 
+            "font_size": 12, 
+            "name": "4-phospho-D-erythronate:NAD+ 2-oxidoreductase", 
+            "rxn": " 4-Phospho-D-erythronate + NAD+ <=> 2-Oxo-3-hydroxy-4-phosphobutanoate + NADH + H+", 
+            "kegg_id": "rn:R04210", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04210", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 526.0909090909091, 
+            "x": 479, 
+            "gene": "ko:K03473", 
+            "type": "R", 
+            "id": "92", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03472", 
+            "font_size": 12, 
+            "name": "D-erythrose 4-phosphate:NAD+ oxidoreductase", 
+            "rxn": " D-Erythrose 4-phosphate + NAD+ + H2O <=> 4-Phospho-D-erythronate + NADH + H+", 
+            "kegg_id": "rn:R01825", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01825", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 526.0909090909091, 
+            "x": 366, 
+            "gene": "ko:K03472", 
+            "type": "R", 
+            "id": "93", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00275+K23998", 
+            "font_size": 12, 
+            "name": "pyridoxine 5'-phosphate:oxygen oxidoreductase", 
+            "rxn": " Pyridoxine phosphate + Oxygen <=> Hydrogen peroxide + Pyridoxal phosphate", 
+            "kegg_id": "rn:R00278", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00278", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 291, 
+            "x": 756.4285714285714, 
+            "gene": "ko:K00275 ko:K23998", 
+            "type": "R", 
+            "id": "96", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K18607", 
+            "font_size": 12, 
+            "name": "pyridoxine:oxygen oxidoreductase (deaminating)", 
+            "rxn": " Pyridoxine + Oxygen <=> Pyridoxal + Hydrogen peroxide", 
+            "kegg_id": "rn:R01711", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01711", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 289.1846211751302, 
+            "x": 597.8615264892578, 
+            "gene": "ko:K18607", 
+            "type": "R", 
+            "id": "97", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05275", 
+            "font_size": 12, 
+            "name": "Pyridoxine:NADP+ 4-oxidoreductase", 
+            "rxn": " Pyridoxine + NADP+ <=> Pyridoxal + NADPH + H+", 
+            "kegg_id": "rn:R01708", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01708", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 290.3333333333333, 
+            "x": 597.8615264892578, 
+            "gene": "ko:K05275", 
+            "type": "R", 
+            "id": "98", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00275+K23998", 
+            "font_size": 12, 
+            "name": "pyridoxine:oxygen oxidoreductase (deaminating)", 
+            "rxn": " Pyridoxine + Oxygen <=> Pyridoxal + Hydrogen peroxide", 
+            "kegg_id": "rn:R01711", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01711", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 290.3333333333333, 
+            "x": 597.8615264892578, 
+            "gene": "ko:K00275 ko:K23998", 
+            "type": "R", 
+            "id": "99", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K03474", 
+            "font_size": 12, 
+            "name": "pyridoxine 5'-phosphate synthase", 
+            "rxn": " 3-Amino-2-oxopropyl phosphate + 1-Deoxy-D-xylulose 5-phosphate <=> Pyridoxine phosphate + Orthophosphate + 2 H2O", 
+            "kegg_id": "rn:R05838", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R05838", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 398, 
+            "x": 756.4285714285714, 
+            "gene": "ko:K03474", 
+            "type": "R", 
+            "id": "100", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K18613", 
+            "font_size": 12, 
+            "name": "3-hydroxy-2-methylpyridine-4,5-dicarboxylate 4-carboxy-lyase", 
+            "rxn": " 3-Hydroxy-2-methylpyridine-4,5-dicarboxylate <=> 3-Hydroxy-2-methylpyridine-5-carboxylate + CO2", 
+            "kegg_id": "rn:R03461", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03461", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 212.1064128875733, 
+            "x": 226, 
+            "gene": "ko:K18613", 
+            "type": "R", 
+            "id": "102", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K18071", 
+            "font_size": 12, 
+            "name": "3-hydroxy-2-methylpyridine-5-carboxylate,NADH:oxygen oxidoreductase (ring-opening)", 
+            "rxn": " 3-Hydroxy-2-methylpyridine-5-carboxylate + Oxygen + NADH + H+ <=> 2-(Acetamidomethylene)succinate + NAD+", 
+            "kegg_id": "rn:R03385", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03385", 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 212.1064128875733, 
+            "x": 125, 
+            "gene": "ko:K18071", 
+            "type": "R", 
+            "id": "103", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K18614", 
+            "font_size": 12, 
+            "name": "2-(acetamidomethylene)succinate amidohydrolase (deaminating, decarboxylating)", 
+            "rxn": " 2-(Acetamidomethylene)succinate + 2 H2O <=> Acetate + Succinate semialdehyde + Ammonia + CO2", 
+            "kegg_id": "rn:R01649", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01649", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 179, 
+            "x": 70.33333333333333, 
+            "gene": "ko:K18614", 
+            "type": "R", 
+            "id": "104", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K18609", 
+            "font_size": 12, 
+            "name": "pyridoxal:NAD+ 4-oxidoreductase", 
+            "rxn": " Pyridoxal + NAD+ <=> 4-Pyridoxolactone + NADH + H+", 
+            "kegg_id": "rn:R01707", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01707", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 160, 
+            "x": 541, 
+            "gene": "ko:K18609", 
+            "type": "R", 
+            "id": "105", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K18610", 
+            "font_size": 12, 
+            "name": "4-pyridoxolactone lactonohydrolase", 
+            "rxn": " 4-Pyridoxolactone + H2O <=> 4-Pyridoxate", 
+            "kegg_id": "rn:R02992", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02992", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 181, 
+            "x": 470, 
+            "gene": "ko:K18610", 
+            "type": "R", 
+            "id": "106", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "4-Pyridoxate", 
+            "kegg_id": "cpd:C00847", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00847", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 12.6, 
+            "y": 212.1064128875733, 
+            "x": 470, 
+            "type": "M", 
+            "id": "108", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "3-Amino-2-oxopropyl phosphate", 
+            "kegg_id": "cpd:C11638", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C11638", 
+            "r": 8, 
+            "dx": 8.7, 
+            "dy": 5, 
+            "y": 438, 
+            "x": 756.4285714285714, 
+            "type": "M", 
+            "id": "109", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "4-Hydroxy-L-threonine", 
+            "kegg_id": "cpd:C06056", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C06056", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 5, 
+            "y": 458, 
+            "x": 646, 
+            "type": "M", 
+            "id": "110", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K18611", 
+            "font_size": 12, 
+            "name": "4-Pyridoxate + Acceptor <=> 2-Methyl-3-hydroxy-5-formylpyridine-4-carboxylate + Reduced acceptor", 
+            "rxn": "4-Pyridoxate + Acceptor <=> 2-Methyl-3-hydroxy-5-formylpyridine-4-carboxylate + Reduced acceptor", 
+            "kegg_id": "rn:R02993", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02993", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 212.1064128875733, 
+            "x": 426, 
+            "gene": "ko:K18611", 
+            "type": "R", 
+            "id": "111", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K18612", 
+            "font_size": 12, 
+            "name": "5-formyl-3-hydroxy-2-methylpyridine-4-carboxylate:NAD+ 5-oxidoreductase", 
+            "rxn": " 3-Hydroxy-2-methylpyridine-4,5-dicarboxylate + NADH + H+ <=> 2-Methyl-3-hydroxy-5-formylpyridine-4-carboxylate + H2O + NAD+", 
+            "kegg_id": "rn:R04524", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R04524", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 212.1064128875733, 
+            "x": 327, 
+            "gene": "ko:K18612", 
+            "type": "R", 
+            "id": "112", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Vitamin B6 metabolism", 
+            "font_size": 12, 
+            "name": "L-Glutamine", 
+            "kegg_id": "cpd:C00064", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00064", 
+            "r": 8, 
+            "dx": 9.4, 
+            "dy": 5, 
+            "y": 245.2416534423828, 
+            "x": 937.0585327148438, 
+            "type": "M", 
+            "id": "116", 
+            "fill": "white"
+        }
+    ], 
+    "pathway": {
+        "name": "path:ko00750", 
+        "title": "Vitamin B6 metabolism", 
+        "image": "https://www.kegg.jp/kegg/pathway/ko/ko00750.png", 
+        "number": "00750", 
+        "link": "https://www.kegg.jp/kegg-bin/show_pathway?ko00750", 
+        "org": "ko"
+    }
+}

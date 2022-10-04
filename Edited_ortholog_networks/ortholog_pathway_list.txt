@@ -1,0 +1,66 @@
+alpha-Linolenic acid metabolism.json
+Alanine, aspartate and glutamate metabolism.json
+Amino sugar and nucleotide sugar metabolism.json
+Arginine and proline metabolism.json
+Arginine biosynthesis.json
+Ascorbate and aldarate metabolism.json
+Benzoate degradation.json
+beta-Alanine metabolism.json
+Biotin metabolism.json
+Butanoate metabolism.json
+C5-Branched dibasic acid metabolism.json
+Chloroalkane and chloroalkene degradation.json
+Citrate cycle (TCA cycle).json
+Cyanoamino acid metabolism.json
+Cysteine and methionine metabolism.json
+D-Alanine metabolism.json
+D-Arginine and D-ornithine metabolism.json
+D-Glutamine and D-glutamate metabolism.json
+Ether lipid metabolism.json
+Fatty acid biosynthesis.json
+Fatty acid degradation.json
+Folate biosynthesis.json
+Fructose and mannose metabolism.json
+Galactose metabolism.json
+Glutathione metabolism.json
+Glycerolipid metabolism.json
+Glycerophospholipid metabolism.json
+Glycine, serine and threonine metabolism.json
+Glycolysis-Gluconeogenesis.json
+Glyoxylate and dicarboxylate metabolism.json
+Histidine metabolism.json
+Inositol phosphate metabolism.json
+Lipoic acid metabolism.json
+Lipopolysaccharide biosynthesis.json
+Lysine biosynthesis.json
+Lysine degradation.json
+Methane metabolism.json
+Naphthalene degradation.json
+Nicotinate and nicotinamide metabolism.json
+Nitrogen metabolism.json
+O-Antigen nucleotide sugar biosynthesis.json
+One carbon pool by folate.json
+Pantothenate and CoA biosynthesis.json
+Pentose and glucuronate interconversions.json
+Pentose phosphate pathway.json
+Peptidoglycan biosynthesis.json
+Phenylalanine metabolism.json
+Phenylalanine, tyrosine and tryptophan biosynthesis.json
+Polyketide sugar unit biosynthesis.json
+Propanoate metabolism.json
+Purine metabolism.json
+Pyrimidine metabolism.json
+Pyruvate metabolism.json
+Riboflavin metabolism.json
+Selenocompound metabolism.json
+Starch and sucrose metabolism.json
+Sulfur metabolism.json
+Taurine and hypotaurine metabolism.json
+Terpenoid backbone biosynthesis.json
+Thiamine metabolism.json
+Tryptophan metabolism.json
+Tyrosine metabolism.json
+Ubiquinone and other terpenoid-quinone biosynthesis.json
+Valine, leucine and isoleucine biosynthesis.json
+Valine, leucine and isoleucine degradation.json
+Vitamin B6 metabolism.json

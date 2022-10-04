@@ -1,0 +1,4775 @@
+{
+    "reaction": [
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "9", 
+                    "name": "cpd:C00327"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "10", 
+                    "name": "cpd:C00062"
+                }
+            ], 
+            "id": "84", 
+            "name": "rn:R11711"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "30", 
+                    "name": "cpd:C00064"
+                }
+            ], 
+            "id": "83", 
+            "name": "rn:R00256"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "9", 
+                    "name": "cpd:C00327"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "79", 
+                    "name": "cpd:C15532"
+                }
+            ], 
+            "id": "82", 
+            "name": "rn:R09107"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "79", 
+                    "name": "cpd:C15532"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "13", 
+                    "name": "cpd:C00169"
+                }, 
+                {
+                    "id": "90", 
+                    "name": "cpd:C00437"
+                }
+            ], 
+            "id": "80", 
+            "name": "rn:R07245"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "id": "68", 
+            "name": "rn:R00248"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "id": "67", 
+            "name": "rn:R00243 rn:R00248"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "id": "66", 
+            "name": "rn:R00243"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "9", 
+                    "name": "cpd:C00327"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "10", 
+                    "name": "cpd:C00062"
+                }
+            ], 
+            "id": "65", 
+            "name": "rn:R00557"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "9", 
+                    "name": "cpd:C00327"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "10", 
+                    "name": "cpd:C00062"
+                }
+            ], 
+            "id": "64", 
+            "name": "rn:R00552"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "38", 
+                    "name": "cpd:C00011"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "34", 
+                    "name": "cpd:C00086"
+                }
+            ], 
+            "id": "63", 
+            "name": "rn:R00131"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "38", 
+                    "name": "cpd:C00011"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "36", 
+                    "name": "cpd:C01010"
+                }
+            ], 
+            "id": "62", 
+            "name": "rn:R00005"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "36", 
+                    "name": "cpd:C01010"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "34", 
+                    "name": "cpd:C00086"
+                }
+            ], 
+            "id": "61", 
+            "name": "rn:R00774"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "11", 
+                    "name": "cpd:C00077"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "90", 
+                    "name": "cpd:C00437"
+                }
+            ], 
+            "id": "60", 
+            "name": "rn:R02282"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "11", 
+                    "name": "cpd:C00077"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "90", 
+                    "name": "cpd:C00437"
+                }
+            ], 
+            "id": "59", 
+            "name": "rn:R00669"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "11", 
+                    "name": "cpd:C00077"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "90", 
+                    "name": "cpd:C00437"
+                }
+            ], 
+            "id": "58", 
+            "name": "rn:R00669"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "90", 
+                    "name": "cpd:C00437"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "24", 
+                    "name": "cpd:C01250"
+                }
+            ], 
+            "id": "57", 
+            "name": "rn:R02283"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "24", 
+                    "name": "cpd:C01250"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "22", 
+                    "name": "cpd:C04133"
+                }
+            ], 
+            "id": "56", 
+            "name": "rn:R03443"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "22", 
+                    "name": "cpd:C04133"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "20", 
+                    "name": "cpd:C00624"
+                }
+            ], 
+            "id": "55", 
+            "name": "rn:R02649"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "20", 
+                    "name": "cpd:C00624"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "id": "54", 
+            "name": "rn:R00259"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "11", 
+                    "name": "cpd:C00077"
+                }, 
+                {
+                    "id": "34", 
+                    "name": "cpd:C00086"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "10", 
+                    "name": "cpd:C00062"
+                }
+            ], 
+            "id": "53", 
+            "name": "rn:R00551"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "10", 
+                    "name": "cpd:C00062"
+                }, 
+                {
+                    "id": "17", 
+                    "name": "cpd:C00122"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "8", 
+                    "name": "cpd:C03406"
+                }
+            ], 
+            "id": "52", 
+            "name": "rn:R01086"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "8", 
+                    "name": "cpd:C03406"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "9", 
+                    "name": "cpd:C00327"
+                }, 
+                {
+                    "id": "16", 
+                    "name": "cpd:C00049"
+                }
+            ], 
+            "id": "50", 
+            "name": "rn:R01954"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "9", 
+                    "name": "cpd:C00327"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "13", 
+                    "name": "cpd:C00169"
+                }, 
+                {
+                    "id": "11", 
+                    "name": "cpd:C00077"
+                }
+            ], 
+            "id": "49", 
+            "name": "rn:R01398"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "13", 
+                    "name": "cpd:C00169"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "id": "48", 
+            "name": "rn:R00149"
+        }, 
+        {
+            "type": "reversible", 
+            "product": [
+                {
+                    "id": "13", 
+                    "name": "cpd:C00169"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "id": "47", 
+            "name": "rn:R00150"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "30", 
+                    "name": "cpd:C00064"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "id": "46", 
+            "name": "rn:R00253"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "18", 
+                    "name": "cpd:C00014"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "30", 
+                    "name": "cpd:C00064"
+                }
+            ], 
+            "id": "45", 
+            "name": "rn:R00256"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "85", 
+                    "name": "cpd:C00026"
+                }
+            ], 
+            "id": "88", 
+            "name": "rn:R00355"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "85", 
+                    "name": "cpd:C00026"
+                }
+            ], 
+            "id": "89", 
+            "name": "rn:R00258"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "96", 
+                    "name": "cpd:C20948"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "107", 
+                    "name": "cpd:C00025"
+                }
+            ], 
+            "id": "100", 
+            "name": "rn:R10929"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "97", 
+                    "name": "cpd:C20949"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "96", 
+                    "name": "cpd:C20948"
+                }
+            ], 
+            "id": "101", 
+            "name": "rn:R10930"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "98", 
+                    "name": "cpd:C20950"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "97", 
+                    "name": "cpd:C20949"
+                }
+            ], 
+            "id": "102", 
+            "name": "rn:R10931"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "99", 
+                    "name": "cpd:C20951"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "98", 
+                    "name": "cpd:C20950"
+                }
+            ], 
+            "id": "103", 
+            "name": "rn:R10932"
+        }, 
+        {
+            "type": "irreversible", 
+            "product": [
+                {
+                    "id": "11", 
+                    "name": "cpd:C00077"
+                }
+            ], 
+            "substrate": [
+                {
+                    "id": "99", 
+                    "name": "cpd:C20951"
+                }
+            ], 
+            "id": "104", 
+            "name": "rn:R10933"
+        }
+    ], 
+    "links": [
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M937,198L835.9728682200472,206.3416897799961", 
+            "kegg_id": "rn:R11711", 
+            "source": "10", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "84", 
+            "target": "84"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M828,207L929.0271317799528,198.6583102200039", 
+            "kegg_id": "rn:R11711", 
+            "source": "84", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "84", 
+            "target": "10"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M828,207L692.9875103597544,199.44685372641982", 
+            "kegg_id": "rn:R11711", 
+            "source": "84", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "84", 
+            "target": "9"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M685,199L820.0124896402456,206.55314627358018", 
+            "kegg_id": "rn:R11711", 
+            "source": "9", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "84", 
+            "target": "84"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M180,151L201.53364452105697,195.7899806037985", 
+            "kegg_id": "rn:R00256", 
+            "source": "30", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "83", 
+            "target": "83"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M205,203L183.07692307692307,255.6153846153846", 
+            "kegg_id": "rn:R00256", 
+            "source": "83", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "83", 
+            "target": "18"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M580,199L623.0015374267462,199.84316740052444", 
+            "kegg_id": "rn:R09107", 
+            "source": "79", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "82", 
+            "target": "82"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M631,200L677.001371389399,199.14812275204818", 
+            "kegg_id": "rn:R09107", 
+            "source": "82", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "82", 
+            "target": "9"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M396,263L572.0728352586198,239.07706042681798", 
+            "kegg_id": "rn:R07245", 
+            "source": "13", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "80", 
+            "target": "80"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M580,363L580,246", 
+            "kegg_id": "rn:R07245", 
+            "source": "90", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "80", 
+            "target": "80"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M580,238L580,207", 
+            "kegg_id": "rn:R07245", 
+            "source": "80", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "80", 
+            "target": "79"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M180,363L200.68267108223654,330.735033111711", 
+            "kegg_id": "rn:R00248", 
+            "source": "107", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "68"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M205,324L184.31732891776346,356.264966888289", 
+            "kegg_id": "rn:R00248", 
+            "source": "68", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "107"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M205,324L183.03378733987105,270.4024411092854", 
+            "kegg_id": "rn:R00248", 
+            "source": "68", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "18"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M180,263L201.96621266012895,316.5975588907146", 
+            "kegg_id": "rn:R00248", 
+            "source": "18", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "68", 
+            "target": "68"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M180,363L159.31732891776346,330.735033111711", 
+            "kegg_id": "rn:R00243", 
+            "source": "107", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "67"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M155,324L175.68267108223654,356.264966888289", 
+            "kegg_id": "rn:R00243", 
+            "source": "67", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "107"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M155,324L176.96621266012895,270.4024411092854", 
+            "kegg_id": "rn:R00243", 
+            "source": "67", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "18"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M180,263L158.03378733987105,316.5975588907146", 
+            "kegg_id": "rn:R00243", 
+            "source": "18", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "67", 
+            "target": "67"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M180,363L179.13791053800676,312.998811204392", 
+            "kegg_id": "rn:R00243", 
+            "source": "107", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "66", 
+            "target": "66"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M179,305L179.86208946199324,355.001188795608", 
+            "kegg_id": "rn:R00243", 
+            "source": "66", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "66", 
+            "target": "107"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M179,305L179.80957777642968,270.9977333899531", 
+            "kegg_id": "rn:R00243", 
+            "source": "66", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "66", 
+            "target": "18"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M180,263L179.19042222357032,297.0022666100469", 
+            "kegg_id": "rn:R00243", 
+            "source": "18", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "66", 
+            "target": "66"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M937,198L787.9868877581612,206.54215293106083", 
+            "kegg_id": "rn:R00557", 
+            "source": "10", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "65", 
+            "target": "65"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M780,207L929.0131122418388,198.45784706893917", 
+            "kegg_id": "rn:R00557", 
+            "source": "65", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "65", 
+            "target": "10"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M780,207L692.9717843273966,199.67130815388603", 
+            "kegg_id": "rn:R00557", 
+            "source": "65", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "65", 
+            "target": "9"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M685,199L772.0282156726034,206.32869184611397", 
+            "kegg_id": "rn:R00557", 
+            "source": "9", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "65", 
+            "target": "65"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M937,198L811.9676348619623,186.71888434844772", 
+            "kegg_id": "rn:R00552", 
+            "source": "10", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "64"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M804,186L929.0323651380377,197.28111565155228", 
+            "kegg_id": "rn:R00552", 
+            "source": "64", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "10"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M804,186L692.952686327183,198.13121914072792", 
+            "kegg_id": "rn:R00552", 
+            "source": "64", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "9"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M685,199L796.047313672817,186.86878085927208", 
+            "kegg_id": "rn:R00552", 
+            "source": "9", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "64", 
+            "target": "64"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M882,342L977.5672201407464,380.0413206385495", 
+            "kegg_id": "rn:R00131", 
+            "source": "34", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "63", 
+            "target": "63"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M985,383L1086.5121934641197,344.81651438505594", 
+            "kegg_id": "rn:R00131", 
+            "source": "63", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "63", 
+            "target": "38"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M989,342L1027.0018896894087,342.8261280367263", 
+            "kegg_id": "rn:R00005", 
+            "source": "36", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "62", 
+            "target": "62"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M1035,343L1086.0011488475682,342.1355737483463", 
+            "kegg_id": "rn:R00005", 
+            "source": "62", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "62", 
+            "target": "38"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M882,342L930.0012752052364,342.8571656286649", 
+            "kegg_id": "rn:R00774", 
+            "source": "34", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "61", 
+            "target": "61"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M938,343L889.9987247947636,342.1428343713351", 
+            "kegg_id": "rn:R00774", 
+            "source": "61", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "61", 
+            "target": "34"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M938,343L981.0015374267462,342.1568325994756", 
+            "kegg_id": "rn:R00774", 
+            "source": "61", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "61", 
+            "target": "36"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M989,342L945.9984625732538,342.8431674005244", 
+            "kegg_id": "rn:R00774", 
+            "source": "36", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "61", 
+            "target": "61"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M580,363L652.3954919906439,313.5144738291801", 
+            "kegg_id": "rn:R02282", 
+            "source": "90", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "60"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M659,309L586.6045080093561,358.4855261708199", 
+            "kegg_id": "rn:R02282", 
+            "source": "60", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "90"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M659,309L737.000540778045,308.09301696769717", 
+            "kegg_id": "rn:R02282", 
+            "source": "60", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "11"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M745,308L666.999459221955,308.90698303230283", 
+            "kegg_id": "rn:R02282", 
+            "source": "11", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "60", 
+            "target": "60"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M580,363L623.1798316473414,372.3132970219756", 
+            "kegg_id": "rn:R00669", 
+            "source": "90", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "59", 
+            "target": "59"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M631,374L738.076589716151,312.00829016433363", 
+            "kegg_id": "rn:R00669", 
+            "source": "59", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "59", 
+            "target": "11"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M580,363L623.1494900025828,354.5393156857681", 
+            "kegg_id": "rn:R00669", 
+            "source": "90", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "58", 
+            "target": "58"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M631,353L737.5587582293495,310.9373322778884", 
+            "kegg_id": "rn:R00669", 
+            "source": "58", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "58", 
+            "target": "11"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M480,363L518.0018896894087,363.8261280367263", 
+            "kegg_id": "rn:R02283", 
+            "source": "24", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "57", 
+            "target": "57"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M526,364L572.001371389399,363.14812275204815", 
+            "kegg_id": "rn:R02283", 
+            "source": "57", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "57", 
+            "target": "90"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M380,363L419.0018101595435,363.8298257480754", 
+            "kegg_id": "rn:R03443", 
+            "source": "22", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "56", 
+            "target": "56"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M427,364L472.00142361421183,363.1509165355809", 
+            "kegg_id": "rn:R03443", 
+            "source": "56", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "56", 
+            "target": "24"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M280,363L320.0017355461751,363.8333694905453", 
+            "kegg_id": "rn:R02649", 
+            "source": "20", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "55", 
+            "target": "55"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M328,364L372.00147887976124,363.15381771385074", 
+            "kegg_id": "rn:R02649", 
+            "source": "55", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "55", 
+            "target": "22"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M180,363L220,363", 
+            "kegg_id": "rn:R00259", 
+            "source": "107", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "54", 
+            "target": "54"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M228,363L272,363", 
+            "kegg_id": "rn:R00259", 
+            "source": "54", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "54", 
+            "target": "20"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M937,198L894.3710434402386,289.7449282481822", 
+            "kegg_id": "rn:R00551", 
+            "source": "10", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "53", 
+            "target": "53"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M891,297L752.9773902639188,307.398963747239", 
+            "kegg_id": "rn:R00551", 
+            "source": "53", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "53", 
+            "target": "11"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M891,297L883.5689290811055,334.15535459447267", 
+            "kegg_id": "rn:R00551", 
+            "source": "53", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "53", 
+            "target": "34"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M802,77L886.4440256263507,106.37183500046982", 
+            "kegg_id": "rn:R01086", 
+            "source": "8", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "52", 
+            "target": "52"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M894,109L933.5197442416834,190.79667994208893", 
+            "kegg_id": "rn:R01086", 
+            "source": "52", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "52", 
+            "target": "10"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M894,109L929.8780146961813,127.3561935654881", 
+            "kegg_id": "rn:R01086", 
+            "source": "52", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "52", 
+            "target": "17"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M685,199L720.7586055648053,118.3139156486446", 
+            "kegg_id": "rn:R01954", 
+            "source": "9", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "50", 
+            "target": "50"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M671,133L716.6112666919998,114.06702137313214", 
+            "kegg_id": "rn:R01954", 
+            "source": "16", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "50", 
+            "target": "50"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M724,111L794.6664322823326,80.19668336411142", 
+            "kegg_id": "rn:R01954", 
+            "source": "50", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "50", 
+            "target": "8"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M396,263L682.0287672203892,238.67782591663357", 
+            "kegg_id": "rn:R01398", 
+            "source": "13", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "49", 
+            "target": "49"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M745,308L694.9425724154553,244.29054671057938", 
+            "kegg_id": "rn:R01398", 
+            "source": "11", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "49", 
+            "target": "49"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M690,238L686.017314527883,206.9350533174868", 
+            "kegg_id": "rn:R01398", 
+            "source": "49", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "49", 
+            "target": "9"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M180,263L275.0015077271148,264.8446894704294", 
+            "kegg_id": "rn:R00149", 
+            "source": "18", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "48", 
+            "target": "48"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M283,265L388.00125274037725,263.1415707479579", 
+            "kegg_id": "rn:R00149", 
+            "source": "48", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "48", 
+            "target": "13"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M180,263L274.6025752122023,224.04599844203437", 
+            "kegg_id": "rn:R00150", 
+            "source": "18", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "47", 
+            "target": "47"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M282,221L187.39742478779772,259.9540015579656", 
+            "kegg_id": "rn:R00150", 
+            "source": "47", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "47", 
+            "target": "18"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M282,221L388.49325506546313,260.2343571293811", 
+            "kegg_id": "rn:R00150", 
+            "source": "47", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "47", 
+            "target": "13"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M396,263L289.50674493453687,223.76564287061885", 
+            "kegg_id": "rn:R00150", 
+            "source": "13", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "47", 
+            "target": "47"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M180,263L108.3409919128368,207.87768608679755", 
+            "kegg_id": "rn:R00253", 
+            "source": "18", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "46", 
+            "target": "46"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M102,203L173.34359764529725,155.4376015698018", 
+            "kegg_id": "rn:R00253", 
+            "source": "46", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "46", 
+            "target": "30"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M180,151L158.46635547894303,195.7899806037985", 
+            "kegg_id": "rn:R00256", 
+            "source": "30", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "45"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M155,203L176.92307692307693,255.6153846153846", 
+            "kegg_id": "rn:R00256", 
+            "source": "45", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "45", 
+            "target": "18"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M67,363L116.1203438028295,354.382395824065", 
+            "kegg_id": "rn:R00355", 
+            "source": "85", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "88", 
+            "target": "88"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M124,353L172.12457939593213,361.59367489213076", 
+            "kegg_id": "rn:R00355", 
+            "source": "88", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "88", 
+            "target": "107"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M67,363L116.14493302693508,372.48410988239095", 
+            "kegg_id": "rn:R00258", 
+            "source": "85", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "89", 
+            "target": "89"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M124,374L172.1500094358313,364.54196243224743", 
+            "kegg_id": "rn:R00258", 
+            "source": "89", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "89", 
+            "target": "107"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M180,363L222.45974537448228,407.2289014317524", 
+            "kegg_id": "rn:R10929", 
+            "source": "107", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "100", 
+            "target": "100"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M228,413L272,413", 
+            "kegg_id": "rn:R10929", 
+            "source": "100", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "100", 
+            "target": "96"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M280,413L320.0017355461751,413.8333694905453", 
+            "kegg_id": "rn:R10930", 
+            "source": "96", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "101", 
+            "target": "101"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M328,414L372.00147887976124,413.15381771385074", 
+            "kegg_id": "rn:R10930", 
+            "source": "101", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "101", 
+            "target": "97"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M380,413L418,413", 
+            "kegg_id": "rn:R10931", 
+            "source": "97", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "102", 
+            "target": "102"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M426,413L472,413", 
+            "kegg_id": "rn:R10931", 
+            "source": "102", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "102", 
+            "target": "98"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M480,413L518.0018896894087,413.8261280367263", 
+            "kegg_id": "rn:R10932", 
+            "source": "98", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "103", 
+            "target": "103"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M526,414L572.001371389399,413.14812275204815", 
+            "kegg_id": "rn:R10932", 
+            "source": "103", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "103", 
+            "target": "99"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M580,413L623.0015374267462,413.8431674005244", 
+            "kegg_id": "rn:R10933", 
+            "source": "99", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "104", 
+            "target": "104"
+        }, 
+        {
+            "opacity": "1", 
+            "subsystem": "Arginine biosynthesis", 
+            "strength": "2", 
+            "d": "M631,414L739.1413141912418,313.44754996252954", 
+            "kegg_id": "rn:R10933", 
+            "source": "104", 
+            "stroke": "rgb(0, 0, 0)", 
+            "id": "104", 
+            "target": "11"
+        }
+    ], 
+    "labels": [], 
+    "boxes": [], 
+    "relation": [
+        {
+            "entry2": "47", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "48", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "45", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "47", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "48", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "83", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "47", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "46", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "48", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "46", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "46", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "46", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "46", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "48", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "48", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "18"
+            }, 
+            "entry1": "48", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "88", 
+            "subtype": {
+                "name": "compound", 
+                "value": "85"
+            }, 
+            "entry1": "87", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "89", 
+            "subtype": {
+                "name": "compound", 
+                "value": "85"
+            }, 
+            "entry1": "87", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "54", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "100", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "88", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "54", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "89", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "100", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "89", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "89", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "89", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "89", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "100", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "68", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "100", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "67", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "100", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "66", 
+            "subtype": {
+                "name": "compound", 
+                "value": "107"
+            }, 
+            "entry1": "100", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "55", 
+            "subtype": {
+                "name": "compound", 
+                "value": "20"
+            }, 
+            "entry1": "54", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "56", 
+            "subtype": {
+                "name": "compound", 
+                "value": "22"
+            }, 
+            "entry1": "55", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "57", 
+            "subtype": {
+                "name": "compound", 
+                "value": "24"
+            }, 
+            "entry1": "56", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "58", 
+            "subtype": {
+                "name": "compound", 
+                "value": "90"
+            }, 
+            "entry1": "57", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "59", 
+            "subtype": {
+                "name": "compound", 
+                "value": "90"
+            }, 
+            "entry1": "57", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "60", 
+            "subtype": {
+                "name": "compound", 
+                "value": "90"
+            }, 
+            "entry1": "57", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "90"
+            }, 
+            "entry1": "57", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "90"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "90"
+            }, 
+            "entry1": "59", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "90"
+            }, 
+            "entry1": "60", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "101", 
+            "subtype": {
+                "name": "compound", 
+                "value": "96"
+            }, 
+            "entry1": "100", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "102", 
+            "subtype": {
+                "name": "compound", 
+                "value": "97"
+            }, 
+            "entry1": "101", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "103", 
+            "subtype": {
+                "name": "compound", 
+                "value": "98"
+            }, 
+            "entry1": "102", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "104", 
+            "subtype": {
+                "name": "compound", 
+                "value": "99"
+            }, 
+            "entry1": "103", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "104", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "60", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "53", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "60", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "60", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "60", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "104", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "53", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "58", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "58", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "104", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "59", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "53", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "59", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "59", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "59", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "53", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "104", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "104", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "104", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "70", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "53", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "11"
+            }, 
+            "entry1": "70", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "61", 
+            "subtype": {
+                "name": "compound", 
+                "value": "34"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "63", 
+            "subtype": {
+                "name": "compound", 
+                "value": "34"
+            }, 
+            "entry1": "53", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "63", 
+            "subtype": {
+                "name": "compound", 
+                "value": "34"
+            }, 
+            "entry1": "61", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "62", 
+            "subtype": {
+                "name": "compound", 
+                "value": "36"
+            }, 
+            "entry1": "61", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "63", 
+            "subtype": {
+                "name": "compound", 
+                "value": "38"
+            }, 
+            "entry1": "62", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "53", 
+            "subtype": {
+                "name": "compound", 
+                "value": "10"
+            }, 
+            "entry1": "70", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "106", 
+            "subtype": {
+                "name": "compound", 
+                "value": "10"
+            }, 
+            "entry1": "70", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "106", 
+            "subtype": {
+                "name": "compound", 
+                "value": "10"
+            }, 
+            "entry1": "53", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "52", 
+            "subtype": {
+                "name": "compound", 
+                "value": "10"
+            }, 
+            "entry1": "70", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "64", 
+            "subtype": {
+                "name": "compound", 
+                "value": "10"
+            }, 
+            "entry1": "70", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "10"
+            }, 
+            "entry1": "70", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "84", 
+            "subtype": {
+                "name": "compound", 
+                "value": "10"
+            }, 
+            "entry1": "70", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "52", 
+            "subtype": {
+                "name": "compound", 
+                "value": "10"
+            }, 
+            "entry1": "106", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "64", 
+            "subtype": {
+                "name": "compound", 
+                "value": "10"
+            }, 
+            "entry1": "106", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "10"
+            }, 
+            "entry1": "106", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "84", 
+            "subtype": {
+                "name": "compound", 
+                "value": "10"
+            }, 
+            "entry1": "106", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "64", 
+            "subtype": {
+                "name": "compound", 
+                "value": "10"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "10"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "84", 
+            "subtype": {
+                "name": "compound", 
+                "value": "10"
+            }, 
+            "entry1": "52", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "69", 
+            "subtype": {
+                "name": "compound", 
+                "value": "17"
+            }, 
+            "entry1": "52", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "52", 
+            "subtype": {
+                "name": "compound", 
+                "value": "8"
+            }, 
+            "entry1": "50", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "50", 
+            "subtype": {
+                "name": "compound", 
+                "value": "16"
+            }, 
+            "entry1": "51", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "50", 
+            "subtype": {
+                "name": "compound", 
+                "value": "9"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "64", 
+            "subtype": {
+                "name": "compound", 
+                "value": "9"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "9"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "84", 
+            "subtype": {
+                "name": "compound", 
+                "value": "9"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "9"
+            }, 
+            "entry1": "82", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "64", 
+            "subtype": {
+                "name": "compound", 
+                "value": "9"
+            }, 
+            "entry1": "50", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "65", 
+            "subtype": {
+                "name": "compound", 
+                "value": "9"
+            }, 
+            "entry1": "50", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "84", 
+            "subtype": {
+                "name": "compound", 
+                "value": "9"
+            }, 
+            "entry1": "50", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "9"
+            }, 
+            "entry1": "50", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "9"
+            }, 
+            "entry1": "64", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "9"
+            }, 
+            "entry1": "65", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "9"
+            }, 
+            "entry1": "84", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "82", 
+            "subtype": {
+                "name": "compound", 
+                "value": "79"
+            }, 
+            "entry1": "80", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "73", 
+            "subtype": {
+                "name": "compound", 
+                "value": "13"
+            }, 
+            "entry1": "48", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "13"
+            }, 
+            "entry1": "48", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "13"
+            }, 
+            "entry1": "48", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "13"
+            }, 
+            "entry1": "48", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "73", 
+            "subtype": {
+                "name": "compound", 
+                "value": "13"
+            }, 
+            "entry1": "47", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "13"
+            }, 
+            "entry1": "47", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "13"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "13"
+            }, 
+            "entry1": "47", 
+            "type": "ECrel"
+        }, 
+        {
+            "entry2": "74", 
+            "subtype": {
+                "name": "compound", 
+                "value": "13"
+            }, 
+            "entry1": "73", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "13"
+            }, 
+            "entry1": "73", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "13"
+            }, 
+            "entry1": "73", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "49", 
+            "subtype": {
+                "name": "compound", 
+                "value": "13"
+            }, 
+            "entry1": "74", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "13"
+            }, 
+            "entry1": "74", 
+            "type": "maplink"
+        }, 
+        {
+            "entry2": "80", 
+            "subtype": {
+                "name": "compound", 
+                "value": "13"
+            }, 
+            "entry1": "49", 
+            "type": "ECrel"
+        }
+    ], 
+    "entry": [
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C03406", 
+            "id": "8", 
+            "name": "cpd:C03406", 
+            "graphics": {
+                "name": "C03406", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "77", 
+                "x": "802", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00327", 
+            "id": "9", 
+            "name": "cpd:C00327", 
+            "graphics": {
+                "name": "C00327", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "199", 
+                "x": "685", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00062", 
+            "id": "10", 
+            "name": "cpd:C00062", 
+            "graphics": {
+                "name": "C00062", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "198", 
+                "x": "937", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00077", 
+            "id": "11", 
+            "name": "cpd:C00077", 
+            "graphics": {
+                "name": "C00077", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "308", 
+                "x": "745", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00169", 
+            "id": "13", 
+            "name": "cpd:C00169", 
+            "graphics": {
+                "name": "C00169", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "263", 
+                "x": "396", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00049", 
+            "id": "16", 
+            "name": "cpd:C00049", 
+            "graphics": {
+                "name": "C00049", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "133", 
+                "x": "671", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00122", 
+            "id": "17", 
+            "name": "cpd:C00122", 
+            "graphics": {
+                "name": "C00122", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "131", 
+                "x": "937", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00014", 
+            "id": "18", 
+            "name": "cpd:C00014", 
+            "graphics": {
+                "name": "C00014", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "263", 
+                "x": "180", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00624", 
+            "id": "20", 
+            "name": "cpd:C00624", 
+            "graphics": {
+                "name": "C00624", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "363", 
+                "x": "280", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C04133", 
+            "id": "22", 
+            "name": "cpd:C04133", 
+            "graphics": {
+                "name": "C04133", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "363", 
+                "x": "380", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01250", 
+            "id": "24", 
+            "name": "cpd:C01250", 
+            "graphics": {
+                "name": "C01250", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "363", 
+                "x": "480", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00064", 
+            "id": "30", 
+            "name": "cpd:C00064", 
+            "graphics": {
+                "name": "C00064", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "151", 
+                "x": "180", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00086", 
+            "id": "34", 
+            "name": "cpd:C00086", 
+            "graphics": {
+                "name": "C00086", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "342", 
+                "x": "882", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C01010", 
+            "id": "36", 
+            "name": "cpd:C01010", 
+            "graphics": {
+                "name": "C01010", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "342", 
+                "x": "989", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00011", 
+            "id": "38", 
+            "name": "cpd:C00011", 
+            "graphics": {
+                "name": "C00011", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "342", 
+                "x": "1094", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R00256", 
+            "name": "ko:K01425 ko:K23265", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01425+K23265", 
+            "graphics": {
+                "name": "K01425...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "203", 
+                "x": "155", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "45"
+        }, 
+        {
+            "reaction": "rn:R00253", 
+            "name": "ko:K01915", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01915", 
+            "graphics": {
+                "name": "K01915", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "203", 
+                "x": "102", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "46"
+        }, 
+        {
+            "reaction": "rn:R00150", 
+            "name": "ko:K00926", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00926", 
+            "graphics": {
+                "name": "K00926", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "221", 
+                "x": "282", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "47"
+        }, 
+        {
+            "reaction": "rn:R00149", 
+            "name": "ko:K01948", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01948", 
+            "graphics": {
+                "name": "K01948", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "265", 
+                "x": "283", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "48"
+        }, 
+        {
+            "reaction": "rn:R01398", 
+            "name": "ko:K00611", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00611", 
+            "graphics": {
+                "name": "K00611", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "238", 
+                "x": "690", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "49"
+        }, 
+        {
+            "reaction": "rn:R01954", 
+            "name": "ko:K01940", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01940", 
+            "graphics": {
+                "name": "K01940", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "111", 
+                "x": "724", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "50"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00250", 
+            "id": "51", 
+            "name": "path:ko00250", 
+            "graphics": {
+                "name": "Alanine, aspartate and glutamate metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "125", 
+                "y": "133", 
+                "x": "534", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R01086", 
+            "name": "ko:K01755 ko:K14681", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01755+K14681", 
+            "graphics": {
+                "name": "K01755...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "109", 
+                "x": "894", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "52"
+        }, 
+        {
+            "reaction": "rn:R00551", 
+            "name": "ko:K01476", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01476", 
+            "graphics": {
+                "name": "K01476", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "297", 
+                "x": "891", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "53"
+        }, 
+        {
+            "reaction": "rn:R00259", 
+            "name": "ko:K11067 ko:K00618 ko:K00619 ko:K14681 ko:K14682 ko:K00620 ko:K22476 ko:K22477 ko:K22478", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K11067+K00618+K00619+K14681+K14682+K00620+K22476+K22477+K22478", 
+            "graphics": {
+                "name": "K11067...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "363", 
+                "x": "228", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "54"
+        }, 
+        {
+            "reaction": "rn:R02649", 
+            "name": "ko:K00930 ko:K12659 ko:K22478", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00930+K12659+K22478", 
+            "graphics": {
+                "name": "K00930...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "364", 
+                "x": "328", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "55"
+        }, 
+        {
+            "reaction": "rn:R03443", 
+            "name": "ko:K00145 ko:K12659", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00145+K12659", 
+            "graphics": {
+                "name": "K00145...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "364", 
+                "x": "427", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "56"
+        }, 
+        {
+            "reaction": "rn:R02283", 
+            "name": "ko:K00818 ko:K00821", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00818+K00821", 
+            "graphics": {
+                "name": "K00818...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "364", 
+                "x": "526", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "57"
+        }, 
+        {
+            "reaction": "rn:R00669", 
+            "name": "ko:K14677", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K14677", 
+            "graphics": {
+                "name": "K14677", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "353", 
+                "x": "631", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "58"
+        }, 
+        {
+            "reaction": "rn:R00669", 
+            "name": "ko:K01438", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01438", 
+            "graphics": {
+                "name": "K01438", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "374", 
+                "x": "631", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "59"
+        }, 
+        {
+            "reaction": "rn:R02282", 
+            "name": "ko:K00620", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00620", 
+            "graphics": {
+                "name": "K00620", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "309", 
+                "x": "659", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "60"
+        }, 
+        {
+            "reaction": "rn:R00774", 
+            "name": "ko:K01941 ko:K14541", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01941+K14541", 
+            "graphics": {
+                "name": "K01941...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "343", 
+                "x": "938", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "61"
+        }, 
+        {
+            "reaction": "rn:R00005", 
+            "name": "ko:K01457 ko:K14541", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01457+K14541", 
+            "graphics": {
+                "name": "K01457...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "343", 
+                "x": "1035", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "62"
+        }, 
+        {
+            "reaction": "rn:R00131", 
+            "name": "ko:K01427 ko:K01428 ko:K01429 ko:K01430 ko:K14048", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01427+K01428+K01429+K01430+K14048", 
+            "graphics": {
+                "name": "K01427...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "383", 
+                "x": "985", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "63"
+        }, 
+        {
+            "reaction": "rn:R00552", 
+            "name": "ko:K01478", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01478", 
+            "graphics": {
+                "name": "K01478", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "186", 
+                "x": "804", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "64"
+        }, 
+        {
+            "reaction": "rn:R00557", 
+            "name": "ko:K13240 ko:K13241 ko:K13242 ko:K13427", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K13240+K13241+K13242+K13427", 
+            "graphics": {
+                "name": "K13240...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "207", 
+                "x": "780", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "65"
+        }, 
+        {
+            "reaction": "rn:R00243", 
+            "name": "ko:K00260 ko:K15371", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00260+K15371", 
+            "graphics": {
+                "name": "K00260...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "305", 
+                "x": "179", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "66"
+        }, 
+        {
+            "reaction": "rn:R00243 rn:R00248", 
+            "name": "ko:K00261", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00261", 
+            "graphics": {
+                "name": "K00261", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "324", 
+                "x": "155", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "67"
+        }, 
+        {
+            "reaction": "rn:R00248", 
+            "name": "ko:K00262", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00262", 
+            "graphics": {
+                "name": "K00262", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "324", 
+                "x": "205", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "68"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00020", 
+            "id": "69", 
+            "name": "path:ko00020", 
+            "graphics": {
+                "name": "Citrate cycle (TCA cycle)", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "77", 
+                "y": "132", 
+                "x": "1021", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00472", 
+            "id": "70", 
+            "name": "path:ko00472", 
+            "graphics": {
+                "name": "D-Arginine and D-ornithine metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "97", 
+                "y": "258", 
+                "x": "834", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00910", 
+            "id": "73", 
+            "name": "path:ko00910", 
+            "graphics": {
+                "name": "Nitrogen metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "117", 
+                "y": "175", 
+                "x": "393", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00240", 
+            "id": "74", 
+            "name": "path:ko00240", 
+            "graphics": {
+                "name": "Pyrimidine metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "72", 
+                "y": "226", 
+                "x": "492", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C15532", 
+            "id": "79", 
+            "name": "cpd:C15532", 
+            "graphics": {
+                "name": "C15532", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "199", 
+                "x": "580", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R07245", 
+            "name": "ko:K09065", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K09065", 
+            "graphics": {
+                "name": "K09065", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "238", 
+                "x": "580", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "80"
+        }, 
+        {
+            "reaction": "rn:R09107", 
+            "name": "ko:K01438", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K01438", 
+            "graphics": {
+                "name": "K01438", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "200", 
+                "x": "631", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "82"
+        }, 
+        {
+            "reaction": "rn:R00256", 
+            "name": "ko:K05597", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05597", 
+            "graphics": {
+                "name": "K05597", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "203", 
+                "x": "205", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "83"
+        }, 
+        {
+            "reaction": "rn:R11711", 
+            "name": "ko:K00491", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00491", 
+            "graphics": {
+                "name": "K00491", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "207", 
+                "x": "828", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "84"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00026", 
+            "id": "85", 
+            "name": "cpd:C00026", 
+            "graphics": {
+                "name": "C00026", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "363", 
+                "x": "67", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00020", 
+            "id": "87", 
+            "name": "path:ko00020", 
+            "graphics": {
+                "name": "Citrate cycle (TCA cycle)", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "76", 
+                "y": "300", 
+                "x": "67", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R00355", 
+            "name": "ko:K14454 ko:K14455 ko:K00811 ko:K00812 ko:K00813 ko:K11358", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K14454+K14455+K00811+K00812+K00813+K11358", 
+            "graphics": {
+                "name": "K14454...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "353", 
+                "x": "124", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "88"
+        }, 
+        {
+            "reaction": "rn:R00258", 
+            "name": "ko:K00814 ko:K14260 ko:K14272", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K00814+K14260+K14272", 
+            "graphics": {
+                "name": "K00814...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "374", 
+                "x": "124", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "89"
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00437", 
+            "id": "90", 
+            "name": "cpd:C00437", 
+            "graphics": {
+                "name": "C00437", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "363", 
+                "x": "580", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00220", 
+            "id": "91", 
+            "name": "path:ko00220", 
+            "graphics": {
+                "name": "TITLE:Arginine biosynthesis", 
+                "bgcolor": "#FFFFFF", 
+                "height": "25", 
+                "width": "193", 
+                "y": "58", 
+                "x": "137", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20948", 
+            "id": "96", 
+            "name": "cpd:C20948", 
+            "graphics": {
+                "name": "C20948", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "413", 
+                "x": "280", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20949", 
+            "id": "97", 
+            "name": "cpd:C20949", 
+            "graphics": {
+                "name": "C20949", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "413", 
+                "x": "380", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20950", 
+            "id": "98", 
+            "name": "cpd:C20950", 
+            "graphics": {
+                "name": "C20950", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "413", 
+                "x": "480", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C20951", 
+            "id": "99", 
+            "name": "cpd:C20951", 
+            "graphics": {
+                "name": "C20951", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "413", 
+                "x": "580", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "reaction": "rn:R10929", 
+            "name": "ko:K19412 ko:K25032", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K19412+K25032", 
+            "graphics": {
+                "name": "K19412...", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "413", 
+                "x": "228", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "100"
+        }, 
+        {
+            "reaction": "rn:R10930", 
+            "name": "ko:K05828", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05828", 
+            "graphics": {
+                "name": "K05828", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "414", 
+                "x": "328", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "101"
+        }, 
+        {
+            "reaction": "rn:R10931", 
+            "name": "ko:K05829", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05829", 
+            "graphics": {
+                "name": "K05829", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "413", 
+                "x": "426", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "102"
+        }, 
+        {
+            "reaction": "rn:R10932", 
+            "name": "ko:K05830", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05830", 
+            "graphics": {
+                "name": "K05830", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "414", 
+                "x": "526", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "103"
+        }, 
+        {
+            "reaction": "rn:R10933", 
+            "name": "ko:K05831", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?K05831", 
+            "graphics": {
+                "name": "K05831", 
+                "bgcolor": "#BFBFFF", 
+                "height": "17", 
+                "width": "46", 
+                "y": "414", 
+                "x": "631", 
+                "type": "rectangle", 
+                "fgcolor": "#000000"
+            }, 
+            "type": "ortholog", 
+            "id": "104"
+        }, 
+        {
+            "type": "map", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?ko00330", 
+            "id": "106", 
+            "name": "path:ko00330", 
+            "graphics": {
+                "name": "Arginine and proline metabolism", 
+                "bgcolor": "#FFFFFF", 
+                "height": "34", 
+                "width": "121", 
+                "y": "198", 
+                "x": "1073", 
+                "type": "roundrectangle", 
+                "fgcolor": "#000000"
+            }
+        }, 
+        {
+            "type": "compound", 
+            "link": "https://www.kegg.jp/dbget-bin/www_bget?C00025", 
+            "id": "107", 
+            "name": "cpd:C00025", 
+            "graphics": {
+                "name": "C00025", 
+                "bgcolor": "#FFFFFF", 
+                "height": "8", 
+                "width": "8", 
+                "y": "363", 
+                "x": "180", 
+                "type": "circle", 
+                "fgcolor": "#000000"
+            }
+        }
+    ], 
+    "nodes": [
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "N-(L-Arginino)succinate", 
+            "kegg_id": "cpd:C03406", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C03406", 
+            "r": 8, 
+            "dx": 12.6, 
+            "dy": 5, 
+            "y": 22.80366159298629, 
+            "x": 324.19541801800614, 
+            "type": "M", 
+            "id": "8", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "L-Citrulline", 
+            "kegg_id": "cpd:C00327", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00327", 
+            "r": 8, 
+            "dx": 13.5, 
+            "dy": 8.8, 
+            "y": 171.7399353480441, 
+            "x": 469.0397680732119, 
+            "type": "M", 
+            "id": "9", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "L-Arginine", 
+            "kegg_id": "cpd:C00062", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00062", 
+            "r": 8, 
+            "dx": 12.6, 
+            "dy": -7.4, 
+            "y": -111.01292996571956, 
+            "x": 469.0397680732119, 
+            "type": "M", 
+            "id": "10", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "L-Ornithine", 
+            "kegg_id": "cpd:C00077", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00077", 
+            "r": 8, 
+            "dx": 12.6, 
+            "dy": 5, 
+            "y": 22.80366159298629, 
+            "x": 606.9482833317707, 
+            "type": "M", 
+            "id": "11", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "Carbamoyl phosphate", 
+            "kegg_id": "cpd:C00169", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00169", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -8.2, 
+            "y": 432.0030604587634, 
+            "x": 564.7124602593464, 
+            "type": "M", 
+            "id": "13", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "L-Aspartate", 
+            "kegg_id": "cpd:C00049", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00049", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -9.1, 
+            "y": 127.7627490283956, 
+            "x": 278.48767495952984, 
+            "type": "M", 
+            "id": "16", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "Fumarate", 
+            "kegg_id": "cpd:C00122", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00122", 
+            "r": 8, 
+            "dx": 12.6, 
+            "dy": 5, 
+            "y": -115.5273965715055, 
+            "x": 366.8443767898371, 
+            "type": "M", 
+            "id": "17", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "Ammonia", 
+            "kegg_id": "cpd:C00014", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00014", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -9.1, 
+            "y": 660.0179477305184, 
+            "x": 564.7124602593464, 
+            "type": "M", 
+            "id": "18", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "N-Acetyl-L-glutamate", 
+            "kegg_id": "cpd:C00624", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00624", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -9.1, 
+            "y": 549.5264100900688, 
+            "x": 629.1798864184909, 
+            "type": "M", 
+            "id": "20", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "N-Acetyl-L-glutamate 5-phosphate", 
+            "kegg_id": "cpd:C04133", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C04133", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -9.1, 
+            "y": 449.5424828825506, 
+            "x": 629.1798864184909, 
+            "type": "M", 
+            "id": "22", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "N-Acetyl-L-glutamate 5-semialdehyde", 
+            "kegg_id": "cpd:C01250", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01250", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -9.1, 
+            "y": 349.55855567503306, 
+            "x": 629.1798864184909, 
+            "type": "M", 
+            "id": "24", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "L-Glutamine", 
+            "kegg_id": "cpd:C00064", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00064", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -13.9, 
+            "y": 660.0179477305184, 
+            "x": 464.2631681406196, 
+            "type": "M", 
+            "id": "30", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "Urea", 
+            "kegg_id": "cpd:C00086", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00086", 
+            "r": 8, 
+            "dx": 12.6, 
+            "dy": -7.4, 
+            "y": -63.74188488170767, 
+            "x": 675.2808844292813, 
+            "type": "M", 
+            "id": "34", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "Urea-1-carboxylate", 
+            "kegg_id": "cpd:C01010", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C01010", 
+            "r": 8, 
+            "dx": -19, 
+            "dy": -15.6, 
+            "y": -63.74188488170767, 
+            "x": 782.190015079028, 
+            "type": "M", 
+            "id": "36", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "CO2", 
+            "kegg_id": "cpd:C00011", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00011", 
+            "r": 8, 
+            "dx": 12.6, 
+            "dy": -7.4, 
+            "y": -63.74188488170767, 
+            "x": 887.4329961478938, 
+            "type": "M", 
+            "id": "38", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01425+K23265", 
+            "font_size": 12, 
+            "name": "L-glutamine amidohydrolase", 
+            "rxn": " L-Glutamine + H2O <=> L-Glutamate + Ammonia", 
+            "kegg_id": "rn:R00256", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00256", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 660.0179477305184, 
+            "x": 516.9373720689784, 
+            "gene": "ko:K01425 ko:K23265", 
+            "type": "R", 
+            "id": "45", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01915", 
+            "font_size": 12, 
+            "name": "L-Glutamate:ammonia ligase (ADP-forming)", 
+            "rxn": " ATP + L-Glutamate + Ammonia <=> ADP + Orthophosphate + L-Glutamine", 
+            "kegg_id": "rn:R00253", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00253", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 660.0179477305184, 
+            "x": 516.9373720689784, 
+            "gene": "ko:K01915", 
+            "type": "R", 
+            "id": "46", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00926", 
+            "font_size": 12, 
+            "name": "ATP:carbamate phosphotransferase", 
+            "rxn": " ATP + Ammonia + HCO3- <=> ADP + Carbamoyl phosphate + H2O", 
+            "kegg_id": "rn:R00150", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00150", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 540.0190358592587, 
+            "x": 564.7124602593464, 
+            "gene": "ko:K00926", 
+            "type": "R", 
+            "id": "47", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01948", 
+            "font_size": 12, 
+            "name": "Carbon-dioxide:ammonia ligase (ADP-forming,carbamate-phosphorylating)", 
+            "rxn": " 2 ATP + Ammonia + CO2 + H2O <=> 2 ADP + Orthophosphate + Carbamoyl phosphate", 
+            "kegg_id": "rn:R00149", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00149", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 539.9491625234327, 
+            "x": 564.7124602593464, 
+            "gene": "ko:K01948", 
+            "type": "R", 
+            "id": "48", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00611", 
+            "font_size": 12, 
+            "name": "Carbamoyl-phosphate:L-ornithine carbamoyltransferase", 
+            "rxn": " Carbamoyl phosphate + L-Ornithine <=> Orthophosphate + L-Citrulline", 
+            "kegg_id": "rn:R01398", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01398", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 132.8520830512258, 
+            "x": 564.7124602593464, 
+            "gene": "ko:K00611", 
+            "type": "R", 
+            "id": "49", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01940", 
+            "font_size": 12, 
+            "name": "L-Citrulline:L-aspartate ligase (AMP-forming)", 
+            "rxn": " ATP + L-Citrulline + L-Aspartate <=> AMP + Diphosphate + N-(L-Arginino)succinate", 
+            "kegg_id": "rn:R01954", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01954", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 127.7627490283956, 
+            "x": 363.0832703148244, 
+            "gene": "ko:K01940", 
+            "type": "R", 
+            "id": "50", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01755+K14681", 
+            "font_size": 12, 
+            "name": "2-(Nomega-L-arginino)succinate arginine-lyase (fumarate-forming)", 
+            "rxn": " N-(L-Arginino)succinate <=> Fumarate + L-Arginine", 
+            "kegg_id": "rn:R01086", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R01086", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": -72.12507766890164, 
+            "x": 366.8443767898371, 
+            "gene": "ko:K01755 ko:K14681", 
+            "type": "R", 
+            "id": "52", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01476", 
+            "font_size": 12, 
+            "name": "L-Arginine amidinohydrolase", 
+            "rxn": " L-Arginine + H2O <=> L-Ornithine + Urea", 
+            "kegg_id": "rn:R00551", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00551", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": -63.74188488170767, 
+            "x": 568.0604310349523, 
+            "gene": "ko:K01476", 
+            "type": "R", 
+            "id": "53", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K11067+K00618+K00619+K14681+K14682+K00620+K22476+K22477+K22478", 
+            "font_size": 12, 
+            "name": "acetyl-CoA:L-glutamate N-acetyltransferase", 
+            "rxn": " Acetyl-CoA + L-Glutamate <=> CoA + N-Acetyl-L-glutamate", 
+            "kegg_id": "rn:R00259", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00259", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 601.5180522379784, 
+            "x": 629.1798864184909, 
+            "gene": "ko:K11067 ko:K00618 ko:K00619 ko:K14681 ko:K14682 ko:K00620 ko:K22476 ko:K22477 ko:K22478", 
+            "type": "R", 
+            "id": "54", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00930+K12659+K22478", 
+            "font_size": 12, 
+            "name": "ATP:N-acetyl-L-glutamate 5-phosphotransferase", 
+            "rxn": " ATP + N-Acetyl-L-glutamate <=> ADP + N-Acetyl-L-glutamate 5-phosphate", 
+            "kegg_id": "rn:R02649", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02649", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 501.5520534998924, 
+            "x": 629.1798864184909, 
+            "gene": "ko:K00930 ko:K12659 ko:K22478", 
+            "type": "R", 
+            "id": "55", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00145+K12659", 
+            "font_size": 12, 
+            "name": "N-acetyl-L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphrylating)", 
+            "rxn": " N-Acetyl-L-glutamate 5-semialdehyde + Orthophosphate + NADP+ <=> N-Acetyl-L-glutamate 5-phosphate + NADPH + H+", 
+            "kegg_id": "rn:R03443", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R03443", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 402.56796556444885, 
+            "x": 629.1798864184909, 
+            "gene": "ko:K00145 ko:K12659", 
+            "type": "R", 
+            "id": "56", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00818+K00821", 
+            "font_size": 12, 
+            "name": "N2-Acetyl-L-ornithine:2-oxoglutarate aminotransferase", 
+            "rxn": " N-Acetylornithine + 2-Oxoglutarate <=> N-Acetyl-L-glutamate 5-semialdehyde + L-Glutamate", 
+            "kegg_id": "rn:R02283", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02283", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 303.58387762900566, 
+            "x": 629.1798864184909, 
+            "gene": "ko:K00818 ko:K00821", 
+            "type": "R", 
+            "id": "57", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K14677", 
+            "font_size": 12, 
+            "name": "N2-Acetyl-L-ornithine amidohydrolase", 
+            "rxn": " N-Acetylornithine + H2O <=> Acetate + L-Ornithine", 
+            "kegg_id": "rn:R00669", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00669", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 186.27780847548678, 
+            "x": 629.1798864184909, 
+            "gene": "ko:K14677", 
+            "type": "R", 
+            "id": "58", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01438", 
+            "font_size": 12, 
+            "name": "N2-Acetyl-L-ornithine amidohydrolase", 
+            "rxn": " N-Acetylornithine + H2O <=> Acetate + L-Ornithine", 
+            "kegg_id": "rn:R00669", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00669", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 187.17002288628896, 
+            "x": 629.1798864184909, 
+            "gene": "ko:K01438", 
+            "type": "R", 
+            "id": "59", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00620", 
+            "font_size": 12, 
+            "name": "N2-Acetyl-L-ornithine:L-glutamate N-acetyltransferase", 
+            "rxn": " N-Acetylornithine + L-Glutamate <=> L-Ornithine + N-Acetyl-L-glutamate", 
+            "kegg_id": "rn:R02282", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R02282", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 186.9777396496475, 
+            "x": 629.1798864184909, 
+            "gene": "ko:K00620", 
+            "type": "R", 
+            "id": "60", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01941+K14541", 
+            "font_size": 12, 
+            "name": "Urea:carbon-dioxide ligase (ADP-forming)", 
+            "rxn": " ATP + Urea + HCO3- <=> ADP + Orthophosphate + Urea-1-carboxylate", 
+            "kegg_id": "rn:R00774", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00774", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": -63.74188488170767, 
+            "x": 731.4566672162081, 
+            "gene": "ko:K01941 ko:K14541", 
+            "type": "R", 
+            "id": "61", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01457+K14541", 
+            "font_size": 12, 
+            "name": "urea-1-carboxylate amidohydrolase", 
+            "rxn": " Urea-1-carboxylate + H2O <=> 2 CO2 + 2 Ammonia", 
+            "kegg_id": "rn:R00005", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00005", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": -63.74188488170767, 
+            "x": 828.449504782362, 
+            "gene": "ko:K01457 ko:K14541", 
+            "type": "R", 
+            "id": "62", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01427+K01428+K01429+K01430+K14048", 
+            "font_size": 12, 
+            "name": "Urea amidohydrolase", 
+            "rxn": " Urea + H2O <=> CO2 + 2 Ammonia", 
+            "kegg_id": "rn:R00131", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00131", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": -43.30945396284798, 
+            "x": 782.190015079028, 
+            "gene": "ko:K01427 ko:K01428 ko:K01429 ko:K01430 ko:K14048", 
+            "type": "R", 
+            "id": "63", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01478", 
+            "font_size": 12, 
+            "name": "L-Arginine iminohydrolase", 
+            "rxn": " L-Arginine + H2O <=> L-Citrulline + Ammonia", 
+            "kegg_id": "rn:R00552", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00552", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 24.319379099394983, 
+            "x": 469.0397680732119, 
+            "gene": "ko:K01478", 
+            "type": "R", 
+            "id": "64", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K13240+K13241+K13242+K13427", 
+            "font_size": 12, 
+            "name": "L-arginine,NADPH:oxygen oxidoreductase (nitric-oxide-forming)", 
+            "rxn": " 2 L-Arginine + 4 Oxygen + 3 NADPH + 3 H+ <=> 2 Nitric oxide + 2 L-Citrulline + 3 NADP+ + 4 H2O", 
+            "kegg_id": "rn:R00557", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00557", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 22.80366159298629, 
+            "x": 469.0397680732119, 
+            "gene": "ko:K13240 ko:K13241 ko:K13242 ko:K13427", 
+            "type": "R", 
+            "id": "65", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00260+K15371", 
+            "font_size": 12, 
+            "name": "L-glutamate:NAD+ oxidoreductase (deaminating)", 
+            "rxn": " L-Glutamate + NAD+ + H2O <=> 2-Oxoglutarate + Ammonia + NADH + H+", 
+            "kegg_id": "rn:R00243", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00243", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 660.0179477305184, 
+            "x": 629.1798864184909, 
+            "gene": "ko:K00260 ko:K15371", 
+            "type": "R", 
+            "id": "66", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00261", 
+            "font_size": 12, 
+            "name": "L-glutamate:NAD+ oxidoreductase (deaminating)", 
+            "rxn": " L-Glutamate + NAD+ + H2O <=> 2-Oxoglutarate + Ammonia + NADH + H+", 
+            "kegg_id": "rn:R00243", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00243", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 660.0179477305184, 
+            "x": 629.1798864184909, 
+            "gene": "ko:K00261", 
+            "type": "R", 
+            "id": "67", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00262", 
+            "font_size": 12, 
+            "name": "L-glutamate:NADP+ oxidoreductase (deaminating)", 
+            "rxn": " L-Glutamate + NADP+ + H2O <=> 2-Oxoglutarate + Ammonia + NADPH + H+", 
+            "kegg_id": "rn:R00248", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00248", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 660.0179477305184, 
+            "x": 629.1798864184909, 
+            "gene": "ko:K00262", 
+            "type": "R", 
+            "id": "68", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "N-Acetyl-L-citrulline", 
+            "kegg_id": "cpd:C15532", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C15532", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 18.7, 
+            "y": 248.21622819411027, 
+            "x": 469.0397680732119, 
+            "type": "M", 
+            "id": "79", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K09065", 
+            "font_size": 12, 
+            "name": "carbamoyl-phosphate:N2-acetyl-L-ornithine carbamoyltransferase", 
+            "rxn": " Carbamoyl phosphate + N-Acetylornithine <=> Orthophosphate + N-Acetyl-L-citrulline", 
+            "kegg_id": "rn:R07245", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R07245", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 248.21622819411027, 
+            "x": 564.7124602593464, 
+            "gene": "ko:K09065", 
+            "type": "R", 
+            "id": "80", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K01438", 
+            "font_size": 12, 
+            "name": "N-acetyl-L-citrulline amidohydrolase", 
+            "rxn": " N-Acetyl-L-citrulline + H2O <=> Acetate + L-Citrulline", 
+            "kegg_id": "rn:R09107", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R09107", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 195.66048507429514, 
+            "x": 469.0397680732119, 
+            "gene": "ko:K01438", 
+            "type": "R", 
+            "id": "82", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05597", 
+            "font_size": 12, 
+            "name": "L-glutamine amidohydrolase", 
+            "rxn": " L-Glutamine + H2O <=> L-Glutamate + Ammonia", 
+            "kegg_id": "rn:R00256", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00256", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 660.0179477305184, 
+            "x": 516.9373720689784, 
+            "gene": "ko:K05597", 
+            "type": "R", 
+            "id": "83", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00491", 
+            "font_size": 12, 
+            "name": "L-arginine,reduced-flavodoxin:oxygen oxidoreductase (nitric-oxide-forming)", 
+            "rxn": " 2 L-Arginine + 3 Reduced flavodoxin + 4 Oxygen <=> 2 L-Citrulline + 2 Nitric oxide + 3 Oxidized flavodoxin + 4 H2O", 
+            "kegg_id": "rn:R11711", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R11711", 
+            "rev": 1, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 22.80366159298629, 
+            "x": 469.0397680732119, 
+            "gene": "ko:K00491", 
+            "type": "R", 
+            "id": "84", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "2-Oxoglutarate", 
+            "kegg_id": "cpd:C00026", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00026", 
+            "r": 8, 
+            "dx": 11.7, 
+            "dy": 5, 
+            "y": 775.1278561944271, 
+            "x": 678.4697944495181, 
+            "type": "M", 
+            "id": "85", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K14454+K14455+K00811+K00812+K00813+K11358", 
+            "font_size": 12, 
+            "name": "L-Aspartate:2-oxoglutarate aminotransferase", 
+            "rxn": " L-Aspartate + 2-Oxoglutarate <=> Oxaloacetate + L-Glutamate", 
+            "kegg_id": "rn:R00355", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00355", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 716.9577329918229, 
+            "x": 678.4697944495181, 
+            "gene": "ko:K14454 ko:K14455 ko:K00811 ko:K00812 ko:K00813 ko:K11358", 
+            "type": "R", 
+            "id": "88", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K00814+K14260+K14272", 
+            "font_size": 12, 
+            "name": "L-Alanine:2-oxoglutarate aminotransferase", 
+            "rxn": " L-Alanine + 2-Oxoglutarate <=> Pyruvate + L-Glutamate", 
+            "kegg_id": "rn:R00258", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R00258", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 716.8499779202041, 
+            "x": 678.4697944495181, 
+            "gene": "ko:K00814 ko:K14260 ko:K14272", 
+            "type": "R", 
+            "id": "89", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "N-Acetylornithine", 
+            "kegg_id": "cpd:C00437", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00437", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -9.1, 
+            "y": 248.21622819411027, 
+            "x": 629.1798864184909, 
+            "type": "M", 
+            "id": "90", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "LysW-L-glutamate", 
+            "kegg_id": "cpd:C20948", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C20948", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 20, 
+            "y": 550.4228335616592, 
+            "x": 678.4697944495181, 
+            "type": "M", 
+            "id": "96", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "LysW-L-glutamyl 5-phosphate", 
+            "kegg_id": "cpd:C20949", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C20949", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 20, 
+            "y": 450.43890635414095, 
+            "x": 678.4697944495181, 
+            "type": "M", 
+            "id": "97", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "LysW-L-glutamate 5-semialdehyde", 
+            "kegg_id": "cpd:C20950", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C20950", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 20, 
+            "y": 350.45497914662263, 
+            "x": 678.4697944495181, 
+            "type": "M", 
+            "id": "98", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "LysW-L-ornithine", 
+            "kegg_id": "cpd:C20951", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C20951", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": 20, 
+            "y": 248.21622819411027, 
+            "x": 678.4697944495181, 
+            "type": "M", 
+            "id": "99", 
+            "fill": "white"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K19412+K25032", 
+            "font_size": 12, 
+            "name": "LysW:L-glutamate ligase (ADP-forming)", 
+            "rxn": " L-Glutamate + alpha-Aminoadipate carrier protein LysW + ATP <=> LysW-L-glutamate + ADP + Orthophosphate", 
+            "kegg_id": "rn:R10929", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10929", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 602.4144757095689, 
+            "x": 678.4697944495181, 
+            "gene": "ko:K19412 ko:K25032", 
+            "type": "R", 
+            "id": "100", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05828", 
+            "font_size": 12, 
+            "name": "ATP:LysW-L-glutamate 5-phosphotransferase", 
+            "rxn": " LysW-L-glutamate + ATP <=> LysW-L-glutamyl 5-phosphate + ADP", 
+            "kegg_id": "rn:R10930", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10930", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 502.44847697148214, 
+            "x": 678.4697944495181, 
+            "gene": "ko:K05828", 
+            "type": "R", 
+            "id": "101", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05829", 
+            "font_size": 12, 
+            "name": "LysW-L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphorylating)", 
+            "rxn": " LysW-L-glutamyl 5-phosphate + NADPH + H+ <=> LysW-L-glutamate 5-semialdehyde + NADP+ + Orthophosphate", 
+            "kegg_id": "rn:R10931", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10931", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 404.44629983868276, 
+            "x": 678.4697944495181, 
+            "gene": "ko:K05829", 
+            "type": "R", 
+            "id": "102", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05830", 
+            "font_size": 12, 
+            "name": "LysW-L-ornithine:2-oxoglutarate 5-aminotransferase", 
+            "rxn": " LysW-L-glutamate 5-semialdehyde + L-Glutamate <=> LysW-L-ornithine + 2-Oxoglutarate", 
+            "kegg_id": "rn:R10932", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10932", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 304.48030110059574, 
+            "x": 678.4697944495181, 
+            "gene": "ko:K05830", 
+            "type": "R", 
+            "id": "103", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "gene_link": "https://www.kegg.jp/dbget-bin/www_bget?K05831", 
+            "font_size": 12, 
+            "name": "LysW-L-ornithine amidohydrolase", 
+            "rxn": " LysW-L-ornithine + H2O <=> L-Ornithine + alpha-Aminoadipate carrier protein LysW", 
+            "kegg_id": "rn:R10933", 
+            "rxn_link": "https://www.kegg.jp/dbget-bin/www_bget?R10933", 
+            "rev": 0, 
+            "r": 8, 
+            "dx": 10, 
+            "dy": 2, 
+            "y": 185.85572855809232, 
+            "x": 678.4697944495181, 
+            "gene": "ko:K05831", 
+            "type": "R", 
+            "id": "104", 
+            "fill": "#d3d3d3"
+        }, 
+        {
+            "subsystem": "Arginine biosynthesis", 
+            "font_size": 12, 
+            "name": "L-Glutamate", 
+            "kegg_id": "cpd:C00025", 
+            "cpd_link": "https://www.kegg.jp/dbget-bin/www_bget?C00025", 
+            "r": 8, 
+            "dx": 5, 
+            "dy": -9.1, 
+            "y": 660.0179477305184, 
+            "x": 678.4697944495181, 
+            "type": "M", 
+            "id": "107", 
+            "fill": "white"
+        }
+    ], 
+    "pathway": {
+        "name": "path:ko00220", 
+        "title": "Arginine biosynthesis", 
+        "image": "https://www.kegg.jp/kegg/pathway/ko/ko00220.png", 
+        "number": "00220", 
+        "link": "https://www.kegg.jp/kegg-bin/show_pathway?ko00220", 
+        "org": "ko"
+    }
+}
