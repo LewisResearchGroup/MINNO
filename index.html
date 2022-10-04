@@ -944,7 +944,7 @@
 							//console.log("KEGG_models",KEGG_models)
 						}
 						
-						logFileText('/BiGG_models/BiGG_models.json')
+						logFileText('BiGG_models/BiGG_models.json')
 						
 						
 						/*
@@ -1022,11 +1022,11 @@
 						
 					}
 					
-					logFileText1('/Edited_ortholog_networks/KEGG_organism.txt')
+					logFileText1('Edited_ortholog_networks/KEGG_organism.txt')
 					
-					logFileText3('/Edited_ortholog_networks/ortholog_pathway_list.txt')
+					logFileText3('Edited_ortholog_networks/ortholog_pathway_list.txt')
 					
-					logFileText2('/Edited_ortholog_networks/KEGG_pathways.txt')
+					logFileText2('Edited_ortholog_networks/KEGG_pathways.txt')
 					
 					
 					
@@ -1062,7 +1062,7 @@
 						});
 					}
 					
-					kegg_recReader('/Edited_ortholog_networks/KEGG_reactions.txt')
+					kegg_recReader('Edited_ortholog_networks/KEGG_reactions.txt')
 					
 					const kegg_cpdReader = async file => {
 						const response = await fetch(file)
@@ -1076,7 +1076,7 @@
 						});
 					}
 					
-					kegg_cpdReader('/Edited_ortholog_networks/KEGG_compound.txt')
+					kegg_cpdReader('Edited_ortholog_networks/KEGG_compound.txt')
 					
 					Main_visualization_code(jsonObj);
 					Mainfunction(jsonObj);
@@ -1566,7 +1566,7 @@
 					
 				}
 				
-				logFileText('/BiGG_models/'+ value + '.json')
+				logFileText('BiGG_models/'+ value + '.json')
 				
 				/*
 				var url  = 'http://bigg.ucsd.edu/api/v2/models/' + value + '/download';
@@ -1694,7 +1694,7 @@
 						function combining_files(selected_options,){
 							selected_options.sort();
 							for(filen=0; filen<selected_options.length; filen++){
-								let filename = "/Edited_ortholog_networks/" + selected_options[filen].value+".json"
+								let filename = "Edited_ortholog_networks/" + selected_options[filen].value+".json"
 								//console.log('filename',filename)
 								d3.json(filename).then(function(d){ 
 									if(jsonObj_generic==undefined){
