@@ -1567,7 +1567,7 @@
 					
 				}
 				
-				logFileText('/BiGG_models/'+ value + '.json')
+				logFileText('BiGG_models/'+ value + '.json')
 				
 				/*
 				var url  = 'http://bigg.ucsd.edu/api/v2/models/' + value + '/download';
@@ -1695,7 +1695,7 @@
 						function combining_files(selected_options,){
 							selected_options.sort();
 							for(filen=0; filen<selected_options.length; filen++){
-								let filename = "/Edited_ortholog_networks/" + selected_options[filen].value+".json"
+								let filename = "Edited_ortholog_networks/" + selected_options[filen].value+".json"
 								//console.log('filename',filename)
 								d3.json(filename).then(function(d){ 
 									if(jsonObj_generic==undefined){
@@ -1815,7 +1815,7 @@
 						function combining_files(selected_options,){
 							selected_options.sort();
 							for(filen=0; filen<selected_options.length; filen++){
-								let filename = "/Edited_ortholog_networks/" + selected_options[filen].value+".json"
+								let filename = "Edited_ortholog_networks/" + selected_options[filen].value+".json"
 								//console.log('filename',filename)
 								d3.json(filename).then(function(d){ 
 									if(jsonObj_generic==undefined){
