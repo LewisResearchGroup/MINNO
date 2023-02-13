@@ -5,6 +5,7 @@
         <link type="text/css" href="dropdownmenu2.css" rel="stylesheet"/>
         <link rel="stylesheet" href="bootstrap.min.css" type="text/css"/>
         <link rel="stylesheet" href="bootstrap-multiselect.css" type="text/css"/>
+        <link rel="shortcut icon" href="#">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
         <meta charset="utf-8">
         
@@ -944,7 +945,7 @@
 							//console.log("KEGG_models",KEGG_models)
 						}
 						
-						logFileText('BiGG_models/BiGG_models.json')
+						logFileText('/BiGG_models/BiGG_models.json')
 						
 						
 						/*
@@ -1022,11 +1023,11 @@
 						
 					}
 					
-					logFileText1('Edited_ortholog_networks/KEGG_organism.txt')
+					logFileText1('/Edited_ortholog_networks/KEGG_organism.txt')
 					
-					logFileText3('Edited_ortholog_networks/ortholog_pathway_list.txt')
+					logFileText3('/Edited_ortholog_networks/ortholog_pathway_list.txt')
 					
-					logFileText2('Edited_ortholog_networks/KEGG_pathways.txt')
+					logFileText2('/Edited_ortholog_networks/KEGG_pathways.txt')
 					
 					
 					
@@ -1062,7 +1063,7 @@
 						});
 					}
 					
-					kegg_recReader('Edited_ortholog_networks/KEGG_reactions.txt')
+					kegg_recReader('/Edited_ortholog_networks/KEGG_reactions.txt')
 					
 					const kegg_cpdReader = async file => {
 						const response = await fetch(file)
@@ -1076,7 +1077,7 @@
 						});
 					}
 					
-					kegg_cpdReader('Edited_ortholog_networks/KEGG_compound.txt')
+					kegg_cpdReader('/Edited_ortholog_networks/KEGG_compound.txt')
 					
 					Main_visualization_code(jsonObj);
 					Mainfunction(jsonObj);
@@ -1566,7 +1567,7 @@
 					
 				}
 				
-				logFileText('BiGG_models/'+ value + '.json')
+				logFileText('/BiGG_models/'+ value + '.json')
 				
 				/*
 				var url  = 'http://bigg.ucsd.edu/api/v2/models/' + value + '/download';
@@ -1694,7 +1695,7 @@
 						function combining_files(selected_options,){
 							selected_options.sort();
 							for(filen=0; filen<selected_options.length; filen++){
-								let filename = "Edited_ortholog_networks/" + selected_options[filen].value+".json"
+								let filename = "/Edited_ortholog_networks/" + selected_options[filen].value+".json"
 								//console.log('filename',filename)
 								d3.json(filename).then(function(d){ 
 									if(jsonObj_generic==undefined){
@@ -1750,7 +1751,7 @@
 			};
 			
 			d3.select('#help').on('click', function(){
-				let url = "help.html"
+				let url = "http://localhost:8000/help.html"
 				window.open(url, '_blank').focus();
 			})
 			
@@ -1778,6 +1779,95 @@
 			
 			on_kegg_orgs_changed = function(){
 				
+				var selected_options = [];
+				var selected_options1 = [];
+				
+				var ref = d3.select('#KEGG_models').node().selectedOptions;
+				var ref1 = d3.select('#KEGG_orgs').node().selectedOptions;
+				
+				for (var i = 0; i<ref.length; i++) {
+					selected_options.push(ref[i]);
+				};
+				
+				for (var i = 0; i<ref1.length; i++) {
+					selected_options1.push(ref1[i]);
+				};
+				
+				d3.select("#settings").property("checked", false)
+				
+				let pathways = [];
+				let organisms = [];
+				
+				selected_options1.forEach(function(d){
+					if(d.parentNode.label=="List of Organism")
+						organisms.push(d.value)
+				})
+				
+				selected_options.forEach(function(d){
+					
+					if(d.parentNode.label=="List of Pathways")
+						pathways.push(d.value)
+					
+					if(d.parentNode.label=="Selected ortholog maps"){
+						
+						var jsonObj_generic;
+						
+						function combining_files(selected_options,){
+							selected_options.sort();
+							for(filen=0; filen<selected_options.length; filen++){
+								let filename = "/Edited_ortholog_networks/" + selected_options[filen].value+".json"
+								//console.log('filename',filename)
+								d3.json(filename).then(function(d){ 
+									if(jsonObj_generic==undefined){
+										jsonObj_generic = d;
+										jsonObj_generic["nodes"].forEach(function(d){
+											if(d.name==null){
+												d.name = makeid(20)	
+											}
+										})
+									}
+								});
+								
+							}
+							return jsonObj_generic
+						}	
+						
+						jsonObj_generic = combining_files(selected_options);
+						
+						function display_network(callback){
+							//console.log('display network is executed')
+							//your code to be executed after 2 second
+							jsonObj = jsonObj_generic
+							//console.log('jsonObj',jsonObj)
+							if(jsonObj!=undefined){
+								callback(jsonObj);
+							}
+						}
+						
+						setTimeout(function() {
+							display_network(Main_visualization_code);
+						}, 2000.0);
+					}
+				})
+				
+				//console.log(organisms,pathways)
+				
+				if (organisms.length>0 && pathways.length>0){
+					organisms.forEach(function(org){
+						pathways.forEach(function(map){
+							//console.log(map)
+							if(map=='org_pathway_lst'){
+								let url = "http://rest.kegg.jp/list/pathway/" + org
+								window.open(url, '_blank').focus();
+							}
+							else{
+								let url = "http://rest.kegg.jp/get/" + org + map.slice(-5) + "/kgml"
+								//window.open("http://rest.kegg.jp/get/hsa00010/kgml", '_blank').focus();
+								window.open(url, '_blank').focus();
+							}
+						})
+					})
+				}
 			
 			}
 			
@@ -4449,7 +4539,7 @@
 									return d.font_size 
 								}
 							})
-							.attr("font-family", "sans-serif")
+							.attr("font-family", "Arial")
 							.attr('x',function(d){
 								return d.x
 							})
@@ -5303,7 +5393,7 @@
 										.style("border-radius", "5px")
 										.style("padding", "5px")
 										.style("text-align","left")
-										.style("font", "12px sans-serif")
+										.style("font", "12px Arial")
 										.style("background","lightsteelblue")
 										.attr("class", "tooltip");
 										
@@ -5440,7 +5530,7 @@
 									else
 										return d.font_size
 								})
-								.attr("font-family", "sans-serif")
+								.attr("font-family", "Arial")
 								.attr("id",function(d){
 									return d.id
 								})
@@ -5497,7 +5587,7 @@
 										.style("border-radius", "5px")
 										.style("padding", "15px 20px 15px 0px")
 										.style("text-align","left")
-										.style("font", "12px sans-serif")
+										.style("font", "12px Arial")
 										.style("background","lightsteelblue")
 										.attr("class", "form");
 								
@@ -6417,6 +6507,7 @@
 						
 						//console.log(ref[0].value)
 						//console.log('data',data)
+						//console.log('data',actualdata)
 						
 						if(ref[0].value=="font"){
 							if(parseFloat(document.getElementById("input3").value)<0.0)
@@ -6449,7 +6540,12 @@
 										ele.attr('font-size',val)
 									}
 								});
-
+								
+								actualdata['nodes'].forEach(function(n){
+									if(ids.includes(n.id))
+										n.font_size = val;
+								});
+								data['nodes'] = actualdata['nodes']
 								gp.select(".labels_g").selectAll('.selected').style('font-size',val);
 								
 							});
@@ -6467,10 +6563,11 @@
 									ids.push(ele.attr('id'))						
 								});
 								
-								//data.nodes.forEach(function(d){
-								//	if(ids.includes(d.id))
-								//		d.dx = val;
-								//});
+								actualdata['nodes'].forEach(function(n){
+									if(ids.includes(n.id))
+										n.dx = val;
+								});
+								data['nodes'] = actualdata['nodes']
 								
 								gp.select(".texts_g").selectAll('.texts').each(function(d){
 									var ele1 = d3.select(this)
@@ -6492,10 +6589,11 @@
 									ids.push(ele.attr('id'));						
 								});
 								
-								//data.nodes.forEach(function(d){
-								//	if(ids.includes(d.id))
-								//		d.dy = val;
-								//});
+								actualdata['nodes'].forEach(function(n){
+									if(ids.includes(n.id))
+										n.dy = val;
+								});
+								data['nodes'] = actualdata['nodes']
 								
 								gp.select(".texts_g").selectAll('.texts').each(function(d){
 									var ele1 = d3.select(this)
@@ -6700,19 +6798,42 @@
 								var nids = [];
 								
 								gp.select('.nodes_g').selectAll('.selected').each(function(d){
+									let ele = d3.select(this);
+									ele.attr('r',value)
 									nids.push(d.id);
 								});
 								
-								actualdata.nodes.forEach(function(val,i){
-									if(nids.includes(val.id))
-										val.r = value;
-									val.fill = gp.select('.nodes_g').selectAll('.nodes').filter(function(n){
-										let x = d3.select(this)
-										if(n.id==val.id)
-											return n
-									}).attr('fill');
+								//actualdata.nodes.forEach(function(val,i){
+								//	if(nids.includes(val.id))
+								//		val.r = value;
+								//	val.fill = gp.select('.nodes_g').selectAll('.nodes').filter(function(n){
+								//		let x = d3.select(this)
+								//		if(n.id==val.id)
+								//			return n
+								//	}).attr('fill');
+								//});
+								//Mainfunction(actualdata);
+								
+								
+								//gp.select('.nodes_g').selectAll('.selected').each(function(d){
+								//	let ele = d3.select(this);
+								//	ids.push(ele.attr('id'));						
+								//});
+								
+								actualdata['nodes'].forEach(function(n){
+									if(nids.includes(n.id))
+										n.r = value;
 								});
-								Mainfunction(actualdata);
+								data['nodes'] = actualdata['nodes']
+								
+								//gp.select(".texts_g").selectAll('.texts').each(function(d){
+								//	var ele1 = d3.select(this)
+								//		if(ids.includes(ele1.attr('id')))
+								//			ele1.attr('dy',val)	
+								//});
+								
+								
+								
 							});
 						}
 						else if(ref[0].value=="l-stroke-width"){
@@ -6730,20 +6851,29 @@
 								if(value<0.0)
 									value = 0.0
 								var lids = []
-								gp.select('.links_g').selectAll('.selected').attr('stroke-width', value);
+								//gp.select('.links_g').selectAll('.selected').attr('stroke-width', value);
 								///*
 								gp.select('.links_g').selectAll('.selected').each(function(d){
+									let ele = d3.select(this);
+									ele.attr('stroke-width',value)
 									lids.push(d.id);
 								});
-								actualdata.links.forEach(function(val,i){
-									if(lids.includes(val.id))
-										val.strength = value;
-									val.stroke = gp.select('.links_g').selectAll('path').filter(function(l){
-										if(l.id==val.id)
-											return l
-									}).attr('stroke');
-									//console.log(val.stroke)
+								
+								actualdata['links'].forEach(function(n){
+									if(lids.includes(n.id))
+										n.strength = value;
 								});
+								data['links'] = actualdata['links']
+								
+								//actualdata.links.forEach(function(val,i){
+								//	if(lids.includes(val.id))
+								//		val.strength = value;
+								//	val.stroke = gp.select('.links_g').selectAll('path').filter(function(l){
+								//		if(l.id==val.id)
+								//			return l
+								//	}).attr('stroke');
+									//console.log(val.stroke)
+								//});
 							});
 						}
 						else if(ref[0].value=="Img-Resolution"){
