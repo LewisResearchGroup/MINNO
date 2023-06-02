@@ -1,5 +1,20 @@
 <html>  
-          
+	
+	<!--
+	This program is written by AYUSH MANDWAL
+	
+	This tool has MIT-open-access for public use.
+
+	Copyright 2021 AYUSH MANDWAL
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+	-->
+	
+	
 	<head>
 		<link rel="stylesheet" href="Ex2.css"/>
         <link type="text/css" href="dropdownmenu2.css" rel="stylesheet"/>
@@ -864,18 +879,19 @@
         -->
         
         <script>
-			$('body').append('<div style="" id="loadingDiv1"> <h1></h1> <img class="center1" src="MINNO Logo LRG_centered.svg" alt="logo" width="328" height="328"> <h1> Metabolic Interactive Nodular Network for Omics </h1> <h1>Loading files...</h1> <div class="loader1">Loading...</div></div>');
-			$(window).on('load', function(){
-				myFunction()
-			  setTimeout(removeLoader, 5000); //wait for page load PLUS two seconds.
-			});
-			function removeLoader(){
-				$( "#loadingDiv1" ).fadeOut(500, function() {
-				  // fadeOut complete. Remove the loading div
-				  $( "#loadingDiv1" ).remove(); //makes page more lightweight 
-			  });  
-			}
-		</script>
+		$('body').append('<div style="" id="loadingDiv1"> <h1></h1> <img class="center1" src="MINNO Logo LRG_centered.svg" alt="logo" width="328" height="328"> <h1> Metabolic Interactive Nodular Network for Omics </h1> <h1>Loading files...</h1> <a href="http://localhost:8000/help.html"  target="_blank"> <h1> Click here for User Manual of this tool... </h1> </a>  <div class="loader1">Loading...</div></div>');
+
+		$(window).on('load', function(){
+			myFunction()
+		  setTimeout(removeLoader, 5000); //wait for page load PLUS two seconds.
+		});
+		function removeLoader(){
+			$( "#loadingDiv1" ).fadeOut(500, function() {
+			  // fadeOut complete. Remove the loading div
+			  $( "#loadingDiv1" ).remove(); //makes page more lightweight 
+		  });  
+		}
+	</script>
         
         <script>            
 			
