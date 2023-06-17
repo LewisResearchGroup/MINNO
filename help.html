@@ -318,7 +318,7 @@
 									<br>
 									<li>After loading the network and datafile, user must assign group to nodes before normalization. Select option from the pop-up menu and select specific type of nodes and assign all the desired groups from the Assign group menu. </li>
 									<br>
-									<li>Then comes applying methods. How each group of dataset needs to be uploaded onto the network. Often raw data contains big number which cannot be loaded onto the network. Normalization and scaling is required. Select suitable method for specific group and adjust scaling parameter value using the slider.
+									<li>Then comes applying methods. How each group of dataset needs to be uploaded onto the network. Often raw data contains big number which cannot be loaded onto the network. Normalization and scaling is required. Select suitable method for specific group and adjust scaling parameter value using the big slider in the middle.
 									</li>
 									<br>
 									<li>It is done. Now change the datagroups from the top 3 menus which update the network as per values for 3 variables you provided in the datafile. 
@@ -360,7 +360,7 @@
 					
 					<p>
 						<font face="Arial" size="3">
-							<strong>Parameter:</strong> By default the tool use constant base value and allow user to decide the scaling value to be used for any given group within the datafile. The scaling value essentially allow how much one unit difference in the normalization data would translate into node sizes. Scaling value >1 means that the 1 unit difference in the normalized data would translate into >1 unit difference in the node size. Such value of scaling to be used when the variation in the normalized data values is small and hard to distinguish visually. On the other hand it is possible that the datafile contain values which have large variation such that everything takes extreme values i.e., nodes appears either giant or point size. In such situation, we need to use scaling <1 to diminish the variation is certain group/s and focus on the relevant ones which do have extremely large or small values. The value of the scaling parameter can be adjusted by using the slider above PNG download button. Each time slider value is adjusted, normalization of only selected group changes. Keep doing for all the different groups you have in the datafile. This way user can normalized wide variety of data specifically.
+							<strong>Parameter:</strong> By default the tool use constant base value and allow user to decide the scaling value to be used for any given group within the datafile. The scaling value essentially allow how much one unit difference in the normalization data would translate into node sizes. Scaling value >1 means that the 1 unit difference in the normalized data would translate into >1 unit difference in the node size. Such value of scaling to be used when the variation in the normalized data values is small and hard to distinguish visually. On the other hand it is possible that the datafile contain values which have large variation such that everything takes extreme values i.e., nodes appears either giant or point size. In such situation, we need to use scaling <1 to diminish the variation is certain group/s and focus on the relevant ones which do have extremely large or small values. The value of the scaling parameter can be adjusted by using the bigger slider above PNG download button. Each time slider value is adjusted, normalization of only selected group changes. Keep doing for all the different groups you have in the datafile. This way user can normalized wide variety of data specifically.
 							
 							<br><br>
 							
@@ -428,7 +428,7 @@
 						</font>
 
 						<font face="Arial" size="3">
-							<strong>Attribute Menu:</strong> This provide all the options that user can vary as desired. They are grouped into text, rectangle, spacing, node,link, image resolution and freeze degree. User can vary various attributes by adjusting slider below the menu. On either side of slider, there are inputs where user can provide values to adjust the range of the slider for different attributes as required. There is a limit of +-1000 units value. Anything above or below absolute 1000 units will set default to 1000 value. User can select network elements on which such modifications can be implemented by selecting them by either clicking on them individually or using shift key with mouse drag to scan the area interested.
+							<strong>Attribute Menu:</strong> This provide all the options that user can vary as desired. They are grouped into text, rectangle, spacing, node,link, image resolution and freeze degree. User can vary various attributes by adjusting smaller slider below the menu. On either side of slider, there are inputs where user can provide values to adjust the range of the slider for different attributes as required. There is a limit of +-1000 units value. Anything above or below absolute 1000 units will set default to 1000 value. User can select network elements on which such modifications can be implemented by selecting them by either clicking on them individually or using shift key with mouse drag to scan the area interested.
 							
 							<ol>
 								<br>
@@ -745,7 +745,7 @@
 										<br>
 										<img src="images/Screenshot from 2022-09-28 08-50-46.png" width=500 />
 										<br><br>
-										<li> Next click on the right-hand menu labeled None and select scaling. Drag the slider bar to your desired scaling value, in this case 2. Now repeat this process for the intracellular subheading (select “Control Normalization”). In order for the scaling factor to register, you need to slide the bar away from 2, release, then slide to 2 again (each time you adjust the parameters for a different Group). Under the link group, select “None” and then adjust the scaling to 1 as these data are already normalized and do not require additional normalization steps. </li>
+										<li> Next click on the right-hand menu labeled None and select scaling. Drag the bigger slider bar to your desired scaling value, in this case 2. Now repeat this process for the intracellular subheading (select “Control Normalization”). In order for the scaling factor to register, you need to slide the bar away from 2, release, then slide to 2 again (each time you adjust the parameters for a different Group). Under the link group, select “None” and then adjust the scaling to 1 as these data are already normalized and do not require additional normalization steps. </li>
 										
 										<br>
 										
