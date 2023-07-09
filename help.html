@@ -136,6 +136,8 @@
       </li>
       <li><a href='#databases'>Databases</a>
       </li>
+      <li><a href='#tutorial'>Tutorial</a>
+      </li>	    
       <li><a href='#upload'>Upload data</a>
       </li>
       <li><a href='#download'>Download data</a>
@@ -149,8 +151,6 @@
       <li><a href='#features'>Features</a>
       </li>
       <li><a href='#edit_tools'>Edit tools</a>
-      </li>
-      <li><a href='#tutorial'>Tutorial</a>
       </li>
       <li><a href='#copyright'>Copyright</a>
       </li>
@@ -186,6 +186,154 @@
 						</ol>
 						
 				</p>
+
+
+	    					<p>
+						<font face="Arial" size="3"> <a class="offset" name="tutorial"></a>
+						
+							<strong>Tutorial:</strong> This tutorial showcases a sample dataset containing intracellular, extracellular, and flux metabolomics data from two organisms: Staphylococcus aureus (SA) and Pseudomonas aeruginosa (PA). Throughout this tutorial, you will gain knowledge on downloading a basic network pathway from the KEGG database, incorporating supplementary reactions into the network, and uploading a dataset onto your customized network. This is a basic tutorial for using the MINNO web application. A more advanced tutorial will be available soon so stay tuned...
+							<a href="2022_07_15_MINNO_Supplemental_Sample_Data.csv" download>
+							  Download sample dataset
+							</a>
+							<ul>
+								<li><strong>Part 1: Downloading the ortholog network:</strong> 
+									<br>
+									<ol>
+										<br>
+										<li>Download the sample dataset and save in a new folder.</li>
+										<br>
+										<li>Click the "Simulation ON" button, which will update to display "Simulation OFF" that will retain the (X,Y) coordinates of the network layout. To access network files, click on the drop-down menu labeled 'KEGG Database'. </li> 
+										<br>
+										<img src="images/Screenshot from 2022-09-28 00-56-58.png" width=500 />
+										<br><br>
+										<li> Enter 'Arginine biosynthesis' in the search bar and choose 'Arginine Biosynthesis' from the Selected Ortholog Maps category.</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 00-57-37.png" width=500 />
+										<br><br>
+										<li>Click on the Select Rxns drop-down menu and click 'Select All'. </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 00-57-54.png" width=500 />
+										<br><br>
+										<li> Now, the Arginine Biosynthesis network should be visible. You can adjust the position of the network on the screen by dragging it with your cursor. Additionally, you can zoom in or out using the scroll function on your mouse. </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 00-58-21.png" width=500 />
+										<br><br>
+										<li> To export the network in JSON format, right-click on the screen. From the options that appear, select "Export," then choose "Network," and finally click on "JSON." Save the exported file in JSON format in the same folder as the sample dataset. This is an ortholog or base network  file. It is important to save the file with the prefix "Ortholog_ko_". MINNO tool will automatically suggest a suitable name for the file, and it is recommended to use the suggested name. If the file name already exists, you can add a convenient suffix to differentiate it. </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 00-58-44.png" width=500 />
+										<br><br>
+									</ol>
+								</li>
+								
+								<li><strong>Part 2: Downloading the organism network:</strong> 
+								<br>
+									<ol>
+										<br>
+										<li> Now, click on the "KEGG Organisms" list drop-down menu. Search for "Pseudomonas aeruginosa" and select PA01 strain.  </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-00-27.png" width=500 />
+										<br><br>
+										<li>After selecting the specific species strain (PA01), we need to specify the metabolic pathway. Click on the "KEGG Database" drop-down menu and search for "Arginine Biosynthesis". Under the "List of Pathways" category, select "Arginine biosynthesis". </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 08-36-53.png" width=500 />
+										<br><br>
+										<li>A new window will pop up with an XML file. This is the KGML file from the KEGG database titled "Arginine biosynthesis" of organism "pae", which is the KEGG ID for Pseudomonas aeruginosa. Right-click on the file and select the "Save as" option to save the file in the same folder as the other files. </li>
+										<br>
+										<li> Now, upload the XML file that you just saved. If the "Simulation ON" option is active, the nodes of the network will self-organize based on the D3.js library. If not, the network will remain static. Right-click on the screen and select "Export > Network > JSON". This is an organism-specific KEGG file. The file name should have the prefix "KEGG_org_" where "org" represents the organism ID. MINNO tool will automatically suggest a suitable name for the file, and it is recommended to use the suggested name. If the file name already exists, you can add a convenient suffix to differentiate it. Save this file in your tutorial folder. </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-03-08.png" width=500 />
+										<br><br>
+									</ol>
+								</li>
+								
+								<li><strong>Part 3: Combining the ortholog and organism specific network/s:</strong> 
+								<br>
+									<ol>
+										<br>
+										<li> Refresh MINNO, ensuring that the simulation is off to prevent any alterations to the network layout due to node movements. Right-click and select Import > Network. Choose both the Ortholog and KEGG networks you created in the folder (in .json format only). Wait for the reaction menu to update with the newly uploaded files. Click on Select Rxns > Select all, and the network will appear on the screen. All the annotated reactions for the PA01 metabolic network in the KEGG database will be displayed as nodes connected by black lines/edges, while unannotated reactions will be represented by light grey lines/edges between nodes. Right-click to export this file in JSON format as before, and save it as "KEGG_pae_Arginine biosynthesis_combined.json" in your tutorial folder. You can choose any arbitrary name as long as it allows you to identify it as the Arginine biosynthesis network of Pseudomonas aeruginosa. </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-04-01.png" width=500 />
+										<br><br>
+									</ol>
+								</li>
+								
+								<li><strong>Part 4: Adding reactions to the network:</strong>
+									<ol>
+										<br>
+										<li> In case you need to add a reaction for the transport of extracellular metabolites such as L-Arginine, right-click on the screen and select Insert > Reaction.</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-04-25.png" width=500 />
+										<br><br>
+										<li> To view the reaction node name, click on the Grid, Tooltip drop-down menu and unselect "Reaction node name." This will display the reaction names.</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-05-52.png" width=500 />
+										<br><br>
+										<li> Double-click on the text beside the new reaction nodes to change their names. For the grey reaction node, change the name to "L-Arginine outflux," and for the white metabolite node, change the name to "L-Arginine." You do not need to change the Subsystem or gene names, but you can add them to your future visualizations if desired. 
+										</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-07-32.png" width=500 />
+										<br><br>
+										<li> Click and drag to re-arrange the reaction node so that the white metabolite node is on top of the reaction node. For alignment, press the SHIFT key and drag your cursor over the nodes from L-Arginine down to N-acetyl-L-citrulline in the original network. Once those nodes are all highlighted in green, release the SHIFT key and right-click. From the menu, select Geometric operations > Alignment > Vertical. This will align the selected nodes vertically. If you make a mistake with the alignment, you can use the right-click menu to select the Undo option. 
+										</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-08-16.png" width=500 />
+										<br><br>
+										<li>To connect your new outflux reaction to the rest of the network, hold down the CTRL key and left-click on the L-Arginine node of the original network. Then, while still holding CTRL, drag your cursor to the L-Arginine outflux grey reaction node and release the mouse button. A black line connecting the two nodes will appear. If you accidentally drag over some text while performing this step, you may need to repeat the process to ensure the connection is made correctly. </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-08-38.png" width=500 />
+										<br><br>
+										<li>Export this new network by right-clicking on the screen and selecting Export > Network > JSON. Save the file in your tutorial folder with the name "KEGG_pae_Arginine biosynthesis_combined_rxn.json". After saving, refresh your browser and click on the Simulation ON button to preserve the network layout. Next, re-upload your new network file by selecting Import > Network from the right-click menu. Choose the JSON file you just saved and then select all the reactions under the Select Rxns menu. The network with your outflux reaction should now appear. Note that by default, only the metabolite node names are displayed, but you can un-select "Reaction node names" on the Grid, Tooltip drop-down menu to view or edit the reaction names.  </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-09-04.png" width=500 />
+										<br><br>
+									</ol>
+								</li>
+								
+								<li><strong>Part 5: Uploading data to the network:</strong> 
+									<ol>
+										<br>
+										<li> Right-click on the screen and select Import > Datafile. Choose the tutorial datafile that you saved at the beginning. To classify different metabolite nodes based on their groups, press and hold the SHIFT key, and then drag your cursor over the intracellular nodes, excluding the recently added L-Arginine node. Once the desired nodes are highlighted in green, right-click on the screen and select Select > Node from the menu.</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-09-30.png" width=500 />
+										<br><br>
+										<li>Click on the Group drop-down menu, which is currently displaying "extracellular". Select "intracellular" from the menu. Then, left-click on the network screen to deselect those nodes. Repeat the same process for the extracellular node, which is the L-Arginine node that you added manually. Make sure to only highlight the white metabolite node, not the grey reaction node. From the Group drop-down menu, select "extracellular". </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 08-46-07.png" width=500 />
+										<br><br>
+										
+										<li> To normalize the data for each group, click on the Methods drop-down menu. It should currently be displaying "None". Then, click on "Control Normalization" under the extracellular subheading.</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 08-50-46.png" width=500 />
+										<br><br>
+										<li> Next, click on the Parameters drop-down menu and select "scaling". Drag the larger slider bar to your desired scaling value, in this case, 2. Repeat this process for the intracellular subheading by selecting "Control Normalization". To register the scaling factor, slide the bar away from 2, release it, and then slide it back to 2 again. Remember to adjust the parameters for each group separately. Under the Link Group section, select "None". For the scaling value, adjust it to 1 as these data are already normalized and do not require additional normalization steps. </li>
+										
+										<br>
+										
+										<li>Now, click on "Invert" on the color bar at the bottom of the menu. This will make blue color represent low values while red color represent high values. Please note that for your own visualizations, you can choose any color scheme from the color-scheme drop-down menu that suits your preferences.</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-37-34.png" width=500 />
+										<br><br>
+										<li>To visualize the Staphylococcus aureus (SA) data, click on the menu at the top of the screen that currently displays "PA" and select "SA" instead. The nodes on the screen that have SA data should now be colored accordingly, and the outflux reaction should have a bolded arrow indicating the flux. You can follow the same instructions to access the S. aureus data on a different tab in your browser and display the data there. This way, you can compare the data from both species at each time point. </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 09-22-32.png" width=500 />
+										<br><br>
+										<li>To change the timepoint to 6hr, select the menu that currently displays "12hr" and choose "6hr" instead. This will update the visualization to show the data for the selected timepoint. For cleaner final visualizations, you can select "Link node" from the Grid, Tooltip drop-down menu. This will remove the grey link nodes from your network, while still keeping the white metabolite nodes visible. This can enhance the clarity of your network visualization.</li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-39-19.png" width=500 />
+										<br><br>
+										<li>To practice some of these features, you can try adding another reaction to the network. First, refresh your browser to remove any existing data from the network. Then, follow the same steps you used to add the L-Arginine outflux reaction to add an L-Glutamine outflux reaction. This will allow you to explore the process and familiarize yourself with adding reactions to the network. It's worth noting that this program contains many more features beyond the scope of this basic tutorial. If you're interested, I recommend reading through the instruction manual to discover additional features that can further customize your networks and enhance your experience with the tool.  </li>
+										<br>
+										<img src="images/Screenshot from 2022-09-28 01-39-52.png" width=500 />
+										<br><br>
+									</ol>
+								
+								 </li>
+								
+							</ul>
+						
+						</font>
+					</p>
+	    
 					
 					<p>
 						<font face="Arial" size="3">
@@ -629,151 +777,7 @@
 						</font>
 					</p>
 					
-					<p>
-						<font face="Arial" size="3"> <a class="offset" name="tutorial"></a>
-						
-							<strong>Tutorial:</strong> This tutorial showcases a sample dataset containing intracellular, extracellular, and flux metabolomics data from two organisms: Staphylococcus aureus (SA) and Pseudomonas aeruginosa (PA). Throughout this tutorial, you will gain knowledge on downloading a basic network pathway from the KEGG database, incorporating supplementary reactions into the network, and uploading a dataset onto your customized network. This is a basic tutorial for using the MINNO web application. A more advanced tutorial will be available soon so stay tuned...
-							<a href="2022_07_15_MINNO_Supplemental_Sample_Data.csv" download>
-							  Download sample dataset
-							</a>
-							<ul>
-								<li><strong>Part 1: Downloading the ortholog network:</strong> 
-									<br>
-									<ol>
-										<br>
-										<li>Download the sample dataset and save in a new folder.</li>
-										<br>
-										<li>Click the "Simulation ON" button, which will update to display "Simulation OFF" that will retain the (X,Y) coordinates of the network layout. To access network files, click on the drop-down menu labeled 'KEGG Database'. </li> 
-										<br>
-										<img src="images/Screenshot from 2022-09-28 00-56-58.png" width=500 />
-										<br><br>
-										<li> Enter 'Arginine biosynthesis' in the search bar and choose 'Arginine Biosynthesis' from the Selected Ortholog Maps category.</li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 00-57-37.png" width=500 />
-										<br><br>
-										<li>Click on the Select Rxns drop-down menu and click 'Select All'. </li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 00-57-54.png" width=500 />
-										<br><br>
-										<li> Now, the Arginine Biosynthesis network should be visible. You can adjust the position of the network on the screen by dragging it with your cursor. Additionally, you can zoom in or out using the scroll function on your mouse. </li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 00-58-21.png" width=500 />
-										<br><br>
-										<li> To export the network in JSON format, right-click on the screen. From the options that appear, select "Export," then choose "Network," and finally click on "JSON." Save the exported file in JSON format in the same folder as the sample dataset. This is an ortholog or base network  file. It is important to save the file with the prefix "Ortholog_ko_". MINNO tool will automatically suggest a suitable name for the file, and it is recommended to use the suggested name. If the file name already exists, you can add a convenient suffix to differentiate it. </li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 00-58-44.png" width=500 />
-										<br><br>
-									</ol>
-								</li>
-								
-								<li><strong>Part 2: Downloading the organism network:</strong> 
-								<br>
-									<ol>
-										<br>
-										<li> Now, click on the "KEGG Organisms" list drop-down menu. Search for "Pseudomonas aeruginosa" and select PA01 strain.  </li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 01-00-27.png" width=500 />
-										<br><br>
-										<li>After selecting the specific species strain (PA01), we need to specify the metabolic pathway. Click on the "KEGG Database" drop-down menu and search for "Arginine Biosynthesis". Under the "List of Pathways" category, select "Arginine biosynthesis". </li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 08-36-53.png" width=500 />
-										<br><br>
-										<li>A new window will pop up with an XML file. This is the KGML file from the KEGG database titled "Arginine biosynthesis" of organism "pae", which is the KEGG ID for Pseudomonas aeruginosa. Right-click on the file and select the "Save as" option to save the file in the same folder as the other files. </li>
-										<br>
-										<li> Now, upload the XML file that you just saved. If the "Simulation ON" option is active, the nodes of the network will self-organize based on the D3.js library. If not, the network will remain static. Right-click on the screen and select "Export > Network > JSON". This is an organism-specific KEGG file. The file name should have the prefix "KEGG_org_" where "org" represents the organism ID. MINNO tool will automatically suggest a suitable name for the file, and it is recommended to use the suggested name. If the file name already exists, you can add a convenient suffix to differentiate it. Save this file in your tutorial folder. </li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 01-03-08.png" width=500 />
-										<br><br>
-									</ol>
-								</li>
-								
-								<li><strong>Part 3: Combining the ortholog and organism specific network/s:</strong> 
-								<br>
-									<ol>
-										<br>
-										<li> Refresh MINNO, ensuring that the simulation is off to prevent any alterations to the network layout due to node movements. Right-click and select Import > Network. Choose both the Ortholog and KEGG networks you created in the folder (in .json format only). Wait for the reaction menu to update with the newly uploaded files. Click on Select Rxns > Select all, and the network will appear on the screen. All the annotated reactions for the PA01 metabolic network in the KEGG database will be displayed as nodes connected by black lines/edges, while unannotated reactions will be represented by light grey lines/edges between nodes. Right-click to export this file in JSON format as before, and save it as "KEGG_pae_Arginine biosynthesis_combined.json" in your tutorial folder. You can choose any arbitrary name as long as it allows you to identify it as the Arginine biosynthesis network of Pseudomonas aeruginosa. </li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 01-04-01.png" width=500 />
-										<br><br>
-									</ol>
-								</li>
-								
-								<li><strong>Part 4: Adding reactions to the network:</strong>
-									<ol>
-										<br>
-										<li> In case you need to add a reaction for the transport of extracellular metabolites such as L-Arginine, right-click on the screen and select Insert > Reaction.</li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 01-04-25.png" width=500 />
-										<br><br>
-										<li> To view the reaction node name, click on the Grid, Tooltip drop-down menu and unselect "Reaction node name." This will display the reaction names.</li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 01-05-52.png" width=500 />
-										<br><br>
-										<li> Double-click on the text beside the new reaction nodes to change their names. For the grey reaction node, change the name to "L-Arginine outflux," and for the white metabolite node, change the name to "L-Arginine." You do not need to change the Subsystem or gene names, but you can add them to your future visualizations if desired. 
-										</li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 01-07-32.png" width=500 />
-										<br><br>
-										<li> Click and drag to re-arrange the reaction node so that the white metabolite node is on top of the reaction node. For alignment, press the SHIFT key and drag your cursor over the nodes from L-Arginine down to N-acetyl-L-citrulline in the original network. Once those nodes are all highlighted in green, release the SHIFT key and right-click. From the menu, select Geometric operations > Alignment > Vertical. This will align the selected nodes vertically. If you make a mistake with the alignment, you can use the right-click menu to select the Undo option. 
-										</li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 01-08-16.png" width=500 />
-										<br><br>
-										<li>To connect your new outflux reaction to the rest of the network, hold down the CTRL key and left-click on the L-Arginine node of the original network. Then, while still holding CTRL, drag your cursor to the L-Arginine outflux grey reaction node and release the mouse button. A black line connecting the two nodes will appear. If you accidentally drag over some text while performing this step, you may need to repeat the process to ensure the connection is made correctly. </li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 01-08-38.png" width=500 />
-										<br><br>
-										<li>Export this new network by right-clicking on the screen and selecting Export > Network > JSON. Save the file in your tutorial folder with the name "KEGG_pae_Arginine biosynthesis_combined_rxn.json". After saving, refresh your browser and click on the Simulation ON button to preserve the network layout. Next, re-upload your new network file by selecting Import > Network from the right-click menu. Choose the JSON file you just saved and then select all the reactions under the Select Rxns menu. The network with your outflux reaction should now appear. Note that by default, only the metabolite node names are displayed, but you can un-select "Reaction node names" on the Grid, Tooltip drop-down menu to view or edit the reaction names.  </li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 01-09-04.png" width=500 />
-										<br><br>
-									</ol>
-								</li>
-								
-								<li><strong>Part 5: Uploading data to the network:</strong> 
-									<ol>
-										<br>
-										<li> Right-click on the screen and select Import > Datafile. Choose the tutorial datafile that you saved at the beginning. To classify different metabolite nodes based on their groups, press and hold the SHIFT key, and then drag your cursor over the intracellular nodes, excluding the recently added L-Arginine node. Once the desired nodes are highlighted in green, right-click on the screen and select Select > Node from the menu.</li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 01-09-30.png" width=500 />
-										<br><br>
-										<li>Click on the Group drop-down menu, which is currently displaying "extracellular". Select "intracellular" from the menu. Then, left-click on the network screen to deselect those nodes. Repeat the same process for the extracellular node, which is the L-Arginine node that you added manually. Make sure to only highlight the white metabolite node, not the grey reaction node. From the Group drop-down menu, select "extracellular". </li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 08-46-07.png" width=500 />
-										<br><br>
-										
-										<li> To normalize the data for each group, click on the Methods drop-down menu. It should currently be displaying "None". Then, click on "Control Normalization" under the extracellular subheading.</li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 08-50-46.png" width=500 />
-										<br><br>
-										<li> Next, click on the Parameters drop-down menu and select "scaling". Drag the larger slider bar to your desired scaling value, in this case, 2. Repeat this process for the intracellular subheading by selecting "Control Normalization". To register the scaling factor, slide the bar away from 2, release it, and then slide it back to 2 again. Remember to adjust the parameters for each group separately. Under the Link Group section, select "None". For the scaling value, adjust it to 1 as these data are already normalized and do not require additional normalization steps. </li>
-										
-										<br>
-										
-										<li>Now, click on "Invert" on the color bar at the bottom of the menu. This will make blue color represent low values while red color represent high values. Please note that for your own visualizations, you can choose any color scheme from the color-scheme drop-down menu that suits your preferences.</li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 01-37-34.png" width=500 />
-										<br><br>
-										<li>To visualize the Staphylococcus aureus (SA) data, click on the menu at the top of the screen that currently displays "PA" and select "SA" instead. The nodes on the screen that have SA data should now be colored accordingly, and the outflux reaction should have a bolded arrow indicating the flux. You can follow the same instructions to access the S. aureus data on a different tab in your browser and display the data there. This way, you can compare the data from both species at each time point. </li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 09-22-32.png" width=500 />
-										<br><br>
-										<li>To change the timepoint to 6hr, select the menu that currently displays "12hr" and choose "6hr" instead. This will update the visualization to show the data for the selected timepoint. For cleaner final visualizations, you can select "Link node" from the Grid, Tooltip drop-down menu. This will remove the grey link nodes from your network, while still keeping the white metabolite nodes visible. This can enhance the clarity of your network visualization.</li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 01-39-19.png" width=500 />
-										<br><br>
-										<li>To practice some of these features, you can try adding another reaction to the network. First, refresh your browser to remove any existing data from the network. Then, follow the same steps you used to add the L-Arginine outflux reaction to add an L-Glutamine outflux reaction. This will allow you to explore the process and familiarize yourself with adding reactions to the network. It's worth noting that this program contains many more features beyond the scope of this basic tutorial. If you're interested, I recommend reading through the instruction manual to discover additional features that can further customize your networks and enhance your experience with the tool.  </li>
-										<br>
-										<img src="images/Screenshot from 2022-09-28 01-39-52.png" width=500 />
-										<br><br>
-									</ol>
-								
-								 </li>
-								
-							</ul>
-						
-						</font>
-					</p>
+
 					
 					
 					
