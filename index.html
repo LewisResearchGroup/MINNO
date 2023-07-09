@@ -2003,8 +2003,15 @@
 				brushMode = false;
 				keycode = 0
 				//console.log('keyT',keyT)
-				if (!gBrush)
-					return;
+				//if (!gBrush)
+				//	return;
+				
+				if (!shiftKey) {
+					//console.log(shiftKey)
+					// if we already have a brush, don't do anything
+					gBrush.remove();
+					gBrush = null;
+				}
 
 				if (!brushing) {
 					// only remove the brush if we're not actively brushing
@@ -2080,6 +2087,9 @@
 					gBrush = null;
 				}
 				brushing = false;
+				shiftKey = false;
+				gBrush.remove();
+				gBrush = null;
 			};
 			
 			var xScale = d3.scaleLinear()
