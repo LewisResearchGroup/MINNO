@@ -111,6 +111,12 @@
 		margin-top: -0px; /* Give negative margin of your fixed element */    
 		visibility: hidden; 
 	}
+	
+	strong2{
+	  font-weight:bold;
+	  font-size:28px;
+	  line-height:22px;
+	}
 
 </style>
 
@@ -137,7 +143,7 @@
       <li><a href='#databases'>Databases</a>
       </li>
       <li><a href='#tutorial'>Tutorial</a>
-      </li>	    
+      </li>
       <li><a href='#upload'>Upload data</a>
       </li>
       <li><a href='#download'>Download data</a>
@@ -145,8 +151,6 @@
       <li><a href='#schema'>Datafile Schema</a>
       </li>
       <li><a href='#visual'>Visualization</a>
-      </li>
-      <li><a href='#normalization'>Data Normalization</a>
       </li>
       <li><a href='#features'>Features</a>
       </li>
@@ -161,8 +165,11 @@
   <div id="content-wrapper">
     <div class="content" left="50px">
 		<p><a class="offset" name="intro"></a>
+					<strong2>Introduction:</strong2>
+					<br><br>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<font face="Arial" size="3">
+						
 						<strong>Metabolic Interactive Nodular Network for Omics (MINNO)</strong> is a <a href="https://d3js.org/" target="_blank"><span>D3 javascript library</span></a> based web application to visualize biological data onto metabolic networks. Besides visualization, this tools offer various ways to share data and results to facilitate collaboration across multiple research groups globally. Being a web-application, it does not require any installation and it can be run on both Chrome and Mozilla browsers. MINNO comes with 66 base metabolic pathways from the KEGG database, which cover all primary metabolic pathways and can be combined together to build any possible large-scale metabolic network as needed. Beside KEGG, the tool also has access to the metabolic network models from BiGG Models database. MINNO enables users to built organism specific metabolic map by superimposing large-scale metabolic network formed from KEGG database with organism’s known metabolic pathways data without need to rebuild a network from scratch for each organism. The BiGG models already comes with organism specific models, so need to superimpose any metabolic maps. However, user need to organize the network as BiGG models do not come with prelayout network maps.
 						
 						<br><br>
@@ -171,12 +178,13 @@
 						
 						<br><br>
 						
-						<strong>Databases:</strong> <a class="offset" name="databases"></a> 
-						<br>
+						<a class="offset" name="databases"></a> 
+						<strong2>Databases:</strong2>
+						<br><br>
 						MINNO comes with two biological databases: KEGG (Kyoto Encyclopedia of Genes and Genomes) and BiGG (Biochemical, Genetic and Genomics) databases.
 						
 						<ol>
-							<li><a href="https://www.kegg.jp/" target="_blank"><span><strong>KEGG-Database:</strong></span></a> KEGG (Kyoto Encyclopedia of Genes and Genomes) is a knowledge base for systematic analysis of gene functions, linking genomic information with higher order functional information stored in the PATHWAY database, which contains graphical representations of cellular processes, such as metabolism, membrane transport, signal transduction and cell cycle. The KEGG database harbour metabolic pathways of 579 Eukaryotes, 6348 Bacteria, 349 Archaea diverse species making it an excellent database to explore cross-species interaction in diverse environmental conditions and discover unknown links and interactions between biochemicals or species. MINNO contains 66 pre-layout metabolic pathways for quick use and data visualization and about 150 in total metabolic pathways for metabolism. Remaining non-metabolic pathways cannot be currently visualized on the tool. The menu contains two categories: 1) selected Ortholog/base maps which contains 66 pre-layout metabolic pathways 2) list of pathways which contains all the metabolic pathways. User can also access all the pathways documented for specific user selected organism and superimpose on base maps to obtain organism’s specific metabolic network. 
+							<li><a href="https://www.kegg.jp/" target="_blank"><span><strong>KEGG-Database:</strong></span></a> KEGG (Kyoto Encyclopedia of Genes and Genomes) is a knowledge base for systematic analysis of gene functions, linking genomic information with higher order functional information stored in the PATHWAY database, which contains graphical representations of cellular processes, such as metabolism, membrane transport, signal transduction and cell cycle. The KEGG database harbour metabolic pathways of 860 eukaryotes and 7,934 prokaryotes, of which 410 are archaea making it an excellent database to explore cross-species interaction in diverse environmental conditions and discover unknown links and interactions between biochemicals or species. MINNO contains 66 pre-layout metabolic pathways for quick use and data visualization and about 150 in total metabolic pathways for metabolism. Remaining non-metabolic pathways cannot be currently visualized on the tool. The menu contains two categories: 1) selected Ortholog/base maps which contains 66 pre-layout metabolic pathways 2) list of pathways which contains all the metabolic pathways. User can also access all the pathways documented for specific user selected organism and superimpose on base maps to obtain organism’s specific metabolic network. 
 							</li>
 							
 							<br>
@@ -186,12 +194,13 @@
 						</ol>
 						
 				</p>
-
-
-	    					<p>
+				
+				<p>
 						<font face="Arial" size="3"> <a class="offset" name="tutorial"></a>
 						
-							<strong>Tutorial:</strong> This tutorial showcases a sample dataset containing intracellular, extracellular, and flux metabolomics data from two organisms: Staphylococcus aureus (SA) and Pseudomonas aeruginosa (PA). Throughout this tutorial, you will gain knowledge on downloading a basic network pathway from the KEGG database, incorporating supplementary reactions into the network, and uploading a dataset onto your customized network. This is a basic tutorial for using the MINNO web application. A more advanced tutorial will be available soon so stay tuned...
+							<strong2>Tutorial:</strong2>
+							<br><br>
+							 This tutorial showcases a sample dataset containing intracellular, extracellular, and flux metabolomics data from two organisms: Staphylococcus aureus (SA) and Pseudomonas aeruginosa (PA). Throughout this tutorial, you will gain knowledge on downloading a basic network pathway from the KEGG database, incorporating supplementary reactions into the network, and uploading a dataset onto your customized network.
 							<a href="2022_07_15_MINNO_Supplemental_Sample_Data.csv" download>
 							  Download sample dataset
 							</a>
@@ -321,7 +330,7 @@
 										<br>
 										<img src="images/Screenshot from 2022-09-28 01-39-19.png" width=500 />
 										<br><br>
-										<li>To practice some of these features, you can try adding another reaction to the network. First, refresh your browser to remove any existing data from the network. Then, follow the same steps you used to add the L-Arginine outflux reaction to add an L-Glutamine outflux reaction. This will allow you to explore the process and familiarize yourself with adding reactions to the network. It's worth noting that this program contains many more features beyond the scope of this basic tutorial. If you're interested, I recommend reading through the instruction manual to discover additional features that can further customize your networks and enhance your experience with the tool.  </li>
+										<li>To practice some of these features, you can try adding another reaction to the network. First, refresh your browser to remove any existing data from the network. Then, follow the same steps you used to add the L-Arginine outflux reaction to add an L-Glutamine outflux reaction. This will allow you to explore the process and familiarize yourself with adding reactions to the network. It's worth noting that this program contains many more features beyond the scope of this basic tutorial. If you're interested, I recommend reading through the instruction manual to discover additional features that can further customize your networks and enhance your experience with the tool. </li>
 										<br>
 										<img src="images/Screenshot from 2022-09-28 01-39-52.png" width=500 />
 										<br><br>
@@ -333,11 +342,17 @@
 						
 						</font>
 					</p>
-	    
+				
+					
+					<p>
+					 Trouble-shooting 
+					 Refresh your browser
+					 <em> We recommended to save many versions of your network as you make changes and then refresh/upload the new version to avoid losing network data and to decrease the lag time when adding new features to the network.</em>
+					</p>
 					
 					<p>
 						<font face="Arial" size="3">
-							<a class="offset" name="upload"></a><strong>Import:</strong> 
+							<a class="offset" name="upload"></a><strong2>Upload Data:</strong2> 
 							<ol>
 										<li><strong>Network file:</strong> Import network file. You can upload multiple network files and the tool will combine all the network file together. The tools also has a feature to load kegg base/ortholog map files along with organism specific map together. This will allow user to showcase organism specific rxns on the KEGG base metabolic pathway maps. As all these loaded files are in json format, in order to make distinction between them, they need to have specific prefixs to their names. The steps involved are mention below:
 										<br>
@@ -369,7 +384,8 @@
 										</li>								
 								</ol>
 								
-								<strong>Export:</strong> <a class="offset" name="download"></a>
+								<a class="offset" name="download"></a>
+								<strong2>Download data:</strong2>
 								<ol>
 								
 									<li><strong>Network:</strong> 
@@ -409,8 +425,10 @@
 						</p>
 						
 						<br><br>	
-						
-						<a class="offset" name="schema"></a><strong>Datafile Schema:</strong></a> The datafile can be either .csv or .json format to be loaded into the visualization code. Each datafile format have information of variables/conditions which are varied and quantitative measurements of various biomolecules which are represented as nodes or edges in the network. Below are the steps to make datafile:
+						<a class="offset" name="schema"></a>
+						<strong2>Datafile Schema:</strong2></a> 
+						<br><br>
+						The datafile can be either .csv or .json format to be loaded into the visualization code. Each datafile format have information of variables/conditions which are varied and quantitative measurements of various biomolecules which are represented as nodes or edges in the network. Below are the steps to make datafile:
 						<br><br>
 						
 						<ol>
@@ -447,26 +465,28 @@
 							<li>
 								<strong>CSV:</strong> CSV format is easier to create using Microsoft Excel or Libre Office. The csv file must have following header<br><br>
 								
-								Compound, Group, X1_Y1_Z1, X1_Y1,Z2,....<br>
+								Compound, Group, X1_Y1_Z1, X1_Y1_Z2,....<br>
 									A ,    b,     1.0,     2.0   .... <br>
 									.<br>
 									.<br>
 								<br><br>
-								Here, X1_Y1_Z1 represents three variables as a single string which are tied together using underscore character. Each line in the csv file has a compound name, its group id for example whether the compound represents 'I' (intracellular) or 'E' (extracellular) molecule etc, and quantitative measurement for X, Y and Z variables. Except for first two column, the rest of the header does not need to be in any particular order as long as all of them are included. Generally biological experiments have control experiment which provides a way to compare and relate how certain perturbation has impacted the experimental results. This control dataset is also need to be included in the above both datafile formats and must be represented as ‘C’ in the datafile as a variable that is varied during the experiment.
+								Here, X1_Y1_Z1 represents three variables as a single string which are tied together using underscore character. Each line in the csv file has a compound name, its group id for example whether the compound represents "I" (intracellular) or "E" (extracellular) molecule etc, and quantitative measurement for X, Y and Z variables. Except for first two column, the rest of the header does not need to be in any particular order as long as all of them are included. Generally biological experiments have control experiment which provides a way to compare and relate how certain perturbation has impacted the experimental results. This control dataset is also need to be included in the above both datafile formats and must be represented as "C" in the datafile as a variable that is varied during the experiment.
 							</li>
 						
 						</ol>
-						
+						<br><br>
 						<p><a class="offset" name="visual"></a>
-							<strong>Load datafile and its visualization onto the network:</strong><br><br>
+							<strong2>Visualization</strong2>
+							<br><br>
+							<strong>Load datafile and its visualization onto the network:</strong>
 							
 							To load datafile and visualize onto the network, follow following steps:
 							<font face="Arial" size="3">
 								<ol>
 									<br>
-									<li>After loading the network and datafile, user must assign group to nodes before normalization. Select option from the pop-up menu and select specific type of nodes and assign all the desired groups from the Assign group menu. </li>
+									<li>After loading the network file load datafile and then user must assign group to nodes before normalization. Select Assign group menu and select specific type of nodes and assign all the node to desired group from the menu. </li>
 									<br>
-									<li>Then comes applying methods. How each group of dataset needs to be uploaded onto the network. Often raw data contains big number which cannot be loaded onto the network. Normalization and scaling is required. Select suitable method for specific group and adjust scaling parameter value using the big slider in the middle.
+									<li>Then comes applying methods. Each group of dataset needs to be uploaded onto the network can have different normalization method. Often raw data contains big number which cannot be loaded onto the network. Thus, normalization and scaling is required. Select suitable method for specific group and adjust scaling parameter value using the big slider in the middle. Do this for all groups of data whether it is intracellular, extracellular or edges of the network. 
 									</li>
 									<br>
 									<li>It is done. Now change the datagroups from the top 3 menus which update the network as per values for 3 variables you provided in the datafile. 
@@ -519,8 +539,10 @@
 							<strong>Hide Menu:</strong> This menu offers options to hide certain aspect of the visualization. It has following options:
 						</font>
 					</p>
+						<br><br>
 						<a class="offset" name="features"></a>
-						
+						<strong2>Additional features</strong2>
+						<br><br>
 						It offers multitudes of features which are listed below:<br><br>
 						
 						<strong>Simulation:</strong> This key will allow self-organization of nodes in the network based on force simulation where nodes in the network repel each other while edges attract them together. This is useful when network does not come with initial coordinates such as metabolic networks from <a href="http://bigg.ucsd.edu/" target="_blank"><span>BiGG-models database</span></a> However, if the network is already pre-layout such as network from KEGG database, then keeping simulation switched off will make network nodes static.
@@ -621,6 +643,10 @@
 					
 					<p>
 						<font face="Arial" size="3"> <a class="offset" name="edit_tools"></a>
+						
+						<br><br>
+						<strong2>Edit tools</strong2>
+						<br><br>
 						
 						In addition to above features, the web-application has another menu which pop-up on mouse right click on the visualization screen. It offers options like file upload to download into various formats and various geometric operation to make organization of network elements easier and faster.
 						
@@ -777,12 +803,13 @@
 						</font>
 					</p>
 					
-
-					
-					
 					
 					<p>
 						<a class="offset" name="copyright"></a>
+						
+						<br><br>
+						<strong2>Copyright</strong2>
+						
 						<font face="Arial" size="3">	
 							<br><br><br>
 							For any further questions, please contact at this email address: <strong>ayush.mandwal@ucalgary.ca</strong> 
