@@ -7675,7 +7675,7 @@
 					}
 					
 					else{
-						alert("Your datafile is not in correct format!")
+						alert("Your datafile is not in correct format! \n\n Only CSV or JSON formats!")
 					}
 					
 					d3.select("#dataset").on("change", function() {
@@ -8015,6 +8015,31 @@
 				//console.log("links",links)
 				return links
 			}
+
+			function custom_err(err_message){
+				var alrtdiv = document.createElement('div');
+				document.getElementById('div_main').appendChild(alrtdiv);
+				alrtdiv.id = 'alrt';
+				alrtdiv.style.zIndex = "1000";
+				alrtdiv.style.position = "absolute";
+				alrtdiv.style.left = "40%";
+				alrtdiv.style.width = "600px";
+				alrtdiv.style.height = "100px";
+				alrtdiv.style.top = "40%";
+				alrtdiv.style.color = "black";
+				alrtdiv.style.fontSize = "16";
+				alrtdiv.style.backgroundColor = "lightyellow";
+				alrtdiv.style.borderColor = "black";
+				alrtdiv.style.borderStyle = "solid";
+				alrtdiv.style.borderWidth = "thick";
+				alrtdiv.style.borderRadius = "30px";
+				alrtdiv.style.textAlign = "center";
+				alrtdiv.style.padding = "2%";
+				
+				//document.getElementById('alrt').innerHTML='<b>Please wait, Your file is being uploaded!!!</b>'; 
+				document.getElementById('alrt').innerHTML='<b>'+ err_message +'</b>'; 
+				setTimeout(function() {document.getElementById('alrt').remove();},2000);
+			}
 			
 			function upload_files(filelist, total_generic_files, filenames){
 				d3.select("#settings").property("checked", false)
@@ -8031,6 +8056,23 @@
 					{	
 						if(filelist[filen].name==filenames[fileidx]){
 							//console.log(filelist[filen].name.split("."))
+
+							try{
+								if(filelist[filen].name.split(".")[1]=="json" || filelist[filen].name.split(".")[1]=="xml"){
+									
+									custom_err('Please wait, Your file is being uploaded!!!')
+									
+								}
+								else{
+									window.alert("Error while uploading file! \n\n \u2022Only JSON and XML file formats are allowed! \n \u2022Also make sure that filename is appropriate. Filename.json or Filename.xml. \n \u2022There should not be more than one '.' in the full filename!");
+								}
+							}
+							catch(err){
+								window.alert(err.message);
+								return; 
+							}
+							
+							
 							if(filelist[filen].name.includes('Ortholog') && filelist[filen].name.split(".")[1]=="json"){
 								
 								var filereader = new window.FileReader(); // makes the new file reader variable 
