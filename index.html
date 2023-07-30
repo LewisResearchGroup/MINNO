@@ -895,275 +895,276 @@
         
         <script>            
 			
-			var myVar, Bigg_models = [], KEGG_models = [], KEGG_orgs = [], kegg_rec = [], kegg_cpd = [];
+	var myVar, Bigg_models = [], KEGG_models = [], KEGG_orgs = [], kegg_rec = [], kegg_cpd = [];
+	
+	var alphaMIN = 0.98;
+	
+	var Zoomscale = 6.0;
+	
+	var zoomTrans = {x:0, y:0, scale:1};
+	
+	let currentZoom = 1.0// = d3.event.transform;
+	
+	var subsysgp, actualdata, finalupjsonobj_temp, nodedegobj, remelegp, repelegp;
 			
-			var alphaMIN = 0.98;
-			
-			var Zoomscale = 6.0;
-			
-            var zoomTrans = {x:0, y:0, scale:1};
+	var jsonObj = {"nodes":[],"links":[],"labels":[],"boxes":[],"images":[]};
+	
+	var image_files;
             
-            let currentZoom = 1.0// = d3.event.transform;
+	var keycode = 0;
+	
+	//var countloops = 0;
+	
+	// var duplicates = 0;
+	
+	var Curvature = 10;
+    
+	var acc_min = 100.0;
+			
+	var acc_max = 0.0;
+	
+	var no_of_grps = [];
+			
+	var mousedown_node = null, mouseup_node = null;
             
-            var subsysgp, actualdata, finalupjsonobj_temp, nodedegobj, remelegp, repelegp;
+	var gBrush = null;
+						
+	var brushMode = false;
+	
+	var brushing = false;    
+	
+	var shiftKey;
+	
+	var bodyd3keyup = d3.select("body").on('keyup', keyup);
+	
+	var bodyd3keydown = d3.select("body").on('keydown', keydown);
 			
-			var jsonObj = {"nodes":[],"links":[],"labels":[],"boxes":[],"images":[]};
-			
-			var image_files;
-            
-            var keycode = 0;
-            
-            //var countloops = 0;
-            
-           // var duplicates = 0;
-            
-            var Curvature = 10;
-            
-            var acc_min = 100.0;
-			
-			var acc_max = 0.0;
-			
-			var no_of_grps = [];
-			
-            var mousedown_node = null, mouseup_node = null;
-            
-			var gBrush = null;
-								
-			var brushMode = false;
-			
-			var brushing = false;    
-			
-			var shiftKey;
-			
-			var bodyd3keyup = d3.select("body").on('keyup', keyup);
-			
-			var bodyd3keydown = d3.select("body").on('keydown', keydown);
-			
-			function myFunction() {
+	function myFunction() {
 
-				function firstFunction1(_callback){
-					// do some asynchronous work
-					// and when the asynchronous stuff is complete
-					function load_models(filename){ 
-						
-						const logFileText = async file => {
-							const response = await fetch(file)
-							const text = await response.text()
-							var jsonparse = JSON.parse(text)
-							
-							Bigg_models.push({'label': 'BiGG Models','value': 'Models'})
-							
-							jsonparse['results'].forEach(function(str){
-								Bigg_models.push({'label': str['bigg_id'],'value': str['bigg_id']})
-							});
-						
-							$('#BiGG_models').multiselect('dataprovider', Bigg_models); 
-							//console.log("KEGG_models",KEGG_models)
-						}
-						
-						logFileText('BiGG_models/BiGG_models.json')
-						
-						
-						/*
-						fetch('http://bigg.ucsd.edu/api/v2/models')
-						  .then(response => response.blob())
-						  .then(blob => {
-							const reader = new FileReader;
-							reader.addEventListener('load', () => {	
-							  var models_name = JSON.parse(reader.result)
-							  Bigg_models.push({'label': 'BiGG Models','value': 'Models'})
-							  for(let i=0; i<models_name.results_count; i++){
-								  Bigg_models.push({'label': models_name.results[i]['bigg_id'],'value': models_name.results[i]['bigg_id']})
-								}
-								$('#BiGG_models').multiselect('dataprovider', Bigg_models); 
-							});
-							reader.readAsText(blob);
-						  });
-						*/
-					}
-					
-					//window.onload = load_models;
-					load_models();
-					
-					//console.log('1 is exe')
-					_callback();    
-				}
+		function firstFunction1(_callback){
+			// do some asynchronous work
+			// and when the asynchronous stuff is complete
+			function load_models(filename){ 
 				
-				function firstFunction2(_callback){
-					// do some asynchronous work
-					// and when the asynchronous stuff is complete
-					var childNodes=[];
-					childNodes.push({'label':'KEGG Database','value':'KEGG_database'})
+				const logFileText = async file => {
+					const response = await fetch(file)
+					const text = await response.text()
+					var jsonparse = JSON.parse(text)
 					
-					const logFileText1 = async file => {
-						const response = await fetch(file)
-						const text = await response.text()
-						var childNodes = [];
-						text.split("\n").forEach(function(str){
-							let list = str.split("\t")
-							//console.log(list)
-							childNodes.push({'label':list[2],'value':list[1]})
-						});
-						KEGG_orgs.push({'label':'List of Organism','children':childNodes})
-						//console.log(KEGG_orgs)
-						$('#KEGG_orgs').multiselect('dataprovider', KEGG_orgs); 
-					}
+					Bigg_models.push({'label': 'BiGG Models','value': 'Models'})
 					
-					const logFileText2 = async file => {
-						const response = await fetch(file)
-						const text = await response.text()
-						var childNodes = [];
-						childNodes.push({'label':'Organism specific list of pathways','value':'org_pathway_lst'})
-						text.split("\n").forEach(function(str){
-							let list = str.split("\t")
-							childNodes.push({'label':list[1],'value':list[0]})
-						});
-						KEGG_models.push({'label':'List of Pathways','children':childNodes})
-						$('#KEGG_models').multiselect('dataprovider', KEGG_models); 
-						//console.log("KEGG_models",KEGG_models)
-					}
-					
-					const logFileText3 = async file => {
-						const response = await fetch(file)
-						const text = await response.text()
-						var childNodes = [];
-						//childNodes.push({'label':'Organism specific list of pathways','value':'org_pathway_lst'})
-						text.split("\n").forEach(function(str){
-							let list = str.split(".json")
-							childNodes.push({'label':list[0],'value':list[0]})
-						});
-						KEGG_models.push({'label':'Selected ortholog maps','children':childNodes})
-						//console.log('KEGG_models',KEGG_models)
-						$('#KEGG_models').multiselect('dataprovider', KEGG_models); 
-						//console.log("KEGG_models",KEGG_models)
-						
-					}
-					
-					logFileText1('Edited_ortholog_networks/KEGG_organism.txt')
-					
-					logFileText3('Edited_ortholog_networks/ortholog_pathway_list.txt')
-					
-					logFileText2('Edited_ortholog_networks/KEGG_pathways.txt')
-					
-					
-					
-					/*
-					var directory = '/Edited_ortholog_networks_up/';
-					var xmlHttp = new XMLHttpRequest();
-					xmlHttp.open('GET', directory, false); // false for synchronous request
-					xmlHttp.send(null);
-					var ret = xmlHttp.responseText;
-					//console.log(ret)
-					var fileList = ret.split('<li>');
-					for (i = 0; i < fileList.length; i++) {
-						var fileinfo = fileList[i].split('>')[1].split('<')[0];
-						//console.log(fileinfo.split(".")[1])
-						if(fileinfo.split(".")[1]=="json"){
-							childNodes.push({'label':fileinfo,'value':fileinfo})
-						}
-					}
-					*/
-					
-					//KEGG_models.push({'label':'Selected ortholog maps','children':childNodes})
-					//$('#KEGG_models').multiselect('dataprovider', KEGG_models); 
-					
-					const kegg_recReader = async file => {
-						const response = await fetch(file)
-						const text = await response.text()
-						text.split("\n").forEach(function(str){
-							if(str!=""){
-								let list = str.split("\t")
-								let rxnlist = list[1].split(";")
-								kegg_rec.push({'id':list[0],'name':rxnlist[0],'rxn':rxnlist[rxnlist.length-1]})
-							}
-						});
-					}
-					
-					kegg_recReader('Edited_ortholog_networks/KEGG_reactions.txt')
-					
-					const kegg_cpdReader = async file => {
-						const response = await fetch(file)
-						const text = await response.text()
-						text.split("\n").forEach(function(str){
-							if(str!=""){
-								let list = str.split("\t")
-								let cpdnames = list[1].split(";")
-								kegg_cpd.push({'id':list[0],'name':cpdnames[0]})
-							}
-						});
-					}
-					
-					kegg_cpdReader('Edited_ortholog_networks/KEGG_compound.txt')
-					
-					Main_visualization_code(jsonObj);
-					Mainfunction(jsonObj);
-					
-					//console.log('2 is exe')
-					_callback();    
-				}
-				
-				function firstFunction3(){
-					// do some asynchronous work
-					// and when the asynchronous stuff is complete
-					//console.log('3 is exe')
-					//document.getElementById("loader").style.display = "none";
-					//Main_visualization_code(jsonObj)
-					//document.getElementById("myDiv").style.display = "none";
-					//_callback();    
-				}
-				
-				function secondFunction(){
-					// call first function and pass in a callback function which
-					// first function runs when it has completed
-					
-					//setTimeout(firstFunction3, 3000)
-					
-					firstFunction1(function(){
-						firstFunction2(function(){
-							setTimeout(firstFunction3, 3000);
-						});
+					jsonparse['results'].forEach(function(str){
+						Bigg_models.push({'label': str['bigg_id'],'value': str['bigg_id']})
 					});
+				
+					$('#BiGG_models').multiselect('dataprovider', Bigg_models); 
+					//console.log("KEGG_models",KEGG_models)
 				}
 				
-				secondFunction();
-
-				//myVar = setTimeout(showPage, 3000);
+				logFileText('BiGG_models/BiGG_models.json')
+				
+				
+				/*
+				fetch('http://bigg.ucsd.edu/api/v2/models')
+				  .then(response => response.blob())
+				  .then(blob => {
+					const reader = new FileReader;
+					reader.addEventListener('load', () => {	
+					  var models_name = JSON.parse(reader.result)
+					  Bigg_models.push({'label': 'BiGG Models','value': 'Models'})
+					  for(let i=0; i<models_name.results_count; i++){
+						  Bigg_models.push({'label': models_name.results[i]['bigg_id'],'value': models_name.results[i]['bigg_id']})
+						}
+						$('#BiGG_models').multiselect('dataprovider', Bigg_models); 
+					});
+					reader.readAsText(blob);
+				  });
+				*/
 			}
-
-			function showPage() {
-			  //document.getElementById("loader").style.display = "none";
-			  //console.log('d')
-			  //document.getElementById("myDiv").style.display = "block";
+			
+			//window.onload = load_models;
+			load_models();
+			
+			//console.log('1 is exe')
+			_callback();    
+		}
+		
+		function firstFunction2(_callback){
+			// do some asynchronous work
+			// and when the asynchronous stuff is complete
+			var childNodes=[];
+			childNodes.push({'label':'KEGG Database','value':'KEGG_database'})
+			
+			const logFileText1 = async file => {
+				const response = await fetch(file)
+				const text = await response.text()
+				var childNodes = [];
+				text.split("\n").forEach(function(str){
+					let list = str.split("\t")
+					//console.log(list)
+					childNodes.push({'label':list[2],'value':list[1]})
+				});
+				KEGG_orgs.push({'label':'List of Organism','children':childNodes})
+				//console.log(KEGG_orgs)
+				$('#KEGG_orgs').multiselect('dataprovider', KEGG_orgs); 
 			}
 			
-			//$('#btn1_input1').on('click', function(){
-			//	console.log('it is changes')
-			//	console.log(document.getElementById('input3').value) 
-			//})
+			const logFileText2 = async file => {
+				const response = await fetch(file)
+				const text = await response.text()
+				var childNodes = [];
+				childNodes.push({'label':'Organism specific list of pathways','value':'org_pathway_lst'})
+				text.split("\n").forEach(function(str){
+					let list = str.split("\t")
+					childNodes.push({'label':list[1],'value':list[0]})
+				});
+				KEGG_models.push({'label':'List of Pathways','children':childNodes})
+				$('#KEGG_models').multiselect('dataprovider', KEGG_models); 
+				//console.log("KEGG_models",KEGG_models)
+			}
 			
-			//$('#dataset').on('change', function(){
-			//	console.log(d3.select('#dataset').property('checked'))
-				//console.log(d3.select("#simulationkey").property("checked"))
-			//})
+			const logFileText3 = async file => {
+				const response = await fetch(file)
+				const text = await response.text()
+				var childNodes = [];
+				//childNodes.push({'label':'Organism specific list of pathways','value':'org_pathway_lst'})
+				text.split("\n").forEach(function(str){
+					let list = str.split(".json")
+					childNodes.push({'label':list[0],'value':list[0]})
+				});
+				KEGG_models.push({'label':'Selected ortholog maps','children':childNodes})
+				//console.log('KEGG_models',KEGG_models)
+				$('#KEGG_models').multiselect('dataprovider', KEGG_models); 
+				//console.log("KEGG_models",KEGG_models)
+				
+			}
 			
-			// creates an empty list
-			var neighbors1 = []
+			logFileText1('Edited_ortholog_networks/KEGG_organism.txt')
+			
+			logFileText3('Edited_ortholog_networks/ortholog_pathway_list.txt')
+			
+			logFileText2('Edited_ortholog_networks/KEGG_pathways.txt')
+			
+			
+			
+			/*
+			var directory = '/Edited_ortholog_networks_up/';
+			var xmlHttp = new XMLHttpRequest();
+			xmlHttp.open('GET', directory, false); // false for synchronous request
+			xmlHttp.send(null);
+			var ret = xmlHttp.responseText;
+			//console.log(ret)
+			var fileList = ret.split('<li>');
+			for (i = 0; i < fileList.length; i++) {
+				var fileinfo = fileList[i].split('>')[1].split('<')[0];
+				//console.log(fileinfo.split(".")[1])
+				if(fileinfo.split(".")[1]=="json"){
+					childNodes.push({'label':fileinfo,'value':fileinfo})
+				}
+			}
+			*/
+			
+			//KEGG_models.push({'label':'Selected ortholog maps','children':childNodes})
+			//$('#KEGG_models').multiselect('dataprovider', KEGG_models); 
+			
+			const kegg_recReader = async file => {
+				const response = await fetch(file)
+				const text = await response.text()
+				text.split("\n").forEach(function(str){
+					if(str!=""){
+						let list = str.split("\t")
+						let rxnlist = list[1].split(";")
+						kegg_rec.push({'id':list[0],'name':rxnlist[0],'rxn':rxnlist[rxnlist.length-1]})
+					}
+				});
+			}
+			
+			kegg_recReader('Edited_ortholog_networks/KEGG_reactions.txt')
+			
+			const kegg_cpdReader = async file => {
+				const response = await fetch(file)
+				const text = await response.text()
+				text.split("\n").forEach(function(str){
+					if(str!=""){
+						let list = str.split("\t")
+						let cpdnames = list[1].split(";")
+						kegg_cpd.push({'id':list[0],'name':cpdnames[0]})
+					}
+				});
+			}
+			
+			kegg_cpdReader('Edited_ortholog_networks/KEGG_compound.txt')
+			
+			Main_visualization_code(jsonObj);
+			Mainfunction(jsonObj);
+			
+			//console.log('2 is exe')
+			_callback();    
+		}
+		
+		function firstFunction3(){
+			// do some asynchronous work
+			// and when the asynchronous stuff is complete
+			//console.log('3 is exe')
+			//document.getElementById("loader").style.display = "none";
+			//Main_visualization_code(jsonObj)
+			//document.getElementById("myDiv").style.display = "none";
+			//_callback();    
+		}
+		
+		function secondFunction(){
+			// call first function and pass in a callback function which
+			// first function runs when it has completed
+			
+			//setTimeout(firstFunction3, 3000)
+			
+			firstFunction1(function(){
+				firstFunction2(function(){
+					setTimeout(firstFunction3, 3000);
+				});
+			});
+		}
+		
+		secondFunction();
+
+		//myVar = setTimeout(showPage, 3000);
+	}
+
+	function showPage() {
+	  //document.getElementById("loader").style.display = "none";
+	  //console.log('d')
+	  //document.getElementById("myDiv").style.display = "block";
+	}
+	
+	//$('#btn1_input1').on('click', function(){
+	//	console.log('it is changes')
+	//	console.log(document.getElementById('input3').value) 
+	//})
+	
+	//$('#dataset').on('change', function(){
+	//	console.log(d3.select('#dataset').property('checked'))
+		//console.log(d3.select("#simulationkey").property("checked"))
+	//})
+	
+	// creates an empty list
+	var neighbors1 = []
             
-            var gravity = 0.010
-            
-            var elecrep = -20.0
-            
-            var width = window.innerWidth - 250
-            
-            var height = window.innerHeight-0
-                
-			var svg = d3.select("body")     
-						.append("div")
-                        .append("svg")
-                        .attr("id","svg_main")
-                        //.attr('fill','yellow')
-                        .attr('width', width)
-                        .attr('height', height);
+		var gravity = 0.010
+		
+		var elecrep = -20.0
+		
+		var width = window.innerWidth - 250
+		
+		var height = window.innerHeight-0
+		
+		var svg = d3.select("body")     
+				.append("div")
+				.attr("id,"div_main")
+				.append("svg")
+				.attr("id","svg_main")
+				//.attr('fill','yellow')
+				.attr('width', width)
+				.attr('height', height);
             
             d3.select("#svg_main").append("defs").append('g').attr('id','arrowHead');
             d3.select("#svg_main").select("defs").append('g').attr('id','arrowEnd');
