@@ -1,0 +1,38 @@
+Compound,Group,Meta_EC_6hr,Meta_EC_12hr,Meta_EC_18hr,Meta_C_6hr,Meta_C_12hr,Meta_C_18hr
+ATP:alpha-D-glucose 6-phosphotransferase,link,2,2,2,1,1,1
+alpha-D-Glucose 6-phosphate ketol-isomerase,link,2,2,2,1,1,1
+ADP:D-fructose-6-phosphate 1-phosphotransferase,link,2,2,2,1,1,1
+"beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)",link,2,2,2,1,1,1
+D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),link,2,2,2,1,1,1
+2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming),link,2,2,2,1,1,1
+ATP:pyruvate 2-O-phosphotransferase,link,2,2,2,1,1,1
+L-Aspartic acid:oxygen oxidoreductase (deaminating),link,2,2,2,1,1,1
+L-glutamate:NAD+ oxidoreductase (transaminating),link,2,2,2,1,1,1
+L-glutamate:NAD+ oxidoreductase (deaminating),link,2,2,2,1,1,1
+L-Glutamate:ammonia ligase (ADP-forming),link,2,2,2,1,1,1
+(S)-malate hydro-lyase (fumarate-forming),link,2,2,2,1,1,1
+(S)-malate:quinone oxidoreductase,link,0,0,0,1,1,1
+"acetyl-CoA:oxaloacetate C-acetyltransferase [(pro-S)-carboxymethyl-forming, ADP-phosphorylating]",link,2,2,2,1,1,1
+citrate hydro-lyase (cis-aconitate-forming),link,2,2,2,1,1,1
+isocitrate hydro-lyase (cis-aconitate-forming),link,2,2,2,1,1,1
+Pyruvate:carbon-dioxide ligase (ADP-forming),link,2,2,2,1,1,1
+isocitrate:NAD+ oxidoreductase (decarboxylating),link,2,2,2,1,1,1
+2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating),link,2,2,2,1,1,1
+succinyl-CoA:acetate CoA-transferase,link,2,2,2,1,1,1
+succinate:quinone oxidoreductase,link,2,2,2,1,1,1
+pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating),link,2,2,2,1,1,1
+D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,link,2,2,2,1,1,1
+UDP-glucose synthesis,link,2,2,2,1,1,1
+UDP-Nacetyl glucosamine synthesis,link,2,2,2,1,1,1
+Others synthesis,link,2,2,2,1,1,1
+Valine synthesis,link,2,2,2,1,1,1
+Other amino synthesis,link,2,2,2,1,1,1
+other glutamine cons pathways,link,2,2,2,1,1,1
+pyrimidine synthesis pathway,link,2,2,2,1,1,1
+arginine biosynthesis pathway,link,2,2,2,1,1,1
+Lactate synthase,link,2,2,2,1,1,1
+Cytochrome oxidase,link,2,2,2,1,1,1
+ATP synthase,link,2,2,2,1,1,1
+Citrate outflux,link,2,2,2,1,1,1
+Malate outflux,link,2,2,2,1,1,1
+Citrate influx,link,2,2,2,1,1,1
