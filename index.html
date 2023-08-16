@@ -3,20 +3,16 @@
 	<!--
 	This program is written by AYUSH MANDWAL
 	
-	This tool has MIT-open-access for public use.
+	For any further questions, please contact us at this email address: ayush.mandwal@ucalgary.ca
 
+	It is made available under a CC-BY-NC-ND 4.0 International license.
+	
 	Copyright 2021 AYUSH MANDWAL
-
-	Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-	The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 	-->
 	
 	
 	<head>
-		<link rel="stylesheet" href="Ex2.css"/>
+	<link rel="stylesheet" href="Ex2.css"/>
         <link type="text/css" href="dropdownmenu2.css" rel="stylesheet"/>
         <link rel="stylesheet" href="bootstrap.min.css" type="text/css"/>
         <link rel="stylesheet" href="bootstrap-multiselect.css" type="text/css"/>
@@ -630,7 +626,7 @@
 				<select id="repeat_nodes" multiple="multiple"></select>
 				<select id="show_names" multiple="multiple"></select>
 				<output id="para_slider_output">0</output>
-					<input type="range" min="0" max="4"  value="0" step="0.1" class="slider" id = "para_slider" oninput="d3.select('#para_slider_output').text(value)">
+					<input type="range" min="0" max="10"  value="0" step="0.1" class="slider" id = "para_slider" oninput="d3.select('#para_slider_output').text(value)">
 				<label>
 				<input  type="checkbox" class="tgl tgl-skewed" id="dataset" checked/>
 				<label class="tgl-btn" data-tg-off="Multiset data" data-tg-on="Singleset data" for="dataset" style="visibility:hidden"></label>
@@ -6977,7 +6973,7 @@
 						if(d3.select('#var_para').node().selectedOptions[0].value=="variation"){
 							d3.select(this).attr('min',0.1); 
 							d3.select(this).attr('value',1.0);
-							d3.select(this).attr('max',4.0);
+							d3.select(this).attr('max',10.0);
 							d3.select(this).attr('step',0.1);
 							scaling_val = this.value;
 						}
@@ -7201,7 +7197,7 @@
 												}
 											});
 											for(let j=0; j<time_data.length; j++){
-												n[time_data[j].value] = Math.log2(n[time_data[j].value]/n2[0][time_data[j].value])*scaling_val*1.0 + base_val*1.0
+												n[time_data[j].value] = Math.log2(n[time_data[j].value]/n2[0][time_data[j].value])*scaling_val*1.0 + 2.0//base_val*1.0
 												if((n[time_data[j].value])>20.0){
 													n[time_data[j].value] = 20.0
 												}
@@ -7275,10 +7271,10 @@
 											});
 											for(let j=0; j<time_data.length; j++){
 												if(n[time_data[j].value]/n2[0][time_data[j].value]>1.0){
-													n[time_data[j].value] = (n[time_data[j].value]/n2[0][time_data[j].value])*scaling_val*1.0 + base_val*1.0
+													n[time_data[j].value] = (n[time_data[j].value]/n2[0][time_data[j].value])*scaling_val*1.0 + 2.0 //base_val*1.0
 												}
 												else{
-													n[time_data[j].value] = (n2[0][time_data[j].value]/n[time_data[j].value])*scaling_val*1.0 + base_val*1.0
+													n[time_data[j].value] = (n2[0][time_data[j].value]/n[time_data[j].value])*scaling_val*1.0 + 2.0 //base_val*1.0
 												}
 												if((n[time_data[j].value])>20.0){
 													n[time_data[j].value] = 20.0
