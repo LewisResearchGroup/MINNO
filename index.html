@@ -628,10 +628,12 @@
 				<output id="para_slider_output">0</output>
 					<input type="range" min="0" max="10"  value="0" step="0.1" class="slider" id = "para_slider" oninput="d3.select('#para_slider_output').text(value)">
 				<label>
+				<!--	
 				<input  type="checkbox" class="tgl tgl-skewed" id="dataset" checked/>
 				<label class="tgl-btn" data-tg-off="Multiset data" data-tg-on="Singleset data" for="dataset" style="visibility:hidden"></label>
 				<input  type="checkbox" class="tgl tgl-skewed" id="settings" checked/>
 				<label class="tgl-btn" data-tg-off="Conserve style" data-tg-on="Default style" for="settings" style="visibility:hidden"></label>	
+				-->	
 				<select id="data_analysis"></select>
 				<select id="var_para"></select>
 				</label>
@@ -930,6 +932,10 @@
 	var brushing = false;    
 	
 	var shiftKey;
+
+	var dataset = true;
+
+	var settings = true;	
 	
 	var bodyd3keyup = d3.select("body").on('keyup', keyup);
 	
@@ -1562,7 +1568,7 @@
 				{'label': 'Sinebow', value: 'Sinebow'}]}]
 						
 			on_bigg_models_changed = function(){
-				d3.select("#settings").property("checked", true)
+				settings = true;
 				var value = d3.select('#BiGG_models').node().selectedOptions[0].value;
 						
 				const logFileText = async file => {
@@ -1686,7 +1692,7 @@
 					selected_options1.push(ref1[i]);
 				};
 				
-				d3.select("#settings").property("checked", false)
+				settings = false;
 				
 				let pathways = [];
 				let organisms = [];
@@ -1807,7 +1813,7 @@
 					selected_options1.push(ref1[i]);
 				};
 				
-				d3.select("#settings").property("checked", false)
+				settings = false;
 				
 				let pathways = [];
 				let organisms = [];
@@ -3129,7 +3135,7 @@
 			
 			var on_changed = function() {
 				//console.log("this is ok")
-				if(d3.select("#dataset").property("checked")==false){
+				if(dataset==false){
 					let finalupjsonobj_temp = {nodes:[], links:[], boxes:[], labels: [], images: []};
 					
 					Mainfunction(finalupjsonobj_temp);
@@ -3625,7 +3631,7 @@
 			var scaling_val = 1.0;
 			
 			var on_gpdata_changed = function(){
-				if(d3.select("#dataset").property("checked")==true){
+				if(dataset==true){
 					let ele_values = [];
 					let ref = d3.select('#data_group').node().selectedOptions;
 					for (let i = 0; i < ref.length; i++) {
@@ -3658,7 +3664,7 @@
 			}); 
 			
 			var on_abdata_changed = function(){
-				if(d3.select("#dataset").property("checked")==true){
+				if(dataset==true){
 					let ele_values = [];
 					let ref = d3.select('#ab_data').node().selectedOptions;
 					for (let i = 0; i < ref.length; i++) {
@@ -3691,7 +3697,7 @@
 			});
 			
 			var on_timedata_changed = function(){
-				if(d3.select("#dataset").property("checked")==true){
+				if(dataset==true){
 					let ele_values = [];
 					let ref = d3.select('#time_data').node().selectedOptions;
 					for (let i = 0; i < ref.length; i++) {
@@ -3868,7 +3874,7 @@
 			//	console.log("Gval",Gval)
 				//console.log("Abval",Abval)
 				//console.log("cdata_updated",cdata)
-				d3.select("#settings").property("checked", false)
+				settings = false;
 				
 				if(Gval!="None" && Abval!="None"){
 					var arr_n = cdata[Gval][Abval]["nodes"]
@@ -3983,7 +3989,7 @@
 				});	
 				//console.log(actualdata.links)
 				
-				if(d3.select("#dataset").property("checked")==true){
+				if(dataset==true){
 					Mainfunction(actualdata);
 				}
 				else{
@@ -3992,7 +3998,7 @@
 			};
 			
 			function Multi_updateNet(cdata,Abval,Gval,t){
-				d3.select("#settings").property("checked", false)
+				settings = false;
 				for(let i=0; i<Gval.length;i++){
 					for(let j=0; j<Abval.length; j++){
 						
@@ -5194,7 +5200,7 @@
 						.append("path")
 						.attr("d", "M 0 0 L 5 5 L 0 10 z")
 						.attr("fill",function(d){
-							if (d3.select("#settings").property("checked")){
+							if (settings){
 								return "black"
 							}
 							else{
@@ -5224,7 +5230,7 @@
 						.attr("d", "M 0 5 L 5 0 L 5 10 z")
 						//.attr("d", "M -2 5 L 8 0 L 8 10 z")
 						.attr("fill",function(d){
-							if (d3.select("#settings").property("checked")){
+							if (settings){
 								return "black"
 							}
 							else{
@@ -5284,13 +5290,13 @@
 								}
 							})
 							.attr("stroke", function(d){ 
-								if(d3.select("#settings").property("checked"))
+								if(settings)
 									return "black"
 								else
 									return d.stroke
 							})
 							.attr("stroke-width", function(d){
-								if (d3.select("#settings").property("checked")){
+								if (settings){
 									return 2.0
 								}
 								else{
@@ -5298,7 +5304,7 @@
 								}
 							})
 							.attr("opacity", function(d){
-								if(d.opacity==undefined || d3.select("#settings").property("checked"))
+								if(d.opacity==undefined || settings)
 									return 1.0
 								else
 									return d.opacity
@@ -5347,7 +5353,7 @@
 							.attr("stroke", "#000000")
 							.attr("stroke-width", '2px')
 							.attr("r", function(d){
-								if (d3.select("#settings").property("checked")||d.r==undefined||isNaN(d.r)){
+								if (settings||d.r==undefined||isNaN(d.r)){
 									return 8.0
 								}
 								else{									
@@ -5375,7 +5381,7 @@
 							})
 							.attr("fill", function(d,i){
 								var nval = 8.0
-								if(d3.select("#settings").property("checked")){
+								if(settings){
 									if(d.type=="M" || d.type!="R")
 										return "white"
 									else if(d.type=="R")
@@ -5386,7 +5392,7 @@
 								}
 							})
 							.attr("opacity", function(d){
-								if(d.opacity==undefined || d3.select("#settings").property("checked"))
+								if(d.opacity==undefined || settings)
 									return 1.0
 								else
 									return d.opacity
@@ -5568,7 +5574,7 @@
 									return val
 								})
 								.attr("dx", function(d){
-									if (d3.select("#settings").property("checked")){
+									if (settings){
 										if(d.dx==undefined)
 											return 10.0
 										else
@@ -5578,7 +5584,7 @@
 										return d.dx
 								})
 								.attr("dy", function(d){
-									if (d3.select("#settings").property("checked")){
+									if (settings){
 										if(d.dy==undefined)
 											return 10.0
 										else
@@ -6778,7 +6784,7 @@
 							});
 						}
 						else if(ref[0].value=="stroke-width"){
-							d3.select("#settings").property("checked",false)
+							settings = false;
 							if(parseFloat(document.getElementById("input3").value)<0.0)
 								document.getElementById("input3").value = 0.0
 							if(parseFloat(document.getElementById("input4").value)<0.0)
@@ -6806,7 +6812,7 @@
 							});
 						}
 						else if(ref[0].value=="size"){
-							d3.select("#settings").property("checked", false)
+							settings = false;
 							if(parseFloat(document.getElementById("input3").value)<0.0)
 								document.getElementById("input3").value = 0.0
 							if(parseFloat(document.getElementById("input4").value)<0.0)
@@ -6861,7 +6867,7 @@
 							});
 						}
 						else if(ref[0].value=="l-stroke-width"){
-							d3.select("#settings").property("checked",false)
+							settings = false;
 							if(parseFloat(document.getElementById("input3").value)<0.0)
 								document.getElementById("input3").value = 0.0
 							if(parseFloat(document.getElementById("input4").value)<0.0)
@@ -7674,7 +7680,7 @@
 					else{
 						alert("Your datafile is not in correct format! \n\n Only CSV or JSON formats!")
 					}
-					
+					/*
 					d3.select("#dataset").on("change", function() {
 						if(d3.select(this).property("checked")==true){
 							$('#ab_data').removeAttr('multiple');
@@ -7708,6 +7714,7 @@
 							//$('#list_menu').multiselect('rebuild');
 						}
 					});
+					*/
 					
 				}
 				else{
@@ -8039,7 +8046,7 @@
 			}
 			
 			function upload_files(filelist, total_generic_files, filenames){
-				d3.select("#settings").property("checked", false)
+				settings = false;
 				//console.log('filelist',filelist)
 				//filenames.sort();
 				var generic_file_counted = 0,
@@ -8112,7 +8119,7 @@
 										
 										if(fileidx==filenames.length-1){
 											jsonObj_generic["nodes"].forEach(function(d){
-												if(!d3.select("#settings").property("checked")){
+												if(!settings){
 													if(get_ids.length==0)
 														d.opacity = 1.0
 													else{
@@ -8138,7 +8145,7 @@
 											})
 											
 											jsonObj_generic["links"].forEach(function(d){
-												if(!d3.select("#settings").property("checked")){
+												if(!settings){
 													if(get_ids.length==0)
 														d.opacity = 1.0
 													else{
