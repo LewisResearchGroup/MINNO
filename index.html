@@ -539,6 +539,29 @@
             -webkit-animation: load8 1.1s infinite linear;
             animation: load8 1.1s infinite linear;
         }
+
+	.species_loader1,
+        .species_loader1:after {
+            border-radius: 20%;
+            width: 4em;
+            height: 4em;
+        }
+        .species_loader1 {  
+			margin: 20px auto;
+            font-size: 10px;
+            position: relative;
+            text-indent: -9em;
+            border-top: 1.1em solid rgba(0, 0, 0, 0.2);
+            border-right: 1.1em solid rgba(0, 0, 0, 0.2);
+            border-bottom: 1.1em solid rgba(0, 0, 0, 0.2);
+            border-left: 1.1em solid #000000;
+            -webkit-transform: translateZ(0);
+            -ms-transform: translateZ(0);
+            transform: translateZ(0);
+            -webkit-animation: load8 1.1s infinite linear;
+            animation: load8 1.1s infinite linear;
+        }
+		
         @-webkit-keyframes load8 {
             0% {
                 -webkit-transform: rotate(0deg);
@@ -568,17 +591,57 @@
             opacity: 0.85;
             background-color:#FFFFFF;
         }
-		h1 {text-align: center;
-			color:black;
-			font-size:30;
-			}
-		
-		.center1 {
-		  display: block;
-		  margin-left: auto;
-		  margin-right: auto;
-		  width: 70%;
+	h1 {text-align: center;
+		color:black;
+		font-size:30;
 		}
+	
+	.center1 {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 70%;
+	}
+
+	.btn_div_container {
+		margin-top: 50px;
+		display: flex;
+		justify-content: center;
+		/*
+		align-items: center;
+		*/
+		height: 7vh; /* Adjust the height as needed */
+	}
+	
+	.default-btn {
+		margin: 0 10px;
+		background-color: #ffffff;
+		color: #000;
+		display: inline-block;
+		padding: 10px 20px;
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		cursor: pointer;
+		border-radius: 5px;
+		transition: background-color 0.3s ease;
+	}
+
+	/* Hover effect */
+		.default-btn:hover {
+		background-color: #2980b9;
+	}
+
+	.dropmenu_div_container {
+		margin-top: 50px;
+		display: flex;
+		justify-content: center;
+		/*
+		align-items: center;
+		*/
+		height: 7vh; /* Adjust the height as needed */
+	}
 
 		
     </style>
@@ -877,6 +940,7 @@
         -->
         
         <script>
+		
 		$('body').append('<div style="" id="loadingDiv1"> <h1></h1> <img class="center1" src="MINNO Logo LRG_centered.svg" alt="logo" width="228" height="228"> <h1> Metabolic Interactive Nodular Network for Omics </h1> <h1>Loading files...</h1> <a href="help.html"  target="_blank"> <h1> Click here for User Manual of this tool... </h1> </a>  <div class="loader1">Loading...</div></div>');
 
 		$(window).on('load', function(){
@@ -889,6 +953,105 @@
 			  $( "#loadingDiv1" ).remove(); //makes page more lightweight 
 		  });  
 		}
+
+		var url  = 'https://ftp.ncbi.nlm.nih.gov/genomes/refseq/archaea/Acidianus_ambivalens/representative/GCF_009729015.1_ASM972901v1/GCF_009729015.1_ASM972901v1_genomic.gff.gz'
+			
+		fetch(url)  // Replace 'file.gz' with the actual path to your Gzip file
+		  .then(response => {
+			if (!response.ok) {
+			  throw new Error('Network response was not ok.');
+			}
+			return response.body;  // Get the response body as a ReadableStream
+		  })
+		  .then(stream => {
+			const decompressionStream = new DecompressionStream('gzip');
+			const readableStream = stream.pipeThrough(decompressionStream);
+
+			const reader = readableStream.getReader();
+			const decoder = new TextDecoder('utf-8');
+			let result = '';
+
+			function read() {
+			  reader.read().then(({ done, value }) => {
+				if (done) {
+					
+					// Split the content into lines
+					const lines = result.split('\n');
+					
+					// Initialize an object to store key-value pairs
+					const keyValuePairs = {};
+					
+					const nlines = lines.length;
+					
+					var genes_list = [];
+					
+					lines.slice(10,nlines).forEach(function(line){
+						var elems = line.split('\t');
+						if (elems.length > 8) {
+							var subElems = elems[8].split(';');
+							subElems.forEach(function (v) {
+								if (v.indexOf('Name') == 0 && v.indexOf('WP') == -1 && v.indexOf('RS') == -1) {
+									genes_list.push(v.slice(5));
+								}
+							});
+						}
+					});
+					
+					console.log(genes_list)
+					
+					let str = "Hello, World!";
+					let position = str.indexOf('old');
+					console.log("Position of 'old':", position);
+
+					//lines.forEach(line => {
+					//	const [key, value] = line.split('\t'); // Adjust the delimiter as per your file format
+					//	keyValuePairs[key.trim()] = value.trim(); // Store key-value pairs in the object
+					//});
+					
+					// Convert the key-value object to JSON format
+					//const jsonContent = JSON.stringify(keyValuePairs, null, 2);
+					//console.log(jsonContent)
+					
+				  //console.log('Decompressed content:', result);
+				} else {
+				  result += decoder.decode(value, { stream: true });
+				  read();
+				}
+			  });
+			}
+
+			read();
+		  })
+		  .catch(error => {
+			console.error('There was a problem with the fetch operation:', error);
+		  });
+		
+		var url2 = 'https://ftp.ncbi.nlm.nih.gov/genomes/refseq/archaea/'
+		
+		fetch(url2)
+		  .then(response => response.text())
+		  .then(html => {
+			// Create a temporary container to parse the HTML
+			const container = document.createElement('div');
+			container.innerHTML = html;
+
+			// Get all anchor tags (hyperlinks)
+			const links = container.querySelectorAll('a');
+
+			// Loop through each link and print its href attribute
+			links.forEach(link => {
+				let linkarr = link.href.split('/');
+				let lastele = linkarr.pop();
+				let seclastele = linkarr.pop();
+				//console.log(link.href.split('/').slice(-2));
+				//console.log(seclastele);
+			});
+		  })
+		  .catch(error => console.error('Error fetching data:', error));
+		
+		console.log(url2)
+
+		
 	</script>
         
         <script>            
