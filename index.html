@@ -997,7 +997,7 @@
 				$( "#loadingDiv1" ).remove(); //makes page more lightweight   
 			    });	
 			    
-			    $('body').append('<div style="" id="loadingDiv2"> <div class="btn_div_container"> <button class="default-btn" onclick="anotherdivremoveloader()">Remove Div</button> <button class="default-btn" onclick="addanotherdivloader1()">Tutorial</button> <button class="default-btn" onclick="addanotherdivloader2()">Load networks files</button> <button class="default-btn" onclick="addanotherdivloader3()">Build network files</button> </div> <h1 id="species_loading_h1_id" style="display: none;"> Please wait! List of species is being loaded. </h1> <div id="speciesloadingIcon" class="species_loader1" style="display: none;"> </div> <div class="dropmenu_div_container" id="dropmenu_species_div_container_id1" style="display: none;"> <select id="drop_menu_1"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id2" style="display: none;"> <input type="file" id="networkfileInput" multiple/> <input type="file" id="meta_file2"/> <select id="KEGG_orth_models" multiple="multiple"></select> </div> <div id="myDiv_tutorial"></div> <div id="myDiv_loadfiles"> <div id="loadfilediv1"><div id="fileNameDisplay1"></div></div> <div id="loadfilediv2"><div id="fileNameDisplay2"></div></div> <div id="loadfilediv3"></div> </div> <div id="myDiv_buildnet"></div>');
+			    $('body').append('<div style="" id="loadingDiv2"> <div class="btn_div_container"> <button class="default-btn" onclick="anotherdivremoveloader()">Remove Div</button> <button class="default-btn" onclick="addanotherdivloader1()">Tutorial</button> <button class="default-btn" onclick="addanotherdivloader2()">Load files</button> <button class="default-btn" onclick="addanotherdivloader3()">Build network</button> </div> <h1 id="species_loading_h1_id" style="display: none;"> Please wait! List of species is being loaded. </h1> <div id="speciesloadingIcon" class="species_loader1" style="display: none;"> </div> <div class="dropmenu_div_container" id="dropmenu_species_div_container_id1" style="display: none;"> <select id="drop_menu_1"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id2" style="display: none;"> <input type="file" id="networkfileInput" multiple/> <input type="file" id="meta_file2"/> <select id="KEGG_orth_models" multiple="multiple"></select> </div> <div id="myDiv_tutorial"></div> <div id="myDiv_loadfiles"> <div id="loadfilediv1"><div id="fileNameDisplay1"></div></div> <div id="loadfilediv2"><div id="fileNameDisplay2"></div></div> <div id="loadfilediv3"></div> </div> <div id="myDiv_buildnet"></div>');
 			    
 				d3.select("#fileInput").on("change", function(){
 				// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
@@ -2466,9 +2466,28 @@
 				
 				function secondFunction_tutorial() {
 					return new Promise(resolve => {
-						setTimeout(() => {
+					setTimeout(() => {
+
+					const logFileText3 = async file => {
+						var KEGG_models = [];
+						const response = await fetch(file)
+						const text = await response.text()
+						var childNodes = [];
+						//childNodes.push({'label':'Organism specific list of pathways','value':'org_pathway_lst'})
+						text.split("\n").forEach(function(str){
+							let list = str.split(".json")
+							childNodes.push({'label':list[0],'value':list[0]})
+						});
+						KEGG_models.push({'label':'Selected ortholog maps','children':childNodes})
+						//console.log('KEGG_models',KEGG_models)
+						$('#KEGG_orth_models').multiselect('dataprovider', KEGG_models); 
+						//console.log("KEGG_models",KEGG_models)
 						
-						var on_species_changed = function(){
+					}
+					
+					logFileText3('Edited_ortholog_networks/ortholog_pathway_list.txt')
+					
+					var on_species_changed = function(){
 						var value = d3.select('#drop_menu_1').node().selectedOptions[0].value;
 						
 						var species = value.concat('/')
@@ -2484,27 +2503,26 @@
 						// Create a temporary container to parse the HTML
 						const container = document.createElement('div');
 						container.innerHTML = html;
-
+	
 						// Get all anchor tags (hyperlinks)
 						const links = container.querySelectorAll('a');
-
+	
 						// Loop through each link and print its href attribute
-
+	
 						//links.forEach(function(link,i){
 							let linkarr = links[1].href.split('/');
 							let lastele = linkarr.pop();
 							let seclastele = linkarr.pop();
-
+	
 							//if (i>0 && i<links.length-1){
 								console.log(seclastele)
 								var mod_url = url.concat(seclastele).concat('/').concat(seclastele).concat('_genomic.gff.gz')
 								ncbi_gene_annotation_url(mod_url)
 							//}
 						//});
-
+	
 						})
 						.catch(error => console.error('Error fetching data:', error));
-							
 					}	
 							
 					var on_KEGG_orth_models_changed = function(){
@@ -2513,51 +2531,50 @@
 					}			
 					
 					$('#drop_menu_1').multiselect({
-									buttonWidth: '300px',
-									multiple: false,
-									maxHeight: 250,
-									enableClickableOptGroups: true,
-									enableCollapsibleOptGroups: true,
-									collapseOptGroupsByDefault: true,
-									enableFiltering: true,
-									enableCaseInsensitiveFiltering: false,
-									filterPlaceholder: 'Cerca',
-									includeSelectAllOption: false,
-									selectAllJustVisible: false,
-									selectAllText: 'Select All',
-									nSelectedText: ' selected',
-									allSelectedText: 'All selected',
-									nonSelectedText: 'Select Species',
-									onChange: on_species_changed,
-									onSelectAll: on_species_changed,
-									onDeselectAll: on_species_changed
-								});
+						buttonWidth: '300px',
+						multiple: false,
+						maxHeight: 250,
+						enableClickableOptGroups: true,
+						enableCollapsibleOptGroups: true,
+						collapseOptGroupsByDefault: true,
+						enableFiltering: true,
+						enableCaseInsensitiveFiltering: false,
+						filterPlaceholder: 'Cerca',
+						includeSelectAllOption: false,
+						selectAllJustVisible: false,
+						selectAllText: 'Select All',
+						nSelectedText: ' selected',
+						allSelectedText: 'All selected',
+						nonSelectedText: 'Select Species',
+						onChange: on_species_changed,
+						onSelectAll: on_species_changed,
+						onDeselectAll: on_species_changed
+					});
 								
 					$('#KEGG_orth_models').multiselect({
-									buttonWidth: '300px',
-									multiple: true,
-									maxHeight: 250,
-									enableClickableOptGroups: true,
-									enableCollapsibleOptGroups: true,
-									collapseOptGroupsByDefault: true,
-									enableFiltering: true,
-									enableCaseInsensitiveFiltering: false,
-									filterPlaceholder: 'Cerca',
-									includeSelectAllOption: false,
-									selectAllJustVisible: false,
-									selectAllText: 'Select All',
-									nSelectedText: ' selected',
-									allSelectedText: 'All selected',
-									nonSelectedText: 'Select Pathways',
-									onChange: on_KEGG_orth_models_changed,
-									onSelectAll: on_KEGG_orth_models_changed,
-									onDeselectAll: on_KEGG_orth_models_changed
-								});
+						buttonWidth: '300px',
+						multiple: true,
+						maxHeight: 250,
+						enableClickableOptGroups: true,
+						enableCollapsibleOptGroups: true,
+						collapseOptGroupsByDefault: true,
+						enableFiltering: true,
+						enableCaseInsensitiveFiltering: false,
+						filterPlaceholder: 'Cerca',
+						includeSelectAllOption: false,
+						selectAllJustVisible: false,
+						selectAllText: 'Select All',
+						nSelectedText: ' selected',
+						allSelectedText: 'All selected',
+						nonSelectedText: 'Select Pathways',
+						onChange: on_KEGG_orth_models_changed,
+						onSelectAll: on_KEGG_orth_models_changed,
+						onDeselectAll: on_KEGG_orth_models_changed
+					});
 				
-						
-						console.log('Third function');
-						resolve();
-						}, 100); // Simulating an asynchronous operation with a timeout
+					console.log('Third function');
+					resolve();
+					}, 100); // Simulating an asynchronous operation with a timeout
 					});
 				}
 			
