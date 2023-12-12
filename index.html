@@ -999,7 +999,7 @@
 			$( "#loadingDiv1" ).remove(); //makes page more lightweight   
 		    });	
 		    
-		    $('body').append('<div style="" id="loadingDiv2"> <div class="btn_div_container"> <button class="default-btn" onclick="anotherdivremoveloader()">Remove Div</button> <button class="default-btn" onclick="addanotherdivloader1()">Tutorial</button> <button class="default-btn" onclick="addanotherdivloader2()">Load files</button> <button class="default-btn" onclick="addanotherdivloader3()">Build network</button> </div> <h1 id="species_loading_h1_id" style="display: none;"> Please wait! List of species is being loaded. </h1> <div id="speciesloadingIcon" class="species_loader1" style="display: none;"> </div> <div class="dropmenu_div_container" id="dropmenu_species_div_container_id1" style="display: none;"> <select id="drop_menu_1"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id2" style="display: none;"> <input type="file" id="networkfileInput" multiple/> <input type="file" id="meta_file2"/> <select id="KEGG_orth_models" multiple="multiple"></select> </div> <div id="myDiv_tutorial"></div> <div id="myDiv_loadfiles"> <div id="loadfilediv1"><div id="fileNameDisplay1"></div></div> <div id="loadfilediv2"><div id="fileNameDisplay2"></div></div> <div id="loadfilediv3"></div> </div> <div id="myDiv_buildnet"></div>');
+		    <div style="" id="loadingDiv2"> <div class="btn_div_container"> <button class="default-btn" onclick="anotherdivremoveloader()">Remove Div</button> <button class="default-btn" onclick="addanotherdivloader1()">Tutorial</button> <button class="default-btn" onclick="addanotherdivloader2()">Load networks files</button> <button class="default-btn" onclick="addanotherdivloader3()">Build network files</button> </div> <h1 id="species_loading_h1_id" style="display: none;"> Please wait! List of species is being loaded. </h1> <div id="speciesloadingIcon" class="species_loader1" style="display: none;"> </div> <div class="dropmenu_div_container" id="dropmenu_species_div_container_id1" style="display: none;"> <select id="drop_menu_1"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id2" style="display: none;"> <input type="file" id="networkfileInput" multiple style="display: none;" /> <input type="file" id="meta_file2" style="display: none;"/> <select id="KEGG_orth_models" multiple="multiple"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id3" style="display: none;"> <div id="datafilename1"></div> </div> <div id="myDiv_tutorial"></div> <div id="myDiv_loadfiles"> <div id="loadfilediv1"><div id="fileNameDisplay1"></div></div> <div id="loadfilediv2"><div id="fileNameDisplay2"></div></div> <div id="loadfilediv3"></div> </div> <div id="myDiv_buildnet"></div>
 		    
 			d3.select("#fileInput").on("change", function(){
 			// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
@@ -2349,320 +2349,400 @@
 		function addanotherdivloader3(){
 			
 			var ncbi_category = "undefined"
-			
-			function addButtonToDiv() {
 				
-				var container = document.getElementById('loadingDiv2');
-				var myDiv = document.getElementById('myDiv_buildnet');
-				
-				console.log('myDiv',myDiv)
-				//var myDiv = document.createElement('div');
-				var button1 = document.createElement('button');
-				var button2 = document.createElement('button');
-				var button3 = document.createElement('button');
-				
-				//var myDiv = document.getElementById('myDiv_loadfiles');	
-				myDiv.classList.add('btn_div_container');
-				
-				//myDiv.classList.add('solid_back');
-				myDiv.style.zIndex = 2;
-				myDiv.style.position = 'absolute';
-				myDiv.style.width = '100%';
-				//myDiv.style.height = '100%';
-				myDiv.style.top = '0px';
-				myDiv.style.left = '0px';
-				myDiv.style.backgroundColor = 'rgba(255, 255, 255, 1.0)';
-				//myDiv.style.width = '100%';
-				//myDiv.style.height = '100%';
-				//myDiv.style.top = '0px';
-				//myDiv.style.left = '0px';
-				
-				
-				function read_url_ncbi_species(value){
+				function addTopButtonsToDiv() {
 					
-					var value1 = value.concat('/')
+					var container = document.getElementById('loadingDiv2');
+					var myDiv = document.getElementById('myDiv_buildnet');
 					
-					var url = prefix_url.concat(value1)
-					//console.log(url)
+					console.log('myDiv',myDiv)
+					//var myDiv = document.createElement('div');
+					var button1 = document.createElement('button');
+					var button2 = document.createElement('button');
+					var button3 = document.createElement('button');
 					
-					//var url = 'https://ftp.ncbi.nlm.nih.gov/genomes/refseq/archaea/'
-
-					fetch(url)
-						.then(response => response.text())
-						.then(html => {
-					// Create a temporary container to parse the HTML
-					const container = document.createElement('div');
-					container.innerHTML = html;
-
-					// Get all anchor tags (hyperlinks)
-					const links = container.querySelectorAll('a');
-					// Loop through each link and print its href attribute
-
-					var drop_menu_1_data = []
-					drop_menu_1_data.push({'label':'Select Species','value':'Select Species'})
+					//var myDiv = document.getElementById('myDiv_loadfiles');	
+					myDiv.classList.add('btn_div_container');
 					
-					var nlinks = links.length;
+					//myDiv.classList.add('solid_back');
+					myDiv.style.zIndex = 2;
+					myDiv.style.position = 'absolute';
+					myDiv.style.width = '100%';
+					//myDiv.style.height = '100%';
+					myDiv.style.top = '0px';
+					myDiv.style.left = '0px';
+					myDiv.style.backgroundColor = 'rgba(255, 255, 255, 1.0)';
+					//myDiv.style.width = '100%';
+					//myDiv.style.height = '100%';
+					//myDiv.style.top = '0px';
+					//myDiv.style.left = '0px';
 					
-					links.forEach(function(link,i){
-						let linkarr = link.href.split('/');
-						let lastele = linkarr.pop();
-						let seclastele = linkarr.pop();
+					
+					function read_url_ncbi_species(value){
 						
-						if (i>0 && i<links.length-4){
-							drop_menu_1_data.push({'label':seclastele,'value':seclastele})
-						}
-					});
+						var value1 = value.concat('/')
+						
+						var url = prefix_url.concat(value1)
+						//console.log(url)
+						
+						//var url = 'https://ftp.ncbi.nlm.nih.gov/genomes/refseq/archaea/'
 
-					$('#drop_menu_1').multiselect('dataprovider', drop_menu_1_data);
+						fetch(url)
+							.then(response => response.text())
+							.then(html => {
+						// Create a temporary container to parse the HTML
+						const container = document.createElement('div');
+						container.innerHTML = html;
 
-					})
-					.catch(error => console.error('Error fetching data:', error));
-				}		
-				
-				function ncbi_button_action(ncbi_btn){
-					// Retrieve the button's value and log it to the console
-					var buttonValue = ncbi_btn.value;
-					read_url_ncbi_species(buttonValue);
-					//console.log('Button value:', buttonValue);
-				  
-					var hiddenDiv1 = document.getElementById('speciesloadingIcon');
-					hiddenDiv1.style.display = 'block';
-					var hiddenDiv2 = document.getElementById('species_loading_h1_id');
-					hiddenDiv2.style.display = 'block';
-					ncbi_category = buttonValue
+						// Get all anchor tags (hyperlinks)
+						const links = container.querySelectorAll('a');
+						// Loop through each link and print its href attribute
+
+						var drop_menu_1_data = []
+						drop_menu_1_data.push({'label':'Select Species','value':'Select Species'})
+						
+						var nlinks = links.length;
+						
+						links.forEach(function(link,i){
+							let linkarr = link.href.split('/');
+							let lastele = linkarr.pop();
+							let seclastele = linkarr.pop();
+							
+							if (i>0 && i<links.length-4){
+								drop_menu_1_data.push({'label':seclastele,'value':seclastele})
+							}
+						});
+
+						$('#drop_menu_1').multiselect('dataprovider', drop_menu_1_data);
+
+						})
+						.catch(error => console.error('Error fetching data:', error));
+					}		
 					
-				}
-				
-				function hideLoadingIcon() {
-					var loadingIcon = document.getElementById("speciesloadingIcon");
-					var loadingIcon2 = document.getElementById("species_loading_h1_id");
-					loadingIcon.style.display = 'none';
-					loadingIcon2.style.display = 'none';
+					function ncbi_button_action(ncbi_btn){
+						// Retrieve the button's value and log it to the console
+						var buttonValue = ncbi_btn.value;
+						read_url_ncbi_species(buttonValue);
+						//console.log('Button value:', buttonValue);
+					  
+						var hiddenDiv1 = document.getElementById('speciesloadingIcon');
+						hiddenDiv1.style.display = 'block';
+						var hiddenDiv2 = document.getElementById('species_loading_h1_id');
+						hiddenDiv2.style.display = 'block';
+						ncbi_category = buttonValue
+						
+					}
 					
-					var hiddenDiv1 = document.getElementById('dropmenu_species_div_container_id1');
-					hiddenDiv1.style.display = 'flex';
-					var hiddenDiv1 = document.getElementById('dropmenu_pathways_div_container_id2');
-					hiddenDiv1.style.display = 'flex';
-				}
+					function hideLoadingIcon() {
+						var loadingIcon = document.getElementById("speciesloadingIcon");
+						var loadingIcon2 = document.getElementById("species_loading_h1_id");
+						loadingIcon.style.display = 'none';
+						loadingIcon2.style.display = 'none';
+						
+						var hiddenDiv1 = document.getElementById('dropmenu_species_div_container_id1');
+						hiddenDiv1.style.display = 'flex';
+						var hiddenDiv1 = document.getElementById('dropmenu_pathways_div_container_id2');
+						hiddenDiv1.style.display = 'flex';
+						var hiddenDiv1 = document.getElementById('dropmenu_pathways_div_container_id3');
+						hiddenDiv1.style.display = 'flex';
+					}
 
-				function firstFunction123() {
+					function firstFunction123() {
+							return new Promise(resolve => {
+								setTimeout(() => {
+								
+								//myDiv.id = 'myDiv_tutorial';
+								//myDiv.classList.add('solid_back');
+								// Create a button element
+								
+								//console.log('button',button)
+								// Set button text and attributes
+								
+								button1.textContent = 'Archaea';
+								button1.classList.add('default-btn');
+								button1.id = 'Archaea'; // Set a specific ID for the button if needed
+								button1.value = 'archaea'; // Set a specific ID for the button if needed
+								button1.addEventListener('click', function() {									
+									let ncbi_btn1 = document.getElementById('Archaea');
+									ncbi_button_action(ncbi_btn1);
+									console.log('ncbi_btn1',ncbi_btn1)
+									// Set a timeout (e.g., 3000 milliseconds) to hide the loading icon
+									setTimeout(hideLoadingIcon, 15000); // Adjust the duration as needed
+								});
+								
+								button2.textContent = 'Bacteria';
+								button2.classList.add('default-btn');
+								button2.id = 'Bacteria'; // Set a specific ID for the button if needed
+								button2.value = 'bacteria'; // Set a specific ID for the button if needed
+								button2.addEventListener('click', function() {
+									let ncbi_btn2 = document.getElementById('Bacteria');
+									ncbi_button_action(ncbi_btn2);
+									// Set a timeout (e.g., 3000 milliseconds) to hide the loading icon
+									setTimeout(hideLoadingIcon, 15000); // Adjust the duration as needed
+								});
+								
+								button3.textContent = 'Finish';
+								button3.classList.add('default-btn');
+								button3.id = 'myButton3_bldnet'; // Set a specific ID for the button if needed
+								button3.addEventListener('click', function() {
+									
+									$("#myDiv_loadfiles").fadeOut(500, function() {
+									  // fadeOut complete. Remove the loading div
+									$("#myDiv_loadfiles").remove(); //makes page more lightweight 
+									});
+									
+									$("#loadingDiv2").fadeOut(500, function() {
+									  // fadeOut complete. Remove the loading div
+									$("#loadingDiv2").remove(); //makes page more lightweight 
+									});
+									//alert('Button Clicked!');
+								});
+								
+								console.log('First function');
+								resolve();
+								}, 200); // Simulating an asynchronous operation with a timeout
+							});
+					}
+					
+					function secondFunction123(){
 						return new Promise(resolve => {
 							setTimeout(() => {
+							myDiv.appendChild(button1);
+							myDiv.appendChild(button2);
+							myDiv.appendChild(button3);
+							//container.appendChild(myDiv);
 							
-							//myDiv.id = 'myDiv_tutorial';
-							//myDiv.classList.add('solid_back');
-							// Create a button element
-							
-							//console.log('button',button)
-							// Set button text and attributes
-							
-							button1.textContent = 'Archaea';
-							button1.classList.add('default-btn');
-							button1.id = 'Archaea'; // Set a specific ID for the button if needed
-							button1.value = 'archaea'; // Set a specific ID for the button if needed
-							button1.addEventListener('click', function() {									
-								let ncbi_btn1 = document.getElementById('Archaea');
-								ncbi_button_action(ncbi_btn1);
-								console.log('ncbi_btn1',ncbi_btn1)
-								// Set a timeout (e.g., 3000 milliseconds) to hide the loading icon
-								setTimeout(hideLoadingIcon, 15000); // Adjust the duration as needed
-							});
-							
-							button2.textContent = 'Bacteria';
-							button2.classList.add('default-btn');
-							button2.id = 'Bacteria'; // Set a specific ID for the button if needed
-							button2.value = 'bacteria'; // Set a specific ID for the button if needed
-							button2.addEventListener('click', function() {
-								let ncbi_btn2 = document.getElementById('Bacteria');
-								ncbi_button_action(ncbi_btn2);
-								// Set a timeout (e.g., 3000 milliseconds) to hide the loading icon
-								setTimeout(hideLoadingIcon, 15000); // Adjust the duration as needed
-							});
-							
-							button3.textContent = 'Finish';
-							button3.classList.add('default-btn');
-							button3.id = 'myButton3_bldnet'; // Set a specific ID for the button if needed
-							button3.addEventListener('click', function() {
-								
-								$("#myDiv_loadfiles").fadeOut(500, function() {
-								  // fadeOut complete. Remove the loading div
-								$("#myDiv_loadfiles").remove(); //makes page more lightweight 
-								});
-								
-								$("#loadingDiv2").fadeOut(500, function() {
-								  // fadeOut complete. Remove the loading div
-								$("#loadingDiv2").remove(); //makes page more lightweight 
-								});
-								//alert('Button Clicked!');
-							});
-							
-							console.log('First function');
+							console.log('Second function');
 							resolve();
 							}, 200); // Simulating an asynchronous operation with a timeout
 						});
+					}
+					
+					//myDiv.textContent = 'This is a dynamically created div!';
+					async function callFunctionsInSequence123() {
+					await firstFunction123();
+					await secondFunction123();
+					}
+					// Call the async function
+					callFunctionsInSequence123();
 				}
 				
-				function secondFunction123(){
+				//addButtonToDiv();
+
+				function firstFunction_build() {
 					return new Promise(resolve => {
 						setTimeout(() => {
-						myDiv.appendChild(button1);
-						myDiv.appendChild(button2);
-						myDiv.appendChild(button3);
-						//container.appendChild(myDiv);
 						
-						console.log('Second function');
+						addTopButtonsToDiv();
+						
+						console.log('Third function');
 						resolve();
-						}, 200); // Simulating an asynchronous operation with a timeout
+						}, 100); // Simulating an asynchronous operation with a timeout
 					});
 				}
 				
-				//myDiv.textContent = 'This is a dynamically created div!';
-				async function callFunctionsInSequence123() {
-				await firstFunction123();
-				await secondFunction123();
-				}
-				// Call the async function
-				callFunctionsInSequence123();
-			}
-			
-			//addButtonToDiv();
-
-			function firstFunction_tutorial() {
-				return new Promise(resolve => {
-					setTimeout(() => {
-					
-					addButtonToDiv();
-					
-					console.log('Third function');
-					resolve();
-					}, 100); // Simulating an asynchronous operation with a timeout
-				});
-			}
-			
-			function secondFunction_tutorial() {
-				return new Promise(resolve => {
-				setTimeout(() => {
-
-				const logFileText3 = async file => {
-					var KEGG_models = [];
-					const response = await fetch(file)
-					const text = await response.text()
-					var childNodes = [];
-					//childNodes.push({'label':'Organism specific list of pathways','value':'org_pathway_lst'})
-					text.split("\n").forEach(function(str){
-						let list = str.split(".json")
-						childNodes.push({'label':list[0],'value':list[0]})
-					});
-					KEGG_models.push({'label':'Selected ortholog maps','children':childNodes})
-					//console.log('KEGG_models',KEGG_models)
-					$('#KEGG_orth_models').multiselect('dataprovider', KEGG_models); 
-					//console.log("KEGG_models",KEGG_models)
-					
-				}
-				
-				logFileText3('Edited_ortholog_networks/ortholog_pathway_list.txt')
-				
-				var on_species_changed = function(){
-					var value = d3.select('#drop_menu_1').node().selectedOptions[0].value;
-					
-					var species = value.concat('/')
-					var ncbi_cat = ncbi_category.concat('/')
-					console.log(value)
-					console.log(ncbi_category)
-					var url = prefix_url.concat(ncbi_cat).concat(species).concat('representative/')
-					console.log(url)
-					
-					fetch(url)
-						.then(response => response.text())
-						.then(html => {
-					// Create a temporary container to parse the HTML
-					const container = document.createElement('div');
-					container.innerHTML = html;
-
-					// Get all anchor tags (hyperlinks)
-					const links = container.querySelectorAll('a');
-
-					// Loop through each link and print its href attribute
-
-					//links.forEach(function(link,i){
-						let linkarr = links[1].href.split('/');
-						let lastele = linkarr.pop();
-						let seclastele = linkarr.pop();
-
-						//if (i>0 && i<links.length-1){
-							console.log(seclastele)
-							var mod_url = url.concat(seclastele).concat('/').concat(seclastele).concat('_genomic.gff.gz')
-							ncbi_gene_annotation_url(mod_url)
-						//}
-					//});
-
-					})
-					.catch(error => console.error('Error fetching data:', error));
-				}	
+				function secondFunction_build() {
+					return new Promise(resolve => {
+						setTimeout(() => {
 						
-				var on_KEGG_orth_models_changed = function(){
-					var value = d3.select('#KEGG_orth_models').node().selectedOptions[0].value;
-					console.log(value)				
-				}			
-				
-				$('#drop_menu_1').multiselect({
-					buttonWidth: '300px',
-					multiple: false,
-					maxHeight: 250,
-					enableClickableOptGroups: true,
-					enableCollapsibleOptGroups: true,
-					collapseOptGroupsByDefault: true,
-					enableFiltering: true,
-					enableCaseInsensitiveFiltering: false,
-					filterPlaceholder: 'Cerca',
-					includeSelectAllOption: false,
-					selectAllJustVisible: false,
-					selectAllText: 'Select All',
-					nSelectedText: ' selected',
-					allSelectedText: 'All selected',
-					nonSelectedText: 'Select Species',
-					onChange: on_species_changed,
-					onSelectAll: on_species_changed,
-					onDeselectAll: on_species_changed
-				});
-							
-				$('#KEGG_orth_models').multiselect({
-					buttonWidth: '300px',
-					multiple: true,
-					maxHeight: 250,
-					enableClickableOptGroups: true,
-					enableCollapsibleOptGroups: true,
-					collapseOptGroupsByDefault: true,
-					enableFiltering: true,
-					enableCaseInsensitiveFiltering: false,
-					filterPlaceholder: 'Cerca',
-					includeSelectAllOption: false,
-					selectAllJustVisible: false,
-					selectAllText: 'Select All',
-					nSelectedText: ' selected',
-					allSelectedText: 'All selected',
-					nonSelectedText: 'Select Pathways',
-					onChange: on_KEGG_orth_models_changed,
-					onSelectAll: on_KEGG_orth_models_changed,
-					onDeselectAll: on_KEGG_orth_models_changed
-				});
-			
-				console.log('Third function');
-				resolve();
-				}, 100); // Simulating an asynchronous operation with a timeout
-				});
-			}
-		
-			//myDiv.textContent = 'This is a dynamically created div!';
-			async function callFunctionsInSequence_tutorial() {
-			await firstFunction_tutorial();
-			await secondFunction_tutorial();
-			//await thirdFunction_tutorial();
-			console.log("Done")
-			}
+						var on_species_changed = function(){
+						var value = d3.select('#drop_menu_1').node().selectedOptions[0].value;
+						
+						var species = value.concat('/')
+						var ncbi_cat = ncbi_category.concat('/')
+						console.log(value)
+						console.log(ncbi_category)
+						var url = prefix_url.concat(ncbi_cat).concat(species).concat('representative/')
+						console.log(url)
+						
+						fetch(url)
+							.then(response => response.text())
+							.then(html => {
+						// Create a temporary container to parse the HTML
+						const container = document.createElement('div');
+						container.innerHTML = html;
 
-			// Call the async function
-			callFunctionsInSequence_tutorial();
+						// Get all anchor tags (hyperlinks)
+						const links = container.querySelectorAll('a');
+
+						// Loop through each link and print its href attribute
+
+						//links.forEach(function(link,i){
+							let linkarr = links[1].href.split('/');
+							let lastele = linkarr.pop();
+							let seclastele = linkarr.pop();
+
+							//if (i>0 && i<links.length-1){
+								console.log(seclastele)
+								var mod_url = url.concat(seclastele).concat('/').concat(seclastele).concat('_genomic.gff.gz')
+								ncbi_gene_annotation_url(mod_url)
+							//}
+						//});
+
+						})
+						.catch(error => console.error('Error fetching data:', error));
+							
+					}	
+							
+					var on_KEGG_orth_models_changed = function(){
+						var value = d3.select('#KEGG_orth_models').node().selectedOptions[0].value;
+						console.log(value)				
+					}			
+					
+					$('#drop_menu_1').multiselect({
+									buttonWidth: '300px',
+									multiple: false,
+									maxHeight: 250,
+									enableClickableOptGroups: true,
+									enableCollapsibleOptGroups: true,
+									collapseOptGroupsByDefault: true,
+									enableFiltering: true,
+									enableCaseInsensitiveFiltering: false,
+									filterPlaceholder: 'Cerca',
+									includeSelectAllOption: false,
+									selectAllJustVisible: false,
+									selectAllText: 'Select All',
+									nSelectedText: ' selected',
+									allSelectedText: 'All selected',
+									nonSelectedText: 'Select Species',
+									onChange: on_species_changed,
+									onSelectAll: on_species_changed,
+									onDeselectAll: on_species_changed
+								});
+								
+					$('#KEGG_orth_models').multiselect({
+									buttonWidth: '300px',
+									multiple: true,
+									maxHeight: 250,
+									enableClickableOptGroups: true,
+									enableCollapsibleOptGroups: true,
+									collapseOptGroupsByDefault: true,
+									enableFiltering: true,
+									enableCaseInsensitiveFiltering: false,
+									filterPlaceholder: 'Cerca',
+									includeSelectAllOption: false,
+									selectAllJustVisible: false,
+									selectAllText: 'Select All',
+									nSelectedText: ' selected',
+									allSelectedText: 'All selected',
+									nonSelectedText: 'Select Pathways',
+									onChange: on_KEGG_orth_models_changed,
+									onSelectAll: on_KEGG_orth_models_changed,
+									onDeselectAll: on_KEGG_orth_models_changed
+								});
+				
+						
+						console.log('Third function');
+						resolve();
+						}, 100); // Simulating an asynchronous operation with a timeout
+					});
+				}
+			
+				//myDiv.textContent = 'This is a dynamically created div!';
+				async function callFunctionsInSequence_build() {
+				await firstFunction_build();
+				await secondFunction_build();
+				//await thirdFunction_tutorial();
+				console.log("Done")
+				}
+
+				// Call the async function
+				callFunctionsInSequence_build();
+				
+				
+				function addButtonToDiv() {
+					
+					var container = document.getElementById('loadingDiv2');
+					var myDiv = document.getElementById('dropmenu_pathways_div_container_id3');
+					
+					var mytextDiv1 = document.getElementById('datafilename1');
+					
+					var button1 = document.createElement('button');
+					
+					mytextDiv1.classList.add('dropmenu_div_container3');
+					
+					mytextDiv1.style.position = 'absolute';
+					mytextDiv1.style.width = '40%';
+					mytextDiv1.style.height = '20px';
+					mytextDiv1.style.top = '90px';
+					mytextDiv1.style.left = '700px';
+					
+					// Create a new heading element
+					var heading1 = document.createElement("h1");
+					
+					function firstFunction123() {
+							return new Promise(resolve => {
+								setTimeout(() => {
+								
+								//myDiv.id = 'myDiv_tutorial';
+								//myDiv.classList.add('solid_back');
+								// Create a button element
+								
+								//console.log('button',button)
+								// Set button text and attributes
+								
+								// Set the text content of the heading
+								heading1.textContent = "Load Data files:";
+								
+								button1.textContent = 'Load file';
+								button1.classList.add('default-btn');
+								button1.id = 'myButton1'; // Set a specific ID for the button if needed
+								button1.addEventListener('click', function() {
+									var uploadfile = document.getElementById("meta_file2").click();
+									//alert('Button Clicked!');
+								});
+								
+								console.log('First function');
+								resolve();
+								}, 200); // Simulating an asynchronous operation with a timeout
+							});
+					}
+					
+					function secondFunction123() {
+							return new Promise(resolve => {
+								setTimeout(() => {
+								myDiv.appendChild(heading1);
+								myDiv.appendChild(button1);
+								
+								console.log('Second function');
+								resolve();
+								}, 200); // Simulating an asynchronous operation with a timeout
+							});
+						}
+					
+					//myDiv.textContent = 'This is a dynamically created div!';
+					async function callFunctionsInSequence123() {
+					await firstFunction123();
+					await secondFunction123();
+					}
+					// Call the async function
+					callFunctionsInSequence123();
+				}
+				
+				//addButtonToDiv();
+
+				function thirdFunction_tutorial() {
+					return new Promise(resolve => {
+						setTimeout(() => {
+						
+						addButtonToDiv();
+						
+						console.log('Third function');
+						resolve();
+						}, 100); // Simulating an asynchronous operation with a timeout
+					});
+				}
+			
+				//myDiv.textContent = 'This is a dynamically created div!';
+				async function callFunctionsInSequence_tutorial() {
+				//await firstFunction_tutorial();
+				//await secondFunction_tutorial();
+				await thirdFunction_tutorial();
+				console.log("Done")
+				}
+
+				// Call the async function
+				callFunctionsInSequence_tutorial();
 			
 		}
 			
