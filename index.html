@@ -2500,6 +2500,50 @@
 					ncbi_category = buttonValue
 				}
 
+				async function logFileText4(file) {
+				    try {
+				        async file => {
+							const response = await fetch(file)
+							const data = await response.text()
+							const lines = data.split('\n');
+						    let i = 0;
+						
+						    for (const line of lines) {
+						        i++;
+						
+						        if (i > 0 && i < 11400000) {
+						            const strg = line.trim();
+						
+						            try {
+						                const info = strg.split('\t')[1].split(';')[0];
+						                const info1 = strg.split('\t')[0];
+						
+						                if (info.includes(',')) {
+						                    const refine_info = info.split(',');
+						
+						                    for (const y of refine_info) {
+						                        kegg_genes.push(y.replace(' ', ''));
+						                        kegg_ids.push(info1);
+						                    }
+						                } else {
+						                    kegg_genes.push(info);
+						                    kegg_ids.push(info1);
+						                }
+						            } catch (error) {
+						                console.error('Skipped');
+						            }
+						        }
+						    }
+						}
+				        console.log(data);
+				    } catch (error) {
+				        console.error('Error reading file:', error);
+				    }
+				}
+				
+				// Call the asynchronous function
+				logFileText4('Edited_ortholog_networks/ko_genes.txt');
+				/*
 				const logFileText4 = async file => {
 					const response = await fetch(file)
 					const data = await response.text()
@@ -2535,6 +2579,7 @@
 				}
 	
 				logFileText4('Edited_ortholog_networks/ko_genes.txt')
+				*/
 				var kegg_gene_lst = {'kegg_ids':kegg_ids, 'kegg_gene':kegg_genes};
 				console.log('kegg_gene_lst',kegg_gene_lst)
 				
