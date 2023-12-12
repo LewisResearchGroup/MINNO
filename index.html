@@ -999,7 +999,7 @@
 			$( "#loadingDiv1" ).remove(); //makes page more lightweight   
 		    });	
 		    
-		    $('body').append('<div style="" id="loadingDiv2"> <div class="btn_div_container"> <button class="default-btn" onclick="anotherdivremoveloader()">Remove Div</button> <button class="default-btn" onclick="addanotherdivloader1()">Tutorial</button> <button class="default-btn" onclick="addanotherdivloader2()">Load networks files</button> <button class="default-btn" onclick="addanotherdivloader3()">Build network files</button> </div> <h1 id="species_loading_h1_id" style="display: none;"> Please wait! List of species is being loaded. </h1> <div id="speciesloadingIcon" class="species_loader1" style="display: none;"> </div> <div class="dropmenu_div_container" id="dropmenu_species_div_container_id1" style="display: none;"> <select id="drop_menu_1"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id2" style="display: none;"> <input type="file" id="networkfileInput" multiple style="display: none;" /> <input type="file" id="meta_file2" style="display: none;"/> <select id="KEGG_orth_models" multiple="multiple"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id3" style="display: none;"> <div id="datafilename1"></div> </div> <div id="myDiv_tutorial"></div> <div id="myDiv_loadfiles"> <div id="loadfilediv1"><div id="fileNameDisplay1"></div></div> <div id="loadfilediv2"><div id="fileNameDisplay2"></div></div> <div id="loadfilediv3"></div> </div> <div id="myDiv_buildnet"></div>');
+		    $('body').append('<div style="" id="loadingDiv2"> <div class="btn_div_container"> <button class="default-btn" onclick="anotherdivremoveloader()">Remove Div</button> <button class="default-btn" onclick="addanotherdivloader1()">Tutorial</button> <button class="default-btn" onclick="addanotherdivloader2()">Load networks files</button> <button class="default-btn" onclick="addanotherdivloader3()">Build network files</button> </div> <h1 id="species_loading_h1_id" style="display: none;"> Please wait! Lists of species and pathways are being loaded. </h1> <div id="speciesloadingIcon" class="species_loader1" style="display: none;"> </div> <div class="dropmenu_div_container" id="dropmenu_species_div_container_id1" style="display: none;"> <select id="drop_menu_1"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id2" style="display: none;"> <input type="file" id="networkfileInput" multiple style="display: none;" /> <input type="file" id="meta_file2" style="display: none;"/> <select id="KEGG_orth_models" multiple="multiple"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id3" style="display: none;"></div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id4" style="display: none;"> <div id="datafilename1"></div> </div> <div id="myDiv_tutorial"></div> <div id="myDiv_loadfiles"> <div id="loadfilediv1"><div id="fileNameDisplay1"></div></div> <div id="loadfilediv2"><div id="fileNameDisplay2"></div></div> <div id="loadfilediv3"></div> </div> <div id="myDiv_buildnet"></div>');
 		    
 			d3.select("#fileInput").on("change", function(){
 			// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
@@ -2507,10 +2507,12 @@
 					
 					var hiddenDiv1 = document.getElementById('dropmenu_species_div_container_id1');
 					hiddenDiv1.style.display = 'flex';
-					var hiddenDiv1 = document.getElementById('dropmenu_pathways_div_container_id2');
-					hiddenDiv1.style.display = 'flex';
-					var hiddenDiv1 = document.getElementById('dropmenu_pathways_div_container_id3');
-					hiddenDiv1.style.display = 'flex';
+					var hiddenDiv2 = document.getElementById('dropmenu_pathways_div_container_id2');
+					hiddenDiv2.style.display = 'flex';
+					var hiddenDiv3 = document.getElementById('dropmenu_pathways_div_container_id3');
+					hiddenDiv3.style.display = 'flex';
+					var hiddenDiv4 = document.getElementById('dropmenu_pathways_div_container_id4');
+					hiddenDiv4.style.display = 'flex';
 				}
 
 				function firstFunction123() {
@@ -2722,10 +2724,12 @@
 					
 					var container = document.getElementById('loadingDiv2');
 					var myDiv = document.getElementById('dropmenu_pathways_div_container_id3');
+					var myDiv1 = document.getElementById('dropmenu_pathways_div_container_id4');
 					
 					var mytextDiv1 = document.getElementById('datafilename1');
 					
 					var button1 = document.createElement('button');
+					var button2 = document.createElement('button');
 					
 					mytextDiv1.classList.add('dropmenu_div_container3');
 					
@@ -2749,13 +2753,21 @@
 								//console.log('button',button)
 								// Set button text and attributes
 								
+								button1.textContent = 'Build Network';
+								button1.classList.add('default-btn');
+								button1.id = 'myButton1_build'; // Set a specific ID for the button if needed
+								button1.addEventListener('click', function() {
+									//var uploadfile = document.getElementById("meta_file2").click();
+									alert('Button Clicked!');
+								});
+								
 								// Set the text content of the heading
 								heading1.textContent = "Load Data files:";
 								
-								button1.textContent = 'Load file';
-								button1.classList.add('default-btn');
-								button1.id = 'myButton1'; // Set a specific ID for the button if needed
-								button1.addEventListener('click', function() {
+								button2.textContent = 'Load file';
+								button2.classList.add('default-btn');
+								button2.id = 'myButton2_build'; // Set a specific ID for the button if needed
+								button2.addEventListener('click', function() {
 									var uploadfile = document.getElementById("meta_file2").click();
 									//alert('Button Clicked!');
 								});
@@ -2769,8 +2781,9 @@
 					function secondFunction123() {
 							return new Promise(resolve => {
 								setTimeout(() => {
-								myDiv.appendChild(heading1);
 								myDiv.appendChild(button1);
+								myDiv1.appendChild(heading1);
+								myDiv1.appendChild(button2);
 								
 								console.log('Second function');
 								resolve();
