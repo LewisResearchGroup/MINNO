@@ -2864,7 +2864,7 @@
 													})													
 												}
 												
-												logFileText1('Edited_ortholog_networks/'+fileUrl+'.json')
+												logFileText1('Edited_ortholog_networks/'+fileUrl.value+'.json')
 												
 												/*
 												d3.json(fileUrl).then(function(d_jsonobj){
@@ -2893,7 +2893,7 @@
 												xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
 												ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
 												
-												//console.log(`Processed file: ${fileUrl.name}`);
+												//console.log(`Processed file: ${fileUrl.value}`);
 											}
 											else{
 												//xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
@@ -2924,7 +2924,7 @@
 													})													
 												}
 												
-												logFileText1('Edited_ortholog_networks/'+fileUrl+'.json')
+												logFileText1('Edited_ortholog_networks/'+fileUrl.value+'.json')
 
 												/*
 												d3.json(fileUrl).then(function(d_jsonobj){
@@ -2952,16 +2952,16 @@
 												xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
 												ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
 												
-												//console.log(`Processed file: ${fileUrl.name}`);
+												//console.log(`Processed file: ${fileUrl.value}`);
 											}
 											
 											
 											// Display the file name in a div
 											var fileNameDisplay1 = document.getElementById("fileNameDisplay1");
-											fileNameDisplay1.textContent = "Selected File: " + fileUrl.name;
+											fileNameDisplay1.textContent = "Selected File: " + fileUrl.value;
 											
 										
-										  console.log(`Processed file: ${fileUrl.name}`);
+										  console.log(`Processed file: ${fileUrl.value}`);
 										  resolve();
 										  return ymax
 										}, 1000); // Simulated delay, adjust as needed
