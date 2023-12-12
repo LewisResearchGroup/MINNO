@@ -2757,8 +2757,66 @@
 								button1.classList.add('default-btn');
 								button1.id = 'myButton1_build'; // Set a specific ID for the button if needed
 								button1.addEventListener('click', function() {
-									//var uploadfile = document.getElementById("meta_file2").click();
-									alert('Button Clicked!');
+									var selected_options = [];
+									
+									var ref = d3.select('#KEGG_orth_models').node().selectedOptions;
+									
+									for (var i = 0; i<ref.length; i++) {
+										selected_options.push(ref[i]);
+									};
+									
+									//settings = false;
+									
+									let pathways = [];
+									
+									selected_options.forEach(function(d){
+										
+										if(d.parentNode.label=="List of Pathways")
+											pathways.push(d.value)
+										
+										if(d.parentNode.label=="Selected ortholog maps"){
+											
+											var jsonObj_generic;
+											
+											function combining_files(selected_options,){
+												selected_options.sort();
+												for(filen=0; filen<selected_options.length; filen++){
+													let filename = "/Edited_ortholog_networks/" + selected_options[filen].value+".json"
+													//console.log('filename',filename)
+													d3.json(filename).then(function(d){ 
+														if(jsonObj_generic==undefined){
+															jsonObj_generic = d;
+															jsonObj_generic["nodes"].forEach(function(d){
+																if(d.name==null){
+																	d.name = makeid(20)	
+																}
+															})
+														}
+													});
+													
+												}
+												return jsonObj_generic
+											}	
+											
+											jsonObj_generic = combining_files(selected_options);
+											
+											function display_network(callback){
+												//console.log('display network is executed')
+												//your code to be executed after 2 second
+												jsonObj = jsonObj_generic
+												//console.log('jsonObj',jsonObj)
+												if(jsonObj!=undefined){
+													callback(jsonObj);
+												}
+											}
+											
+											setTimeout(function() {
+												//display_network(Main_visualization_code);
+												Main_visualization_code(jsonObj_generic);
+												Mainfunction(jsonObj_generic);
+											}, 2000.0);
+										}
+									})
 								});
 								
 								// Set the text content of the heading
