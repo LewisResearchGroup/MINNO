@@ -983,209 +983,296 @@
 		
 		$('body').append('<div style="" id="loadingDiv1"> <h1></h1> <img class="center1" src="MINNO Logo LRG_centered.svg" alt="logo" width="228" height="228"> <h1> Metabolic Interactive Nodular Network for Omics </h1> <h1>Loading files...</h1> <div class="loader1">Loading...</div></div>');
 			
-			$(window).on('load', function(){
-				myFunction()				
-				setTimeout(removeLoader, 1000); //wait for page load PLUS two seconds.
-				//setTimeout(anotherdivremoveloader, 5000);
+		$(window).on('load', function(){
+			myFunction()				
+			setTimeout(removeLoader, 1000); //wait for page load PLUS two seconds.
+			//setTimeout(anotherdivremoveloader, 5000);
+		});
+		
+		function removeLoader2(){
+			$( "#loadingDiv1" ).remove();
+		}
+		
+		function removeLoader(){
+			$( "#loadingDiv1" ).fadeOut(500, function() {
+			  // fadeOut complete. Remove the loading div
+			$( "#loadingDiv1" ).remove(); //makes page more lightweight   
+		    });	
+		    
+		    $('body').append('<div style="" id="loadingDiv2"> <div class="btn_div_container"> <button class="default-btn" onclick="anotherdivremoveloader()">Remove Div</button> <button class="default-btn" onclick="addanotherdivloader1()">Tutorial</button> <button class="default-btn" onclick="addanotherdivloader2()">Load files</button> <button class="default-btn" onclick="addanotherdivloader3()">Build network</button> </div> <h1 id="species_loading_h1_id" style="display: none;"> Please wait! List of species is being loaded. </h1> <div id="speciesloadingIcon" class="species_loader1" style="display: none;"> </div> <div class="dropmenu_div_container" id="dropmenu_species_div_container_id1" style="display: none;"> <select id="drop_menu_1"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id2" style="display: none;"> <input type="file" id="networkfileInput" multiple/> <input type="file" id="meta_file2"/> <select id="KEGG_orth_models" multiple="multiple"></select> </div> <div id="myDiv_tutorial"></div> <div id="myDiv_loadfiles"> <div id="loadfilediv1"><div id="fileNameDisplay1"></div></div> <div id="loadfilediv2"><div id="fileNameDisplay2"></div></div> <div id="loadfilediv3"></div> </div> <div id="myDiv_buildnet"></div>');
+		    
+			d3.select("#fileInput").on("change", function(){
+			// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
+
+				if (window.File && window.FileReader && window.FileList && window.Blob) {
+					
+					 // Check if a file is selected
+					if (fileInput.files.length > 0) {
+					// Get the selected file
+					var selectedFile = fileInput.files[0];
+
+					// Use FileReader to read the file
+					var reader = new FileReader();
+
+					reader.onload = function(event) {
+						// Display the content of the file
+						var pathway_list = event.target.result.split('\n');
+				
+						var pathway_menu_data = []
+						//pathway_menu_data.push({'label':'Select pathway','value':'Select pathway'})
+
+						pathway_list.forEach(function(path,i){
+							pathway_menu_data.push({'label':path,'value':path})
+						});
+
+						$('#KEGG_orth_models').multiselect('dataprovider', pathway_menu_data);
+						
+						
+					};
+
+					// Read the file as text
+					reader.readAsText(selectedFile);
+					} else {
+						alert("Please select a file first.");
+					}
+				}
+				else {
+					alert("Your browser won't let you save this graph -- try upgrading your browser to IE 10+ or Chrome or Firefox.")
+				};
 			});
 			
-			function removeLoader2(){
-				$( "#loadingDiv1" ).remove();
+			function findMatchingElements(arr1, arr2) {
+				return arr1.filter(element => arr2.indexOf(element) !== -1);
 			}
 			
-			function removeLoader(){
-				$( "#loadingDiv1" ).fadeOut(500, function() {
-				  // fadeOut complete. Remove the loading div
-				$( "#loadingDiv1" ).remove(); //makes page more lightweight   
-			    });	
-			    
-			    $('body').append('<div style="" id="loadingDiv2"> <div class="btn_div_container"> <button class="default-btn" onclick="anotherdivremoveloader()">Remove Div</button> <button class="default-btn" onclick="addanotherdivloader1()">Tutorial</button> <button class="default-btn" onclick="addanotherdivloader2()">Load files</button> <button class="default-btn" onclick="addanotherdivloader3()">Build network</button> </div> <h1 id="species_loading_h1_id" style="display: none;"> Please wait! List of species is being loaded. </h1> <div id="speciesloadingIcon" class="species_loader1" style="display: none;"> </div> <div class="dropmenu_div_container" id="dropmenu_species_div_container_id1" style="display: none;"> <select id="drop_menu_1"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id2" style="display: none;"> <input type="file" id="networkfileInput" multiple/> <input type="file" id="meta_file2"/> <select id="KEGG_orth_models" multiple="multiple"></select> </div> <div id="myDiv_tutorial"></div> <div id="myDiv_loadfiles"> <div id="loadfilediv1"><div id="fileNameDisplay1"></div></div> <div id="loadfilediv2"><div id="fileNameDisplay2"></div></div> <div id="loadfilediv3"></div> </div> <div id="myDiv_buildnet"></div>');
-			    
-				d3.select("#fileInput").on("change", function(){
-				// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
-
-					if (window.File && window.FileReader && window.FileList && window.Blob) {
-						
-						 // Check if a file is selected
-						if (fileInput.files.length > 0) {
-						// Get the selected file
-						var selectedFile = fileInput.files[0];
-
-						// Use FileReader to read the file
-						var reader = new FileReader();
-
-						reader.onload = function(event) {
-							// Display the content of the file
-							var pathway_list = event.target.result.split('\n');
+			/*
+			d3.select("#networkfileInput").on("change", function(){
+			//document.getElementById("#networkfileInput").on("click", function(){
+			// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
+				
+				 if (window.File && window.FileReader && window.FileList && window.Blob) {
 					
-							var pathway_menu_data = []
-							//pathway_menu_data.push({'label':'Select pathway','value':'Select pathway'})
-
-							pathway_list.forEach(function(path,i){
-								pathway_menu_data.push({'label':path,'value':path})
-							});
-
-							$('#KEGG_orth_models').multiselect('dataprovider', pathway_menu_data);
-							
-							
-						};
-
-						// Read the file as text
-						reader.readAsText(selectedFile);
-						} else {
-							alert("Please select a file first.");
-						}
+					var filelist = this.files,
+						filenames = [];
+					
+					for(let filen = 0; filen< filelist.length; filen++)
+					{	
+						filenames.push(filelist[filen].name)
 					}
-					else {
-						alert("Your browser won't let you save this graph -- try upgrading your browser to IE 10+ or Chrome or Firefox.")
-					};
-				});
-				
-				function findMatchingElements(arr1, arr2) {
-					return arr1.filter(element => arr2.indexOf(element) !== -1);
-				}
-				
-				/*
-				d3.select("#networkfileInput").on("change", function(){
-				//document.getElementById("#networkfileInput").on("click", function(){
-				// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
+					// Use FileReader to read the file
+					var reader = new FileReader();
+					reader.readAsText(filelist[0]);
+					console.log(filenames[0])
+					//console.log(filelist[0])
 					
-					 if (window.File && window.FileReader && window.FileList && window.Blob) {
+					var kegg_gene_lst = {'id':['K00001','K01623','K01810'],'gene':['adh','ALDO']}
+					//,'K01835'
+					//upload_files(filelist,0,filenames);
+					
+					reader.onload = function(event) {
+						// Display the content of the file
+						var network_data = event.target.result;
+						var d_jsonobj = JSON.parse(network_data)
 						
-						var filelist = this.files,
-							filenames = [];
+						var nodes_mod = [];
 						
-						for(let filen = 0; filen< filelist.length; filen++)
-						{	
-							filenames.push(filelist[filen].name)
-						}
-						// Use FileReader to read the file
-						var reader = new FileReader();
-						reader.readAsText(filelist[0]);
-						console.log(filenames[0])
-						//console.log(filelist[0])
-						
-						var kegg_gene_lst = {'id':['K00001','K01623','K01810'],'gene':['adh','ALDO']}
-						//,'K01835'
-						//upload_files(filelist,0,filenames);
-						
-						reader.onload = function(event) {
-							// Display the content of the file
-							var network_data = event.target.result;
-							var d_jsonobj = JSON.parse(network_data)
-							
-							var nodes_mod = [];
-							
-							var rxnids = [];
-							d_jsonobj["nodes"].forEach(function(d){
-								if(d.type=="R"){
-									var rxn_genes = d.gene_link.split('?')[1].split("+")
-									var matching_genes = findMatchingElements(kegg_gene_lst['id'], rxn_genes);
-									if(matching_genes.length>0){
-										rxnids.push(d.kegg_id)
-										d.opacity = 1.0;
-										nodes_mod.push(d)
-									}
-									else{
-										d.opacity = 0.5;
-										nodes_mod.push(d)
-									}
+						var rxnids = [];
+						d_jsonobj["nodes"].forEach(function(d){
+							if(d.type=="R"){
+								var rxn_genes = d.gene_link.split('?')[1].split("+")
+								var matching_genes = findMatchingElements(kegg_gene_lst['id'], rxn_genes);
+								if(matching_genes.length>0){
+									rxnids.push(d.kegg_id)
+									d.opacity = 1.0;
+									nodes_mod.push(d)
 								}
 								else{
 									d.opacity = 0.5;
 									nodes_mod.push(d)
 								}
-							});
-							
-							console.log("rxnids",rxnids)
-							console.log(d_jsonobj)
-							console.log(d_jsonobj["links"])
-							
-							var links_mod = []
-							
-							d_jsonobj["links"].forEach(function(l){
-								if(rxnids.includes(l.kegg_id)){
-									l.opacity = 1.0;
-									console.log("found1")
-									links_mod.push(l)
-								}
-								else{
-									l.opacity = 0.25;
-									links_mod.push(l)
-								}
-							});
-							
-							var meta_ids = [];
-							d_jsonobj["links"].forEach(function(r){
-								//console.log(r)
-								if(rxnids.includes(r.kegg_id)){
-									meta_ids.push(r.source)
-									meta_ids.push(r.target)
-								}
-							});
-							
-							var nodes_mod2 = []
-							console.log('metaids',meta_ids)
-							
-							nodes_mod.forEach(function(d){
-								if(d.type=="M"){
-									if(meta_ids.includes(d.id)){
-										d.opacity = 1.0;
-										nodes_mod2.push(d)
-									}
-									else{
-										//d.opacity = 1.0;
-										nodes_mod2.push(d)
-									}
-								}
-								else{
+							}
+							else{
+								d.opacity = 0.5;
+								nodes_mod.push(d)
+							}
+						});
+						
+						console.log("rxnids",rxnids)
+						console.log(d_jsonobj)
+						console.log(d_jsonobj["links"])
+						
+						var links_mod = []
+						
+						d_jsonobj["links"].forEach(function(l){
+							if(rxnids.includes(l.kegg_id)){
+								l.opacity = 1.0;
+								console.log("found1")
+								links_mod.push(l)
+							}
+							else{
+								l.opacity = 0.25;
+								links_mod.push(l)
+							}
+						});
+						
+						var meta_ids = [];
+						d_jsonobj["links"].forEach(function(r){
+							//console.log(r)
+							if(rxnids.includes(r.kegg_id)){
+								meta_ids.push(r.source)
+								meta_ids.push(r.target)
+							}
+						});
+						
+						var nodes_mod2 = []
+						console.log('metaids',meta_ids)
+						
+						nodes_mod.forEach(function(d){
+							if(d.type=="M"){
+								if(meta_ids.includes(d.id)){
+									d.opacity = 1.0;
 									nodes_mod2.push(d)
 								}
-							});
-							
-							console.log(nodes_mod2)
-							
-							
-							jsonObj["links"] = links_mod;
-							jsonObj["nodes"] = nodes_mod2;//d_jsonobj["nodes"];
-							
-							console.log(jsonObj)
-							
-							//console.log(jsonobj["reaction"])
-							Main_visualization_code(jsonObj)
-							//Mainfunction(jsonobj)
-							
-						};
-					}
-					else{
-						alert("Your browser won't let you save this graph -- try upgrading your browser to IE 10+ or Chrome or Firefox.")
+								else{
+									//d.opacity = 1.0;
+									nodes_mod2.push(d)
+								}
+							}
+							else{
+								nodes_mod2.push(d)
+							}
+						});
+						
+						console.log(nodes_mod2)
+						
+						
+						jsonObj["links"] = links_mod;
+						jsonObj["nodes"] = nodes_mod2;//d_jsonobj["nodes"];
+						
+						console.log(jsonObj)
+						
+						//console.log(jsonobj["reaction"])
+						Main_visualization_code(jsonObj)
+						//Mainfunction(jsonobj)
+						
 					};
-				});	
-				//*/
-				
-				/*
-				d3.select("#networkfileInput").on("change", function(){
-				//document.getElementById("#networkfileInput").on("click", function(){
-				// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
-					// For loading the network files together.
-					 if (window.File && window.FileReader && window.FileList && window.Blob) {
-						
-						var filelist = this.files,
-							filenames = [];
-						
-						console.log(filelist)
-						
-						//var jsonObj = {"nodes":[],"links":[]}
-						var nodeslst = []
-						var linkslst = []
-						
-						// Example functions that return promises
-						function firstFunction() {
-							return new Promise(resolve => {
-								setTimeout(() => {
+				}
+				else{
+					alert("Your browser won't let you save this graph -- try upgrading your browser to IE 10+ or Chrome or Firefox.")
+				};
+			});	
+			//*/
+			
+			/*
+			d3.select("#networkfileInput").on("change", function(){
+			//document.getElementById("#networkfileInput").on("click", function(){
+			// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
+				// For loading the network files together.
+				 if (window.File && window.FileReader && window.FileList && window.Blob) {
+					
+					var filelist = this.files,
+						filenames = [];
+					
+					console.log(filelist)
+					
+					//var jsonObj = {"nodes":[],"links":[]}
+					var nodeslst = []
+					var linkslst = []
+					
+					// Example functions that return promises
+					function firstFunction() {
+						return new Promise(resolve => {
+							setTimeout(() => {
+							
+							for(let filen = 0; filen< filelist.length; filen++)
+							{	
+								console.log(filelist[filen].name)
+								filenames.push(filelist[filen].name)
+								var reader = new FileReader();
+								reader.readAsText(filelist[filen]);
 								
-								for(let filen = 0; filen< filelist.length; filen++)
-								{	
+								reader.onload = function(event) {
+									// Display the content of the file
+									var network_data = event.target.result;
+									var d_jsonobj = JSON.parse(network_data)
+									//console.log(d_jsonobj)
+									
+									d_jsonobj["nodes"].forEach(function(n){
+										nodeslst.push(n)
+									})
+									d_jsonobj["links"].forEach(function(n){
+										linkslst.push(n)
+									})
+								}
+							}
+
+							console.log('First function');
+							resolve();
+							}, 2000); // Simulating an asynchronous operation with a timeout
+						});
+					}
+
+					function secondFunction() {
+						return new Promise(resolve => {
+							setTimeout(() => {
+							
+							//console.log(nodeslst)
+							//console.log(linkslst)
+							
+							jsonObj["nodes"] = nodeslst
+							jsonObj["links"] = linkslst
+							
+							Main_visualization_code(jsonObj)
+							Mainfunction(jsonObj)
+							
+							console.log('Second function');
+							resolve();
+							}, 1000); // Simulating an asynchronous operation with a timeout
+						});
+					}
+
+					// Async function to call two functions in sequence
+					async function callFunctionsInSequence() {
+					await firstFunction();
+					await secondFunction();
+					}
+
+					// Call the async function
+					callFunctionsInSequence();
+					
+				}
+				else {
+					alert("Your browser won't let you save this graph -- try upgrading your browser to IE 10+ or Chrome or Firefox.")
+				};
+			});	
+			
+			//*/
+			d3.select("#networkfileInput").on("change", function(){
+			//document.getElementById("#networkfileInput").on("click", function(){
+			// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
+				// For building the network files together.
+				 if (window.File && window.FileReader && window.FileList && window.Blob) {
+					
+					var filelist = this.files,
+						filenames = [];
+					
+					console.log(filelist)
+					
+					//var jsonObj = {"nodes":[],"links":[]}
+					var nodeslst = []
+					var linkslst = []
+					var xcorlst = [];
+					var ycorlst = [];
+					
+					
+					// Example functions that return promises
+					function firstFunction() {
+						return new Promise(resolve => {
+							setTimeout(() => {
+							
+							for(let filen = 0; filen< filelist.length; filen++)
+							{	
+								if(filen==0){
 									console.log(filelist[filen].name)
 									filenames.push(filelist[filen].name)
 									var reader = new FileReader();
@@ -1199,634 +1286,266 @@
 										
 										d_jsonobj["nodes"].forEach(function(n){
 											nodeslst.push(n)
+											console.log(n.x)
+											xcorlst.push(n.x)
+											ycorlst.push(n.y)
+										})
+										d_jsonobj["links"].forEach(function(n){
+											linkslst.push(n)
+										})
+									}
+									xmax = Math.max(xcorlst)
+									ymax = Math.max(ycorlst)
+								}
+								else{
+									console.log('xmax',xmax)
+									console.log('xcorlst',xcorlst)
+									console.log(filelist[filen].name)
+									filenames.push(filelist[filen].name)
+									var reader = new FileReader();
+									reader.readAsText(filelist[filen]);
+									
+									reader.onload = function(event) {
+										// Display the content of the file
+										var network_data = event.target.result;
+										var d_jsonobj = JSON.parse(network_data)
+										//console.log(d_jsonobj)
+										
+										d_jsonobj["nodes"].forEach(function(n){
+											n.x = n.x + 50.0 + xmax
+											nodeslst.push(n)
+											//xcorlst.push(n.x)
+											//ycorlst.push(n.y)
 										})
 										d_jsonobj["links"].forEach(function(n){
 											linkslst.push(n)
 										})
 									}
 								}
+							}
 
-								console.log('First function');
-								resolve();
-								}, 2000); // Simulating an asynchronous operation with a timeout
-							});
-						}
-
-						function secondFunction() {
-							return new Promise(resolve => {
-								setTimeout(() => {
-								
-								//console.log(nodeslst)
-								//console.log(linkslst)
-								
-								jsonObj["nodes"] = nodeslst
-								jsonObj["links"] = linkslst
-								
-								Main_visualization_code(jsonObj)
-								Mainfunction(jsonObj)
-								
-								console.log('Second function');
-								resolve();
-								}, 1000); // Simulating an asynchronous operation with a timeout
-							});
-						}
-
-						// Async function to call two functions in sequence
-						async function callFunctionsInSequence() {
-						await firstFunction();
-						await secondFunction();
-						}
-
-						// Call the async function
-						callFunctionsInSequence();
-						
+							console.log('First function');
+							resolve();
+							}, 2000); // Simulating an asynchronous operation with a timeout
+						});
 					}
-					else {
-						alert("Your browser won't let you save this graph -- try upgrading your browser to IE 10+ or Chrome or Firefox.")
-					};
-				});	
-				
-				//*/
-				d3.select("#networkfileInput").on("change", function(){
-				//document.getElementById("#networkfileInput").on("click", function(){
-				// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
-					// For building the network files together.
-					 if (window.File && window.FileReader && window.FileList && window.Blob) {
+
+					
+					// Async function to call two functions in sequence
+					async function callFunctionsInSequence() {
+					await firstFunction();
+					await secondFunction();
+					}
+
+					// Call the async function
+					//callFunctionsInSequence();
+					
+					async function processFilesSequentially(fileUrls) {
+						let nofrows = Math.floor(Math.sqrt(fileUrls.length))	
+						let npr = Math.floor(fileUrls.length/nofrows)	
+						console.log('npr',npr)					
+						console.log('nofrows',nofrows)	
 						
-						var filelist = this.files,
-							filenames = [];
-						
-						console.log(filelist)
-						
-						//var jsonObj = {"nodes":[],"links":[]}
-						var nodeslst = []
-						var linkslst = []
-						var xcorlst = [];
+						var ymax = -100000000000000000;
 						var ycorlst = [];
-						
-						
-						// Example functions that return promises
-						function firstFunction() {
-							return new Promise(resolve => {
-								setTimeout(() => {
-								
-								for(let filen = 0; filen< filelist.length; filen++)
-								{	
-									if(filen==0){
-										console.log(filelist[filen].name)
-										filenames.push(filelist[filen].name)
-										var reader = new FileReader();
-										reader.readAsText(filelist[filen]);
 										
-										reader.onload = function(event) {
-											// Display the content of the file
-											var network_data = event.target.result;
-											var d_jsonobj = JSON.parse(network_data)
-											//console.log(d_jsonobj)
-											
-											d_jsonobj["nodes"].forEach(function(n){
-												nodeslst.push(n)
-												console.log(n.x)
-												xcorlst.push(n.x)
-												ycorlst.push(n.y)
-											})
-											d_jsonobj["links"].forEach(function(n){
-												linkslst.push(n)
-											})
-										}
-										xmax = Math.max(xcorlst)
-										ymax = Math.max(ycorlst)
-									}
-									else{
-										console.log('xmax',xmax)
-										console.log('xcorlst',xcorlst)
-										console.log(filelist[filen].name)
-										filenames.push(filelist[filen].name)
-										var reader = new FileReader();
-										reader.readAsText(filelist[filen]);
-										
-										reader.onload = function(event) {
-											// Display the content of the file
-											var network_data = event.target.result;
-											var d_jsonobj = JSON.parse(network_data)
-											//console.log(d_jsonobj)
-											
-											d_jsonobj["nodes"].forEach(function(n){
-												n.x = n.x + 50.0 + xmax
-												nodeslst.push(n)
-												//xcorlst.push(n.x)
-												//ycorlst.push(n.y)
-											})
-											d_jsonobj["links"].forEach(function(n){
-												linkslst.push(n)
-											})
-										}
-									}
-								}
-
-								console.log('First function');
-								resolve();
-								}, 2000); // Simulating an asynchronous operation with a timeout
-							});
-						}
-
-						
-						// Async function to call two functions in sequence
-						async function callFunctionsInSequence() {
-						await firstFunction();
-						await secondFunction();
-						}
-
-						// Call the async function
-						//callFunctionsInSequence();
-						
-						async function processFilesSequentially(fileUrls) {
-							let nofrows = Math.floor(Math.sqrt(fileUrls.length))	
-							let npr = Math.floor(fileUrls.length/nofrows)	
-							console.log('npr',npr)					
-							console.log('nofrows',nofrows)	
+						for(let i=0; i<nofrows; i++){
 							
-							var ymax = -100000000000000000;
-							var ycorlst = [];
-											
-							for(let i=0; i<nofrows; i++){
-								
-								var xcorlst = [];
-								
-								var xmax = -100000000000000000;
-								
-								//for (const fileUrl of fileUrls) {
-								if(i==0){
-									for(let j=0; j<npr; j++){
-										let fileUrl = fileUrls[npr*i+j]
-										ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
-										//console.log(Math.floor(Math.sqrt(2.6)))
-									}
+							var xcorlst = [];
+							
+							var xmax = -100000000000000000;
+							
+							//for (const fileUrl of fileUrls) {
+							if(i==0){
+								for(let j=0; j<npr; j++){
+									let fileUrl = fileUrls[npr*i+j]
+									ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
+									//console.log(Math.floor(Math.sqrt(2.6)))
 								}
-								else if(i<nofrows-1){
-									for(let j=0; j<npr; j++){
+							}
+							else if(i<nofrows-1){
+								for(let j=0; j<npr; j++){
+									let fileUrl = fileUrls[i*npr+j]
+									ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
+								}
+							}
+							else{
+								if(fileUrls.length> npr*nofrows){
+									for(let j=0; j<(fileUrls.length-i*nofrows); j++){
 										let fileUrl = fileUrls[i*npr+j]
 										ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
 									}
 								}
 								else{
-									if(fileUrls.length> npr*nofrows){
-										for(let j=0; j<(fileUrls.length-i*nofrows); j++){
-											let fileUrl = fileUrls[i*npr+j]
-											ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
-										}
-									}
-									else{
-										for(let j=0; j<npr; j++){
-											let fileUrl = fileUrls[i*npr+j]
-											ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
-										}
+									for(let j=0; j<npr; j++){
+										let fileUrl = fileUrls[i*npr+j]
+										ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
 									}
 								}
 							}
 						}
-
-						async function processFile(fileUrl,i,chrow,fileno,xcorlst,ycorlst,ymax) {
-						  return new Promise((resolve, reject) => {
-							// Simulating an asynchronous operation, such as loading a file
-							setTimeout(() => {
-								console.log('fileno',fileno)
-								if(i==0){
-									if(xcorlst.length>0){
-										xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])//Math.max(xcorlst)
-										console.log('xmax',xmax)
-									}
-									if(ycorlst.length>0){
-										ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
-										console.log('ymax',ymax)
-									}
-									//console.log(fileUrl.name)
-									filenames.push(fileUrl.name)
-									var reader = new FileReader();
-									reader.readAsText(fileUrl);
-									
-									reader.onload = function(event) {
-										// Display the content of the file
-										var network_data = event.target.result;
-										var d_jsonobj = JSON.parse(network_data)
-										//console.log(d_jsonobj)
-										
-										d_jsonobj["nodes"].forEach(function(n){
-											n.id = n.id + "_" + fileno
-											if(chrow>0){
-												n.y = n.y + 50.0 + ymax
-											}
-											else{
-											}
-											nodeslst.push(n)
-											//console.log(n.x)
-											xcorlst.push(n.x)
-											ycorlst.push(n.y)
-										})
-										d_jsonobj["links"].forEach(function(n){
-											n.id = n.id + "_"+fileno
-											n.source = n.source + "_" + fileno
-											n.target = n.target + "_" + fileno
-											linkslst.push(n)
-										})
-									}
-									
-									xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
-									ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
-									
-									//console.log(`Processed file: ${fileUrl.name}`);
-								}
-								else{
-									//xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
-									ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
-									
-									filenames.push(fileUrl.name)
-									var reader = new FileReader();
-									reader.readAsText(fileUrl);
-									//console.log('xmax1',xmax)
-									//console.log('ymax1',ymax)
-									//console.log('xcorlst',xcorlst)
-									reader.onload = function(event) {
-										// Display the content of the file
-										var network_data = event.target.result;
-										var d_jsonobj = JSON.parse(network_data)
-										//console.log(d_jsonobj)
-										
-										d_jsonobj["nodes"].forEach(function(n){
-											n.id = n.id + "_" + fileno
-											n.x = n.x + 50.0 + xmax
-											if(chrow>0){
-												n.y = n.y + 50.0 + ymax
-											}
-											else{
-											}
-											nodeslst.push(n)
-											xcorlst.push(n.x)
-											ycorlst.push(n.y)
-										})
-										d_jsonobj["links"].forEach(function(n){
-											n.id = n.id + "_" + fileno
-											n.source = n.source + "_" + fileno
-											n.target = n.target + "_" + fileno
-											linkslst.push(n)
-										})
-									}
-									xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
-									ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
-									
-									//console.log(`Processed file: ${fileUrl.name}`);
-								}
-								
-								
-								// Display the file name in a div
-								var fileNameDisplay1 = document.getElementById("fileNameDisplay1");
-								fileNameDisplay1.textContent = "Selected File: " + fileUrl.name;
-								
-							
-							  console.log(`Processed file: ${fileUrl.name}`);
-							  resolve();
-							  return ymax
-							}, 1000); // Simulated delay, adjust as needed
-						  });
-						}
-						
-						function secondFunction() {
-							return new Promise(resolve => {
-								setTimeout(() => {
-								
-								//console.log(nodeslst)
-								//console.log(linkslst)
-								
-								jsonObj["nodes"] = nodeslst
-								jsonObj["links"] = linkslst
-								
-								Main_visualization_code(jsonObj)
-								Mainfunction(jsonObj)
-								
-								console.log('Second function');
-								resolve();
-								}, 1000); // Simulating an asynchronous operation with a timeout
-							});
-						}
-						
-						// Example usage
-						//const fileUrls = ['file1.txt', 'file2.txt', 'file3.txt','file4.txt', 'file5.txt', 'file6.txt','file7.txt', 'file8.txt', 'file9.txt','file10.txt', 'file11.txt'];
-						const fileUrls = filelist;
-
-						// Call the function and await its completion
-						async function startProcessing() {
-						  await processFilesSequentially(fileUrls);
-						  console.log('All files processed.');
-						  await secondFunction();
-						}
-
-						// Call the async function
-						startProcessing();
-
 					}
-					else {
-						alert("Your browser won't let you save this graph -- try upgrading your browser to IE 10+ or Chrome or Firefox.")
-					};
-				});	
-				//*/
-				
-				d3.select("#meta_file2").on("change", function(){
-					if (window.File && window.FileReader && window.FileList && window.Blob){
-						var uploadFile = this.files[0];
-						
-						var data_by_gp = [], cidx;
-						
-						d3.select("#para_slider").on("change", function(){						
-							
-							//scaling_val = d3.select('#para_slider').node().selectedOptions[0].value
-							scaling_val = d3.select('#para_slider')['_groups']['0']['0'].value
-							//console.log(d3.select('#para_slider')['_groups']['0']['0'].value)
+
+					async function processFile(fileUrl,i,chrow,fileno,xcorlst,ycorlst,ymax) {
+					  return new Promise((resolve, reject) => {
+						// Simulating an asynchronous operation, such as loading a file
+						setTimeout(() => {
+							console.log('fileno',fileno)
+							if(i==0){
+								if(xcorlst.length>0){
+									xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])//Math.max(xcorlst)
+									console.log('xmax',xmax)
+								}
+								if(ycorlst.length>0){
+									ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
+									console.log('ymax',ymax)
+								}
+								//console.log(fileUrl.name)
+								filenames.push(fileUrl.name)
+								var reader = new FileReader();
+								reader.readAsText(fileUrl);
 								
-							//console.log('scaling_val',scaling_val)
-							
-							async function callFunctionsInSequence() {
-							//await firstFunction();
-							await secondFunction();
-							await thirdFunction();
+								reader.onload = function(event) {
+									// Display the content of the file
+									var network_data = event.target.result;
+									var d_jsonobj = JSON.parse(network_data)
+									//console.log(d_jsonobj)
+									
+									d_jsonobj["nodes"].forEach(function(n){
+										n.id = n.id + "_" + fileno
+										if(chrow>0){
+											n.y = n.y + 50.0 + ymax
+										}
+										else{
+										}
+										nodeslst.push(n)
+										//console.log(n.x)
+										xcorlst.push(n.x)
+										ycorlst.push(n.y)
+									})
+									d_jsonobj["links"].forEach(function(n){
+										n.id = n.id + "_"+fileno
+										n.source = n.source + "_" + fileno
+										n.target = n.target + "_" + fileno
+										linkslst.push(n)
+									})
+								}
+								
+								xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
+								ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
+								
+								//console.log(`Processed file: ${fileUrl.name}`);
 							}
-
-							// Call the async function
-							callFunctionsInSequence();
+							else{
+								//xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
+								ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
+								
+								filenames.push(fileUrl.name)
+								var reader = new FileReader();
+								reader.readAsText(fileUrl);
+								//console.log('xmax1',xmax)
+								//console.log('ymax1',ymax)
+								//console.log('xcorlst',xcorlst)
+								reader.onload = function(event) {
+									// Display the content of the file
+									var network_data = event.target.result;
+									var d_jsonobj = JSON.parse(network_data)
+									//console.log(d_jsonobj)
+									
+									d_jsonobj["nodes"].forEach(function(n){
+										n.id = n.id + "_" + fileno
+										n.x = n.x + 50.0 + xmax
+										if(chrow>0){
+											n.y = n.y + 50.0 + ymax
+										}
+										else{
+										}
+										nodeslst.push(n)
+										xcorlst.push(n.x)
+										ycorlst.push(n.y)
+									})
+									d_jsonobj["links"].forEach(function(n){
+										n.id = n.id + "_" + fileno
+										n.source = n.source + "_" + fileno
+										n.target = n.target + "_" + fileno
+										linkslst.push(n)
+									})
+								}
+								xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
+								ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
+								
+								//console.log(`Processed file: ${fileUrl.name}`);
+							}
 							
+							
+							// Display the file name in a div
+							var fileNameDisplay1 = document.getElementById("fileNameDisplay1");
+							fileNameDisplay1.textContent = "Selected File: " + fileUrl.name;
+							
+						
+						  console.log(`Processed file: ${fileUrl.name}`);
+						  resolve();
+						  return ymax
+						}, 1000); // Simulated delay, adjust as needed
+					  });
+					}
+					
+					function secondFunction() {
+						return new Promise(resolve => {
+							setTimeout(() => {
+							
+							//console.log(nodeslst)
+							//console.log(linkslst)
+							
+							jsonObj["nodes"] = nodeslst
+							jsonObj["links"] = linkslst
+							
+							Main_visualization_code(jsonObj)
+							Mainfunction(jsonObj)
+							
+							console.log('Second function');
+							resolve();
+							}, 1000); // Simulating an asynchronous operation with a timeout
 						});
-						
-						$('#assign_gp').multiselect('dataprovider', no_of_grps);
-						
-						//$('#data_analysis').multiselect('dataprovider', Methods);
-						
-						//var variable_para = [
-						//	{'label': 'None', value: 'None'},
-						//	{'label': 'scaling', value: 'variation'}
-						//]
-						
-						//$('#var_para').multiselect('dataprovider', variable_para);
-						
-						
-						// Example functions that return promises
-						function firstFunction() {
-							return new Promise(resolve => {
-								setTimeout(() => {
-								
-								if(uploadFile.type.includes("excel") || uploadFile.type.includes("text")){
-									var reader = new FileReader();
-									console.log(uploadFile)
-									reader.readAsText(uploadFile);
-									reader.onload = function(event){
-										var csv = event.target.result,
-											data = $.csv.toArrays(csv),
-											keys = data[0];
-										//console.log('keys',keys)
-										var G1 = [],G2 = [],G3 = [], Gp = [];
+					}
+					
+					// Example usage
+					//const fileUrls = ['file1.txt', 'file2.txt', 'file3.txt','file4.txt', 'file5.txt', 'file6.txt','file7.txt', 'file8.txt', 'file9.txt','file10.txt', 'file11.txt'];
+					const fileUrls = filelist;
 
-										keys.forEach(function(d,i){
-											if(i>1){
-												var group = d.split("_")
-												G1.push({'label':group[0],'value':group[0]})
-												G2.push({'label':group[1],'value':group[1]})
-												G3.push({'label':group[2],'value':group[2]})
-											}
-										});
-										
-										data.forEach(function(d,i){
-											if(i>0)
-												Gp.push({'label':d[1],'value':d[1]})
-										})
-										
-										Gp.push({'label':"M",'value':"M"})
-										Gp.push({'label':"R",'value':"R"})
-										
-										G1.push({'label':"None",'value':"None"})
-										//G2.push({'label':"None",'value':"None"})
-										
-										data_group = removeDuplicates(G1, "value");
-										ab_data = removeDuplicates(G2, "value");
-										time_data = removeDuplicates(G3, "value");
-										no_of_grps = removeDuplicates(Gp, "value");
-										
-										data_group.sort(compare);
-										ab_data.sort(compare);
-										time_data.sort(compare);
-										
-										Gval = data_group[0].value
-										//Abval = ab_data[0].value
-										tval = time_data[0].value
-										
-										for(let i=0; i<ab_data.length; i++){
-											if(ab_data[i].value=="C"){
-												ab_data[i]["disabled"] = true;
-												//attributes_obj[3]["children"][1]["disabled"] = true;		
-											}
-											else{
-												Abval = ab_data[i].value
-											}
-										}
-										
-										var container1 = {}; // main object
-										
-										for(let e1 = 0; e1<data_group.length; e1++){
-											var container2 = { }; // main object
-											for(let e2 = 0; e2<ab_data.length; e2++){
-												var nodesele = [];
-												
-												for(var row in data) {
-													if(row>0){
-														var container3 = { }; // main object
-														for(let e3 = 0; e3<time_data.length; e3++){
-															let column = data_group[e1].value + "_" + ab_data[e2].value + "_" + time_data[e3].value
-															let idx = keys.findIndex(x => x === column); 
-															container3[time_data[e3].value] = parseFloat(data[row][idx])
-															container3["name"] = data[row][0];	
-															container3["gp"] = data[row][1];	
-														}
-														nodesele.push(container3);
-													}
-												}
-												let obj = {};
-												obj["nodes"] = nodesele;
-												obj["links"] = [];
-												container2[ab_data[e2].value] = obj;
-											}
-											container1[data_group[e1].value] = container2;
-										}
-										//console.log('container1',container1)
-										cdata = jQuery.extend(true, {}, container1);
-										
-										let ab_data_lst = [];
-										ab_data.forEach(function(ab){
-											ab_data_lst.push(ab.value)
-										})
-										
-										cidx = ab_data_lst.findIndex(x => x === "C"); 
-										
-										data_by_gp = get_data_std(cdata,cidx);
-										
-										$('#data_group').multiselect('dataprovider', data_group);
-											
-										$('#ab_data').multiselect('dataprovider', ab_data);
+					// Call the function and await its completion
+					async function startProcessing() {
+					  await processFilesSequentially(fileUrls);
+					  console.log('All files processed.');
+					  await secondFunction();
+					}
 
-										$('#time_data').multiselect('dataprovider', time_data);
-										
-										$('#assign_gp').multiselect('dataprovider', no_of_grps);
-																		
-										no_of_grps.forEach(function(gp){
-											Methods.push({'label':gp.value, 'children': basic_Methods})
-										})
-										
-										$('#data_analysis').multiselect('dataprovider', Methods);
-										
-										// Display the file name in a div
-										var fileNameDisplay2 = document.getElementById("fileNameDisplay2");
-										fileNameDisplay2.textContent = "Selected File: " + uploadFile.name;
-										
+					// Call the async function
+					startProcessing();
 
-									};
-									reader.onerror = function(){ alert('Unable to read ' + uploadFile.name); };
-								}
-								
-								else{
-									alert("Your datafile is not in correct format! \n\n Only CSV formats")
-								}
-								
-								
-								
-
-								console.log('First function');
-								resolve();
-								}, 2000); // Simulating an asynchronous operation with a timeout
-							});
-						}
-
-						function secondFunction() {
-							return new Promise(resolve => {
-								setTimeout(() => {
-								
-								Gval = d3.select('#data_group').node().selectedOptions[0].value;
-								tval = d3.select('#time_data').node().selectedOptions[0].value;
-								Abval = d3.select('#ab_data').node().selectedOptions[0].value;
-								
-								cdata_temp = jQuery.extend(true, {}, cdata);
-								//console.log('cdata_temp',cdata_temp)
-								
-								
-								//console.log('method',d3.select('#data_analysis').node().selectedOptions[0].value)
-								
-								//if(d3.select('#data_analysis').node().selectedOptions[0].value=="Control Normalization"){
-									
-								let gp_names = [], gp_name;
-								
-								/*
-								let ab_data_lst = [],cidx;
-								ab_data.forEach(function(ab){
-									ab_data_lst.push(ab.value)
-								})
-								
-								cidx = ab_data_lst.findIndex(x => x === "C"); 
-								*/
-								
-								no_of_grps.forEach(function(gp){
-									gp_names.push(" " + gp.value)
-								})
-								
-								//console.log(no_of_grps,"no_of_grps")
-								
-								$(".multiselect-container").find("li.active:not(.multiselect-group)").each(function(index, item) {
-									let gpname = $(this).prevAll(".multiselect-group:first");
-									if(gp_names.includes($(this).prevAll(".multiselect-group:first").text())){
-										gp_name = $(this).prevAll(".multiselect-group:first").text()
-									}
-								})
-								
-								
-								for(let i=0; i< ab_data.length; i++){
-									
-									if(i!=cidx){
-										let arr_n1 = copy_by_value(cdata_temp[Gval][ab_data[i].value]["nodes"])
-										//console.log('cdata_temp',cdata_temp)
-										arr_n1.forEach(function(n,k){
-											if((" " + n.gp)==gp_name){
-												let arr_n = copy_by_value(cdata_temp[Gval][ab_data[cidx].value]["nodes"])
-												let n2 = arr_n.filter(function(n1){
-													if(n1.name==n.name && (" " + n1.gp)==gp_name){
-														return n1
-													}
-												});
-												
-												let std_dev = 0.0;
-												
-												//console.log('data_by_gp',data_by_gp)
-												//console.log('n.gp',n.gp)
-												
-												data_by_gp[0][n.gp].forEach(function(n3){
-													if(n3.name==n.name){
-														std_dev = dev(n3["data-values"])
-													}
-												})
-								
-												//console.log("std",std_dev)
-												
-												for(let j=0; j<time_data.length; j++){
-													n[time_data[j].value] = (n[time_data[j].value]-n2[0][time_data[j].value])*scaling_val*1.0/std_dev + base_val*1.0
-													if((n[time_data[j].value])>20.0){
-														n[time_data[j].value] = 20.0
-													}
-													else if((n[time_data[j].value])<0.0){
-														n[time_data[j].value] = 0.0 
-													}
-												}
-											}
-										});	
-										cdata_temp[Gval][ab_data[i].value]["nodes"] = arr_n1.slice(); 									
-									}
-								}
-								
-								if(Object.keys(cdata_final).length==0){
-									cdata_final = jQuery.extend(true, {}, cdata_temp);
-								}
-								
-								for(let i=0; i< ab_data.length; i++){
-									for(let j=0; j<cdata_final[Gval][ab_data[i].value]["nodes"].length; j++ ){
-										let n = cdata_final[Gval][ab_data[i].value]["nodes"][j]
-										if((" " + n.gp)==gp_name){
-											var arr_n = cdata_temp[Gval][ab_data[i].value]["nodes"].slice();
-											var n2 = arr_n.filter(function(n1){
-												if(n1.name==n.name && (" " + n1.gp)==gp_name){
-													return n1
-												}
-											});
-											cdata_final[Gval][ab_data[i].value]["nodes"][j] = n2[0];
-										}
-									}
-								}	
-								
-								//console.log('cdata_final',cdata_final)
-								
-								
-								console.log('Second function');
-								resolve();
-								}, 1000); // Simulating an asynchronous operation with a timeout
-							});
-						}
+				}
+				else {
+					alert("Your browser won't let you save this graph -- try upgrading your browser to IE 10+ or Chrome or Firefox.")
+				};
+			});	
+			//*/
+			
+			d3.select("#meta_file2").on("change", function(){
+				if (window.File && window.FileReader && window.FileList && window.Blob){
+					var uploadFile = this.files[0];
+					
+					var data_by_gp = [], cidx;
+					
+					d3.select("#para_slider").on("change", function(){						
 						
-						function thirdFunction() {
-							return new Promise(resolve => {
-								setTimeout(() => {
-								
-								updateNet(cdata_final,Gval,Abval,tval)
-								
-								console.log('Third function');
-								resolve();
-								}, 1000); // Simulating an asynchronous operation with a timeout
-							});
-						}
-
-						// Async function to call two functions in sequence
+						//scaling_val = d3.select('#para_slider').node().selectedOptions[0].value
+						scaling_val = d3.select('#para_slider')['_groups']['0']['0'].value
+						//console.log(d3.select('#para_slider')['_groups']['0']['0'].value)
+							
+						//console.log('scaling_val',scaling_val)
+						
 						async function callFunctionsInSequence() {
-						await firstFunction();
+						//await firstFunction();
 						await secondFunction();
 						await thirdFunction();
 						}
@@ -1834,607 +1553,682 @@
 						// Call the async function
 						callFunctionsInSequence();
 						
-						function get_data_std(cdata,cidx){
-							let data_by_gp = [];
-								 
-							let arr_n = copy_by_value(cdata[Gval][ab_data[cidx].value]["nodes"])
-							
-							let gp_dic = {};
-							no_of_grps.forEach(function(gp){
-								//if((" " + gp.value)!=" M" && (" " + gp.value)!=" R"){
-								if((" " + gp.value)!=" R"){
-									let gp_cat = [];
-									arr_n.forEach(function(n1,k){
-										let dic = {};
-										let dummyarr = [];
-										ab_data.forEach(function(ab){
-											let arr_n1 = copy_by_value(cdata[Gval][ab.value]["nodes"])
-											
-											arr_n1.forEach(function(n,k){
-												if((" " + n.gp)==(" " + gp.value) && (n1.name==n.name)){
-													time_data.forEach(function(t){
-														dummyarr.push(n[t.value])
-													});	
-												}
-											});
-										});
-										if((" " + n1.gp)==(" " + gp.value)){
-											dic["name"] = n1.name;									
-											dic["data-values"] = dummyarr;
-											gp_cat.push(dic)
-										}
-									});
-									gp_dic[gp.value] = gp_cat;
-								}
-							});
-							data_by_gp.push(gp_dic);
-							//console.log("data_by_gp",data_by_gp)
-							return data_by_gp;
-							
-						};
-						
-						
-					}
-					else{
-						alert("Your browser won't let you save this graph -- try upgrading your browser to IE 10+ or Chrome or Firefox.")
-					};
-				});
-				
-			}
-			
-			function anotherdivremoveloader(){
-				$("#loadingDiv2").fadeOut(500, function() {
-				  // fadeOut complete. Remove the loading div
-				$("#loadingDiv2").remove(); //makes page more lightweight 
-				});
-			}
-			
-			 const imageUrls = [
-			'Screenshot from 2023-12-10 13-39-05.png',
-			'Screenshot from 2023-12-10 13-39-05-1.png',
-			'Screenshot from 2023-12-10 13-39-05.png',
-			'Screenshot from 2023-12-10 13-39-05-1.png'
-			];
-			
-			function addanotherdivloader1(){
-				
-				function addButtonToDiv() {
-					
-					var container = document.getElementById('loadingDiv2');
-					var myDiv = document.getElementById('myDiv_tutorial');
-					//var myDiv = document.createElement('div');
-					var button = document.createElement('button');
-					
-					function firstFunction123() {
-							return new Promise(resolve => {
-								setTimeout(() => {
-								
-								
-								//myDiv.id = 'myDiv_tutorial';
-								//myDiv.classList.add('solid_back');
-								// Create a button element
-								
-								//console.log('button',button)
-								// Set button text and attributes
-								button.textContent = 'Click Me';
-								button.classList.add('default-btn');
-								button.id = 'myButton12'; // Set a specific ID for the button if needed
-								button.addEventListener('click', function() {
-									
-									$("#myDiv_tutorial").fadeOut(500, function() {
-									  // fadeOut complete. Remove the loading div
-									$("#myDiv_tutorial").remove(); //makes page more lightweight 
-									});
-									//alert('Button Clicked!');
-								});
-								
-								//myDiv.textContent = 'some text';
-								//myDiv.style.zIndex = 1;
-								//myDiv.style.width = '100%';
-								//myDiv.style.height = '100%';
-								//myDiv.style.top = '0px';
-								//myDiv.style.left = '0px';
-								//myDiv.style.backgroundColor = 'rgba(0, 0, 0, 1.0)';
-								//myDiv.style.backgroundImage = `url('Screenshot from 2023-12-10 13-39-05-1.png')`;
-								//myDiv.style.backgroundPosition = 'center'; /* Adjust as needed: 'center', 'top', 'left', etc. */
-								//myDiv.style.backgroundRepeat = 'no-repeat'; /* Prevent image from repeating */
-								//myDiv.style.position = 'absolute';
-								
-								console.log('First function');
-								resolve();
-								}, 1000); // Simulating an asynchronous operation with a timeout
-							});
-					}
-					
-					function secondFunction123() {
-							return new Promise(resolve => {
-								setTimeout(() => {
-								
-								myDiv.appendChild(button);
-								container.appendChild(myDiv);
-								
-								console.log('Second function');
-								resolve();
-								}, 1000); // Simulating an asynchronous operation with a timeout
-							});
-						}
-					
-					//myDiv.textContent = 'This is a dynamically created div!';
-					async function callFunctionsInSequence123() {
-					await firstFunction123();
-					await secondFunction123();
-					}
-					// Call the async function
-					callFunctionsInSequence123();
-				}
-				
-				//addButtonToDiv();
-
-				function thirdFunction_tutorial() {
-					return new Promise(resolve => {
-						setTimeout(() => {
-						
-						addButtonToDiv();
-						
-						console.log('Third function');
-						resolve();
-						}, 10000); // Simulating an asynchronous operation with a timeout
 					});
-				}
-			
-				function firstFunction_tutorial() {
-					return new Promise(resolve => {
-						setTimeout(() => {
-							
-						var picIndex = 0
-							
-						function changeBackgroundImage() {
-							//var container = document.getElementById('loadingDiv2');
-							//console.log(container)
-							var myDiv = document.getElementById('myDiv_tutorial');	
-							myDiv.classList.add('solid_back');
-							myDiv.style.zIndex = 1;
-							myDiv.style.width = '100%';
-							myDiv.style.height = '100%';
-							myDiv.style.top = '0px';
-							myDiv.style.left = '0px';
-							myDiv.style.backgroundPosition = 'center'; /* Adjust as needed: 'center', 'top', 'left', etc. */
-							myDiv.style.backgroundRepeat = 'no-repeat'; /* Prevent image from repeating */
-							myDiv.style.position = 'absolute';
-							
-							//var divbackElement = document.getElementById('dropmenu_species_div_container_id1');	
-							//console.log(divbackElement)
-							
-							//document.body.style.backgroundImage = `url('${imageUrls[randomIndex]}')`;
-							myDiv.style.backgroundImage = `url('${imageUrls[picIndex]}')`;
-							picIndex++
-						}
-							
-						// Initial background image change
-						changeBackgroundImage();
-						
-						// Change the background image every 5000 milliseconds (5 seconds)
-						if(picIndex<imageUrls.length-1){
-							setInterval(changeBackgroundImage, 1000);
-						}
-						else{
-						}
-						
-						console.log('First function');
-						resolve();
-						}, 100); // Simulating an asynchronous operation with a timeout
-					});
-				}
-				
-				function secondFunction_tutorial() {
-					return new Promise(resolve => {
-						setTimeout(() => {
-				
-						// Text to be displayed
-						var textToType = "Hello, World! This is a typing effect. \nThis section summarizes the document's content, which covers multiple popular biological databases, \nthe data they contain, how to access it, and the associated license requirements. ";
-
-						// Index to track the current position in the text
-						var currentIndex = 0;
-
-						// Reference to the typing text div
-						var typingTextElement = document.getElementById('myDiv_tutorial');
-						
-						//typingTextElement.classList.add('typing-text');
-						typingTextElement.style.fontFamily = 'monospace';
-						typingTextElement.style.fontSize = '2.5em';
-						typingTextElement.style.animation = 'typing 3s steps(40) infinite';
-						typingTextElement.style.overflow = 'hidden';
-
-						var count = 0
-
-						// Interval function to simulate typing effect
-						var typingInterval = setInterval(function() {
-							// Check if there are more characters to type
-							if (currentIndex < textToType.length) {
-								// Append the next character to the typing text
-								typingTextElement.innerHTML += textToType.charAt(currentIndex);
-
-								// If the character is a line break, create a new paragraph
-								if (textToType.charAt(currentIndex) === '\n') {
-									typingTextElement.innerHTML += '<p>';
-									count++
-								}
-
-								//var myParagraph = document.querySelector('p'); // You can use other methods to select the paragraph
-
-								// Assign a dynamic ID to the paragraph
-								//myParagraph.setAttribute('id', 'para1');
-
-								currentIndex++;
-							} else {
-								// Stop the interval once all characters are typed
-								clearInterval(typingInterval);
-							}
-						}, 40); // Adjust the interval time as needed
 					
-					console.log('Second function');
-						resolve();
-						}, 1000); // Simulating an asynchronous operation with a timeout
-					});
-				}
-				
-				//myDiv.textContent = 'This is a dynamically created div!';
-				async function callFunctionsInSequence_tutorial() {
-				await firstFunction_tutorial();
-				await secondFunction_tutorial();
-				await thirdFunction_tutorial();
-				console.log("DOne")
-				}
-
-				// Call the async function
-				callFunctionsInSequence_tutorial();
-				
-			}
-			
-			function addanotherdivloader2(){
-				
-				function addButtonToDiv() {
+					$('#assign_gp').multiselect('dataprovider', no_of_grps);
 					
-					var container = document.getElementById('loadingDiv2');
-					var myDiv = document.getElementById('myDiv_loadfiles');
-					var myDiv2 = document.getElementById('loadfilediv1');
-					var myDiv3 = document.getElementById('loadfilediv2');
-					var myDiv4 = document.getElementById('loadfilediv3');
+					//$('#data_analysis').multiselect('dataprovider', Methods);
 					
-					var mytextDiv1 = document.getElementById('fileNameDisplay1');
-					var mytextDiv2 = document.getElementById('fileNameDisplay2');
+					//var variable_para = [
+					//	{'label': 'None', value: 'None'},
+					//	{'label': 'scaling', value: 'variation'}
+					//]
 					
-					console.log('myDiv',myDiv)
-					//var myDiv = document.createElement('div');
-					var button1 = document.createElement('button');
-					var button2 = document.createElement('button');
-					var button3 = document.createElement('button');
-					
-					//var myDiv = document.getElementById('myDiv_loadfiles');	
-					myDiv.classList.add('dropmenu_div_container');
-					myDiv2.classList.add('dropmenu_div_container2');
-					myDiv3.classList.add('dropmenu_div_container2');
-					myDiv4.classList.add('dropmenu_div_container2');
-					mytextDiv1.classList.add('dropmenu_div_container3');
-					mytextDiv2.classList.add('dropmenu_div_container3');
-					
-					myDiv2.style.position = 'absolute';
-					myDiv2.style.width = '90%';
-					myDiv2.style.height = '20px';
-					myDiv2.style.top = '0px';
-					myDiv2.style.left = '50px';
-					
-					myDiv3.style.position = 'absolute';
-					myDiv3.style.width = '90%';
-					myDiv3.style.height = '20px';
-					myDiv3.style.top = '100px';
-					myDiv3.style.left = '50px';
-					
-					myDiv4.style.position = 'absolute';
-					myDiv4.style.width = '90%';
-					myDiv4.style.height = '20px';
-					myDiv4.style.top = '300px';
-					myDiv4.style.left = '500px';
-					
-					mytextDiv1.style.position = 'absolute';
-					mytextDiv1.style.width = '40%';
-					mytextDiv1.style.height = '20px';
-					mytextDiv1.style.top = '90px';
-					mytextDiv1.style.left = '700px';
-					
-					mytextDiv2.style.position = 'absolute';
-					mytextDiv2.style.width = '50%';
-					mytextDiv2.style.height = '20px';
-					mytextDiv2.style.top = '120px';
-					mytextDiv2.style.left = '700px';
+					//$('#var_para').multiselect('dataprovider', variable_para);
 					
 					
-					//myDiv.classList.add('solid_back');
-					myDiv.style.zIndex = 2;
-					myDiv.style.position = 'absolute';
-					myDiv.style.width = '100%';
-					myDiv.style.height = '100%';
-					myDiv.style.top = '0px';
-					myDiv.style.left = '0px';
-					myDiv.style.backgroundColor = 'rgba(255, 255, 255, 1.0)';
-					//myDiv.style.width = '100%';
-					//myDiv.style.height = '100%';
-					//myDiv.style.top = '0px';
-					//myDiv.style.left = '0px';
-					
-					// Create a new heading element
-					var heading1 = document.createElement("h1");
-					var heading2 = document.createElement("h1");
-					
-					function firstFunction123() {
-							return new Promise(resolve => {
-								setTimeout(() => {
-								
-								//myDiv.id = 'myDiv_tutorial';
-								//myDiv.classList.add('solid_back');
-								// Create a button element
-								
-								//console.log('button',button)
-								// Set button text and attributes
-								
-								// Set the text content of the heading
-								heading1.textContent = "Load Network files:";
-								
-								button1.textContent = 'Load file';
-								button1.classList.add('default-btn');
-								button1.id = 'myButton1'; // Set a specific ID for the button if needed
-								button1.addEventListener('click', function() {
-									var uploadfile = document.getElementById("networkfileInput").click();
-									//alert('Button Clicked!');
-								});
-								
-								// Set the text content of the heading
-								heading2.textContent = "Load Data files:";
-								
-								button2.textContent = 'Load file';
-								button2.classList.add('default-btn');
-								button2.id = 'myButton2'; // Set a specific ID for the button if needed
-								button2.addEventListener('click', function() {
-									var uploadfile = document.getElementById("meta_file2").click();
-								});
-								
-								button3.textContent = 'Finish';
-								button3.classList.add('default-btn');
-								button3.id = 'myButton3'; // Set a specific ID for the button if needed
-								button3.addEventListener('click', function() {
-									
-									$("#myDiv_loadfiles").fadeOut(500, function() {
-									  // fadeOut complete. Remove the loading div
-									$("#myDiv_loadfiles").remove(); //makes page more lightweight 
-									});
-									
-									$("#loadingDiv2").fadeOut(500, function() {
-									  // fadeOut complete. Remove the loading div
-									$("#loadingDiv2").remove(); //makes page more lightweight 
-									});
-									//alert('Button Clicked!');
-								});
-								
-								console.log('First function');
-								resolve();
-								}, 200); // Simulating an asynchronous operation with a timeout
-							});
-					}
-					
-					function secondFunction123() {
-							return new Promise(resolve => {
-								setTimeout(() => {
-								myDiv2.appendChild(heading1);
-								myDiv2.appendChild(button1);
-								myDiv3.appendChild(heading2);
-								myDiv3.appendChild(button2);
-								myDiv4.appendChild(button3);
-								//container.appendChild(myDiv);
-								
-								console.log('Second function');
-								resolve();
-								}, 200); // Simulating an asynchronous operation with a timeout
-							});
-						}
-					
-					//myDiv.textContent = 'This is a dynamically created div!';
-					async function callFunctionsInSequence123() {
-					await firstFunction123();
-					await secondFunction123();
-					}
-					// Call the async function
-					callFunctionsInSequence123();
-				}
-				
-				//addButtonToDiv();
-
-				function thirdFunction_tutorial() {
-					return new Promise(resolve => {
-						setTimeout(() => {
-						
-						addButtonToDiv();
-						
-						console.log('Third function');
-						resolve();
-						}, 100); // Simulating an asynchronous operation with a timeout
-					});
-				}
-			
-				//myDiv.textContent = 'This is a dynamically created div!';
-				async function callFunctionsInSequence_tutorial() {
-				//await firstFunction_tutorial();
-				//await secondFunction_tutorial();
-				await thirdFunction_tutorial();
-				console.log("DOne")
-				}
-
-				// Call the async function
-				callFunctionsInSequence_tutorial();
-				
-			}
-			
-			function addanotherdivloader3(){
-				
-				var ncbi_category = "undefined"
-				
-				function addButtonToDiv() {
-					
-					var container = document.getElementById('loadingDiv2');
-					var myDiv = document.getElementById('myDiv_buildnet');
-					
-					console.log('myDiv',myDiv)
-					//var myDiv = document.createElement('div');
-					var button1 = document.createElement('button');
-					var button2 = document.createElement('button');
-					var button3 = document.createElement('button');
-					
-					//var myDiv = document.getElementById('myDiv_loadfiles');	
-					myDiv.classList.add('btn_div_container');
-					
-					//myDiv.classList.add('solid_back');
-					myDiv.style.zIndex = 2;
-					myDiv.style.position = 'absolute';
-					myDiv.style.width = '100%';
-					//myDiv.style.height = '100%';
-					myDiv.style.top = '0px';
-					myDiv.style.left = '0px';
-					myDiv.style.backgroundColor = 'rgba(255, 255, 255, 1.0)';
-					//myDiv.style.width = '100%';
-					//myDiv.style.height = '100%';
-					//myDiv.style.top = '0px';
-					//myDiv.style.left = '0px';
-					
-					
-					function read_url_ncbi_species(value){
-						
-						var value1 = value.concat('/')
-						
-						var url = prefix_url.concat(value1)
-						//console.log(url)
-						
-						//var url = 'https://ftp.ncbi.nlm.nih.gov/genomes/refseq/archaea/'
-
-						fetch(url)
-							.then(response => response.text())
-							.then(html => {
-						// Create a temporary container to parse the HTML
-						const container = document.createElement('div');
-						container.innerHTML = html;
-
-						// Get all anchor tags (hyperlinks)
-						const links = container.querySelectorAll('a');
-						// Loop through each link and print its href attribute
-
-						var drop_menu_1_data = []
-						drop_menu_1_data.push({'label':'Select Species','value':'Select Species'})
-						
-						var nlinks = links.length;
-						
-						links.forEach(function(link,i){
-							let linkarr = link.href.split('/');
-							let lastele = linkarr.pop();
-							let seclastele = linkarr.pop();
-							
-							if (i>0 && i<links.length-4){
-								drop_menu_1_data.push({'label':seclastele,'value':seclastele})
-							}
-						});
-
-						$('#drop_menu_1').multiselect('dataprovider', drop_menu_1_data);
-
-						})
-						.catch(error => console.error('Error fetching data:', error));
-					}		
-					
-					function ncbi_button_action(ncbi_btn){
-						// Retrieve the button's value and log it to the console
-						var buttonValue = ncbi_btn.value;
-						read_url_ncbi_species(buttonValue);
-						//console.log('Button value:', buttonValue);
-					  
-						var hiddenDiv1 = document.getElementById('speciesloadingIcon');
-						hiddenDiv1.style.display = 'block';
-						var hiddenDiv2 = document.getElementById('species_loading_h1_id');
-						hiddenDiv2.style.display = 'block';
-						ncbi_category = buttonValue
-						
-					}
-					
-					function hideLoadingIcon() {
-						var loadingIcon = document.getElementById("speciesloadingIcon");
-						var loadingIcon2 = document.getElementById("species_loading_h1_id");
-						loadingIcon.style.display = 'none';
-						loadingIcon2.style.display = 'none';
-						
-						var hiddenDiv1 = document.getElementById('dropmenu_species_div_container_id1');
-						hiddenDiv1.style.display = 'flex';
-						var hiddenDiv1 = document.getElementById('dropmenu_pathways_div_container_id2');
-						hiddenDiv1.style.display = 'flex';
-					}
-
-					function firstFunction123() {
-							return new Promise(resolve => {
-								setTimeout(() => {
-								
-								//myDiv.id = 'myDiv_tutorial';
-								//myDiv.classList.add('solid_back');
-								// Create a button element
-								
-								//console.log('button',button)
-								// Set button text and attributes
-								
-								button1.textContent = 'Archaea';
-								button1.classList.add('default-btn');
-								button1.id = 'Archaea'; // Set a specific ID for the button if needed
-								button1.value = 'archaea'; // Set a specific ID for the button if needed
-								button1.addEventListener('click', function() {									
-									let ncbi_btn1 = document.getElementById('Archaea');
-									ncbi_button_action(ncbi_btn1);
-									console.log('ncbi_btn1',ncbi_btn1)
-									// Set a timeout (e.g., 3000 milliseconds) to hide the loading icon
-									setTimeout(hideLoadingIcon, 15000); // Adjust the duration as needed
-								});
-								
-								button2.textContent = 'Bacteria';
-								button2.classList.add('default-btn');
-								button2.id = 'Bacteria'; // Set a specific ID for the button if needed
-								button2.value = 'bacteria'; // Set a specific ID for the button if needed
-								button2.addEventListener('click', function() {
-									let ncbi_btn2 = document.getElementById('Bacteria');
-									ncbi_button_action(ncbi_btn2);
-									// Set a timeout (e.g., 3000 milliseconds) to hide the loading icon
-									setTimeout(hideLoadingIcon, 15000); // Adjust the duration as needed
-								});
-								
-								button3.textContent = 'Finish';
-								button3.classList.add('default-btn');
-								button3.id = 'myButton3_bldnet'; // Set a specific ID for the button if needed
-								button3.addEventListener('click', function() {
-									
-									$("#myDiv_loadfiles").fadeOut(500, function() {
-									  // fadeOut complete. Remove the loading div
-									$("#myDiv_loadfiles").remove(); //makes page more lightweight 
-									});
-									
-									$("#loadingDiv2").fadeOut(500, function() {
-									  // fadeOut complete. Remove the loading div
-									$("#loadingDiv2").remove(); //makes page more lightweight 
-									});
-									//alert('Button Clicked!');
-								});
-								
-								console.log('First function');
-								resolve();
-								}, 200); // Simulating an asynchronous operation with a timeout
-							});
-					}
-					
-					function secondFunction123(){
+					// Example functions that return promises
+					function firstFunction() {
 						return new Promise(resolve => {
 							setTimeout(() => {
-							myDiv.appendChild(button1);
-							myDiv.appendChild(button2);
-							myDiv.appendChild(button3);
+							
+							if(uploadFile.type.includes("excel") || uploadFile.type.includes("text")){
+								var reader = new FileReader();
+								console.log(uploadFile)
+								reader.readAsText(uploadFile);
+								reader.onload = function(event){
+									var csv = event.target.result,
+										data = $.csv.toArrays(csv),
+										keys = data[0];
+									//console.log('keys',keys)
+									var G1 = [],G2 = [],G3 = [], Gp = [];
+
+									keys.forEach(function(d,i){
+										if(i>1){
+											var group = d.split("_")
+											G1.push({'label':group[0],'value':group[0]})
+											G2.push({'label':group[1],'value':group[1]})
+											G3.push({'label':group[2],'value':group[2]})
+										}
+									});
+									
+									data.forEach(function(d,i){
+										if(i>0)
+											Gp.push({'label':d[1],'value':d[1]})
+									})
+									
+									Gp.push({'label':"M",'value':"M"})
+									Gp.push({'label':"R",'value':"R"})
+									
+									G1.push({'label':"None",'value':"None"})
+									//G2.push({'label':"None",'value':"None"})
+									
+									data_group = removeDuplicates(G1, "value");
+									ab_data = removeDuplicates(G2, "value");
+									time_data = removeDuplicates(G3, "value");
+									no_of_grps = removeDuplicates(Gp, "value");
+									
+									data_group.sort(compare);
+									ab_data.sort(compare);
+									time_data.sort(compare);
+									
+									Gval = data_group[0].value
+									//Abval = ab_data[0].value
+									tval = time_data[0].value
+									
+									for(let i=0; i<ab_data.length; i++){
+										if(ab_data[i].value=="C"){
+											ab_data[i]["disabled"] = true;
+											//attributes_obj[3]["children"][1]["disabled"] = true;		
+										}
+										else{
+											Abval = ab_data[i].value
+										}
+									}
+									
+									var container1 = {}; // main object
+									
+									for(let e1 = 0; e1<data_group.length; e1++){
+										var container2 = { }; // main object
+										for(let e2 = 0; e2<ab_data.length; e2++){
+											var nodesele = [];
+											
+											for(var row in data) {
+												if(row>0){
+													var container3 = { }; // main object
+													for(let e3 = 0; e3<time_data.length; e3++){
+														let column = data_group[e1].value + "_" + ab_data[e2].value + "_" + time_data[e3].value
+														let idx = keys.findIndex(x => x === column); 
+														container3[time_data[e3].value] = parseFloat(data[row][idx])
+														container3["name"] = data[row][0];	
+														container3["gp"] = data[row][1];	
+													}
+													nodesele.push(container3);
+												}
+											}
+											let obj = {};
+											obj["nodes"] = nodesele;
+											obj["links"] = [];
+											container2[ab_data[e2].value] = obj;
+										}
+										container1[data_group[e1].value] = container2;
+									}
+									//console.log('container1',container1)
+									cdata = jQuery.extend(true, {}, container1);
+									
+									let ab_data_lst = [];
+									ab_data.forEach(function(ab){
+										ab_data_lst.push(ab.value)
+									})
+									
+									cidx = ab_data_lst.findIndex(x => x === "C"); 
+									
+									data_by_gp = get_data_std(cdata,cidx);
+									
+									$('#data_group').multiselect('dataprovider', data_group);
+										
+									$('#ab_data').multiselect('dataprovider', ab_data);
+
+									$('#time_data').multiselect('dataprovider', time_data);
+									
+									$('#assign_gp').multiselect('dataprovider', no_of_grps);
+																	
+									no_of_grps.forEach(function(gp){
+										Methods.push({'label':gp.value, 'children': basic_Methods})
+									})
+									
+									$('#data_analysis').multiselect('dataprovider', Methods);
+									
+									// Display the file name in a div
+									var fileNameDisplay2 = document.getElementById("fileNameDisplay2");
+									fileNameDisplay2.textContent = "Selected File: " + uploadFile.name;
+									
+
+								};
+								reader.onerror = function(){ alert('Unable to read ' + uploadFile.name); };
+							}
+							
+							else{
+								alert("Your datafile is not in correct format! \n\n Only CSV formats")
+							}
+							
+							
+							
+
+							console.log('First function');
+							resolve();
+							}, 2000); // Simulating an asynchronous operation with a timeout
+						});
+					}
+
+					function secondFunction() {
+						return new Promise(resolve => {
+							setTimeout(() => {
+							
+							Gval = d3.select('#data_group').node().selectedOptions[0].value;
+							tval = d3.select('#time_data').node().selectedOptions[0].value;
+							Abval = d3.select('#ab_data').node().selectedOptions[0].value;
+							
+							cdata_temp = jQuery.extend(true, {}, cdata);
+							//console.log('cdata_temp',cdata_temp)
+							
+							
+							//console.log('method',d3.select('#data_analysis').node().selectedOptions[0].value)
+							
+							//if(d3.select('#data_analysis').node().selectedOptions[0].value=="Control Normalization"){
+								
+							let gp_names = [], gp_name;
+							
+							/*
+							let ab_data_lst = [],cidx;
+							ab_data.forEach(function(ab){
+								ab_data_lst.push(ab.value)
+							})
+							
+							cidx = ab_data_lst.findIndex(x => x === "C"); 
+							*/
+							
+							no_of_grps.forEach(function(gp){
+								gp_names.push(" " + gp.value)
+							})
+							
+							//console.log(no_of_grps,"no_of_grps")
+							
+							$(".multiselect-container").find("li.active:not(.multiselect-group)").each(function(index, item) {
+								let gpname = $(this).prevAll(".multiselect-group:first");
+								if(gp_names.includes($(this).prevAll(".multiselect-group:first").text())){
+									gp_name = $(this).prevAll(".multiselect-group:first").text()
+								}
+							})
+							
+							
+							for(let i=0; i< ab_data.length; i++){
+								
+								if(i!=cidx){
+									let arr_n1 = copy_by_value(cdata_temp[Gval][ab_data[i].value]["nodes"])
+									//console.log('cdata_temp',cdata_temp)
+									arr_n1.forEach(function(n,k){
+										if((" " + n.gp)==gp_name){
+											let arr_n = copy_by_value(cdata_temp[Gval][ab_data[cidx].value]["nodes"])
+											let n2 = arr_n.filter(function(n1){
+												if(n1.name==n.name && (" " + n1.gp)==gp_name){
+													return n1
+												}
+											});
+											
+											let std_dev = 0.0;
+											
+											//console.log('data_by_gp',data_by_gp)
+											//console.log('n.gp',n.gp)
+											
+											data_by_gp[0][n.gp].forEach(function(n3){
+												if(n3.name==n.name){
+													std_dev = dev(n3["data-values"])
+												}
+											})
+							
+											//console.log("std",std_dev)
+											
+											for(let j=0; j<time_data.length; j++){
+												n[time_data[j].value] = (n[time_data[j].value]-n2[0][time_data[j].value])*scaling_val*1.0/std_dev + base_val*1.0
+												if((n[time_data[j].value])>20.0){
+													n[time_data[j].value] = 20.0
+												}
+												else if((n[time_data[j].value])<0.0){
+													n[time_data[j].value] = 0.0 
+												}
+											}
+										}
+									});	
+									cdata_temp[Gval][ab_data[i].value]["nodes"] = arr_n1.slice(); 									
+								}
+							}
+							
+							if(Object.keys(cdata_final).length==0){
+								cdata_final = jQuery.extend(true, {}, cdata_temp);
+							}
+							
+							for(let i=0; i< ab_data.length; i++){
+								for(let j=0; j<cdata_final[Gval][ab_data[i].value]["nodes"].length; j++ ){
+									let n = cdata_final[Gval][ab_data[i].value]["nodes"][j]
+									if((" " + n.gp)==gp_name){
+										var arr_n = cdata_temp[Gval][ab_data[i].value]["nodes"].slice();
+										var n2 = arr_n.filter(function(n1){
+											if(n1.name==n.name && (" " + n1.gp)==gp_name){
+												return n1
+											}
+										});
+										cdata_final[Gval][ab_data[i].value]["nodes"][j] = n2[0];
+									}
+								}
+							}	
+							
+							//console.log('cdata_final',cdata_final)
+							
+							
+							console.log('Second function');
+							resolve();
+							}, 1000); // Simulating an asynchronous operation with a timeout
+						});
+					}
+					
+					function thirdFunction() {
+						return new Promise(resolve => {
+							setTimeout(() => {
+							
+							updateNet(cdata_final,Gval,Abval,tval)
+							
+							console.log('Third function');
+							resolve();
+							}, 1000); // Simulating an asynchronous operation with a timeout
+						});
+					}
+
+					// Async function to call two functions in sequence
+					async function callFunctionsInSequence() {
+					await firstFunction();
+					await secondFunction();
+					await thirdFunction();
+					}
+
+					// Call the async function
+					callFunctionsInSequence();
+					
+					function get_data_std(cdata,cidx){
+						let data_by_gp = [];
+							 
+						let arr_n = copy_by_value(cdata[Gval][ab_data[cidx].value]["nodes"])
+						
+						let gp_dic = {};
+						no_of_grps.forEach(function(gp){
+							//if((" " + gp.value)!=" M" && (" " + gp.value)!=" R"){
+							if((" " + gp.value)!=" R"){
+								let gp_cat = [];
+								arr_n.forEach(function(n1,k){
+									let dic = {};
+									let dummyarr = [];
+									ab_data.forEach(function(ab){
+										let arr_n1 = copy_by_value(cdata[Gval][ab.value]["nodes"])
+										
+										arr_n1.forEach(function(n,k){
+											if((" " + n.gp)==(" " + gp.value) && (n1.name==n.name)){
+												time_data.forEach(function(t){
+													dummyarr.push(n[t.value])
+												});	
+											}
+										});
+									});
+									if((" " + n1.gp)==(" " + gp.value)){
+										dic["name"] = n1.name;									
+										dic["data-values"] = dummyarr;
+										gp_cat.push(dic)
+									}
+								});
+								gp_dic[gp.value] = gp_cat;
+							}
+						});
+						data_by_gp.push(gp_dic);
+						//console.log("data_by_gp",data_by_gp)
+						return data_by_gp;
+						
+					};
+					
+					
+				}
+				else{
+					alert("Your browser won't let you save this graph -- try upgrading your browser to IE 10+ or Chrome or Firefox.")
+				};
+			});
+			
+		}
+		
+		function anotherdivremoveloader(){
+			$("#loadingDiv2").fadeOut(500, function() {
+			  // fadeOut complete. Remove the loading div
+			$("#loadingDiv2").remove(); //makes page more lightweight 
+			});
+		}
+		
+		 const imageUrls = [
+		'Screenshot from 2023-12-10 13-39-05.png',
+		'Screenshot from 2023-12-10 13-39-05-1.png',
+		'Screenshot from 2023-12-10 13-39-05.png',
+		'Screenshot from 2023-12-10 13-39-05-1.png'
+		];
+		
+		function addanotherdivloader1(){
+			
+			function addButtonToDiv() {
+				
+				var container = document.getElementById('loadingDiv2');
+				var myDiv = document.getElementById('myDiv_tutorial');
+				//var myDiv = document.createElement('div');
+				var button = document.createElement('button');
+				
+				function firstFunction123() {
+						return new Promise(resolve => {
+							setTimeout(() => {
+							
+							
+							//myDiv.id = 'myDiv_tutorial';
+							//myDiv.classList.add('solid_back');
+							// Create a button element
+							
+							//console.log('button',button)
+							// Set button text and attributes
+							button.textContent = 'Click Me';
+							button.classList.add('default-btn');
+							button.id = 'myButton12'; // Set a specific ID for the button if needed
+							button.addEventListener('click', function() {
+								
+								$("#myDiv_tutorial").fadeOut(500, function() {
+								  // fadeOut complete. Remove the loading div
+								$("#myDiv_tutorial").remove(); //makes page more lightweight 
+								});
+								//alert('Button Clicked!');
+							});
+							
+							//myDiv.textContent = 'some text';
+							//myDiv.style.zIndex = 1;
+							//myDiv.style.width = '100%';
+							//myDiv.style.height = '100%';
+							//myDiv.style.top = '0px';
+							//myDiv.style.left = '0px';
+							//myDiv.style.backgroundColor = 'rgba(0, 0, 0, 1.0)';
+							//myDiv.style.backgroundImage = `url('Screenshot from 2023-12-10 13-39-05-1.png')`;
+							//myDiv.style.backgroundPosition = 'center'; /* Adjust as needed: 'center', 'top', 'left', etc. */
+							//myDiv.style.backgroundRepeat = 'no-repeat'; /* Prevent image from repeating */
+							//myDiv.style.position = 'absolute';
+							
+							console.log('First function');
+							resolve();
+							}, 1000); // Simulating an asynchronous operation with a timeout
+						});
+				}
+				
+				function secondFunction123() {
+						return new Promise(resolve => {
+							setTimeout(() => {
+							
+							myDiv.appendChild(button);
+							container.appendChild(myDiv);
+							
+							console.log('Second function');
+							resolve();
+							}, 1000); // Simulating an asynchronous operation with a timeout
+						});
+					}
+				
+				//myDiv.textContent = 'This is a dynamically created div!';
+				async function callFunctionsInSequence123() {
+				await firstFunction123();
+				await secondFunction123();
+				}
+				// Call the async function
+				callFunctionsInSequence123();
+			}
+			
+			//addButtonToDiv();
+
+			function thirdFunction_tutorial() {
+				return new Promise(resolve => {
+					setTimeout(() => {
+					
+					addButtonToDiv();
+					
+					console.log('Third function');
+					resolve();
+					}, 10000); // Simulating an asynchronous operation with a timeout
+				});
+			}
+		
+			function firstFunction_tutorial() {
+				return new Promise(resolve => {
+					setTimeout(() => {
+						
+					var picIndex = 0
+						
+					function changeBackgroundImage() {
+						//var container = document.getElementById('loadingDiv2');
+						//console.log(container)
+						var myDiv = document.getElementById('myDiv_tutorial');	
+						myDiv.classList.add('solid_back');
+						myDiv.style.zIndex = 1;
+						myDiv.style.width = '100%';
+						myDiv.style.height = '100%';
+						myDiv.style.top = '0px';
+						myDiv.style.left = '0px';
+						myDiv.style.backgroundPosition = 'center'; /* Adjust as needed: 'center', 'top', 'left', etc. */
+						myDiv.style.backgroundRepeat = 'no-repeat'; /* Prevent image from repeating */
+						myDiv.style.position = 'absolute';
+						
+						//var divbackElement = document.getElementById('dropmenu_species_div_container_id1');	
+						//console.log(divbackElement)
+						
+						//document.body.style.backgroundImage = `url('${imageUrls[randomIndex]}')`;
+						myDiv.style.backgroundImage = `url('${imageUrls[picIndex]}')`;
+						picIndex++
+					}
+						
+					// Initial background image change
+					changeBackgroundImage();
+					
+					// Change the background image every 5000 milliseconds (5 seconds)
+					if(picIndex<imageUrls.length-1){
+						setInterval(changeBackgroundImage, 1000);
+					}
+					else{
+					}
+					
+					console.log('First function');
+					resolve();
+					}, 100); // Simulating an asynchronous operation with a timeout
+				});
+			}
+			
+			function secondFunction_tutorial() {
+				return new Promise(resolve => {
+					setTimeout(() => {
+			
+					// Text to be displayed
+					var textToType = "Hello, World! This is a typing effect. \nThis section summarizes the document's content, which covers multiple popular biological databases, \nthe data they contain, how to access it, and the associated license requirements. ";
+
+					// Index to track the current position in the text
+					var currentIndex = 0;
+
+					// Reference to the typing text div
+					var typingTextElement = document.getElementById('myDiv_tutorial');
+					
+					//typingTextElement.classList.add('typing-text');
+					typingTextElement.style.fontFamily = 'monospace';
+					typingTextElement.style.fontSize = '2.5em';
+					typingTextElement.style.animation = 'typing 3s steps(40) infinite';
+					typingTextElement.style.overflow = 'hidden';
+
+					var count = 0
+
+					// Interval function to simulate typing effect
+					var typingInterval = setInterval(function() {
+						// Check if there are more characters to type
+						if (currentIndex < textToType.length) {
+							// Append the next character to the typing text
+							typingTextElement.innerHTML += textToType.charAt(currentIndex);
+
+							// If the character is a line break, create a new paragraph
+							if (textToType.charAt(currentIndex) === '\n') {
+								typingTextElement.innerHTML += '<p>';
+								count++
+							}
+
+							//var myParagraph = document.querySelector('p'); // You can use other methods to select the paragraph
+
+							// Assign a dynamic ID to the paragraph
+							//myParagraph.setAttribute('id', 'para1');
+
+							currentIndex++;
+						} else {
+							// Stop the interval once all characters are typed
+							clearInterval(typingInterval);
+						}
+					}, 40); // Adjust the interval time as needed
+				
+				console.log('Second function');
+					resolve();
+					}, 1000); // Simulating an asynchronous operation with a timeout
+				});
+			}
+			
+			//myDiv.textContent = 'This is a dynamically created div!';
+			async function callFunctionsInSequence_tutorial() {
+			await firstFunction_tutorial();
+			await secondFunction_tutorial();
+			await thirdFunction_tutorial();
+			console.log("DOne")
+			}
+
+			// Call the async function
+			callFunctionsInSequence_tutorial();
+			
+		}
+		
+		function addanotherdivloader2(){
+			
+			function addButtonToDiv() {
+				
+				var container = document.getElementById('loadingDiv2');
+				var myDiv = document.getElementById('myDiv_loadfiles');
+				var myDiv2 = document.getElementById('loadfilediv1');
+				var myDiv3 = document.getElementById('loadfilediv2');
+				var myDiv4 = document.getElementById('loadfilediv3');
+				
+				var mytextDiv1 = document.getElementById('fileNameDisplay1');
+				var mytextDiv2 = document.getElementById('fileNameDisplay2');
+				
+				console.log('myDiv',myDiv)
+				//var myDiv = document.createElement('div');
+				var button1 = document.createElement('button');
+				var button2 = document.createElement('button');
+				var button3 = document.createElement('button');
+				
+				//var myDiv = document.getElementById('myDiv_loadfiles');	
+				myDiv.classList.add('dropmenu_div_container');
+				myDiv2.classList.add('dropmenu_div_container2');
+				myDiv3.classList.add('dropmenu_div_container2');
+				myDiv4.classList.add('dropmenu_div_container2');
+				mytextDiv1.classList.add('dropmenu_div_container3');
+				mytextDiv2.classList.add('dropmenu_div_container3');
+				
+				myDiv2.style.position = 'absolute';
+				myDiv2.style.width = '90%';
+				myDiv2.style.height = '20px';
+				myDiv2.style.top = '0px';
+				myDiv2.style.left = '50px';
+				
+				myDiv3.style.position = 'absolute';
+				myDiv3.style.width = '90%';
+				myDiv3.style.height = '20px';
+				myDiv3.style.top = '100px';
+				myDiv3.style.left = '50px';
+				
+				myDiv4.style.position = 'absolute';
+				myDiv4.style.width = '90%';
+				myDiv4.style.height = '20px';
+				myDiv4.style.top = '300px';
+				myDiv4.style.left = '500px';
+				
+				mytextDiv1.style.position = 'absolute';
+				mytextDiv1.style.width = '40%';
+				mytextDiv1.style.height = '20px';
+				mytextDiv1.style.top = '90px';
+				mytextDiv1.style.left = '700px';
+				
+				mytextDiv2.style.position = 'absolute';
+				mytextDiv2.style.width = '50%';
+				mytextDiv2.style.height = '20px';
+				mytextDiv2.style.top = '120px';
+				mytextDiv2.style.left = '700px';
+				
+				
+				//myDiv.classList.add('solid_back');
+				myDiv.style.zIndex = 2;
+				myDiv.style.position = 'absolute';
+				myDiv.style.width = '100%';
+				myDiv.style.height = '100%';
+				myDiv.style.top = '0px';
+				myDiv.style.left = '0px';
+				myDiv.style.backgroundColor = 'rgba(255, 255, 255, 1.0)';
+				//myDiv.style.width = '100%';
+				//myDiv.style.height = '100%';
+				//myDiv.style.top = '0px';
+				//myDiv.style.left = '0px';
+				
+				// Create a new heading element
+				var heading1 = document.createElement("h1");
+				var heading2 = document.createElement("h1");
+				
+				function firstFunction123() {
+						return new Promise(resolve => {
+							setTimeout(() => {
+							
+							//myDiv.id = 'myDiv_tutorial';
+							//myDiv.classList.add('solid_back');
+							// Create a button element
+							
+							//console.log('button',button)
+							// Set button text and attributes
+							
+							// Set the text content of the heading
+							heading1.textContent = "Load Network files:";
+							
+							button1.textContent = 'Load file';
+							button1.classList.add('default-btn');
+							button1.id = 'myButton1'; // Set a specific ID for the button if needed
+							button1.addEventListener('click', function() {
+								var uploadfile = document.getElementById("networkfileInput").click();
+								//alert('Button Clicked!');
+							});
+							
+							// Set the text content of the heading
+							heading2.textContent = "Load Data files:";
+							
+							button2.textContent = 'Load file';
+							button2.classList.add('default-btn');
+							button2.id = 'myButton2'; // Set a specific ID for the button if needed
+							button2.addEventListener('click', function() {
+								var uploadfile = document.getElementById("meta_file2").click();
+							});
+							
+							button3.textContent = 'Finish';
+							button3.classList.add('default-btn');
+							button3.id = 'myButton3'; // Set a specific ID for the button if needed
+							button3.addEventListener('click', function() {
+								
+								$("#myDiv_loadfiles").fadeOut(500, function() {
+								  // fadeOut complete. Remove the loading div
+								$("#myDiv_loadfiles").remove(); //makes page more lightweight 
+								});
+								
+								$("#loadingDiv2").fadeOut(500, function() {
+								  // fadeOut complete. Remove the loading div
+								$("#loadingDiv2").remove(); //makes page more lightweight 
+								});
+								//alert('Button Clicked!');
+							});
+							
+							console.log('First function');
+							resolve();
+							}, 200); // Simulating an asynchronous operation with a timeout
+						});
+				}
+				
+				function secondFunction123() {
+						return new Promise(resolve => {
+							setTimeout(() => {
+							myDiv2.appendChild(heading1);
+							myDiv2.appendChild(button1);
+							myDiv3.appendChild(heading2);
+							myDiv3.appendChild(button2);
+							myDiv4.appendChild(button3);
 							//container.appendChild(myDiv);
 							
 							console.log('Second function');
@@ -2442,157 +2236,436 @@
 							}, 200); // Simulating an asynchronous operation with a timeout
 						});
 					}
-					
-					//myDiv.textContent = 'This is a dynamically created div!';
-					async function callFunctionsInSequence123() {
-					await firstFunction123();
-					await secondFunction123();
-					}
-					// Call the async function
-					callFunctionsInSequence123();
-				}
 				
-				//addButtonToDiv();
+				//myDiv.textContent = 'This is a dynamically created div!';
+				async function callFunctionsInSequence123() {
+				await firstFunction123();
+				await secondFunction123();
+				}
+				// Call the async function
+				callFunctionsInSequence123();
+			}
+			
+			//addButtonToDiv();
 
-				function firstFunction_tutorial() {
-					return new Promise(resolve => {
-						setTimeout(() => {
-						
-						addButtonToDiv();
-						
-						console.log('Third function');
-						resolve();
-						}, 100); // Simulating an asynchronous operation with a timeout
-					});
-				}
-				
-				function secondFunction_tutorial() {
-					return new Promise(resolve => {
+			function thirdFunction_tutorial() {
+				return new Promise(resolve => {
 					setTimeout(() => {
-
-					const logFileText3 = async file => {
-						var KEGG_models = [];
-						const response = await fetch(file)
-						const text = await response.text()
-						var childNodes = [];
-						//childNodes.push({'label':'Organism specific list of pathways','value':'org_pathway_lst'})
-						text.split("\n").forEach(function(str){
-							let list = str.split(".json")
-							childNodes.push({'label':list[0],'value':list[0]})
-						});
-						KEGG_models.push({'label':'Selected ortholog maps','children':childNodes})
-						//console.log('KEGG_models',KEGG_models)
-						$('#KEGG_orth_models').multiselect('dataprovider', KEGG_models); 
-						//console.log("KEGG_models",KEGG_models)
-						
-					}
 					
-					logFileText3('Edited_ortholog_networks/ortholog_pathway_list.txt')
+					addButtonToDiv();
 					
-					var on_species_changed = function(){
-						var value = d3.select('#drop_menu_1').node().selectedOptions[0].value;
-						
-						var species = value.concat('/')
-						var ncbi_cat = ncbi_category.concat('/')
-						console.log(value)
-						console.log(ncbi_category)
-						var url = prefix_url.concat(ncbi_cat).concat(species).concat('representative/')
-						console.log(url)
-						
-						fetch(url)
-							.then(response => response.text())
-							.then(html => {
-						// Create a temporary container to parse the HTML
-						const container = document.createElement('div');
-						container.innerHTML = html;
-	
-						// Get all anchor tags (hyperlinks)
-						const links = container.querySelectorAll('a');
-	
-						// Loop through each link and print its href attribute
-	
-						//links.forEach(function(link,i){
-							let linkarr = links[1].href.split('/');
-							let lastele = linkarr.pop();
-							let seclastele = linkarr.pop();
-	
-							//if (i>0 && i<links.length-1){
-								console.log(seclastele)
-								var mod_url = url.concat(seclastele).concat('/').concat(seclastele).concat('_genomic.gff.gz')
-								ncbi_gene_annotation_url(mod_url)
-							//}
-						//});
-	
-						})
-						.catch(error => console.error('Error fetching data:', error));
-					}	
-							
-					var on_KEGG_orth_models_changed = function(){
-						var value = d3.select('#KEGG_orth_models').node().selectedOptions[0].value;
-						console.log(value)				
-					}			
-					
-					$('#drop_menu_1').multiselect({
-						buttonWidth: '300px',
-						multiple: false,
-						maxHeight: 250,
-						enableClickableOptGroups: true,
-						enableCollapsibleOptGroups: true,
-						collapseOptGroupsByDefault: true,
-						enableFiltering: true,
-						enableCaseInsensitiveFiltering: false,
-						filterPlaceholder: 'Cerca',
-						includeSelectAllOption: false,
-						selectAllJustVisible: false,
-						selectAllText: 'Select All',
-						nSelectedText: ' selected',
-						allSelectedText: 'All selected',
-						nonSelectedText: 'Select Species',
-						onChange: on_species_changed,
-						onSelectAll: on_species_changed,
-						onDeselectAll: on_species_changed
-					});
-								
-					$('#KEGG_orth_models').multiselect({
-						buttonWidth: '300px',
-						multiple: true,
-						maxHeight: 250,
-						enableClickableOptGroups: true,
-						enableCollapsibleOptGroups: true,
-						collapseOptGroupsByDefault: true,
-						enableFiltering: true,
-						enableCaseInsensitiveFiltering: false,
-						filterPlaceholder: 'Cerca',
-						includeSelectAllOption: false,
-						selectAllJustVisible: false,
-						selectAllText: 'Select All',
-						nSelectedText: ' selected',
-						allSelectedText: 'All selected',
-						nonSelectedText: 'Select Pathways',
-						onChange: on_KEGG_orth_models_changed,
-						onSelectAll: on_KEGG_orth_models_changed,
-						onDeselectAll: on_KEGG_orth_models_changed
-					});
-				
 					console.log('Third function');
 					resolve();
 					}, 100); // Simulating an asynchronous operation with a timeout
-					});
-				}
+				});
+			}
+		
+			//myDiv.textContent = 'This is a dynamically created div!';
+			async function callFunctionsInSequence_tutorial() {
+			//await firstFunction_tutorial();
+			//await secondFunction_tutorial();
+			await thirdFunction_tutorial();
+			console.log("DOne")
+			}
+
+			// Call the async function
+			callFunctionsInSequence_tutorial();
 			
-				//myDiv.textContent = 'This is a dynamically created div!';
-				async function callFunctionsInSequence_tutorial() {
-				await firstFunction_tutorial();
-				await secondFunction_tutorial();
-				//await thirdFunction_tutorial();
-				console.log("Done")
+		}
+
+		function ncbi_gene_annotation_url(url){
+			
+			fetch(url)  // Replace 'file.gz' with the actual path to your Gzip file
+			  .then(response => {
+				if (!response.ok) {
+				  throw new Error('Network response was not ok.');
+				}
+				return response.body;  // Get the response body as a ReadableStream
+			  })
+			  .then(stream => {
+				const decompressionStream = new DecompressionStream('gzip');
+				const readableStream = stream.pipeThrough(decompressionStream);
+
+				const reader = readableStream.getReader();
+				const decoder = new TextDecoder('utf-8');
+				let result = '';
+
+				function read() {
+				  reader.read().then(({ done, value }) => {
+					if (done) {
+						
+						// Split the content into lines
+						const lines = result.split('\n');
+						
+						// Initialize an object to store key-value pairs
+						const keyValuePairs = {};
+						
+						const nlines = lines.length;
+						
+						var genes_list = [];
+						
+						lines.slice(10,nlines).forEach(function(line){
+							var elems = line.split('\t');
+							if (elems.length > 8) {
+								var subElems = elems[8].split(';');
+								subElems.forEach(function (v) {
+									if (v.indexOf('Name') == 0 && v.indexOf('LOC') == -1 && v.indexOf('WP') == -1 && v.indexOf('XM') == -1 && v.indexOf('Unknown') == -1 && v.indexOf('XR') == -1 && v.indexOf('XP') == -1 && v.indexOf('RS') == -1 && v.indexOf('_') == -1 && v.indexOf('ACA') == -1) {
+										genes_list.push(v.slice(5));
+									}
+								});
+							}
+						});
+						
+						console.log(genes_list)
+						
+						var kegg_gene_lst = {'id':['K00001','K01623'],'gene':['adh','ALDO']}
+						
+						var dummy_genes = ['ALDO','adh']
+						
+						gene_indexs = []
+						dummy_genes.forEach(function(g,i){
+							if (kegg_gene_lst['gene'].indexOf(g)!=-1){
+								//console.log()
+								gene_indexs.push(kegg_gene_lst['gene'].indexOf(g))
+							}
+						})
+						console.log("gene_indexs",gene_indexs)
+						
+					} else {
+					  result += decoder.decode(value, { stream: true });
+					  read();
+					}
+				  });
 				}
 
+				read();
+			  })
+			  .catch(error => {
+				console.error('There was a problem with the fetch operation:', error);
+			  });
+			
+		}
+		
+		function addanotherdivloader3(){
+			
+			var ncbi_category = "undefined"
+			
+			function addButtonToDiv() {
+				
+				var container = document.getElementById('loadingDiv2');
+				var myDiv = document.getElementById('myDiv_buildnet');
+				
+				console.log('myDiv',myDiv)
+				//var myDiv = document.createElement('div');
+				var button1 = document.createElement('button');
+				var button2 = document.createElement('button');
+				var button3 = document.createElement('button');
+				
+				//var myDiv = document.getElementById('myDiv_loadfiles');	
+				myDiv.classList.add('btn_div_container');
+				
+				//myDiv.classList.add('solid_back');
+				myDiv.style.zIndex = 2;
+				myDiv.style.position = 'absolute';
+				myDiv.style.width = '100%';
+				//myDiv.style.height = '100%';
+				myDiv.style.top = '0px';
+				myDiv.style.left = '0px';
+				myDiv.style.backgroundColor = 'rgba(255, 255, 255, 1.0)';
+				//myDiv.style.width = '100%';
+				//myDiv.style.height = '100%';
+				//myDiv.style.top = '0px';
+				//myDiv.style.left = '0px';
+				
+				
+				function read_url_ncbi_species(value){
+					
+					var value1 = value.concat('/')
+					
+					var url = prefix_url.concat(value1)
+					//console.log(url)
+					
+					//var url = 'https://ftp.ncbi.nlm.nih.gov/genomes/refseq/archaea/'
+
+					fetch(url)
+						.then(response => response.text())
+						.then(html => {
+					// Create a temporary container to parse the HTML
+					const container = document.createElement('div');
+					container.innerHTML = html;
+
+					// Get all anchor tags (hyperlinks)
+					const links = container.querySelectorAll('a');
+					// Loop through each link and print its href attribute
+
+					var drop_menu_1_data = []
+					drop_menu_1_data.push({'label':'Select Species','value':'Select Species'})
+					
+					var nlinks = links.length;
+					
+					links.forEach(function(link,i){
+						let linkarr = link.href.split('/');
+						let lastele = linkarr.pop();
+						let seclastele = linkarr.pop();
+						
+						if (i>0 && i<links.length-4){
+							drop_menu_1_data.push({'label':seclastele,'value':seclastele})
+						}
+					});
+
+					$('#drop_menu_1').multiselect('dataprovider', drop_menu_1_data);
+
+					})
+					.catch(error => console.error('Error fetching data:', error));
+				}		
+				
+				function ncbi_button_action(ncbi_btn){
+					// Retrieve the button's value and log it to the console
+					var buttonValue = ncbi_btn.value;
+					read_url_ncbi_species(buttonValue);
+					//console.log('Button value:', buttonValue);
+				  
+					var hiddenDiv1 = document.getElementById('speciesloadingIcon');
+					hiddenDiv1.style.display = 'block';
+					var hiddenDiv2 = document.getElementById('species_loading_h1_id');
+					hiddenDiv2.style.display = 'block';
+					ncbi_category = buttonValue
+					
+				}
+				
+				function hideLoadingIcon() {
+					var loadingIcon = document.getElementById("speciesloadingIcon");
+					var loadingIcon2 = document.getElementById("species_loading_h1_id");
+					loadingIcon.style.display = 'none';
+					loadingIcon2.style.display = 'none';
+					
+					var hiddenDiv1 = document.getElementById('dropmenu_species_div_container_id1');
+					hiddenDiv1.style.display = 'flex';
+					var hiddenDiv1 = document.getElementById('dropmenu_pathways_div_container_id2');
+					hiddenDiv1.style.display = 'flex';
+				}
+
+				function firstFunction123() {
+						return new Promise(resolve => {
+							setTimeout(() => {
+							
+							//myDiv.id = 'myDiv_tutorial';
+							//myDiv.classList.add('solid_back');
+							// Create a button element
+							
+							//console.log('button',button)
+							// Set button text and attributes
+							
+							button1.textContent = 'Archaea';
+							button1.classList.add('default-btn');
+							button1.id = 'Archaea'; // Set a specific ID for the button if needed
+							button1.value = 'archaea'; // Set a specific ID for the button if needed
+							button1.addEventListener('click', function() {									
+								let ncbi_btn1 = document.getElementById('Archaea');
+								ncbi_button_action(ncbi_btn1);
+								console.log('ncbi_btn1',ncbi_btn1)
+								// Set a timeout (e.g., 3000 milliseconds) to hide the loading icon
+								setTimeout(hideLoadingIcon, 15000); // Adjust the duration as needed
+							});
+							
+							button2.textContent = 'Bacteria';
+							button2.classList.add('default-btn');
+							button2.id = 'Bacteria'; // Set a specific ID for the button if needed
+							button2.value = 'bacteria'; // Set a specific ID for the button if needed
+							button2.addEventListener('click', function() {
+								let ncbi_btn2 = document.getElementById('Bacteria');
+								ncbi_button_action(ncbi_btn2);
+								// Set a timeout (e.g., 3000 milliseconds) to hide the loading icon
+								setTimeout(hideLoadingIcon, 15000); // Adjust the duration as needed
+							});
+							
+							button3.textContent = 'Finish';
+							button3.classList.add('default-btn');
+							button3.id = 'myButton3_bldnet'; // Set a specific ID for the button if needed
+							button3.addEventListener('click', function() {
+								
+								$("#myDiv_loadfiles").fadeOut(500, function() {
+								  // fadeOut complete. Remove the loading div
+								$("#myDiv_loadfiles").remove(); //makes page more lightweight 
+								});
+								
+								$("#loadingDiv2").fadeOut(500, function() {
+								  // fadeOut complete. Remove the loading div
+								$("#loadingDiv2").remove(); //makes page more lightweight 
+								});
+								//alert('Button Clicked!');
+							});
+							
+							console.log('First function');
+							resolve();
+							}, 200); // Simulating an asynchronous operation with a timeout
+						});
+				}
+				
+				function secondFunction123(){
+					return new Promise(resolve => {
+						setTimeout(() => {
+						myDiv.appendChild(button1);
+						myDiv.appendChild(button2);
+						myDiv.appendChild(button3);
+						//container.appendChild(myDiv);
+						
+						console.log('Second function');
+						resolve();
+						}, 200); // Simulating an asynchronous operation with a timeout
+					});
+				}
+				
+				//myDiv.textContent = 'This is a dynamically created div!';
+				async function callFunctionsInSequence123() {
+				await firstFunction123();
+				await secondFunction123();
+				}
 				// Call the async function
-				callFunctionsInSequence_tutorial();
-				
+				callFunctionsInSequence123();
 			}
+			
+			//addButtonToDiv();
+
+			function firstFunction_tutorial() {
+				return new Promise(resolve => {
+					setTimeout(() => {
+					
+					addButtonToDiv();
+					
+					console.log('Third function');
+					resolve();
+					}, 100); // Simulating an asynchronous operation with a timeout
+				});
+			}
+			
+			function secondFunction_tutorial() {
+				return new Promise(resolve => {
+				setTimeout(() => {
+
+				const logFileText3 = async file => {
+					var KEGG_models = [];
+					const response = await fetch(file)
+					const text = await response.text()
+					var childNodes = [];
+					//childNodes.push({'label':'Organism specific list of pathways','value':'org_pathway_lst'})
+					text.split("\n").forEach(function(str){
+						let list = str.split(".json")
+						childNodes.push({'label':list[0],'value':list[0]})
+					});
+					KEGG_models.push({'label':'Selected ortholog maps','children':childNodes})
+					//console.log('KEGG_models',KEGG_models)
+					$('#KEGG_orth_models').multiselect('dataprovider', KEGG_models); 
+					//console.log("KEGG_models",KEGG_models)
+					
+				}
 				
+				logFileText3('Edited_ortholog_networks/ortholog_pathway_list.txt')
+				
+				var on_species_changed = function(){
+					var value = d3.select('#drop_menu_1').node().selectedOptions[0].value;
+					
+					var species = value.concat('/')
+					var ncbi_cat = ncbi_category.concat('/')
+					console.log(value)
+					console.log(ncbi_category)
+					var url = prefix_url.concat(ncbi_cat).concat(species).concat('representative/')
+					console.log(url)
+					
+					fetch(url)
+						.then(response => response.text())
+						.then(html => {
+					// Create a temporary container to parse the HTML
+					const container = document.createElement('div');
+					container.innerHTML = html;
+
+					// Get all anchor tags (hyperlinks)
+					const links = container.querySelectorAll('a');
+
+					// Loop through each link and print its href attribute
+
+					//links.forEach(function(link,i){
+						let linkarr = links[1].href.split('/');
+						let lastele = linkarr.pop();
+						let seclastele = linkarr.pop();
+
+						//if (i>0 && i<links.length-1){
+							console.log(seclastele)
+							var mod_url = url.concat(seclastele).concat('/').concat(seclastele).concat('_genomic.gff.gz')
+							ncbi_gene_annotation_url(mod_url)
+						//}
+					//});
+
+					})
+					.catch(error => console.error('Error fetching data:', error));
+				}	
+						
+				var on_KEGG_orth_models_changed = function(){
+					var value = d3.select('#KEGG_orth_models').node().selectedOptions[0].value;
+					console.log(value)				
+				}			
+				
+				$('#drop_menu_1').multiselect({
+					buttonWidth: '300px',
+					multiple: false,
+					maxHeight: 250,
+					enableClickableOptGroups: true,
+					enableCollapsibleOptGroups: true,
+					collapseOptGroupsByDefault: true,
+					enableFiltering: true,
+					enableCaseInsensitiveFiltering: false,
+					filterPlaceholder: 'Cerca',
+					includeSelectAllOption: false,
+					selectAllJustVisible: false,
+					selectAllText: 'Select All',
+					nSelectedText: ' selected',
+					allSelectedText: 'All selected',
+					nonSelectedText: 'Select Species',
+					onChange: on_species_changed,
+					onSelectAll: on_species_changed,
+					onDeselectAll: on_species_changed
+				});
+							
+				$('#KEGG_orth_models').multiselect({
+					buttonWidth: '300px',
+					multiple: true,
+					maxHeight: 250,
+					enableClickableOptGroups: true,
+					enableCollapsibleOptGroups: true,
+					collapseOptGroupsByDefault: true,
+					enableFiltering: true,
+					enableCaseInsensitiveFiltering: false,
+					filterPlaceholder: 'Cerca',
+					includeSelectAllOption: false,
+					selectAllJustVisible: false,
+					selectAllText: 'Select All',
+					nSelectedText: ' selected',
+					allSelectedText: 'All selected',
+					nonSelectedText: 'Select Pathways',
+					onChange: on_KEGG_orth_models_changed,
+					onSelectAll: on_KEGG_orth_models_changed,
+					onDeselectAll: on_KEGG_orth_models_changed
+				});
+			
+				console.log('Third function');
+				resolve();
+				}, 100); // Simulating an asynchronous operation with a timeout
+				});
+			}
+		
+			//myDiv.textContent = 'This is a dynamically created div!';
+			async function callFunctionsInSequence_tutorial() {
+			await firstFunction_tutorial();
+			await secondFunction_tutorial();
+			//await thirdFunction_tutorial();
+			console.log("Done")
+			}
+
+			// Call the async function
+			callFunctionsInSequence_tutorial();
+			
+		}
+			
 		
 	</script>
         
