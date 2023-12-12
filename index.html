@@ -2456,7 +2456,7 @@
 					// Retrieve the button's value and log it to the console
 					var buttonValue = ncbi_btn.value;
 
-					var logFileText3 = async file => {
+					var logFileText1 = async file => {
 						const response = await fetch(file)
 						const text = await response.text()
 						
@@ -2471,9 +2471,9 @@
 						$('#drop_menu_1').multiselect('dataprovider', drop_menu_1_data);
 					}
 					
-					logFileText3('Edited_ortholog_networks/bacteria_ncbi_list_4_minno.txt')
+					logFileText1('Edited_ortholog_networks/bacteria_ncbi_list_4_minno.txt')
 					
-					const logFileText3 = async file => {
+					var logFileText2 = async file => {
 						var KEGG_models = [];
 						const response = await fetch(file)
 						const text = await response.text()
@@ -2490,7 +2490,7 @@
 
 					}
 
-					logFileText3('Edited_ortholog_networks/ortholog_pathway_list.txt')
+					logFileText2('Edited_ortholog_networks/ortholog_pathway_list.txt')
 				  
 					var hiddenDiv1 = document.getElementById('speciesloadingIcon');
 					hiddenDiv1.style.display = 'block';
