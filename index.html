@@ -2621,7 +2621,7 @@
 
 	var dataset = true;
 
-	var settings = true;	
+	var settings = false;	
 	
 	var bodyd3keyup = d3.select("body").on('keyup', keyup);
 	
@@ -2837,114 +2837,114 @@
 	// creates an empty list
 	var neighbors1 = []
             
-		var gravity = 0.010
-		
-		var elecrep = -20.0
-		
-		var width = window.innerWidth - 250
-		
-		var height = window.innerHeight-0
-		
-		var svg = d3.select("body")     
-				.append("div")
-				.attr("id","div_main")
-				.append("svg")
-				.attr("id","svg_main")
-				//.attr('fill','yellow')
-				.attr('width', width)
-				.attr('height', height);
-            
-            d3.select("#svg_main").append("defs").append('g').attr('id','arrowHead');
-            d3.select("#svg_main").select("defs").append('g').attr('id','arrowEnd');
-            //d3.select("#svg_main").append("def2");
-              
-            // Above zoom thing need to be fixed. Required to make it passive event listeners.
-            var g_main = d3.select("#svg_main").append("g")
-                        .classed('g-main',true);
-
-            // Creates a group into svg element. Groups are good to apply same operation on each element within the group
-			var rect = g_main.append('rect')
-                .attr('width', width)
-                .attr('height', height)
-                .style('fill', 'white')
-                .style('stroke-width', 5)
-                .style('stroke','Black')
-                .attr('id','back_rect');
-
-            var gp = g_main.append("g")   
-                        .attr("id","network");
-            
-            var lnks = d3.select("#network").append("g")
-						 .attr("class", "links_g");
-						 
-			var nds = d3.select("#network").append("g")
-						.attr("class", "nodes_g");
-			
-			var txts = d3.select("#network").append("g")
-						 .attr("class","texts_g");
-						 
-			var lbs = d3.select("#network").append("g")
-						 .attr("class","labels_g");
-
-			var bdry = d3.select("#network").append("g")
-						 .attr("class","bdry_g");
-			
-			var brs = gp.append("g")
-						.attr("class","bars_g");
-
-			var imgs = gp.append("g")
-						.attr("class","images_g");
-                        
-            var gBrushHolder = g_main.append('g')
-									.attr('id','brush');
-									
-			var mouse_cor={x:0,y:0};
-									
-			
-			var menu = document.querySelector('.menu');
-
-			function showMenu(x, y){
-				menu.style.left = x + 'px';
-				menu.style.top = y + 'px';
-				menu.classList.add('show-menu');
-			}
-
-			function hideMenu(){
-				menu.classList.remove('show-menu');
-			}
-
-			function onContextMenu(e){
-				e.preventDefault();				
-				showMenu(e.pageX, e.pageY);
-				document.addEventListener('click', onClick, false);
-			}
-
-			function onClick(e){
-				hideMenu();
-				document.removeEventListener('click', onClick);
-			}
-
-			document.getElementById('svg_main').addEventListener('contextmenu', onContextMenu, false);
+	var gravity = 0.010
+	
+	var elecrep = 0.0
+	
+	var width = window.innerWidth - 250
+	
+	var height = window.innerHeight-0
+	
+	var svg = d3.select("body")     
+			.append("div")
+			.attr("id","div_main")
+			.append("svg")
+			.attr("id","svg_main")
+			//.attr('fill','yellow')
+			.attr('width', width)
+			.attr('height', height);
+    
+	d3.select("#svg_main").append("defs").append('g').attr('id','arrowHead');
+	d3.select("#svg_main").select("defs").append('g').attr('id','arrowEnd');
+	//d3.select("#svg_main").append("def2");
+	
+	// Above zoom thing need to be fixed. Required to make it passive event listeners.
+	var g_main = d3.select("#svg_main").append("g")
+		.classed('g-main',true);
+	
+	// Creates a group into svg element. Groups are good to apply same operation on each element within the group
+	var rect = g_main.append('rect')
+		.attr('width', width)
+		.attr('height', height)
+		.style('fill', 'white')
+		.style('stroke-width', 5)
+		.style('stroke','Black')
+		.attr('id','back_rect');
+	
+	var gp = g_main.append("g")   
+		.attr("id","network");
+    
+	var lnks = d3.select("#network").append("g")
+			 .attr("class", "links_g");
+			 
+	var nds = d3.select("#network").append("g")
+			.attr("class", "nodes_g");
+	
+	var txts = d3.select("#network").append("g")
+			 .attr("class","texts_g");
+			 
+	var lbs = d3.select("#network").append("g")
+			 .attr("class","labels_g");
+	
+	var bdry = d3.select("#network").append("g")
+			 .attr("class","bdry_g");
+	
+	var brs = gp.append("g")
+			.attr("class","bars_g");
+	
+	var imgs = gp.append("g")
+			.attr("class","images_g");
+	
+	var gBrushHolder = g_main.append('g')
+			.attr('id','brush');
 						
-			var colorScale = d3.scaleSequential(d3.interpolateRdBu)
-								.domain([0, 200]);
-            
-			var cbars = d3.select("#c_scale")
-						.append("svg")
-						.attr("width",152)
-						.attr("height",20);
-					cbars
-						.append("g")
-						.attr("class","bars_g")
-						.selectAll(".bars")
-						.data(d3.range(200), function(d) { return d; })
-						.enter().append("rect")
-						.attr("class", "bars")
-						.attr("x", function(d, i) { return i+9.0; })
-						.attr("y", 0.0)
-						.attr("height", 20.0)
-						.attr("width", 1.0)
-						.style("fill", function(d, i ) { return colorScale(d); });
+	var mouse_cor={x:0,y:0};
+						
+	
+	var menu = document.querySelector('.menu');
+	
+	function showMenu(x, y){
+	menu.style.left = x + 'px';
+	menu.style.top = y + 'px';
+	menu.classList.add('show-menu');
+	}
+	
+	function hideMenu(){
+	menu.classList.remove('show-menu');
+	}
+	
+	function onContextMenu(e){
+	e.preventDefault();				
+	showMenu(e.pageX, e.pageY);
+	document.addEventListener('click', onClick, false);
+	}
+	
+	function onClick(e){
+	hideMenu();
+	document.removeEventListener('click', onClick);
+	}
+	
+	document.getElementById('svg_main').addEventListener('contextmenu', onContextMenu, false);
+			
+	var colorScale = d3.scaleSequential(d3.interpolateRdBu)
+					.domain([0, 200]);
+	
+	var cbars = d3.select("#c_scale")
+			.append("svg")
+			.attr("width",152)
+			.attr("height",20);
+		cbars
+			.append("g")
+			.attr("class","bars_g")
+			.selectAll(".bars")
+			.data(d3.range(200), function(d) { return d; })
+			.enter().append("rect")
+			.attr("class", "bars")
+			.attr("x", function(d, i) { return i+9.0; })
+			.attr("y", 0.0)
+			.attr("height", 20.0)
+			.attr("width", 1.0)
+			.style("fill", function(d, i ) { return colorScale(d); });
 						
             var cbars2 = d3.select("#c_scale_fil")
 						.append("svg")
@@ -5535,7 +5535,7 @@
 			};
 			
 			$('#data_analysis').multiselect({
-				buttonWidth: '130px',
+				buttonWidth: '265px',
 				maxHeight: 200,
 				enableClickableOptGroups: true,
 				enableCollapsibleOptGroups: true,
