@@ -2838,8 +2838,35 @@
 												//filenames.push(fileUrl.name)
 												//var reader = new FileReader();
 												//reader.readAsText(fileUrl);
+
+												var logFileText1 = async file => {
+													const response = await fetch(file)
+													const text = await response.text()
+													var d_jsonobj = JSON.parse(text)
+													
+													d_jsonobj["nodes"].forEach(function(n){
+														n.id = n.id + "_" + fileno
+														if(chrow>0){
+															n.y = n.y + 50.0 + ymax
+														}
+														else{
+														}
+														nodeslst.push(n)
+														//console.log(n.x)
+														xcorlst.push(n.x)
+														ycorlst.push(n.y)
+													})
+													d_jsonobj["links"].forEach(function(n){
+														n.id = n.id + "_"+fileno
+														n.source = n.source + "_" + fileno
+														n.target = n.target + "_" + fileno
+														linkslst.push(n)
+													})													
+												}
 												
+												logFileText1('Edited_ortholog_networks/'+fileUrl+'.json')
 												
+												/*
 												d3.json(fileUrl).then(function(d_jsonobj){
 													
 													d_jsonobj["nodes"].forEach(function(n){
@@ -2861,6 +2888,7 @@
 														linkslst.push(n)
 													})
 												});
+												*/
 												
 												xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
 												ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
@@ -2870,7 +2898,35 @@
 											else{
 												//xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
 												ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
+
+												var logFileText1 = async file => {
+													const response = await fetch(file)
+													const text = await response.text()
+													var d_jsonobj = JSON.parse(text)
+													
+													d_jsonobj["nodes"].forEach(function(n){
+														n.id = n.id + "_" + fileno
+														n.x = n.x + 50.0 + xmax
+														if(chrow>0){
+															n.y = n.y + 50.0 + ymax
+														}
+														else{
+														}
+														nodeslst.push(n)
+														xcorlst.push(n.x)
+														ycorlst.push(n.y)
+													})
+													d_jsonobj["links"].forEach(function(n){
+														n.id = n.id + "_" + fileno
+														n.source = n.source + "_" + fileno
+														n.target = n.target + "_" + fileno
+														linkslst.push(n)
+													})													
+												}
 												
+												logFileText1('Edited_ortholog_networks/'+fileUrl+'.json')
+
+												/*
 												d3.json(fileUrl).then(function(d_jsonobj){
 													
 													d_jsonobj["nodes"].forEach(function(n){
@@ -2892,6 +2948,7 @@
 														linkslst.push(n)
 													})
 												});
+												*/
 												xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
 												ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
 												
