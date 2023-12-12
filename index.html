@@ -2767,56 +2767,179 @@
 									
 									//settings = false;
 									
-									let pathways = [];
+									var nodeslst = []
+									var linkslst = []
+									var xcorlst = [];
+									var ycorlst = [];
 									
-									selected_options.forEach(function(d){
+									const fileUrls = selected_options;
+						
+									async function processFilesSequentially(fileUrls) {
+										let nofrows = Math.floor(Math.sqrt(fileUrls.length))	
+										let npr = Math.floor(fileUrls.length/nofrows)	
+										console.log('npr',npr)					
+										console.log('nofrows',nofrows)	
 										
-										if(d.parentNode.label=="List of Pathways")
-											pathways.push(d.value)
-										
-										if(d.parentNode.label=="Selected ortholog maps"){
+										var ymax = -100000000000000000;
+										var ycorlst = [];
+														
+										for(let i=0; i<nofrows; i++){
 											
-											var jsonObj_generic;
+											var xcorlst = [];
 											
-											function combining_files(selected_options,){
-												selected_options.sort();
-												for(filen=0; filen<selected_options.length; filen++){
-													let filename = "Edited_ortholog_networks/" + selected_options[filen].value+".json"
-													//console.log('filename',filename)
-													d3.json(filename).then(function(d){ 
-														if(jsonObj_generic==undefined){
-															jsonObj_generic = d;
-															jsonObj_generic["nodes"].forEach(function(d){
-																if(d.name==null){
-																	d.name = makeid(20)	
-																}
-															})
-														}
-													});
-													
-												}
-												return jsonObj_generic
-											}	
+											var xmax = -100000000000000000;
 											
-											jsonObj_generic = combining_files(selected_options);
-											
-											function display_network(callback){
-												//console.log('display network is executed')
-												//your code to be executed after 2 second
-												jsonObj = jsonObj_generic
-												//console.log('jsonObj',jsonObj)
-												if(jsonObj!=undefined){
-													callback(jsonObj);
+											//for (const fileUrl of fileUrls) {
+											if(i==0){
+												for(let j=0; j<npr; j++){
+													let fileUrl = fileUrls[npr*i+j]
+													ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
+													//console.log(Math.floor(Math.sqrt(2.6)))
 												}
 											}
-											
-											setTimeout(function() {
-												//display_network(Main_visualization_code);
-												Main_visualization_code(jsonObj_generic);
-												Mainfunction(jsonObj_generic);
-											}, 2000.0);
+											else if(i<nofrows-1){
+												for(let j=0; j<npr; j++){
+													let fileUrl = fileUrls[i*npr+j]
+													ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
+												}
+											}
+											else{
+												if(fileUrls.length> npr*nofrows){
+													for(let j=0; j<(fileUrls.length-i*nofrows); j++){
+														let fileUrl = fileUrls[i*npr+j]
+														ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
+													}
+												}
+												else{
+													for(let j=0; j<npr; j++){
+														let fileUrl = fileUrls[i*npr+j]
+														ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
+													}
+												}
+											}
 										}
-									})
+									}
+
+									async function processFile(fileUrl,i,chrow,fileno,xcorlst,ycorlst,ymax) {
+									  return new Promise((resolve, reject) => {
+										// Simulating an asynchronous operation, such as loading a file
+										setTimeout(() => {
+											console.log('fileno',fileno)
+											if(i==0){
+												if(xcorlst.length>0){
+													xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])//Math.max(xcorlst)
+													console.log('xmax',xmax)
+												}
+												if(ycorlst.length>0){
+													ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
+													console.log('ymax',ymax)
+												}
+												//console.log(fileUrl.name)
+												//filenames.push(fileUrl.name)
+												//var reader = new FileReader();
+												//reader.readAsText(fileUrl);
+												
+												
+												d3.json(fileUrl).then(function(d_jsonobj){
+													
+													d_jsonobj["nodes"].forEach(function(n){
+														n.id = n.id + "_" + fileno
+														if(chrow>0){
+															n.y = n.y + 50.0 + ymax
+														}
+														else{
+														}
+														nodeslst.push(n)
+														//console.log(n.x)
+														xcorlst.push(n.x)
+														ycorlst.push(n.y)
+													})
+													d_jsonobj["links"].forEach(function(n){
+														n.id = n.id + "_"+fileno
+														n.source = n.source + "_" + fileno
+														n.target = n.target + "_" + fileno
+														linkslst.push(n)
+													})
+												});
+												
+												xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
+												ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
+												
+												//console.log(`Processed file: ${fileUrl.name}`);
+											}
+											else{
+												//xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
+												ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
+												
+												d3.json(fileUrl).then(function(d_jsonobj){
+													
+													d_jsonobj["nodes"].forEach(function(n){
+														n.id = n.id + "_" + fileno
+														n.x = n.x + 50.0 + xmax
+														if(chrow>0){
+															n.y = n.y + 50.0 + ymax
+														}
+														else{
+														}
+														nodeslst.push(n)
+														xcorlst.push(n.x)
+														ycorlst.push(n.y)
+													})
+													d_jsonobj["links"].forEach(function(n){
+														n.id = n.id + "_" + fileno
+														n.source = n.source + "_" + fileno
+														n.target = n.target + "_" + fileno
+														linkslst.push(n)
+													})
+												});
+												xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
+												ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
+												
+												//console.log(`Processed file: ${fileUrl.name}`);
+											}
+											
+											
+											// Display the file name in a div
+											var fileNameDisplay1 = document.getElementById("fileNameDisplay1");
+											fileNameDisplay1.textContent = "Selected File: " + fileUrl.name;
+											
+										
+										  console.log(`Processed file: ${fileUrl.name}`);
+										  resolve();
+										  return ymax
+										}, 1000); // Simulated delay, adjust as needed
+									  });
+									}
+									
+									function secondFunction() {
+										return new Promise(resolve => {
+											setTimeout(() => {
+											
+											//console.log(nodeslst)
+											//console.log(linkslst)
+											
+											jsonObj["nodes"] = nodeslst
+											jsonObj["links"] = linkslst
+											
+											Main_visualization_code(jsonObj)
+											Mainfunction(jsonObj)
+											
+											console.log('Second function');
+											resolve();
+											}, 1000); // Simulating an asynchronous operation with a timeout
+										});
+									}
+									
+									
+									// Call the function and await its completion
+									async function startProcessing() {
+									  await processFilesSequentially(fileUrls);
+									  console.log('All files processed.');
+									  await secondFunction();
+									}
+
+									// Call the async function
+									startProcessing();
 								});
 								
 								// Set the text content of the heading
