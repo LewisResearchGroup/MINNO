@@ -627,6 +627,16 @@
 		*/
 		height: 7vh; /* Adjust the height as needed */
 	}
+
+	.btn_div_container1 {
+		margin-top: 200px;
+		display: flex;
+		justify-content: center;
+		/*
+		align-items: center;
+		*/
+		height: 20vh; /* Adjust the height as needed */
+	}
 	
 	.default-btn {
 		margin: 0 10px;
@@ -643,8 +653,28 @@
 		transition: background-color 0.3s ease;
 	}
 
+	.default-btn1 {
+		margin: 0 10px;
+		background-color: #ffffff;
+		color: #000;
+		display: inline-block;
+		padding: 10px 20px;
+		font-size: 26px;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		cursor: pointer;
+		border-radius: 5px;
+		transition: background-color 0.3s ease;
+	}
+
 	/* Hover effect */
 		.default-btn:hover {
+		background-color: #2980b9;
+	}
+
+	/* Hover effect */
+		.default-btn1:hover {
 		background-color: #2980b9;
 	}
 
@@ -677,6 +707,16 @@
 		font-size: 16px;
 		font-weight: bold;
 		text-align: center;
+	}
+
+	.dropmenu_div_container4 {
+		margin-top: 50px;
+		display: flex;
+		justify-content: right;
+		/*
+		align-items: center;
+		*/
+		height: 7vh; /* Adjust the height as needed */
 	}
 	
 	.solid_back{
@@ -1001,7 +1041,7 @@
 			$( "#loadingDiv1" ).remove(); //makes page more lightweight   
 		    });	
 		    
-		    $('body').append('<div style="" id="loadingDiv2"> <div class="btn_div_container"> <button class="default-btn" onclick="anotherdivremoveloader()">Remove Div</button> <button class="default-btn" onclick="addanotherdivloader1()">Tutorial</button> <button class="default-btn" onclick="addanotherdivloader2()">Load networks files</button> <button class="default-btn" onclick="addanotherdivloader3()">Build network files</button> </div> <h1 id="species_loading_h1_id" style="display: none;"> Please wait! Lists of species and pathways are being loaded. </h1> <div id="speciesloadingIcon" class="species_loader1" style="display: none;"> </div> <div class="dropmenu_div_container" id="dropmenu_species_div_container_id1" style="display: none;"> <select id="drop_menu_1"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id2" style="display: none;"> <input type="file" id="networkfileInput" multiple style="display: none;" /> <input type="file" id="meta_file2" style="display: none;"/> <select id="KEGG_orth_models" multiple="multiple"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id3" style="display: none;"></div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id4" style="display: none;"> <div id="datafilename1"></div> </div> <div id="myDiv_tutorial"></div> <div id="myDiv_loadfiles"> <div id="loadfilediv1"><div id="fileNameDisplay1"></div></div> <div id="loadfilediv2"><div id="fileNameDisplay2"></div></div> <div id="loadfilediv3"></div> </div> <div id="myDiv_buildnet"></div>');
+		    $('body').append('<div style="" id="loadingDiv2"> <div class="btn_div_container"> <button class="default-btn" onclick="addanotherdivloader1()">Tutorial</button> <button class="default-btn" onclick="addanotherdivloader2()">Load networks files</button> <button class="default-btn" onclick="addanotherdivloader3()">Build network files</button> </div> <h1 id="species_loading_h1_id" style="display: none;"> Please wait! Lists of species and pathways are being loaded. </h1> <div id="speciesloadingIcon" class="species_loader1" style="display: none;"> </div> <div class="dropmenu_div_container" id="dropmenu_species_div_container_id1" style="display: none;"> <select id="drop_menu_1"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id2" style="display: none;"> <input type="file" id="networkfileInput" multiple style="display: none;" /> <input type="file" id="meta_file2" style="display: none;"/> <select id="KEGG_orth_models" multiple="multiple"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id3" style="display: none;"></div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id4" style="display: none;"> <div id="datafilename1"></div> </div> <div class="dropmenu_div_container4" id="dropmenu_pathways_div_container_id5" style="display: none;"></div> <div id="myDiv_tutorial"></div> <div id="myDiv_loadfiles"> <div id="loadfilediv1"><div id="fileNameDisplay1"></div></div> <div id="loadfilediv2"><div id="fileNameDisplay2"></div></div> <div id="loadfilediv3"></div> </div> <div id="myDiv_buildnet"></div>');
 		    
 			d3.select("#fileInput").on("change", function(){
 			// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
@@ -2495,7 +2535,6 @@
 				//var myDiv = document.createElement('div');
 				var button1 = document.createElement('button');
 				var button2 = document.createElement('button');
-				var button3 = document.createElement('button');
 				
 				//var myDiv = document.getElementById('myDiv_loadfiles');	
 				myDiv.classList.add('btn_div_container');
@@ -2649,6 +2688,8 @@
 					hiddenDiv3.style.display = 'flex';
 					var hiddenDiv4 = document.getElementById('dropmenu_pathways_div_container_id4');
 					hiddenDiv4.style.display = 'flex';
+					var hiddenDiv4 = document.getElementById('dropmenu_pathways_div_container_id5');
+					hiddenDiv4.style.display = 'flex';
 				}
 
 				function firstFunction123() {
@@ -2683,23 +2724,6 @@
 							ncbi_bacteria_action(ncbi_btn2);
 							// Set a timeout (e.g., 3000 milliseconds) to hide the loading icon
 							setTimeout(hideLoadingIcon, 60000); // Adjust the duration as needed
-						});
-						
-						button3.textContent = 'Finish';
-						button3.classList.add('default-btn');
-						button3.id = 'myButton3_bldnet'; // Set a specific ID for the button if needed
-						button3.addEventListener('click', function() {
-							
-							$("#myDiv_loadfiles").fadeOut(500, function() {
-							  // fadeOut complete. Remove the loading div
-							$("#myDiv_loadfiles").remove(); //makes page more lightweight 
-							});
-							
-							$("#loadingDiv2").fadeOut(500, function() {
-							  // fadeOut complete. Remove the loading div
-							$("#loadingDiv2").remove(); //makes page more lightweight 
-							});
-							//alert('Button Clicked!');
 						});
 						
 						console.log('First function');
@@ -2861,11 +2885,13 @@
 					var container = document.getElementById('loadingDiv2');
 					var myDiv = document.getElementById('dropmenu_pathways_div_container_id3');
 					var myDiv1 = document.getElementById('dropmenu_pathways_div_container_id4');
+					var myDiv2 = document.getElementById('dropmenu_pathways_div_container_id5');
 					
 					var mytextDiv1 = document.getElementById('datafilename1');
 					
 					var button1 = document.createElement('button');
 					var button2 = document.createElement('button');
+					var button3 = document.createElement('button');
 					
 					mytextDiv1.classList.add('dropmenu_div_container3');
 					
@@ -2879,350 +2905,367 @@
 					var heading1 = document.createElement("h1");
 					
 					function firstFunction123() {
-							return new Promise(resolve => {
-								setTimeout(() => {
+						return new Promise(resolve => {
+							setTimeout(() => {
+							
+							//myDiv.id = 'myDiv_tutorial';
+							//myDiv.classList.add('solid_back');
+							// Create a button element
+							
+							//console.log('button',button)
+							// Set button text and attributes
+							
+							button1.textContent = 'Build Network';
+							button1.classList.add('default-btn');
+							button1.id = 'myButton1_build'; // Set a specific ID for the button if needed
+							button1.addEventListener('click', function() {
+								var selected_options = [];
 								
-								//myDiv.id = 'myDiv_tutorial';
-								//myDiv.classList.add('solid_back');
-								// Create a button element
+								var ref = d3.select('#KEGG_orth_models').node().selectedOptions;
 								
-								//console.log('button',button)
-								// Set button text and attributes
+								for (var i = 0; i<ref.length; i++) {
+									selected_options.push(ref[i]);
+								};
 								
-								button1.textContent = 'Build Network';
-								button1.classList.add('default-btn');
-								button1.id = 'myButton1_build'; // Set a specific ID for the button if needed
-								button1.addEventListener('click', function() {
-									var selected_options = [];
-									
-									var ref = d3.select('#KEGG_orth_models').node().selectedOptions;
-									
-									for (var i = 0; i<ref.length; i++) {
-										selected_options.push(ref[i]);
-									};
-									
-									//settings = false;
-									
-									var nodeslst = [], nodeslst1 = [], nodeslst2 = [];
-									var linkslst = [], linkslst1 = [], linkslst2 = [];
-									var xcorlst = [];
-									var ycorlst = [];
-						
-									var gene_indexs = [];
-									//console.log('species_genes_list',species_genes_list)
-									species_genes_list.forEach(function(g,i){
-										if (kegg_gene_lst['kegg_gene'].indexOf(g)!=-1){
-											//console.log()
-											gene_indexs.push(kegg_gene_lst['kegg_gene'].indexOf(g))
-										}
-									})
-									//console.log("gene_indexs",gene_indexs)
-									var species_rxnids = [];
-									
-									gene_indexs.forEach(function(i){
-										species_rxnids.push(kegg_gene_lst['kegg_id'][i])
-									})
+								//settings = false;
+								
+								var nodeslst = [], nodeslst1 = [], nodeslst2 = [];
+								var linkslst = [], linkslst1 = [], linkslst2 = [];
+								var xcorlst = [];
+								var ycorlst = [];
+					
+								var gene_indexs = [];
+								//console.log('species_genes_list',species_genes_list)
+								species_genes_list.forEach(function(g,i){
+									if (kegg_gene_lst['kegg_gene'].indexOf(g)!=-1){
+										//console.log()
+										gene_indexs.push(kegg_gene_lst['kegg_gene'].indexOf(g))
+									}
+								})
+								//console.log("gene_indexs",gene_indexs)
+								var species_rxnids = [];
+								
+								gene_indexs.forEach(function(i){
+									species_rxnids.push(kegg_gene_lst['kegg_id'][i])
+								})
 
-									const fileUrls = selected_options;
-						
-									async function processFilesSequentially(fileUrls) {
-										let nofrows = Math.floor(Math.sqrt(fileUrls.length))	
-										let npr = Math.floor(fileUrls.length/nofrows)	
-										console.log('npr',npr)					
-										console.log('nofrows',nofrows)	
+								const fileUrls = selected_options;
+					
+								async function processFilesSequentially(fileUrls) {
+									let nofrows = Math.floor(Math.sqrt(fileUrls.length))	
+									let npr = Math.floor(fileUrls.length/nofrows)	
+									console.log('npr',npr)					
+									console.log('nofrows',nofrows)	
+									
+									var ymax = -100000000000000000;
+									var ycorlst = [];
+													
+									for(let i=0; i<nofrows; i++){
 										
-										var ymax = -100000000000000000;
-										var ycorlst = [];
-														
-										for(let i=0; i<nofrows; i++){
-											
-											var xcorlst = [];
-											
-											var xmax = -100000000000000000;
-											
-											//for (const fileUrl of fileUrls) {
-											if(i==0){
-												for(let j=0; j<npr; j++){
-													let fileUrl = fileUrls[npr*i+j]
-													ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
-													//console.log(Math.floor(Math.sqrt(2.6)))
-												}
+										var xcorlst = [];
+										
+										var xmax = -100000000000000000;
+										
+										//for (const fileUrl of fileUrls) {
+										if(i==0){
+											for(let j=0; j<npr; j++){
+												let fileUrl = fileUrls[npr*i+j]
+												ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
+												//console.log(Math.floor(Math.sqrt(2.6)))
 											}
-											else if(i<nofrows-1){
-												for(let j=0; j<npr; j++){
+										}
+										else if(i<nofrows-1){
+											for(let j=0; j<npr; j++){
+												let fileUrl = fileUrls[i*npr+j]
+												ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
+											}
+										}
+										else{
+											if(fileUrls.length> npr*nofrows){
+												for(let j=0; j<(fileUrls.length-i*nofrows); j++){
 													let fileUrl = fileUrls[i*npr+j]
 													ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
 												}
 											}
 											else{
-												if(fileUrls.length> npr*nofrows){
-													for(let j=0; j<(fileUrls.length-i*nofrows); j++){
-														let fileUrl = fileUrls[i*npr+j]
-														ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
-													}
-												}
-												else{
-													for(let j=0; j<npr; j++){
-														let fileUrl = fileUrls[i*npr+j]
-														ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
-													}
+												for(let j=0; j<npr; j++){
+													let fileUrl = fileUrls[i*npr+j]
+													ymax = await processFile(fileUrl,j,i,npr*i+j,xcorlst,ycorlst,ymax);
 												}
 											}
 										}
 									}
+								}
 
-									async function processFile(fileUrl,i,chrow,fileno,xcorlst,ycorlst,ymax) {
-									  return new Promise((resolve, reject) => {
-										// Simulating an asynchronous operation, such as loading a file
+								async function processFile(fileUrl,i,chrow,fileno,xcorlst,ycorlst,ymax) {
+								  return new Promise((resolve, reject) => {
+									// Simulating an asynchronous operation, such as loading a file
+									setTimeout(() => {
+										console.log('fileno',fileno)
+										//console.log('species_kegg_gene_lst',species_rxnids)
+										if(i==0){
+											if(xcorlst.length>0){
+												xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])//Math.max(xcorlst)
+												console.log('xmax',xmax)
+											}
+											if(ycorlst.length>0){
+												ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
+												console.log('ymax',ymax)
+											}
+											//console.log(fileUrl)
+
+											var logFileText1 = async file => {
+												const response = await fetch(file)
+												const text = await response.text()
+												var d_jsonobj = JSON.parse(text)
+												
+												d_jsonobj["nodes"].forEach(function(n){
+													n.id = n.id + "_" + fileno
+													if(chrow>0){
+														n.y = n.y + 50.0 + ymax
+													}
+													else{
+													}
+													nodeslst.push(n)
+													//console.log(n.x)
+													xcorlst.push(n.x)
+													ycorlst.push(n.y)
+												})
+												d_jsonobj["links"].forEach(function(n){
+													n.id = n.id + "_"+fileno
+													n.source = n.source + "_" + fileno
+													n.target = n.target + "_" + fileno
+													linkslst.push(n)
+												})
+												var rxnids = [];
+												nodeslst.forEach(function(d){
+													if(d.type=="R"){
+														var rxn_genes = d.gene_link.split('?')[1].split("+")
+														var matching_genes = findMatchingElements(species_rxnids, rxn_genes);
+														if(matching_genes.length>0){
+															rxnids.push(d.kegg_id)
+															d.opacity = 1.0;
+															nodeslst1.push(d)
+														}
+														else{
+															d.opacity = 0.5;
+															nodeslst1.push(d)
+														}
+													}
+													else{
+														d.opacity = 0.5;
+														nodeslst1.push(d)
+													}
+												});
+												//console.log('nodeslst1',nodeslst1)
+												var meta_ids = [];
+												linkslst.forEach(function(l){
+													if(rxnids.includes(l.kegg_id)){
+														l.opacity = 1.0;
+														//console.log("found1")
+														linkslst1.push(l)
+														meta_ids.push(l.source)
+														meta_ids.push(l.target)
+													}
+													else{
+														l.opacity = 0.25;
+														linkslst1.push(l)
+													}
+												});
+
+												nodeslst1.forEach(function(d){
+													if(d.type=="M"){
+														if(meta_ids.includes(d.id)){
+															d.opacity = 1.0;
+															nodeslst2.push(d)
+														}
+														else{
+															//d.opacity = 1.0;
+															nodeslst2.push(d)
+														}
+													}
+													else{
+														nodeslst2.push(d)
+													}
+												});
+												//console.log('nodeslst2',nodeslst2)
+
+												linkslst1.forEach(function(l){
+													linkslst2.push(l)
+												});
+											}
+											
+											logFileText1('Edited_ortholog_networks/'+fileUrl.value+'.json')
+											
+											xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
+											ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
+											
+											//console.log(`Processed file: ${fileUrl.value}`);
+										}
+										else{
+											//xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
+											ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
+
+											var logFileText1 = async file => {
+												const response = await fetch(file)
+												const text = await response.text()
+												var d_jsonobj = JSON.parse(text)
+												
+												d_jsonobj["nodes"].forEach(function(n){
+													n.id = n.id + "_" + fileno
+													n.x = n.x + 50.0 + xmax
+													if(chrow>0){
+														n.y = n.y + 50.0 + ymax
+													}
+													else{
+													}
+													nodeslst.push(n)
+													xcorlst.push(n.x)
+													ycorlst.push(n.y)
+												})
+												d_jsonobj["links"].forEach(function(n){
+													n.id = n.id + "_" + fileno
+													n.source = n.source + "_" + fileno
+													n.target = n.target + "_" + fileno
+													linkslst.push(n)
+												})
+												var rxnids = [];
+												nodeslst.forEach(function(d){
+													if(d.type=="R"){
+														var rxn_genes = d.gene_link.split('?')[1].split("+")
+														var matching_genes = findMatchingElements(species_rxnids, rxn_genes);
+														if(matching_genes.length>0){
+															rxnids.push(d.kegg_id)
+															d.opacity = 1.0;
+															nodeslst1.push(d)
+														}
+														else{
+															d.opacity = 0.5;
+															nodeslst1.push(d)
+														}
+													}
+													else{
+														d.opacity = 0.5;
+														nodeslst1.push(d)
+													}
+												});
+												
+												var meta_ids = [];
+												linkslst.forEach(function(l){
+													if(rxnids.includes(l.kegg_id)){
+														l.opacity = 1.0;
+														console.log("found1")
+														linkslst1.push(l)
+														meta_ids.push(l.source)
+														meta_ids.push(l.target)
+													}
+													else{
+														l.opacity = 0.25;
+														linkslst1.push(l)
+													}
+												});
+
+												nodeslst1.forEach(function(d){
+													if(d.type=="M"){
+														if(meta_ids.includes(d.id)){
+															d.opacity = 1.0;
+															nodeslst2.push(d)
+														}
+														else{
+															//d.opacity = 1.0;
+															nodeslst2.push(d)
+														}
+													}
+													else{
+														nodeslst2.push(d)
+													}
+												});
+
+												linkslst1.forEach(function(l){
+													linkslst2.push(l)
+												});
+											}
+											
+											logFileText1('Edited_ortholog_networks/'+fileUrl.value+'.json')
+
+											xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
+											ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
+										}
+										
+										// Display the file name in a div
+										var fileNameDisplay1 = document.getElementById("fileNameDisplay1");
+										fileNameDisplay1.textContent = "Selected File: " + fileUrl.value;
+										
+									  console.log(`Processed file: ${fileUrl.value}`);
+									  resolve();
+									  return ymax
+									}, 1000); // Simulated delay, adjust as needed
+								  });
+								}
+								
+								function secondFunction() {
+									return new Promise(resolve => {
 										setTimeout(() => {
-											console.log('fileno',fileno)
-											//console.log('species_kegg_gene_lst',species_rxnids)
-											if(i==0){
-												if(xcorlst.length>0){
-													xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])//Math.max(xcorlst)
-													console.log('xmax',xmax)
-												}
-												if(ycorlst.length>0){
-													ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
-													console.log('ymax',ymax)
-												}
-												//console.log(fileUrl)
-
-												var logFileText1 = async file => {
-													const response = await fetch(file)
-													const text = await response.text()
-													var d_jsonobj = JSON.parse(text)
-													
-													d_jsonobj["nodes"].forEach(function(n){
-														n.id = n.id + "_" + fileno
-														if(chrow>0){
-															n.y = n.y + 50.0 + ymax
-														}
-														else{
-														}
-														nodeslst.push(n)
-														//console.log(n.x)
-														xcorlst.push(n.x)
-														ycorlst.push(n.y)
-													})
-													d_jsonobj["links"].forEach(function(n){
-														n.id = n.id + "_"+fileno
-														n.source = n.source + "_" + fileno
-														n.target = n.target + "_" + fileno
-														linkslst.push(n)
-													})
-													var rxnids = [];
-													nodeslst.forEach(function(d){
-														if(d.type=="R"){
-															var rxn_genes = d.gene_link.split('?')[1].split("+")
-															var matching_genes = findMatchingElements(species_rxnids, rxn_genes);
-															if(matching_genes.length>0){
-																rxnids.push(d.kegg_id)
-																d.opacity = 1.0;
-																nodeslst1.push(d)
-															}
-															else{
-																d.opacity = 0.5;
-																nodeslst1.push(d)
-															}
-														}
-														else{
-															d.opacity = 0.5;
-															nodeslst1.push(d)
-														}
-													});
-													//console.log('nodeslst1',nodeslst1)
-													var meta_ids = [];
-													linkslst.forEach(function(l){
-														if(rxnids.includes(l.kegg_id)){
-															l.opacity = 1.0;
-															//console.log("found1")
-															linkslst1.push(l)
-															meta_ids.push(l.source)
-															meta_ids.push(l.target)
-														}
-														else{
-															l.opacity = 0.25;
-															linkslst1.push(l)
-														}
-													});
-
-													nodeslst1.forEach(function(d){
-														if(d.type=="M"){
-															if(meta_ids.includes(d.id)){
-																d.opacity = 1.0;
-																nodeslst2.push(d)
-															}
-															else{
-																//d.opacity = 1.0;
-																nodeslst2.push(d)
-															}
-														}
-														else{
-															nodeslst2.push(d)
-														}
-													});
-													//console.log('nodeslst2',nodeslst2)
-
-													linkslst1.forEach(function(l){
-														linkslst2.push(l)
-													});
-												}
-												
-												logFileText1('Edited_ortholog_networks/'+fileUrl.value+'.json')
-												
-												xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
-												ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
-												
-												//console.log(`Processed file: ${fileUrl.value}`);
-											}
-											else{
-												//xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
-												ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
-
-												var logFileText1 = async file => {
-													const response = await fetch(file)
-													const text = await response.text()
-													var d_jsonobj = JSON.parse(text)
-													
-													d_jsonobj["nodes"].forEach(function(n){
-														n.id = n.id + "_" + fileno
-														n.x = n.x + 50.0 + xmax
-														if(chrow>0){
-															n.y = n.y + 50.0 + ymax
-														}
-														else{
-														}
-														nodeslst.push(n)
-														xcorlst.push(n.x)
-														ycorlst.push(n.y)
-													})
-													d_jsonobj["links"].forEach(function(n){
-														n.id = n.id + "_" + fileno
-														n.source = n.source + "_" + fileno
-														n.target = n.target + "_" + fileno
-														linkslst.push(n)
-													})
-													var rxnids = [];
-													nodeslst.forEach(function(d){
-														if(d.type=="R"){
-															var rxn_genes = d.gene_link.split('?')[1].split("+")
-															var matching_genes = findMatchingElements(species_rxnids, rxn_genes);
-															if(matching_genes.length>0){
-																rxnids.push(d.kegg_id)
-																d.opacity = 1.0;
-																nodeslst1.push(d)
-															}
-															else{
-																d.opacity = 0.5;
-																nodeslst1.push(d)
-															}
-														}
-														else{
-															d.opacity = 0.5;
-															nodeslst1.push(d)
-														}
-													});
-													
-													var meta_ids = [];
-													linkslst.forEach(function(l){
-														if(rxnids.includes(l.kegg_id)){
-															l.opacity = 1.0;
-															console.log("found1")
-															linkslst1.push(l)
-															meta_ids.push(l.source)
-															meta_ids.push(l.target)
-														}
-														else{
-															l.opacity = 0.25;
-															linkslst1.push(l)
-														}
-													});
-
-													nodeslst1.forEach(function(d){
-														if(d.type=="M"){
-															if(meta_ids.includes(d.id)){
-																d.opacity = 1.0;
-																nodeslst2.push(d)
-															}
-															else{
-																//d.opacity = 1.0;
-																nodeslst2.push(d)
-															}
-														}
-														else{
-															nodeslst2.push(d)
-														}
-													});
-
-													linkslst1.forEach(function(l){
-														linkslst2.push(l)
-													});
-												}
-												
-												logFileText1('Edited_ortholog_networks/'+fileUrl.value+'.json')
-
-												xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
-												ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
-											}
-											
-											// Display the file name in a div
-											var fileNameDisplay1 = document.getElementById("fileNameDisplay1");
-											fileNameDisplay1.textContent = "Selected File: " + fileUrl.value;
-											
-										  console.log(`Processed file: ${fileUrl.value}`);
-										  resolve();
-										  return ymax
-										}, 1000); // Simulated delay, adjust as needed
-									  });
-									}
-									
-									function secondFunction() {
-										return new Promise(resolve => {
-											setTimeout(() => {
-											
-											//console.log(nodeslst2)
-											//console.log(linkslst2)
-											
-											jsonObj["nodes"] = nodeslst2
-											jsonObj["links"] = linkslst2
-											
-											Main_visualization_code(jsonObj)
-											Mainfunction(jsonObj)
-											
-											console.log('Second function');
-											resolve();
-											}, 1000); // Simulating an asynchronous operation with a timeout
-										});
-									}
-									
-									
-									// Call the function and await its completion
-									async function startProcessing() {
-									  await processFilesSequentially(fileUrls);
-									  console.log('All files processed.');
-									  await secondFunction();
-									}
-
-									// Call the async function
-									startProcessing();
-								});
+										
+										//console.log(nodeslst2)
+										//console.log(linkslst2)
+										
+										jsonObj["nodes"] = nodeslst2
+										jsonObj["links"] = linkslst2
+										
+										Main_visualization_code(jsonObj)
+										Mainfunction(jsonObj)
+										
+										console.log('Second function');
+										resolve();
+										}, 1000); // Simulating an asynchronous operation with a timeout
+									});
+								}
 								
-								// Set the text content of the heading
-								heading1.textContent = "Load Data files:";
 								
-								button2.textContent = 'Load file';
-								button2.classList.add('default-btn');
-								button2.id = 'myButton2_build'; // Set a specific ID for the button if needed
-								button2.addEventListener('click', function() {
-									var uploadfile = document.getElementById("meta_file2").click();
-									//alert('Button Clicked!');
-								});
-								
-								console.log('First function');
-								resolve();
-								}, 200); // Simulating an asynchronous operation with a timeout
+								// Call the function and await its completion
+								async function startProcessing() {
+								  await processFilesSequentially(fileUrls);
+								  console.log('All files processed.');
+								  await secondFunction();
+								}
+
+								// Call the async function
+								startProcessing();
 							});
+							
+							// Set the text content of the heading
+							heading1.textContent = "Load Data files:";
+							
+							button2.textContent = 'Load file';
+							button2.classList.add('default-btn');
+							button2.id = 'myButton2_build'; // Set a specific ID for the button if needed
+							button2.addEventListener('click', function() {
+								var uploadfile = document.getElementById("meta_file2").click();
+								//alert('Button Clicked!');
+							});
+
+							button3.textContent = 'Finish';
+							button3.classList.add('default-btn');
+							button3.id = 'myButton3_bldnet'; // Set a specific ID for the button if needed
+							button3.addEventListener('click', function() {
+								
+								$("#myDiv_loadfiles").fadeOut(500, function() {
+								  // fadeOut complete. Remove the loading div
+								$("#myDiv_loadfiles").remove(); //makes page more lightweight 
+								});
+								
+								$("#loadingDiv2").fadeOut(500, function() {
+								  // fadeOut complete. Remove the loading div
+								$("#loadingDiv2").remove(); //makes page more lightweight 
+								});
+								//alert('Button Clicked!');
+							});
+							
+							console.log('First function');
+							resolve();
+							}, 200); // Simulating an asynchronous operation with a timeout
+						});
 					}
 					
 					function secondFunction123() {
@@ -3231,6 +3274,7 @@
 								myDiv.appendChild(button1);
 								myDiv1.appendChild(heading1);
 								myDiv1.appendChild(button2);
+								myDiv2.appendChild(button3);
 								
 								console.log('Second function');
 								resolve();
