@@ -2269,6 +2269,8 @@
 			
 		}
 
+		var species_genes_list = [];
+
 		function ncbi_gene_annotation_url(url){
 			
 			fetch(url)  // Replace 'file.gz' with the actual path to your Gzip file
@@ -2298,34 +2300,17 @@
 						
 						const nlines = lines.length;
 						
-						var genes_list = [];
-						
 						lines.slice(10,nlines).forEach(function(line){
 							var elems = line.split('\t');
 							if (elems.length > 8) {
 								var subElems = elems[8].split(';');
 								subElems.forEach(function (v) {
 									if (v.indexOf('Name') == 0 && v.indexOf('LOC') == -1 && v.indexOf('WP') == -1 && v.indexOf('XM') == -1 && v.indexOf('Unknown') == -1 && v.indexOf('XR') == -1 && v.indexOf('XP') == -1 && v.indexOf('RS') == -1 && v.indexOf('_') == -1 && v.indexOf('ACA') == -1) {
-										genes_list.push(v.slice(5));
+										species_genes_list.push(v.slice(5));
 									}
 								});
 							}
 						});
-						
-						console.log(genes_list)
-						
-						var kegg_gene_lst = {'id':['K00001','K01623'],'gene':['adh','ALDO']}
-						
-						var dummy_genes = ['ALDO','adh']
-						
-						gene_indexs = []
-						dummy_genes.forEach(function(g,i){
-							if (kegg_gene_lst['gene'].indexOf(g)!=-1){
-								//console.log()
-								gene_indexs.push(kegg_gene_lst['gene'].indexOf(g))
-							}
-						})
-						console.log("gene_indexs",gene_indexs)
 						
 					} else {
 					  result += decoder.decode(value, { stream: true });
@@ -2566,10 +2551,6 @@
 					ncbi_category = buttonValue
 				}
 
-				
-
-
-				
 				function hideLoadingIcon() {
 					var loadingIcon = document.getElementById("speciesloadingIcon");
 					var loadingIcon2 = document.getElementById("species_loading_h1_id");
@@ -2842,7 +2823,21 @@
 									var linkslst = [], linkslst1 = [], linkslst2 = [];
 									var xcorlst = [];
 									var ycorlst = [];
+						
+									var gene_indexs = [];
+									species_genes_list.forEach(function(g,i){
+										if (kegg_gene_lst['gene'].indexOf(g)!=-1){
+											//console.log()
+											gene_indexs.push(kegg_gene_lst['kegg_gene'].indexOf(g))
+										}
+									})
+									console.log("gene_indexs",gene_indexs)
+									var species_rxnids = [];
 									
+									gene_indexs.forEach(function(i){
+										species_rxnids.push(kegg_gene_lst['kegg_id'][i])
+									})
+
 									const fileUrls = selected_options;
 						
 									async function processFilesSequentially(fileUrls) {
@@ -2896,7 +2891,7 @@
 										// Simulating an asynchronous operation, such as loading a file
 										setTimeout(() => {
 											console.log('fileno',fileno)
-											console.log('kegg_gene_lst111212',kegg_gene_lst)
+											console.log('species_kegg_gene_lst',species_rxnids)
 											if(i==0){
 												if(xcorlst.length>0){
 													xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])//Math.max(xcorlst)
@@ -2935,7 +2930,7 @@
 													nodeslst.forEach(function(d){
 														if(d.type=="R"){
 															var rxn_genes = d.gene_link.split('?')[1].split("+")
-															var matching_genes = findMatchingElements(kegg_gene_lst['kegg_id'], rxn_genes);
+															var matching_genes = findMatchingElements(species_rxnids, rxn_genes);
 															if(matching_genes.length>0){
 																rxnids.push(d.kegg_id)
 																d.opacity = 1.0;
@@ -3027,7 +3022,7 @@
 													nodeslst.forEach(function(d){
 														if(d.type=="R"){
 															var rxn_genes = d.gene_link.split('?')[1].split("+")
-															var matching_genes = findMatchingElements(kegg_gene_lst['kegg_id'], rxn_genes);
+															var matching_genes = findMatchingElements(species_rxnids, rxn_genes);
 															if(matching_genes.length>0){
 																rxnids.push(d.kegg_id)
 																d.opacity = 1.0;
