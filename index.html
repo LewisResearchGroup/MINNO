@@ -2105,7 +2105,9 @@
 				console.log('myDiv',myDiv)
 				//var myDiv = document.createElement('div');
 				var button1 = document.createElement('button');
+				var button12 = document.createElement('button');
 				var button2 = document.createElement('button');
+				var button22 = document.createElement('button');
 				var button3 = document.createElement('button');
 				
 				//var myDiv = document.getElementById('myDiv_loadfiles');	
@@ -2185,6 +2187,59 @@
 								var uploadfile = document.getElementById("networkfileInput").click();
 								//alert('Button Clicked!');
 							});
+
+							button12.textContent = 'Download sample file';
+							button12.classList.add('default-btn');
+							button12.id = 'myButton12'; // Set a specific ID for the button if needed
+							button12.addEventListener('click', function() {
+								const filePath = 'Edited_ortholog_networks/Arginine biosynthesis.json';
+								
+								// Fetch the file
+								fetch(filePath)
+									.then(response => response.json())
+									.then(data => {
+										// Create a blob from the JSON data
+										const blob = new Blob([JSON.stringify(data)], { type: 'application/json' });
+
+										// Create a link element
+										const a = document.createElement('a');
+
+										// Set the href attribute with the blob data
+										a.href = window.URL.createObjectURL(blob);
+
+										// Set the download attribute with the desired file name
+										a.download = 'downloaded_file.json';
+
+										// Append the link to the body
+										document.body.appendChild(a);
+
+										// Trigger a click event on the link
+										a.click();
+
+										// Remove the link from the body
+										document.body.removeChild(a);
+									})
+									.catch(error => console.error('Error fetching file:', error));
+
+								// Create a link element
+								//const a = document.createElement('a');
+
+								// Set the href attribute with the file path
+								//a.href = filePath;
+
+								// Set the download attribute with the desired file name
+								//a.download = 'Sample_network_file.json';
+
+								// Append the link to the body
+								//document.body.appendChild(a);
+
+								// Trigger a click event on the link
+								//a.click();
+
+								// Remove the link from the body
+								//document.body.removeChild(a);
+							});
+							
 							
 							// Set the text content of the heading
 							heading2.textContent = "Load Data files:";
@@ -2194,6 +2249,31 @@
 							button2.id = 'myButton2'; // Set a specific ID for the button if needed
 							button2.addEventListener('click', function() {
 								var uploadfile = document.getElementById("meta_file2").click();
+							});
+
+							button22.textContent = 'Download sample file';
+							button22.classList.add('default-btn');
+							button22.id = 'myButton22'; // Set a specific ID for the button if needed
+							button22.addEventListener('click', function() {
+								const filePath = '2022_07_15_MINNO_Supplemental_Sample_Data3.csv';
+
+								// Create a link element
+								const a = document.createElement('a');
+
+								// Set the href attribute with the file path
+								a.href = filePath;
+
+								// Set the download attribute with the desired file name
+								a.download = 'Sample_network_file.csv';
+
+								// Append the link to the body
+								document.body.appendChild(a);
+
+								// Trigger a click event on the link
+								a.click();
+
+								// Remove the link from the body
+								document.body.removeChild(a);
 							});
 							
 							button3.textContent = 'Finish';
@@ -2224,8 +2304,10 @@
 							setTimeout(() => {
 							myDiv2.appendChild(heading1);
 							myDiv2.appendChild(button1);
+							myDiv2.appendChild(button12);
 							myDiv3.appendChild(heading2);
 							myDiv3.appendChild(button2);
+							myDiv3.appendChild(button22);
 							myDiv4.appendChild(button3);
 							//container.appendChild(myDiv);
 							
