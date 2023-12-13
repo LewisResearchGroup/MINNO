@@ -2545,13 +2545,13 @@
 					});
 				}
 				
-				var kegg_gene_lst = {'kegg_ids':kegg_ids, 'kegg_gene':kegg_genes};
+				var kegg_gene_lst = {'kegg_id':kegg_ids, 'kegg_gene':kegg_genes};
 				
 				function secondFunction_kegg_gene(){
 					return new Promise(resolve => {
 						setTimeout(() => {
 						
-							kegg_gene_lst = {'kegg_ids':kegg_ids, 'kegg_gene':kegg_genes};
+							kegg_gene_lst = {'kegg_id':kegg_ids, 'kegg_gene':kegg_genes};
 							console.log('kegg_gene_lst',kegg_gene_lst)
 						
 						resolve();
@@ -2836,8 +2836,8 @@
 									
 									//settings = false;
 									
-									var nodeslst = []
-									var linkslst = []
+									var nodeslst = [], nodeslst1 = [], nodeslst2 = [];
+									var linkslst = [], linkslst1 = [], linkslst2 = [];
 									var xcorlst = [];
 									var ycorlst = [];
 									
@@ -2904,9 +2904,6 @@
 													console.log('ymax',ymax)
 												}
 												console.log(fileUrl)
-												//filenames.push(fileUrl.name)
-												//var reader = new FileReader();
-												//reader.readAsText(fileUrl);
 
 												var logFileText1 = async file => {
 													const response = await fetch(file)
@@ -2930,34 +2927,65 @@
 														n.source = n.source + "_" + fileno
 														n.target = n.target + "_" + fileno
 														linkslst.push(n)
-													})													
+													})
+													var rxnids = [];
+													nodeslst.forEach(function(d){
+														if(d.type=="R"){
+															var rxn_genes = d.gene_link.split('?')[1].split("+")
+															var matching_genes = findMatchingElements(kegg_gene_lst['kegg_id'], rxn_genes);
+															if(matching_genes.length>0){
+																rxnids.push(d.kegg_id)
+																d.opacity = 1.0;
+																nodeslst1.push(d)
+															}
+															else{
+																d.opacity = 0.5;
+																nodeslst1.push(d)
+															}
+														}
+														else{
+															d.opacity = 0.5;
+															nodeslst1.push(d)
+														}
+													});
+													
+													var meta_ids = [];
+													linkslst.forEach(function(l){
+														if(rxnids.includes(l.kegg_id)){
+															l.opacity = 1.0;
+															console.log("found1")
+															linkslst1.push(l)
+															meta_ids.push(l.source)
+															meta_ids.push(l.target)
+														}
+														else{
+															l.opacity = 0.25;
+															linkslst1.push(l)
+														}
+													});
+
+													nodeslst1.forEach(function(d){
+														if(d.type=="M"){
+															if(meta_ids.includes(d.id)){
+																d.opacity = 1.0;
+																nodeslst2.push(d)
+															}
+															else{
+																//d.opacity = 1.0;
+																nodeslst2.push(d)
+															}
+														}
+														else{
+															nodeslst2.push(d)
+														}
+													});
+
+													linkslst1.forEach(function(l){
+														linkslst2.push(l)
+													});
 												}
 												
 												logFileText1('Edited_ortholog_networks/'+fileUrl.value+'.json')
-												
-												/*
-												d3.json(fileUrl).then(function(d_jsonobj){
-													
-													d_jsonobj["nodes"].forEach(function(n){
-														n.id = n.id + "_" + fileno
-														if(chrow>0){
-															n.y = n.y + 50.0 + ymax
-														}
-														else{
-														}
-														nodeslst.push(n)
-														//console.log(n.x)
-														xcorlst.push(n.x)
-														ycorlst.push(n.y)
-													})
-													d_jsonobj["links"].forEach(function(n){
-														n.id = n.id + "_"+fileno
-														n.source = n.source + "_" + fileno
-														n.target = n.target + "_" + fileno
-														linkslst.push(n)
-													})
-												});
-												*/
 												
 												xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
 												ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
@@ -2990,46 +3018,74 @@
 														n.source = n.source + "_" + fileno
 														n.target = n.target + "_" + fileno
 														linkslst.push(n)
-													})													
+													})
+													var rxnids = [];
+													nodeslst.forEach(function(d){
+														if(d.type=="R"){
+															var rxn_genes = d.gene_link.split('?')[1].split("+")
+															var matching_genes = findMatchingElements(kegg_gene_lst['kegg_id'], rxn_genes);
+															if(matching_genes.length>0){
+																rxnids.push(d.kegg_id)
+																d.opacity = 1.0;
+																nodeslst1.push(d)
+															}
+															else{
+																d.opacity = 0.5;
+																nodeslst1.push(d)
+															}
+														}
+														else{
+															d.opacity = 0.5;
+															nodeslst1.push(d)
+														}
+													});
+													
+													var meta_ids = [];
+													linkslst.forEach(function(l){
+														if(rxnids.includes(l.kegg_id)){
+															l.opacity = 1.0;
+															console.log("found1")
+															linkslst1.push(l)
+															meta_ids.push(l.source)
+															meta_ids.push(l.target)
+														}
+														else{
+															l.opacity = 0.25;
+															linkslst1.push(l)
+														}
+													});
+
+													nodeslst1.forEach(function(d){
+														if(d.type=="M"){
+															if(meta_ids.includes(d.id)){
+																d.opacity = 1.0;
+																nodeslst2.push(d)
+															}
+															else{
+																//d.opacity = 1.0;
+																nodeslst2.push(d)
+															}
+														}
+														else{
+															nodeslst2.push(d)
+														}
+													});
+
+													linkslst1.forEach(function(l){
+														linkslst2.push(l)
+													});
 												}
 												
 												logFileText1('Edited_ortholog_networks/'+fileUrl.value+'.json')
 
-												/*
-												d3.json(fileUrl).then(function(d_jsonobj){
-													
-													d_jsonobj["nodes"].forEach(function(n){
-														n.id = n.id + "_" + fileno
-														n.x = n.x + 50.0 + xmax
-														if(chrow>0){
-															n.y = n.y + 50.0 + ymax
-														}
-														else{
-														}
-														nodeslst.push(n)
-														xcorlst.push(n.x)
-														ycorlst.push(n.y)
-													})
-													d_jsonobj["links"].forEach(function(n){
-														n.id = n.id + "_" + fileno
-														n.source = n.source + "_" + fileno
-														n.target = n.target + "_" + fileno
-														linkslst.push(n)
-													})
-												});
-												*/
 												xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])
 												ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
-												
-												//console.log(`Processed file: ${fileUrl.value}`);
 											}
-											
 											
 											// Display the file name in a div
 											var fileNameDisplay1 = document.getElementById("fileNameDisplay1");
 											fileNameDisplay1.textContent = "Selected File: " + fileUrl.value;
 											
-										
 										  console.log(`Processed file: ${fileUrl.value}`);
 										  resolve();
 										  return ymax
@@ -3044,8 +3100,8 @@
 											//console.log(nodeslst)
 											//console.log(linkslst)
 											
-											jsonObj["nodes"] = nodeslst
-											jsonObj["links"] = linkslst
+											jsonObj["nodes"] = nodeslst2
+											jsonObj["links"] = linkslst2
 											
 											Main_visualization_code(jsonObj)
 											Mainfunction(jsonObj)
