@@ -2311,7 +2311,7 @@
 								});
 							}
 						});
-						console.log('species_genes_list',species_genes_list)
+						//console.log('species_genes_list',species_genes_list)
 					} else {
 					  result += decoder.decode(value, { stream: true });
 					  read();
@@ -2407,7 +2407,7 @@
 				var container = document.getElementById('loadingDiv2');
 				var myDiv = document.getElementById('myDiv_buildnet');
 				
-				console.log('myDiv',myDiv)
+				//console.log('myDiv',myDiv)
 				//var myDiv = document.createElement('div');
 				var button1 = document.createElement('button');
 				var button2 = document.createElement('button');
@@ -2585,7 +2585,7 @@
 						button1.addEventListener('click', function() {									
 							let ncbi_btn1 = document.getElementById('Archaea');
 							ncbi_button_action(ncbi_btn1);
-							console.log('ncbi_btn1',ncbi_btn1)
+							//console.log('ncbi_btn1',ncbi_btn1)
 							// Set a timeout (e.g., 3000 milliseconds) to hide the loading icon
 							setTimeout(hideLoadingIcon, 60000); // Adjust the duration as needed
 						});
@@ -2675,7 +2675,7 @@
 							console.log(value)
 							console.log(ncbi_category)
 							var url = prefix_url.concat(ncbi_cat).concat(species).concat('representative/')
-							console.log(url)
+							//console.log(url)
 							
 							fetch(url)
 								.then(response => response.text())
@@ -2695,7 +2695,7 @@
 								let seclastele = linkarr.pop();
 	
 								//if (i>0 && i<links.length-1){
-									console.log(seclastele)
+									//console.log(seclastele)
 									var mod_url = url.concat(seclastele).concat('/').concat(seclastele).concat('_genomic.gff.gz')
 									ncbi_gene_annotation_url(mod_url)
 								//}
@@ -2825,14 +2825,14 @@
 									var ycorlst = [];
 						
 									var gene_indexs = [];
-									console.log('species_genes_list',species_genes_list)
+									//console.log('species_genes_list',species_genes_list)
 									species_genes_list.forEach(function(g,i){
 										if (kegg_gene_lst['kegg_gene'].indexOf(g)!=-1){
 											//console.log()
 											gene_indexs.push(kegg_gene_lst['kegg_gene'].indexOf(g))
 										}
 									})
-									console.log("gene_indexs",gene_indexs)
+									//console.log("gene_indexs",gene_indexs)
 									var species_rxnids = [];
 									
 									gene_indexs.forEach(function(i){
@@ -2892,7 +2892,7 @@
 										// Simulating an asynchronous operation, such as loading a file
 										setTimeout(() => {
 											console.log('fileno',fileno)
-											console.log('species_kegg_gene_lst',species_rxnids)
+											//console.log('species_kegg_gene_lst',species_rxnids)
 											if(i==0){
 												if(xcorlst.length>0){
 													xmax = xcorlst.reduce((max, current) => (current > max ? current : max), xcorlst[0])//Math.max(xcorlst)
@@ -2902,7 +2902,7 @@
 													ymax = ycorlst.reduce((max, current) => (current > max ? current : max), ycorlst[0])
 													console.log('ymax',ymax)
 												}
-												console.log(fileUrl)
+												//console.log(fileUrl)
 
 												var logFileText1 = async file => {
 													const response = await fetch(file)
@@ -2947,12 +2947,12 @@
 															nodeslst1.push(d)
 														}
 													});
-													console.log('nodeslst1',nodeslst1)
+													//console.log('nodeslst1',nodeslst1)
 													var meta_ids = [];
 													linkslst.forEach(function(l){
 														if(rxnids.includes(l.kegg_id)){
 															l.opacity = 1.0;
-															console.log("found1")
+															//console.log("found1")
 															linkslst1.push(l)
 															meta_ids.push(l.source)
 															meta_ids.push(l.target)
@@ -2978,7 +2978,7 @@
 															nodeslst2.push(d)
 														}
 													});
-													console.log('nodeslst2',nodeslst2)
+													//console.log('nodeslst2',nodeslst2)
 
 													linkslst1.forEach(function(l){
 														linkslst2.push(l)
@@ -3097,8 +3097,8 @@
 										return new Promise(resolve => {
 											setTimeout(() => {
 											
-											console.log(nodeslst2)
-											console.log(linkslst2)
+											//console.log(nodeslst2)
+											//console.log(linkslst2)
 											
 											jsonObj["nodes"] = nodeslst2
 											jsonObj["links"] = linkslst2
