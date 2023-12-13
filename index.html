@@ -2311,7 +2311,7 @@
 								});
 							}
 						});
-						
+						console.log('species_genes_list',species_genes_list)
 					} else {
 					  result += decoder.decode(value, { stream: true });
 					  read();
@@ -2668,38 +2668,38 @@
 						setTimeout(() => {
 						
 						var on_species_changed = function(){
-						var value = d3.select('#drop_menu_1').node().selectedOptions[0].value;
-						
-						var species = value.concat('/')
-						var ncbi_cat = ncbi_category.concat('/')
-						console.log(value)
-						console.log(ncbi_category)
-						var url = prefix_url.concat(ncbi_cat).concat(species).concat('representative/')
-						console.log(url)
-						
-						fetch(url)
-							.then(response => response.text())
-							.then(html => {
-						// Create a temporary container to parse the HTML
-						const container = document.createElement('div');
-						container.innerHTML = html;
-
-						// Get all anchor tags (hyperlinks)
-						const links = container.querySelectorAll('a');
-
-						// Loop through each link and print its href attribute
-
-						//links.forEach(function(link,i){
-							let linkarr = links[1].href.split('/');
-							let lastele = linkarr.pop();
-							let seclastele = linkarr.pop();
-
-							//if (i>0 && i<links.length-1){
-								console.log(seclastele)
-								var mod_url = url.concat(seclastele).concat('/').concat(seclastele).concat('_genomic.gff.gz')
-								ncbi_gene_annotation_url(mod_url)
-							//}
-						//});
+							var value = d3.select('#drop_menu_1').node().selectedOptions[0].value;
+							
+							var species = value.concat('/')
+							var ncbi_cat = ncbi_category.concat('/')
+							console.log(value)
+							console.log(ncbi_category)
+							var url = prefix_url.concat(ncbi_cat).concat(species).concat('representative/')
+							console.log(url)
+							
+							fetch(url)
+								.then(response => response.text())
+								.then(html => {
+							// Create a temporary container to parse the HTML
+							const container = document.createElement('div');
+							container.innerHTML = html;
+	
+							// Get all anchor tags (hyperlinks)
+							const links = container.querySelectorAll('a');
+	
+							// Loop through each link and print its href attribute
+	
+							//links.forEach(function(link,i){
+								let linkarr = links[1].href.split('/');
+								let lastele = linkarr.pop();
+								let seclastele = linkarr.pop();
+	
+								//if (i>0 && i<links.length-1){
+									console.log(seclastele)
+									var mod_url = url.concat(seclastele).concat('/').concat(seclastele).concat('_genomic.gff.gz')
+									ncbi_gene_annotation_url(mod_url)
+								//}
+							//});
 
 						})
 						.catch(error => console.error('Error fetching data:', error));
@@ -2825,6 +2825,7 @@
 									var ycorlst = [];
 						
 									var gene_indexs = [];
+									console.log('species_genes_list',species_genes_list)
 									species_genes_list.forEach(function(g,i){
 										if (kegg_gene_lst['gene'].indexOf(g)!=-1){
 											//console.log()
