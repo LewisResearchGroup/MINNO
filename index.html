@@ -735,6 +735,14 @@
 		animation: typing 3s steps(40) infinite;
 		overflow: hidden;
 	}
+	
+	.typing_text_Div {
+		position: absolute;
+		top: 200px;
+		left: 200px;
+		width: 800px; /* Set the width as needed */
+		height: 600px; /* Set the height as needed */
+	}
 
 		
     </style>
@@ -1041,7 +1049,7 @@
 			$( "#loadingDiv1" ).remove(); //makes page more lightweight   
 		    });	
 		    
-		    $('body').append('<div style="" id="loadingDiv2"> <div class="btn_div_container"> <button class="default-btn" onclick="addanotherdivloader1()">Tutorial</button> <button class="default-btn" onclick="addanotherdivloader2()">Load networks files</button> <button class="default-btn" onclick="addanotherdivloader3()">Build network files</button> </div> <h1 id="species_loading_h1_id" style="display: none;"> Please wait! Lists of species and pathways are being loaded. </h1> <div id="speciesloadingIcon" class="species_loader1" style="display: none;"> </div> <div class="dropmenu_div_container" id="dropmenu_species_div_container_id1" style="display: none;"> <select id="drop_menu_1"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id2" style="display: none;"> <input type="file" id="networkfileInput" multiple style="display: none;" /> <input type="file" id="meta_file2" style="display: none;"/> <select id="KEGG_orth_models" multiple="multiple"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id3" style="display: none;"></div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id4" style="display: none;"> <div id="datafilename1"></div> </div> <div class="dropmenu_div_container4" id="dropmenu_pathways_div_container_id5" style="display: none;"></div> <div id="myDiv_tutorial"></div> <div id="myDiv_loadfiles"> <div id="loadfilediv1"><div id="fileNameDisplay1"></div></div> <div id="loadfilediv2"><div id="fileNameDisplay2"></div></div> <div id="loadfilediv3"></div> </div> <div id="myDiv_buildnet"></div>');
+		    $('body').append('<div style="" id="loadingDiv2"> <div class="btn_div_container"> <button class="default-btn" onclick="addanotherdivloader1()">Tutorial</button> <button class="default-btn" onclick="addanotherdivloader2()">Load networks files</button> <button class="default-btn" onclick="addanotherdivloader3()">Build network files</button> </div> <h1 id="species_loading_h1_id" style="display: none;"> Please wait! Lists of species and pathways are being loaded. </h1> <div id="speciesloadingIcon" class="species_loader1" style="display: none;"> </div> <div class="dropmenu_div_container" id="dropmenu_species_div_container_id1" style="display: none;"> <select id="drop_menu_1"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id2" style="display: none;"> <input type="file" id="networkfileInput" multiple style="display: none;" /> <input type="file" id="meta_file2" style="display: none;"/> <select id="KEGG_orth_models" multiple="multiple"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id3" style="display: none;"></div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id4" style="display: none;"> <div id="datafilename1"></div> </div> <div class="dropmenu_div_container4" id="dropmenu_pathways_div_container_id5" style="display: none;"></div> <div id="myDiv_tutorial"><div id="typing-text" class="typing_text_Div"></div></div> <div id="myDiv_loadfiles"> <div id="loadfilediv1"><div id="fileNameDisplay1"></div></div> <div id="loadfilediv2"><div id="fileNameDisplay2"></div></div> <div id="loadfilediv3"></div> </div> <div id="myDiv_buildnet"></div>');
 		    
 			d3.select("#fileInput").on("change", function(){
 			// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
@@ -1083,206 +1091,6 @@
 				};
 			});
 			
-			/*
-			d3.select("#networkfileInput").on("change", function(){
-			//document.getElementById("#networkfileInput").on("click", function(){
-			// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
-				
-				 if (window.File && window.FileReader && window.FileList && window.Blob) {
-					
-					var filelist = this.files,
-						filenames = [];
-					
-					for(let filen = 0; filen< filelist.length; filen++)
-					{	
-						filenames.push(filelist[filen].name)
-					}
-					// Use FileReader to read the file
-					var reader = new FileReader();
-					reader.readAsText(filelist[0]);
-					console.log(filenames[0])
-					//console.log(filelist[0])
-					
-					var kegg_gene_lst = {'id':['K00001','K01623','K01810'],'gene':['adh','ALDO']}
-					//,'K01835'
-					//upload_files(filelist,0,filenames);
-					
-					reader.onload = function(event) {
-						// Display the content of the file
-						var network_data = event.target.result;
-						var d_jsonobj = JSON.parse(network_data)
-						
-						var nodes_mod = [];
-						
-						var rxnids = [];
-						d_jsonobj["nodes"].forEach(function(d){
-							if(d.type=="R"){
-								var rxn_genes = d.gene_link.split('?')[1].split("+")
-								var matching_genes = findMatchingElements(kegg_gene_lst['id'], rxn_genes);
-								if(matching_genes.length>0){
-									rxnids.push(d.kegg_id)
-									d.opacity = 1.0;
-									nodes_mod.push(d)
-								}
-								else{
-									d.opacity = 0.5;
-									nodes_mod.push(d)
-								}
-							}
-							else{
-								d.opacity = 0.5;
-								nodes_mod.push(d)
-							}
-						});
-						
-						console.log("rxnids",rxnids)
-						console.log(d_jsonobj)
-						console.log(d_jsonobj["links"])
-						
-						var links_mod = []
-						
-						d_jsonobj["links"].forEach(function(l){
-							if(rxnids.includes(l.kegg_id)){
-								l.opacity = 1.0;
-								console.log("found1")
-								links_mod.push(l)
-							}
-							else{
-								l.opacity = 0.25;
-								links_mod.push(l)
-							}
-						});
-						
-						var meta_ids = [];
-						d_jsonobj["links"].forEach(function(r){
-							//console.log(r)
-							if(rxnids.includes(r.kegg_id)){
-								meta_ids.push(r.source)
-								meta_ids.push(r.target)
-							}
-						});
-						
-						var nodes_mod2 = []
-						console.log('metaids',meta_ids)
-						
-						nodes_mod.forEach(function(d){
-							if(d.type=="M"){
-								if(meta_ids.includes(d.id)){
-									d.opacity = 1.0;
-									nodes_mod2.push(d)
-								}
-								else{
-									//d.opacity = 1.0;
-									nodes_mod2.push(d)
-								}
-							}
-							else{
-								nodes_mod2.push(d)
-							}
-						});
-						
-						console.log(nodes_mod2)
-						
-						
-						jsonObj["links"] = links_mod;
-						jsonObj["nodes"] = nodes_mod2;//d_jsonobj["nodes"];
-						
-						console.log(jsonObj)
-						
-						//console.log(jsonobj["reaction"])
-						Main_visualization_code(jsonObj)
-						//Mainfunction(jsonobj)
-						
-					};
-				}
-				else{
-					alert("Your browser won't let you save this graph -- try upgrading your browser to IE 10+ or Chrome or Firefox.")
-				};
-			});	
-			//*/
-			
-			/*
-			d3.select("#networkfileInput").on("change", function(){
-			//document.getElementById("#networkfileInput").on("click", function(){
-			// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
-				// For loading the network files together.
-				 if (window.File && window.FileReader && window.FileList && window.Blob) {
-					
-					var filelist = this.files,
-						filenames = [];
-					
-					console.log(filelist)
-					
-					//var jsonObj = {"nodes":[],"links":[]}
-					var nodeslst = []
-					var linkslst = []
-					
-					// Example functions that return promises
-					function firstFunction() {
-						return new Promise(resolve => {
-							setTimeout(() => {
-							
-							for(let filen = 0; filen< filelist.length; filen++)
-							{	
-								console.log(filelist[filen].name)
-								filenames.push(filelist[filen].name)
-								var reader = new FileReader();
-								reader.readAsText(filelist[filen]);
-								
-								reader.onload = function(event) {
-									// Display the content of the file
-									var network_data = event.target.result;
-									var d_jsonobj = JSON.parse(network_data)
-									//console.log(d_jsonobj)
-									
-									d_jsonobj["nodes"].forEach(function(n){
-										nodeslst.push(n)
-									})
-									d_jsonobj["links"].forEach(function(n){
-										linkslst.push(n)
-									})
-								}
-							}
-
-							console.log('First function');
-							resolve();
-							}, 2000); // Simulating an asynchronous operation with a timeout
-						});
-					}
-
-					function secondFunction() {
-						return new Promise(resolve => {
-							setTimeout(() => {
-							
-							//console.log(nodeslst)
-							//console.log(linkslst)
-							
-							jsonObj["nodes"] = nodeslst
-							jsonObj["links"] = linkslst
-							
-							Main_visualization_code(jsonObj)
-							Mainfunction(jsonObj)
-							
-							console.log('Second function');
-							resolve();
-							}, 1000); // Simulating an asynchronous operation with a timeout
-						});
-					}
-
-					// Async function to call two functions in sequence
-					async function callFunctionsInSequence() {
-					await firstFunction();
-					await secondFunction();
-					}
-
-					// Call the async function
-					callFunctionsInSequence();
-					
-				}
-				else {
-					alert("Your browser won't let you save this graph -- try upgrading your browser to IE 10+ or Chrome or Firefox.")
-				};
-			});	
 			
 			//*/
 			d3.select("#networkfileInput").on("change", function(){
@@ -2012,7 +1820,16 @@
 				return new Promise(resolve => {
 					setTimeout(() => {
 					
-					addButtonToDiv();
+					//addButtonToDiv();
+					$("#typing-text").fadeOut(500, function() {
+					  // fadeOut complete. Remove the loading div
+					$("#typing-text").remove(); //makes page more lightweight 
+					});
+					
+					$("#myDiv_tutorial").fadeOut(500, function() {
+					  // fadeOut complete. Remove the loading div
+					$("#myDiv_tutorial").remove(); //makes page more lightweight 
+					});
 					
 					console.log('Third function');
 					resolve();
@@ -2025,25 +1842,18 @@
 					setTimeout(() => {
 						
 					var picIndex = 0
+					var myDiv = document.getElementById('myDiv_tutorial');	
+					myDiv.classList.add('solid_back');
+					myDiv.style.zIndex = 1;
+					myDiv.style.width = '100%';
+					myDiv.style.height = '100%';
+					myDiv.style.top = '0px';
+					myDiv.style.left = '0px';
+					myDiv.style.backgroundPosition = 'center'; /* Adjust as needed: 'center', 'top', 'left', etc. */
+					myDiv.style.backgroundRepeat = 'no-repeat'; /* Prevent image from repeating */
+					myDiv.style.position = 'absolute';
 						
 					function changeBackgroundImage() {
-						//var container = document.getElementById('loadingDiv2');
-						//console.log(container)
-						var myDiv = document.getElementById('myDiv_tutorial');	
-						myDiv.classList.add('solid_back');
-						myDiv.style.zIndex = 1;
-						myDiv.style.width = '100%';
-						myDiv.style.height = '100%';
-						myDiv.style.top = '0px';
-						myDiv.style.left = '0px';
-						myDiv.style.backgroundPosition = 'center'; /* Adjust as needed: 'center', 'top', 'left', etc. */
-						myDiv.style.backgroundRepeat = 'no-repeat'; /* Prevent image from repeating */
-						myDiv.style.position = 'absolute';
-						
-						//var divbackElement = document.getElementById('dropmenu_species_div_container_id1');	
-						//console.log(divbackElement)
-						
-						//document.body.style.backgroundImage = `url('${imageUrls[randomIndex]}')`;
 						myDiv.style.backgroundImage = `url('${imageUrls[picIndex]}')`;
 						picIndex++
 					}
@@ -2053,14 +1863,14 @@
 					
 					// Change the background image every 5000 milliseconds (5 seconds)
 					if(picIndex<imageUrls.length-1){
-						setInterval(changeBackgroundImage, 1000);
+						setInterval(changeBackgroundImage, 2000);
 					}
 					else{
 					}
 					
 					console.log('First function');
 					resolve();
-					}, 100); // Simulating an asynchronous operation with a timeout
+					}, 50); // Simulating an asynchronous operation with a timeout
 				});
 			}
 			
@@ -2075,7 +1885,7 @@
 					var currentIndex = 0;
 
 					// Reference to the typing text div
-					var typingTextElement = document.getElementById('myDiv_tutorial');
+					var typingTextElement = document.getElementById('typing-text');
 					
 					//typingTextElement.classList.add('typing-text');
 					typingTextElement.style.fontFamily = 'monospace';
@@ -2112,7 +1922,7 @@
 				
 				console.log('Second function');
 					resolve();
-					}, 1000); // Simulating an asynchronous operation with a timeout
+					}, 50); // Simulating an asynchronous operation with a timeout
 				});
 			}
 			
@@ -2121,7 +1931,7 @@
 			await firstFunction_tutorial();
 			await secondFunction_tutorial();
 			await thirdFunction_tutorial();
-			console.log("DOne")
+			console.log("Done")
 			}
 
 			// Call the async function
@@ -2764,6 +2574,16 @@
 						setTimeout(() => {
 						
 						addTopButtonsToDiv();
+
+						$("#typing-text").fadeOut(500, function() {
+						  // fadeOut complete. Remove the loading div
+						$("#typing-text").remove(); //makes page more lightweight 
+						});
+						
+						$("#myDiv_tutorial").fadeOut(500, function() {
+						  // fadeOut complete. Remove the loading div
+						$("#myDiv_tutorial").remove(); //makes page more lightweight 
+						});
 						
 						console.log('Third function');
 						resolve();
@@ -2870,10 +2690,10 @@
 			
 				//myDiv.textContent = 'This is a dynamically created div!';
 				async function callFunctionsInSequence_build() {
-				await firstFunction_build();
-				await secondFunction_build();
-				//await thirdFunction_tutorial();
-				console.log("Done")
+					await firstFunction_build();
+					await secondFunction_build();
+					//await thirdFunction_tutorial();
+					console.log("Done")
 				}
 
 				// Call the async function
