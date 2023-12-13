@@ -1041,10 +1041,6 @@
 				};
 			});
 			
-			function findMatchingElements(arr1, arr2) {
-				return arr1.filter(element => arr2.indexOf(element) !== -1);
-			}
-			
 			/*
 			d3.select("#networkfileInput").on("change", function(){
 			//document.getElementById("#networkfileInput").on("click", function(){
@@ -2344,6 +2340,10 @@
 				console.error('There was a problem with the fetch operation:', error);
 			  });
 			
+		}
+
+		function findMatchingElements(arr1, arr2) {
+			return arr1.filter(element => arr2.indexOf(element) !== -1);
 		}
 		
 		function addanotherdivloader3(){
