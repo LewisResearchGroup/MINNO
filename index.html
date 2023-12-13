@@ -749,12 +749,12 @@
 	  </staticContent>
 
 	  <div class="controls">
-		
+		<1--
 		<input  type="checkbox" class="tgl tgl-skewed" id="simulationkey"/>
 		<label class="tgl-btn" data-tg-off="Simulation OFF" data-tg-on="Simulation ON" for="simulationkey"></label>
 		<input  type="checkbox" class="tgl tgl-skewed" id="freezekey"/>
 		<label class="tgl-btn" data-tg-off="Freeze OFF" data-tg-on="Freeze ON" for="freezekey"></label>
-		
+		-->
 		<select id="data_group"></select>
 		<select id="ab_data"></select>
 		<select id="time_data"></select>
@@ -7594,7 +7594,7 @@
 					simulation.force("link").links(data.links); // displays force links
 					simulation.on("tick", tick);//-180.0 
 					//simulation.restart();
-					
+					/*
 					if(d3.select("#freezekey").property("checked")){
 						simulation.alphaMin(alphaMIN);
 						simulation.stop();
@@ -7610,7 +7610,7 @@
 							simulation.alphaMin(0.01);
 						}
 					});
-					
+					*/
 					///*
 					var markerHead = d3.select("#svg_main").select('defs').select("#arrowHead").selectAll("marker")
 						.data(data.links);
