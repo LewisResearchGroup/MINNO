@@ -2346,10 +2346,76 @@
 			return arr1.filter(element => arr2.indexOf(element) !== -1);
 		}
 		
+		var kegg_ids = [], kegg_genes = [];
+		var kegg_gene_lst = {'kegg_id':kegg_ids, 'kegg_gene':kegg_genes};
+
+		function firstFunction_kegg_gene(){
+			return new Promise(resolve => {
+				setTimeout(() => {
+	
+				const logFileText4 = async file => {
+					const response = await fetch(file)
+					const data = await response.text()
+					const lines = data.split('\n');
+				    let i = 0;
+				
+				    for (const line of lines) {
+					i++;
+				
+					if (i > 0 && i < 11400000) {
+					    const strg = line.trim();
+				
+					    try {
+						const info = strg.split('\t')[1].split(';')[0];
+						const info1 = strg.split('\t')[0];
+				
+						if (info.includes(',')) {
+						    const refine_info = info.split(',');
+				
+						    for (const y of refine_info) {
+							kegg_genes.push(y.replace(' ', ''));
+							kegg_ids.push(info1);
+						    }
+						} else {
+						    kegg_genes.push(info);
+						    kegg_ids.push(info1);
+						}
+					    } catch (error) {
+						console.error('Skipped');
+					    }
+					}
+				    }
+				}
+	
+				logFileText4('Edited_ortholog_networks/ko_genes.txt')
+					
+				resolve();
+				}, 1000); // Simulating an asynchronous operation with a timeout
+			});
+		}
+		
+		function secondFunction_kegg_gene(){
+			return new Promise(resolve => {
+				setTimeout(() => {
+				
+					kegg_gene_lst = {'kegg_id':kegg_ids, 'kegg_gene':kegg_genes};
+					console.log('kegg_gene_lst',kegg_gene_lst)
+				
+				resolve();
+				}, 1000); // Simulating an asynchronous operation with a timeout
+			});
+		}
+		
+		async function callFunctionsInSequence_kegg_gene() {
+			await firstFunction_kegg_gene();
+			await secondFunction_kegg_gene();
+		}
+		// Call the async function
+		callFunctionsInSequence_kegg_gene();
+		
 		function addanotherdivloader3(){
 			
 			var ncbi_category = "undefined";
-			var kegg_ids = [], kegg_genes = [];
 	
 			function addTopButtonsToDiv() {
 				
@@ -2500,71 +2566,7 @@
 					ncbi_category = buttonValue
 				}
 
-				function firstFunction_kegg_gene(){
-					return new Promise(resolve => {
-						setTimeout(() => {
-
-						const logFileText4 = async file => {
-							const response = await fetch(file)
-							const data = await response.text()
-							const lines = data.split('\n');
-						    let i = 0;
-						
-						    for (const line of lines) {
-						        i++;
-						
-						        if (i > 0 && i < 11400000) {
-						            const strg = line.trim();
-						
-						            try {
-						                const info = strg.split('\t')[1].split(';')[0];
-						                const info1 = strg.split('\t')[0];
-						
-						                if (info.includes(',')) {
-						                    const refine_info = info.split(',');
-						
-						                    for (const y of refine_info) {
-						                        kegg_genes.push(y.replace(' ', ''));
-						                        kegg_ids.push(info1);
-						                    }
-						                } else {
-						                    kegg_genes.push(info);
-						                    kegg_ids.push(info1);
-						                }
-						            } catch (error) {
-						                console.error('Skipped');
-						            }
-						        }
-						    }
-						}
-			
-						logFileText4('Edited_ortholog_networks/ko_genes.txt')
-							
-						resolve();
-						}, 1000); // Simulating an asynchronous operation with a timeout
-					});
-				}
 				
-				var kegg_gene_lst = {'kegg_id':kegg_ids, 'kegg_gene':kegg_genes};
-				
-				function secondFunction_kegg_gene(){
-					return new Promise(resolve => {
-						setTimeout(() => {
-						
-							kegg_gene_lst = {'kegg_id':kegg_ids, 'kegg_gene':kegg_genes};
-							console.log('kegg_gene_lst',kegg_gene_lst)
-						
-						resolve();
-						}, 1000); // Simulating an asynchronous operation with a timeout
-					});
-				}
-				
-				async function callFunctionsInSequence_kegg_gene() {
-					await firstFunction_kegg_gene();
-					await secondFunction_kegg_gene();
-				}
-				// Call the async function
-				callFunctionsInSequence_kegg_gene();
 
 
 				
