@@ -786,7 +786,7 @@
 			<select id="show_names" multiple="multiple"></select>
 			<select id="data_analysis"></select>
 			<output id="para_slider_output">0</output>
-				<input type="range" min="0" max="10"  value="0" step="0.1" class="slider" id = "para_slider" oninput="d3.select('#para_slider_output').text(value)">
+				<input type="range" min="0" max="5"  value="1.0" step="0.1" class="slider" id = "para_slider" oninput="d3.select('#para_slider_output').text(value)">
 			<label>
 			<!--	
 			<input  type="checkbox" class="tgl tgl-skewed" id="dataset" checked/>
@@ -9241,7 +9241,7 @@
 						if(d3.select('#var_para').node().selectedOptions[0].value=="variation"){
 							d3.select(this).attr('min',0.1); 
 							d3.select(this).attr('value',1.0);
-							d3.select(this).attr('max',10.0);
+							d3.select(this).attr('max',5.0);
 							d3.select(this).attr('step',0.1);
 							scaling_val = this.value;
 						}
