@@ -1736,11 +1736,24 @@
 		}
 		
 		 const imageUrls = [
-		'','','','',	 
-		'images/Screenshot from 2023-12-13 11-41-09.png',
-		'images/Screenshot from 2023-12-13 11-41-24.png',
-		'images/Screenshot from 2023-12-13 11-41-40.png',
-		'images/Screenshot from 2023-12-13 11-41-01.png'
+		'',	 
+		'images/image1.png',
+		'images/image2.png',
+		'images/image3.png',
+		'images/image3.png',
+		'images/image4.png',
+		'images/image5.png',
+		'images/image6.png',
+		'images/image7.png',
+		'images/image8.png',
+		'images/image9.png',
+		'images/image10.png',
+		'images/image11.png',
+		'images/image11.png',
+		'images/image12.png',
+		'images/image13.png',
+		'images/image13.png',
+		'images/image13.png'
 		];
 		
 		function addanotherdivloader1(){
@@ -1774,18 +1787,6 @@
 							});
 							//alert('Button Clicked!');
 						});
-						
-						//myDiv.textContent = 'some text';
-						//myDiv.style.zIndex = 1;
-						//myDiv.style.width = '100%';
-						//myDiv.style.height = '100%';
-						//myDiv.style.top = '0px';
-						//myDiv.style.left = '0px';
-						//myDiv.style.backgroundColor = 'rgba(0, 0, 0, 1.0)';
-						//myDiv.style.backgroundImage = `url('Screenshot from 2023-12-10 13-39-05-1.png')`;
-						//myDiv.style.backgroundPosition = 'center'; /* Adjust as needed: 'center', 'top', 'left', etc. */
-						//myDiv.style.backgroundRepeat = 'no-repeat'; /* Prevent image from repeating */
-						//myDiv.style.position = 'absolute';
 						
 						console.log('First function');
 						resolve();
@@ -1829,7 +1830,7 @@
 					
 					console.log('Third function');
 					resolve();
-					}, 6000); // Simulating an asynchronous operation with a timeout
+					}, 5500); // Simulating an asynchronous operation with a timeout
 				});
 			}
 
@@ -1844,7 +1845,7 @@
 					
 					console.log('Third function');
 					resolve();
-					}, 12000); // Simulating an asynchronous operation with a timeout
+					}, 110000); // Simulating an asynchronous operation with a timeout
 				});
 			}
 		
@@ -1863,6 +1864,8 @@
 					myDiv.style.backgroundPosition = 'center'; /* Adjust as needed: 'center', 'top', 'left', etc. */
 					myDiv.style.backgroundRepeat = 'no-repeat'; /* Prevent image from repeating */
 					myDiv.style.position = 'absolute';
+					myDiv.style.backgroundSize = '100%'
+					myDiv.style.backgroundImageheight = 'auto'
 						
 					function changeBackgroundImage() {
 						myDiv.style.backgroundImage = `url('${imageUrls[picIndex]}')`;
@@ -1874,7 +1877,7 @@
 					
 					// Change the background image every 5000 milliseconds (5 seconds)
 					if(picIndex<imageUrls.length-1){
-						setInterval(changeBackgroundImage, 2000);
+						setInterval(changeBackgroundImage, 6000);
 					}
 					else{
 					}
