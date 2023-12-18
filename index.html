@@ -3065,7 +3065,7 @@
 									  console.log(`Processed file: ${fileUrl.value}`);
 									  resolve();
 									  return ymax
-									}, 100); // Simulated delay, adjust as needed
+									}, 1500); // Simulated delay, adjust as needed
 								  });
 								}
 								
@@ -3084,7 +3084,7 @@
 										
 										console.log('Second function');
 										resolve();
-										}, 2000); // Simulating an asynchronous operation with a timeout
+										}, 3000); // Simulating an asynchronous operation with a timeout
 									});
 								}
 								
@@ -3092,8 +3092,8 @@
 								// Call the function and await its completion
 								async function startProcessing() {
 								  await processFilesSequentially(fileUrls);
-								  console.log('All files processed.');
 								  await secondFunction();
+								 console.log('All files processed.');
 								}
 
 								// Call the async function
