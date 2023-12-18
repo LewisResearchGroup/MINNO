@@ -2573,6 +2573,11 @@
 				function firstFunction_build() {
 					return new Promise(resolve => {
 						setTimeout(() => {
+
+						$("#myDiv_tutorial").fadeOut(5, function() {
+						   fadeOut complete. Remove the loading div
+						$("#myDiv_tutorial").remove(); //makes page more lightweight 
+						});
 						
 						addTopButtonsToDiv();
 
