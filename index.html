@@ -2748,8 +2748,8 @@
 								
 								//settings = false;
 								
-								var nodeslst = [], nodeslst1 = [], nodeslst2 = [];
-								var linkslst = [], linkslst1 = [], linkslst2 = [];
+								var nodeslst = [];
+								var linkslst = [];
 								var xcorlst = [];
 								var ycorlst = [];
 					
@@ -2841,85 +2841,64 @@
 												const text = await response.text()
 												var d_jsonobj = JSON.parse(text)
 
+												d_jsonobj["nodes"].forEach(function(d){
+													if(d.type=="R"){
+														var rxn_genes = d.gene_link.split('?')[1].split("+")
+														var matching_genes = findMatchingElements(species_rxnids, rxn_genes);
+														if(matching_genes.length>0){
+															rxnids.push(d.kegg_id)
+														}
+													}
+												});
+											
+												d_jsonobj["links"].forEach(function(l){
+													if(rxnids.includes(l.kegg_id)){
+														meta_ids.push(l.source)
+														meta_ids.push(l.target)
+													}
+												});
+											
 												d_jsonobj["nodes"].forEach(function(n){
 													n.id = n.id + "_" + fileno
 													if(chrow>0){
 														n.y = n.y + 50.0 + ymax
 													}
-													else{
+												
+													if(n.type=="R"){
+														if(rxnids.includes(n.kegg_id){
+															n.opacity=1.0
+														}
+														else{
+															n.opacity = 0.5
+														}
+													} 
+													else if(n.type=="M"){
+														if(meta_ids.includes(n.id)){
+															n.opacity = 1.0;
+														}
+														else{
+															n.opacity = 0.5;
+														}
 													}
-													
 													nodeslst.push(n)
 													//console.log(n.x)
 													xcorlst.push(n.x)
 													ycorlst.push(n.y)
-													
 												})
 												
 												d_jsonobj["links"].forEach(function(n){
 													n.id = n.id + "_"+fileno
 													n.source = n.source + "_" + fileno
 													n.target = n.target + "_" + fileno
-
+													if(rxnids.includes(n.kegg_id)){
+														n.opacity = 1.0;
+													}
+													else{
+														n.opacity = 0.25;
+													}
 													linkslst.push(n)
 												})
-											
-												nodeslst.forEach(function(d){
-													if(d.type=="R"){
-														var rxn_genes = d.gene_link.split('?')[1].split("+")
-														var matching_genes = findMatchingElements(species_rxnids, rxn_genes);
-														if(matching_genes.length>0){
-															rxnids.push(d.kegg_id)
-															d.opacity = 1.0;
-															nodeslst1.push(d)
-														}
-														else{
-															d.opacity = 0.5;
-															nodeslst1.push(d)
-														}
-													}
-													else{
-														d.opacity = 0.5;
-														nodeslst1.push(d)
-													}
-												});
-												//console.log('nodeslst1',nodeslst1)
-											
-												linkslst.forEach(function(l){
-													if(rxnids.includes(l.kegg_id)){
-														l.opacity = 1.0;
-														//console.log("found1")
-														//linkslst1.push(l)
-														linkslst1.push(l)
-														meta_ids.push(l.source)
-														meta_ids.push(l.target)
-													}
-													else{
-														l.opacity = 0.25;
-														linkslst1.push(l)
-													}
-												});
-											
-												nodeslst1.forEach(function(d){
-													if(d.type=="M"){
-														if(meta_ids.includes(d.id)){
-															d.opacity = 1.0;
-															nodeslst2.push(d)
-														}
-														else{
-															//d.opacity = 1.0;
-															nodeslst2.push(d)
-														}
-													}
-													else{
-														nodeslst2.push(d)
-													}
-												});
-												//console.log('nodeslst2',nodeslst2)
-											
-												linkslst1.forEach(function(l){
-													linkslst2.push(l)
-												});
+												
 											}
 											
 											logFileText1('Edited_ortholog_networks/'+fileUrl.value+'.json')
@@ -2941,78 +2920,65 @@
 												const text = await response.text()
 												var d_jsonobj = JSON.parse(text)
 
+												d_jsonobj["nodes"].forEach(function(d){
+													if(d.type=="R"){
+														var rxn_genes = d.gene_link.split('?')[1].split("+")
+														var matching_genes = findMatchingElements(species_rxnids, rxn_genes);
+														if(matching_genes.length>0){
+															rxnids.push(d.kegg_id)
+														}
+													}
+												});
+											
+												d_jsonobj["links"].forEach(function(l){
+													if(rxnids.includes(l.kegg_id)){
+														meta_ids.push(l.source)
+														meta_ids.push(l.target)
+													}
+												});
+											
 												d_jsonobj["nodes"].forEach(function(n){
 													n.id = n.id + "_" + fileno
 													n.x = n.x + 50.0 + xmax
 													if(chrow>0){
 														n.y = n.y + 50.0 + ymax
 													}
-													else{
+												
+													if(n.type=="R"){
+														if(rxnids.includes(n.kegg_id){
+															n.opacity=1.0
+														}
+														else{
+															n.opacity = 0.5
+														}
+													} 
+													else if(n.type=="M"){
+														if(meta_ids.includes(n.id)){
+															n.opacity = 1.0;
+														}
+														else{
+															n.opacity = 0.5;
+														}
 													}
 													nodeslst.push(n)
+													//console.log(n.x)
 													xcorlst.push(n.x)
 													ycorlst.push(n.y)
 												})
+												
 												d_jsonobj["links"].forEach(function(n){
-													n.id = n.id + "_" + fileno
+													n.id = n.id + "_"+fileno
 													n.source = n.source + "_" + fileno
 													n.target = n.target + "_" + fileno
+													if(rxnids.includes(n.kegg_id)){
+														n.opacity = 1.0;
+													}
+													else{
+														n.opacity = 0.25;
+													}
 													linkslst.push(n)
 												})
-											
-												nodeslst.forEach(function(d){
-													if(d.type=="R"){
-														var rxn_genes = d.gene_link.split('?')[1].split("+")
-														var matching_genes = findMatchingElements(species_rxnids, rxn_genes);
-														if(matching_genes.length>0){
-															rxnids.push(d.kegg_id)
-															d.opacity = 1.0;
-															nodeslst1.push(d)
-														}
-														else{
-															d.opacity = 0.5;
-															nodeslst1.push(d)
-														}
-													}
-													else{
-														d.opacity = 0.5;
-														nodeslst1.push(d)
-													}
-												});
-												
-												linkslst.forEach(function(l){
-													if(rxnids.includes(l.kegg_id)){
-														l.opacity = 1.0;
-														console.log("found1")
-														linkslst1.push(l)
-														meta_ids.push(l.source)
-														meta_ids.push(l.target)
-													}
-													else{
-														l.opacity = 0.25;
-														linkslst1.push(l)
-													}
-												});
-											
-												nodeslst1.forEach(function(d){
-													if(d.type=="M"){
-														if(meta_ids.includes(d.id)){
-															d.opacity = 1.0;
-															nodeslst2.push(d)
-														}
-														else{
-															//d.opacity = 1.0;
-															nodeslst2.push(d)
-														}
-													}
-													else{
-														nodeslst2.push(d)
-													}
-												});
 
-												linkslst1.forEach(function(l){
-													linkslst2.push(l)
-												});
 											}
 											
 											logFileText1('Edited_ortholog_networks/'+fileUrl.value+'.json')
@@ -3039,8 +3005,8 @@
 										//console.log(nodeslst2)
 										//console.log(linkslst2)
 										
-										jsonObj["nodes"] = nodeslst2
-										jsonObj["links"] = linkslst2
+										jsonObj["nodes"] = nodeslst
+										jsonObj["links"] = linkslst
 										
 										Main_visualization_code(jsonObj)
 										Mainfunction(jsonObj)
