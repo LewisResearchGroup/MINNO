@@ -2849,25 +2849,19 @@
 													else{
 													}
 													
-													if (nodeslst.find(item => item.id === n.id)) {			
-													} 
-													else{
-														nodeslst.push(n)
-														//console.log(n.x)
-														xcorlst.push(n.x)
-														ycorlst.push(n.y)
-													}
+													nodeslst.push(n)
+													//console.log(n.x)
+													xcorlst.push(n.x)
+													ycorlst.push(n.y)
+													
 												})
 												
 												d_jsonobj["links"].forEach(function(n){
 													n.id = n.id + "_"+fileno
 													n.source = n.source + "_" + fileno
 													n.target = n.target + "_" + fileno
-													
-													if (linkslst.some(item => item.id === n.id)) {
-													} else {
-														linkslst.push(n)
-													}
+
+													linkslst.push(n)
 												})
 											
 												nodeslst.forEach(function(d){
@@ -2877,26 +2871,16 @@
 														if(matching_genes.length>0){
 															rxnids.push(d.kegg_id)
 															d.opacity = 1.0;
-															
-															if (nodeslst1.some(item => item.id === d.id)) {
-															} else {
-																nodeslst1.push(d)
-															}
+															nodeslst1.push(d)
 														}
 														else{
 															d.opacity = 0.5;
-															if (nodeslst1.some(item => item.id === d.id)) {
-															} else {
-																nodeslst1.push(d)
-															}
+															nodeslst1.push(d)
 														}
 													}
 													else{
 														d.opacity = 0.5;
-														if (nodeslst1.some(item => item.id === d.id)) {
-														} else {
-															nodeslst1.push(d)
-														}
+														nodeslst1.push(d)
 													}
 												});
 												//console.log('nodeslst1',nodeslst1)
@@ -2906,21 +2890,13 @@
 														l.opacity = 1.0;
 														//console.log("found1")
 														//linkslst1.push(l)
-														
-														if (linkslst1.some(item => item.id === l.id)) {
-														} else {
-															linkslst1.push(l)
-														}
+														linkslst1.push(l)
 														meta_ids.push(l.source)
 														meta_ids.push(l.target)
 													}
 													else{
 														l.opacity = 0.25;
-														if (linkslst1.some(item => item.id === l.id)) {
-														} else {
-															linkslst1.push(l)
-														}
-														//linkslst1.push(l)
+														linkslst1.push(l)
 													}
 												});
 											
@@ -2928,34 +2904,21 @@
 													if(d.type=="M"){
 														if(meta_ids.includes(d.id)){
 															d.opacity = 1.0;
-															
-															if (nodeslst2.some(item => item.id === d.id)) {
-															} else {
-																nodeslst2.push(d)
-															}
+															nodeslst2.push(d)
 														}
 														else{
 															//d.opacity = 1.0;
-															if (nodeslst2.some(item => item.id === d.id)) {
-															} else {
-																nodeslst2.push(d)
-															}
+															nodeslst2.push(d)
 														}
 													}
 													else{
-														if (nodeslst2.some(item => item.id === d.id)) {
-														} else {
-															nodeslst2.push(d)
-														}
+														nodeslst2.push(d)
 													}
 												});
 												//console.log('nodeslst2',nodeslst2)
 											
 												linkslst1.forEach(function(l){
-													if (linkslst2.some(item => item.id === l.id)) {
-													} else {
-														linkslst2.push(l)
-													}
+													linkslst2.push(l)
 												});
 											}
 											
