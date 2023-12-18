@@ -2841,164 +2841,122 @@
 												const text = await response.text()
 												var d_jsonobj = JSON.parse(text)
 
-												function first_itr() {
-													return new Promise(resolve => {
-														setTimeout(() => {
+												d_jsonobj["nodes"].forEach(function(n){
+													n.id = n.id + "_" + fileno
+													if(chrow>0){
+														n.y = n.y + 50.0 + ymax
+													}
+													else{
+													}
+													
+													if (nodeslst.find(item => item.id === n.id)) {			
+													} 
+													else{
+														nodeslst.push(n)
+														//console.log(n.x)
+														xcorlst.push(n.x)
+														ycorlst.push(n.y)
+													}
+												})
 												
-														d_jsonobj["nodes"].forEach(function(n){
-															n.id = n.id + "_" + fileno
-															if(chrow>0){
-																n.y = n.y + 50.0 + ymax
-															}
-															else{
-															}
+												d_jsonobj["links"].forEach(function(n){
+													n.id = n.id + "_"+fileno
+													n.source = n.source + "_" + fileno
+													n.target = n.target + "_" + fileno
+													
+													if (linkslst.some(item => item.id === n.id)) {
+													} else {
+														linkslst.push(n)
+													}
+												})
+											
+												nodeslst.forEach(function(d){
+													if(d.type=="R"){
+														var rxn_genes = d.gene_link.split('?')[1].split("+")
+														var matching_genes = findMatchingElements(species_rxnids, rxn_genes);
+														if(matching_genes.length>0){
+															rxnids.push(d.kegg_id)
+															d.opacity = 1.0;
 															
-															if (nodeslst.find(item => item.id === n.id)) {			
-															} 
-															else{
-																nodeslst.push(n)
-																//console.log(n.x)
-																xcorlst.push(n.x)
-																ycorlst.push(n.y)
-															}
-														})
-														
-														d_jsonobj["links"].forEach(function(n){
-															n.id = n.id + "_"+fileno
-															n.source = n.source + "_" + fileno
-															n.target = n.target + "_" + fileno
-															
-															if (linkslst.some(item => item.id === n.id)) {
+															if (nodeslst1.some(item => item.id === d.id)) {
 															} else {
-																linkslst.push(n)
+																nodeslst1.push(d)
 															}
-														})
+														}
+														else{
+															d.opacity = 0.5;
+															if (nodeslst1.some(item => item.id === d.id)) {
+															} else {
+																nodeslst1.push(d)
+															}
+														}
+													}
+													else{
+														d.opacity = 0.5;
+														if (nodeslst1.some(item => item.id === d.id)) {
+														} else {
+															nodeslst1.push(d)
+														}
+													}
+												});
+												//console.log('nodeslst1',nodeslst1)
+											
+												linkslst.forEach(function(l){
+													if(rxnids.includes(l.kegg_id)){
+														l.opacity = 1.0;
+														//console.log("found1")
+														//linkslst1.push(l)
 														
-														console.log('first_itr');
-														resolve();
-														}, 1000); // Simulating an asynchronous operation with a timeout
-													});
-												}
-												
-												function second_itr() {
-													return new Promise(resolve => {
-														setTimeout(() => {
-												
-															nodeslst.forEach(function(d){
-																if(d.type=="R"){
-																	var rxn_genes = d.gene_link.split('?')[1].split("+")
-																	var matching_genes = findMatchingElements(species_rxnids, rxn_genes);
-																	if(matching_genes.length>0){
-																		rxnids.push(d.kegg_id)
-																		d.opacity = 1.0;
-																		
-																		if (nodeslst1.some(item => item.id === d.id)) {
-																		} else {
-																			nodeslst1.push(d)
-																		}
-																	}
-																	else{
-																		d.opacity = 0.5;
-																		if (nodeslst1.some(item => item.id === d.id)) {
-																		} else {
-																			nodeslst1.push(d)
-																		}
-																	}
-																}
-																else{
-																	d.opacity = 0.5;
-																	if (nodeslst1.some(item => item.id === d.id)) {
-																	} else {
-																		nodeslst1.push(d)
-																	}
-																}
-															});
-															//console.log('nodeslst1',nodeslst1)
-												
-															linkslst.forEach(function(l){
-																if(rxnids.includes(l.kegg_id)){
-																	l.opacity = 1.0;
-																	//console.log("found1")
-																	//linkslst1.push(l)
-																	
-																	if (linkslst1.some(item => item.id === l.id)) {
-																	} else {
-																		linkslst1.push(l)
-																	}
-																	meta_ids.push(l.source)
-																	meta_ids.push(l.target)
-																}
-																else{
-																	l.opacity = 0.25;
-																	if (linkslst1.some(item => item.id === l.id)) {
-																	} else {
-																		linkslst1.push(l)
-																	}
-																	//linkslst1.push(l)
-																}
-															});
-														
-														console.log('first_itr');
-														resolve();
-														}, 1000); // Simulating an asynchronous operation with a timeout
-													});
-												}
-												
-												function third_itr() {
-													return new Promise(resolve => {
-														setTimeout(() => {
-												
-															nodeslst1.forEach(function(d){
-																if(d.type=="M"){
-																	if(meta_ids.includes(d.id)){
-																		d.opacity = 1.0;
-																		
-																		if (nodeslst2.some(item => item.id === d.id)) {
-																		} else {
-																			nodeslst2.push(d)
-																		}
-																	}
-																	else{
-																		//d.opacity = 1.0;
-																		if (nodeslst2.some(item => item.id === d.id)) {
-																		} else {
-																			nodeslst2.push(d)
-																		}
-																	}
-																}
-																else{
-																	if (nodeslst2.some(item => item.id === d.id)) {
-																	} else {
-																		nodeslst2.push(d)
-																	}
-																}
-															});
-															//console.log('nodeslst2',nodeslst2)
-												
-															linkslst1.forEach(function(l){
-																if (linkslst2.some(item => item.id === l.id)) {
-																} else {
-																	linkslst2.push(l)
-																}
-															});
-														
-														console.log('first_itr');
-														resolve();
-														}, 1000); // Simulating an asynchronous operation with a timeout
-													});
-												}
-												
-												// Call the function and await its completion
-												async function startitrProcessing() {
-												  await first_itr();
-												  await second_itr();
-												  await third_itr();
-												  //console.log('All files processed.');
-												}
-												
-												// Call the async function
-												startitrProcessing();
-												
+														if (linkslst1.some(item => item.id === l.id)) {
+														} else {
+															linkslst1.push(l)
+														}
+														meta_ids.push(l.source)
+														meta_ids.push(l.target)
+													}
+													else{
+														l.opacity = 0.25;
+														if (linkslst1.some(item => item.id === l.id)) {
+														} else {
+															linkslst1.push(l)
+														}
+														//linkslst1.push(l)
+													}
+												});
+											
+												nodeslst1.forEach(function(d){
+													if(d.type=="M"){
+														if(meta_ids.includes(d.id)){
+															d.opacity = 1.0;
+															
+															if (nodeslst2.some(item => item.id === d.id)) {
+															} else {
+																nodeslst2.push(d)
+															}
+														}
+														else{
+															//d.opacity = 1.0;
+															if (nodeslst2.some(item => item.id === d.id)) {
+															} else {
+																nodeslst2.push(d)
+															}
+														}
+													}
+													else{
+														if (nodeslst2.some(item => item.id === d.id)) {
+														} else {
+															nodeslst2.push(d)
+														}
+													}
+												});
+												//console.log('nodeslst2',nodeslst2)
+											
+												linkslst1.forEach(function(l){
+													if (linkslst2.some(item => item.id === l.id)) {
+													} else {
+														linkslst2.push(l)
+													}
+												});
 											}
 											
 											logFileText1('Edited_ortholog_networks/'+fileUrl.value+'.json')
@@ -3020,121 +2978,78 @@
 												const text = await response.text()
 												var d_jsonobj = JSON.parse(text)
 
-												function first_itr() {
-													return new Promise(resolve => {
-														setTimeout(() => {
-															
-															d_jsonobj["nodes"].forEach(function(n){
-																n.id = n.id + "_" + fileno
-																n.x = n.x + 50.0 + xmax
-																if(chrow>0){
-																	n.y = n.y + 50.0 + ymax
-																}
-																else{
-																}
-																nodeslst.push(n)
-																xcorlst.push(n.x)
-																ycorlst.push(n.y)
-															})
-															d_jsonobj["links"].forEach(function(n){
-																n.id = n.id + "_" + fileno
-																n.source = n.source + "_" + fileno
-																n.target = n.target + "_" + fileno
-																linkslst.push(n)
-															})
-														
-														console.log('first_itr');
-														resolve();
-														}, 1000); // Simulating an asynchronous operation with a timeout
-													});
-												}
+												d_jsonobj["nodes"].forEach(function(n){
+													n.id = n.id + "_" + fileno
+													n.x = n.x + 50.0 + xmax
+													if(chrow>0){
+														n.y = n.y + 50.0 + ymax
+													}
+													else{
+													}
+													nodeslst.push(n)
+													xcorlst.push(n.x)
+													ycorlst.push(n.y)
+												})
+												d_jsonobj["links"].forEach(function(n){
+													n.id = n.id + "_" + fileno
+													n.source = n.source + "_" + fileno
+													n.target = n.target + "_" + fileno
+													linkslst.push(n)
+												})
+											
+												nodeslst.forEach(function(d){
+													if(d.type=="R"){
+														var rxn_genes = d.gene_link.split('?')[1].split("+")
+														var matching_genes = findMatchingElements(species_rxnids, rxn_genes);
+														if(matching_genes.length>0){
+															rxnids.push(d.kegg_id)
+															d.opacity = 1.0;
+															nodeslst1.push(d)
+														}
+														else{
+															d.opacity = 0.5;
+															nodeslst1.push(d)
+														}
+													}
+													else{
+														d.opacity = 0.5;
+														nodeslst1.push(d)
+													}
+												});
 												
-												function second_itr() {
-													return new Promise(resolve => {
-														setTimeout(() => {
-															nodeslst.forEach(function(d){
-																if(d.type=="R"){
-																	var rxn_genes = d.gene_link.split('?')[1].split("+")
-																	var matching_genes = findMatchingElements(species_rxnids, rxn_genes);
-																	if(matching_genes.length>0){
-																		rxnids.push(d.kegg_id)
-																		d.opacity = 1.0;
-																		nodeslst1.push(d)
-																	}
-																	else{
-																		d.opacity = 0.5;
-																		nodeslst1.push(d)
-																	}
-																}
-																else{
-																	d.opacity = 0.5;
-																	nodeslst1.push(d)
-																}
-															});
-															
-															
-															linkslst.forEach(function(l){
-																if(rxnids.includes(l.kegg_id)){
-																	l.opacity = 1.0;
-																	console.log("found1")
-																	linkslst1.push(l)
-																	meta_ids.push(l.source)
-																	meta_ids.push(l.target)
-																}
-																else{
-																	l.opacity = 0.25;
-																	linkslst1.push(l)
-																}
-															});
-														
-														console.log('first_itr');
-														resolve();
-														}, 1000); // Simulating an asynchronous operation with a timeout
-													});
-												}
-												
-												function third_itr() {
-													return new Promise(resolve => {
-														setTimeout(() => {
+												linkslst.forEach(function(l){
+													if(rxnids.includes(l.kegg_id)){
+														l.opacity = 1.0;
+														console.log("found1")
+														linkslst1.push(l)
+														meta_ids.push(l.source)
+														meta_ids.push(l.target)
+													}
+													else{
+														l.opacity = 0.25;
+														linkslst1.push(l)
+													}
+												});
+											
+												nodeslst1.forEach(function(d){
+													if(d.type=="M"){
+														if(meta_ids.includes(d.id)){
+															d.opacity = 1.0;
+															nodeslst2.push(d)
+														}
+														else{
+															//d.opacity = 1.0;
+															nodeslst2.push(d)
+														}
+													}
+													else{
+														nodeslst2.push(d)
+													}
+												});
 
-																nodeslst1.forEach(function(d){
-																	if(d.type=="M"){
-																		if(meta_ids.includes(d.id)){
-																			d.opacity = 1.0;
-																			nodeslst2.push(d)
-																		}
-																		else{
-																			//d.opacity = 1.0;
-																			nodeslst2.push(d)
-																		}
-																	}
-																	else{
-																		nodeslst2.push(d)
-																	}
-																});
-				
-																linkslst1.forEach(function(l){
-																	linkslst2.push(l)
-																});
-														
-														console.log('first_itr');
-														resolve();
-														}, 1000); // Simulating an asynchronous operation with a timeout
-													});
-												}
-												
-												
-												// Call the function and await its completion
-												async function startitrProcessing() {
-												  await first_itr();
-												  await second_itr();
-												  await third_itr();
-												  //console.log('All files processed.');
-												}
-			
-												// Call the async function
-												startitrProcessing();
-												
+												linkslst1.forEach(function(l){
+													linkslst2.push(l)
+												});
 											}
 											
 											logFileText1('Edited_ortholog_networks/'+fileUrl.value+'.json')
@@ -3150,7 +3065,7 @@
 									  console.log(`Processed file: ${fileUrl.value}`);
 									  resolve();
 									  return ymax
-									}, 1000); // Simulated delay, adjust as needed
+									}, 100); // Simulated delay, adjust as needed
 								  });
 								}
 								
@@ -3169,7 +3084,7 @@
 										
 										console.log('Second function');
 										resolve();
-										}, 10000); // Simulating an asynchronous operation with a timeout
+										}, 2000); // Simulating an asynchronous operation with a timeout
 									});
 								}
 								
