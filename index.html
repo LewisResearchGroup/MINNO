@@ -1049,7 +1049,7 @@
 			$( "#loadingDiv1" ).remove(); //makes page more lightweight   
 		    });	
 		    
-		    $('body').append('<div style="" id="loadingDiv2"> <div class="btn_div_container"> <button class="default-btn" onclick="addanotherdivloader1()">Tutorial</button> <button class="default-btn" onclick="addanotherdivloader2()">Load networks files</button> <button class="default-btn" onclick="addanotherdivloader3()">Build network files</button> </div> <h1 id="species_loading_h1_id" style="display: none;"> Please wait! Lists of species and pathways are being loaded. </h1> <div id="speciesloadingIcon" class="species_loader1" style="display: none;"> </div> <div class="dropmenu_div_container" id="dropmenu_species_div_container_id1" style="display: none;"> <select id="drop_menu_1"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id2" style="display: none;"> <input type="file" id="networkfileInput" multiple style="display: none;" /> <input type="file" id="meta_file2" style="display: none;"/> <select id="KEGG_orth_models" multiple="multiple"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id3" style="display: none;"></div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id4" style="display: none;"> <div id="datafilename1"></div> </div> <div class="dropmenu_div_container4" id="dropmenu_pathways_div_container_id5" style="display: none;"></div> <div id="myDiv_tutorial"><div id="typing-text" class="typing_text_Div"></div></div> <div id="myDiv_loadfiles"> <div id="loadfilediv1"><div id="fileNameDisplay1"></div></div> <div id="loadfilediv2"><div id="fileNameDisplay2"></div></div> <div id="loadfilediv3"></div> </div> <div id="myDiv_buildnet"></div>');
+		    $('body').append('<div style="" id="loadingDiv2"> <div class="btn_div_container"> <button class="default-btn" onclick="addanotherdivloader1()">Tutorial</button> <button class="default-btn" onclick="addanotherdivloader2()">Load networks files</button> <button class="default-btn" onclick="addanotherdivloader3()">Build network files</button> </div> <h1 id="species_loading_h1_id" style="display: none;"> Please wait! Lists of species and pathways are being loaded. </h1> <div id="speciesloadingIcon" class="species_loader1" style="display: none;"> </div> <div class="dropmenu_div_container" id="dropmenu_species_div_container_id1" style="display: none;"> <select id="drop_menu_1"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id2" style="display: none;"> <input type="file" id="networkfileInput" multiple style="display: none;" /> <input type="file" id="meta_file2" style="display: none;"/> <select id="KEGG_orth_models" multiple="multiple"></select> </div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id3" style="display: none;"></div> <div class="dropmenu_div_container" id="dropmenu_pathways_div_container_id4" style="display: none;"> <div id="datafilename1"></div> </div> <div class="dropmenu_div_container4" id="dropmenu_pathways_div_container_id5" style="display: none;"></div> <div id="myDiv_tutorial"><div id="typing-text" class="typing_text_Div"></div> <div class="dropmenu_div_container" id="tutorial_div_container_id2" style="display: none;"> </div> <div id="myDiv_loadfiles"> <div id="loadfilediv1"><div id="fileNameDisplay1"></div></div> <div id="loadfilediv2"><div id="fileNameDisplay2"></div></div> <div id="loadfilediv3"></div> </div> <div id="myDiv_buildnet"></div>');
 		    
 			d3.select("#fileInput").on("change", function(){
 			// HTML5 finally provides a standard way to interact with local files, via the File API specification. first line checks if the browser fully supports the File API or not.  
@@ -1761,8 +1761,8 @@
 			
 			function addButtonToDiv() {
 				
-				var container = document.getElementById('loadingDiv2');
-				var myDiv = document.getElementById('myDiv_tutorial');
+				var container = document.getElementById('myDiv_tutorial');
+				var myDiv = document.getElementById('tutorial_div_container_id2');
 				//var myDiv = document.createElement('div');
 				var button = document.createElement('button');
 				
@@ -1770,24 +1770,26 @@
 					return new Promise(resolve => {
 						setTimeout(() => {
 						
-						
+						myDiv.style.display = 'block';
+						myDiv.style.zIndex = 3;
 						//myDiv.id = 'myDiv_tutorial';
 						//myDiv.classList.add('solid_back');
 						// Create a button element
 						
 						//console.log('button',button)
 						// Set button text and attributes
-						button.textContent = 'Click Me';
+						button.textContent = 'User-Manual';
 						button.classList.add('default-btn');
-						button.id = 'myButton12'; // Set a specific ID for the button if needed
+						button.id = 'User_manual_Button'; // Set a specific ID for the button if needed
 						button.addEventListener('click', function() {
 							
-							$("#myDiv_tutorial").fadeOut(500, function() {
-							  // fadeOut complete. Remove the loading div
-							$("#myDiv_tutorial").remove(); //makes page more lightweight 
-							});
+							var newPageURL = 'help.html';
+							window.open(newPageURL, '_blank');
 							//alert('Button Clicked!');
 						});
+						myDiv.style.position = 'absolute';
+						myDiv.style.top = '500px';
+						myDiv.style.left = '500px';
 						
 						console.log('First function');
 						resolve();
@@ -1804,7 +1806,7 @@
 						
 						console.log('Second function');
 						resolve();
-						}, 1000); // Simulating an asynchronous operation with a timeout
+						}, 90000); // Simulating an asynchronous operation with a timeout
 					});
 				}
 				
@@ -1817,7 +1819,7 @@
 				callFunctionsInSequence123();
 			}
 			
-			//addButtonToDiv();
+			addButtonToDiv();
 
 			function thirdFunction_tutorial() {
 				return new Promise(resolve => {
