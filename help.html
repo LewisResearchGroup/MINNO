@@ -195,7 +195,7 @@
 						<a class="offset" name="databases"></a> 
 						<strong2>Databases:</strong2>
 						<br><br>
-						MINNO utilize two biological databases: Kyoto Encyclopedia of Genes and Genomes (KEGG) and National Center for Biotechnology Information- Reference Sequence (NCBI-RefSeq) database.
+						MINNO utilizes two biological databases: Kyoto Encyclopedia of Genes and Genomes (KEGG) and National Center for Biotechnology Information- Reference Sequence (NCBI-RefSeq) database.
 						
 						<ol>
 							<li><a href="https://www.kegg.jp/" target="_blank"><span><strong>KEGG-Database:</strong></span></a> Kyoto Encyclopedia of Genes and Genomes (KEGG) is a knowledge base for systematic analysis of gene functions, linking genomic information with higher order functional information stored in the PATHWAY database, which contains graphical representations of cellular processes, such as metabolism, membrane transport, signal transduction and cell cycle. MINNO comes with 66 base metabolic pathways from the KEGG database, which cover all primary metabolic pathways and can be combined together to build any possible large-scale metabolic network as needed.
@@ -219,6 +219,23 @@
 							<a class="offset" name="basic"></a>
 							<strong3>Basic:</strong3>
 							<br><br>
+							<ul>
+								 
+								 <li><strong>Exchange data visualization to the network:</strong> 
+									<ol>
+										<br>
+										<img src="images/Screenshot from 2023-12-14 10-23-05.png" width=750 /> <br><br>
+										<li>
+										Users can use MINNO to show exchange flux data. Here is a sample network file <a href="Arginine_biosynthesis_pathway2.json" download> Download sample network file</a> and <a href=2022_07_15_MINNO_Supplemental_Sample_Data3.csv" download> Download sample data file</a>.
+										</li>
+										<img src="images/Screenshot from 2023-12-14 10-23-25.png" width=750 /> <br><br>
+										<li>
+										Users can show the exchange fluxes by adding reactions with the metabolite name and suffix with outflux and influx to distinguish between influx and outflux. This value can then be normalized from given choices of the normalized options. Note that the type of these nodes will be 'link' as can be seen in the data file. More types can be created such as 'extra' i.e., extracellular or 'intra' i.e., intracellular for various experimental measurements in a given dataset. But remember to assign the type of nodes when you load the network file. By default, the type of metabolite nodes is 'M'.    
+										</li>
+									</ol>
+								 </li>
+								
+							</ul>
 							
 							<ul>
 								 
