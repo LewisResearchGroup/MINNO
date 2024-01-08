@@ -1,6 +1,5 @@
 Arginine biosynthesis.json
 alpha-Linolenic acid metabolism.json
-Alanine, aspartate and glutamate metabolism.json
 Arginine and proline metabolism.json
 Ascorbate and aldarate metabolism.json
 Benzoate degradation.json
@@ -64,3 +63,4 @@ Valine, leucine and isoleucine biosynthesis.json
 Valine, leucine and isoleucine degradation.json
 Vitamin B6 metabolism.json
 Amino sugar and nucleotide sugar metabolism.json
+Alanine, aspartate and glutamate metabolism.json
