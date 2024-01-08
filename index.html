@@ -1753,6 +1753,7 @@
 		'images/image13.png',
 		'images/image13.png',
 		'images/image13.png',
+		'images/image13.png',
 		'images/image13.png'
 		];
 
@@ -1810,7 +1811,7 @@
 						
 						console.log('Second function');
 						resolve();
-						}, 90000); // Simulating an asynchronous operation with a timeout
+						}, 180000); // Simulating an asynchronous operation with a timeout
 					});
 				}
 				
@@ -1825,37 +1826,8 @@
 			
 			addButtonToDiv();
 
-			function thirdFunction_tutorial() {
-				return new Promise(resolve => {
-					setTimeout(() => {
-					
-					//addButtonToDiv();
-					$("#typing-text").fadeOut(500, function() {
-					  // fadeOut complete. Remove the loading div
-					$("#typing-text").remove(); //makes page more lightweight 
-					});
-					
-					console.log('Third function');
-					resolve();
-					}, 5500); // Simulating an asynchronous operation with a timeout
-				});
-			}
+			var timestep = 40;
 
-			function fourthFunction_tutorial() {
-				return new Promise(resolve => {
-					setTimeout(() => {
-					
-					$("#myDiv_tutorial").fadeOut(500, function() {
-					  // fadeOut complete. Remove the loading div
-					$("#myDiv_tutorial").remove(); //makes page more lightweight 
-					});
-					
-					console.log('Third function');
-					resolve();
-					}, 110000); // Simulating an asynchronous operation with a timeout
-				});
-			}
-		
 			function firstFunction_tutorial() {
 				return new Promise(resolve => {
 					setTimeout(() => {
@@ -1923,7 +1895,7 @@
 								// Stop the interval once all characters are typed
 								clearInterval(typingInterval1);
 							  }
-							}, 35); // Adjust the interval time as needed
+							}, timestep); // Adjust the interval time as needed
 						}
 						else if(picIndex==3){
 							$("#smallDiv1").fadeOut(50, function() {
@@ -1975,7 +1947,7 @@
 								// Stop the interval once all characters are typed
 								clearInterval(typingInterval1);
 							  }
-							}, 35); // Adjust the interval time as needed
+							}, timestep); // Adjust the interval time as needed
 						}
 						else if(picIndex==4){
 							$("#smallDiv2").fadeOut(50, function() {
@@ -2027,7 +1999,7 @@
 								// Stop the interval once all characters are typed
 								clearInterval(typingInterval1);
 							  }
-							}, 35); // Adjust the interval time as needed
+							}, timestep); // Adjust the interval time as needed
 							
 						}
 						else if(picIndex==5){
@@ -2076,7 +2048,7 @@
 								// Stop the interval once all characters are typed
 								clearInterval(typingInterval2);
 							  }
-							}, 35); // Adjust the interval time as needed
+							}, timestep); // Adjust the interval time as needed
 						}
 						else if(picIndex==6){
 							$("#smallDiv21").fadeOut(50, function() {
@@ -2132,7 +2104,7 @@
 								// Stop the interval once all characters are typed
 								clearInterval(typingInterval1);
 							  }
-							}, 35); // Adjust the interval time as needed
+							}, timestep); // Adjust the interval time as needed
 							
 						}
 						else if(picIndex==7){
@@ -2185,7 +2157,7 @@
 								// Stop the interval once all characters are typed
 								clearInterval(typingInterval1);
 							  }
-							}, 35); // Adjust the interval time as needed
+							}, timestep); // Adjust the interval time as needed
 							
 						}
 						else if(picIndex==8){
@@ -2238,7 +2210,7 @@
 								// Stop the interval once all characters are typed
 								clearInterval(typingInterval1);
 							  }
-							}, 35); // Adjust the interval time as needed
+							}, timestep); // Adjust the interval time as needed
 						}
 						else if(picIndex==9){
 							$("#smallDiv8").fadeOut(50, function() {
@@ -2290,7 +2262,7 @@
 								// Stop the interval once all characters are typed
 								clearInterval(typingInterval1);
 							  }
-							}, 35); // Adjust the interval time as needed
+							}, timestep); // Adjust the interval time as needed
 						}
 						else if(picIndex==10){
 							$("#smallDiv9").fadeOut(50, function() {
@@ -2342,7 +2314,7 @@
 								// Stop the interval once all characters are typed
 								clearInterval(typingInterval1);
 							  }
-							}, 35); // Adjust the interval time as needed
+							}, timestep); // Adjust the interval time as needed
 						}
 						else if(picIndex==11){
 							$("#smallDiv10").fadeOut(50, function() {
@@ -2394,7 +2366,7 @@
 								// Stop the interval once all characters are typed
 								clearInterval(typingInterval1);
 							  }
-							}, 35); // Adjust the interval time as needed
+							}, timestep); // Adjust the interval time as needed
 						}
 						else if(picIndex==12){
 							$("#smallDiv11").fadeOut(50, function() {
@@ -2446,7 +2418,7 @@
 								// Stop the interval once all characters are typed
 								clearInterval(typingInterval1);
 							  }
-							}, 35); // Adjust the interval time as needed
+							}, timestep); // Adjust the interval time as needed
 						}
 						else if(picIndex==13){
 							$("#smallDiv12").fadeOut(50, function() {
@@ -2498,7 +2470,7 @@
 								// Stop the interval once all characters are typed
 								clearInterval(typingInterval1);
 							  }
-							}, 35); // Adjust the interval time as needed
+							}, timestep); // Adjust the interval time as needed
 						}
 						else if(picIndex==15){
 							$("#smallDiv13").fadeOut(50, function() {
@@ -2550,7 +2522,7 @@
 								// Stop the interval once all characters are typed
 								clearInterval(typingInterval1);
 							  }
-							}, 35); // Adjust the interval time as needed
+							}, timestep); // Adjust the interval time as needed
 						}
 						else if(picIndex==16){
 							$("#smallDiv15").fadeOut(50, function() {
@@ -2602,7 +2574,7 @@
 								// Stop the interval once all characters are typed
 								clearInterval(typingInterval1);
 							  }
-							}, 35); // Adjust the interval time as needed
+							}, timestep); // Adjust the interval time as needed
 						}
 						else if(picIndex==21){
 							$("#smallDiv16").fadeOut(50, function() {
@@ -2627,7 +2599,7 @@
 					}, 50); // Simulating an asynchronous operation with a timeout
 				});
 			}
-			
+
 			function secondFunction_tutorial() {
 				return new Promise(resolve => {
 					setTimeout(() => {
@@ -2672,11 +2644,42 @@
 							// Stop the interval once all characters are typed
 							clearInterval(typingInterval);
 						}
-					}, 40); // Adjust the interval time as needed
+					}, timestep); // Adjust the interval time as needed
 				
 				console.log('Second function');
 					resolve();
 					}, 50); // Simulating an asynchronous operation with a timeout
+				});
+			}
+
+			function thirdFunction_tutorial() {
+				return new Promise(resolve => {
+					setTimeout(() => {
+					
+					//addButtonToDiv();
+					$("#typing-text").fadeOut(500, function() {
+					  // fadeOut complete. Remove the loading div
+					$("#typing-text").remove(); //makes page more lightweight 
+					});
+					
+					console.log('Third function');
+					resolve();
+					}, 8500); // Simulating an asynchronous operation with a timeout
+				});
+			}
+
+			function fourthFunction_tutorial() {
+				return new Promise(resolve => {
+					setTimeout(() => {
+					
+					$("#myDiv_tutorial").fadeOut(500, function() {
+					  // fadeOut complete. Remove the loading div
+					$("#myDiv_tutorial").remove(); //makes page more lightweight 
+					});
+					
+					console.log('Third function');
+					resolve();
+					}, 190000); // Simulating an asynchronous operation with a timeout
 				});
 			}
 			
