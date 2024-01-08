@@ -2591,7 +2591,7 @@
 					
 					// Change the background image every 5000 milliseconds (5 seconds)
 					if(picIndex<imageUrls.length-1){
-						setInterval(changeBackgroundImage, 6000);
+						setInterval(changeBackgroundImage, 10000);
 					}
 					
 					console.log('First function');
@@ -2656,7 +2656,6 @@
 				return new Promise(resolve => {
 					setTimeout(() => {
 					
-					//addButtonToDiv();
 					$("#typing-text").fadeOut(500, function() {
 					  // fadeOut complete. Remove the loading div
 					$("#typing-text").remove(); //makes page more lightweight 
