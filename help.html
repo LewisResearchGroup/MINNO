@@ -217,27 +217,25 @@
 						
 							<strong2>Tutorial:</strong2>
 							<br><br>
-							This user manual assumes users have already gone through the tutorial that appears on the opening page of MINNO. The below instructions provide guidelines for some of the additional features that MINNO provides to the users.  <br><br>
+							The below instructions provide guidelines for various features that MINNO provides to the users.  <br><br>
 							
 							<a class="offset" name="basic"></a>
 							<strong3>Basic:</strong3>
 							<br><br>
 							<ul>
-								
-									<img src="images/image1.png" width=750 /> <br><br>
-									<img src="images/image2.png" width=750 /> <br><br>
-									<img src="images/image3.png" width=750 /> <br><br>
-									<img src="images/image4.png" width=750 /> <br><br>
-									<img src="images/image5.png" width=750 /> <br><br>
-									<img src="images/image6.png" width=750 /> <br><br>
-									<img src="images/image7.png" width=750 /> <br><br>
-									<img src="images/image8.png" width=750 /> <br><br>
-									<img src="images/image9.png" width=750 /> <br><br>
-									<img src="images/image10.png" width=750 /> <br><br>
-									<img src="images/image11.png" width=750 /> <br><br>
-									<img src="images/image12.png" width=750 /> <br><br>
-									<img src="images/image13.png" width=750 /> <br><br>
-								
+								<img src="images/image1.png" width=750 /> <br><br>
+								<img src="images/image2.png" width=750 /> <br><br>
+								<img src="images/image3.png" width=750 /> <br><br>
+								<img src="images/image4.png" width=750 /> <br><br>
+								<img src="images/image5.png" width=750 /> <br><br>
+								<img src="images/image6.png" width=750 /> <br><br>
+								<img src="images/image7.png" width=750 /> <br><br>
+								<img src="images/image8.png" width=750 /> <br><br>
+								<img src="images/image9.png" width=750 /> <br><br>
+								<img src="images/image10.png" width=750 /> <br><br>
+								<img src="images/image11.png" width=750 /> <br><br>
+								<img src="images/image12.png" width=750 /> <br><br>
+								<img src="images/image13.png" width=750 /> <br><br>
 							</ul>
 
 							<br><br>
@@ -246,20 +244,18 @@
 							<br><br>
 
 							<ul>
-								<li>
-									<ol>
-										<li> Boundary fluxes or exchange fluxes across the cell membrane of the cell. The flux profile provides crucial cellular dynamics manifesting the behavior under certain conditions or perturbations. <br>
-										<img src="images/Screenshot from 2024-01-05 18-35-08.png" width=750 /> <br><br>
-										</li>
-										<li>
-										Users can use MINNO to show exchange flux data. Here is a sample network file <a href="Arginine_biosynthesis_pathway2.json" download> Download sample network file</a> and <a href="2022_07_15_MINNO_Supplemental_Sample_Data3.csv" download> Download sample data file</a>.
-										</li>
-										<img src="images/Screenshot from 2024-01-05 18-35-16.png" width=750 /> <br><br>
-										<li>
-										Users can show the exchange fluxes by adding reactions with the metabolite name and suffix with outflux and influx to distinguish between influx and outflux. These values can then be normalized from the given choices of the normalized options. Note that the type of these nodes will be 'link' as can be seen in the data file. More types can be created such as 'extra' i.e., extracellular or 'intra' i.e., intracellular for various experimental measurements in a given dataset. But remember to assign the type of nodes when you load the network file. By default, the type of metabolite nodes is 'M'.    
-										</li>
-									</ol>
-								 </li>
+								<ol>
+									<li> Boundary fluxes or exchange fluxes across the cell membrane of the cell. The flux profile provides crucial cellular dynamics manifesting the behavior under certain conditions or perturbations. <br>
+									<img src="images/Screenshot from 2024-01-05 18-35-08.png" width=750 /> <br><br>
+									</li>
+									<li>
+									Users can use MINNO to show exchange flux data. Here is a sample network file <a href="Arginine_biosynthesis_pathway2.json" download> Download sample network file</a> and <a href="2022_07_15_MINNO_Supplemental_Sample_Data3.csv" download> Download sample data file</a>.
+									</li>
+									<img src="images/Screenshot from 2024-01-05 18-35-16.png" width=750 /> <br><br>
+									<li>
+									Users can display the exchange fluxes by adding reactions and renaming link nodes, similar to those in the file. For simplicity, one can choose to give the metabolite name a suffix of 'outflux' and 'influx' to distinguish between influx and outflux. These values can then be normalized from the provided choices of normalization options. Note that, by default, the flux data will be shown by changing the thickness of the link with the name given in the data file. Within the data file, the 'Group' of such entries will be 'link'. Users can have more groups, such as 'extra' (extracellular) or 'intra' (intracellular), for various experimental measurements in a given dataset. Also, note that, by default, metabolites have the type 'M'. If the data file contains groups other than 'M' or 'link', users need to assign the group to specific nodes of interest. To do this, users must select nodes first and then click on a specific category in the 'Assign Group menu'.  
+									</li>
+								</ol>
 							</ul>
 
 							<br><br>
@@ -268,31 +264,29 @@
 							<br><br>
 							
 							<ul>
-								 <li>
-									<ol>
-										<br>
-										<img src="images/Screenshot from 2023-12-14 10-23-05.png" width=750 /> <br><br>
-										<li>
-										Users can adjust the font size of the labels by selecting the nodes and then selecting the font menu option and sliding the smaller bar at the bottom. The numerical range on both sides can go up to +/-1000. 
-										</li>
-										<img src="images/Screenshot from 2023-12-14 10-23-25.png" width=750 /> <br><br>
-										<li>
-										Users can delete unwanted nodes in the network by first selecting specific nodes and then right-click on the screen for the menu and delete->only selected. 
-										</li>
-										<img src="images/Screenshot from 2023-12-14 10-24-39.png" width=750 /> <br><br>
-										<li>
-										Users can also make circular arcs by using the make arc function. First, select only nodes (both metabolite nodes and reactions nodes) that you want to be connected using arc. Then go to the menu under Geometric operations->Make arc.
-										</li>
-										<img src="images/Screenshot from 2023-12-14 10-25-34.png" width=750 /> <br><br>
-										<li>
-										Users can add a rectangle to represent a cell membrane or wall. This option appears in the insert->rectangle. The newly added rectangle will be added to the top of the network which will hide the network. To push it back, go to the Geometric operations->Layer->Push to back. This will push the rectangle behind the network. Additional attributes of the rectangle can be adjusted such as the roundness of corners, border thickness, etc from the attribute menu above the color scale menu. To change the background color, first select the rectangle. The selected rectangle will look green with two red circles appearing diagonally. These circles allow the user to adjust the size of the rectangle. Once the rectangle is selected, slide the black strip on the color scale. Users can choose colors from various color scales in the color scales menu at the bottom.
-										</li>
-										<img src="images/Screenshot from 2023-12-14 10-27-17.png" width=750 /> <br><br>
-										<li>
-										This is the final network visualization of the data looks like.
-										</li>
-									</ol>
-								 </li>
+								<ol>
+									<br>
+									<img src="images/Screenshot from 2023-12-14 10-23-05.png" width=750 /> <br><br>
+									<li>
+									Users can adjust the font size of the labels by selecting the nodes and then selecting the font menu option and sliding the smaller bar at the bottom. The numerical range on both sides can go up to +/-1000. 
+									</li>
+									<img src="images/Screenshot from 2023-12-14 10-23-25.png" width=750 /> <br><br>
+									<li>
+									Users can delete unwanted nodes in the network by first selecting specific nodes and then right-click on the screen for the menu and delete->only selected. 
+									</li>
+									<img src="images/Screenshot from 2023-12-14 10-24-39.png" width=750 /> <br><br>
+									<li>
+									Users can also make circular arcs by using the make arc function. First, select only nodes (both metabolite nodes and reactions nodes) that you want to be connected using arc. Then go to the menu under Geometric operations->Make arc.
+									</li>
+									<img src="images/Screenshot from 2023-12-14 10-25-34.png" width=750 /> <br><br>
+									<li>
+									Users can add a rectangle to represent a cell membrane or wall. This option appears in the insert->rectangle. The newly added rectangle will be added to the top of the network which will hide the network. To push it back, go to the Geometric operations->Layer->Push to back. This will push the rectangle behind the network. Additional attributes of the rectangle can be adjusted such as the roundness of corners, border thickness, etc from the attribute menu above the color scale menu. To change the background color, first select the rectangle. The selected rectangle will look green with two red circles appearing diagonally. These circles allow the user to adjust the size of the rectangle. Once the rectangle is selected, slide the black strip on the color scale. Users can choose colors from various color scales in the color scales menu at the bottom.
+									</li>
+									<img src="images/Screenshot from 2023-12-14 10-27-17.png" width=750 /> <br><br>
+									<li>
+									This is the final network visualization of the data looks like.
+									</li>
+								</ol>
 							</ul>
 						</font>
 				</p>
