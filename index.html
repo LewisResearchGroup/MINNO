@@ -2545,8 +2545,8 @@
 						console.log(uploadFile)
 						reader.readAsText(uploadFile);
 						reader.onload = function(event){
-							var text = event.target.result,
-							var drop_menu_1_data = []
+							var text = event.target.result;
+							var drop_menu_1_data = [];
 							drop_menu_1_data.push({'label':'Select Species','value':'Select Species'})
 							
 							text.split("\n").forEach(function(str){
