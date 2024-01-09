@@ -1,0 +1,12 @@
+bacteria/Acetobacter_aceti
+bacteria/Acetobacter_ascendens
+bacteria/Acetobacter_cerevisiae
+bacteria/Acetobacter_cibinongensis
+bacteria/Acetobacter_conturbans
+bacteria/Acetobacter_estunensis
+archaea/ANME-2_cluster_archaeon_HR1
+archaea/Acidianus_ambivalens
+archaea/Acidilobus_saccharovorans
+archaea/Acidiplasma_aeolicum
+archaea/Aciduliprofundum_sp._MAR08-339
+archaea/Aeropyrum_camini
