@@ -2542,7 +2542,7 @@
 					if (window.File && window.FileReader && window.FileList && window.Blob){
 						var uploadFile = this.files[0];
 						var reader = new FileReader();
-						console.log(uploadFile)
+						//console.log(uploadFile)
 						reader.readAsText(uploadFile);
 						reader.onload = function(event){
 							var text = event.target.result;
@@ -2580,8 +2580,7 @@
 							hiddenDiv1.style.display = 'block';
 							var hiddenDiv2 = document.getElementById('species_loading_h1_id');
 							hiddenDiv2.style.display = 'block';
-							
-							//ncbi_category = 
+
 						};
 						reader.onerror = function(){ alert('Unable to read ' + uploadFile.fileName); };
 								
@@ -2724,7 +2723,7 @@
 							
 							var species = value.concat('/')
 							var ncbi_cat = ncbi_category.concat('/')
-							console.log(value)
+							//console.log(value)
 							console.log('ncbi_category',ncbi_category)
 							var url; //= prefix_url.concat(ncbi_cat).concat(species).concat('representative/')
 							
