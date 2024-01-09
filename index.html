@@ -784,8 +784,8 @@
 			-->
 			<select id="show_names" multiple="multiple"></select>
 			<select id="data_analysis"></select>
-			<output id="para_slider_output">0</output>
-				<input type="range" min="0" max="5"  value="1.0" step="0.1" class="slider" id = "para_slider" oninput="d3.select('#para_slider_output').text(value)">
+			<output id="para_slider_output">2</output>
+				<input type="range" min="0" max="5"  value="2.0" step="0.1" class="slider" id = "para_slider" oninput="d3.select('#para_slider_output').text(value)">
 			<label>
 			<!--	
 			<input  type="checkbox" class="tgl tgl-skewed" id="dataset" checked/>
@@ -5984,7 +5984,7 @@
 			var ab_data = [];
 			var Gval,Abval,tval,timedata;
 			var base_val = 10.0;
-			var scaling_val = 1.0;
+			var scaling_val = 2.0;
 			
 			var on_gpdata_changed = function(){
 				if(dataset==true){
