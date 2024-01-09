@@ -2337,20 +2337,6 @@
 		// Call the async function
 		callFunctionsInSequence_kegg_gene();
 
-		d3.select("#species_file").on("change", function(){
-			if (window.File && window.FileReader && window.FileList && window.Blob){
-				var uploadFile = this.files[0];
-				var reader = new FileReader();
-				console.log(uploadFile)
-				reader.readAsText(uploadFile);
-				reader.onload = function(event){
-				}
-						
-			}
-			else{
-				alert("Your browser won't let you save this graph -- try upgrading your browser to IE 10+ or Chrome or Firefox.")
-			};
-		});
 		
 		function addanotherdivloader3(){
 			
@@ -2551,6 +2537,31 @@
 					hiddenDiv2.style.display = 'block';
 					ncbi_category = buttonValue
 				}
+
+				d3.select("#species_file").on("change", function(){
+					if (window.File && window.FileReader && window.FileList && window.Blob){
+						var uploadFile = this.files[0];
+						var reader = new FileReader();
+						console.log(uploadFile)
+						reader.readAsText(uploadFile);
+						reader.onload = function(event){
+							var drop_menu_1_data = []
+							drop_menu_1_data.push({'label':'Select Species','value':'Select Species'})
+							
+							text.split("\n").forEach(function(str){
+								let list = str.split("/")
+								drop_menu_1_data.push({'label':list[1],'value':list[1]})
+							});
+	
+							$('#drop_menu_1').multiselect('dataprovider', drop_menu_1_data);
+							//ncbi_category = 
+						}
+								
+					}
+					else{
+						alert("Your browser won't let you save this graph -- try upgrading your browser to IE 10+ or Chrome or Firefox.")
+					};
+				});
 
 				function hideLoadingIcon() {
 					var loadingIcon = document.getElementById("speciesloadingIcon");
