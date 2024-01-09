@@ -2350,6 +2350,7 @@
 				//var myDiv = document.createElement('div');
 				var button1 = document.createElement('button');
 				var button2 = document.createElement('button');
+				var button3 = document.createElement('button');
 				
 				//var myDiv = document.getElementById('myDiv_loadfiles');	
 				//myDiv.classList.add('btn_div_container');
@@ -2442,6 +2443,53 @@
 					
 				}
 
+				function ncbi_archea_action(ncbi_btn){
+					// Retrieve the button's value and log it to the console
+					var buttonValue = ncbi_btn.value;
+
+					var logFileText1 = async file => {
+						const response = await fetch(file)
+						const text = await response.text()
+						
+						var drop_menu_1_data = []
+						drop_menu_1_data.push({'label':'Select Species','value':'Select Species'})
+						
+						text.split("\n").forEach(function(str){
+							let list = str.split("/")
+							drop_menu_1_data.push({'label':list[0],'value':list[0]})
+						});
+
+						$('#drop_menu_1').multiselect('dataprovider', drop_menu_1_data);
+					}
+					
+					logFileText1('Edited_ortholog_networks/archea_ncbi_list_4_minno.txt')
+					
+					var logFileText2 = async file => {
+						var KEGG_models = [];
+						const response = await fetch(file)
+						const text = await response.text()
+						var childNodes = [];
+						//childNodes.push({'label':'Organism specific list of pathways','value':'org_pathway_lst'})
+						text.split("\n").forEach(function(str){
+							let list = str.split(".json")
+							childNodes.push({'label':list[0],'value':list[0]})
+						});
+						KEGG_models.push({'label':'Selected ortholog maps','children':childNodes})
+						//console.log('KEGG_models',KEGG_models)
+						$('#KEGG_orth_models').multiselect('dataprovider', KEGG_models); 
+						//console.log("KEGG_models",KEGG_models)
+
+					}
+
+					logFileText2('Edited_ortholog_networks/ortholog_pathway_list.txt')
+				  
+					var hiddenDiv1 = document.getElementById('speciesloadingIcon');
+					hiddenDiv1.style.display = 'block';
+					var hiddenDiv2 = document.getElementById('species_loading_h1_id');
+					hiddenDiv2.style.display = 'block';
+					ncbi_category = buttonValue
+				}
+
 				function ncbi_bacteria_action(ncbi_btn){
 					// Retrieve the button's value and log it to the console
 					var buttonValue = ncbi_btn.value;
@@ -2489,6 +2537,55 @@
 					ncbi_category = buttonValue
 				}
 
+				function ncbi_species_list_action(ncbi_btn){
+					// Retrieve the button's value and log it to the console
+
+					//ncbi_category = 
+					var buttonValue = ncbi_btn.value;
+
+					var logFileText1 = async file => {
+						const response = await fetch(file)
+						const text = await response.text()
+						
+						var drop_menu_1_data = []
+						drop_menu_1_data.push({'label':'Select Species','value':'Select Species'})
+						
+						text.split("\n").forEach(function(str){
+							let list = str.split("/")
+							drop_menu_1_data.push({'label':list[0],'value':list[0]})
+						});
+
+						$('#drop_menu_1').multiselect('dataprovider', drop_menu_1_data);
+					}
+					
+					logFileText1('Edited_ortholog_networks/bacteria_ncbi_list_4_minno.txt')
+					
+					var logFileText2 = async file => {
+						var KEGG_models = [];
+						const response = await fetch(file)
+						const text = await response.text()
+						var childNodes = [];
+						//childNodes.push({'label':'Organism specific list of pathways','value':'org_pathway_lst'})
+						text.split("\n").forEach(function(str){
+							let list = str.split(".json")
+							childNodes.push({'label':list[0],'value':list[0]})
+						});
+						KEGG_models.push({'label':'Selected ortholog maps','children':childNodes})
+						//console.log('KEGG_models',KEGG_models)
+						$('#KEGG_orth_models').multiselect('dataprovider', KEGG_models); 
+						//console.log("KEGG_models",KEGG_models)
+
+					}
+
+					logFileText2('Edited_ortholog_networks/ortholog_pathway_list.txt')
+				  
+					var hiddenDiv1 = document.getElementById('speciesloadingIcon');
+					hiddenDiv1.style.display = 'block';
+					var hiddenDiv2 = document.getElementById('species_loading_h1_id');
+					hiddenDiv2.style.display = 'block';
+					ncbi_category = buttonValue
+				}
+			
 				function hideLoadingIcon() {
 					var loadingIcon = document.getElementById("speciesloadingIcon");
 					var loadingIcon2 = document.getElementById("species_loading_h1_id");
@@ -2524,10 +2621,11 @@
 						button1.value = 'archaea'; // Set a specific ID for the button if needed
 						button1.addEventListener('click', function() {									
 							let ncbi_btn1 = document.getElementById('Archaea');
-							ncbi_button_action(ncbi_btn1);
+							//ncbi_button_action(ncbi_btn1);
+							ncbi_archea_action(ncbi_btn1);
 							//console.log('ncbi_btn1',ncbi_btn1)
 							// Set a timeout (e.g., 3000 milliseconds) to hide the loading icon
-							setTimeout(hideLoadingIcon, 10000); // Adjust the duration as needed
+							setTimeout(hideLoadingIcon, 5000); // Adjust the duration as needed
 						});
 						
 						button2.textContent = 'Bacteria';
@@ -2538,7 +2636,18 @@
 							let ncbi_btn2 = document.getElementById('Bacteria');
 							ncbi_bacteria_action(ncbi_btn2);
 							// Set a timeout (e.g., 3000 milliseconds) to hide the loading icon
-							setTimeout(hideLoadingIcon, 10000); // Adjust the duration as needed
+							setTimeout(hideLoadingIcon, 5000); // Adjust the duration as needed
+						});
+
+						button3.textContent = 'Load list of species file';
+						button3.classList.add('default-btn');
+						button3.id = 'load_species'; // Set a specific ID for the button if needed
+						button3.value = 'load_species'; // Set a specific ID for the button if needed
+						button3.addEventListener('click', function() {
+							//let ncbi_btn2 = document.getElementById('Bacteria');
+							ncbi_species_list_action();
+							// Set a timeout (e.g., 3000 milliseconds) to hide the loading icon
+							setTimeout(hideLoadingIcon, 5000); // Adjust the duration as needed
 						});
 						
 						console.log('First function');
@@ -2552,7 +2661,7 @@
 						setTimeout(() => {
 						myDiv.appendChild(button1);
 						myDiv.appendChild(button2);
-						//myDiv.appendChild(button3);
+						myDiv.appendChild(button3);
 						container.appendChild(myDiv);
 						
 						console.log('Second function');
