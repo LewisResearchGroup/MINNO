@@ -2551,7 +2551,8 @@
 							
 							text.split("\n").forEach(function(str){
 								let list = str.split("/")
-								drop_menu_1_data.push({'label':list[1],'value':list[1]})
+								//drop_menu_1_data.push({'label':list[1],'value':list[1]})
+								drop_menu_1_data.push({'label':str,'value':str})
 							});
 	
 							$('#drop_menu_1').multiselect('dataprovider', drop_menu_1_data);
@@ -2724,8 +2725,15 @@
 							var species = value.concat('/')
 							var ncbi_cat = ncbi_category.concat('/')
 							console.log(value)
-							console.log(ncbi_category)
-							var url = prefix_url.concat(ncbi_cat).concat(species).concat('representative/')
+							console.log('ncbi_category',ncbi_category)
+							var url; //= prefix_url.concat(ncbi_cat).concat(species).concat('representative/')
+							
+							if(ncbi_category=='undefined'){
+								url = prefix_url.concat(species).concat('representative/')
+							}
+							else{
+								url = prefix_url.concat(ncbi_cat).concat(species).concat('representative/')
+							}
 							//console.log(url)
 							
 							fetch(url)
