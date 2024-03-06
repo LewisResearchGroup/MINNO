@@ -3067,8 +3067,8 @@
 											
 												d_jsonobj["links"].forEach(function(l){
 													if(rxnids.includes(l.kegg_id)){
-														meta_ids.push(l.source)
-														meta_ids.push(l.target)
+														meta_ids.push(l.source + "_" + fileno)
+														meta_ids.push(l.target + "_" + fileno)
 													}
 												});
 											
