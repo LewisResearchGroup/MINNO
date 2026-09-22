@@ -2214,7 +2214,7 @@
 		var species_genes_list = [];
 
 		function ncbi_gene_annotation_url(url){
-			
+			console.log('URL->',url)
 			fetch(url)  // Replace 'file.gz' with the actual path to your Gzip file
 			  .then(response => {
 				if (!response.ok) {
