@@ -4118,11 +4118,11 @@
 						pathways.forEach(function(map){
 							//console.log(map)
 							if(map=='org_pathway_lst'){
-								let url = "http://rest.kegg.jp/list/pathway/" + org
+								let url = "https://rest.kegg.jp/list/pathway/" + org
 								window.open(url, '_blank').focus();
 							}
 							else{
-								let url = "http://rest.kegg.jp/get/" + org + map.slice(-5) + "/kgml"
+								let url = "https://rest.kegg.jp/get/" + org + map.slice(-5) + "/kgml"
 								//window.open("http://rest.kegg.jp/get/hsa00010/kgml", '_blank').focus();
 								window.open(url, '_blank').focus();
 							}
@@ -4239,11 +4239,11 @@
 						pathways.forEach(function(map){
 							//console.log(map)
 							if(map=='org_pathway_lst'){
-								let url = "http://rest.kegg.jp/list/pathway/" + org
+								let url = "https://rest.kegg.jp/list/pathway/" + org
 								window.open(url, '_blank').focus();
 							}
 							else{
-								let url = "http://rest.kegg.jp/get/" + org + map.slice(-5) + "/kgml"
+								let url = "https://rest.kegg.jp/get/" + org + map.slice(-5) + "/kgml"
 								//window.open("http://rest.kegg.jp/get/hsa00010/kgml", '_blank').focus();
 								window.open(url, '_blank').focus();
 							}
